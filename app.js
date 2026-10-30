@@ -128,16 +128,27 @@
     "leroyseafood": "leroyseafood"
   };
 
-  const rawFacilities = [
-    ...(window.FACILITIES_EXPANSION || []),
-    ...(window.FACILITIES_EXPANSION_PART2 || []),
-    ...(window.FACILITIES_EXPANSION_PART3 || []),
-    ...(window.FACILITIES_EXPANSION_PART4 || []),
-    ...(window.FACILITIES_EXPANSION_PART5 || []),
-    ...(window.FACILITIES_EXPANSION_PART6 || []),
-    ...(window.FACILITIES_EXPANSION_PART7 || []),
-    ...(window.FACILITIES_EXPANSION_PART8 || [])
+  // Auto-discover all FACILITIES_EXPANSION* arrays + window.EXTRA_FACILITIES so multiple agents can add files without editing app.js
+  const discoveredFacilityArrays = Object.keys(window)
+    .filter((k) => k === "FACILITIES_EXPANSION" || k.startsWith("FACILITIES_EXPANSION_"))
+    .sort()
+    .map((k) => window[k] || []);
+
+  const combinedRawFacilities = [
+    ...discoveredFacilityArrays.flat(),
+    ...(window.EXTRA_FACILITIES || [])
   ];
+
+  // Deduplicate by id or normalized (parentName + name)
+  const seenFacilityKeys = new Set();
+  const rawFacilities = combinedRawFacilities.filter((f) => {
+    if (!f || !f.name || typeof f.lat !== "number" || typeof f.lng !== "number") return false;
+    const key = `${normName(f.parentName)}::${normName(f.name)}`;
+    if (seenFacilityKeys.has(key) || (f.id && seenFacilityKeys.has(f.id))) return false;
+    seenFacilityKeys.add(key);
+    if (f.id) seenFacilityKeys.add(f.id);
+    return true;
+  });
 
   const facilities = rawFacilities.map((f) => {
     const nParent = normName(f.parentName);
