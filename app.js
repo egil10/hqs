@@ -127,6 +127,12 @@
     const unified = Array.from(byKey.values()).sort((a, b) => b.marketValue - a.marketValue);
     unified.forEach((c, idx) => {
       c.rank = idx + 1;
+      c.ownershipPercent = Number(c.ownershipPercent) || 0;
+      c.impliedMarketCap =
+        c.ownershipPercent > 0.05
+          ? Math.round(c.marketValue / (c.ownershipPercent / 100))
+          : Math.round(c.marketValue * 25);
+      c.quote = (window.MARKET_QUOTES && window.MARKET_QUOTES[normName(c.name)]) || null;
     });
     return unified;
   }
@@ -157,10 +163,29 @@
     "leroyseafood": "leroyseafood"
   };
 
-  // --- STAGE 2: Progressive Facility Additions Loader (Loaded After HQs Render) ---
+  // --- STAGE 2: Progressive Facility & Quote Loader (Loaded After HQs Render) ---
   let facilities = [];
+  let quotesAttached = false;
+
+  function attachMarketQuotes() {
+    if (!window.MARKET_QUOTES) return false;
+    let newlyAttached = false;
+    companies.forEach((c) => {
+      if (!c.quote) {
+        const q = window.MARKET_QUOTES[normName(c.name)];
+        if (q) {
+          c.quote = q;
+          newlyAttached = true;
+        }
+      }
+    });
+    if (newlyAttached) quotesAttached = true;
+    return newlyAttached;
+  }
 
   function ingestFacilityAdditions() {
+    const newQuotes = attachMarketQuotes();
+
     const discoveredFacilityArrays = Object.keys(window)
       .filter((k) => k === "FACILITIES_EXPANSION" || k.startsWith("FACILITIES_EXPANSION_"))
       .sort()
@@ -181,28 +206,34 @@
       return true;
     });
 
-    if (rawFacilities.length === facilities.length) return;
+    if (rawFacilities.length === facilities.length && !newQuotes) return;
 
-    facilities = rawFacilities.map((f) => {
-      const nParent = normName(f.parentName);
-      const aliased = PARENT_ALIASES[nParent] || nParent;
-      let parent = companyByNormName[aliased];
-      if (!parent && f.parentRank && companyBySftRank[f.parentRank]) {
-        parent = companyBySftRank[f.parentRank];
-      }
-      if (!parent) {
-        parent = companies.find(
-          (c) => normName(c.name).includes(aliased) || aliased.includes(normName(c.name))
-        );
-      }
-      return {
-        ...f,
-        parentRank: parent ? parent.rank : f.parentRank || 1,
-        parentName: parent ? parent.name : f.parentName
-      };
-    });
+    if (rawFacilities.length !== facilities.length) {
+      facilities = rawFacilities.map((f) => {
+        const nParent = normName(f.parentName);
+        const aliased = PARENT_ALIASES[nParent] || nParent;
+        let parent = companyByNormName[aliased];
+        if (!parent && f.parentRank && companyBySftRank[f.parentRank]) {
+          parent = companyBySftRank[f.parentRank];
+        }
+        if (!parent) {
+          parent = companies.find(
+            (c) => normName(c.name).includes(aliased) || aliased.includes(normName(c.name))
+          );
+        }
+        return {
+          ...f,
+          parentRank: parent ? parent.rank : f.parentRank || 1,
+          parentName: parent ? parent.name : f.parentName
+        };
+      });
+    }
 
     renderAll();
+    if (selectedCompanyRank && !selectedFacilityId) {
+      const c = companyByRank[selectedCompanyRank];
+      if (c) showCompanySheet(c, facilities.filter((f) => f.parentRank === selectedCompanyRank));
+    }
   }
 
   // --- Helpers ---
@@ -210,6 +241,31 @@
     const v = Number(mnok) || 0;
     if (v >= 1000) return `${(v / 1000).toFixed(1)}B`;
     return `${Math.round(v)}M`;
+  }
+
+  function formatPctBadge(val) {
+    if (typeof val !== "number" || isNaN(val)) return "";
+    const sign = val > 0 ? "+" : "";
+    const cls = val >= 0 ? "chg-pos" : "chg-neg";
+    return `<span class="row-chg ${cls}">${sign}${val.toFixed(1)}%</span>`;
+  }
+
+  function renderSparklineSvg(closes, isPos) {
+    if (!Array.isArray(closes) || closes.length < 2) return "";
+    const min = Math.min(...closes);
+    const max = Math.max(...closes);
+    const span = max - min || 1;
+    const w = 64;
+    const h = 18;
+    const pts = closes
+      .map((v, i) => {
+        const x = (i / (closes.length - 1)) * (w - 4) + 2;
+        const y = h - 2 - ((v - min) / span) * (h - 4);
+        return `${x.toFixed(1)},${y.toFixed(1)}`;
+      })
+      .join(" ");
+    const stroke = isPos ? "#16a34a" : "#dc2626";
+    return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" fill="none"><polyline points="${pts}" stroke="${stroke}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
   }
 
   function getCompanyDomain(website) {
@@ -421,13 +477,15 @@
     ];
   }
 
-  // --- Filtering ---
+  // --- Filtering & Sorting ---
   const NORDIC_COUNTRIES = new Set(["Norge", "Sverige", "Finland", "Danmark", "Island", "Færøyene"]);
 
   function getFilteredData() {
     const q = document.getElementById("searchInput").value.trim().toLowerCase();
     const regionVal = document.getElementById("countrySelect").value;
     const typeVal = document.getElementById("typeSelect").value;
+    const sortEl = document.getElementById("sortSelect");
+    const sortVal = sortEl ? sortEl.value : "value_desc";
 
     const facByRank = {};
     facilities.forEach((f) => {
@@ -453,11 +511,13 @@
       }
 
       if (q) {
+        const ticker = c.quote && c.quote.ticker ? c.quote.ticker.toLowerCase() : "";
         const matchC =
           c.name.toLowerCase().includes(q) ||
           c.city.toLowerCase().includes(q) ||
           c.country.toLowerCase().includes(q) ||
-          c.sector.toLowerCase().includes(q);
+          c.sector.toLowerCase().includes(q) ||
+          ticker.includes(q);
         const matchF = cFacs.some(
           (f) =>
             f.name.toLowerCase().includes(q) ||
@@ -467,6 +527,27 @@
         if (!matchC && !matchF) return false;
       }
       return true;
+    });
+
+    filteredCompanies.sort((a, b) => {
+      if (sortVal === "mcap_desc") return (b.impliedMarketCap || 0) - (a.impliedMarketCap || 0);
+      if (sortVal === "own_desc") return (b.ownershipPercent || 0) - (a.ownershipPercent || 0);
+      if (sortVal === "chg1m_desc") {
+        const va = a.quote && typeof a.quote.change1m === "number" ? a.quote.change1m : -999;
+        const vb = b.quote && typeof b.quote.change1m === "number" ? b.quote.change1m : -999;
+        return vb - va;
+      }
+      if (sortVal === "chg1m_asc") {
+        const va = a.quote && typeof a.quote.change1m === "number" ? a.quote.change1m : 999;
+        const vb = b.quote && typeof b.quote.change1m === "number" ? b.quote.change1m : 999;
+        return va - vb;
+      }
+      if (sortVal === "sites_desc") {
+        const diff = (facByRank[b.rank] || []).length - (facByRank[a.rank] || []).length;
+        return diff !== 0 ? diff : b.marketValue - a.marketValue;
+      }
+      if (sortVal === "name_asc") return a.name.localeCompare(b.name, "nb");
+      return b.marketValue - a.marketValue;
     });
 
     const visibleRanks = new Set(filteredCompanies.map((c) => c.rank));
@@ -501,7 +582,11 @@
             return true;
           });
 
-    return { filteredCompanies, filteredFacilities, facByRank };
+    if (sortVal === "name_asc") {
+      filteredFacilities.sort((a, b) => a.name.localeCompare(b.name, "nb"));
+    }
+
+    return { filteredCompanies, filteredFacilities, facByRank, sortVal };
   }
 
   function matchesTypeFilter(f, typeVal) {
@@ -927,14 +1012,14 @@
 
   // --- Main Render ---
   function renderAll() {
-    const { filteredCompanies, filteredFacilities, facByRank } = getFilteredData();
+    const { filteredCompanies, filteredFacilities, facByRank, sortVal } = getFilteredData();
     const activeFacilities = showSites ? filteredFacilities : [];
 
     document.getElementById("headerSummary").textContent = `${filteredCompanies.length} Companies · ${activeFacilities.length} Sites`;
     document.getElementById("tabCountCompanies").textContent = filteredCompanies.length;
     document.getElementById("tabCountFacilities").textContent = activeFacilities.length;
 
-    renderList(filteredCompanies, activeFacilities, facByRank);
+    renderList(filteredCompanies, activeFacilities, facByRank, sortVal);
 
     if (!map.isStyleLoaded() || !map.getSource("portfolio-hqs")) return;
 
@@ -1008,7 +1093,27 @@
     scheduleBuildingMatch();
   }
 
-  function renderList(filteredCompanies, filteredFacilities, facByRank) {
+  function formatRowRightMeta(c, siteCount, sortVal) {
+    const q = c.quote;
+    const chgBadge = q ? formatPctBadge(q.change1m) : "";
+    if (sortVal === "mcap_desc") {
+      return `<span>~${formatCompactValue(c.impliedMarketCap)}</span><span style="font-size:9px;color:#94a3b8;">MCap</span>`;
+    }
+    if (sortVal === "own_desc") {
+      return `<span>${c.ownershipPercent.toFixed(2)}%</span><span style="font-size:9px;color:#94a3b8;">Own</span>`;
+    }
+    if (sortVal === "chg1m_desc" || sortVal === "chg1m_asc") {
+      return q
+        ? `${formatPctBadge(q.change1m)}<span style="font-size:9px;color:#94a3b8;">${q.price} ${q.currency}</span>`
+        : `<span>—</span>`;
+    }
+    if (sortVal === "sites_desc") {
+      return `<span>${siteCount} sites</span><span style="font-size:9px;color:#94a3b8;">${formatCompactValue(c.marketValue)}</span>`;
+    }
+    return `<span>${formatCompactValue(c.marketValue)}</span>${chgBadge}`;
+  }
+
+  function renderList(filteredCompanies, filteredFacilities, facByRank, sortVal) {
     const listEl = document.getElementById("entityList");
 
     if (activeTab === "companies") {
@@ -1025,7 +1130,7 @@
                   <div class="row-sub">${c.city}${siteCount > 0 ? ` · ${siteCount} sites` : ""}</div>
                 </div>
               </div>
-              <div class="row-meta">${formatCompactValue(c.marketValue)}</div>
+              <div class="row-meta">${formatRowRightMeta(c, siteCount, sortVal)}</div>
             </div>
           `;
         })
@@ -1103,6 +1208,47 @@
     }
   }
 
+  function renderQuoteStripHtml(c) {
+    const q = c.quote;
+    const mcapText = `MCap ~${formatCompactValue(c.impliedMarketCap)} NOK`;
+    const ownText = `Own ${c.ownershipPercent.toFixed(2)}%`;
+
+    if (!q) {
+      return `
+        <div class="quote-strip">
+          <div class="quote-left">
+            <div class="quote-price-line">${mcapText}</div>
+            <div class="quote-sub-line">${ownText} · Holding ${c.marketValue.toLocaleString()} MNOK</div>
+          </div>
+        </div>
+      `;
+    }
+
+    const isPos = q.change1m >= 0;
+    const sign1d = q.change1d > 0 ? "+" : "";
+    const sign1m = q.change1m > 0 ? "+" : "";
+    const cls1d = q.change1d >= 0 ? "chg-pos" : "chg-neg";
+    const cls1m = q.change1m >= 0 ? "chg-pos" : "chg-neg";
+
+    return `
+      <div class="quote-strip">
+        <div class="quote-left">
+          <div class="quote-price-line">
+            <span>${q.price} ${q.currency}</span>
+            <span class="quote-ticker">${q.ticker}</span>
+            <span class="${cls1d}" style="font-size:10px;">1D ${sign1d}${q.change1d.toFixed(1)}%</span>
+            <span class="${cls1m}" style="font-size:10px;">1M ${sign1m}${q.change1m.toFixed(1)}%</span>
+          </div>
+          <div class="quote-sub-line">${mcapText} · ${ownText} · Hold ${formatCompactValue(c.marketValue)}</div>
+        </div>
+        <div class="quote-spark" title="Last 10 daily closes: ${q.closes.join(" → ")} ${q.currency}">
+          ${renderSparklineSvg(q.closes, isPos)}
+          <span style="font-size:8.5px;color:#94a3b8;">10d closes</span>
+        </div>
+      </div>
+    `;
+  }
+
   function showCompanySheet(c, cFacs) {
     const sheet = document.getElementById("inspectorCard");
     const fundsText = c.funds.join("+");
@@ -1113,11 +1259,13 @@
           ${renderLogoHtml(c)}
           <div>
             <div class="sheet-title">${c.name}</div>
-            <div class="sheet-sub">${c.city}, ${c.country} · ${fundsText} · ${c.marketValue.toLocaleString()} MNOK</div>
+            <div class="sheet-sub">${c.city}, ${c.country} · ${fundsText} · ${c.sector}</div>
           </div>
         </div>
         <button class="close-btn" id="closeSheetBtn">&times;</button>
       </div>
+
+      ${renderQuoteStripHtml(c)}
 
       <div class="sheet-body">${c.hqDescription}</div>
 
@@ -1218,6 +1366,8 @@
     document.getElementById("btnClearSearch").hidden = true;
     document.getElementById("countrySelect").value = "ALL";
     document.getElementById("typeSelect").value = "all";
+    const sortEl = document.getElementById("sortSelect");
+    if (sortEl) sortEl.value = "value_desc";
     selectedCompanyRank = null;
     selectedFacilityId = null;
     is3dEnabled = false;
@@ -1336,6 +1486,13 @@
       }
       renderAll();
     });
+
+    const sortSelect = document.getElementById("sortSelect");
+    if (sortSelect) {
+      sortSelect.addEventListener("change", () => {
+        renderAll();
+      });
+    }
 
     document.getElementById("tabCompanies").addEventListener("click", () => {
       activeTab = "companies";
