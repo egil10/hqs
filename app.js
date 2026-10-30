@@ -2,19 +2,30 @@
   "use strict";
 
   const SECTOR_COLORS = {
+    "Industri": "#2563eb",
     "Industrials": "#2563eb",
+    "Finans": "#0284c7",
     "Financials": "#0284c7",
+    "Teknologi": "#4f46e5",
     "Information Technology": "#4f46e5",
     "Technology": "#4f46e5",
+    "Helse": "#059669",
     "Health Care": "#059669",
+    "Varige konsumvarer": "#d97706",
     "Consumer Discretionary": "#d97706",
+    "Konsumvarer": "#16a34a",
     "Consumer Staples": "#16a34a",
+    "Materialer": "#b45309",
     "Materials": "#b45309",
     "Basic Materials": "#b45309",
+    "Eiendom": "#7c3aed",
     "Real Estate": "#7c3aed",
+    "Telekommunikasjon": "#db2777",
     "Communication Services": "#db2777",
     "Telecommunications": "#db2777",
+    "Energi": "#dc2626",
     "Energy": "#dc2626",
+    "Forsyning": "#0d9488",
     "Utilities": "#0d9488"
   };
 
@@ -52,9 +63,13 @@
       .replace(/[^a-z0-9]/g, "");
   }
 
-  // --- Merge SFT (200) + SPN (151) into Unified Companies ---
-  const sftRaw = window.HQ_COMPANIES || [];
-  const spnRaw = window.SPN_COMPANIES || [];
+  // --- STAGE 1: Load Main HQs Immediately (SFT Part 1 + Part 2 + SPN) ---
+  const sftRaw = [
+    ...(window.HQ_COMPANIES || []),
+    ...(window.HQ_COMPANIES_PART1 || []),
+    ...(window.HQ_COMPANIES_PART2 || [])
+  ];
+  const spnRaw = window.HQ_COMPANIES_SPN || window.SPN_COMPANIES || [];
 
   function buildUnifiedCompanies() {
     const byKey = new Map();
@@ -142,45 +157,53 @@
     "leroyseafood": "leroyseafood"
   };
 
-  // Auto-discover all FACILITIES_EXPANSION* arrays + window.EXTRA_FACILITIES
-  const discoveredFacilityArrays = Object.keys(window)
-    .filter((k) => k === "FACILITIES_EXPANSION" || k.startsWith("FACILITIES_EXPANSION_"))
-    .sort()
-    .map((k) => window[k] || []);
+  // --- STAGE 2: Progressive Facility Additions Loader (Loaded After HQs Render) ---
+  let facilities = [];
 
-  const combinedRawFacilities = [
-    ...discoveredFacilityArrays.flat(),
-    ...(window.EXTRA_FACILITIES || [])
-  ];
+  function ingestFacilityAdditions() {
+    const discoveredFacilityArrays = Object.keys(window)
+      .filter((k) => k === "FACILITIES_EXPANSION" || k.startsWith("FACILITIES_EXPANSION_"))
+      .sort()
+      .map((k) => window[k] || []);
 
-  const seenFacilityKeys = new Set();
-  const rawFacilities = combinedRawFacilities.filter((f) => {
-    if (!f || !f.name || typeof f.lat !== "number" || typeof f.lng !== "number") return false;
-    const key = `${normName(f.parentName)}::${normName(f.name)}`;
-    if (seenFacilityKeys.has(key) || (f.id && seenFacilityKeys.has(f.id))) return false;
-    seenFacilityKeys.add(key);
-    if (f.id) seenFacilityKeys.add(f.id);
-    return true;
-  });
+    const combinedRawFacilities = [
+      ...discoveredFacilityArrays.flat(),
+      ...(window.EXTRA_FACILITIES || [])
+    ];
 
-  const facilities = rawFacilities.map((f) => {
-    const nParent = normName(f.parentName);
-    const aliased = PARENT_ALIASES[nParent] || nParent;
-    let parent = companyByNormName[aliased];
-    if (!parent && f.parentRank && companyBySftRank[f.parentRank]) {
-      parent = companyBySftRank[f.parentRank];
-    }
-    if (!parent) {
-      parent = companies.find(
-        (c) => normName(c.name).includes(aliased) || aliased.includes(normName(c.name))
-      );
-    }
-    return {
-      ...f,
-      parentRank: parent ? parent.rank : f.parentRank || 1,
-      parentName: parent ? parent.name : f.parentName
-    };
-  });
+    const seenFacilityKeys = new Set();
+    const rawFacilities = combinedRawFacilities.filter((f) => {
+      if (!f || !f.name || typeof f.lat !== "number" || typeof f.lng !== "number") return false;
+      const key = `${normName(f.parentName)}::${normName(f.name)}`;
+      if (seenFacilityKeys.has(key) || (f.id && seenFacilityKeys.has(f.id))) return false;
+      seenFacilityKeys.add(key);
+      if (f.id) seenFacilityKeys.add(f.id);
+      return true;
+    });
+
+    if (rawFacilities.length === facilities.length) return;
+
+    facilities = rawFacilities.map((f) => {
+      const nParent = normName(f.parentName);
+      const aliased = PARENT_ALIASES[nParent] || nParent;
+      let parent = companyByNormName[aliased];
+      if (!parent && f.parentRank && companyBySftRank[f.parentRank]) {
+        parent = companyBySftRank[f.parentRank];
+      }
+      if (!parent) {
+        parent = companies.find(
+          (c) => normName(c.name).includes(aliased) || aliased.includes(normName(c.name))
+        );
+      }
+      return {
+        ...f,
+        parentRank: parent ? parent.rank : f.parentRank || 1,
+        parentName: parent ? parent.name : f.parentName
+      };
+    });
+
+    renderAll();
+  }
 
   // --- Helpers ---
   function formatCompactValue(mnok) {
@@ -1290,11 +1313,18 @@
     document.getElementById("btnResetSidebar").addEventListener("click", resetAll);
   }
 
+  // Stage 1: Render main HQs immediately
   initControls();
   renderAll();
+
+  // Stage 2: Progressively ingest facility additions after initial HQ paint
+  setTimeout(ingestFacilityAdditions, 30);
+  document.addEventListener("DOMContentLoaded", ingestFacilityAdditions);
+  window.addEventListener("load", ingestFacilityAdditions);
 
   map.on("load", () => {
     setupCustomLayers();
     bindMapInteractions();
+    ingestFacilityAdditions();
   });
 })();
