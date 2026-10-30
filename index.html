@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <title>Nordic Portfolio Atlas</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="dns-prefetch" href="https://tiles.openfreemap.org" />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,14 +14,14 @@
     <div class="sidebar-header">
       <div class="title-row">
         <h1>Nordic Portfolio Atlas</h1>
-        <span class="title-meta" id="headerSummary">204 HQs · 200 Sites</span>
+        <span class="title-meta" id="headerSummary">204 HQs · 275 Sites</span>
       </div>
 
       <input
         type="text"
         id="searchInput"
         class="search-input"
-        placeholder="Search company, facility, city..."
+        placeholder="Search company, fish farm, mine, data center, city..."
       />
 
       <div class="filters-grid">
@@ -40,10 +41,11 @@
 
       <div class="category-pills">
         <button class="pill active" data-spotlight="all">All</button>
-        <button class="pill" data-spotlight="fish">Fish &amp; Marine</button>
+        <button class="pill" data-spotlight="fish">Fish Farms &amp; Marine</button>
+        <button class="pill" data-spotlight="mills">Mines, Quarries &amp; Mills</button>
+        <button class="pill" data-spotlight="datacenters">Data Centers</button>
         <button class="pill" data-spotlight="factories">Factories</button>
-        <button class="pill" data-spotlight="mills">Mills &amp; Mines</button>
-        <button class="pill" data-spotlight="offshore">Energy &amp; Offshore</button>
+        <button class="pill" data-spotlight="offshore">Hydro, Wind &amp; Offshore</button>
         <button class="pill" data-spotlight="pharma">Pharma &amp; R&amp;D</button>
       </div>
     </div>
@@ -53,7 +55,7 @@
         Companies (<span id="tabCountCompanies">204</span>)
       </button>
       <button class="seg-btn" id="tabFacilities">
-        Facilities (<span id="tabCountFacilities">200</span>)
+        Facilities (<span id="tabCountFacilities">275</span>)
       </button>
     </div>
 
@@ -67,14 +69,14 @@
       <div class="toolbar-group">
         <label class="toggle-check"><input type="checkbox" id="toggleHqs" checked /> HQs</label>
         <label class="toggle-check"><input type="checkbox" id="toggleFacilities" checked /> Facilities</label>
-        <label class="toggle-check"><input type="checkbox" id="togglePolygons" checked /> Footprints</label>
+        <label class="toggle-check"><input type="checkbox" id="toggleAllBuildings" checked /> All Buildings</label>
+        <label class="toggle-check"><input type="checkbox" id="toggle3d" /> 3D Roofs</label>
         <label class="toggle-check"><input type="checkbox" id="toggleLines" checked /> Links</label>
       </div>
 
       <div class="toolbar-group">
-        <button class="tool-btn active" data-basemap="light">Light</button>
-        <button class="tool-btn" data-basemap="gray">Gray</button>
-        <button class="tool-btn" data-basemap="street">OSM</button>
+        <button class="tool-btn active" data-basemap="positron">Light</button>
+        <button class="tool-btn" data-basemap="liberty">Detailed</button>
         <button class="tool-btn" data-basemap="satellite">Satellite</button>
         <button class="tool-btn" id="btnResetView">Reset</button>
       </div>
@@ -83,13 +85,15 @@
     <div class="detail-sheet" id="inspectorCard"></div>
   </main>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <script src="data/hq_companies_part1.js"></script>
   <script src="data/hq_companies_part2.js"></script>
   <script src="data/facilities_expansion.js"></script>
   <script src="data/facilities_expansion_part2.js"></script>
   <script src="data/facilities_expansion_part3.js"></script>
   <script src="data/facilities_expansion_part4.js"></script>
+  <script src="data/facilities_expansion_part5.js"></script>
+  <script src="data/facilities_expansion_part6.js"></script>
   <script src="data/company_intelligence.js"></script>
   <script src="data/company_intelligence_part2.js"></script>
   <script src="data/company_intelligence_part3.js"></script>

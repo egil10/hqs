@@ -492,23 +492,27 @@ body {
   background: var(--bg-subtle);
 }
 
-/* Clean Leaflet Overrides */
-.leaflet-control-attribution {
-  background: rgba(255, 255, 255, 0.8) !important;
+/* Clean MapLibre GL Overrides */
+.maplibregl-ctrl-attrib {
+  background: rgba(255, 255, 255, 0.85) !important;
   color: var(--text-muted) !important;
   font-size: 10px !important;
+  border-radius: 4px !important;
 }
 
-.leaflet-tooltip {
-  background: rgba(15, 23, 42, 0.92) !important;
+.maplibregl-popup-content {
+  background: rgba(15, 23, 42, 0.94) !important;
   color: #ffffff !important;
-  border: none !important;
-  border-radius: 5px !important;
-  padding: 5px 8px !important;
+  border-radius: 6px !important;
+  padding: 6px 10px !important;
   font-size: 11px !important;
+  line-height: 1.4 !important;
   box-shadow: var(--shadow-md) !important;
+  pointer-events: none;
 }
 
-.leaflet-tooltip-top:before {
-  border-top-color: rgba(15, 23, 42, 0.92) !important;
+.maplibregl-popup-tip {
+  border-top-color: rgba(15, 23, 42, 0.94) !important;
+  border-bottom-color: rgba(15, 23, 42, 0.94) !important;
 }
+
