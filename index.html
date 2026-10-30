@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
-  <title>Nordic Portfolio Atlas — SPN &amp; SFT</title>
+  <title>Portfolio Map — SPN &amp; SFT</title>
   <link rel="dns-prefetch" href="https://tiles.openfreemap.org" />
   <link rel="dns-prefetch" href="https://www.google.com" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
@@ -14,58 +14,58 @@
   <aside class="sidebar">
     <div class="sidebar-header">
       <div class="title-row">
-        <h1>Nordic Portfolio Atlas</h1>
-        <span class="title-meta" id="headerSummary">334 HQs · 435 Sites</span>
+        <div>
+          <h1>Portfolio Map</h1>
+          <span class="title-meta" id="headerSummary">308 Companies · 590 Sites</span>
+        </div>
+        <button class="reset-link" id="btnResetSidebar" title="Reset search, filters and map">Reset</button>
       </div>
 
-      <input
-        type="text"
-        id="searchInput"
-        class="search-input"
-        placeholder="Search company, oil platform, fish farm, smelter, office..."
-      />
+      <div class="search-wrap">
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Search company, rig, mine, city..."
+          autocomplete="off"
+        />
+        <button class="clear-search" id="btnClearSearch" title="Clear search" hidden>&times;</button>
+      </div>
 
-      <div class="filters-grid">
-        <select id="fundSelect" class="clean-select" title="Filter by Folketrygdfondet Portfolio">
-          <option value="ALL">All Funds (SPN + SFT)</option>
-          <option value="SPN">SPN (Pensjonsfond Norge)</option>
-          <option value="SFT">SFT (Fond i Tromsø)</option>
-          <option value="BOTH">Held in Both (SPN &amp; SFT)</option>
-        </select>
-
+      <div class="filters-row">
         <select id="countrySelect" class="clean-select">
-          <option value="ALL">All Countries</option>
+          <option value="ALL">All Regions</option>
           <option value="Norge">Norway</option>
           <option value="Sverige">Sweden</option>
           <option value="Finland">Finland</option>
           <option value="Danmark">Denmark</option>
           <option value="Island">Iceland</option>
           <option value="GLOBAL">Global (Brazil, Africa, etc.)</option>
+          <option disabled>──────────</option>
+          <option value="FUND_SPN">SPN Fund Only</option>
+          <option value="FUND_SFT">SFT Fund Only</option>
         </select>
 
-        <select id="sectorSelect" class="clean-select">
-          <option value="ALL">All Sectors</option>
+        <select id="typeSelect" class="clean-select">
+          <option value="all">All Types</option>
+          <option value="hqs_only">HQs Only</option>
+          <option value="oilgas">Oil &amp; Gas Rigs</option>
+          <option value="fish">Fish Farms</option>
+          <option value="mills">Mines &amp; Smelters</option>
+          <option value="factories">Factories &amp; Defense</option>
+          <option value="datacenters">Data Centers</option>
+          <option value="distribution">Offices &amp; Logistics</option>
+          <option value="pharma">Pharma &amp; Labs</option>
         </select>
-      </div>
-
-      <div class="category-pills">
-        <button class="pill active" data-spotlight="all">All</button>
-        <button class="pill" data-spotlight="oilgas">Oil &amp; Gas Drilling</button>
-        <button class="pill" data-spotlight="fish">Fish Farms &amp; Marine</button>
-        <button class="pill" data-spotlight="mills">Mines, Smelters &amp; Mills</button>
-        <button class="pill" data-spotlight="datacenters">Data Centers</button>
-        <button class="pill" data-spotlight="factories">Factories &amp; Defense</button>
-        <button class="pill" data-spotlight="distribution">Distribution &amp; Offices</button>
-        <button class="pill" data-spotlight="pharma">Pharma &amp; R&amp;D</button>
       </div>
     </div>
 
     <div class="segmented-tabs">
       <button class="seg-btn active" id="tabCompanies">
-        Companies (<span id="tabCountCompanies">334</span>)
+        Companies <span class="tab-count" id="tabCountCompanies">308</span>
       </button>
       <button class="seg-btn" id="tabFacilities">
-        Facilities (<span id="tabCountFacilities">435</span>)
+        Sites <span class="tab-count" id="tabCountFacilities">590</span>
       </button>
     </div>
 
@@ -77,18 +77,9 @@
 
     <div class="map-toolbar">
       <div class="toolbar-group">
-        <label class="toggle-check"><input type="checkbox" id="toggleHqs" checked /> HQs</label>
-        <label class="toggle-check"><input type="checkbox" id="toggleFacilities" checked /> Facilities</label>
-        <label class="toggle-check"><input type="checkbox" id="toggleLogos" checked /> Logos</label>
-        <label class="toggle-check"><input type="checkbox" id="toggleAllBuildings" checked /> All Buildings</label>
-        <label class="toggle-check"><input type="checkbox" id="toggle3d" /> 3D Roofs</label>
-        <label class="toggle-check"><input type="checkbox" id="toggleLines" checked /> Links</label>
-      </div>
-
-      <div class="toolbar-group">
-        <button class="tool-btn active" data-basemap="positron">Light</button>
-        <button class="tool-btn" data-basemap="liberty">Detailed</button>
+        <button class="tool-btn active" data-basemap="liberty">Map</button>
         <button class="tool-btn" data-basemap="satellite">Satellite</button>
+        <button class="tool-btn" id="btnToggle3d">3D</button>
         <button class="tool-btn" id="btnResetView">Reset</button>
       </div>
     </div>
