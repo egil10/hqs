@@ -248,9 +248,14 @@
   let activeTab = "companies";
   let selectedCompanyRank = null;
   let selectedFacilityId = null;
+  let showLogos = true;
+  let showSites = true;
+  let showAllLinks = false;
   let is3dEnabled = false;
   let currentBasemap = "liberty";
   let buildingMatchTimer = null;
+  const logoMarkerPool = new Map();
+  const visibleLogoRanks = new Set();
 
   // --- Map Initialization ---
   const map = new maplibregl.Map({
@@ -851,18 +856,85 @@
 
   function scheduleBuildingMatch() {
     if (buildingMatchTimer) clearTimeout(buildingMatchTimer);
-    buildingMatchTimer = setTimeout(matchVectorBuildingsToPortfolio, 90);
+    buildingMatchTimer = setTimeout(() => {
+      matchVectorBuildingsToPortfolio();
+      updateMapLogoMarkers();
+    }, 80);
+  }
+
+  // --- Pooled Map Favicon Markers (Zero DOM Re-creation During Pan/Zoom) ---
+  function getOrCreateLogoMarker(c) {
+    let entry = logoMarkerPool.get(c.rank);
+    if (entry) return entry;
+
+    const el = document.createElement("div");
+    el.className = "map-logo-marker";
+    el.title = `${c.name} (${formatCompactValue(c.marketValue)} NOK)`;
+    el.innerHTML = renderLogoHtml(c);
+    el.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      selectCompany(c.rank, false);
+    });
+
+    const marker = new maplibregl.Marker({ element: el, anchor: "center" }).setLngLat([c.lng, c.lat]);
+    entry = { marker, el };
+    logoMarkerPool.set(c.rank, entry);
+    return entry;
+  }
+
+  function updateMapLogoMarkers() {
+    if (!showLogos) {
+      visibleLogoRanks.forEach((rank) => {
+        const entry = logoMarkerPool.get(rank);
+        if (entry) entry.marker.remove();
+      });
+      visibleLogoRanks.clear();
+      return;
+    }
+
+    const { filteredCompanies } = getFilteredData();
+    const bounds = map.getBounds();
+    const zoom = map.getZoom();
+    const maxLogos = zoom >= 10 ? 75 : zoom >= 6.5 ? 48 : 32;
+
+    const inView = filteredCompanies.filter((c) => bounds.contains([c.lng, c.lat]));
+    inView.sort((a, b) => {
+      if (a.rank === selectedCompanyRank) return -1;
+      if (b.rank === selectedCompanyRank) return 1;
+      return b.marketValue - a.marketValue;
+    });
+
+    const nextRanks = new Set();
+    inView.slice(0, maxLogos).forEach((c) => {
+      nextRanks.add(c.rank);
+      const entry = getOrCreateLogoMarker(c);
+      entry.el.classList.toggle("active", c.rank === selectedCompanyRank);
+      if (!visibleLogoRanks.has(c.rank)) {
+        entry.marker.addTo(map);
+      }
+    });
+
+    visibleLogoRanks.forEach((oldRank) => {
+      if (!nextRanks.has(oldRank)) {
+        const entry = logoMarkerPool.get(oldRank);
+        if (entry) entry.marker.remove();
+      }
+    });
+
+    visibleLogoRanks.clear();
+    nextRanks.forEach((r) => visibleLogoRanks.add(r));
   }
 
   // --- Main Render ---
   function renderAll() {
     const { filteredCompanies, filteredFacilities, facByRank } = getFilteredData();
+    const activeFacilities = showSites ? filteredFacilities : [];
 
-    document.getElementById("headerSummary").textContent = `${filteredCompanies.length} Companies · ${filteredFacilities.length} Sites`;
+    document.getElementById("headerSummary").textContent = `${filteredCompanies.length} Companies · ${activeFacilities.length} Sites`;
     document.getElementById("tabCountCompanies").textContent = filteredCompanies.length;
-    document.getElementById("tabCountFacilities").textContent = filteredFacilities.length;
+    document.getElementById("tabCountFacilities").textContent = activeFacilities.length;
 
-    renderList(filteredCompanies, filteredFacilities, facByRank);
+    renderList(filteredCompanies, activeFacilities, facByRank);
 
     if (!map.isStyleLoaded() || !map.getSource("portfolio-hqs")) return;
 
@@ -886,7 +958,7 @@
       };
     });
 
-    const facFeatures = filteredFacilities.map((f) => {
+    const facFeatures = activeFacilities.map((f) => {
       const color = FACILITY_COLORS[f.facilityType] || "#059669";
       const isSelected = selectedFacilityId === f.id || selectedCompanyRank === f.parentRank;
       return {
@@ -906,34 +978,33 @@
       };
     });
 
-    // Only draw connection lines for the currently selected company so the map stays super clean
+    // Draw connection lines either for ALL visible companies (when Links toggle is active) OR for the selected company
     const linkFeatures = [];
-    if (selectedCompanyRank) {
-      const parent = companyByRank[selectedCompanyRank];
-      if (parent) {
+    if (showSites && (showAllLinks || selectedCompanyRank)) {
+      activeFacilities.forEach((f) => {
+        if (!showAllLinks && f.parentRank !== selectedCompanyRank) return;
+        const parent = companyByRank[f.parentRank];
+        if (!parent) return;
         const color = SECTOR_COLORS[parent.sector] || "#2563eb";
-        filteredFacilities
-          .filter((f) => f.parentRank === selectedCompanyRank)
-          .forEach((f) => {
-            linkFeatures.push({
-              type: "Feature",
-              properties: { color },
-              geometry: {
-                type: "LineString",
-                coordinates: [
-                  [parent.lng, parent.lat],
-                  [f.lng, f.lat]
-                ]
-              }
-            });
-          });
-      }
+        linkFeatures.push({
+          type: "Feature",
+          properties: { color },
+          geometry: {
+            type: "LineString",
+            coordinates: [
+              [parent.lng, parent.lat],
+              [f.lng, f.lat]
+            ]
+          }
+        });
+      });
     }
 
     map.getSource("portfolio-hqs").setData({ type: "FeatureCollection", features: hqFeatures });
     map.getSource("portfolio-facilities").setData({ type: "FeatureCollection", features: facFeatures });
     map.getSource("portfolio-links").setData({ type: "FeatureCollection", features: linkFeatures });
 
+    updateMapLogoMarkers();
     scheduleBuildingMatch();
   }
 
@@ -994,8 +1065,8 @@
     }
   }
 
-  // --- Selection & Minimal Inspector Card ---
-  function selectCompany(rank, flyTo = true) {
+  // --- Selection (Gentle Pan Only When Off-Screen; No Abrupt Zoom-In!) ---
+  function selectCompany(rank, panIfNeeded = false) {
     selectedCompanyRank = rank;
     selectedFacilityId = null;
     const c = companyByRank[rank];
@@ -1005,17 +1076,15 @@
     renderAll();
     showCompanySheet(c, cFacs);
 
-    if (flyTo) {
-      map.flyTo({
+    if (panIfNeeded && !map.getBounds().contains([c.lng, c.lat])) {
+      map.easeTo({
         center: [c.lng, c.lat],
-        zoom: 16,
-        pitch: is3dEnabled ? 50 : 0,
-        duration: 700
+        duration: 450
       });
     }
   }
 
-  function selectFacility(facId, flyTo = true) {
+  function selectFacility(facId, panIfNeeded = false) {
     const f = facilities.find((item) => item.id === facId);
     if (!f) return;
     selectedFacilityId = facId;
@@ -1026,12 +1095,10 @@
     renderAll();
     showFacilitySheet(f, parent, siblingFacs);
 
-    if (flyTo) {
-      map.flyTo({
+    if (panIfNeeded && !map.getBounds().contains([f.lng, f.lat])) {
+      map.easeTo({
         center: [f.lng, f.lat],
-        zoom: isOffshorePlatformSite(f) ? 14.5 : 15.8,
-        pitch: is3dEnabled ? 50 : 0,
-        duration: 700
+        duration: 450
       });
     }
   }
@@ -1055,7 +1122,7 @@
       <div class="sheet-body">${c.hqDescription}</div>
 
       <div class="sheet-actions">
-        <button class="action-btn" id="btnZoomHq">Building</button>
+        <button class="action-btn" id="btnZoomHq">Zoom to Building</button>
         ${cFacs.length > 0 ? `<button class="action-btn" id="btnFitAll">All Sites (${cFacs.length + 1})</button>` : ""}
         <a class="action-btn" href="${c.website}" target="_blank" rel="noopener">Website ↗</a>
       </div>
@@ -1081,7 +1148,7 @@
 
     document.getElementById("closeSheetBtn").onclick = clearSelection;
     document.getElementById("btnZoomHq").onclick = () => {
-      map.flyTo({ center: [c.lng, c.lat], zoom: 17, pitch: is3dEnabled ? 52 : 0, duration: 600 });
+      map.flyTo({ center: [c.lng, c.lat], zoom: 16.8, pitch: is3dEnabled ? 52 : 0, duration: 600 });
     };
 
     const btnFit = document.getElementById("btnFitAll");
@@ -1113,7 +1180,7 @@
       <div class="sheet-body">${f.description}</div>
 
       <div class="sheet-actions">
-        <button class="action-btn" id="btnZoomFac">Zoom In</button>
+        <button class="action-btn" id="btnZoomFac">Zoom to Site</button>
         ${parent ? `<button class="action-btn" id="btnJumpHq">HQ (${parent.city})</button>` : ""}
         ${parent ? `<button class="action-btn" id="btnFitFacNet">Network (${siblingFacs.length + 1})</button>` : ""}
       </div>
@@ -1123,7 +1190,7 @@
 
     document.getElementById("closeSheetBtn").onclick = clearSelection;
     document.getElementById("btnZoomFac").onclick = () => {
-      map.flyTo({ center: [f.lng, f.lat], zoom: 16.8, pitch: is3dEnabled ? 52 : 0, duration: 600 });
+      map.flyTo({ center: [f.lng, f.lat], zoom: 16.5, pitch: is3dEnabled ? 52 : 0, duration: 600 });
     };
 
     const btnHq = document.getElementById("btnJumpHq");
@@ -1154,23 +1221,25 @@
     selectedCompanyRank = null;
     selectedFacilityId = null;
     is3dEnabled = false;
+    showAllLinks = false;
     document.getElementById("btnToggle3d").classList.remove("active");
+    document.getElementById("btnToggleLinks").classList.remove("active");
     document.getElementById("inspectorCard").classList.remove("visible");
     if (map.getLayer("all-buildings-3d")) map.setLayoutProperty("all-buildings-3d", "visibility", "none");
     if (map.getLayer("portfolio-buildings-3d")) map.setLayoutProperty("portfolio-buildings-3d", "visibility", "none");
     renderAll();
-    map.flyTo({ center: [11.5, 61.5], zoom: 4.4, pitch: 0, bearing: 0, duration: 650 });
+    map.flyTo({ center: [11.5, 61.5], zoom: 4.4, pitch: 0, bearing: 0, duration: 550 });
   }
 
   function fitBoundsToPoints(coordsLngLat) {
     if (!coordsLngLat || coordsLngLat.length === 0) return;
     if (coordsLngLat.length === 1) {
-      map.flyTo({ center: coordsLngLat[0], zoom: 15, duration: 650 });
+      map.easeTo({ center: coordsLngLat[0], duration: 450 });
       return;
     }
     const bounds = new maplibregl.LngLatBounds(coordsLngLat[0], coordsLngLat[0]);
     coordsLngLat.forEach((pt) => bounds.extend(pt));
-    map.fitBounds(bounds, { padding: 60, maxZoom: 13.5, duration: 700 });
+    map.fitBounds(bounds, { padding: 60, maxZoom: 12.5, duration: 600 });
   }
 
   // --- Map & Control Events ---
@@ -1210,10 +1279,10 @@
         const p = feat.properties || {};
         if (layerId === "portfolio-hqs-circle" || p.entityType === "company") {
           const rank = Number(p.rank || p.entityId);
-          if (rank) selectCompany(rank, true);
+          if (rank) selectCompany(rank, false);
         } else if (layerId === "portfolio-facilities-circle" || p.entityType === "facility") {
           const facId = p.id || p.entityId;
-          if (facId) selectFacility(facId, true);
+          if (facId) selectFacility(facId, false);
         }
       });
     });
@@ -1279,6 +1348,24 @@
       activeTab = "facilities";
       document.getElementById("tabFacilities").classList.add("active");
       document.getElementById("tabCompanies").classList.remove("active");
+      renderAll();
+    });
+
+    document.getElementById("btnToggleLogos").addEventListener("click", (e) => {
+      showLogos = !showLogos;
+      e.currentTarget.classList.toggle("active", showLogos);
+      updateMapLogoMarkers();
+    });
+
+    document.getElementById("btnToggleSites").addEventListener("click", (e) => {
+      showSites = !showSites;
+      e.currentTarget.classList.toggle("active", showSites);
+      renderAll();
+    });
+
+    document.getElementById("btnToggleLinks").addEventListener("click", (e) => {
+      showAllLinks = !showAllLinks;
+      e.currentTarget.classList.toggle("active", showAllLinks);
       renderAll();
     });
 
