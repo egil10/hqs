@@ -440,6 +440,12 @@
     ];
   }
 
+  const NORDIC_COUNTRIES = new Set(["Norge", "Sverige", "Finland", "Danmark", "Island"]);
+
+  function isGlobalCountry(country) {
+    return !NORDIC_COUNTRIES.has(country);
+  }
+
   function getFilteredData() {
     const q = (document.getElementById("searchInput").value || "").trim().toLowerCase();
     const fundFilter = document.getElementById("fundSelect").value;
@@ -456,10 +462,17 @@
       if (fundFilter === "SPN" && !c.funds.includes("SPN")) return false;
       if (fundFilter === "SFT" && !c.funds.includes("SFT")) return false;
       if (fundFilter === "BOTH" && c.funds.length < 2) return false;
-      if (countryFilter !== "ALL" && c.country !== countryFilter) return false;
       if (sectorFilter !== "ALL" && c.sector !== sectorFilter) return false;
 
       const cFacs = facByRank[c.rank] || [];
+      if (countryFilter === "GLOBAL") {
+        const hasGlobalFac = cFacs.some((f) => isGlobalCountry(f.country));
+        if (!isGlobalCountry(c.country) && !hasGlobalFac) return false;
+      } else if (countryFilter !== "ALL") {
+        const hasCountryFac = cFacs.some((f) => f.country === countryFilter);
+        if (c.country !== countryFilter && !hasCountryFac) return false;
+      }
+
       const cIntel = c.sftRank ? intelBySftRank[c.sftRank] : null;
 
       if (
@@ -521,6 +534,7 @@
         const matchC =
           c.name.toLowerCase().includes(q) ||
           c.city.toLowerCase().includes(q) ||
+          c.country.toLowerCase().includes(q) ||
           c.sector.toLowerCase().includes(q) ||
           c.hqDescription.toLowerCase().includes(q) ||
           (cIntel && cIntel.ticker && cIntel.ticker.toLowerCase().includes(q));
@@ -528,6 +542,7 @@
           (f) =>
             f.name.toLowerCase().includes(q) ||
             f.city.toLowerCase().includes(q) ||
+            f.country.toLowerCase().includes(q) ||
             f.description.toLowerCase().includes(q) ||
             f.facilityType.toLowerCase().includes(q)
         );
@@ -543,7 +558,8 @@
       if (fundFilter === "SPN" && parent && !parent.funds.includes("SPN")) return false;
       if (fundFilter === "SFT" && parent && !parent.funds.includes("SFT")) return false;
       if (fundFilter === "BOTH" && parent && parent.funds.length < 2) return false;
-      if (countryFilter !== "ALL" && f.country !== countryFilter) return false;
+      if (countryFilter === "GLOBAL" && !isGlobalCountry(f.country)) return false;
+      if (countryFilter !== "ALL" && countryFilter !== "GLOBAL" && f.country !== countryFilter) return false;
 
       if (
         activeSpotlight === "oilgas" &&
@@ -564,6 +580,7 @@
           f.name.toLowerCase().includes(q) ||
           f.parentName.toLowerCase().includes(q) ||
           f.city.toLowerCase().includes(q) ||
+          f.country.toLowerCase().includes(q) ||
           f.description.toLowerCase().includes(q) ||
           f.facilityType.toLowerCase().includes(q);
         if (!matchSelf && !visibleRanks.has(f.parentRank)) return false;
@@ -1656,7 +1673,25 @@
 
     document.getElementById("searchInput").addEventListener("input", renderAll);
     document.getElementById("fundSelect").addEventListener("change", renderAll);
-    document.getElementById("countrySelect").addEventListener("change", renderAll);
+    document.getElementById("countrySelect").addEventListener("change", (e) => {
+      if (e.target.value === "GLOBAL") {
+        activeTab = "facilities";
+        document.getElementById("tabFacilities").classList.add("active");
+        document.getElementById("tabCompanies").classList.remove("active");
+      }
+      renderAll();
+      const { filteredCompanies, filteredFacilities } = getFilteredData();
+      const pts =
+        e.target.value === "GLOBAL"
+          ? filteredFacilities.map((f) => [f.lng, f.lat])
+          : [
+              ...filteredCompanies.map((c) => [c.lng, c.lat]),
+              ...filteredFacilities.map((f) => [f.lng, f.lat])
+            ];
+      if (pts.length > 0) {
+        fitBoundsToPoints(pts);
+      }
+    });
     document.getElementById("sectorSelect").addEventListener("change", renderAll);
 
     ["toggleHqs", "toggleFacilities", "toggleLogos", "toggleLines"].forEach((id) => {
