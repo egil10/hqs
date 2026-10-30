@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <title>Nordic Portfolio Atlas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="title-row">
+        <h1>Nordic Portfolio Atlas</h1>
+        <span class="title-meta" id="headerSummary">204 HQs · 200 Sites</span>
+      </div>
+
+      <input
+        type="text"
+        id="searchInput"
+        class="search-input"
+        placeholder="Search company, facility, city..."
+      />
+
+      <div class="filters-grid">
+        <select id="countrySelect" class="clean-select">
+          <option value="ALL">All Countries</option>
+          <option value="Sverige">Sweden</option>
+          <option value="Finland">Finland</option>
+          <option value="Norge">Norway</option>
+          <option value="Danmark">Denmark</option>
+          <option value="Island">Iceland</option>
+        </select>
+
+        <select id="sectorSelect" class="clean-select">
+          <option value="ALL">All Sectors</option>
+        </select>
+      </div>
+
+      <div class="category-pills">
+        <button class="pill active" data-spotlight="all">All</button>
+        <button class="pill" data-spotlight="fish">Fish &amp; Marine</button>
+        <button class="pill" data-spotlight="factories">Factories</button>
+        <button class="pill" data-spotlight="mills">Mills &amp; Mines</button>
+        <button class="pill" data-spotlight="offshore">Energy &amp; Offshore</button>
+        <button class="pill" data-spotlight="pharma">Pharma &amp; R&amp;D</button>
+      </div>
+    </div>
+
+    <div class="segmented-tabs">
+      <button class="seg-btn active" id="tabCompanies">
+        Companies (<span id="tabCountCompanies">204</span>)
+      </button>
+      <button class="seg-btn" id="tabFacilities">
+        Facilities (<span id="tabCountFacilities">200</span>)
+      </button>
+    </div>
+
+    <div class="list-container" id="entityList"></div>
+  </aside>
+
+  <main class="map-stage">
+    <div id="map"></div>
+
+    <div class="map-toolbar">
+      <div class="toolbar-group">
+        <label class="toggle-check"><input type="checkbox" id="toggleHqs" checked /> HQs</label>
+        <label class="toggle-check"><input type="checkbox" id="toggleFacilities" checked /> Facilities</label>
+        <label class="toggle-check"><input type="checkbox" id="togglePolygons" checked /> Footprints</label>
+        <label class="toggle-check"><input type="checkbox" id="toggleLines" checked /> Links</label>
+      </div>
+
+      <div class="toolbar-group">
+        <button class="tool-btn active" data-basemap="light">Light</button>
+        <button class="tool-btn" data-basemap="street">Street</button>
+        <button class="tool-btn" data-basemap="satellite">Satellite</button>
+        <button class="tool-btn" id="btnResetView">Reset</button>
+      </div>
+    </div>
+
+    <div class="detail-sheet" id="inspectorCard"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data/hq_companies_part1.js"></script>
+  <script src="data/hq_companies_part2.js"></script>
+  <script src="data/facilities_expansion.js"></script>
+  <script src="data/facilities_expansion_part2.js"></script>
+  <script src="data/facilities_expansion_part3.js"></script>
+  <script src="data/facilities_expansion_part4.js"></script>
+  <script src="data/company_intelligence.js"></script>
+  <script src="data/company_intelligence_part2.js"></script>
+  <script src="data/company_intelligence_part3.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
