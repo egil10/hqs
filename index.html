@@ -4,8 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
-  <title>Nordic Portfolio Atlas</title>
+  <title>Nordic Portfolio Atlas — SPN &amp; SFT</title>
   <link rel="dns-prefetch" href="https://tiles.openfreemap.org" />
+  <link rel="dns-prefetch" href="https://www.google.com" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -14,22 +15,29 @@
     <div class="sidebar-header">
       <div class="title-row">
         <h1>Nordic Portfolio Atlas</h1>
-        <span class="title-meta" id="headerSummary">204 HQs · 275 Sites</span>
+        <span class="title-meta" id="headerSummary">334 HQs · 410 Sites</span>
       </div>
 
       <input
         type="text"
         id="searchInput"
         class="search-input"
-        placeholder="Search company, fish farm, mine, data center, city..."
+        placeholder="Search company, oil platform, fish farm, smelter, office..."
       />
 
       <div class="filters-grid">
+        <select id="fundSelect" class="clean-select" title="Filter by Folketrygdfondet Portfolio">
+          <option value="ALL">All Funds (SPN + SFT)</option>
+          <option value="SPN">SPN (Pensjonsfond Norge)</option>
+          <option value="SFT">SFT (Fond i Tromsø)</option>
+          <option value="BOTH">Held in Both (SPN &amp; SFT)</option>
+        </select>
+
         <select id="countrySelect" class="clean-select">
           <option value="ALL">All Countries</option>
+          <option value="Norge">Norway</option>
           <option value="Sverige">Sweden</option>
           <option value="Finland">Finland</option>
-          <option value="Norge">Norway</option>
           <option value="Danmark">Denmark</option>
           <option value="Island">Iceland</option>
         </select>
@@ -41,21 +49,22 @@
 
       <div class="category-pills">
         <button class="pill active" data-spotlight="all">All</button>
+        <button class="pill" data-spotlight="oilgas">Oil &amp; Gas Drilling</button>
         <button class="pill" data-spotlight="fish">Fish Farms &amp; Marine</button>
-        <button class="pill" data-spotlight="mills">Mines, Quarries &amp; Mills</button>
+        <button class="pill" data-spotlight="mills">Mines, Smelters &amp; Mills</button>
         <button class="pill" data-spotlight="datacenters">Data Centers</button>
-        <button class="pill" data-spotlight="factories">Factories</button>
-        <button class="pill" data-spotlight="offshore">Hydro, Wind &amp; Offshore</button>
+        <button class="pill" data-spotlight="factories">Factories &amp; Defense</button>
+        <button class="pill" data-spotlight="distribution">Distribution &amp; Offices</button>
         <button class="pill" data-spotlight="pharma">Pharma &amp; R&amp;D</button>
       </div>
     </div>
 
     <div class="segmented-tabs">
       <button class="seg-btn active" id="tabCompanies">
-        Companies (<span id="tabCountCompanies">204</span>)
+        Companies (<span id="tabCountCompanies">334</span>)
       </button>
       <button class="seg-btn" id="tabFacilities">
-        Facilities (<span id="tabCountFacilities">275</span>)
+        Facilities (<span id="tabCountFacilities">410</span>)
       </button>
     </div>
 
@@ -69,6 +78,7 @@
       <div class="toolbar-group">
         <label class="toggle-check"><input type="checkbox" id="toggleHqs" checked /> HQs</label>
         <label class="toggle-check"><input type="checkbox" id="toggleFacilities" checked /> Facilities</label>
+        <label class="toggle-check"><input type="checkbox" id="toggleLogos" checked /> Logos</label>
         <label class="toggle-check"><input type="checkbox" id="toggleAllBuildings" checked /> All Buildings</label>
         <label class="toggle-check"><input type="checkbox" id="toggle3d" /> 3D Roofs</label>
         <label class="toggle-check"><input type="checkbox" id="toggleLines" checked /> Links</label>
@@ -88,12 +98,15 @@
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <script src="data/hq_companies_part1.js"></script>
   <script src="data/hq_companies_part2.js"></script>
+  <script src="data/hq_companies_spn.js"></script>
   <script src="data/facilities_expansion.js"></script>
   <script src="data/facilities_expansion_part2.js"></script>
   <script src="data/facilities_expansion_part3.js"></script>
   <script src="data/facilities_expansion_part4.js"></script>
   <script src="data/facilities_expansion_part5.js"></script>
   <script src="data/facilities_expansion_part6.js"></script>
+  <script src="data/facilities_expansion_part7.js"></script>
+  <script src="data/facilities_expansion_part8.js"></script>
   <script src="data/company_intelligence.js"></script>
   <script src="data/company_intelligence_part2.js"></script>
   <script src="data/company_intelligence_part3.js"></script>

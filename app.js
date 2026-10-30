@@ -1,21 +1,5 @@
-// Nordic Portfolio Atlas — MapLibre GL + OpenFreeMap Vector Edition
+// Nordic Portfolio Atlas — SPN + SFT Unified MapLibre GL + OpenFreeMap Vector Edition
 (function () {
-  const companies = [
-    ...(window.HQ_COMPANIES_PART1 || []),
-    ...(window.HQ_COMPANIES_PART2 || [])
-  ].sort((a, b) => a.rank - b.rank);
-
-  const facilities = [
-    ...(window.FACILITIES_EXPANSION || []),
-    ...(window.FACILITIES_EXPANSION_PART2 || []),
-    ...(window.FACILITIES_EXPANSION_PART3 || []),
-    ...(window.FACILITIES_EXPANSION_PART4 || []),
-    ...(window.FACILITIES_EXPANSION_PART5 || []),
-    ...(window.FACILITIES_EXPANSION_PART6 || [])
-  ];
-
-  const intel = (window.COMPANY_INTELLIGENCE && window.COMPANY_INTELLIGENCE.byRank) || {};
-
   const SECTOR_COLORS = {
     "Industri": "#d97706",
     "Finans": "#2563eb",
@@ -31,6 +15,7 @@
   };
 
   const FACILITY_COLORS = {
+    "Oil & Gas Drilling / Platform": "#b45309",
     "Aquaculture & Fishery": "#0284c7",
     "Factory & Manufacturing": "#d97706",
     "Mill, Smelter & Mine": "#e11d48",
@@ -40,7 +25,186 @@
     "Filial, Logistics & Subsidiary HQ": "#059669"
   };
 
-  const FISH_COMPANY_RANKS = new Set([90, 192, 173, 157, 151, 63, 153, 106]);
+  function normName(str) {
+    return String(str || "")
+      .toLowerCase()
+      .replace(/\b(asa|ab|oyj|a\/s|plc|group|holding|holdings|konsern)\b/g, "")
+      .replace(/[^a-z0-9æøåäö]/g, "")
+      .trim();
+  }
+
+  // Build Unified SPN + SFT Company List (Deduplicating Dual-Held Companies by issuerId / Name)
+  function buildUnifiedCompanies() {
+    const sftRaw = [
+      ...(window.HQ_COMPANIES_PART1 || []),
+      ...(window.HQ_COMPANIES_PART2 || [])
+    ];
+    const spnRaw = [...(window.HQ_COMPANIES_SPN || [])];
+
+    const byKey = new Map();
+
+    sftRaw.forEach((c) => {
+      const key = c.issuerId || normName(c.name);
+      byKey.set(key, {
+        ...c,
+        sftRank: c.rank,
+        spnRank: null,
+        funds: ["SFT"],
+        sftMarketValue: Number(c.marketValue) || 0,
+        spnMarketValue: 0,
+        marketValue: Number(c.marketValue) || 0,
+        sftOwnership: Number(c.ownershipPercent) || 0,
+        spnOwnership: 0
+      });
+    });
+
+    spnRaw.forEach((spn) => {
+      let existing = byKey.get(spn.issuerId);
+      if (!existing) {
+        const nTarget = normName(spn.name);
+        for (const item of byKey.values()) {
+          if (normName(item.name) === nTarget) {
+            existing = item;
+            break;
+          }
+        }
+      }
+
+      if (existing) {
+        if (!existing.funds.includes("SPN")) existing.funds.unshift("SPN");
+        existing.spnRank = spn.spnRank;
+        existing.spnMarketValue = Number(spn.marketValue) || 0;
+        existing.marketValue = Number((existing.sftMarketValue + existing.spnMarketValue).toFixed(2));
+        existing.spnOwnership = Number(spn.ownershipPercent) || 0;
+        existing.ownershipPercent = Number((existing.sftOwnership + existing.spnOwnership).toFixed(2));
+      } else {
+        const key = spn.issuerId || normName(spn.name);
+        byKey.set(key, {
+          ...spn,
+          sftRank: null,
+          spnRank: spn.spnRank,
+          funds: ["SPN"],
+          sftMarketValue: 0,
+          spnMarketValue: Number(spn.marketValue) || 0,
+          marketValue: Number(spn.marketValue) || 0,
+          sftOwnership: 0,
+          spnOwnership: Number(spn.ownershipPercent) || 0
+        });
+      }
+    });
+
+    const unified = Array.from(byKey.values()).sort((a, b) => b.marketValue - a.marketValue);
+    unified.forEach((c, idx) => {
+      c.rank = idx + 1;
+    });
+    return unified;
+  }
+
+  const companies = buildUnifiedCompanies();
+
+  // Map lookup tables for linking all 410 facilities to their unified parent company
+  const companyBySftRank = {};
+  const companyByNormName = {};
+  const companyByRank = {};
+
+  companies.forEach((c) => {
+    companyByRank[c.rank] = c;
+    if (c.sftRank) companyBySftRank[c.sftRank] = c;
+    companyByNormName[normName(c.name)] = c;
+  });
+
+  const PARENT_ALIASES = {
+    "carlsberg": "carlsbergbreweries",
+    "sca": "svenskacellulosa",
+    "svenskacellulosasca": "svenskacellulosa",
+    "nibe": "nibeindustrier",
+    "autostore": "autostore",
+    "tokmanni": "tokmanni",
+    "upm": "upmkymmene",
+    "seb": "skandinaviskaenskildabanken",
+    "handelsbanken": "svenskahandelsbanken",
+    "visma": "synaferdeierselskapivisma",
+    "sparebank1srnorge": "sparebank1srnorge",
+    "leroyseafood": "leroyseafood"
+  };
+
+  const rawFacilities = [
+    ...(window.FACILITIES_EXPANSION || []),
+    ...(window.FACILITIES_EXPANSION_PART2 || []),
+    ...(window.FACILITIES_EXPANSION_PART3 || []),
+    ...(window.FACILITIES_EXPANSION_PART4 || []),
+    ...(window.FACILITIES_EXPANSION_PART5 || []),
+    ...(window.FACILITIES_EXPANSION_PART6 || []),
+    ...(window.FACILITIES_EXPANSION_PART7 || []),
+    ...(window.FACILITIES_EXPANSION_PART8 || [])
+  ];
+
+  const facilities = rawFacilities.map((f) => {
+    const nParent = normName(f.parentName);
+    const aliased = PARENT_ALIASES[nParent] || nParent;
+    let parent = companyByNormName[aliased];
+    if (!parent && f.parentRank && companyBySftRank[f.parentRank]) {
+      parent = companyBySftRank[f.parentRank];
+    }
+    if (!parent) {
+      parent = companies.find(
+        (c) => normName(c.name).includes(aliased) || aliased.includes(normName(c.name))
+      );
+    }
+    return {
+      ...f,
+      sftParentRank: f.parentRank || (parent ? parent.sftRank : null),
+      parentRank: parent ? parent.rank : f.parentRank || 1,
+      parentName: parent ? parent.name : f.parentName
+    };
+  });
+
+  const intelBySftRank = (window.COMPANY_INTELLIGENCE && window.COMPANY_INTELLIGENCE.byRank) || {};
+
+  // --- Logo Helper Functions ---
+  function getCompanyDomain(website) {
+    if (!website) return "";
+    try {
+      const u = new URL(website.startsWith("http") ? website : "https://" + website);
+      return u.hostname.replace(/^www\./, "");
+    } catch (e) {
+      return "";
+    }
+  }
+
+  function getCompanyInitials(name) {
+    const words = String(name || "")
+      .replace(/[^A-Za-z0-9ÆØÅÄÖæøåäö\s]/g, "")
+      .trim()
+      .split(/\s+/);
+    if (words.length >= 2) {
+      return (words[0][0] + words[1][0]).toUpperCase();
+    }
+    return String(name || "HQ").slice(0, 2).toUpperCase();
+  }
+
+  function renderLogoHtml(company, boxClass = "logo-box") {
+    if (!company) return "";
+    const domain = getCompanyDomain(company.website);
+    const color = SECTOR_COLORS[company.sector] || "#2563eb";
+    const initials = getCompanyInitials(company.name);
+    if (!domain) {
+      return `<span class="${boxClass}"><span class="logo-fallback" style="background:${color}">${initials}</span></span>`;
+    }
+    const logoUrl = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
+    return `<span class="${boxClass}"><img src="${logoUrl}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" /><span class="logo-fallback" style="display:none;background:${color}">${initials}</span></span>`;
+  }
+
+  function renderFundBadge(c) {
+    if (!c || !c.funds) return "";
+    if (c.funds.length > 1) {
+      return `<span class="fund-badge fund-both" title="Held in both SPN (${c.spnMarketValue}M) and SFT (${c.sftMarketValue}M)">SPN+SFT</span>`;
+    }
+    if (c.funds[0] === "SPN") {
+      return `<span class="fund-badge fund-spn" title="Statens pensjonsfond Norge">SPN</span>`;
+    }
+    return `<span class="fund-badge fund-sft" title="Statens fond i Tromsø">SFT</span>`;
+  }
 
   let activeTab = "companies";
   let activeSpotlight = "all";
@@ -48,10 +212,9 @@
   let selectedFacilityId = null;
   let currentStyleKey = "positron";
 
-  // Cache of exact OSM footprints fetched via Overpass or vector tiles keyed by entity key
   const exactFootprintCache = new Map();
-  // Live Overpass polygons for currently inspected/zoomed entities
   let overpassFeatures = [];
+  let activeLogoMarkers = [];
 
   const STYLE_URLS = {
     positron: "https://tiles.openfreemap.org/styles/positron",
@@ -61,8 +224,8 @@
   const map = new maplibregl.Map({
     container: "map",
     style: STYLE_URLS.positron,
-    center: [13.5, 61.5],
-    zoom: 4.6,
+    center: [12.5, 61.2],
+    zoom: 4.5,
     pitch: 0,
     bearing: 0,
     attributionControl: true
@@ -76,7 +239,7 @@
     offset: 10
   });
 
-  // --- Geometry Helpers for Exact Building Alignment ---
+  // --- Geometry Helpers for Exact Building Alignment & Offshore Structures ---
   function distanceMeters(lat1, lng1, lat2, lng2) {
     const R = 6371000;
     const dLat = ((lat2 - lat1) * Math.PI) / 180;
@@ -137,7 +300,21 @@
     return ring;
   }
 
-  // Generate marine sea-cage net-pen rings ONLY for in-sea aquaculture farms (where no land houses exist)
+  function createRectRing(lng, lat, widthM, heightM) {
+    const latRad = (lat * Math.PI) / 180;
+    const mPerDegLat = 111320;
+    const mPerDegLng = 111320 * Math.cos(latRad);
+    const hw = widthM / 2 / mPerDegLng;
+    const hh = heightM / 2 / mPerDegLat;
+    return [
+      [lng - hw, lat - hh],
+      [lng + hw, lat - hh],
+      [lng + hw, lat + hh],
+      [lng - hw, lat + hh],
+      [lng - hw, lat - hh]
+    ];
+  }
+
   function isMarineSeaCageSite(f) {
     if (f.facilityType !== "Aquaculture & Fishery") return false;
     const txt = (f.name + " " + f.description).toLowerCase();
@@ -147,8 +324,13 @@
       txt.includes("marine salmon") ||
       txt.includes("marine farm") ||
       txt.includes("locality no.") ||
-      txt.includes("in-sea")
+      txt.includes("in-sea") ||
+      txt.includes("ocean farm")
     );
+  }
+
+  function isOffshorePlatformSite(f) {
+    return f.facilityType === "Oil & Gas Drilling / Platform";
   }
 
   function generateMarineSeaCageFeatures(f, color) {
@@ -156,7 +338,6 @@
     const mPerDegLat = 111320;
     const mPerDegLng = 111320 * Math.cos(latRad);
     const features = [];
-    // 2x5 circular marine net-pen cage grid in the fjord
     const cols = [-80, -40, 0, 40, 80];
     const rows = [-22, 22];
     rows.forEach((dy) => {
@@ -183,8 +364,85 @@
     return features;
   }
 
+  // Generate realistic offshore oil/gas platform deck modules + helideck in the North Sea / Norwegian Sea / Barents Sea
+  function generateOffshorePlatformFeatures(f, color) {
+    const latRad = (f.lat * Math.PI) / 180;
+    const mPerDegLat = 111320;
+    const mPerDegLng = 111320 * Math.cos(latRad);
+    const dLng = (m) => m / mPerDegLng;
+    const dLat = (m) => m / mPerDegLat;
+
+    return [
+      // Main Drilling & Riser Platform Module
+      {
+        type: "Feature",
+        properties: {
+          color,
+          name: f.name,
+          subtitle: `${f.parentName} · Offshore Drilling & Production Deck`,
+          entityType: "facility",
+          entityId: f.id,
+          height: 48
+        },
+        geometry: {
+          type: "Polygon",
+          coordinates: [createRectRing(f.lng - dLng(38), f.lat, 58, 42)]
+        }
+      },
+      // Living Quarters & Processing Platform Module
+      {
+        type: "Feature",
+        properties: {
+          color,
+          name: f.name,
+          subtitle: `${f.parentName} · Offshore Processing & Quarters Platform`,
+          entityType: "facility",
+          entityId: f.id,
+          height: 38
+        },
+        geometry: {
+          type: "Polygon",
+          coordinates: [createRectRing(f.lng + dLng(42), f.lat, 52, 38)]
+        }
+      },
+      // Gangway Bridge Link
+      {
+        type: "Feature",
+        properties: {
+          color: "#475569",
+          name: f.name,
+          subtitle: `${f.parentName} · Offshore Gangway Bridge`,
+          entityType: "facility",
+          entityId: f.id,
+          height: 26
+        },
+        geometry: {
+          type: "Polygon",
+          coordinates: [createRectRing(f.lng + dLng(2), f.lat, 28, 8)]
+        }
+      },
+      // Octagonal Helideck
+      {
+        type: "Feature",
+        properties: {
+          color: "#0ea5e9",
+          name: f.name,
+          subtitle: `${f.parentName} · Offshore Helideck`,
+          entityType: "facility",
+          entityId: f.id,
+          height: 44
+        },
+        geometry: {
+          type: "Polygon",
+          coordinates: [createCircleRing(f.lng + dLng(62), f.lat + dLat(18), 15, 8)]
+        }
+      }
+    ];
+  }
+
   function getFilteredData() {
     const q = (document.getElementById("searchInput").value || "").trim().toLowerCase();
+    const fundFilter = document.getElementById("fundSelect").value;
     const countryFilter = document.getElementById("countrySelect").value;
     const sectorFilter = document.getElementById("sectorSelect").value;
 
@@ -195,18 +453,69 @@
     });
 
     const filteredCompanies = companies.filter((c) => {
+      if (fundFilter === "SPN" && !c.funds.includes("SPN")) return false;
+      if (fundFilter === "SFT" && !c.funds.includes("SFT")) return false;
+      if (fundFilter === "BOTH" && c.funds.length < 2) return false;
       if (countryFilter !== "ALL" && c.country !== countryFilter) return false;
       if (sectorFilter !== "ALL" && c.sector !== sectorFilter) return false;
 
       const cFacs = facByRank[c.rank] || [];
-      const cIntel = intel[c.rank];
+      const cIntel = c.sftRank ? intelBySftRank[c.sftRank] : null;
 
-      if (activeSpotlight === "fish" && !FISH_COMPANY_RANKS.has(c.rank)) return false;
-      if (activeSpotlight === "factories" && !cFacs.some((f) => f.facilityType === "Factory & Manufacturing") && c.sector !== "Industri") return false;
-      if (activeSpotlight === "mills" && !cFacs.some((f) => f.facilityType === "Mill, Smelter & Mine") && c.sector !== "Materialer") return false;
-      if (activeSpotlight === "datacenters" && !cFacs.some((f) => f.facilityType === "Data Center, Telecom & Cloud") && c.sector !== "Telekommunikasjon") return false;
-      if (activeSpotlight === "offshore" && !cFacs.some((f) => f.facilityType === "Offshore, Marine & Energy") && c.sector !== "Energi" && c.sector !== "Forsyning") return false;
-      if (activeSpotlight === "pharma" && !cFacs.some((f) => f.facilityType === "R&D, Biotech & Medtech Lab") && c.sector !== "Helse") return false;
+      if (
+        activeSpotlight === "oilgas" &&
+        !cFacs.some(
+          (f) =>
+            f.facilityType === "Oil & Gas Drilling / Platform" ||
+            f.facilityType === "Offshore, Marine & Energy"
+        ) &&
+        c.sector !== "Energi"
+      ) {
+        return false;
+      }
+      if (
+        activeSpotlight === "fish" &&
+        !cFacs.some((f) => f.facilityType === "Aquaculture & Fishery") &&
+        !["mowi", "salmar", "bakkafrost", "leroyseafood", "austevollsf", "griegseafood", "salmonevolution", "biomargroup"].some((k) =>
+          normName(c.name).includes(k)
+        )
+      ) {
+        return false;
+      }
+      if (
+        activeSpotlight === "mills" &&
+        !cFacs.some((f) => f.facilityType === "Mill, Smelter & Mine") &&
+        c.sector !== "Materialer"
+      ) {
+        return false;
+      }
+      if (
+        activeSpotlight === "datacenters" &&
+        !cFacs.some((f) => f.facilityType === "Data Center, Telecom & Cloud") &&
+        c.sector !== "Telekommunikasjon"
+      ) {
+        return false;
+      }
+      if (
+        activeSpotlight === "factories" &&
+        !cFacs.some((f) => f.facilityType === "Factory & Manufacturing") &&
+        c.sector !== "Industri"
+      ) {
+        return false;
+      }
+      if (
+        activeSpotlight === "distribution" &&
+        !cFacs.some((f) => f.facilityType === "Filial, Logistics & Subsidiary HQ")
+      ) {
+        return false;
+      }
+      if (
+        activeSpotlight === "pharma" &&
+        !cFacs.some((f) => f.facilityType === "R&D, Biotech & Medtech Lab") &&
+        c.sector !== "Helse"
+      ) {
+        return false;
+      }
 
       if (q) {
         const matchC =
@@ -216,7 +525,11 @@
           c.hqDescription.toLowerCase().includes(q) ||
           (cIntel && cIntel.ticker && cIntel.ticker.toLowerCase().includes(q));
         const matchF = cFacs.some(
-          (f) => f.name.toLowerCase().includes(q) || f.city.toLowerCase().includes(q) || f.description.toLowerCase().includes(q)
+          (f) =>
+            f.name.toLowerCase().includes(q) ||
+            f.city.toLowerCase().includes(q) ||
+            f.description.toLowerCase().includes(q) ||
+            f.facilityType.toLowerCase().includes(q)
         );
         if (!matchC && !matchF) return false;
       }
@@ -226,12 +539,24 @@
     const visibleRanks = new Set(filteredCompanies.map((c) => c.rank));
 
     const filteredFacilities = facilities.filter((f) => {
+      const parent = companyByRank[f.parentRank];
+      if (fundFilter === "SPN" && parent && !parent.funds.includes("SPN")) return false;
+      if (fundFilter === "SFT" && parent && !parent.funds.includes("SFT")) return false;
+      if (fundFilter === "BOTH" && parent && parent.funds.length < 2) return false;
       if (countryFilter !== "ALL" && f.country !== countryFilter) return false;
-      if (activeSpotlight === "fish" && f.facilityType !== "Aquaculture & Fishery" && !FISH_COMPANY_RANKS.has(f.parentRank)) return false;
-      if (activeSpotlight === "factories" && f.facilityType !== "Factory & Manufacturing") return false;
+
+      if (
+        activeSpotlight === "oilgas" &&
+        f.facilityType !== "Oil & Gas Drilling / Platform" &&
+        f.facilityType !== "Offshore, Marine & Energy"
+      ) {
+        return false;
+      }
+      if (activeSpotlight === "fish" && f.facilityType !== "Aquaculture & Fishery") return false;
       if (activeSpotlight === "mills" && f.facilityType !== "Mill, Smelter & Mine") return false;
       if (activeSpotlight === "datacenters" && f.facilityType !== "Data Center, Telecom & Cloud") return false;
-      if (activeSpotlight === "offshore" && f.facilityType !== "Offshore, Marine & Energy") return false;
+      if (activeSpotlight === "factories" && f.facilityType !== "Factory & Manufacturing") return false;
+      if (activeSpotlight === "distribution" && f.facilityType !== "Filial, Logistics & Subsidiary HQ") return false;
       if (activeSpotlight === "pharma" && f.facilityType !== "R&D, Biotech & Medtech Lab") return false;
 
       if (q) {
@@ -239,7 +564,8 @@
           f.name.toLowerCase().includes(q) ||
           f.parentName.toLowerCase().includes(q) ||
           f.city.toLowerCase().includes(q) ||
-          f.description.toLowerCase().includes(q);
+          f.description.toLowerCase().includes(q) ||
+          f.facilityType.toLowerCase().includes(q);
         if (!matchSelf && !visibleRanks.has(f.parentRank)) return false;
       } else if (sectorFilter !== "ALL" && !visibleRanks.has(f.parentRank)) {
         return false;
@@ -254,7 +580,6 @@
   function setupCustomLayers() {
     if (!map.isStyleLoaded()) return;
 
-    // 1. Add Esri Satellite Raster Source (hidden unless Satellite basemap is active)
     if (!map.getSource("esri-satellite")) {
       map.addSource("esri-satellite", {
         type: "raster",
@@ -290,7 +615,6 @@
       );
     }
 
-    // 2. Enhance OpenFreeMap `openmaptiles` `building` layer so ALL buildings are clearly visible
     if (map.getSource("openmaptiles")) {
       if (!map.getLayer("all-buildings-2d")) {
         map.addLayer(
@@ -366,7 +690,6 @@
       }
     }
 
-    // 3. Portfolio GeoJSON Sources (Zones, Exact Matched Buildings, Links, HQs, Facilities)
     const emptyFC = { type: "FeatureCollection", features: [] };
 
     ["portfolio-zones", "portfolio-buildings", "portfolio-links", "portfolio-facilities", "portfolio-hqs"].forEach((srcId) => {
@@ -375,7 +698,6 @@
       }
     });
 
-    // Site / Industrial / Mine / Sea-Cage Perimeter Zones (Subtle translucent perimeter ring)
     if (!map.getLayer("portfolio-zones-fill")) {
       map.addLayer(
         {
@@ -408,7 +730,6 @@
       );
     }
 
-    // Exact Matched Real Building Footprints (2D Roof Fill + Crisp Border + 3D Extrusion)
     if (!map.getLayer("portfolio-buildings-fill")) {
       map.addLayer(
         {
@@ -459,7 +780,6 @@
       );
     }
 
-    // Parent-to-Facility Network Lines
     if (!map.getLayer("portfolio-links-line")) {
       map.addLayer({
         id: "portfolio-links-line",
@@ -474,7 +794,6 @@
       });
     }
 
-    // Facility Points
     if (!map.getLayer("portfolio-facilities-circle")) {
       map.addLayer({
         id: "portfolio-facilities-circle",
@@ -498,7 +817,6 @@
       });
     }
 
-    // HQ Points
     if (!map.getLayer("portfolio-hqs-circle")) {
       map.addLayer({
         id: "portfolio-hqs-circle",
@@ -544,7 +862,45 @@
     }
   }
 
-  // --- Match Rendered Vector Tile Buildings to Portfolio HQs & Facilities (Zero Misalignment!) ---
+  // --- Floating Map Logo Markers (Prioritized by Market Value & Viewport) ---
+  function updateMapLogoMarkers() {
+    activeLogoMarkers.forEach((m) => m.remove());
+    activeLogoMarkers = [];
+
+    const showLogos = document.getElementById("toggleLogos").checked;
+    const showHqs = document.getElementById("toggleHqs").checked;
+    if (!showLogos || !showHqs) return;
+
+    const { filteredCompanies } = getFilteredData();
+    const bounds = map.getBounds();
+    const zoom = map.getZoom();
+    const maxLogos = zoom >= 11 ? 85 : zoom >= 7 ? 52 : 34;
+
+    const inView = filteredCompanies.filter((c) => bounds.contains([c.lng, c.lat]));
+    // Always include selected company first
+    inView.sort((a, b) => {
+      if (a.rank === selectedCompanyRank) return -1;
+      if (b.rank === selectedCompanyRank) return 1;
+      return b.marketValue - a.marketValue;
+    });
+
+    inView.slice(0, maxLogos).forEach((c) => {
+      const el = document.createElement("div");
+      el.className = "map-logo-marker" + (c.rank === selectedCompanyRank ? " active" : "");
+      el.title = `${c.name} (${c.marketValue} MNOK)`;
+      el.innerHTML = renderLogoHtml(c, "logo-inner");
+      el.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        selectCompany(c.rank, true);
+      });
+      const marker = new maplibregl.Marker({ element: el, anchor: "center" })
+        .setLngLat([c.lng, c.lat])
+        .addTo(map);
+      activeLogoMarkers.push(marker);
+    });
+  }
+
+  // --- Match Rendered Vector Tile Buildings + Offshore Platforms + Marine Sea-Cages ---
   function matchVectorBuildingsToPortfolio() {
     if (!map.isStyleLoaded() || !map.getSource("portfolio-buildings")) return;
 
@@ -557,23 +913,35 @@
       matchedFeatures.map((f) => JSON.stringify(f.geometry.coordinates[0]?.[0] || []))
     );
 
-    // Add marine sea-cage rings for in-fjord salmon localities
     if (showFacilities) {
       filteredFacilities.forEach((f) => {
+        const color = FACILITY_COLORS[f.facilityType] || "#0284c7";
         if (isMarineSeaCageSite(f)) {
-          const color = FACILITY_COLORS[f.facilityType] || "#0284c7";
           generateMarineSeaCageFeatures(f, color).forEach((cageFeat) => {
             matchedFeatures.push(cageFeat);
+          });
+        } else if (isOffshorePlatformSite(f)) {
+          generateOffshorePlatformFeatures(f, color).forEach((platFeat) => {
+            matchedFeatures.push(platFeat);
           });
         }
       });
     }
 
-    // At zoom >= 12.5, extract actual rendered OpenStreetMap building polygons from the vector tiles
     if (map.getZoom() >= 12.5 && map.getLayer("all-buildings-2d")) {
       const bounds = map.getBounds();
 
-      const matchEntityToVectorBuildings = (lng, lat, color, name, subtitle, entityType, entityId, maxRadiusM, allowMultipleInCompound) => {
+      const matchEntityToVectorBuildings = (
+        lng,
+        lat,
+        color,
+        name,
+        subtitle,
+        entityType,
+        entityId,
+        maxRadiusM,
+        allowMultipleInCompound
+      ) => {
         if (!bounds.contains([lng, lat])) return;
         const pt = map.project([lng, lat]);
         const searchPx = allowMultipleInCompound ? 75 : 42;
@@ -620,11 +988,12 @@
           });
         });
 
-        const toAdd = allowMultipleInCompound && compoundMatches.length > 0
-          ? compoundMatches
-          : bestFeature && bestDist <= maxRadiusM
-          ? [bestFeature]
-          : [];
+        const toAdd =
+          allowMultipleInCompound && compoundMatches.length > 0
+            ? compoundMatches
+            : bestFeature && bestDist <= maxRadiusM
+            ? [bestFeature]
+            : [];
 
         toAdd.forEach((item) => {
           const gKey = JSON.stringify(item.polyCoords[0]?.[0] || []);
@@ -667,7 +1036,7 @@
 
       if (showFacilities) {
         filteredFacilities.forEach((f) => {
-          if (isMarineSeaCageSite(f)) return;
+          if (isMarineSeaCageSite(f) || isOffshorePlatformSite(f)) return;
           const color = FACILITY_COLORS[f.facilityType] || "#059669";
           const radius = Math.min(130, Math.max(60, (f.footprintRadiusMeters || 120) * 0.45));
           matchEntityToVectorBuildings(
@@ -706,9 +1075,6 @@
 
     if (!map.isStyleLoaded() || !map.getSource("portfolio-hqs")) return;
 
-    const companyByRank = {};
-    companies.forEach((c) => (companyByRank[c.rank] = c));
-
     const hqFeatures = [];
     const facFeatures = [];
     const linkFeatures = [];
@@ -718,14 +1084,14 @@
       filteredCompanies.forEach((c) => {
         const color = SECTOR_COLORS[c.sector] || "#2563eb";
         const isSelected = selectedCompanyRank === c.rank;
-        const baseRadius = Math.max(4.5, Math.min(10, 3.8 + Math.sqrt(c.marketValue) * 0.3));
+        const baseRadius = Math.max(4.5, Math.min(11, 3.8 + Math.log10(Math.max(10, c.marketValue)) * 1.65));
 
         hqFeatures.push({
           type: "Feature",
           properties: {
             rank: c.rank,
             name: c.name,
-            subtitle: `#${c.rank} · ${c.city} · ${c.marketValue} MNOK`,
+            subtitle: `#${c.rank} (${c.funds.join("+")}) · ${c.city} · ${c.marketValue.toLocaleString()} MNOK`,
             color,
             baseRadius: isSelected ? baseRadius + 2.5 : baseRadius,
             strokeColor: isSelected ? "#0f172a" : "#ffffff",
@@ -753,7 +1119,7 @@
             name: f.name,
             subtitle: `${f.parentName} · ${f.facilityType} (${f.city})`,
             color,
-            baseRadius: isSelected ? 6.5 : 4.5,
+            baseRadius: isSelected ? 6.8 : f.facilityType === "Oil & Gas Drilling / Platform" ? 5.6 : 4.5,
             strokeColor: isSelected ? "#0f172a" : "#ffffff",
             strokeWidth: isSelected ? 2.2 : 1.3
           },
@@ -763,8 +1129,7 @@
           }
         });
 
-        // Subtle site perimeter zone ring for mines, quarries, marine sea-cage farms, wind parks, and industrial sites
-        const zoneRadius = f.footprintRadiusMeters || 140;
+        const zoneRadius = f.footprintRadiusMeters || 150;
         zoneFeatures.push({
           type: "Feature",
           properties: {
@@ -772,7 +1137,8 @@
             name: f.name,
             subtitle: `${f.parentName} · ${f.facilityType}`,
             color,
-            fillOpacity: isMarineSeaCageSite(f) ? 0.18 : 0.11
+            fillOpacity:
+              isMarineSeaCageSite(f) || isOffshorePlatformSite(f) ? 0.2 : 0.11
           },
           geometry: {
             type: "Polygon",
@@ -786,7 +1152,7 @@
             properties: {
               color,
               width: isSelected ? 1.8 : 1.1,
-              opacity: isSelected ? 0.75 : 0.35
+              opacity: isSelected ? 0.78 : 0.35
             },
             geometry: {
               type: "LineString",
@@ -806,6 +1172,7 @@
     map.getSource("portfolio-zones").setData({ type: "FeatureCollection", features: zoneFeatures });
 
     matchVectorBuildingsToPortfolio();
+    updateMapLogoMarkers();
   }
 
   function renderList(filteredCompanies, filteredFacilities, facByRank) {
@@ -815,17 +1182,19 @@
     if (activeTab === "companies") {
       filteredCompanies.forEach((c) => {
         const cFacs = facByRank[c.rank] || [];
-        const color = SECTOR_COLORS[c.sector] || "#2563eb";
         const row = document.createElement("div");
         row.className = "list-row" + (selectedCompanyRank === c.rank ? " selected" : "");
         row.innerHTML = `
           <div class="row-primary">
             <div class="row-name-wrap">
-              <span class="dot" style="background:${color}"></span>
+              ${renderLogoHtml(c, "logo-box")}
               <span class="row-rank">#${c.rank}</span>
               <span class="row-name">${c.name}</span>
             </div>
-            <span class="row-value">${c.marketValue}M</span>
+            <div class="row-right">
+              ${renderFundBadge(c)}
+              <span class="row-value">${c.marketValue.toLocaleString()}M</span>
+            </div>
           </div>
           <div class="row-secondary">
             <span>${c.city}, ${c.country} · ${c.sector}</span>
@@ -837,19 +1206,21 @@
       });
     } else {
       filteredFacilities.forEach((f) => {
+        const parent = companyByRank[f.parentRank];
         const color = FACILITY_COLORS[f.facilityType] || "#059669";
         const row = document.createElement("div");
         row.className = "list-row" + (selectedFacilityId === f.id ? " selected" : "");
         row.innerHTML = `
           <div class="row-primary">
             <div class="row-name-wrap">
-              <span class="dot" style="background:${color}"></span>
+              ${parent ? renderLogoHtml(parent, "logo-box") : `<span class="dot" style="background:${color}"></span>`}
               <span class="row-name">${f.name}</span>
             </div>
+            <span class="site-tag" style="color:${color}">${f.facilityType.split(",")[0]}</span>
           </div>
           <div class="row-secondary">
             <span>${f.parentName} · ${f.city}, ${f.country}</span>
-            <span class="site-tag">${f.facilityType.split(",")[0]}</span>
+            ${parent ? renderFundBadge(parent) : ""}
           </div>
         `;
         row.addEventListener("click", () => selectFacility(f.id, true));
@@ -861,7 +1232,7 @@
   function selectCompany(rank, flyTo = true) {
     selectedCompanyRank = rank;
     selectedFacilityId = null;
-    const c = companies.find((item) => item.rank === rank);
+    const c = companyByRank[rank];
     if (!c) return;
 
     const cFacs = facilities.filter((f) => f.parentRank === rank);
@@ -887,7 +1258,7 @@
     selectedFacilityId = facId;
     selectedCompanyRank = f.parentRank;
 
-    const parent = companies.find((c) => c.rank === f.parentRank);
+    const parent = companyByRank[f.parentRank];
     const siblingFacs = facilities.filter((item) => item.parentRank === f.parentRank);
     renderAll();
     showFacilitySheet(f, parent, siblingFacs);
@@ -895,25 +1266,27 @@
     if (flyTo) {
       map.flyTo({
         center: [f.lng, f.lat],
-        zoom: 15.8,
+        zoom: isOffshorePlatformSite(f) ? 15.2 : 15.8,
         pitch: document.getElementById("toggle3d").checked ? 52 : 0,
         duration: 950
       });
     }
 
-    const color = FACILITY_COLORS[f.facilityType] || "#059669";
-    fetchExactOsmFootprints(
-      f.lat,
-      f.lng,
-      Math.max(160, f.footprintRadiusMeters || 180),
-      color,
-      f.name,
-      `${f.parentName} · ${f.facilityType}`,
-      true
-    );
+    if (!isOffshorePlatformSite(f) && !isMarineSeaCageSite(f)) {
+      const color = FACILITY_COLORS[f.facilityType] || "#059669";
+      fetchExactOsmFootprints(
+        f.lat,
+        f.lng,
+        Math.max(160, f.footprintRadiusMeters || 180),
+        color,
+        f.name,
+        `${f.parentName} · ${f.facilityType}`,
+        true
+      );
+    }
   }
 
-  // --- Overpass Exact Building & Industrial Landuse Matcher (Only colours the actual target building/industrial site!) ---
+  // --- Overpass Exact Building & Industrial Landuse Matcher ---
   async function fetchExactOsmFootprints(lat, lng, radiusMeters, color, name, subtitle, isFacility) {
     const cacheKey = `${lat.toFixed(4)},${lng.toFixed(4)},${isFacility ? "F" : "H"}`;
     if (exactFootprintCache.has(cacheKey)) {
@@ -965,7 +1338,6 @@
       if (el.type === "way" && el.nodes && el.nodes.length >= 4) {
         const ring = el.nodes.map((nid) => nodes[nid]).filter(Boolean);
         if (ring.length < 4) return;
-        // Close ring if needed
         if (ring[0][0] !== ring[ring.length - 1][0] || ring[0][1] !== ring[ring.length - 1][1]) {
           ring.push([ring[0][0], ring[0][1]]);
         }
@@ -994,7 +1366,6 @@
 
     const selected = [];
     if (!isFacility) {
-      // For an HQ building: pick ONLY the exact building(s) containing [lng,lat], matching the company name, or the single closest building within 55m
       buildingCandidates.forEach((b, idx) => {
         if (b.inside || b.nameMatch || (idx === 0 && b.dist <= 55)) {
           selected.push({
@@ -1013,7 +1384,6 @@
         }
       });
     } else {
-      // For an industrial facility / mine / data center / fish plant: colour buildings within 130m of center or inside the enclosing industrial landuse
       const primaryLanduse = landusePolys[0];
       buildingCandidates.forEach((b, idx) => {
         const inIndustrial =
@@ -1052,14 +1422,24 @@
 
   function showCompanySheet(c, cFacs) {
     const sheet = document.getElementById("inspectorCard");
-    const cIntel = intel[c.rank];
+    const cIntel = c.sftRank ? intelBySftRank[c.sftRank] : null;
+    const fundBreakdown =
+      c.funds.length > 1
+        ? `SPN: ${c.spnMarketValue.toLocaleString()}M · SFT: ${c.sftMarketValue.toLocaleString()}M`
+        : `${c.funds[0]} Holding`;
 
     sheet.innerHTML = `
       <div class="sheet-top">
-        <div>
-          <div class="sheet-kicker">#${c.rank} · ${c.sector} · ${c.country}${cIntel && cIntel.ticker ? ` · ${cIntel.ticker}` : ""}</div>
-          <div class="sheet-title">${c.name}</div>
-          <div class="sheet-sub">${c.address}</div>
+        <div class="sheet-head-left">
+          ${renderLogoHtml(c, "sheet-logo")}
+          <div>
+            <div class="sheet-kicker">
+              <span>#${c.rank} · ${c.sector} · ${c.country}${cIntel && cIntel.ticker ? ` · ${cIntel.ticker}` : ""}</span>
+              ${renderFundBadge(c)}
+            </div>
+            <div class="sheet-title">${c.name}</div>
+            <div class="sheet-sub">${c.address}</div>
+          </div>
         </div>
         <button class="close-btn" id="closeSheetBtn">&times;</button>
       </div>
@@ -1067,15 +1447,15 @@
       <div class="metrics-strip">
         <div class="metric-item">
           <div class="m-lbl">Market Value</div>
-          <div class="m-val">${c.marketValue} MNOK</div>
+          <div class="m-val">${c.marketValue.toLocaleString()} MNOK</div>
         </div>
         <div class="metric-item">
           <div class="m-lbl">Ownership</div>
           <div class="m-val">${(Number(c.ownershipPercent) || 0).toFixed(2)}%</div>
         </div>
         <div class="metric-item">
-          <div class="m-lbl">Portfolio Weight</div>
-          <div class="m-val">${(Number(c.percentOfFund) || 0).toFixed(2)}%</div>
+          <div class="m-lbl">Fund Allocation</div>
+          <div class="m-val" style="font-size:11px;">${fundBreakdown}</div>
         </div>
       </div>
 
@@ -1093,7 +1473,7 @@
       ${
         cFacs.length > 0
           ? `
-        <div class="sub-list-title">Filials, Farms, Mines &amp; Facilities (${cFacs.length})</div>
+        <div class="sub-list-title">Platforms, Farms, Mines, Smelters &amp; Offices (${cFacs.length})</div>
         <div class="sub-list">
           ${cFacs
             .map(
@@ -1147,10 +1527,16 @@
     const sheet = document.getElementById("inspectorCard");
     sheet.innerHTML = `
       <div class="sheet-top">
-        <div>
-          <div class="sheet-kicker">${f.facilityType}</div>
-          <div class="sheet-title">${f.name}</div>
-          <div class="sheet-sub">${f.address} (${f.city}, ${f.country})</div>
+        <div class="sheet-head-left">
+          ${parent ? renderLogoHtml(parent, "sheet-logo") : ""}
+          <div>
+            <div class="sheet-kicker">
+              <span>${f.facilityType}</span>
+              ${parent ? renderFundBadge(parent) : ""}
+            </div>
+            <div class="sheet-title">${f.name}</div>
+            <div class="sheet-sub">${f.address} (${f.city}, ${f.country})</div>
+          </div>
         </div>
         <button class="close-btn" id="closeSheetBtn">&times;</button>
       </div>
@@ -1171,6 +1557,7 @@
       <div class="sheet-actions">
         <button class="action-btn" id="btnZoomFac">Zoom to Site</button>
         ${parent ? `<button class="action-btn" id="btnFitFacNet">Show Full Network</button>` : ""}
+        ${parent && parent.website ? `<a class="action-btn" href="${parent.website}" target="_blank" rel="noopener">Website ↗</a>` : ""}
       </div>
     `;
 
@@ -1188,7 +1575,7 @@
     document.getElementById("btnZoomFac").onclick = () =>
       map.flyTo({
         center: [f.lng, f.lat],
-        zoom: 17.0,
+        zoom: isOffshorePlatformSite(f) ? 16.2 : 17.0,
         pitch: document.getElementById("toggle3d").checked ? 55 : 0,
         duration: 800
       });
@@ -1250,6 +1637,7 @@
 
     map.on("moveend", () => {
       matchVectorBuildingsToPortfolio();
+      updateMapLogoMarkers();
     });
 
     map.on("idle", () => {
@@ -1267,10 +1655,11 @@
     });
 
     document.getElementById("searchInput").addEventListener("input", renderAll);
+    document.getElementById("fundSelect").addEventListener("change", renderAll);
     document.getElementById("countrySelect").addEventListener("change", renderAll);
     document.getElementById("sectorSelect").addEventListener("change", renderAll);
 
-    ["toggleHqs", "toggleFacilities", "toggleLines"].forEach((id) => {
+    ["toggleHqs", "toggleFacilities", "toggleLogos", "toggleLines"].forEach((id) => {
       document.getElementById(id).addEventListener("change", renderAll);
     });
 
@@ -1345,7 +1734,7 @@
       selectedFacilityId = null;
       overpassFeatures = [];
       document.getElementById("inspectorCard").classList.remove("visible");
-      map.flyTo({ center: [13.5, 61.5], zoom: 4.6, pitch: 0, bearing: 0, duration: 800 });
+      map.flyTo({ center: [12.5, 61.2], zoom: 4.5, pitch: 0, bearing: 0, duration: 800 });
       renderAll();
     });
   }
