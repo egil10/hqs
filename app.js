@@ -751,6 +751,26 @@
     });
   }
 
+  // Place labels appear later than the base style's defaults so the zoomed-out map stays clean
+  const LABEL_MIN_ZOOM = {
+    label_city_capital: 6,
+    label_city: 7,
+    label_town: 9.5,
+    label_village: 11.5,
+    label_other: 11.5,
+    waterway_line_label: 12
+  };
+
+  function delayPlaceLabels() {
+    Object.entries(LABEL_MIN_ZOOM).forEach(([id, minZoom]) => {
+      const layer = map.getLayer(id);
+      if (!layer) return;
+      try {
+        map.setLayerZoomRange(id, Math.max(minZoom, layer.minzoom || 0), layer.maxzoom != null ? layer.maxzoom : 24);
+      } catch (e) {}
+    });
+  }
+
   const LIGHT_DUPLICATE_LABELS = [
     "water_name_point_label",
     "water_name_line_label",
@@ -811,6 +831,7 @@
     if (!mapReady) return;
 
     declutterBaseStyleLayers();
+    delayPlaceLabels();
 
     baseLayerIds = (map.getStyle().layers || [])
       .filter(
