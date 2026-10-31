@@ -367,6 +367,8 @@
   const visibleLogoRanks = new Set();
 
   // --- Map Initialization ---
+  // isStyleLoaded() stays false while any source is still fetching tiles, so gate on our own ready flag instead
+  let mapReady = false;
   const map = new maplibregl.Map({
     container: "map",
     style: "https://tiles.openfreemap.org/styles/liberty",
@@ -639,7 +641,7 @@
 
   // --- Declutter Base Map (Hide Shops, Trains, Restaurants, Shields) ---
   function declutterBaseStyleLayers() {
-    if (!map.isStyleLoaded()) return;
+    if (!mapReady) return;
     const layers = map.getStyle().layers || [];
 
     layers.forEach((lyr) => {
@@ -664,8 +666,18 @@
     });
   }
 
+  const LIGHT_DUPLICATE_LABELS = [
+    "water_name_point_label",
+    "water_name_line_label",
+    "label_other",
+    "label_state",
+    "label_country_1",
+    "label_country_2",
+    "label_country_3"
+  ];
+
   function applyBasemapMode() {
-    if (!map.isStyleLoaded()) return;
+    if (!mapReady) return;
 
     if (map.getLayer("carto-light-layer")) {
       map.setLayoutProperty(
@@ -682,24 +694,31 @@
         currentBasemap === "satellite" ? "visible" : "none"
       );
     }
+
+    // The light raster already carries country, region and sea names; hide the vector duplicates
+    LIGHT_DUPLICATE_LABELS.forEach((id) => {
+      if (map.getLayer(id)) {
+        map.setLayoutProperty(id, "visibility", currentBasemap === "light" ? "none" : "visible");
+      }
+    });
   }
 
   // --- Setup Map Layers ---
   function setupCustomLayers() {
-    if (!map.isStyleLoaded()) return;
+    if (!mapReady) return;
 
     declutterBaseStyleLayers();
 
     if (!map.getSource("carto-light")) {
       map.addSource("carto-light", {
         type: "raster",
+        // CARTO's light_all tiles now require an API key (they render an "API KEY REQUIRED" watermark),
+        // so the Light basemap uses Esri's keyless World Light Gray canvas instead
         tiles: [
-          "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png",
-          "https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png",
-          "https://c.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png"
+          "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
         ],
         tileSize: 256,
-        maxzoom: 19
+        maxzoom: 16
       });
     }
 
@@ -913,12 +932,13 @@
       });
     }
 
+    applyBasemapMode();
     renderAll();
   }
 
   // --- Single-Building Exact Matcher ---
   function matchVectorBuildingsToPortfolio() {
-    if (!map.isStyleLoaded() || !map.getSource("portfolio-buildings")) return;
+    if (!mapReady || !map.getSource("portfolio-buildings")) return;
 
     const { filteredCompanies, filteredFacilities } = getFilteredData();
     const matchedFeatures = [];
@@ -1124,7 +1144,7 @@
 
     renderList(filteredCompanies, activeFacilities, facByRank);
 
-    if (!map.isStyleLoaded() || !map.getSource("portfolio-hqs")) return;
+    if (!mapReady || !map.getSource("portfolio-hqs")) return;
 
     const hqFeatures = filteredCompanies.map((c) => {
       const color = SECTOR_COLORS[c.sector] || "#2563eb";
@@ -1703,9 +1723,15 @@
   document.addEventListener("DOMContentLoaded", ingestFacilityAdditions);
   window.addEventListener("load", ingestFacilityAdditions);
 
-  map.on("load", () => {
+  // "style.load" fires as soon as the style JSON is parsed, long before every basemap tile has arrived
+  // ("load"), so pins and site layers appear immediately; "load" is kept as a fallback.
+  function onMapStyleReady() {
+    if (mapReady) return;
+    mapReady = true;
     setupCustomLayers();
     bindMapInteractions();
     ingestFacilityAdditions();
-  });
+  }
+  map.once("style.load", onMapStyleReady);
+  map.once("load", onMapStyleReady);
 })();
