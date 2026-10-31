@@ -40,58 +40,84 @@
     "Filial, Logistics & Subsidiary HQ": "#475569"
   };
 
-  const COUNTRY_FLAGS = {
-    "Norge": "🇳🇴",
-    "Norway": "🇳🇴",
-    "Sverige": "🇸🇪",
-    "Sweden": "🇸🇪",
-    "Danmark": "🇩🇰",
-    "Denmark": "🇩🇰",
-    "Finland": "🇫🇮",
-    "Island": "🇮🇸",
-    "Iceland": "🇮🇸",
-    "Færøyene": "🇫🇴",
-    "Faroe Islands": "🇫🇴",
-    "Tyskland": "🇩🇪",
-    "Germany": "🇩🇪",
-    "Storbritannia": "🇬🇧",
-    "UK": "🇬🇧",
-    "United Kingdom": "🇬🇧",
-    "USA": "🇺🇸",
-    "United States": "🇺🇸",
-    "Brasil": "🇧🇷",
-    "Brazil": "🇧🇷",
-    "Gabon": "🇬🇦",
-    "Ekvatorial-Guinea": "🇬🇶",
-    "Tunisia": "🇹🇳",
-    "Polen": "🇵🇱",
-    "Belgia": "🇧🇪",
-    "Nederland": "🇳🇱",
-    "Frankrike": "🇫🇷",
-    " Sveits": "🇨🇭",
-    "Sveits": "🇨🇭",
-    "Spania": "🇪🇸",
-    "Italia": "🇮🇹",
-    "Canada": "🇨🇦",
-    "Singapore": "🇸🇬",
-    "Kina": "🇨🇳"
+  const COUNTRY_NAMES = {
+    "Norge": "Norway",
+    "Sverige": "Sweden",
+    "Danmark": "Denmark",
+    "Island": "Iceland",
+    "Færøyene": "Faroe Islands",
+    "Tyskland": "Germany",
+    "Storbritannia": "UK",
+    "United Kingdom": "UK",
+    "United States": "USA",
+    "Brasil": "Brazil",
+    "Ekvatorial-Guinea": "Equatorial Guinea",
+    "Polen": "Poland",
+    "Belgia": "Belgium",
+    "Nederland": "Netherlands",
+    "Frankrike": "France",
+    " Sveits": "Switzerland",
+    "Sveits": "Switzerland",
+    "Spania": "Spain",
+    "Italia": "Italy",
+    "Kina": "China"
   };
 
-  const FACILITY_LUCIDE_SVG = {
-    "Offshore, Marine & Energy": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
-    "Oil & Gas Drilling / Platform": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
-    "Aquaculture & Fishery": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6s-7.56-2.53-8.5-6Z"/><path d="M18 12v.5"/><path d="M16 17.93a9.77 9.77 0 0 1 0-11.86"/><path d="M7 10.67C7 8 5.58 5.97 2.73 5.5c-1 1.5-1 5 .23 6.5-1.24 1.5-1.24 5-.23 6.5C5.58 18.03 7 16 7 13.33"/></svg>`,
-    "Mill, Smelter & Mine": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>`,
-    "Factory & Manufacturing": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/></svg>`,
-    "Data Center, Telecom & Cloud": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></svg>`,
-    "R&D, Biotech & Medtech Lab": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg>`,
-    "Filial, Logistics & Subsidiary HQ": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>`
+  const SECTOR_LABELS = {
+    "Industri": "Industrials",
+    "Finans": "Financials",
+    "Teknologi": "Technology",
+    "Information Technology": "Technology",
+    "Helse": "Health care",
+    "Health Care": "Health care",
+    "Varige konsumvarer": "Consumer discretionary",
+    "Consumer Discretionary": "Consumer discretionary",
+    "Konsumvarer": "Consumer staples",
+    "Consumer Staples": "Consumer staples",
+    "Materialer": "Materials",
+    "Basic Materials": "Materials",
+    "Eiendom": "Real estate",
+    "Real Estate": "Real estate",
+    "Telekommunikasjon": "Telecom",
+    "Communication Services": "Telecom",
+    "Telecommunications": "Telecom",
+    "Energi": "Energy",
+    "Forsyning": "Utilities"
   };
 
-  function getMiniTypeIcon(facilityType) {
-    const color = FACILITY_COLORS[facilityType] || "#475569";
-    const svg = FACILITY_LUCIDE_SVG[facilityType] || FACILITY_LUCIDE_SVG["Filial, Logistics & Subsidiary HQ"];
-    return `<span class="mini-type-icon" style="color:${color}">${svg}</span>`;
+  const FACILITY_LABELS = {
+    "Factory & Manufacturing": "Factory",
+    "Mill, Smelter & Mine": "Mining",
+    "R&D, Biotech & Medtech Lab": "Lab",
+    "Offshore, Marine & Energy": "Energy",
+    "Oil & Gas Drilling / Platform": "Energy",
+    "Aquaculture & Fishery": "Seafood",
+    "Data Center, Telecom & Cloud": "Data center",
+    "Filial, Logistics & Subsidiary HQ": "Office"
+  };
+
+  function countryName(c) {
+    return COUNTRY_NAMES[c] || String(c || "").trim();
+  }
+
+  function facilityLabel(t) {
+    return FACILITY_LABELS[t] || "Site";
+  }
+
+  function facilityColor(t) {
+    return FACILITY_COLORS[t] || "#64748b";
+  }
+
+  function typeDot(t) {
+    return `<span class="dot" style="background:${facilityColor(t)}"></span>`;
+  }
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
   }
 
   function shortCompanyName(name) {
@@ -224,6 +250,18 @@
 
   // --- STAGE 2: Progressive Facility & Quote Loader ---
   let facilities = [];
+  let facilitiesByRank = {};
+
+  function indexFacilities() {
+    facilitiesByRank = {};
+    facilities.forEach((f) => {
+      (facilitiesByRank[f.parentRank] || (facilitiesByRank[f.parentRank] = [])).push(f);
+    });
+  }
+
+  function sitesOf(rank) {
+    return facilitiesByRank[rank] || [];
+  }
 
   function attachMarketQuotes() {
     if (!window.MARKET_QUOTES) return false;
@@ -286,12 +324,13 @@
           shortName: shortFacilityName(f.name, pName)
         };
       });
+      indexFacilities();
     }
 
     renderAll();
     if (selectedCompanyRank && !selectedFacilityId) {
       const c = companyByRank[selectedCompanyRank];
-      if (c) showCompanySheet(c, facilities.filter((f) => f.parentRank === selectedCompanyRank));
+      if (c) showCompanySheet(c);
     }
   }
 
@@ -352,6 +391,9 @@
 
   // --- State ---
   let activeTab = "companies"; // "companies" | "grid" | "facilities"
+  let soloRank = null; // when set, the map only shows this company's HQ and sites
+  let current = { filteredCompanies: [], filteredFacilities: [] }; // last filter result (sidebar)
+  let mapData = { companies: [], facilities: [] }; // what the map draws (filters or solo)
   let activeRegion = "ALL";
   let activeType = "all";
   let activeSort = "value_desc";
@@ -363,6 +405,9 @@
   let is3dEnabled = false;
   let currentBasemap = "light";
   let buildingMatchTimer = null;
+  let logoFrame = null;
+  let baseLayerIds = [];
+  let baseBackgroundColor = null;
   const logoMarkerPool = new Map();
   const visibleLogoRanks = new Set();
 
@@ -374,19 +419,32 @@
     style: "https://tiles.openfreemap.org/styles/liberty",
     center: [11.5, 61.5],
     zoom: 4.4,
+    minZoom: 2,
     pitch: 0,
     bearing: 0,
     maxPitch: 65,
+    dragRotate: false,
     attributionControl: false
   });
+  // Rotation is only useful in 3D; keeping it off in 2D avoids accidental tilts/rotations while panning
+  map.touchZoomRotate.disableRotation();
+  map.keyboard.disableRotation();
+  map.touchPitch.disable();
 
-  map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "bottom-left");
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-left");
 
   const hoverPopup = new maplibregl.Popup({
     closeButton: false,
     closeOnClick: false,
-    offset: 10
+    offset: 14
   });
+
+  function showHover(lngLat, title, sub) {
+    hoverPopup
+      .setLngLat(lngLat)
+      .setHTML(`<strong>${escapeHtml(title)}</strong>${sub ? `<span class="pop-sub">${escapeHtml(sub)}</span>` : ""}`)
+      .addTo(map);
+  }
 
   // --- Geometry Helpers ---
   function metersToLngLatStep(lat, dxMeters, dyMeters) {
@@ -541,11 +599,7 @@
     const typeVal = activeType;
     const sortVal = activeSort;
 
-    const facByRank = {};
-    facilities.forEach((f) => {
-      if (!facByRank[f.parentRank]) facByRank[f.parentRank] = [];
-      facByRank[f.parentRank].push(f);
-    });
+    const facByRank = facilitiesByRank;
 
     const filteredCompanies = companies.filter((c) => {
       const cFacs = facByRank[c.rank] || [];
@@ -568,7 +622,8 @@
           c.city.toLowerCase().includes(q) ||
           c.country.toLowerCase().includes(q) ||
           c.sector.toLowerCase().includes(q) ||
-          ticker.includes(q);
+          ticker.includes(q) ||
+          (c.shortName || "").toLowerCase().includes(q);
         const matchF = cFacs.some(
           (f) =>
             f.name.toLowerCase().includes(q) ||
@@ -625,6 +680,20 @@
     return { filteredCompanies, filteredFacilities, facByRank };
   }
 
+  // The map shows the filtered set, or only one company (HQ + every site) when soloed
+  function computeMapData() {
+    if (soloRank && companyByRank[soloRank]) {
+      return {
+        companies: [companyByRank[soloRank]],
+        facilities: showSites ? sitesOf(soloRank) : []
+      };
+    }
+    return {
+      companies: current.filteredCompanies,
+      facilities: showSites ? current.filteredFacilities : []
+    };
+  }
+
   function matchesTypeFilter(f, typeVal) {
     if (typeVal === "all") return true;
     if (typeVal === "oilgas") {
@@ -657,7 +726,8 @@
         id.includes("shield") ||
         id.includes("aeroway") ||
         id.includes("housenumber") ||
-        id.includes("ferry")
+        id.includes("ferry") ||
+        id === "building-3d" // the style's own 3D buildings; ours are toggled by the 3D button
       ) {
         try {
           map.setLayoutProperty(lyr.id, "visibility", "none");
@@ -676,8 +746,26 @@
     "label_country_3"
   ];
 
+  const BASEMAP_BACKGROUND = { light: "#e9e9e7", satellite: "#0b1220" };
+
   function applyBasemapMode() {
     if (!mapReady) return;
+
+    // The raster basemaps sit on top of the vector style. While their tiles load (zooming out, panning)
+    // the vector fills and the colourful Natural Earth relief underneath used to bleed through, so hide
+    // every non-label vector layer and paint a matching neutral background instead.
+    const vectorBase = currentBasemap === "liberty";
+    baseLayerIds.forEach((id) => {
+      if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", vectorBase ? "visible" : "none");
+    });
+    if (map.getLayer("background")) {
+      map.setPaintProperty(
+        "background",
+        "background-color",
+        vectorBase ? baseBackgroundColor || "#f8f4f0" : BASEMAP_BACKGROUND[currentBasemap]
+      );
+    }
+    document.getElementById("map").style.background = vectorBase ? "" : BASEMAP_BACKGROUND[currentBasemap];
 
     if (map.getLayer("carto-light-layer")) {
       map.setLayoutProperty(
@@ -708,6 +796,19 @@
     if (!mapReady) return;
 
     declutterBaseStyleLayers();
+
+    baseLayerIds = (map.getStyle().layers || [])
+      .filter(
+        (l) =>
+          l.type !== "symbol" &&
+          l.type !== "background" &&
+          l.id !== "building-3d" &&
+          map.getLayoutProperty(l.id, "visibility") !== "none"
+      )
+      .map((l) => l.id);
+    if (map.getLayer("background")) {
+      baseBackgroundColor = map.getPaintProperty("background", "background-color");
+    }
 
     if (!map.getSource("carto-light")) {
       map.addSource("carto-light", {
@@ -940,7 +1041,8 @@
   function matchVectorBuildingsToPortfolio() {
     if (!mapReady || !map.getSource("portfolio-buildings")) return;
 
-    const { filteredCompanies, filteredFacilities } = getFilteredData();
+    const filteredCompanies = mapData.companies;
+    const filteredFacilities = mapData.facilities;
     const matchedFeatures = [];
     const bounds = map.getBounds();
     const zoom = map.getZoom();
@@ -948,7 +1050,7 @@
     if (zoom >= 11) {
       filteredFacilities.forEach((f) => {
         if (!bounds.contains([f.lng, f.lat])) return;
-        const color = FACILITY_COLORS[f.facilityType] || "#0284c7";
+        const color = facilityColor(f.facilityType);
         if (isMarineSeaCageSite(f)) {
           matchedFeatures.push(...generateMarineSeaCageFeatures(f, color));
         } else if (isOffshorePlatformSite(f)) {
@@ -981,7 +1083,7 @@
           visibleEntities.push({
             lng: f.lng,
             lat: f.lat,
-            color: FACILITY_COLORS[f.facilityType] || "#059669",
+            color: facilityColor(f.facilityType),
             name: f.shortName || f.name,
             subtitle: f.parentName,
             entityType: "facility",
@@ -1074,19 +1176,42 @@
     }, 80);
   }
 
-  // --- Pooled Map Favicon Markers ---
+  function scheduleLogoUpdate() {
+    if (logoFrame) return;
+    logoFrame = requestAnimationFrame(() => {
+      logoFrame = null;
+      updateMapLogoMarkers();
+    });
+  }
+
+  function plural(n, word) {
+    return `${n} ${word}${n === 1 ? "" : "s"}`;
+  }
+
+  function companyMeta(c) {
+    const n = sitesOf(c.rank).length;
+    return [c.city, n ? plural(n, "site") : ""].filter(Boolean).join(" · ");
+  }
+
+  // --- Pooled Map Logo Markers ---
   function getOrCreateLogoMarker(c) {
     let entry = logoMarkerPool.get(c.rank);
     if (entry) return entry;
 
     const el = document.createElement("div");
     el.className = "map-logo-marker";
-    el.title = c.shortName;
     el.innerHTML = renderLogoHtml(c);
     el.addEventListener("click", (ev) => {
       ev.stopPropagation();
-      selectCompany(c.rank, false);
+      selectCompany(c.rank);
     });
+    el.addEventListener("dblclick", (ev) => {
+      ev.stopPropagation();
+      ev.preventDefault();
+      setSolo(c.rank);
+    });
+    el.addEventListener("mouseenter", () => showHover([c.lng, c.lat], c.shortName, companyMeta(c)));
+    el.addEventListener("mouseleave", () => hoverPopup.remove());
 
     const marker = new maplibregl.Marker({ element: el, anchor: "center" }).setLngLat([c.lng, c.lat]);
     entry = { marker, el };
@@ -1094,119 +1219,111 @@
     return entry;
   }
 
+  // Every HQ in view gets its logo, decluttered in screen space: where logos would overlap the larger
+  // holding (or the selected company) wins and the others fall back to their small dot until you zoom in.
   function updateMapLogoMarkers() {
-    if (!showLogos) {
-      visibleLogoRanks.forEach((rank) => {
-        const entry = logoMarkerPool.get(rank);
-        if (entry) entry.marker.remove();
+    const nextRanks = new Set();
+
+    if (showLogos && mapReady) {
+      const canvas = map.getCanvas();
+      const w = canvas.clientWidth;
+      const h = canvas.clientHeight;
+      const minGap = map.getZoom() >= 12 ? 22 : 28;
+      const placed = [];
+      const ordered = mapData.companies.slice().sort((a, b) => {
+        if (a.rank === selectedCompanyRank) return -1;
+        if (b.rank === selectedCompanyRank) return 1;
+        return b.marketValue - a.marketValue;
       });
-      visibleLogoRanks.clear();
-      return;
+
+      for (const c of ordered) {
+        if (placed.length >= 260) break;
+        const pt = map.project([c.lng, c.lat]);
+        if (pt.x < -20 || pt.y < -20 || pt.x > w + 20 || pt.y > h + 20) continue;
+        if (placed.some((p) => Math.abs(p.x - pt.x) < minGap && Math.abs(p.y - pt.y) < minGap)) continue;
+        placed.push(pt);
+        nextRanks.add(c.rank);
+      }
     }
 
-    const { filteredCompanies } = getFilteredData();
-    const bounds = map.getBounds();
-    const zoom = map.getZoom();
-    const maxLogos = zoom >= 10 ? 85 : zoom >= 6.5 ? 52 : 34;
-
-    const inView = filteredCompanies.filter((c) => bounds.contains([c.lng, c.lat]));
-    inView.sort((a, b) => {
-      if (a.rank === selectedCompanyRank) return -1;
-      if (b.rank === selectedCompanyRank) return 1;
-      return b.marketValue - a.marketValue;
+    nextRanks.forEach((rank) => {
+      const entry = getOrCreateLogoMarker(companyByRank[rank]);
+      entry.el.classList.toggle("active", rank === selectedCompanyRank);
+      if (!visibleLogoRanks.has(rank)) entry.marker.addTo(map);
     });
-
-    const nextRanks = new Set();
-    inView.slice(0, maxLogos).forEach((c) => {
-      nextRanks.add(c.rank);
-      const entry = getOrCreateLogoMarker(c);
-      entry.el.classList.toggle("active", c.rank === selectedCompanyRank);
-      if (!visibleLogoRanks.has(c.rank)) {
-        entry.marker.addTo(map);
-      }
-    });
-
-    visibleLogoRanks.forEach((oldRank) => {
-      if (!nextRanks.has(oldRank)) {
-        const entry = logoMarkerPool.get(oldRank);
+    visibleLogoRanks.forEach((rank) => {
+      if (!nextRanks.has(rank)) {
+        const entry = logoMarkerPool.get(rank);
         if (entry) entry.marker.remove();
       }
     });
-
     visibleLogoRanks.clear();
     nextRanks.forEach((r) => visibleLogoRanks.add(r));
   }
 
   // --- Main Render ---
   function renderAll() {
-    const { filteredCompanies, filteredFacilities, facByRank } = getFilteredData();
-    const activeFacilities = showSites ? filteredFacilities : [];
+    current = getFilteredData();
+    mapData = computeMapData();
 
-    renderList(filteredCompanies, activeFacilities, facByRank);
+    renderList();
+    renderSoloChip();
 
     if (!mapReady || !map.getSource("portfolio-hqs")) return;
 
-    const hqFeatures = filteredCompanies.map((c) => {
-      const color = SECTOR_COLORS[c.sector] || "#2563eb";
+    const hqFeatures = mapData.companies.map((c) => {
       const isSelected = selectedCompanyRank === c.rank;
       return {
         type: "Feature",
         properties: {
           rank: c.rank,
           name: c.shortName,
-          subtitle: c.city,
-          color,
+          subtitle: companyMeta(c),
+          color: SECTOR_COLORS[c.sector] || "#2563eb",
           strokeColor: isSelected ? "#0f172a" : "#ffffff",
           strokeWidth: isSelected ? 2.5 : 1.3
         },
-        geometry: {
-          type: "Point",
-          coordinates: [c.lng, c.lat]
-        }
+        geometry: { type: "Point", coordinates: [c.lng, c.lat] }
       };
     });
 
-    const facFeatures = activeFacilities.map((f) => {
-      const color = FACILITY_COLORS[f.facilityType] || "#059669";
+    const facFeatures = mapData.facilities.map((f) => {
       const isSelected = selectedFacilityId === f.id || selectedCompanyRank === f.parentRank;
+      const parent = companyByRank[f.parentRank];
       return {
         type: "Feature",
         properties: {
           id: f.id,
           parentRank: f.parentRank,
           name: f.shortName || f.name,
-          subtitle: f.city,
-          color,
-          strokeWidth: isSelected ? 2.2 : 1.1
+          subtitle: [parent ? parent.shortName : f.parentName, facilityLabel(f.facilityType)].join(" · "),
+          color: facilityColor(f.facilityType),
+          strokeWidth: selectedFacilityId === f.id ? 3 : isSelected ? 2.2 : 1.1
         },
-        geometry: {
-          type: "Point",
-          coordinates: [f.lng, f.lat]
-        }
+        geometry: { type: "Point", coordinates: [f.lng, f.lat] }
       };
     });
 
-    // Connection lines ONLY for the currently selected company
+    // Lines from HQ to sites, only for the selected (or soloed) company
     const linkFeatures = [];
-    if (showSites && showLinks && selectedCompanyRank) {
-      const parent = companyByRank[selectedCompanyRank];
-      if (parent) {
-        const color = SECTOR_COLORS[parent.sector] || "#2563eb";
-        activeFacilities.forEach((f) => {
-          if (f.parentRank !== selectedCompanyRank) return;
-          linkFeatures.push({
-            type: "Feature",
-            properties: { color },
-            geometry: {
-              type: "LineString",
-              coordinates: [
-                [parent.lng, parent.lat],
-                [f.lng, f.lat]
-              ]
-            }
-          });
+    const linkRank = showLinks ? selectedCompanyRank || soloRank : null;
+    const linkParent = linkRank && companyByRank[linkRank];
+    if (linkParent) {
+      const color = SECTOR_COLORS[linkParent.sector] || "#2563eb";
+      mapData.facilities.forEach((f) => {
+        if (f.parentRank !== linkRank) return;
+        linkFeatures.push({
+          type: "Feature",
+          properties: { color },
+          geometry: {
+            type: "LineString",
+            coordinates: [
+              [linkParent.lng, linkParent.lat],
+              [f.lng, f.lat]
+            ]
+          }
         });
-      }
+      });
     }
 
     map.getSource("portfolio-hqs").setData({ type: "FeatureCollection", features: hqFeatures });
@@ -1217,103 +1334,85 @@
     scheduleBuildingMatch();
   }
 
-  function renderCompanyRightIcons(c, cFacs) {
-    const uniqueTypes = [];
-    const seen = new Set();
-    for (const f of cFacs) {
-      const normT =
-        f.facilityType === "Oil & Gas Drilling / Platform"
-          ? "Offshore, Marine & Energy"
-          : f.facilityType;
-      if (!seen.has(normT)) {
-        seen.add(normT);
-        uniqueTypes.push(f.facilityType);
-        if (uniqueTypes.length === 2) break;
-      }
-    }
-
-    const typeIconsHtml = uniqueTypes.map((t) => getMiniTypeIcon(t)).join("");
-    const q = c.quote;
-    const sparkHtml =
-      q && q.closes
-        ? renderSparklineSvg(q.closes, q.change1m >= 0, 32, 13)
-        : "";
-    const flag = COUNTRY_FLAGS[c.country] || "";
-
-    return `${typeIconsHtml}${sparkHtml}<span class="mini-flag">${flag}</span>`;
+  function formatChange(v) {
+    if (typeof v !== "number" || !isFinite(v)) return "";
+    const cls = v >= 0 ? "chg-pos" : "chg-neg";
+    return `<span class="${cls}">${v > 0 ? "+" : ""}${v.toFixed(1)}%</span>`;
   }
 
-  function renderList(filteredCompanies, filteredFacilities, facByRank) {
+  function renderList() {
+    const { filteredCompanies, filteredFacilities } = current;
     const listEl = document.getElementById("entityList");
+    const metaEl = document.getElementById("listMeta");
+
+    metaEl.textContent =
+      activeTab === "facilities"
+        ? plural(filteredFacilities.length, "site")
+        : `${plural(filteredCompanies.length, "company").replace("companys", "companies")} · ${plural(
+            filteredFacilities.length,
+            "site"
+          )}`;
+
+    const empty = `<div class="empty-state">No matches</div>`;
 
     if (activeTab === "grid") {
-      listEl.innerHTML = `<div class="logo-grid">${filteredCompanies
-        .map((c) => {
-          const cFacs = facByRank[c.rank] || [];
-          const isSelected = selectedCompanyRank === c.rank && !selectedFacilityId;
-          const dotColor = SECTOR_COLORS[c.sector] || "#2563eb";
-          return `
-            <div class="logo-tile ${isSelected ? "selected" : ""}" data-rank="${c.rank}" title="${c.shortName}">
-              ${renderLogoHtml(c)}
-              ${cFacs.length > 0 ? `<span class="tile-dot" style="background:${dotColor}"></span>` : ""}
-            </div>
-          `;
-        })
-        .join("")}</div>`;
-
-      listEl.querySelectorAll(".logo-tile").forEach((tile) => {
-        tile.addEventListener("click", () => {
-          selectCompany(Number(tile.getAttribute("data-rank")), true);
-        });
-      });
+      listEl.innerHTML = filteredCompanies.length
+        ? `<div class="logo-grid">${filteredCompanies
+            .map((c) => {
+              const isSelected = selectedCompanyRank === c.rank && !selectedFacilityId;
+              return `<div class="logo-tile ${isSelected ? "selected" : ""}" data-rank="${c.rank}" title="${escapeHtml(c.shortName)}">${renderLogoHtml(c)}</div>`;
+            })
+            .join("")}</div>`
+        : empty;
     } else if (activeTab === "companies") {
-      listEl.innerHTML = filteredCompanies
-        .map((c) => {
-          const cFacs = facByRank[c.rank] || [];
-          const isSelected = selectedCompanyRank === c.rank && !selectedFacilityId;
-          return `
+      listEl.innerHTML = filteredCompanies.length
+        ? filteredCompanies
+            .map((c) => {
+              const isSelected = selectedCompanyRank === c.rank && !selectedFacilityId;
+              const value =
+                activeSort === "mcap_desc"
+                  ? `~${formatCompactValue(c.impliedMarketCap)}`
+                  : formatCompactValue(c.marketValue);
+              const chg = c.quote ? formatChange(c.quote.change1m) : "";
+              return `
             <div class="list-row ${isSelected ? "selected" : ""}" data-rank="${c.rank}">
-              <div class="row-left">
-                ${renderLogoHtml(c)}
-                <div class="row-name">${c.shortName}</div>
+              ${renderLogoHtml(c)}
+              <div class="row-text">
+                <div class="row-name">${escapeHtml(c.shortName)}</div>
+                <div class="row-meta">${escapeHtml(companyMeta(c))}</div>
               </div>
-              <div class="row-icons">${renderCompanyRightIcons(c, cFacs)}</div>
-            </div>
-          `;
-        })
-        .join("");
-
-      listEl.querySelectorAll(".list-row").forEach((row) => {
-        row.addEventListener("click", () => {
-          selectCompany(Number(row.getAttribute("data-rank")), true);
-        });
-      });
+              <div class="row-right">
+                <div class="row-value">${value}</div>
+                ${chg ? `<div class="row-chg">${chg}</div>` : ""}
+              </div>
+            </div>`;
+            })
+            .join("")
+        : empty;
     } else {
-      listEl.innerHTML = filteredFacilities
-        .map((f) => {
-          const parent = companyByRank[f.parentRank];
-          const isSelected = selectedFacilityId === f.id;
-          const flag = COUNTRY_FLAGS[f.country] || "🌍";
-          return `
-            <div class="list-row ${isSelected ? "selected" : ""}" data-fac-id="${f.id}">
-              <div class="row-left">
-                ${renderLogoHtml(parent)}
-                <div class="row-name">${f.shortName || f.name}</div>
+      listEl.innerHTML = filteredFacilities.length
+        ? filteredFacilities
+            .map((f) => {
+              const parent = companyByRank[f.parentRank];
+              const isSelected = selectedFacilityId === f.id;
+              return `
+            <div class="list-row ${isSelected ? "selected" : ""}" data-fac-id="${escapeHtml(f.id)}">
+              ${renderLogoHtml(parent)}
+              <div class="row-text">
+                <div class="row-name">${escapeHtml(f.shortName || f.name)}</div>
+                <div class="row-meta">${escapeHtml(
+                  [parent ? parent.shortName : f.parentName, f.city].filter(Boolean).join(" · ")
+                )}</div>
               </div>
-              <div class="row-icons">
-                ${getMiniTypeIcon(f.facilityType)}
-                <span class="mini-flag">${flag}</span>
+              <div class="row-right">
+                <div class="row-chg" style="display:flex;align-items:center;gap:5px;color:var(--text-muted)">${typeDot(
+                  f.facilityType
+                )}${facilityLabel(f.facilityType)}</div>
               </div>
-            </div>
-          `;
-        })
-        .join("");
-
-      listEl.querySelectorAll(".list-row").forEach((row) => {
-        row.addEventListener("click", () => {
-          selectFacility(row.getAttribute("data-fac-id"), true);
-        });
-      });
+            </div>`;
+            })
+            .join("")
+        : empty;
     }
   }
 
@@ -1322,178 +1421,254 @@
     if (sel) sel.scrollIntoView({ block: "nearest" });
   }
 
-  // --- Selection ---
-  function selectCompany(rank, panIfNeeded = false) {
-    selectedCompanyRank = rank;
-    selectedFacilityId = null;
-    const c = companyByRank[rank];
-    if (!c) return;
-
-    const cFacs = facilities.filter((f) => f.parentRank === rank);
-    renderAll();
-    scrollSelectedRowIntoView();
-    showCompanySheet(c, cFacs);
-
-    if (panIfNeeded && !map.getBounds().contains([c.lng, c.lat])) {
-      map.easeTo({
-        center: [c.lng, c.lat],
-        duration: 450
-      });
-    }
+  // --- Camera helpers ---
+  function sheetPadding() {
+    const wide = window.innerWidth > 768;
+    return { top: 70, bottom: 50, left: 50, right: wide ? 340 : 50 };
   }
 
-  function selectFacility(facId, panIfNeeded = false) {
+  function flyToPoint(lng, lat, minZoom) {
+    map.flyTo({
+      center: [lng, lat],
+      zoom: Math.max(map.getZoom(), minZoom),
+      speed: 1.8,
+      essential: true
+    });
+  }
+
+  function fitBoundsToPoints(coordsLngLat, maxZoom = 12.5) {
+    if (!coordsLngLat || coordsLngLat.length === 0) return;
+    if (coordsLngLat.length === 1) {
+      map.flyTo({ center: coordsLngLat[0], zoom: Math.max(map.getZoom(), 11), speed: 1.8 });
+      return;
+    }
+    const bounds = new maplibregl.LngLatBounds(coordsLngLat[0], coordsLngLat[0]);
+    coordsLngLat.forEach((pt) => bounds.extend(pt));
+    map.fitBounds(bounds, { padding: sheetPadding(), maxZoom, duration: 700 });
+  }
+
+  function fitCompany(c) {
+    fitBoundsToPoints([[c.lng, c.lat], ...sitesOf(c.rank).map((f) => [f.lng, f.lat])]);
+  }
+
+  // --- Selection & Solo ---
+  function selectCompany(rank, opts = {}) {
+    const c = companyByRank[rank];
+    if (!c) return;
+    selectedCompanyRank = rank;
+    selectedFacilityId = null;
+    const soloMoved = soloRank && soloRank !== rank;
+    if (soloMoved) soloRank = rank; // while soloing, picking another company moves the solo to it
+
+    renderAll();
+    scrollSelectedRowIntoView();
+    showCompanySheet(c);
+
+    if (soloMoved) fitCompany(c);
+    else if (opts.fly) flyToPoint(c.lng, c.lat, 9);
+  }
+
+  function selectFacility(facId, opts = {}) {
     const f = facilities.find((item) => item.id === facId);
     if (!f) return;
     selectedFacilityId = facId;
     selectedCompanyRank = f.parentRank;
+    if (soloRank && soloRank !== f.parentRank) soloRank = f.parentRank;
 
-    const parent = companyByRank[f.parentRank];
-    const siblingFacs = facilities.filter((item) => item.parentRank === f.parentRank);
     renderAll();
     scrollSelectedRowIntoView();
-    showFacilitySheet(f, parent, siblingFacs);
+    showFacilitySheet(f);
 
-    if (panIfNeeded && !map.getBounds().contains([f.lng, f.lat])) {
-      map.easeTo({
-        center: [f.lng, f.lat],
-        duration: 450
-      });
-    }
+    if (opts.fly) flyToPoint(f.lng, f.lat, 10);
   }
 
-  function renderQuoteStripHtml(c) {
-    const q = c.quote;
-    if (!q) {
-      return `
-        <div class="quote-strip">
-          <div class="quote-price-line">
-            <span>~${formatCompactValue(c.impliedMarketCap)} NOK</span>
-          </div>
-          <span style="color:#94a3b8">${c.ownershipPercent.toFixed(1)}%</span>
-        </div>
-      `;
+  function setSolo(rank) {
+    const c = companyByRank[rank];
+    if (!c) return;
+    soloRank = rank;
+    if (selectedCompanyRank !== rank) {
+      selectedCompanyRank = rank;
+      selectedFacilityId = null;
     }
+    renderAll();
+    scrollSelectedRowIntoView();
+    refreshSheet();
+    fitCompany(c);
+  }
 
-    const isPos = q.change1m >= 0;
-    const sign1m = q.change1m > 0 ? "+" : "";
-    const cls1m = isPos ? "chg-pos" : "chg-neg";
+  function exitSolo() {
+    if (!soloRank) return;
+    soloRank = null;
+    renderAll();
+    refreshSheet();
+  }
 
+  function toggleSolo() {
+    if (soloRank) exitSolo();
+    else if (selectedCompanyRank) setSolo(selectedCompanyRank);
+  }
+
+  function renderSoloChip() {
+    const chip = document.getElementById("soloChip");
+    const c = soloRank && companyByRank[soloRank];
+    if (!c) {
+      chip.hidden = true;
+      return;
+    }
+    chip.hidden = false;
+    chip.innerHTML = `<span class="solo-label">Solo</span><strong>${escapeHtml(c.shortName)}</strong><span class="solo-label">${plural(
+      sitesOf(c.rank).length,
+      "site"
+    )}</span><button data-action="exit-solo" title="Show all companies (Esc)">Show all</button>`;
+  }
+
+  function refreshSheet() {
+    if (selectedFacilityId) {
+      const f = facilities.find((item) => item.id === selectedFacilityId);
+      if (f) return showFacilitySheet(f);
+    }
+    if (selectedCompanyRank && companyByRank[selectedCompanyRank]) {
+      return showCompanySheet(companyByRank[selectedCompanyRank]);
+    }
+    document.getElementById("inspectorCard").classList.remove("visible");
+  }
+
+  // --- Detail sheet ---
+  function stat(label, value) {
+    return `<div class="stat"><span class="stat-label">${label}</span><span class="stat-value">${value}</span></div>`;
+  }
+
+  function formatPrice(p) {
+    const n = Number(p);
+    if (!isFinite(n)) return String(p);
+    return n.toLocaleString("en-US", { maximumFractionDigits: n >= 100 ? 1 : 2 });
+  }
+
+  function renderSitesList(sites, title) {
+    if (!sites.length) return "";
     return `
-      <div class="quote-strip">
-        <div class="quote-price-line">
-          <span>${q.price} ${q.currency}</span>
-          <span class="${cls1m}">${sign1m}${q.change1m.toFixed(1)}%</span>
-        </div>
-        <div class="quote-spark" title="${q.closes.join(" → ")} ${q.currency}">
-          ${renderSparklineSvg(q.closes, isPos, 56, 16)}
-        </div>
-      </div>
-    `;
+      <div class="sub-head"><span>${escapeHtml(title)}</span><span>${sites.length}</span></div>
+      <div class="sub-list">
+        ${sites
+          .map(
+            (f) => `
+          <div class="sub-row ${selectedFacilityId === f.id ? "selected" : ""}" data-fac-id="${escapeHtml(f.id)}">
+            ${typeDot(f.facilityType)}
+            <span class="sub-name">${escapeHtml(f.shortName || f.name)}</span>
+            <span class="sub-type">${escapeHtml(facilityLabel(f.facilityType))}</span>
+          </div>`
+          )
+          .join("")}
+      </div>`;
   }
 
-  const ICON_CROSSHAIR = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="22" x2="18" y1="12" y2="12"/><line x1="6" x2="2" y1="12" y2="12"/><line x1="12" x2="12" y1="6" y2="2"/><line x1="12" x2="12" y1="22" y2="18"/></svg>`;
-  const ICON_NETWORK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>`;
-  const ICON_EXT_LINK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>`;
-  const ICON_BUILDING = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/></svg>`;
+  function soloButton(rank) {
+    const on = soloRank === rank;
+    return `<button class="action-btn ${on ? "primary" : ""}" data-action="solo" title="Show only this company on the map (S)">${
+      on ? "Soloed" : "Solo"
+    }</button>`;
+  }
 
-  function showCompanySheet(c, cFacs) {
+  function showCompanySheet(c) {
     const sheet = document.getElementById("inspectorCard");
-    const flag = COUNTRY_FLAGS[c.country] || "";
+    const sites = sitesOf(c.rank);
+    const q = c.quote;
+    const sub = [c.city, countryName(c.country), SECTOR_LABELS[c.sector] || c.sector].filter(Boolean).join(" · ");
+
+    const stats = [
+      stat("Price", q ? `${formatPrice(q.price)} ${escapeHtml(q.currency)}` : "–"),
+      stat(
+        "1M",
+        q ? `${formatChange(q.change1m)}${q.closes ? renderSparklineSvg(q.closes, q.change1m >= 0, 34, 14) : ""}` : "–"
+      ),
+      stat("Mkt cap", `~${formatCompactValue(c.impliedMarketCap)}`),
+      stat("Holding", `${formatCompactValue(c.marketValue)} NOK`),
+      stat("Owned", `${c.ownershipPercent.toFixed(2)}%`),
+      stat("Fund", escapeHtml((c.funds || []).join(" + ")))
+    ].join("");
 
     sheet.innerHTML = `
       <div class="sheet-top">
-        <div class="sheet-head-left">
-          ${renderLogoHtml(c)}
-          <div class="sheet-title">${c.shortName} ${flag}</div>
+        ${renderLogoHtml(c)}
+        <div class="sheet-head">
+          <div class="sheet-title">${escapeHtml(c.name)}</div>
+          <div class="sheet-sub">${escapeHtml(sub)}</div>
         </div>
-        <button class="close-btn" id="closeSheetBtn">&times;</button>
+        <button class="close-btn" data-action="close" title="Close (Esc)">&times;</button>
       </div>
-
-      ${renderQuoteStripHtml(c)}
-
+      <div class="stats">${stats}</div>
+      ${c.hqDescription ? `<div class="sheet-desc" title="Click to expand">${escapeHtml(c.hqDescription)}</div>` : ""}
       <div class="sheet-actions">
-        <button class="action-btn" id="btnZoomHq" title="Zoom to building">${ICON_CROSSHAIR}</button>
-        ${cFacs.length > 0 ? `<button class="action-btn" id="btnFitAll" title="Show all ${cFacs.length} sites">${ICON_NETWORK} <span>${cFacs.length}</span></button>` : ""}
-        <a class="action-btn" href="${c.website}" target="_blank" rel="noopener" title="Website">${ICON_EXT_LINK}</a>
+        <button class="action-btn" data-action="zoom-hq" title="Zoom to the HQ building">Zoom</button>
+        ${sites.length ? `<button class="action-btn" data-action="fit" title="Fit HQ and all sites in view">All sites</button>` : ""}
+        ${soloButton(c.rank)}
+        ${c.website ? `<a class="action-btn" href="${escapeHtml(c.website)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
       </div>
-
-      ${
-        cFacs.length > 0
-          ? `<div class="sub-list">
-              ${cFacs
-                .map(
-                  (f) => `
-                  <div class="sub-row" data-fac-id="${f.id}">
-                    <span style="display:flex;align-items:center;gap:5px;min-width:0;">
-                      ${getMiniTypeIcon(f.facilityType)}
-                      <span style="color:#0f172a;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${f.shortName || f.name}</span>
-                    </span>
-                    <span class="mini-flag">${COUNTRY_FLAGS[f.country] || "🌍"}</span>
-                  </div>`
-                )
-                .join("")}
-            </div>`
-          : ""
-      }
+      ${renderSitesList(sites, "Sites")}
     `;
-
     sheet.classList.add("visible");
-
-    document.getElementById("closeSheetBtn").onclick = clearSelection;
-    document.getElementById("btnZoomHq").onclick = () => {
-      map.flyTo({ center: [c.lng, c.lat], zoom: 16.8, pitch: is3dEnabled ? 52 : 0, duration: 600 });
-    };
-
-    const btnFit = document.getElementById("btnFitAll");
-    if (btnFit) {
-      btnFit.onclick = () => {
-        fitBoundsToPoints([[c.lng, c.lat], ...cFacs.map((f) => [f.lng, f.lat])]);
-      };
-    }
-
-    sheet.querySelectorAll(".sub-row").forEach((el) => {
-      el.addEventListener("click", () => selectFacility(el.getAttribute("data-fac-id"), true));
-    });
   }
 
-  function showFacilitySheet(f, parent, siblingFacs) {
+  function showFacilitySheet(f) {
     const sheet = document.getElementById("inspectorCard");
-    const flag = COUNTRY_FLAGS[f.country] || "🌍";
+    const parent = companyByRank[f.parentRank];
+    const siblings = sitesOf(f.parentRank);
+    const sub = [facilityLabel(f.facilityType), f.city, countryName(f.country)].filter(Boolean).join(" · ");
 
     sheet.innerHTML = `
       <div class="sheet-top">
-        <div class="sheet-head-left">
-          ${renderLogoHtml(parent)}
-          <div class="sheet-title">${f.shortName || f.name} ${flag}</div>
+        ${renderLogoHtml(parent)}
+        <div class="sheet-head">
+          <div class="sheet-title">${escapeHtml(f.shortName || f.name)}</div>
+          <div class="sheet-sub">${escapeHtml(parent ? parent.shortName : f.parentName)} · ${escapeHtml(sub)}</div>
         </div>
-        <button class="close-btn" id="closeSheetBtn">&times;</button>
+        <button class="close-btn" data-action="close" title="Close (Esc)">&times;</button>
       </div>
-
+      ${f.description ? `<div class="sheet-desc" title="Click to expand">${escapeHtml(f.description)}</div>` : ""}
+      ${f.address ? `<div class="sheet-sub">${escapeHtml(f.address)}</div>` : ""}
       <div class="sheet-actions">
-        <button class="action-btn" id="btnZoomFac" title="Zoom to site">${ICON_CROSSHAIR}</button>
-        ${parent ? `<button class="action-btn" id="btnJumpHq" title="Parent HQ">${ICON_BUILDING}</button>` : ""}
-        ${parent ? `<button class="action-btn" id="btnFitFacNet" title="All company sites">${ICON_NETWORK} <span>${siblingFacs.length + 1}</span></button>` : ""}
+        <button class="action-btn" data-action="zoom-site" title="Zoom to this site">Zoom</button>
+        ${parent ? `<button class="action-btn" data-action="company" title="Go to the company (Esc)">Company</button>` : ""}
+        ${parent ? soloButton(parent.rank) : ""}
       </div>
+      ${renderSitesList(siblings, parent ? `${parent.shortName} sites` : "Sites")}
     `;
-
     sheet.classList.add("visible");
+  }
 
-    document.getElementById("closeSheetBtn").onclick = clearSelection;
-    document.getElementById("btnZoomFac").onclick = () => {
-      map.flyTo({ center: [f.lng, f.lat], zoom: 16.5, pitch: is3dEnabled ? 52 : 0, duration: 600 });
-    };
+  function onSheetClick(e) {
+    const t = e.target;
+    const desc = t.closest(".sheet-desc");
+    if (desc) return desc.classList.toggle("expanded");
 
-    const btnHq = document.getElementById("btnJumpHq");
-    if (btnHq && parent) {
-      btnHq.onclick = () => selectCompany(parent.rank, true);
-    }
+    const row = t.closest(".sub-row[data-fac-id]");
+    if (row) return selectFacility(row.getAttribute("data-fac-id"), { fly: true });
 
-    const btnFit = document.getElementById("btnFitFacNet");
-    if (btnFit && parent) {
-      btnFit.onclick = () => {
-        fitBoundsToPoints([[parent.lng, parent.lat], ...siblingFacs.map((s) => [s.lng, s.lat])]);
-      };
+    const btn = t.closest("[data-action]");
+    if (!btn) return;
+    const c = selectedCompanyRank && companyByRank[selectedCompanyRank];
+    const f = selectedFacilityId && facilities.find((item) => item.id === selectedFacilityId);
+    const pitch = is3dEnabled ? 52 : 0;
+
+    switch (btn.getAttribute("data-action")) {
+      case "close":
+        clearSelection();
+        break;
+      case "zoom-hq":
+        if (c) map.flyTo({ center: [c.lng, c.lat], zoom: 16.5, pitch, speed: 1.8 });
+        break;
+      case "zoom-site":
+        if (f) map.flyTo({ center: [f.lng, f.lat], zoom: 16, pitch, speed: 1.8 });
+        break;
+      case "fit":
+        if (c) fitCompany(c);
+        break;
+      case "company":
+        if (c) selectCompany(c.rank, { fly: true });
+        break;
+      case "solo":
+        toggleSolo();
+        break;
     }
   }
 
@@ -1504,43 +1679,88 @@
     renderAll();
   }
 
+  // Esc walks one step back: site -> company -> leave solo -> nothing selected
+  function stepBack() {
+    if (selectedFacilityId && selectedCompanyRank) return selectCompany(selectedCompanyRank);
+    if (soloRank) return exitSolo();
+    if (selectedCompanyRank) return clearSelection();
+  }
+
+  function setThreeD(on) {
+    is3dEnabled = on;
+    document.getElementById("btnToggle3d").classList.toggle("active", on);
+    ["all-buildings-3d", "portfolio-buildings-3d"].forEach((id) => {
+      if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", on ? "visible" : "none");
+    });
+    if (on) {
+      map.dragRotate.enable();
+      map.touchZoomRotate.enableRotation();
+      map.touchPitch.enable();
+      map.keyboard.enableRotation();
+      map.easeTo({ pitch: 50, duration: 400 });
+    } else {
+      map.dragRotate.disable();
+      map.touchZoomRotate.disableRotation();
+      map.touchPitch.disable();
+      map.keyboard.disableRotation();
+      map.easeTo({ pitch: 0, bearing: 0, duration: 400 });
+    }
+  }
+
+  function setActiveIn(containerSel, attr, value) {
+    document.querySelectorAll(`${containerSel} [${attr}]`).forEach((b) => {
+      b.classList.toggle("active", b.getAttribute(attr) === value);
+    });
+  }
+
   function resetAll() {
-    document.getElementById("searchInput").value = "";
-    document.getElementById("btnClearSearch").hidden = true;
+    const searchInput = document.getElementById("searchInput");
+    searchInput.value = "";
+    syncSearchUi();
     activeRegion = "ALL";
     activeType = "all";
     activeSort = "value_desc";
+    document.getElementById("sortSelect").value = activeSort;
+    setActiveIn("#regionBar", "data-region", activeRegion);
+    setActiveIn("#typeBar", "data-type", activeType);
 
-    document.querySelectorAll("#regionBar .filter-pill").forEach((b) => {
-      b.classList.toggle("active", b.getAttribute("data-region") === "ALL");
-    });
-    document.querySelectorAll("#typeBar .filter-pill").forEach((b) => {
-      b.classList.toggle("active", b.getAttribute("data-type") === "all");
-    });
-    document.querySelectorAll("#sortBar .sort-btn").forEach((b) => {
-      b.classList.toggle("active", b.getAttribute("data-sort") === "value_desc");
-    });
-
+    soloRank = null;
     selectedCompanyRank = null;
     selectedFacilityId = null;
-    is3dEnabled = false;
-    document.getElementById("btnToggle3d").classList.remove("active");
     document.getElementById("inspectorCard").classList.remove("visible");
-    if (map.getLayer("all-buildings-3d")) map.setLayoutProperty("all-buildings-3d", "visibility", "none");
-    if (map.getLayer("portfolio-buildings-3d")) map.setLayoutProperty("portfolio-buildings-3d", "visibility", "none");
+    if (is3dEnabled) setThreeD(false);
     renderAll();
-    map.flyTo({ center: [11.5, 61.5], zoom: 4.4, pitch: 0, bearing: 0, duration: 550 });
+    map.flyTo({ center: [11.5, 61.5], zoom: 4.4, pitch: 0, bearing: 0, duration: 700 });
   }
 
-  function fitBoundsToPoints(coordsLngLat) {
-    if (!coordsLngLat || coordsLngLat.length === 0) return;
-    if (coordsLngLat.length === 1) {
-      map.easeTo({ center: coordsLngLat[0], duration: 450 });
-      return;
-    }
-    const bounds = new maplibregl.LngLatBounds(coordsLngLat[0], coordsLngLat[0]);
-    coordsLngLat.forEach((pt) => bounds.extend(pt));
-    map.fitBounds(bounds, { padding: 60, maxZoom: 12.5, duration: 600 });
+  function fitToCurrentFilter() {
+    const pts =
+      activeRegion === "GLOBAL"
+        ? current.filteredFacilities.map((f) => [f.lng, f.lat])
+        : [
+            ...current.filteredCompanies.map((c) => [c.lng, c.lat]),
+            ...current.filteredFacilities.map((f) => [f.lng, f.lat])
+          ];
+    if (pts.length > 0) fitBoundsToPoints(pts, 9);
+  }
+
+  // Ordered ids of what the sidebar list currently shows, for arrow-key browsing
+  function listOrder() {
+    if (activeTab === "facilities") return current.filteredFacilities.map((f) => ({ fac: f.id }));
+    return current.filteredCompanies.map((c) => ({ rank: c.rank }));
+  }
+
+  function moveSelection(delta) {
+    const items = listOrder();
+    if (!items.length) return;
+    let idx =
+      activeTab === "facilities"
+        ? items.findIndex((it) => it.fac === selectedFacilityId)
+        : items.findIndex((it) => it.rank === selectedCompanyRank && !selectedFacilityId);
+    idx = idx === -1 ? (delta > 0 ? 0 : items.length - 1) : Math.min(items.length - 1, Math.max(0, idx + delta));
+    const it = items[idx];
+    if (it.fac) selectFacility(it.fac, { fly: true });
+    else selectCompany(it.rank, { fly: true });
   }
 
   // --- Map & Control Events ---
@@ -1559,14 +1779,8 @@
         if (!feat) return;
         const p = feat.properties || {};
         const coords =
-          feat.geometry.type === "Point"
-            ? feat.geometry.coordinates.slice()
-            : [e.lngLat.lng, e.lngLat.lat];
-
-        hoverPopup
-          .setLngLat(coords)
-          .setHTML(`<strong>${p.name || ""}</strong>`)
-          .addTo(map);
+          feat.geometry.type === "Point" ? feat.geometry.coordinates.slice() : [e.lngLat.lng, e.lngLat.lat];
+        showHover(coords, p.name || "", p.subtitle || "");
       });
 
       map.on("mouseleave", layerId, () => {
@@ -1580,12 +1794,19 @@
         const p = feat.properties || {};
         if (layerId === "portfolio-hqs-circle" || p.entityType === "company") {
           const rank = Number(p.rank || p.entityId);
-          if (rank) selectCompany(rank, false);
+          if (rank) selectCompany(rank);
         } else if (layerId === "portfolio-facilities-circle" || p.entityType === "facility") {
           const facId = p.id || p.entityId;
-          if (facId) selectFacility(facId, false);
+          if (facId) selectFacility(facId);
         }
       });
+    });
+
+    map.on("dblclick", "portfolio-hqs-circle", (e) => {
+      const feat = e.features && e.features[0];
+      if (!feat) return;
+      e.preventDefault();
+      setSolo(Number(feat.properties.rank));
     });
 
     map.on("click", (e) => {
@@ -1597,79 +1818,118 @@
       }
     });
 
+    map.on("zoom", scheduleLogoUpdate);
     map.on("moveend", scheduleBuildingMatch);
   }
 
-  function setModeTab(tab) {
-    activeTab = tab;
-    document.getElementById("tabCompanies").classList.toggle("active", tab === "companies");
-    document.getElementById("tabGrid").classList.toggle("active", tab === "grid");
-    document.getElementById("tabFacilities").classList.toggle("active", tab === "facilities");
-    renderAll();
+  function syncSearchUi() {
+    const searchInput = document.getElementById("searchInput");
+    document.getElementById("btnClearSearch").hidden = !searchInput.value;
+    document.getElementById("searchKbd").classList.toggle("hidden", !!searchInput.value);
+  }
+
+  function isTyping(e) {
+    const t = e.target;
+    return t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT" || t.isContentEditable);
   }
 
   function initControls() {
     const searchInput = document.getElementById("searchInput");
     const clearBtn = document.getElementById("btnClearSearch");
+    const listEl = document.getElementById("entityList");
 
     searchInput.addEventListener("input", () => {
-      clearBtn.hidden = !searchInput.value;
+      syncSearchUi();
       renderAll();
+    });
+
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const first = listOrder()[0];
+        if (first) first.fac ? selectFacility(first.fac, { fly: true }) : selectCompany(first.rank, { fly: true });
+      } else if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault();
+        moveSelection(e.key === "ArrowDown" ? 1 : -1);
+      } else if (e.key === "Escape") {
+        e.preventDefault();
+        if (searchInput.value) {
+          searchInput.value = "";
+          syncSearchUi();
+          renderAll();
+        } else {
+          searchInput.blur();
+        }
+      }
     });
 
     clearBtn.addEventListener("click", () => {
       searchInput.value = "";
-      clearBtn.hidden = true;
+      syncSearchUi();
       renderAll();
+      searchInput.focus();
     });
 
-    // 1-Click Region Flag Pills
-    document.querySelectorAll("#regionBar .filter-pill").forEach((btn) => {
+    // Sidebar list: click selects and flies there, double-click solos
+    listEl.addEventListener("click", (e) => {
+      const row = e.target.closest("[data-rank], [data-fac-id]");
+      if (!row) return;
+      if (row.hasAttribute("data-fac-id")) selectFacility(row.getAttribute("data-fac-id"), { fly: true });
+      else selectCompany(Number(row.getAttribute("data-rank")), { fly: true });
+    });
+    listEl.addEventListener("dblclick", (e) => {
+      const row = e.target.closest("[data-rank], [data-fac-id]");
+      if (!row) return;
+      if (row.hasAttribute("data-fac-id")) {
+        const f = facilities.find((item) => item.id === row.getAttribute("data-fac-id"));
+        if (f) setSolo(f.parentRank);
+      } else {
+        setSolo(Number(row.getAttribute("data-rank")));
+      }
+    });
+
+    document.getElementById("inspectorCard").addEventListener("click", onSheetClick);
+    document.getElementById("soloChip").addEventListener("click", (e) => {
+      if (e.target.closest('[data-action="exit-solo"]')) exitSolo();
+    });
+
+    // Changing region or type leaves solo, so the map always reflects the filter you just picked
+    document.querySelectorAll("#regionBar [data-region]").forEach((btn) => {
       btn.addEventListener("click", () => {
         const reg = btn.getAttribute("data-region");
         activeRegion = activeRegion === reg && reg !== "ALL" ? "ALL" : reg;
-        document.querySelectorAll("#regionBar .filter-pill").forEach((b) => {
-          b.classList.toggle("active", b.getAttribute("data-region") === activeRegion);
-        });
+        setActiveIn("#regionBar", "data-region", activeRegion);
+        soloRank = null;
         renderAll();
-        const { filteredCompanies, filteredFacilities } = getFilteredData();
-        const pts =
-          activeRegion === "GLOBAL"
-            ? filteredFacilities.map((f) => [f.lng, f.lat])
-            : [
-                ...filteredCompanies.map((c) => [c.lng, c.lat]),
-                ...filteredFacilities.map((f) => [f.lng, f.lat])
-              ];
-        if (pts.length > 0) fitBoundsToPoints(pts);
+        refreshSheet();
+        fitToCurrentFilter();
       });
     });
 
-    // 1-Click Asset Type Icon Pills
-    document.querySelectorAll("#typeBar .filter-pill").forEach((btn) => {
+    document.querySelectorAll("#typeBar [data-type]").forEach((btn) => {
       btn.addEventListener("click", () => {
         const t = btn.getAttribute("data-type");
         activeType = activeType === t && t !== "all" ? "all" : t;
-        document.querySelectorAll("#typeBar .filter-pill").forEach((b) => {
-          b.classList.toggle("active", b.getAttribute("data-type") === activeType);
-        });
+        setActiveIn("#typeBar", "data-type", activeType);
+        soloRank = null;
         renderAll();
+        refreshSheet();
       });
     });
 
-    // 1-Click Sort Icon Buttons
-    document.querySelectorAll("#sortBar .sort-btn").forEach((btn) => {
+    document.getElementById("sortSelect").addEventListener("change", (e) => {
+      activeSort = e.target.value;
+      renderAll();
+    });
+
+    document.querySelectorAll("#viewBar [data-view]").forEach((btn) => {
       btn.addEventListener("click", () => {
-        activeSort = btn.getAttribute("data-sort");
-        document.querySelectorAll("#sortBar .sort-btn").forEach((b) => {
-          b.classList.toggle("active", b === btn);
-        });
+        activeTab = btn.getAttribute("data-view");
+        setActiveIn("#viewBar", "data-view", activeTab);
         renderAll();
+        scrollSelectedRowIntoView();
       });
     });
-
-    document.getElementById("tabCompanies").addEventListener("click", () => setModeTab("companies"));
-    document.getElementById("tabGrid").addEventListener("click", () => setModeTab("grid"));
-    document.getElementById("tabFacilities").addEventListener("click", () => setModeTab("facilities"));
 
     document.getElementById("btnToggleLogos").addEventListener("click", (e) => {
       showLogos = !showLogos;
@@ -1691,27 +1951,30 @@
 
     document.querySelectorAll("[data-basemap]").forEach((btn) => {
       btn.addEventListener("click", () => {
-        document.querySelectorAll("[data-basemap]").forEach((b) => b.classList.remove("active"));
-        btn.classList.add("active");
         currentBasemap = btn.getAttribute("data-basemap");
+        setActiveIn("#basemapBar", "data-basemap", currentBasemap);
         applyBasemapMode();
       });
     });
 
-    document.getElementById("btnToggle3d").addEventListener("click", (e) => {
-      is3dEnabled = !is3dEnabled;
-      e.currentTarget.classList.toggle("active", is3dEnabled);
-      if (map.getLayer("all-buildings-3d")) {
-        map.setLayoutProperty("all-buildings-3d", "visibility", is3dEnabled ? "visible" : "none");
-      }
-      if (map.getLayer("portfolio-buildings-3d")) {
-        map.setLayoutProperty("portfolio-buildings-3d", "visibility", is3dEnabled ? "visible" : "none");
-      }
-      map.easeTo({ pitch: is3dEnabled ? 50 : 0, duration: 400 });
-    });
+    document.getElementById("btnToggle3d").addEventListener("click", () => setThreeD(!is3dEnabled));
+    document.getElementById("btnReset").addEventListener("click", resetAll);
 
-    document.getElementById("btnResetView").addEventListener("click", resetAll);
-    document.getElementById("btnResetSidebar").addEventListener("click", resetAll);
+    document.addEventListener("keydown", (e) => {
+      if (e.metaKey || e.ctrlKey || e.altKey || isTyping(e)) return;
+      if (e.key === "/") {
+        e.preventDefault();
+        searchInput.focus();
+        searchInput.select();
+      } else if (e.key === "Escape") {
+        stepBack();
+      } else if (e.key === "s" || e.key === "S") {
+        toggleSolo();
+      } else if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault();
+        moveSelection(e.key === "ArrowDown" ? 1 : -1);
+      }
+    });
   }
 
   // Stage 1: Render main HQs immediately

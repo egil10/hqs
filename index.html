@@ -12,262 +12,91 @@
 </head>
 <body>
   <aside class="sidebar">
-    <div class="sidebar-header">
-      <!-- Row 1: Search + Reset Icon -->
-      <div class="search-top-row">
-        <div class="search-wrap">
-          <svg class="lucide-icon search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="8"></circle>
-            <path d="m21 21-4.3-4.3"></path>
-          </svg>
-          <input
-            type="text"
-            id="searchInput"
-            class="search-input"
-            placeholder=""
-            aria-label="Search"
-            autocomplete="off"
-          />
-          <button class="clear-search" id="btnClearSearch" title="Clear" hidden>&times;</button>
-        </div>
-        <button class="icon-btn" id="btnResetSidebar" title="Reset all">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
-            <path d="M3 3v5h5"></path>
-          </svg>
-        </button>
+    <div class="sb-head">
+      <div class="brand-row">
+        <span class="brand">Portfolio Map</span>
+        <button class="text-btn" id="btnReset" title="Clear search, filters, selection and view">Reset</button>
       </div>
 
-      <!-- Row 2: Country / Region Flag Icon Bar (Zero Text) -->
-      <div class="icon-filter-bar" id="regionBar">
-        <button class="filter-pill active" data-region="ALL" title="All Regions">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-            <path d="M2 12h20"></path>
-          </svg>
-        </button>
-        <button class="filter-pill flag-pill" data-region="Norge" title="Norway">🇳🇴</button>
-        <button class="filter-pill flag-pill" data-region="Sverige" title="Sweden">🇸🇪</button>
-        <button class="filter-pill flag-pill" data-region="Danmark" title="Denmark">🇩🇰</button>
-        <button class="filter-pill flag-pill" data-region="Finland" title="Finland">🇫🇮</button>
-        <button class="filter-pill flag-pill" data-region="Island" title="Iceland">🇮🇸</button>
-        <button class="filter-pill" data-region="GLOBAL" title="Global (Outside Nordics)">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path>
-          </svg>
-        </button>
+      <div class="search-wrap">
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Search company, city, ticker"
+          aria-label="Search"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <kbd class="search-kbd" id="searchKbd">/</kbd>
+        <button class="clear-search" id="btnClearSearch" title="Clear search" hidden>&times;</button>
       </div>
 
-      <!-- Row 3: Asset Type Lucide Icon Bar (Zero Text) -->
-      <div class="icon-filter-bar" id="typeBar">
-        <button class="filter-pill active" data-type="all" title="All Asset Types">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect width="7" height="7" x="3" y="3" rx="1"></rect>
-            <rect width="7" height="7" x="14" y="3" rx="1"></rect>
-            <rect width="7" height="7" x="14" y="14" rx="1"></rect>
-            <rect width="7" height="7" x="3" y="14" rx="1"></rect>
-          </svg>
-        </button>
-        <button class="filter-pill" data-type="hqs_only" title="Headquarters Only">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
-            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
-            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
-          </svg>
-        </button>
-        <button class="filter-pill" data-type="oilgas" title="Oil &amp; Gas Rigs / Offshore" style="--pill-color:#dc2626">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
-          </svg>
-        </button>
-        <button class="filter-pill" data-type="fish" title="Fish Farms &amp; Aquaculture" style="--pill-color:#0284c7">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6s-7.56-2.53-8.5-6Z"></path>
-            <path d="M18 12v.5"></path>
-            <path d="M16 17.93a9.77 9.77 0 0 1 0-11.86"></path>
-            <path d="M7 10.67C7 8 5.58 5.97 2.73 5.5c-1 1.5-1 5 .23 6.5-1.24 1.5-1.24 5-.23 6.5C5.58 18.03 7 16 7 13.33"></path>
-          </svg>
-        </button>
-        <button class="filter-pill" data-type="mills" title="Mines, Smelters &amp; Mills" style="--pill-color:#d97706">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
-          </svg>
-        </button>
-        <button class="filter-pill" data-type="factories" title="Factories &amp; Defense Plants" style="--pill-color:#2563eb">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"></path>
-          </svg>
-        </button>
-        <button class="filter-pill" data-type="datacenters" title="Data Centers &amp; Cloud" style="--pill-color:#7c3aed">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
-            <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>
-            <line x1="6" x2="6.01" y1="6" y2="6"></line>
-            <line x1="6" x2="6.01" y1="18" y2="18"></line>
-          </svg>
-        </button>
-        <button class="filter-pill" data-type="distribution" title="Logistics &amp; Regional Offices" style="--pill-color:#475569">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path>
-            <path d="m3.3 7 8.7 5 8.7-5"></path>
-            <path d="M12 22V12"></path>
-          </svg>
-        </button>
-        <button class="filter-pill" data-type="pharma" title="Pharma &amp; Biotech Labs" style="--pill-color:#059669">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"></path>
-            <path d="M8.5 2h7"></path>
-            <path d="M7 16h10"></path>
-          </svg>
-        </button>
+      <div class="seg seg-full" id="regionBar" role="group" aria-label="Region">
+        <button class="seg-btn active" data-region="ALL">All</button>
+        <button class="seg-btn" data-region="Norge" title="Norway">NO</button>
+        <button class="seg-btn" data-region="Sverige" title="Sweden">SE</button>
+        <button class="seg-btn" data-region="Danmark" title="Denmark">DK</button>
+        <button class="seg-btn" data-region="Finland" title="Finland">FI</button>
+        <button class="seg-btn" data-region="Island" title="Iceland">IS</button>
+        <button class="seg-btn" data-region="GLOBAL" title="Sites outside the Nordics">Intl</button>
+      </div>
+
+      <div class="chips" id="typeBar" role="group" aria-label="Site type">
+        <button class="chip active" data-type="all">All</button>
+        <button class="chip" data-type="hqs_only" title="Headquarters only, no sites">HQs</button>
+        <button class="chip" data-type="oilgas" style="--c:#dc2626">Energy</button>
+        <button class="chip" data-type="fish" style="--c:#0284c7">Seafood</button>
+        <button class="chip" data-type="mills" style="--c:#d97706">Mining</button>
+        <button class="chip" data-type="factories" style="--c:#2563eb">Factory</button>
+        <button class="chip" data-type="datacenters" style="--c:#7c3aed">Data</button>
+        <button class="chip" data-type="distribution" style="--c:#64748b">Office</button>
+        <button class="chip" data-type="pharma" style="--c:#059669">Lab</button>
       </div>
     </div>
 
-    <!-- Row 4: Mode Switcher + Sort Icons (Zero Words) -->
-    <div class="sub-toolbar">
-      <div class="mode-group">
-        <button class="mode-btn active" id="tabCompanies" title="Companies List">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
-            <path d="M10 6h4"></path>
-            <path d="M10 10h4"></path>
-            <path d="M10 14h4"></path>
-          </svg>
-        </button>
-        <button class="mode-btn" id="tabGrid" title="Logo Grid View (Icons Only)">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect width="7" height="7" x="3" y="3" rx="1"></rect>
-            <rect width="7" height="7" x="14" y="3" rx="1"></rect>
-            <rect width="7" height="7" x="14" y="14" rx="1"></rect>
-            <rect width="7" height="7" x="3" y="14" rx="1"></rect>
-          </svg>
-        </button>
-        <button class="mode-btn" id="tabFacilities" title="Operational Sites List">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-            <circle cx="12" cy="10" r="3"></circle>
-          </svg>
-        </button>
+    <div class="sb-toolbar">
+      <div class="seg" id="viewBar" role="group" aria-label="View">
+        <button class="seg-btn active" data-view="companies">List</button>
+        <button class="seg-btn" data-view="grid">Logos</button>
+        <button class="seg-btn" data-view="facilities">Sites</button>
       </div>
-
-      <div class="sort-group" id="sortBar">
-        <button class="sort-btn active" data-sort="value_desc" title="Sort by Holding Size">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
-            <path d="M12 18V6"></path>
-          </svg>
-        </button>
-        <button class="sort-btn" data-sort="mcap_desc" title="Sort by Market Cap">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
-            <path d="M18 17V9"></path>
-            <path d="M13 17V5"></path>
-            <path d="M8 17v-3"></path>
-          </svg>
-        </button>
-        <button class="sort-btn" data-sort="chg1m_desc" title="Sort by Stock Trend (1M)">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
-            <polyline points="16 7 22 7 22 13"></polyline>
-          </svg>
-        </button>
-        <button class="sort-btn" data-sort="sites_desc" title="Sort by Number of Sites">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="18" cy="5" r="3"></circle>
-            <circle cx="6" cy="12" r="3"></circle>
-            <circle cx="18" cy="19" r="3"></circle>
-            <line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line>
-            <line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line>
-          </svg>
-        </button>
-        <button class="sort-btn" data-sort="name_asc" title="Sort A–Z">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="m3 16 4 4 4-4"></path>
-            <path d="M7 20V4"></path>
-            <path d="M20 8h-5"></path>
-            <path d="M15 10V6.5a2.5 2.5 0 0 1 5 0V10"></path>
-            <path d="M15 14h5l-5 6h5"></path>
-          </svg>
-        </button>
-      </div>
+      <select id="sortSelect" class="sort-select" aria-label="Sort">
+        <option value="value_desc">Holding</option>
+        <option value="mcap_desc">Market cap</option>
+        <option value="chg1m_desc">1M change</option>
+        <option value="sites_desc">Sites</option>
+        <option value="name_asc">A–Z</option>
+      </select>
     </div>
 
+    <div class="list-meta" id="listMeta"></div>
     <div class="list-container" id="entityList"></div>
+
+    <div class="sb-foot">
+      <span><kbd>/</kbd> search</span>
+      <span><kbd>↑</kbd><kbd>↓</kbd> browse</span>
+      <span><kbd>S</kbd> solo</span>
+      <span><kbd>Esc</kbd> back</span>
+    </div>
   </aside>
 
   <main class="map-stage">
     <div id="map"></div>
 
+    <div class="solo-chip" id="soloChip" hidden></div>
+
     <div class="map-toolbar">
-      <div class="toolbar-group">
-        <button class="tool-btn active" id="btnToggleLogos" title="Toggle company logos on map">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
-            <circle cx="9" cy="9" r="2"></circle>
-            <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path>
-          </svg>
-        </button>
-        <button class="tool-btn active" id="btnToggleSites" title="Toggle operational sites">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-            <circle cx="12" cy="10" r="3"></circle>
-          </svg>
-        </button>
-        <button class="tool-btn active" id="btnToggleLinks" title="Toggle connection lines for selected company">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="18" cy="5" r="3"></circle>
-            <circle cx="6" cy="12" r="3"></circle>
-            <circle cx="18" cy="19" r="3"></circle>
-            <line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line>
-            <line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line>
-          </svg>
-        </button>
-        <button class="tool-btn" id="btnToggle3d" title="Toggle 3D buildings">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path>
-            <path d="m3.3 7 8.7 5 8.7-5"></path>
-            <path d="M12 22V12"></path>
-          </svg>
-        </button>
+      <div class="seg seg-float" id="basemapBar" role="group" aria-label="Basemap">
+        <button class="seg-btn active" data-basemap="light">Light</button>
+        <button class="seg-btn" data-basemap="liberty">Streets</button>
+        <button class="seg-btn" data-basemap="satellite">Satellite</button>
       </div>
-      <div class="toolbar-group">
-        <button class="tool-btn active" data-basemap="light" title="Minimal Light Map">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="4"></circle>
-            <path d="M12 2v2"></path>
-            <path d="M12 20v2"></path>
-            <path d="m4.93 4.93 1.41 1.41"></path>
-            <path d="m17.66 17.66 1.41 1.41"></path>
-            <path d="M2 12h2"></path>
-            <path d="M20 12h2"></path>
-            <path d="m6.34 17.66-1.41 1.41"></path>
-            <path d="m19.07 4.93-1.41 1.41"></path>
-          </svg>
-        </button>
-        <button class="tool-btn" data-basemap="liberty" title="Street Map">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"></path>
-            <path d="M15 5.764v15"></path>
-            <path d="M9 3.236v15"></path>
-          </svg>
-        </button>
-        <button class="tool-btn" data-basemap="satellite" title="Satellite Imagery">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M13 7 9 3 5 7l4 4"></path>
-            <path d="m17 11 4 4-4 4-4-4"></path>
-            <path d="m8 12 4 4 6-6-4-4Z"></path>
-            <path d="m16 8 3-3"></path>
-            <path d="M9 21a6 6 0 0 0-6-6"></path>
-          </svg>
-        </button>
-        <button class="tool-btn" id="btnResetView" title="Reset Map">
-          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
-            <path d="M3 3v5h5"></path>
-          </svg>
-        </button>
+      <div class="seg seg-float seg-toggles" role="group" aria-label="Layers">
+        <button class="seg-btn active" id="btnToggleLogos" title="Company logos on the map">Logos</button>
+        <button class="seg-btn active" id="btnToggleSites" title="Operational sites">Sites</button>
+        <button class="seg-btn active" id="btnToggleLinks" title="Lines from HQ to sites of the selected company">Lines</button>
+        <button class="seg-btn" id="btnToggle3d" title="3D buildings, tilt and rotate">3D</button>
       </div>
     </div>
 
