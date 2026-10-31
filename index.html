@@ -12,6 +12,14 @@
 </head>
 <body>
   <aside class="sidebar">
+    <div class="sb-title">
+      <span class="brand">Portfolio companies</span>
+      <div class="fund-seg" id="fundBar" role="group" aria-label="Fund">
+        <button class="opt active" data-fund="all">All</button>
+        <button class="opt" data-fund="SPN" title="Statens pensjonsfond Norge">SPN</button>
+        <button class="opt" data-fund="SFT" title="Statens fond i Tromsø">SFT</button>
+      </div>
+    </div>
     <div class="sb-head">
       <div class="search-wrap">
         <input
@@ -31,54 +39,48 @@
       </button>
 
       <div class="filter-panel" id="filterPanel" hidden>
-        <div class="fp-group">
-          <div class="fp-label">View</div>
-          <div class="seg seg-full" id="viewBar">
-            <button class="seg-btn active" data-view="companies">List</button>
-            <button class="seg-btn" data-view="grid">Logos</button>
-            <button class="seg-btn" data-view="facilities">Sites</button>
+        <div class="fp-row">
+          <span class="fp-label">View</span>
+          <div class="opts" id="viewBar">
+            <button class="opt active" data-view="companies">List</button>
+            <button class="opt" data-view="grid">Logos</button>
+            <button class="opt" data-view="facilities">Sites</button>
           </div>
         </div>
-        <div class="fp-group">
-          <div class="fp-label">Region</div>
-          <div class="seg seg-full" id="regionBar">
-            <button class="seg-btn active" data-region="ALL">All</button>
-            <button class="seg-btn" data-region="Norge" title="Norway">NO</button>
-            <button class="seg-btn" data-region="Sverige" title="Sweden">SE</button>
-            <button class="seg-btn" data-region="Danmark" title="Denmark">DK</button>
-            <button class="seg-btn" data-region="Finland" title="Finland">FI</button>
-            <button class="seg-btn" data-region="Island" title="Iceland">IS</button>
-            <button class="seg-btn" data-region="GLOBAL" title="Sites outside the Nordics">Intl</button>
+        <div class="fp-row">
+          <span class="fp-label">Region</span>
+          <div class="opts" id="regionBar">
+            <button class="opt active" data-region="ALL">All</button>
+            <button class="opt" data-region="Norge" title="Norway">NO</button>
+            <button class="opt" data-region="Sverige" title="Sweden">SE</button>
+            <button class="opt" data-region="Danmark" title="Denmark">DK</button>
+            <button class="opt" data-region="Finland" title="Finland">FI</button>
+            <button class="opt" data-region="Island" title="Iceland">IS</button>
+            <button class="opt" data-region="GLOBAL" title="Sites outside the Nordics">Intl</button>
           </div>
         </div>
-        <div class="fp-group">
-          <div class="fp-label">Site type</div>
-          <div class="chips" id="typeBar">
-            <button class="chip active" data-type="all">All</button>
-            <button class="chip" data-type="hqs_only" title="Headquarters only, no sites">HQs</button>
-            <button class="chip" data-type="oilgas" style="--c:#dc2626">Energy</button>
-            <button class="chip" data-type="fish" style="--c:#0284c7">Seafood</button>
-            <button class="chip" data-type="mills" style="--c:#d97706">Mining</button>
-            <button class="chip" data-type="factories" style="--c:#2563eb">Factory</button>
-            <button class="chip" data-type="datacenters" style="--c:#7c3aed">Data</button>
-            <button class="chip" data-type="distribution" style="--c:#64748b">Office</button>
-            <button class="chip" data-type="pharma" style="--c:#059669">Lab</button>
+        <div class="fp-row">
+          <span class="fp-label">Type</span>
+          <div class="opts" id="typeBar">
+            <button class="opt active" data-type="all">All</button>
+            <button class="opt" data-type="hqs_only" title="Headquarters only, no sites">HQs</button>
+            <button class="opt" data-type="oilgas">Energy</button>
+            <button class="opt" data-type="fish">Seafood</button>
+            <button class="opt" data-type="mills">Mining</button>
+            <button class="opt" data-type="factories">Factory</button>
+            <button class="opt" data-type="datacenters">Data</button>
+            <button class="opt" data-type="distribution">Office</button>
+            <button class="opt" data-type="pharma">Lab</button>
           </div>
         </div>
-        <div class="fp-group">
-          <div class="fp-label">Sort</div>
-          <div class="chips" id="sortBar">
-            <button class="chip active" data-sort="value_desc">Holding</button>
-            <button class="chip" data-sort="mcap_desc">Market cap</button>
-            <button class="chip" data-sort="chg1m_desc">1M</button>
-            <button class="chip" data-sort="sites_desc">Sites</button>
-            <button class="chip" data-sort="name_asc">A–Z</button>
-          </div>
-        </div>
-        <button class="text-btn fp-reset" id="btnReset">Reset everything</button>
+        <button class="fp-reset" id="btnReset">Reset</button>
       </div>
     </div>
 
+    <div class="list-head">
+      <span id="listCount"></span>
+      <button class="sort-toggle" id="btnSort" title="Change sort order"></button>
+    </div>
     <div class="list-container" id="entityList"></div>
   </aside>
 
@@ -97,7 +99,6 @@
         <button class="seg-btn active" id="btnToggleLinks" title="Lines from HQ to sites of the selected company">Lines</button>
         <button class="seg-btn" id="btnToggle3d" title="3D buildings, tilt and rotate">3D</button>
       </div>
-      <button class="solo-btn" id="btnSolo" title="Select a company first" disabled>Solo</button>
     </div>
 
     <div class="detail-sheet" id="inspectorCard"></div>

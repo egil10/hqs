@@ -337,6 +337,7 @@
   // --- Helpers ---
   function formatCompactValue(mnok) {
     const v = Number(mnok) || 0;
+    if (v >= 1e6) return `${(v / 1e6).toFixed(1)}T`;
     if (v >= 1000) return `${(v / 1000).toFixed(1)}B`;
     return `${Math.round(v)}M`;
   }
@@ -395,6 +396,7 @@
   let current = { filteredCompanies: [], filteredFacilities: [] }; // last filter result (sidebar)
   let mapData = { companies: [], facilities: [] }; // what the map draws (filters or solo)
   let activeRegion = "ALL";
+  let activeFund = "all"; // "all" | "SPN" | "SFT"
   let activeType = "all";
   let activeSort = "value_desc";
   let selectedCompanyRank = null;
@@ -593,6 +595,17 @@
   // --- Filtering & Sorting ---
   const NORDIC_COUNTRIES = new Set(["Norge", "Sverige", "Finland", "Danmark", "Island", "Færøyene"]);
 
+  // Holding value in the chosen fund (or both funds combined)
+  function holdingOf(c) {
+    if (activeFund === "SPN") return c.spnMarketValue || 0;
+    if (activeFund === "SFT") return c.sftMarketValue || 0;
+    return c.marketValue;
+  }
+
+  function inFund(c) {
+    return activeFund === "all" || (!!c && (c.funds || []).includes(activeFund));
+  }
+
   function getFilteredData() {
     const q = document.getElementById("searchInput").value.trim().toLowerCase();
     const regionVal = activeRegion;
@@ -602,6 +615,7 @@
     const facByRank = facilitiesByRank;
 
     const filteredCompanies = companies.filter((c) => {
+      if (!inFund(c)) return false;
       const cFacs = facByRank[c.rank] || [];
       if (regionVal === "GLOBAL") {
         const hasGlobal = !NORDIC_COUNTRIES.has(c.country) || cFacs.some((f) => !NORDIC_COUNTRIES.has(f.country));
@@ -647,7 +661,7 @@
         return diff !== 0 ? diff : b.marketValue - a.marketValue;
       }
       if (sortVal === "name_asc") return a.shortName.localeCompare(b.shortName, "nb");
-      return b.marketValue - a.marketValue;
+      return holdingOf(b) - holdingOf(a);
     });
 
     const visibleRanks = new Set(filteredCompanies.map((c) => c.rank));
@@ -661,6 +675,7 @@
               return false;
             }
             if (!matchesTypeFilter(f, typeVal)) return false;
+            if (!inFund(companyByRank[f.parentRank])) return false;
 
             if (q) {
               const matchSelf =
@@ -1345,7 +1360,6 @@
     logoDataVersion++;
 
     renderList();
-    renderSoloButton();
     renderFilterCount();
 
     if (!mapReady || !map.getSource("portfolio-hqs")) return;
@@ -1419,11 +1433,19 @@
     return `<span class="${cls}">${v > 0 ? "+" : ""}${v.toFixed(1)}%</span>`;
   }
 
+  const SORTS = [
+    { id: "value_desc", label: "Holding ↓" },
+    { id: "mcap_desc", label: "Market cap ↓" },
+    { id: "chg1m_desc", label: "1M change ↓" },
+    { id: "sites_desc", label: "Sites ↓" },
+    { id: "name_asc", label: "A–Z" }
+  ];
+
   function rowValue(c) {
     if (activeSort === "chg1m_desc") return c.quote ? formatChange(c.quote.change1m) : "";
     if (activeSort === "mcap_desc") return `~${formatCompactValue(c.impliedMarketCap)}`;
     if (activeSort === "sites_desc") return String(sitesOf(c.rank).length);
-    return formatCompactValue(c.marketValue);
+    return formatCompactValue(holdingOf(c));
   }
 
   function renderList() {
@@ -1432,7 +1454,13 @@
 
     const n = activeTab === "facilities" ? filteredFacilities.length : filteredCompanies.length;
     const noun = activeTab === "facilities" ? (n === 1 ? "site" : "sites") : n === 1 ? "company" : "companies";
-    document.getElementById("searchInput").placeholder = `Search ${n} ${noun}`;
+    const soloC = soloRank && companyByRank[soloRank];
+    document.getElementById("listCount").innerHTML = soloC
+      ? `<button class="show-all" title="Show all companies on the map (Esc)">← Show all</button>`
+      : `${n} ${noun}`;
+    const sortBtn = document.getElementById("btnSort");
+    sortBtn.textContent = SORTS.find((x) => x.id === activeSort).label;
+    sortBtn.hidden = activeTab === "facilities"; // sites are listed in their own order
 
     const empty = `<div class="empty-state">No matches</div>`;
 
@@ -1542,7 +1570,8 @@
     scrollSelectedRowIntoView();
     refreshSheet();
 
-    if (opts.fly) flyToPoint(f.lng, f.lat, 10);
+    // Keep the current zoom and just glide over to the site ("Zoom to site" in the card zooms in)
+    if (opts.fly) map.easeTo({ center: [f.lng, f.lat], duration: 550 });
   }
 
   function setSolo(rank) {
@@ -1577,27 +1606,10 @@
   }
 
   function renderFilterCount() {
-    const n = (activeRegion !== "ALL") + (activeType !== "all") + (activeSort !== "value_desc");
+    const n = (activeRegion !== "ALL") + (activeType !== "all");
     const el = document.getElementById("filterCount");
     el.hidden = n === 0;
     el.textContent = n;
-  }
-
-  // Global Solo button (top right): solo the selected company, or leave solo
-  function renderSoloButton() {
-    const btn = document.getElementById("btnSolo");
-    const soloC = soloRank && companyByRank[soloRank];
-    const selC = selectedCompanyRank && companyByRank[selectedCompanyRank];
-    btn.classList.toggle("active", !!soloC);
-    if (soloC) {
-      btn.disabled = false;
-      btn.textContent = `Solo: ${soloC.shortName} ×`;
-      btn.title = "Show all companies again (S)";
-    } else {
-      btn.disabled = !selC;
-      btn.textContent = "Solo";
-      btn.title = selC ? `Show only ${selC.shortName} on the map (S)` : "Select a company first";
-    }
   }
 
   // The card always shows the company. Picking one of its sites only adds a small site panel and
@@ -1635,7 +1647,7 @@
     const stats = [
       stat("Price", q ? `${formatPrice(q.price)} ${escapeHtml(q.currency)}` : "–"),
       stat("1M", q ? formatChange(q.change1m) || "–" : "–"),
-      stat("Holding", `${formatCompactValue(c.marketValue)} NOK`)
+      stat(activeFund === "all" ? "Holding" : `${activeFund} holding`, `${formatCompactValue(holdingOf(c))} NOK`)
     ].join("");
 
     sheet.setAttribute("data-rank", c.rank);
@@ -1740,6 +1752,7 @@
   }
 
   function clearSelection() {
+    soloRank = null;
     selectedCompanyRank = null;
     selectedFacilityId = null;
     document.getElementById("inspectorCard").classList.remove("visible");
@@ -1786,8 +1799,9 @@
     syncSearchUi();
     activeRegion = "ALL";
     activeType = "all";
+    activeFund = "all";
+    setActiveIn("#fundBar", "data-fund", activeFund);
     activeSort = "value_desc";
-    setActiveIn("#sortBar", "data-sort", activeSort);
     setActiveIn("#regionBar", "data-region", activeRegion);
     setActiveIn("#typeBar", "data-type", activeType);
 
@@ -1826,8 +1840,22 @@
         : items.findIndex((it) => it.rank === selectedCompanyRank && !selectedFacilityId);
     idx = idx === -1 ? (delta > 0 ? 0 : items.length - 1) : Math.min(items.length - 1, Math.max(0, idx + delta));
     const it = items[idx];
-    if (it.fac) selectFacility(it.fac, { fly: true });
-    else selectCompany(it.rank, { fly: true });
+    activateListItem(it);
+  }
+
+  // Picking from the sidebar list solos that company: the map shows only its HQ and sites.
+  // Clicking the soloed company again goes back to showing everything.
+  function activateListItem(it) {
+    if (it.fac) {
+      const f = facilities.find((item) => item.id === it.fac);
+      if (!f) return;
+      soloRank = f.parentRank;
+      selectFacility(f.id, { fly: true });
+    } else if (soloRank === it.rank && !selectedFacilityId) {
+      exitSolo();
+    } else {
+      setSolo(it.rank);
+    }
   }
 
   // --- Map & Control Events ---
@@ -1914,7 +1942,7 @@
       if (e.key === "Enter") {
         e.preventDefault();
         const first = listOrder()[0];
-        if (first) first.fac ? selectFacility(first.fac, { fly: true }) : selectCompany(first.rank, { fly: true });
+        if (first) activateListItem(first);
       } else if (e.key === "ArrowDown" || e.key === "ArrowUp") {
         e.preventDefault();
         moveSelection(e.key === "ArrowDown" ? 1 : -1);
@@ -1937,26 +1965,18 @@
       searchInput.focus();
     });
 
-    // Sidebar list: click selects and flies there, double-click solos
+    // Sidebar list: click solos that company (click it again to show everything)
     listEl.addEventListener("click", (e) => {
       const row = e.target.closest("[data-rank], [data-fac-id]");
       if (!row) return;
-      if (row.hasAttribute("data-fac-id")) selectFacility(row.getAttribute("data-fac-id"), { fly: true });
-      else selectCompany(Number(row.getAttribute("data-rank")), { fly: true });
-    });
-    listEl.addEventListener("dblclick", (e) => {
-      const row = e.target.closest("[data-rank], [data-fac-id]");
-      if (!row) return;
-      if (row.hasAttribute("data-fac-id")) {
-        const f = facilities.find((item) => item.id === row.getAttribute("data-fac-id"));
-        if (f) setSolo(f.parentRank);
-      } else {
-        setSolo(Number(row.getAttribute("data-rank")));
-      }
+      if (row.hasAttribute("data-fac-id")) activateListItem({ fac: row.getAttribute("data-fac-id") });
+      else activateListItem({ rank: Number(row.getAttribute("data-rank")) });
     });
 
     document.getElementById("inspectorCard").addEventListener("click", onSheetClick);
-    document.getElementById("btnSolo").addEventListener("click", toggleSolo);
+    document.getElementById("listCount").addEventListener("click", (e) => {
+      if (e.target.closest(".show-all")) exitSolo();
+    });
 
     // One Filter button: everything (view, region, type, sort, reset) lives in its popover
     const filterBtn = document.getElementById("btnFilter");
@@ -1984,6 +2004,19 @@
       });
     });
 
+    document.querySelectorAll("#fundBar [data-fund]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        activeFund = btn.getAttribute("data-fund");
+        setActiveIn("#fundBar", "data-fund", activeFund);
+        if (soloRank && !inFund(companyByRank[soloRank])) soloRank = null;
+        renderAll();
+        if (selectedCompanyRank) {
+          document.getElementById("inspectorCard").removeAttribute("data-rank"); // holding label/value changes
+          refreshSheet();
+        }
+      });
+    });
+
     document.querySelectorAll("#typeBar [data-type]").forEach((btn) => {
       btn.addEventListener("click", () => {
         const t = btn.getAttribute("data-type");
@@ -1995,12 +2028,12 @@
       });
     });
 
-    document.querySelectorAll("#sortBar [data-sort]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        activeSort = btn.getAttribute("data-sort");
-        setActiveIn("#sortBar", "data-sort", activeSort);
-        renderAll();
-      });
+    // Sort: one click cycles through the options (shift-click goes backwards)
+    document.getElementById("btnSort").addEventListener("click", (e) => {
+      const i = SORTS.findIndex((x) => x.id === activeSort);
+      activeSort = SORTS[(i + (e.shiftKey ? SORTS.length - 1 : 1)) % SORTS.length].id;
+      renderAll();
+      document.getElementById("entityList").scrollTop = 0;
     });
 
     document.querySelectorAll("#viewBar [data-view]").forEach((btn) => {
