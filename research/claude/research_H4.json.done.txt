@@ -1,0 +1,10 @@
+Nordea Bank
+Elisa
+SWECO
+Arjo
+Heimar
+SoftwareOne
+Storebrand (skipped: financial, existing SPP site sufficient)
+Tryg (skipped: insurer, 2 existing sites near cap)
+MPC Container Ships (skipped: ship-owner, no further fixed sites beyond Hamburg/Rotterdam offices)
+Zealand Pharma (skipped: no further owned sites beyond Søborg/Cambridge)

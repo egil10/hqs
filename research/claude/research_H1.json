@@ -1,0 +1,388 @@
+[
+ {
+  "parentName": "SpareBank 1 Sør-Norge",
+  "name": "SpareBank 1 Sør-Norge Sandefjord Office (former SpareBank 1 Sørøst-Norge HQ)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Sandefjord",
+  "country": "Norge",
+  "address": "Fokserødveien 12, 3241 Sandefjord",
+  "geoQueries": [
+   "SpareBank 1 Sør-Norge Sandefjord",
+   "SpareBank 1 Sørøst-Norge Fokserødveien",
+   "Fokserødveien 12, 3241 Sandefjord"
+  ],
+  "approxLat": 59.1503,
+  "approxLng": 10.1985,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Former head office of SpareBank 1 Sørøst-Norge, now the group's main Vestfold/Telemark regional office after the 2024 merger.",
+  "source": "https://finanstilsynet.no/en/finanstilsynets-registry/details/?id=99227"
+ },
+ {
+  "parentName": "F-Secure",
+  "name": "F-Secure Kuala Lumpur APAC Hub (Mid Valley City)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Kuala Lumpur",
+  "country": "Malaysia",
+  "address": "Suite 18.01, Level 18, The Gardens South Tower, Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur",
+  "geoQueries": [
+   "The Gardens South Tower, Mid Valley City",
+   "Lingkaran Syed Putra, 59200 Kuala Lumpur"
+  ],
+  "approxLat": 3.1176,
+  "approxLng": 101.6765,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "F-Secure's Asia-Pacific hub, with threat research, customer care and partner operations.",
+  "source": "https://company.f-secure.com/en/contact-us"
+ },
+ {
+  "parentName": "F-Secure",
+  "name": "F-Secure Japan Office (Tokyo)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Tokyo",
+  "country": "Japan",
+  "address": "Level 21, Shiodome Shibarikyu Building, 1-2-3 Kaigan, Minato-ku, Tokyo",
+  "geoQueries": [
+   "Shiodome Shibarikyu Building",
+   "1-2-3 Kaigan, Minato-ku, Tokyo"
+  ],
+  "approxLat": 35.6555,
+  "approxLng": 139.7593,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "F-Secure's Japanese sales and partner office, serving operator and retail partners in Japan.",
+  "source": "https://company.f-secure.com/en/contact-us"
+ },
+ {
+  "parentName": "F-Secure",
+  "name": "F-Secure Bratislava Development Office",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "address": "Michalská 372/9, 811 01 Bratislava",
+  "geoQueries": [
+   "F-Secure Bratislava",
+   "Michalská 9, 811 01 Bratislava"
+  ],
+  "approxLat": 48.1445,
+  "approxLng": 17.1066,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "F-Secure software development office in Bratislava's old town.",
+  "source": "https://company.f-secure.com/en/contact-us"
+ },
+ {
+  "parentName": "F-Secure",
+  "name": "F-Secure Bengaluru Office",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Bengaluru",
+  "country": "India",
+  "address": "Crescent Tower 4, Prestige Shantiniketan, Whitefield, Bengaluru 560066",
+  "geoQueries": [
+   "Prestige Shantiniketan Crescent Tower 4",
+   "Prestige Shantiniketan, Whitefield, Bengaluru"
+  ],
+  "approxLat": 12.9897,
+  "approxLng": 77.7285,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "F-Secure's India office in the Prestige Shantiniketan business park, supporting engineering and partner operations.",
+  "source": "https://company.f-secure.com/en/contact-us"
+ },
+ {
+  "parentName": "Entra",
+  "name": "Entra Papirbredden Knowledge Park (Drammen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Drammen",
+  "country": "Norge",
+  "address": "Grønland 58, 3045 Drammen",
+  "geoQueries": [
+   "Papirbredden Drammen",
+   "Papirbredden",
+   "Grønland 58, 3045 Drammen"
+  ],
+  "approxLat": 59.7393,
+  "approxLng": 10.2067,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Entra's riverside office and campus cluster in Drammen (held via 60%-owned Papirbredden Eiendom), housing University of South-Eastern Norway on a lease to 2037.",
+  "source": "https://live.euronext.com/en/products/equities/company-news/2022-12-20-extended-lease-contract-gronland-51-drammen"
+ },
+ {
+  "parentName": "Entra",
+  "name": "Entra Tullinkvartalet (UiO Faculty of Law building, Oslo)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Oslo",
+  "country": "Norge",
+  "address": "Tullinløkka block between Kristian Augusts gate, Pilestredet and Universitetsgata, 0164 Oslo",
+  "geoQueries": [
+   "Tullinkvartalet",
+   "Tullinpassasjen",
+   "Kristian Augusts gate 15, 0164 Oslo"
+  ],
+  "approxLat": 59.917,
+  "approxLng": 10.7368,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Entra-developed ~21,000 sqm city-centre office/education block leased to the University of Oslo Faculty of Law for 25 years.",
+  "source": "https://entra.no/investor-relations/reports-and-presentations/2016/Q2-2016%20Presentation.pdf"
+ },
+ {
+  "parentName": "Hoist Finance",
+  "name": "Hoist Finance Germany Branch (Duisburg)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Duisburg",
+  "country": "Germany",
+  "address": "Schifferstraße 80, 47059 Duisburg",
+  "geoQueries": [
+   "Hoist Finance Duisburg",
+   "Schifferstraße 80, 47059 Duisburg"
+  ],
+  "approxLat": 51.444,
+  "approxLng": 6.759,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Hoist Finance AB (publ) Niederlassung Deutschland, the group's German debt purchasing and servicing operation with more than 200 staff.",
+  "source": "https://www.remotely.de/job/hoist-finance-ab-publ-niederlassung-deutschland-sachbearbeiter-kundenberater-mwd-forderungsmanagement-in-vollzeit"
+ },
+ {
+  "parentName": "Engcon",
+  "name": "engcon Nordic Strömsund Production & Development Plant (Industricentragatan)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Strömsund",
+  "country": "Sverige",
+  "address": "Industricentragatan 4, 833 93 Strömsund",
+  "geoQueries": [
+   "engcon Nordic",
+   "engcon Strömsund Industricentragatan",
+   "Industricentragatan 4, 833 93 Strömsund"
+  ],
+  "approxLat": 63.864,
+  "approxLng": 15.53,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "engcon Nordic AB main production, development and administration site for tiltrotators and quick couplers.",
+  "source": "https://engcon.com/sv_se/kontakt/hitta-till-oss.html"
+ },
+ {
+  "parentName": "Engcon",
+  "name": "engcon North America Inc. (High Point, North Carolina)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "High Point",
+  "country": "USA",
+  "address": "2827 Earlham Place, High Point, NC 27263",
+  "geoQueries": [
+   "engcon North America",
+   "2827 Earlham Place, High Point, NC 27263"
+  ],
+  "approxLat": 35.933,
+  "approxLng": -79.964,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "engcon's US sales, service and warehouse subsidiary.",
+  "source": "https://engcon.com/sv_se/kontakt/hitta-till-oss.html"
+ },
+ {
+  "parentName": "Engcon",
+  "name": "engcon Germany GmbH (Wertheim)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Wertheim",
+  "country": "Germany",
+  "address": "Obere Grüben 7, 97877 Wertheim",
+  "geoQueries": [
+   "engcon Germany",
+   "Obere Grüben 7, 97877 Wertheim"
+  ],
+  "approxLat": 49.764,
+  "approxLng": 9.539,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "engcon's German sales and service subsidiary.",
+  "source": "https://engcon.com/sv_se/kontakt/hitta-till-oss.html"
+ },
+ {
+  "parentName": "Engcon",
+  "name": "engcon Australia (Eastern Creek, Sydney)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Eastern Creek",
+  "country": "Australia",
+  "address": "Unit 2, 18 Peter Brock Drive, Eastern Creek NSW 2766",
+  "geoQueries": [
+   "engcon Australia",
+   "18 Peter Brock Drive, Eastern Creek NSW 2766"
+  ],
+  "approxLat": -33.804,
+  "approxLng": 150.853,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "engcon Australia Pty Ltd sales, service and parts subsidiary.",
+  "source": "https://engcon.com/sv_se/kontakt/hitta-till-oss.html"
+ },
+ {
+  "parentName": "Engcon",
+  "name": "engcon Norway AS (Skedsmo)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Skedsmo (Lillestrøm)",
+  "country": "Norge",
+  "address": "Bølerveien 71, 2020 Skedsmokorset",
+  "geoQueries": [
+   "engcon Norway",
+   "Bølerveien 71, 2020 Skedsmokorset"
+  ],
+  "approxLat": 60.001,
+  "approxLng": 11.028,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "engcon's Norwegian sales and service subsidiary.",
+  "source": "https://engcon.com/sv_se/kontakt/hitta-till-oss.html"
+ },
+ {
+  "parentName": "Engcon",
+  "name": "engcon Denmark A/S (Verninge)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Tommerup (Verninge)",
+  "country": "Danmark",
+  "address": "Knarreborgvej 19A, Verninge, 5690 Tommerup",
+  "geoQueries": [
+   "engcon Denmark",
+   "Knarreborgvej 19A, 5690 Tommerup"
+  ],
+  "approxLat": 55.283,
+  "approxLng": 10.15,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "engcon's Danish sales and service subsidiary on Funen.",
+  "source": "https://engcon.com/sv_se/kontakt/hitta-till-oss.html"
+ },
+ {
+  "parentName": "ABG Sundal Collier",
+  "name": "ABG Sundal Collier London Office (Cheapside)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "London",
+  "country": "UK",
+  "address": "Octagon Point, 5 Cheapside, London EC2V 6AA",
+  "geoQueries": [
+   "Octagon Point, 5 Cheapside",
+   "5 Cheapside, London EC2V 6AA"
+  ],
+  "approxLat": 51.514,
+  "approxLng": -0.0965,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "ABG Sundal Collier's UK investment banking and equity sales office serving international investors.",
+  "source": "https://www.abgsc.com/contact"
+ },
+ {
+  "parentName": "Scatec",
+  "name": "Scatec Obelisk Hybrid Solar & Battery Plant (1.1 GW / 200 MWh, Nag Hammadi)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Nag Hammadi (Qena)",
+  "country": "Egypt",
+  "address": "Obelisk solar project, near Nag Hammadi, Qena Governorate, Egypt",
+  "geoQueries": [
+   "Obelisk Solar",
+   "Scatec Obelisk",
+   "Nag Hammadi solar"
+  ],
+  "approxLat": 26.03,
+  "approxLng": 32.3,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Africa's largest hybrid solar-plus-storage plant (1.1 GW PV, 100 MW/200 MWh BESS), fully operational from August 2026 under a 25-year PPA.",
+  "source": "https://www.pv-magazine.com/2026/08/13/scatec-completes-1-gw-200-mwh-solar-plus-storage-project-in-egypt/"
+ },
+ {
+  "parentName": "Scatec",
+  "name": "Scatec Benban Solar Plants (Benban Solar Park, Aswan)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Benban (Aswan)",
+  "country": "Egypt",
+  "address": "Benban Solar Park, Aswan Governorate, Egypt",
+  "geoQueries": [
+   "Benban Solar Park",
+   "Benban Solar"
+  ],
+  "approxLat": 24.455,
+  "approxLng": 32.735,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Six Scatec-operated PV plants totalling about 390 MW in the Benban solar complex, co-owned with Norfund and partners.",
+  "source": "https://scatec.com/en/portfolio-overview/"
+ },
+ {
+  "parentName": "Scatec",
+  "name": "Magat Hydropower Plant (SN Aboitiz Power, Isabela)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Ramon (Isabela)",
+  "country": "Philippines",
+  "address": "Magat Dam, Ramon, Isabela, Philippines",
+  "geoQueries": [
+   "Magat Dam",
+   "Magat Hydroelectric Power Plant"
+  ],
+  "approxLat": 16.825,
+  "approxLng": 121.457,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "360 MW hydropower plant on the Magat River operated by SN Aboitiz Power, Scatec's 50/50 joint venture with Aboitiz Power in the Philippines.",
+  "source": "https://scatec.com/en/portfolio-overview/"
+ },
+ {
+  "parentName": "Scatec",
+  "name": "Theun-Hinboun Hydropower Plant (Laos)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Bolikhamxay",
+  "country": "Laos",
+  "address": "Theun-Hinboun Power Company, Bolikhamxay Province, Laos",
+  "geoQueries": [
+   "Theun-Hinboun Dam",
+   "Theun-Hinboun Hydropower",
+   "Nam Theun-Hinboun"
+  ],
+  "approxLat": 18.27,
+  "approxLng": 104.56,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Hydropower complex (about 525 MW incl. expansion) in which Scatec holds a minority stake inherited from SN Power; Scatec's only Lao asset.",
+  "source": "https://scatec.com/en/portfolio-overview/"
+ },
+ {
+  "parentName": "Scatec",
+  "name": "Mendubim Solar Plant (531 MW, Assú, Rio Grande do Norte)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Assú (Rio Grande do Norte)",
+  "country": "Brazil",
+  "address": "Mendubim solar complex, Assú, Rio Grande do Norte, Brazil",
+  "geoQueries": [
+   "Mendubim Solar",
+   "Usina Solar Mendubim",
+   "Assú solar"
+  ],
+  "approxLat": -5.55,
+  "approxLng": -36.95,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "531 MW solar plant owned one-third each by Scatec, Equinor and Hydro Rein, selling most output to Alunorte.",
+  "source": "https://scatec.com/en/portfolio-overview/"
+ },
+ {
+  "parentName": "Scatec",
+  "name": "Apodi Solar Plant (162 MW, Quixeré, Ceará)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Quixeré (Ceará)",
+  "country": "Brazil",
+  "address": "Apodi solar complex, Quixeré, Ceará, Brazil",
+  "geoQueries": [
+   "Apodi Solar",
+   "Usina Solar Apodi",
+   "Quixeré solar"
+  ],
+  "approxLat": -5.13,
+  "approxLng": -37.85,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "162 MW solar complex co-owned by Scatec and Equinor in northeastern Brazil.",
+  "source": "https://scatec.com/en/portfolio-overview/"
+ }
+]

@@ -1,0 +1,147 @@
+[
+ {
+  "parentName": "Hafnia",
+  "name": "Hafnia Dubai Office (Tamweel Tower, JLT)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "address": "Tamweel Tower, Unit 304, Cluster U, Jumeirah Lake Towers, Dubai",
+  "geoQueries": [
+   "Tamweel Tower Dubai",
+   "Tamweel Tower, Jumeirah Lake Towers, Dubai"
+  ],
+  "approxLat": 25.0745,
+  "approxLng": 55.144,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Hafnia's Middle East commercial and chartering office for its product and chemical tanker pools.",
+  "source": "https://hafnia.com/contact"
+ },
+ {
+  "parentName": "Hafnia",
+  "name": "Hafnia / BW Maritime India Branch Office (Andheri East, Mumbai)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Mumbai",
+  "country": "India",
+  "address": "Office 1001, 10th Floor, R Square, Andheri-Kurla Road, J.B. Nagar, Andheri East, Mumbai 400059",
+  "geoQueries": [
+   "R Square Andheri Kurla Road Mumbai",
+   "J.B. Nagar, Andheri East, Mumbai 400059"
+  ],
+  "approxLat": 19.111,
+  "approxLng": 72.864,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Hafnia's India office (BW Maritime India branch, licensed seafarer recruitment RPSL-MUM-055) handling crewing for the tanker fleet.",
+  "source": "https://hafnia.com/contact"
+ },
+ {
+  "parentName": "FLSmidth & Co",
+  "name": "FLSmidth Global Business Center Chennai",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Chennai",
+  "country": "India",
+  "address": "CapitaLand Tower 2, 9th Floor, Zamin Pallavaram, Chennai 600117",
+  "geoQueries": [
+   "CapitaLand Tower 2 Pallavaram Chennai",
+   "FLSmidth Chennai",
+   "Zamin Pallavaram, Chennai 600117"
+  ],
+  "approxLat": 12.964,
+  "approxLng": 80.153,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "FLSmidth's Indian headquarters and Global Business Center providing engineering, project and shared-service functions for the mining technology group.",
+  "source": "https://www.fls.com/en/global-presence/"
+ },
+ {
+  "parentName": "FLSmidth & Co",
+  "name": "FLSmidth Excel Foundry & Machine (Pekin, Illinois)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Pekin",
+  "country": "USA",
+  "address": "1 Excel Way, Pekin, IL 61554",
+  "geoQueries": [
+   "Excel Foundry & Machine Pekin",
+   "1 Excel Way, Pekin, IL 61554"
+  ],
+  "approxLat": 40.553,
+  "approxLng": -89.62,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "FLSmidth-owned foundry and machine shop producing wear and replacement parts for crushers and mills used in mining.",
+  "source": "https://www.fls.com/en/global-presence/"
+ },
+ {
+  "parentName": "FLSmidth & Co",
+  "name": "FLSmidth Krebs Pumps & Cyclones (Tucson, Arizona)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Tucson",
+  "country": "USA",
+  "address": "5505 W. Gillette Road, Tucson, AZ 85743",
+  "geoQueries": [
+   "FLSmidth Krebs Tucson",
+   "5505 W Gillette Rd, Tucson, AZ 85743"
+  ],
+  "approxLat": 32.339,
+  "approxLng": -111.095,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "FLSmidth Krebs site for slurry pumps, hydrocyclones and valves (pumps, cyclones and valves product line).",
+  "source": "https://www.fls.com/en/global-presence/"
+ },
+ {
+  "parentName": "FLSmidth & Co",
+  "name": "FLSmidth Welshpool Service Centre (Perth)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Welshpool",
+  "country": "Australia",
+  "address": "58-60 Dowd Road, Welshpool WA 6106",
+  "geoQueries": [
+   "FLSmidth Welshpool",
+   "58 Dowd Road, Welshpool WA 6106"
+  ],
+  "approxLat": -31.993,
+  "approxLng": 115.953,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "FLSmidth's Western Australian workshop and service base supporting mining customers in the Pilbara and Goldfields.",
+  "source": "https://www.fls.com/en/global-presence/"
+ },
+ {
+  "parentName": "FLSmidth & Co",
+  "name": "FLSmidth Antofagasta Service Centre (La Negra)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Antofagasta",
+  "country": "Chile",
+  "address": "Avda. Ruta del Cobre 440, Sector La Negra, Antofagasta",
+  "geoQueries": [
+   "FLSmidth La Negra Antofagasta",
+   "Ruta del Cobre 440, La Negra, Antofagasta"
+  ],
+  "approxLat": -23.748,
+  "approxLng": -70.307,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "FLSmidth service centre and workshop at La Negra industrial zone serving northern Chile's copper mines.",
+  "source": "https://www.fls.com/en/global-presence/"
+ },
+ {
+  "parentName": "FLSmidth & Co",
+  "name": "FLSmidth Latin America Office (Las Condes, Santiago)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Santiago",
+  "country": "Chile",
+  "address": "Av. El Bosque Norte 500, Piso 9, Las Condes, Santiago",
+  "geoQueries": [
+   "Avenida El Bosque Norte 500, Las Condes",
+   "FLSmidth Santiago"
+  ],
+  "approxLat": -33.4135,
+  "approxLng": -70.6015,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Regional office of FLSmidth S.A. covering Chile, Peru and Brazil.",
+  "source": "https://www.fls.com/en/global-presence/"
+ }
+]

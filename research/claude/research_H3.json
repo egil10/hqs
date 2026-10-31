@@ -1,0 +1,549 @@
+[
+ {
+  "parentName": "Investor",
+  "name": "Piab Group Headquarters (Patricia Industries)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Danderyd",
+  "country": "Sverige",
+  "address": "Vendevägen 89, 182 32 Danderyd",
+  "geoQueries": [
+   "Piab Danderyd",
+   "Vendevägen 89, 182 32 Danderyd"
+  ],
+  "approxLat": 59.4005,
+  "approxLng": 18.037,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Piab, Investor/Patricia Industries' wholly owned gripping and vacuum automation group.",
+  "source": "https://www.bolagsfakta.se/5560557687-Piab_Aktiebolag"
+ },
+ {
+  "parentName": "Investor",
+  "name": "BraunAbility Winamac Wheelchair-Accessible Vehicle Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Winamac (Indiana)",
+  "country": "USA",
+  "address": "631 W 11th St, Winamac, IN 46996",
+  "geoQueries": [
+   "BraunAbility Winamac",
+   "631 West 11th Street, Winamac, IN 46996"
+  ],
+  "approxLat": 41.059,
+  "approxLng": -86.616,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Main manufacturing centre of BraunAbility (Patricia Industries majority-owned), building wheelchair-accessible vans and lifts.",
+  "source": "https://www.braunability.com/us/en/about-us/our-history.html"
+ },
+ {
+  "parentName": "Investor",
+  "name": "Laborie Medical Technologies Headquarters (Pease Tradeport)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Portsmouth (New Hampshire)",
+  "country": "USA",
+  "address": "180 International Drive, Portsmouth, NH 03801",
+  "geoQueries": [
+   "Laborie Portsmouth",
+   "180 International Drive, Portsmouth, NH 03801"
+  ],
+  "approxLat": 43.08,
+  "approxLng": -70.815,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Global headquarters of Laborie, Patricia Industries' wholly owned urology and gastroenterology diagnostics company.",
+  "source": "https://www.laborie.com/wp-content/uploads/2025/01/CO-BRO-999-EN-Laborie-Corporate-Factsheet-2025.pdf"
+ },
+ {
+  "parentName": "Investor",
+  "name": "Sarnova Headquarters (Dublin, Ohio)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Dublin (Ohio)",
+  "country": "USA",
+  "address": "5000 Tuttle Crossing Blvd, Dublin, OH 43016",
+  "geoQueries": [
+   "Sarnova Dublin",
+   "5000 Tuttle Crossing Blvd, Dublin, OH 43016"
+  ],
+  "approxLat": 40.077,
+  "approxLng": -83.128,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Headquarters of Sarnova, Patricia Industries' majority-owned distributor of emergency care and respiratory products.",
+  "source": "https://www.sarnova.com/contact"
+ },
+ {
+  "parentName": "Investor",
+  "name": "Advanced Instruments Headquarters & Factory (Norwood)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Norwood (Massachusetts)",
+  "country": "USA",
+  "address": "Two Technology Way, Norwood, MA 02062",
+  "geoQueries": [
+   "Advanced Instruments Norwood",
+   "2 Technology Way, Norwood, MA 02062"
+  ],
+  "approxLat": 42.169,
+  "approxLng": -71.182,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "HQ and manufacturing site of Advanced Instruments (osmometers, bioprocess analytics), wholly owned by Patricia Industries.",
+  "source": "https://www.aicompanies.com/contact-us/"
+ },
+ {
+  "parentName": "Sampo",
+  "name": "Topdanmark Head Office (Ballerup)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Ballerup",
+  "country": "Danmark",
+  "address": "Borupvang 4, 2750 Ballerup",
+  "geoQueries": [
+   "Topdanmark Ballerup",
+   "Borupvang 4, 2750 Ballerup"
+  ],
+  "approxLat": 55.728,
+  "approxLng": 12.378,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Head office of Topdanmark, Sampo's wholly owned Danish non-life insurer (being merged into If).",
+  "source": "https://www.topdanmark.dk/kontakt/"
+ },
+ {
+  "parentName": "Coor Service Management",
+  "name": "Coor Finland Head Office (Leppävaara)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Espoo",
+  "country": "Finland",
+  "address": "Linnoitustie 6, 02600 Espoo",
+  "geoQueries": [
+   "Coor Service Management Oy Espoo",
+   "Linnoitustie 6, 02600 Espoo"
+  ],
+  "approxLat": 60.221,
+  "approxLng": 24.813,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Coor Service Management Oy, Coor's Finnish facility-management subsidiary.",
+  "source": "https://www.asiakastieto.fi/yritykset/fi/coor-service-management-oy/15978669/tietovahti"
+ },
+ {
+  "parentName": "Coor Service Management",
+  "name": "Coor Belgium Head Office (Gent)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Gent",
+  "country": "Belgium",
+  "address": "Pantserschipstraat 181/005, 9000 Gent",
+  "geoQueries": [
+   "Coor België Gent",
+   "Pantserschipstraat 181, 9000 Gent"
+  ],
+  "approxLat": 51.07,
+  "approxLng": 3.73,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Head office of Coor's Belgian facility-management subsidiary.",
+  "source": "https://www.coor.be/contact"
+ },
+ {
+  "parentName": "OEM",
+  "name": "OEM Automatic Klitsø A/S Denmark HQ & Warehouse (Allerød)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Allerød",
+  "country": "Danmark",
+  "address": "Engholm Parkvej 4, 3450 Allerød",
+  "geoQueries": [
+   "OEM Automatic Klitsø Allerød",
+   "Engholm Parkvej 4, 3450 Allerød"
+  ],
+  "approxLat": 55.864,
+  "approxLng": 12.348,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Danish subsidiary of OEM International distributing industrial automation components; also houses integrated Unit-Pump operations.",
+  "source": "https://www.oem.se/en/our-companies"
+ },
+ {
+  "parentName": "OEM",
+  "name": "OEM Automatic Ltd UK HQ & Warehouse (Whetstone, Leicester)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Whetstone (Leicester)",
+  "country": "UK",
+  "address": "Whiteacres, Cambridge Road, Whetstone, Leicester LE8 6ZG",
+  "geoQueries": [
+   "OEM Automatic Whetstone",
+   "Cambridge Road, Whetstone, Leicester LE8 6ZG"
+  ],
+  "approxLat": 52.565,
+  "approxLng": -1.172,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "UK subsidiary of OEM International distributing automation, motor and sensor components.",
+  "source": "https://www.oem.se/en/our-companies"
+ },
+ {
+  "parentName": "Konecranes",
+  "name": "Konecranes Port Solutions Düsseldorf-Benrath Mobile Harbour Crane Plant (Gottwald)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Düsseldorf",
+  "country": "Germany",
+  "address": "Forststraße 16, 40597 Düsseldorf",
+  "geoQueries": [
+   "Konecranes Düsseldorf",
+   "Konecranes GmbH Forststraße 16, 40597 Düsseldorf",
+   "Forststraße 16, 40597 Düsseldorf"
+  ],
+  "approxLat": 51.16,
+  "approxLng": 6.89,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "160,000 m2 plant where about 800 staff develop and build Konecranes Gottwald mobile harbour cranes and port AGVs.",
+  "source": "https://investors.konecranes.com/sites/konecranes/files/Investor%20events/2024/Konecranes%20Dusseldorf%20site%20visit%2020240528.pdf"
+ },
+ {
+  "parentName": "Konecranes",
+  "name": "Konecranes Americas HQ & Crane Assembly Plant (Springfield, Ohio)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Springfield (Ohio)",
+  "country": "USA",
+  "address": "4401-4501 Gateway Blvd, Springfield, OH 45502",
+  "geoQueries": [
+   "Konecranes Springfield",
+   "4401 Gateway Blvd, Springfield, OH 45502",
+   "4501 Gateway Blvd, Springfield, OH 45502"
+  ],
+  "approxLat": 39.96,
+  "approxLng": -83.734,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Konecranes' Americas headquarters and adjacent crane assembly and manufacturing plant.",
+  "source": "https://konecranes.com/en-us/node/47771"
+ },
+ {
+  "parentName": "Konecranes",
+  "name": "Konecranes Lifttrucks Markaryd Heavy Forklift & Reach Stacker Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Markaryd",
+  "country": "Sverige",
+  "address": "Anders Anderssons väg 13, 285 35 Markaryd",
+  "geoQueries": [
+   "Konecranes Lifttrucks Markaryd",
+   "Konecranes Markaryd"
+  ],
+  "approxLat": 56.458,
+  "approxLng": 13.605,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "R&D, design and manufacturing base of Konecranes' lift truck unit (heavy forklifts, reach stackers, container handlers).",
+  "source": "https://www.kclifttrucks.com/high-quality-manufacturing"
+ },
+ {
+  "parentName": "MilDef",
+  "name": "MilDef Sweden AB Rosersberg Site",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Rosersberg (Sigtuna)",
+  "country": "Sverige",
+  "address": "Tallbacksgatan 9B, 195 72 Rosersberg",
+  "geoQueries": [
+   "MilDef Rosersberg",
+   "Tallbacksgatan 9B, 195 72 Rosersberg"
+  ],
+  "approxLat": 59.58,
+  "approxLng": 17.89,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Swedish operating subsidiary of MilDef providing rugged IT systems integration and services for the Swedish defence sector.",
+  "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "MilDef",
+  "name": "MilDef Oy Finland Office (Espoo)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Espoo",
+  "country": "Finland",
+  "address": "Lars Sonckin kaari 14, 02600 Espoo",
+  "geoQueries": [
+   "MilDef Oy Espoo",
+   "Lars Sonckin kaari 14, 02600 Espoo"
+  ],
+  "approxLat": 60.219,
+  "approxLng": 24.81,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Finnish subsidiary of MilDef supplying rugged tactical IT and integration services.",
+  "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "MilDef",
+  "name": "MilDef AS Ottestad Site (Norway)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Ottestad (Stange)",
+  "country": "Norge",
+  "address": "Løvstadsvegen 7, 2312 Ottestad",
+  "geoQueries": [
+   "MilDef Ottestad",
+   "Løvstadsvegen 7, 2312 Ottestad"
+  ],
+  "approxLat": 60.828,
+  "approxLng": 11.118,
+  "coordsExact": false,
+  "footprintRadiusMeters": 170,
+  "description": "Norwegian MilDef site serving the Norwegian armed forces with rugged IT and systems integration.",
+  "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "MilDef",
+  "name": "MilDef Ltd St Athan Systems Integration Site (Bro Tathan)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "St Athan",
+  "country": "UK",
+  "address": "Building 232, Dragon Way, Bro Tathan West, St Athan CF62 4AF",
+  "geoQueries": [
+   "MilDef St Athan",
+   "Dragon Way, Bro Tathan, St Athan CF62 4AF"
+  ],
+  "approxLat": 51.405,
+  "approxLng": -3.44,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "UK MilDef operation at the Bro Tathan aerospace park in Wales for rugged defence IT integration.",
+  "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "MilDef",
+  "name": "MilDef UK Ltd Melksham (Datum House)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Melksham",
+  "country": "UK",
+  "address": "Datum House, 6 Lancaster Road, Bowerhill, Melksham SN12 6SS",
+  "geoQueries": [
+   "MilDef Melksham",
+   "6 Lancaster Road, Bowerhill, Melksham SN12 6SS"
+  ],
+  "approxLat": 51.353,
+  "approxLng": -2.13,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "UK MilDef subsidiary in Bowerhill supplying rugged computers and displays to defence customers.",
+  "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "MilDef",
+  "name": "MilDef Inc. US Office (Fullerton)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Fullerton (California)",
+  "country": "USA",
+  "address": "851 Enterprise Way, Fullerton, CA 92831",
+  "geoQueries": [
+   "MilDef Fullerton",
+   "851 Enterprise Way, Fullerton, CA 92831"
+  ],
+  "approxLat": 33.879,
+  "approxLng": -117.89,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "US subsidiary of MilDef supplying rugged tactical IT hardware.",
+  "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "MilDef",
+  "name": "MilDef GmbH Hüllhorst Site",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Hüllhorst",
+  "country": "Germany",
+  "address": "Hankamp 2, 32609 Hüllhorst",
+  "geoQueries": [
+   "MilDef Hüllhorst",
+   "Hankamp 2, 32609 Hüllhorst"
+  ],
+  "approxLat": 52.28,
+  "approxLng": 8.66,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Second German MilDef GmbH site providing rugged IT products and services.",
+  "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "Vimian",
+  "name": "Nextmune Netherlands Office & Allergy Products Site (Lelystad)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Lelystad",
+  "country": "Netherlands",
+  "address": "Vijzelweg 11, 8243 PM Lelystad",
+  "geoQueries": [
+   "Nextmune Lelystad",
+   "Artuvet Lelystad",
+   "Vijzelweg 11, 8243 PM Lelystad"
+  ],
+  "approxLat": 52.49,
+  "approxLng": 5.49,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Site of Nextmune (incl. Artuvet), Vimian's Specialty Pharma division for veterinary allergy diagnostics/immunotherapy and dermatology.",
+  "source": "https://nyne.ai/sc/artuvet.com"
+ },
+ {
+  "parentName": "Vimian",
+  "name": "Movora / Veterinary Orthopedic Implants US Distribution Center (St. Augustine)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "St. Augustine (Florida)",
+  "country": "USA",
+  "address": "310 Commerce Lake Dr, St. Augustine, FL 32095",
+  "geoQueries": [
+   "Movora St. Augustine",
+   "Veterinary Orthopedic Implants",
+   "310 Commerce Lake Dr, St. Augustine, FL 32095"
+  ],
+  "approxLat": 29.96,
+  "approxLng": -81.47,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "US base and distribution centre of Movora, Vimian's veterinary orthopaedics MedTech division (former VOI site).",
+  "source": "https://movora.com/news/movora-launches-in-the-united-states-with-new-distribution-center"
+ },
+ {
+  "parentName": "Kempower",
+  "name": "Kempower Lahti 2 EV Charger Factory & Service Centre (Isku Center)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Lahti",
+  "country": "Finland",
+  "address": "Mukkulankatu 19, 15210 Lahti",
+  "geoQueries": [
+   "Kempower Mukkulankatu Lahti",
+   "Isku Center Lahti",
+   "Mukkulankatu 19, 15210 Lahti"
+  ],
+  "approxLat": 61.0,
+  "approxLng": 25.655,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Kempower's second Lahti factory (Verstaskatu 3 deliveries) with offices, training and service centre.",
+  "source": "https://kempower.com/?p=201"
+ },
+ {
+  "parentName": "Kempower",
+  "name": "Kempower Lahti 3 Power Module Production Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Lahti",
+  "country": "Finland",
+  "address": "Ala-Okeroistentie 23, 15700 Lahti",
+  "geoQueries": [
+   "Kempower Ala-Okeroistentie 23",
+   "Ala-Okeroistentie 23, 15700 Lahti"
+  ],
+  "approxLat": 60.959,
+  "approxLng": 25.61,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Kempower factory producing power modules for its DC fast chargers, next to the Lahti HQ plant.",
+  "source": "https://kempower.com/?p=201"
+ },
+ {
+  "parentName": "Kempower",
+  "name": "Kempower Vaasa Engineering Office",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Vaasa",
+  "country": "Finland",
+  "address": "Mustasaarentie 1B, 65300 Vaasa",
+  "geoQueries": [
+   "Kempower Vaasa",
+   "Mustasaarentie 1B, 65300 Vaasa"
+  ],
+  "approxLat": 63.082,
+  "approxLng": 21.639,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Kempower office in Vaasa's energy-technology cluster supporting charging-system engineering.",
+  "source": "https://kempower.com/?p=201"
+ },
+ {
+  "parentName": "Kempower",
+  "name": "Kempower UK Office (Martti Kemppi Building, Bedford)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bedford",
+  "country": "UK",
+  "address": "Martti Kemppi Building, Fraser Road, Priory Business Park, Bedford MK44 3WH",
+  "geoQueries": [
+   "Kempower Bedford",
+   "Fraser Road, Priory Business Park, Bedford MK44 3WH"
+  ],
+  "approxLat": 52.137,
+  "approxLng": -0.428,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "UK sales and service subsidiary of Kempower.",
+  "source": "https://kempower.com/?p=201"
+ },
+ {
+  "parentName": "Kempower",
+  "name": "Kempower Germany Office (EUREF-Campus Düsseldorf)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Düsseldorf",
+  "country": "Germany",
+  "address": "EUREF-Campus, Ahrensplatz 1, 40472 Düsseldorf",
+  "geoQueries": [
+   "Kempower Düsseldorf",
+   "EUREF-Campus Düsseldorf",
+   "Ahrensplatz 1, 40472 Düsseldorf"
+  ],
+  "approxLat": 51.273,
+  "approxLng": 6.81,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "German sales and service subsidiary of Kempower.",
+  "source": "https://kempower.com/?p=201"
+ },
+ {
+  "parentName": "Kone",
+  "name": "KONE Park Kunshan Elevator & Escalator Factories and R&D Centre",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Kunshan (Jiangsu)",
+  "country": "China",
+  "address": "KONE Park, Kunshan Economic and Technological Development Zone, Jiangsu",
+  "geoQueries": [
+   "KONE Kunshan",
+   "KONE Elevators Co. Ltd Kunshan",
+   "Kunshan Development Zone, Jiangsu"
+  ],
+  "approxLat": 31.33,
+  "approxLng": 120.96,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "KONE's largest manufacturing unit: three elevator factories, an escalator factory and an R&D centre.",
+  "source": "https://www.kone.co.uk/stories-and-references/press-releases/kone-celebrates-opening-of-kone-park-manufacturing-and-r-d-site-in-kunshan--china-2013-04-10.aspx"
+ },
+ {
+  "parentName": "Kone",
+  "name": "KONE Elevators India Sriperumbudur Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Sriperumbudur (Chennai)",
+  "country": "India",
+  "address": "Sriperumbudur Industrial Area, Kanchipuram District, Tamil Nadu",
+  "geoQueries": [
+   "KONE Sriperumbudur",
+   "KONE Elevator India factory Sriperumbudur"
+  ],
+  "approxLat": 12.96,
+  "approxLng": 79.95,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "KONE elevator manufacturing plant near Chennai with car/door and electrification units.",
+  "source": "https://companies.naukri.com/kone-jobs/about-us"
+ },
+ {
+  "parentName": "Kone",
+  "name": "KONE India R&D and Shared Services Centre (Ambattur)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Chennai",
+  "country": "India",
+  "address": "Ambattur Industrial Estate, Chennai, Tamil Nadu",
+  "geoQueries": [
+   "KONE Ambattur",
+   "KONE Elevator India Ambattur"
+  ],
+  "approxLat": 13.1,
+  "approxLng": 80.16,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "KONE R&D and global shared-services centre in Chennai.",
+  "source": "https://companies.naukri.com/kone-jobs/about-us"
+ }
+]

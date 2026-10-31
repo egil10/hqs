@@ -1,0 +1,692 @@
+[
+ {
+  "parentName": "Lindab",
+  "name": "Lindab Ventilation Plant Prague-Ruzyně (Lindab s.r.o.)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Praha",
+  "country": "Czech Republic",
+  "address": "Na Hůrce 1081/6, 161 00 Praha 6 - Ruzyně",
+  "geoQueries": [
+   "Lindab Na Hůrce Praha",
+   "Na Hůrce 1081/6, 161 00 Praha",
+   "Lindab s.r.o. Ruzyně"
+  ],
+  "approxLat": 50.0832,
+  "approxLng": 14.3105,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Lindab's largest ventilation plant and Czech headquarters/warehouse, opened 2003, the group's central automated production facility for circular ducts and ventilation components.",
+  "source": "https://www.estav.cz/lindab"
+ },
+ {
+  "parentName": "Lindab",
+  "name": "Lindab Ventilation Plant Hustopeče",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Hustopeče",
+  "country": "Czech Republic",
+  "address": "Hustopeče u Brna, 693 01 Hustopeče",
+  "geoQueries": [
+   "Lindab Hustopeče",
+   "Lindab s.r.o. Hustopeče"
+  ],
+  "approxLat": 48.9405,
+  "approxLng": 16.7375,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Lindab's second Czech ventilation production plant near Brno.",
+  "source": "https://www.estav.cz/lindab"
+ },
+ {
+  "parentName": "Lindab",
+  "name": "Lindab GmbH Germany Head Office (Bargteheide)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bargteheide",
+  "country": "Germany",
+  "address": "Carl-Benz-Weg 18, 22941 Bargteheide",
+  "geoQueries": [
+   "Lindab GmbH Bargteheide",
+   "Carl-Benz-Weg 18, 22941 Bargteheide"
+  ],
+  "approxLat": 53.7385,
+  "approxLng": 10.2795,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office and ventilation sales/distribution centre of Lindab GmbH, the group's German subsidiary.",
+  "source": "https://www.heinze.de/expertenprofil/lindab/12710608/"
+ },
+ {
+  "parentName": "Wilh. Wilhelmsen",
+  "name": "NorSea Tananger Supply Base & NorSea Group HQ (Risavika)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Tananger",
+  "country": "Norge",
+  "address": "Risavika Havnering 14, 4056 Tananger",
+  "geoQueries": [
+   "NorSea Tananger",
+   "Risavika Havnering 14, 4056 Tananger",
+   "NorSea Risavika"
+  ],
+  "approxLat": 58.923,
+  "approxLng": 5.595,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "NorSea's main North Sea offshore supply base and group head office; NorSea is about 99% owned by Wilhelmsen.",
+  "source": "https://nofo.no/en/contact/bases"
+ },
+ {
+  "parentName": "Wilh. Wilhelmsen",
+  "name": "NorSea Polarbase Supply Base (Rypefjord, Hammerfest)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Hammerfest",
+  "country": "Norge",
+  "address": "Polarbase, 9610 Rypefjord",
+  "geoQueries": [
+   "Polarbase Hammerfest",
+   "NorSea Polarbase",
+   "Polarbase Rypefjord"
+  ],
+  "approxLat": 70.6595,
+  "approxLng": 23.64,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "NorSea Polarbase, the supply and logistics hub for Barents Sea oil and gas activity (Snøhvit, Goliat, Johan Castberg).",
+  "source": "https://wilhelmsen.com/media-news-and-events/press-releases/2022/wilhelmsen-to-increase-ownership-in-norsea"
+ },
+ {
+  "parentName": "Wilh. Wilhelmsen",
+  "name": "NorSea Dusavik Supply Base (Stavanger)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Stavanger",
+  "country": "Norge",
+  "address": "Dusavikveien, 4029 Stavanger",
+  "geoQueries": [
+   "NorSea Dusavik",
+   "Dusavik base Stavanger",
+   "Dusavikbasen"
+  ],
+  "approxLat": 59.006,
+  "approxLng": 5.675,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "NorSea's Dusavik offshore supply base north of Stavanger serving North Sea operators.",
+  "source": "https://offshore-energy.biz/omv-taps-norsea-for-supply-base-services-in-norway"
+ },
+ {
+  "parentName": "Wilh. Wilhelmsen",
+  "name": "Wilhelmsen Ship Management Global HQ (The Concourse, Singapore)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Singapore",
+  "country": "Singapore",
+  "address": "300 Beach Road, The Concourse #33-01/04, Singapore 199555",
+  "geoQueries": [
+   "The Concourse 300 Beach Road Singapore",
+   "300 Beach Road, Singapore 199555"
+  ],
+  "approxLat": 1.3012,
+  "approxLng": 103.8616,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Headquarters of Wilhelmsen Ship Management, the group's third-party ship management business, relocated from Kuala Lumpur in 2018.",
+  "source": "https://wilhelmsen.com/contacts-locations/locations/asia/singapore/head-offices/wilhelmsen-ship-management"
+ },
+ {
+  "parentName": "Wilh. Wilhelmsen",
+  "name": "Wilhelmsen Ship Management Shared Services Office (1 Sentral, Kuala Lumpur)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Kuala Lumpur",
+  "country": "Malaysia",
+  "address": "19th Floor, 1 Sentral, Jalan Rakyat, Kuala Lumpur Sentral, 50470 Kuala Lumpur",
+  "geoQueries": [
+   "1 Sentral Kuala Lumpur",
+   "1 Sentral, Jalan Rakyat, 50470 Kuala Lumpur"
+  ],
+  "approxLat": 3.1345,
+  "approxLng": 101.6865,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Wilhelmsen Ship Management's Kuala Lumpur office hosting shared services and back-office functions.",
+  "source": "https://www.wilhelmsen.com/contacts-locations/locations/asia/malaysia/sm-office/wilhelmsen-ship-management-sdn.-bhd"
+ },
+ {
+  "parentName": "Bravida",
+  "name": "Bravida Finland Head Office (Helsinki)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Helsinki",
+  "country": "Finland",
+  "address": "Valimotie 21, 00380 Helsinki",
+  "geoQueries": [
+   "Bravida Finland Valimotie",
+   "Valimotie 21, 00380 Helsinki"
+  ],
+  "approxLat": 60.2205,
+  "approxLng": 24.8795,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Bravida Finland Oy, the group's Finnish electrical, HVAC and sprinkler installation and service subsidiary.",
+  "source": "https://www.topograph.co/companies/fi/bravida-finland-oy-25288741"
+ },
+ {
+  "parentName": "Elekta",
+  "name": "Elekta Beijing Linear Accelerator Factory (Changping)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Beijing",
+  "country": "China",
+  "address": "No. 21 Chuang Xin Road, Science and Technology Park, Changping, Beijing 102200",
+  "geoQueries": [
+   "Elekta Beijing Medical Systems",
+   "医科达(北京)医疗器械有限公司",
+   "21 Chuangxin Road Changping Beijing"
+  ],
+  "approxLat": 40.205,
+  "approxLng": 116.235,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Elekta Beijing Medical Systems (ex-BMEI, acquired 2006) producing linear accelerators for China and global markets, described as Elekta's most complete manufacturing hub.",
+  "source": "https://www.elekta.com/focus/elektas-beijing-factory-celebrates-production-of-100th-cancer-fighting-machine/"
+ },
+ {
+  "parentName": "Elekta",
+  "name": "Elekta Brachytherapy Plant & Dutch Head Office (Veenendaal)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Veenendaal",
+  "country": "Netherlands",
+  "address": "Waardgelder 1, 3905 TH Veenendaal",
+  "geoQueries": [
+   "Elekta Veenendaal",
+   "Waardgelder 1, 3905 TH Veenendaal",
+   "Nucletron Veenendaal"
+  ],
+  "approxLat": 52.0335,
+  "approxLng": 5.576,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Former Nucletron site where Elekta's brachytherapy business designs and manufactures the Flexitron afterloader and applicators.",
+  "source": "https://pharmatimes.com/?p=99878"
+ },
+ {
+  "parentName": "Lundbergs",
+  "name": "Lundbergs Fastigheter Head Office (Norrköping)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Norrköping",
+  "country": "Sverige",
+  "address": "Olai Kyrkogata 40, 602 32 Norrköping",
+  "geoQueries": [
+   "Lundbergs Fastigheter Norrköping",
+   "Olai Kyrkogata 40, 602 32 Norrköping"
+  ],
+  "approxLat": 58.5895,
+  "approxLng": 16.184,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of wholly owned Fastighets AB L E Lundberg, Lundbergs' property company with holdings in Norrköping, Linköping, Uppsala and Stockholm.",
+  "source": "https://upplysningar.syna.se/foretag/5560490483/fastighets-ab-l-e-lundberg"
+ },
+ {
+  "parentName": "Lundbergs",
+  "name": "Holmen Braviken Paper Mill & Sawmill (Norrköping)",
+  "facilityType": "Mill, Smelter & Mine",
+  "city": "Norrköping",
+  "country": "Sverige",
+  "address": "Braviken, 601 88 Norrköping",
+  "geoQueries": [
+   "Braviken pappersbruk",
+   "Holmen Paper Braviken",
+   "Braviken Norrköping"
+  ],
+  "approxLat": 58.637,
+  "approxLng": 16.312,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Holmen's newsprint/book paper mill and sawmill on Bråviken bay; Holmen is controlled by Lundbergs (about 63% of votes).",
+  "source": "https://www.holmen.com/en/paper/about-us/work-with-us/braviken/"
+ },
+ {
+  "parentName": "Lundbergs",
+  "name": "Holmen Hallsta Paper Mill (Hallstavik)",
+  "facilityType": "Mill, Smelter & Mine",
+  "city": "Hallstavik",
+  "country": "Sverige",
+  "address": "Hallsta pappersbruk, 763 81 Hallstavik",
+  "geoQueries": [
+   "Hallsta pappersbruk",
+   "Holmen Paper Hallsta",
+   "Hallstavik"
+  ],
+  "approxLat": 60.054,
+  "approxLng": 18.598,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Holmen's Hallsta paper mill north of Stockholm producing printing and magazine paper; Holmen is controlled by Lundbergs (about 63% of votes).",
+  "source": "https://int.holmen.com/sv/board-and-paper/about-us/our-mills"
+ },
+ {
+  "parentName": "Lundbergs",
+  "name": "Holmen Group Head Office (Strandvägen, Stockholm)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Strandvägen 1, 114 51 Stockholm",
+  "geoQueries": [
+   "Holmen AB Strandvägen 1",
+   "Strandvägen 1, 114 51 Stockholm"
+  ],
+  "approxLat": 59.3325,
+  "approxLng": 18.078,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Holmen AB (forest, paperboard, paper, wood products and energy), controlled by Lundbergs with about 63% of votes.",
+  "source": "https://en.wikipedia.org/wiki/Holmen_(company)"
+ },
+ {
+  "parentName": "Lundbergs",
+  "name": "Hufvudstaden Head Office (Regeringsgatan, Stockholm)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Regeringsgatan 38, 111 56 Stockholm",
+  "geoQueries": [
+   "Hufvudstaden Regeringsgatan 38",
+   "Regeringsgatan 38, 111 56 Stockholm"
+  ],
+  "approxLat": 59.3335,
+  "approxLng": 18.07,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Hufvudstaden, the Stockholm/Gothenburg city-centre property company in which Lundbergs holds about 45% of capital and 88% of votes.",
+  "source": "https://en.wikipedia.org/wiki/L_E_Lundbergf%C3%B6retagen"
+ },
+ {
+  "parentName": "Nordnet",
+  "name": "Nordnet Finland Office (Alvar Aallon katu, Helsinki)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Helsinki",
+  "country": "Finland",
+  "address": "Alvar Aallon katu 5 C, 3. krs, 00100 Helsinki",
+  "geoQueries": [
+   "Alvar Aallon katu 5, 00100 Helsinki",
+   "Nordnet Helsinki"
+  ],
+  "approxLat": 60.1696,
+  "approxLng": 24.939,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of Nordnet Bank AB's Finnish branch serving Nordnet's Finnish savings and investment customers.",
+  "source": "https://www.nordnet.fi/haalarimerkit"
+ },
+ {
+  "parentName": "Lifco",
+  "name": "Directa Dental Products HQ & Plant (Upplands Väsby, Lifco)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Upplands Väsby",
+  "country": "Sverige",
+  "address": "Finvids väg 8, 194 47 Upplands Väsby",
+  "geoQueries": [
+   "Directa AB Upplands Väsby",
+   "Finvids väg 8, 194 47 Upplands Väsby"
+  ],
+  "approxLat": 59.5085,
+  "approxLng": 17.899,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Directa AB, a Lifco Dental company, develops and produces dental consumables (e.g. matrices, wedges, composites) at its Upplands Väsby site.",
+  "source": "https://www.directadental.com/contact"
+ },
+ {
+  "parentName": "Lifco",
+  "name": "Darda Demolition Tools Plant (Blumberg, Brokk Group / Lifco)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Blumberg",
+  "country": "Germany",
+  "address": "Im Tal 1, 78176 Blumberg",
+  "geoQueries": [
+   "Darda GmbH Blumberg",
+   "Im Tal 1, 78176 Blumberg"
+  ],
+  "approxLat": 47.84,
+  "approxLng": 8.533,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Darda GmbH, part of Lifco's Brokk Group, makes hydraulic rock and concrete splitters, crushers and demolition tools in Blumberg.",
+  "source": "https://www.darda.de/en/imprint"
+ },
+ {
+  "parentName": "Lifco",
+  "name": "Proclinic Dental Logistics Centre (PLAZA Zaragoza, Lifco)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Zaragoza",
+  "country": "Spain",
+  "address": "Calle Palermo 9, Plataforma Logística PLAZA, 50197 Zaragoza",
+  "geoQueries": [
+   "Proclinic Zaragoza",
+   "Calle Palermo 9, 50197 Zaragoza"
+  ],
+  "approxLat": 41.623,
+  "approxLng": -0.991,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Automated 12,000+ m2 distribution centre of Proclinic, Lifco's Iberian dental products distributor.",
+  "source": "https://www.iberinform.es/empresa/257208/proclinic"
+ },
+ {
+  "parentName": "Bonesupport",
+  "name": "BONESUPPORT Inc. US Headquarters (Needham, MA)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Needham",
+  "country": "USA",
+  "address": "117 Fourth Ave, Suite 202, Needham, MA 02494",
+  "geoQueries": [
+   "117 Fourth Avenue, Needham, MA 02494",
+   "Bonesupport Needham"
+  ],
+  "approxLat": 42.2965,
+  "approxLng": -71.2365,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "US subsidiary headquarters for commercialisation of CERAMENT bone graft substitutes in Bonesupport's largest market.",
+  "source": "https://www.bonesupport.com/en/contact"
+ },
+ {
+  "parentName": "Bonesupport",
+  "name": "BONESUPPORT GmbH Germany Office (Frankfurt am Main)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Frankfurt am Main",
+  "country": "Germany",
+  "address": "Lyoner Strasse 15, 60528 Frankfurt am Main",
+  "geoQueries": [
+   "Lyoner Straße 15, 60528 Frankfurt am Main"
+  ],
+  "approxLat": 50.079,
+  "approxLng": 8.629,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "German sales subsidiary of Bonesupport for CERAMENT orthobiologics.",
+  "source": "https://www.bonesupport.com/en/contact"
+ },
+ {
+  "parentName": "Bonesupport",
+  "name": "BONESUPPORT UK Office (Farnham)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Farnham",
+  "country": "UK",
+  "address": "Suite 14, The Granary, Hones Yard, 1 Waverley Lane, Farnham GU9 8BB",
+  "geoQueries": [
+   "Hones Yard, Waverley Lane, Farnham GU9 8BB"
+  ],
+  "approxLat": 51.2125,
+  "approxLng": -0.7965,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "UK sales subsidiary of Bonesupport for CERAMENT bone graft substitutes.",
+  "source": "https://www.bonesupport.com/en/contact"
+ },
+ {
+  "parentName": "Axactor",
+  "name": "Axactor Spain Head Office (Doctor Esquerdo, Madrid)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Madrid",
+  "country": "Spain",
+  "address": "Calle Doctor Esquerdo 136, 4a planta, 28007 Madrid",
+  "geoQueries": [
+   "Calle del Doctor Esquerdo 136, 28007 Madrid",
+   "Axactor Madrid"
+  ],
+  "approxLat": 40.404,
+  "approxLng": -3.6705,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Axactor España, the group's Spanish debt purchasing and collection operation.",
+  "source": "https://www.axactor.com/es-en/contact-us"
+ },
+ {
+  "parentName": "Axactor",
+  "name": "Axactor Finland Office (Porkkalankatu, Helsinki)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Helsinki",
+  "country": "Finland",
+  "address": "Porkkalankatu 20 A, 00180 Helsinki",
+  "geoQueries": [
+   "Porkkalankatu 20, 00180 Helsinki",
+   "Axactor Finland"
+  ],
+  "approxLat": 60.163,
+  "approxLng": 24.912,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of Axactor Finland Oy, the group's Finnish debt collection and NPL servicing operation.",
+  "source": "https://axactor.com/fi-en/contact-us"
+ },
+ {
+  "parentName": "Axactor",
+  "name": "Axactor Italy Operations Office (Grosseto)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Grosseto",
+  "country": "Italy",
+  "address": "Via Scansanese 152, 58100 Grosseto",
+  "geoQueries": [
+   "Via Scansanese 152, 58100 Grosseto",
+   "Axactor Grosseto"
+  ],
+  "approxLat": 42.759,
+  "approxLng": 11.126,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Administrative and operational office of Axactor Italy, the group's Italian debt collection and servicing business.",
+  "source": "https://www.axactor.com/it-en/contact-us"
+ },
+ {
+  "parentName": "Taaleri",
+  "name": "Taaleri Energia Operations Office (Oulu)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Oulu",
+  "country": "Finland",
+  "address": "Elektroniikkatie 8, 90590 Oulu",
+  "geoQueries": [
+   "Elektroniikkatie 8, 90590 Oulu"
+  ],
+  "approxLat": 65.058,
+  "approxLng": 25.445,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of Taaleri Energia Operations, which manages the operation of renewable energy (wind and solar) assets in Taaleri's funds.",
+  "source": "https://taaleri.com/contact-us/"
+ },
+ {
+  "parentName": "Taaleri",
+  "name": "Taaleri Energia Iberia Office (Madrid)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Madrid",
+  "country": "Spain",
+  "address": "Paseo de la Castellana 79, 28046 Madrid",
+  "geoQueries": [
+   "Paseo de la Castellana 79, 28046 Madrid"
+  ],
+  "approxLat": 40.4455,
+  "approxLng": -3.692,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Iberian hub of Taaleri Energia developing and managing wind and solar projects in Spain and Portugal.",
+  "source": "https://taaleri.com/contact-us/"
+ },
+ {
+  "parentName": "Taaleri",
+  "name": "Taaleri Budapest Hub",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Budapest",
+  "country": "Hungary",
+  "address": "Szervita tér 8, 1052 Budapest",
+  "geoQueries": [
+   "Szervita tér 8, 1052 Budapest"
+  ],
+  "approxLat": 47.495,
+  "approxLng": 19.054,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Taaleri's Central European hub for renewable energy investment and asset management.",
+  "source": "https://taaleri.com/contact-us/"
+ },
+ {
+  "parentName": "HEXPOL",
+  "name": "HEXPOL TPE Åmål Thermoplastic Elastomer Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Åmål",
+  "country": "Sverige",
+  "address": "Gamla Örnäsgatan 15, 662 22 Åmål",
+  "geoQueries": [
+   "HEXPOL TPE Åmål",
+   "Elastoteknik Åmål",
+   "Gamla Örnäsgatan 15, 662 22 Åmål"
+  ],
+  "approxLat": 59.0465,
+  "approxLng": 12.715,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "HEXPOL TPE plant on Lake Vänern producing thermoplastic elastomer compounds (Dryflex, Mediprene) since the 1970s.",
+  "source": "https://www.hexpol.com/plant-locations/hexpol-tpe-ab/"
+ },
+ {
+  "parentName": "HEXPOL",
+  "name": "HEXPOL Compounding Lesina Rubber Compound Plant (Skalná)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Skalná",
+  "country": "Czech Republic",
+  "address": "Lesina, 351 34 Skalná",
+  "geoQueries": [
+   "HEXPOL Compounding Lesina",
+   "Lesina Skalná",
+   "Trelleborg Lesina"
+  ],
+  "approxLat": 50.163,
+  "approxLng": 12.37,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Rubber compounding plant near Cheb acquired from Trelleborg in 2017 (ex-Trelleborg Material & Mixing Lesina).",
+  "source": "https://www.hexpol.com/?p=1457"
+ },
+ {
+  "parentName": "HEXPOL",
+  "name": "HEXPOL Compounding Uničov Rubber Compound Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Uničov",
+  "country": "Czech Republic",
+  "address": "Šumperská 1344, 783 91 Uničov",
+  "geoQueries": [
+   "HEXPOL Compounding Uničov",
+   "Šumperská 1344, 783 91 Uničov"
+  ],
+  "approxLat": 49.779,
+  "approxLng": 17.13,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "HEXPOL Compounding s.r.o. rubber compound mixing plant in the Olomouc region.",
+  "source": "https://www.hexpol.com/plant-locations/hexpol-compounding-s-r-o/"
+ },
+ {
+  "parentName": "HEXPOL",
+  "name": "Stellana Laxå Polyurethane Wheel Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Laxå",
+  "country": "Sverige",
+  "address": "Stellana AB, 695 22 Laxå",
+  "geoQueries": [
+   "Stellana Laxå",
+   "Stellana AB Laxå"
+  ],
+  "approxLat": 58.987,
+  "approxLng": 14.62,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Stellana (HEXPOL Wheels) plant making polyurethane and rubber wheels for forklifts and material-handling trucks.",
+  "source": "https://investors.hexpol.com/sites/hexpol-ir-v2/files/pr/201904049225-1.pdf"
+ },
+ {
+  "parentName": "Intrum",
+  "name": "Intrum Hellas Head Office (Mesogeion Avenue, Athens)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Athens",
+  "country": "Greece",
+  "address": "Mesogeion Avenue 109-111, 115 26 Athens",
+  "geoQueries": [
+   "Intrum Hellas",
+   "Leoforos Mesogeion 109, Athens 11526"
+  ],
+  "approxLat": 37.9935,
+  "approxLng": 23.76,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Intrum Hellas, Intrum's Greek NPL servicing platform (formed with Piraeus Bank), one of its largest markets.",
+  "source": "https://www.intrum.com/intrum-customer-services/about-intrum-ics/ics-athens/"
+ },
+ {
+  "parentName": "Intrum",
+  "name": "Intrum Italy Head Office (Milan)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Milano",
+  "country": "Italy",
+  "address": "Bastioni di Porta Nuova 19, 20121 Milano",
+  "geoQueries": [
+   "Intrum Italy Milano",
+   "Bastioni di Porta Nuova 19, 20121 Milano",
+   "Via Solferino 43 Milano"
+  ],
+  "approxLat": 45.48,
+  "approxLng": 9.187,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Registered head office of Intrum Italy, the group's Italian credit-management and NPL servicing business.",
+  "source": "https://atoka.io/public/it/azienda/intrum-italy-spa/8d427746d75e"
+ },
+ {
+  "parentName": "Norwegian Air Shuttle",
+  "name": "Norwegian Main Base & Hangar (Oslo Gardermoen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Gardermoen",
+  "country": "Norge",
+  "address": "Oslo lufthavn Gardermoen, 2060 Gardermoen",
+  "geoQueries": [
+   "Norwegian hangar Gardermoen",
+   "Norwegian Air Shuttle hangar Oslo lufthavn"
+  ],
+  "approxLat": 60.192,
+  "approxLng": 11.088,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Norwegian's main operating base and maintenance hangar at Oslo Airport, where in-house engineers maintain the Boeing 737 fleet.",
+  "source": "https://snl.no/Norwegian"
+ },
+ {
+  "parentName": "Norwegian Air Shuttle",
+  "name": "Widerøe Technical Services Main Maintenance Base (Bodø Airport)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bodø",
+  "country": "Norge",
+  "address": "Bodø lufthavn, 8041 Bodø",
+  "geoQueries": [
+   "Widerøe hangar Bodø",
+   "Widerøe Technical Services Bodø"
+  ],
+  "approxLat": 67.27,
+  "approxLng": 14.375,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Main base and line maintenance base for Widerøe's Dash 8 fleet, run by subsidiary Widerøe Technical Services (Widerøe wholly owned by Norwegian).",
+  "source": "https://www.finn.no/job/ad/447541402"
+ },
+ {
+  "parentName": "Norwegian Air Shuttle",
+  "name": "Widerøe Hangar Bergen Flesland",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bergen",
+  "country": "Norge",
+  "address": "Bergen lufthavn Flesland, 5258 Blomsterdalen",
+  "geoQueries": [
+   "Widerøe hangar Flesland",
+   "Widerøe Bergen Flesland"
+  ],
+  "approxLat": 60.29,
+  "approxLng": 5.225,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Widerøe's 3,000 sqm hangar and technical base at Bergen Airport Flesland.",
+  "source": "https://wideroe.mynewsdesk.com/pressreleases/aqui-vamos-nos-torp-and-flesland-2050520.pdf"
+ }
+]

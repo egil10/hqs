@@ -1,0 +1,382 @@
+[
+ {
+  "parentName": "AutoStore",
+  "name": "AutoStore Koszalin Robot & Grid Production Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Koszalin",
+  "country": "Poland",
+  "address": "ul. Ekonomiczna 20, 75-845 Koszalin",
+  "geoQueries": [
+   "AutoStore Koszalin",
+   "AutoStore Sp. z o.o. Koszalin",
+   "Ekonomiczna 20, 75-845 Koszalin"
+  ],
+  "approxLat": 54.1755,
+  "approxLng": 16.2245,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "AutoStore's own production facility (AutoStore Sp. z o.o.) manufacturing components for its cube storage robots and grid systems.",
+  "source": "https://www.autostoresystem.com/news/autostore-opens-new-official-office-in-germany"
+ },
+ {
+  "parentName": "AutoStore",
+  "name": "AutoStore Germany DACH Office (Ulm)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Ulm",
+  "country": "Germany",
+  "address": "Ulm, Baden-Württemberg",
+  "geoQueries": [
+   "AutoStore Ulm",
+   "AutoStore GmbH Ulm"
+  ],
+  "approxLat": 48.3984,
+  "approxLng": 9.9916,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "AutoStore's official German office opened in 2023, home to the 20+ person team running business development and operations for the DACH region.",
+  "source": "https://www.autostoresystem.com/news/autostore-opens-new-official-office-in-germany"
+ },
+ {
+  "parentName": "AutoStore",
+  "name": "AutoStore System K.K. Japan Office (Minato-ku, Tokyo)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Tokyo",
+  "country": "Japan",
+  "address": "Minato-ku, Tokyo",
+  "geoQueries": [
+   "AutoStore System Tokyo",
+   "AutoStore System K.K."
+  ],
+  "approxLat": 35.658,
+  "approxLng": 139.7516,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of AutoStore's Japanese subsidiary, one of its largest Asian markets, operating since 2019.",
+  "source": "https://www.norwegianchamber.com/chamber-blog/2023/9/14/office-opening-for-autostore"
+ },
+ {
+  "parentName": "Link Mobility",
+  "name": "LINK Mobility UK Office (The Shard, London)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "London",
+  "country": "UK",
+  "address": "The Shard, 32 London Bridge Street, London SE1 9SG",
+  "geoQueries": [
+   "The Shard, London",
+   "32 London Bridge Street, London SE1 9SG"
+  ],
+  "approxLat": 51.5045,
+  "approxLng": -0.0865,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of LINK Mobility UK Ltd, the group's UK CPaaS/mobile messaging subsidiary.",
+  "source": "https://www.linkmobility.com/news/link-mobility-annual-report-2020"
+ },
+ {
+  "parentName": "Link Mobility",
+  "name": "LINK Mobility Denmark Office (Kødbyen, Copenhagen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "København",
+  "country": "Danmark",
+  "address": "Flæsketorvet 68, 1711 København V",
+  "geoQueries": [
+   "LINK Mobility København",
+   "Flæsketorvet 68, 1711 København"
+  ],
+  "approxLat": 55.6684,
+  "approxLng": 12.5605,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of LINK Mobility A/S, the group's Danish messaging subsidiary.",
+  "source": "https://linkmobility.com/en-GB/our-offices"
+ },
+ {
+  "parentName": "Link Mobility",
+  "name": "LINK Mobility Austria Office (Vienna)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Wien",
+  "country": "Austria",
+  "address": "Leonard-Bernstein-Straße 10, 1220 Wien",
+  "geoQueries": [
+   "LINK Mobility Austria",
+   "Leonard-Bernstein-Straße 10, 1220 Wien"
+  ],
+  "approxLat": 48.2346,
+  "approxLng": 16.4157,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of LINK Mobility Austria GmbH, serving the group's Austrian and Central European customers.",
+  "source": "https://linkmobility.com/en-GB/our-offices"
+ },
+ {
+  "parentName": "Link Mobility",
+  "name": "LINK Mobility Italy Office (Bologna)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bologna",
+  "country": "Italy",
+  "address": "Vicolo Carega 3, 40126 Bologna",
+  "geoQueries": [
+   "LINK Mobility Bologna",
+   "Vicolo Carega 3, Bologna"
+  ],
+  "approxLat": 44.4965,
+  "approxLng": 11.3475,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of LINK Mobility Italia, the group's Italian messaging subsidiary.",
+  "source": "https://linkmobility.com/en-GB/our-offices"
+ },
+ {
+  "parentName": "Elmera",
+  "name": "Gudbrandsdal Energi Head Office (Vinstra, Elmera Group)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Vinstra",
+  "country": "Norge",
+  "address": "Strandgata 39, 2640 Vinstra",
+  "geoQueries": [
+   "Gudbrandsdal Energi Vinstra",
+   "Strandgata 39, 2640 Vinstra"
+  ],
+  "approxLat": 61.5955,
+  "approxLng": 9.7505,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Gudbrandsdal Energi AS, Elmera Group's wholly owned electricity retail subsidiary run as a separate company from Vinstra.",
+  "source": "https://karrierestart.no/bedrift/205073"
+ },
+ {
+  "parentName": "AddLife",
+  "name": "Ropox Assistive Furniture Factory (Næstved, AddLife)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Næstved",
+  "country": "Danmark",
+  "address": "Ringstedgade 221, 4700 Næstved",
+  "geoQueries": [
+   "Ropox Næstved",
+   "Ropox A/S",
+   "Ringstedgade 221, 4700 Næstved"
+  ],
+  "approxLat": 55.2525,
+  "approxLng": 11.7585,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Head office and production of Ropox A/S, AddLife's wholly owned maker of height-adjustable kitchens, bathrooms and care furniture for people with special needs.",
+  "source": "https://danskcvrapi.dk/en/company/ropox-a-s-20461934"
+ },
+ {
+  "parentName": "AddLife",
+  "name": "Mediplast Group HQ & Warehouse (Malmö, AddLife)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Malmö",
+  "country": "Sverige",
+  "address": "Kantyxegatan 29, 213 76 Malmö",
+  "geoQueries": [
+   "Mediplast Malmö",
+   "Kantyxegatan 29, 213 76 Malmö"
+  ],
+  "approxLat": 55.5525,
+  "approxLng": 13.0745,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Mediplast, AddLife's wholly owned Nordic/European medical device distribution and private-label group.",
+  "source": "https://www.cbinsights.com/company/mediplast"
+ },
+ {
+  "parentName": "AddLife",
+  "name": "Biomedica Group HQ (Vienna-Floridsdorf, AddLife)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Wien",
+  "country": "Austria",
+  "address": "Divischgasse 4, 1210 Wien",
+  "geoQueries": [
+   "Biomedica Medizinprodukte",
+   "Divischgasse 4, 1210 Wien"
+  ],
+  "approxLat": 48.2655,
+  "approxLng": 16.4005,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Biomedica Medizinprodukte GmbH, AddLife's wholly owned Central and Eastern European medtech and labtech distribution group.",
+  "source": "https://www.evi.gv.at/f/33709y"
+ },
+ {
+  "parentName": "Hexatronic",
+  "name": "Blue Diamond Industries Middlesboro Duct & Microduct Plant (Hexatronic)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Middlesboro",
+  "country": "USA",
+  "address": "Middlesboro, KY 40965",
+  "geoQueries": [
+   "Blue Diamond Industries Middlesboro",
+   "Blue Diamond Industries, Middlesboro, Kentucky"
+  ],
+  "approxLat": 36.6087,
+  "approxLng": -83.7166,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Flagship plant of Hexatronic's US subsidiary Blue Diamond Industries, extruding HDPE conduits and microducts for fiber networks.",
+  "source": "https://www.hexatronic.com/en/operations/blue-diamond-industries-usa"
+ },
+ {
+  "parentName": "Hexatronic",
+  "name": "Blue Diamond Industries Aubrey Conduit Plant (Texas, Hexatronic)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Aubrey",
+  "country": "USA",
+  "address": "Aubrey, TX 76227",
+  "geoQueries": [
+   "Blue Diamond Industries Aubrey",
+   "Blue Diamond Industries, Aubrey, Texas"
+  ],
+  "approxLat": 33.3043,
+  "approxLng": -96.9861,
+  "coordsExact": false,
+  "footprintRadiusMeters": 280,
+  "description": "Blue Diamond Industries conduit extrusion plant north of Dallas serving Hexatronic's US fiber-duct customers.",
+  "source": "https://www.hexatronic.com/en/operations/blue-diamond-industries-usa"
+ },
+ {
+  "parentName": "Hexatronic",
+  "name": "Hexatronic Clinton Duct, Microduct & Fiber Cable Plant (South Carolina)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Clinton",
+  "country": "USA",
+  "address": "Clinton, SC 29325",
+  "geoQueries": [
+   "Blue Diamond Industries Clinton",
+   "Hexatronic Clinton South Carolina"
+  ],
+  "approxLat": 34.4721,
+  "approxLng": -81.8807,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Hexatronic/Blue Diamond's East Coast plant producing conduits and microducts, with a fiber cable line planned for 2026.",
+  "source": "https://www.hexatronic.com/en/operations/blue-diamond-industries-usa"
+ },
+ {
+  "parentName": "Hexatronic",
+  "name": "Hexatronic Ogden Duct & Pipe Factory (Utah)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Ogden",
+  "country": "USA",
+  "address": "Ogden, UT",
+  "geoQueries": [
+   "Hexatronic Ogden",
+   "Blue Diamond Industries Ogden Utah"
+  ],
+  "approxLat": 41.223,
+  "approxLng": -111.9738,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "USD 30m HDPE duct and pipe plant opened in late 2024 to serve Hexatronic's customers in the western United States.",
+  "source": "https://inderes.dk/releases/hexatronics-duct-and-pipe-factory-in-ogden-to-open"
+ },
+ {
+  "parentName": "Hexatronic",
+  "name": "Hexatronic UK Office & Warehouse (Gosport)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Gosport",
+  "country": "UK",
+  "address": "Unit B, Quay West, Hardway, Gosport, Hampshire",
+  "geoQueries": [
+   "Hexatronic UK Gosport",
+   "Quay West, Hardway, Gosport"
+  ],
+  "approxLat": 50.8095,
+  "approxLng": -1.1495,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Base of Hexatronic UK Ltd, the group's UK fiber-solutions subsidiary supplying operators such as CityFibre.",
+  "source": "https://craft.co/hexatronic-uk"
+ },
+ {
+  "parentName": "Moreld",
+  "name": "Moreld Oslo Office (Lysaker Torg)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Lysaker",
+  "country": "Norge",
+  "address": "Lysaker Torg 25, 1366 Lysaker",
+  "geoQueries": [
+   "Lysaker Torg 25, 1366 Lysaker",
+   "Moreld Lysaker"
+  ],
+  "approxLat": 59.9135,
+  "approxLng": 10.6365,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Moreld's second group office, in the Oslo area, alongside the Stavanger headquarters.",
+  "source": "https://www.moreld.com/contact"
+ },
+ {
+  "parentName": "Odfjell Technology",
+  "name": "Odfjell Technology Bergen Office (Kokstad)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bergen",
+  "country": "Norge",
+  "address": "Kokstadflaten 35, 5257 Kokstad",
+  "geoQueries": [
+   "Kokstadflaten 35, 5257 Kokstad",
+   "Odfjell Technology Kokstad"
+  ],
+  "approxLat": 60.2922,
+  "approxLng": 5.2642,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Norwegian office for Odfjell Technology's well services, projects & engineering and operations staffing divisions.",
+  "source": "https://www.odfjelltechnology.com/contact/norway/"
+ },
+ {
+  "parentName": "Odfjell Technology",
+  "name": "Odfjell Technology Dubai Well Services Base (Jebel Ali Free Zone)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "address": "Al Hesah Street, near Gate 8, Jebel Ali Free Zone (North), Dubai",
+  "geoQueries": [
+   "Odfjell Technology Jebel Ali",
+   "Al Hesah Street, Jebel Ali Free Zone"
+  ],
+  "approxLat": 25.015,
+  "approxLng": 55.088,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Middle East well services base for tubular running, drilling tool rental and wellbore clean-up equipment.",
+  "source": "https://www.odfjelltechnology.com/contact/united-arab-emirates/"
+ },
+ {
+  "parentName": "Odfjell Technology",
+  "name": "Odfjell Technology Abu Dhabi Well Services Base (Mussafah)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Abu Dhabi",
+  "country": "United Arab Emirates",
+  "address": "Esnaad Compound TWH-08, Mussafah, Abu Dhabi",
+  "geoQueries": [
+   "Esnaad Mussafah",
+   "Odfjell Technology Mussafah"
+  ],
+  "approxLat": 24.33,
+  "approxLng": 54.495,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Abu Dhabi well services workshop and equipment base serving ADNOC-area drilling contracts.",
+  "source": "https://www.odfjelltechnology.com/contact/united-arab-emirates/"
+ },
+ {
+  "parentName": "Odfjell Technology",
+  "name": "Odfjell Arabia Well Services Facility (Safwa, Al Qatif)",
+  "facilityType": "Offshore, Marine & Energy",
+  "city": "Al Qatif",
+  "country": "Saudi Arabia",
+  "address": "Safwa District, Albadrani Area, Al Qatif 32475, Eastern Province",
+  "geoQueries": [
+   "Odfjell Arabia Drilling Services",
+   "Safwa, Al Qatif"
+  ],
+  "approxLat": 26.65,
+  "approxLng": 49.955,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Saudi well services facility for tubular running services, wellbore clean-up, drilling tool rental and well intervention.",
+  "source": "https://www.odfjelltechnology.com/contact/saudi-arabia/"
+ }
+]

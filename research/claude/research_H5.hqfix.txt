@@ -1,0 +1,2 @@
+FLSmidth & Co | current: Vigerslev Allé 77, 2500 Valby | correct: Havneholmen 2, 2450 København SV (CPH Pulse; Valby site sold to Nrep/AG Gruppen 2025, move 2026; existing facility "FLSmidth Valby Mining Equipment Headquarters" is also outdated) | 55.6625,12.5590 | https://fls.com/en-gb/company/contact-us/global-locations
+Axactor | current: Drammensveien 165, Skøyen, 0277 Oslo | correct: Drammensveien 167, 0277 Oslo (minor street-number fix) | 59.9208,10.6815 | https://fr.finance.yahoo.com/quote/2LJ.F/profile

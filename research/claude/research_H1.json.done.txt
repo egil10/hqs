@@ -1,0 +1,10 @@
+SpareBank 1 Sør-Norge
+F-Secure
+Kid (skipped: only HQ/Lier warehouse and Borås Hemtex HQ+warehouse, both already mapped; otherwise only stores)
+Entra
+Hoist Finance
+Engcon
+ABG Sundal Collier
+Aker Biomarine (skipped: after 2024 sale of Feed Ingredients only Houston plant, Ski and Fornebu HQ remain, all mapped)
+Recovery Holdco (skipped: current production sites beyond Fredrikstad/Wrocław/Gorham not confirmable; HQ address flagged)
+Scatec

@@ -1,0 +1,10 @@
+Investor: 5 sites
+Sampo: 1 sites
+Coor Service Management: 2 sites
+OEM: 2 sites
+Konecranes: 3 sites
+MilDef: 7 sites
+Vimian: 2 sites
+Kempower: 5 sites
+Catella: skipped (only uncertain Paris addresses; existing 2 sites cover main subsidiaries)
+Kone: 3 sites

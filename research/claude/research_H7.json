@@ -1,0 +1,418 @@
+[
+  {
+    "parentName": "Höegh Autoliners",
+    "name": "Höegh Autoliners North America Head Office (Jacksonville)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Jacksonville",
+    "country": "USA",
+    "address": "225 Water St, Jacksonville, FL 32202",
+    "geoQueries": [
+      "225 Water Street, Jacksonville, FL 32202",
+      "Höegh Autoliners Jacksonville"
+    ],
+    "approxLat": 30.3253,
+    "approxLng": -81.6627,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Regional head office for Höegh Autoliners' North American ro-ro operations, moved to downtown Jacksonville in 2022.",
+    "source": "https://news.wjct.org/first-coast/2022-04-28/hoegh-autoliners-moves-north-america-head-office-downtown"
+  },
+  {
+    "parentName": "Höegh Autoliners",
+    "name": "Höegh Autoliners GmbH Hamburg Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hamburg",
+    "country": "Germany",
+    "address": "Alter Wall 55, 20457 Hamburg",
+    "geoQueries": [
+      "Alter Wall 55, 20457 Hamburg",
+      "Höegh Autoliners Hamburg"
+    ],
+    "approxLat": 53.5478,
+    "approxLng": 9.9895,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "German subsidiary office handling Höegh Autoliners' ro-ro sales and port operations in Northern Europe.",
+    "source": "https://hafen-hamburg.de/en/address/hoeegh-autoliners-gmbh-7629/"
+  },
+  {
+    "parentName": "H. Lundbeck",
+    "name": "Lundbeck Pharmaceuticals Italy API Plant (Padova)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Padova",
+    "country": "Italy",
+    "address": "Quarta Strada 2, 35129 Padova",
+    "geoQueries": [
+      "Lundbeck Pharmaceuticals Italy",
+      "Quarta Strada 2, 35129 Padova",
+      "Lundbeck Padova"
+    ],
+    "approxLat": 45.3965,
+    "approxLng": 11.9305,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Wholly owned Lundbeck chemical plant in Padova's industrial zone producing active pharmaceutical ingredients and intermediates.",
+    "source": "https://www.cpa-italy.org/en/associates/scheda/lundbeck-pharmaceuticals-italy-spa.html"
+  },
+  {
+    "parentName": "H. Lundbeck",
+    "name": "Lundbeck Seattle BioPharmaceuticals (Bothell)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Bothell",
+    "country": "USA",
+    "address": "11804 North Creek Pkwy S, Bothell, WA 98011",
+    "geoQueries": [
+      "Lundbeck Seattle BioPharmaceuticals",
+      "11804 North Creek Parkway South, Bothell, WA 98011"
+    ],
+    "approxLat": 47.7735,
+    "approxLng": -122.1865,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Former Alder BioPharmaceuticals (acquired 2019), Lundbeck's antibody/biologics research site behind Vyepti (eptinezumab).",
+    "source": "https://en.wikipedia.org/wiki/Lundbeck_Seattle_Biopharmaceuticals"
+  },
+  {
+    "parentName": "Alimak",
+    "name": "Tractel Saint-Hilaire-sous-Romilly Hoist & Safety Equipment Plant (Alimak)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Saint-Hilaire-sous-Romilly",
+    "country": "France",
+    "address": "RD 619, 10100 Saint-Hilaire-sous-Romilly (BP 38, 10102 Romilly-sur-Seine)",
+    "geoQueries": [
+      "Tractel Saint-Hilaire-sous-Romilly",
+      "Tractel Romilly-sur-Seine",
+      "RD 619, Saint-Hilaire-sous-Romilly"
+    ],
+    "approxLat": 48.5045,
+    "approxLng": 3.6555,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Main French plant and head office of Tractel (acquired by Alimak 2022), making Tirfor wire-rope hoists, fall-protection and lifting equipment.",
+    "source": "https://www.tractel.com/PIM/Brochures_and_flyers/French_Brochures/Lifting-Brochure/23-03-20_Brochure-Generale-Levage-TBD.pdf"
+  },
+  {
+    "parentName": "Alimak",
+    "name": "Tractel Greifzug Bergisch Gladbach Plant (Alimak)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Bergisch Gladbach",
+    "country": "Germany",
+    "address": "Scheidtbachstraße 19-21, 51469 Bergisch Gladbach",
+    "geoQueries": [
+      "Tractel Greifzug",
+      "Scheidtbachstraße 19, 51469 Bergisch Gladbach"
+    ],
+    "approxLat": 50.9785,
+    "approxLng": 7.1225,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Tractel Greifzug GmbH site producing traction hoists, suspended-platform hoists and load-measurement equipment for the Alimak Group.",
+    "source": "https://siww.german-pavilion.com/en/sites/exhibitors/138750"
+  },
+  {
+    "parentName": "Alimak",
+    "name": "Alimak Changshu Construction Hoist Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Changshu",
+    "country": "China",
+    "address": "Riverside Industrial Park, Changshu Economic Development Zone, Jiangsu",
+    "geoQueries": [
+      "Alimak Changshu",
+      "Alimak Hek Vertical Access Equipment (Changshu)",
+      "Changshu Riverside Industrial Park"
+    ],
+    "approxLat": 31.765,
+    "approxLng": 120.88,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Alimak's Chinese factory producing construction hoists (e.g. SC-series) for the Asian market.",
+    "source": "https://vertikal.net/en/news/story/3280/alimak-hek-now-in-china"
+  },
+  {
+    "parentName": "Tieto",
+    "name": "Tieto India Delivery Centre (EON Free Zone, Kharadi, Pune)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Pune",
+    "country": "India",
+    "address": "Cluster D, Wing 1, EON Free Zone, Kharadi MIDC Knowledge Park, Pune, Maharashtra 411014",
+    "geoQueries": [
+      "EON Free Zone Kharadi Pune",
+      "Tieto Pune",
+      "Kharadi MIDC Knowledge Park, Pune 411014"
+    ],
+    "approxLat": 18.5515,
+    "approxLng": 73.9495,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Tieto India Pvt Ltd's main global delivery centre, one of the group's largest software engineering and IT services hubs.",
+    "source": "https://prod.tietoevry.com/in/careers/where-we-are"
+  },
+  {
+    "parentName": "Tieto",
+    "name": "Tieto Czechia Office (Organica, Ostrava)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Ostrava",
+    "country": "Czech Republic",
+    "address": "Organica office building, Moravská Ostrava, Ostrava",
+    "geoQueries": [
+      "Organica Ostrava",
+      "Tietoevry Ostrava"
+    ],
+    "approxLat": 49.8355,
+    "approxLng": 18.2885,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Main Czech delivery centre of Tieto (about 700 staff across Ostrava and Brno) for software engineering and IT services.",
+    "source": "https://careers.tietoevry.com/our-locations-czechia"
+  },
+  {
+    "parentName": "Pexip",
+    "name": "Pexip UK Office (Thames Valley Park, Reading)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Reading",
+    "country": "UK",
+    "address": "NOW Building, Thames Valley Drive, Thames Valley Park, Reading RG6 1RB",
+    "geoQueries": [
+      "NOW Building Thames Valley Park",
+      "Thames Valley Drive, Reading RG6 1RB"
+    ],
+    "approxLat": 51.4605,
+    "approxLng": -0.9255,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Pexip Ltd., the UK subsidiary office for UK sales, government/defence customers and support.",
+    "source": "https://www.pexip.com/contact"
+  },
+  {
+    "parentName": "Pexip",
+    "name": "Pexip Americas Office (Herndon, VA)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Herndon",
+    "country": "USA",
+    "address": "13461 Sunrise Valley Dr, Suite 160, Herndon, VA 20171",
+    "geoQueries": [
+      "13461 Sunrise Valley Drive, Herndon, VA 20171",
+      "Pexip Herndon"
+    ],
+    "approxLat": 38.9545,
+    "approxLng": -77.4005,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Pexip's US office near Washington DC, serving North American enterprise and federal government video customers.",
+    "source": "https://www.pexip.com/contact"
+  },
+  {
+    "parentName": "Pexip",
+    "name": "Pexip Japan Office (Shibadaimon, Tokyo)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tokyo",
+    "country": "Japan",
+    "address": "Villa Shibadaimon 6F, 2-3-7 Shibadaimon, Minato-ku, Tokyo 105-0012",
+    "geoQueries": [
+      "2-3-7 Shibadaimon, Minato-ku, Tokyo",
+      "Pexip Tokyo"
+    ],
+    "approxLat": 35.6575,
+    "approxLng": 139.7535,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Pexip's Japanese subsidiary office for APAC sales and partner support.",
+    "source": "https://www.pexip.com/contact"
+  },
+  {
+    "parentName": "Pexip",
+    "name": "Pexip Singapore Office (Paya Lebar Square)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "#05-35 Paya Lebar Square, 60 Paya Lebar Road, Singapore 409051",
+    "geoQueries": [
+      "Paya Lebar Square",
+      "60 Paya Lebar Road, Singapore 409051"
+    ],
+    "approxLat": 1.3185,
+    "approxLng": 103.8925,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Pexip's Southeast Asia sales and support office.",
+    "source": "https://www.pexip.com/contact"
+  },
+  {
+    "parentName": "Medistim",
+    "name": "Medistim Deutschland GmbH (Deisenhofen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oberhaching (Deisenhofen)",
+    "country": "Germany",
+    "address": "Bahnhofstraße 32, 82041 Deisenhofen",
+    "geoQueries": [
+      "Bahnhofstraße 32, 82041 Oberhaching",
+      "Medistim Deutschland"
+    ],
+    "approxLat": 48.0185,
+    "approxLng": 11.5815,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "German sales and service subsidiary for Medistim's VeriQ/MiraQ intraoperative flow and imaging systems.",
+    "source": "https://www.medistim.com/contact/"
+  },
+  {
+    "parentName": "Medistim",
+    "name": "Medistim UK (Wilford, Nottingham)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Nottingham",
+    "country": "UK",
+    "address": "34 Nottingham South Industrial Estate, Ruddington Lane, Wilford, Nottingham NG11 7EP",
+    "geoQueries": [
+      "Nottingham South Industrial Estate, Ruddington Lane, Wilford",
+      "NG11 7EP"
+    ],
+    "approxLat": 52.9195,
+    "approxLng": -1.1505,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Medistim's UK direct-sales and service subsidiary.",
+    "source": "https://www.medistim.com/contact/"
+  },
+  {
+    "parentName": "Medistim",
+    "name": "Medistim Spain (Barcelona)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Barcelona",
+    "country": "Spain",
+    "address": "Calle Balmes 173, 4º 2ª, 08006 Barcelona",
+    "geoQueries": [
+      "Carrer de Balmes 173, 08006 Barcelona"
+    ],
+    "approxLat": 41.3955,
+    "approxLng": 2.1525,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Medistim's Spanish direct-sales subsidiary for cardiac and vascular surgery flow measurement products.",
+    "source": "https://www.medistim.com/contact/"
+  },
+  {
+    "parentName": "Medistim",
+    "name": "Medistim Japan K.K. (Akasaka, Tokyo)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tokyo",
+    "country": "Japan",
+    "address": "Akasaka Wing Building 2F, 6-6-15 Akasaka, Minato-ku, Tokyo 107-0052",
+    "geoQueries": [
+      "6-6-15 Akasaka, Minato-ku, Tokyo"
+    ],
+    "approxLat": 35.6705,
+    "approxLng": 139.7345,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Medistim's Japanese subsidiary handling direct sales in Japan.",
+    "source": "https://www.medistim.com/contact/"
+  },
+  {
+    "parentName": "Knowit",
+    "name": "Knowit Syd Office (Stortorget, Malmö)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Malmö",
+    "country": "Sverige",
+    "address": "Stortorget 9, 211 22 Malmö",
+    "geoQueries": [
+      "Stortorget 9, 211 22 Malmö",
+      "Knowit Malmö"
+    ],
+    "approxLat": 55.6055,
+    "approxLng": 13.0015,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Office of Knowit Syd Group AB, Knowit's southern Sweden IT/digital consulting hub (expanded with additional space from Stena Fastigheter).",
+    "source": "https://vakanser.se/jobb/embedded+developer+71/"
+  },
+  {
+    "parentName": "Knowit",
+    "name": "Knowit Denmark Office (Copenhagen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "København",
+    "country": "Danmark",
+    "address": "Nyropsgade 41, 1602 København V",
+    "geoQueries": [
+      "Nyropsgade 41, 1602 København V",
+      "Knowit København"
+    ],
+    "approxLat": 55.6775,
+    "approxLng": 12.5605,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Knowit's Danish operations (Knowit Solutions / Knowit Experience) for digital and IT consulting.",
+    "source": "https://www.topograph.co/companies/dk/knowit-solutions-a-s-25678990"
+  },
+  {
+    "parentName": "Swedbank",
+    "name": "Swedbank Estonia Head Office (Liivalaia, Tallinn)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "address": "Liivalaia 8, 15040 Tallinn",
+    "geoQueries": [
+      "Swedbank Liivalaia 8",
+      "Liivalaia 8, 10118 Tallinn"
+    ],
+    "approxLat": 59.4305,
+    "approxLng": 24.7535,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Swedbank AS, Estonia's largest bank and wholly owned by Swedbank AB.",
+    "source": "https://www.swedbank.ee/private/home/more/contacts"
+  },
+  {
+    "parentName": "Swedbank",
+    "name": "Swedbank Lithuania Head Office (Konstitucijos pr., Vilnius)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "address": "Konstitucijos pr. 20A, 09321 Vilnius",
+    "geoQueries": [
+      "Swedbank Konstitucijos prospektas 20A",
+      "Konstitucijos pr. 20A, Vilnius"
+    ],
+    "approxLat": 54.6965,
+    "approxLng": 25.2735,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Swedbank AB in Lithuania, the country's largest retail bank, wholly owned by Swedbank AB.",
+    "source": "https://www.swedbank.lt/private/home/more/contacts"
+  },
+  {
+    "parentName": "ISS",
+    "name": "ISS UK Head Office (Velocity 1, Brooklands, Weybridge)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Weybridge",
+    "country": "UK",
+    "address": "Velocity 1, Brooklands Drive, Brooklands, Weybridge, Surrey KT13 0SL",
+    "geoQueries": [
+      "Velocity 1, Brooklands Drive, Weybridge",
+      "Brooklands Drive, Weybridge KT13 0SL"
+    ],
+    "approxLat": 51.3505,
+    "approxLng": -0.4705,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "UK head office of ISS Facility Services Ltd, one of ISS's largest country operations.",
+    "source": "https://find-and-update.company-information.service.gov.uk/company/00890885"
+  },
+  {
+    "parentName": "ISS",
+    "name": "ISS Facility Services North America HQ (San Antonio)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "San Antonio",
+    "country": "USA",
+    "address": "1017 Central Parkway N, Suite 100, San Antonio, TX 78232",
+    "geoQueries": [
+      "1017 Central Parkway North, San Antonio, TX 78232",
+      "ISS Facility Services San Antonio"
+    ],
+    "approxLat": 29.5835,
+    "approxLng": -98.4705,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Headquarters of ISS Facility Services Inc., ISS's North American workplace and facility services business.",
+    "source": "https://sosnc.gov/online_services/search/Business_Registration_profile/4594697"
+  }
+]

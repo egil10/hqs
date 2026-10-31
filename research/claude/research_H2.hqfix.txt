@@ -1,0 +1,2 @@
+Swedish Orphan Biovitrum | current: Tomtebodavägen 23A, 171 65 Solna | correct: Norra Stationsgatan 93A, 113 64 Stockholm (Hagastaden; global HQ moved here) | 59.3497,18.0337 | https://sobi-v3.prod-mid-euw3.investis.com/en/news-releases/sobi-moves-new-global-headquarters-stockholm
+Addnode Group | current: Hudiksvallsgatan 4B, 113 30 Stockholm | correct: Norra Stationsgatan 93, 113 64 Stockholm | 59.3497,18.0337 | https://www.addnodegroup.com/en/contact/

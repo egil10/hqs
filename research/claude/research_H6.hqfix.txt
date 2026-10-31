@@ -1,0 +1,2 @@
+Moreld | current: Moseidsletta 122, Forus / Kontorveien 12, 4056 Tananger (mixed address) | correct: Moseidsletta 122, 4033 Stavanger (Moreld contact page lists this as HQ) | 58.8875,5.7330 | https://www.moreld.com/contact
+Odfjell Technology | current: Bergen, Kokstadflaten 35, 5257 Kokstad | correct: Lower Ground Floor, Prime View, Prime Four Business Park, Kingswells, Aberdeen AB15 8PU, UK (company lists this as headquarters; Kokstad is now a Norwegian office, added as a site) | 57.1530,-2.2120 | https://www.odfjelltechnology.com/contact/scotland-united-kingdom/

@@ -1,0 +1,398 @@
+[
+ {
+  "parentName": "Frontline",
+  "name": "Frontline plc Registered Office (Iris Building, Limassol)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Limassol",
+  "country": "Cyprus",
+  "address": "John Kennedy 8, Iris Building, 7th floor, 3106 Limassol",
+  "geoQueries": [
+   "Iris Building Limassol",
+   "John Kennedy 8, 3106 Limassol"
+  ],
+  "approxLat": 34.685,
+  "approxLng": 33.051,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Registered office of Frontline plc and Frontline (Management) Cyprus Ltd, the group's domicile since redomiciling to Cyprus.",
+  "source": "https://www.frontlineplc.cy/contact"
+ },
+ {
+  "parentName": "Frontline",
+  "name": "Frontline Shipping Singapore Office (Guoco Tower)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Singapore",
+  "country": "Singapore",
+  "address": "1 Wallich Street, Guoco Tower #14-02, Singapore 078881",
+  "geoQueries": [
+   "Guoco Tower",
+   "1 Wallich Street, Singapore 078881"
+  ],
+  "approxLat": 1.2766,
+  "approxLng": 103.8456,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Frontline Shipping Singapore Pte Ltd, the tanker group's Asian commercial and chartering office.",
+  "source": "https://www.frontlineplc.cy/contact"
+ },
+ {
+  "parentName": "Frontline",
+  "name": "Frontline Corporate Services London Office (Eastcheap)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "London",
+  "country": "UK",
+  "address": "10 Eastcheap, London EC3M 1AJ",
+  "geoQueries": [
+   "10 Eastcheap, London EC3M 1AJ",
+   "Eastcheap London"
+  ],
+  "approxLat": 51.5108,
+  "approxLng": -0.0845,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "London office of Frontline Corporate Services, providing corporate and financial services to the tanker group.",
+  "source": "https://www.frontlineplc.cy/contact"
+ },
+ {
+  "parentName": "Cadeler",
+  "name": "Cadeler Norwich Office (St Andrews Business Park)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Norwich",
+  "country": "UK",
+  "address": "Avocet Court, 8 Central Avenue, St Andrews Business Park, Norwich NR7 0HR",
+  "geoQueries": [
+   "Avocet Court Norwich",
+   "8 Central Avenue, St Andrews Business Park, Norwich NR7 0HR"
+  ],
+  "approxLat": 52.6335,
+  "approxLng": 1.348,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Cadeler's UK office serving East Anglian offshore wind installation projects.",
+  "source": "https://www.cadeler.com/contact"
+ },
+ {
+  "parentName": "Cadeler",
+  "name": "Cadeler Taipei Office (Xinyi District)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Taipei",
+  "country": "Taiwan",
+  "address": "13F, No. 529, Section 4, Zhongxiao East Road, Xinyi District, Taipei City",
+  "geoQueries": [
+   "No. 529, Section 4, Zhongxiao East Road, Taipei",
+   "Zhongxiao East Road Section 4 529 Xinyi"
+  ],
+  "approxLat": 25.0412,
+  "approxLng": 121.562,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Cadeler's Taiwan office supporting offshore wind turbine and foundation installation contracts in the Asia-Pacific region.",
+  "source": "https://www.cadeler.com/contact"
+ },
+ {
+  "parentName": "Beijer Alma",
+  "name": "Beijer Components / Lesjöfors AB Head Office (Karlstad)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Karlstad",
+  "country": "Sverige",
+  "address": "Lagergrens gata 2, 652 14 Karlstad",
+  "geoQueries": [
+   "Lesjöfors AB Karlstad",
+   "Lagergrens gata 2, 652 14 Karlstad"
+  ],
+  "approxLat": 59.38,
+  "approxLng": 13.503,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Beijer Components AB and its Lesjöfors spring and pressings group, Beijer Alma's largest business area.",
+  "source": "https://beijeralma.se/en/contact/contact-us/"
+ },
+ {
+  "parentName": "Beijer Alma",
+  "name": "Lesjöfors China Spring Factory (Changzhou)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Changzhou",
+  "country": "China",
+  "address": "No 22 TianShan Road, New District, Changzhou 213032",
+  "geoQueries": [
+   "Lesjofors China Changzhou",
+   "22 Tianshan Road Changzhou"
+  ],
+  "approxLat": 31.818,
+  "approxLng": 119.97,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Lesjöfors' Chinese factory producing industrial springs, wire and flat-strip components.",
+  "source": "https://www.lesjofors.com/en/contact/"
+ },
+ {
+  "parentName": "Beijer Alma",
+  "name": "Lesjöfors Springs LV Gas Spring Factory (Liepāja)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Liepāja",
+  "country": "Latvia",
+  "address": "Dūņu iela 4, Liepāja LV-3401",
+  "geoQueries": [
+   "Lesjofors Liepaja",
+   "Dūņu iela 4, Liepāja"
+  ],
+  "approxLat": 56.527,
+  "approxLng": 21.017,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Lesjöfors plant in the Liepāja special economic zone manufacturing gas springs and springs for the automotive aftermarket and industry.",
+  "source": "https://www.lesjofors.com/en/contact/"
+ },
+ {
+  "parentName": "Beijer Alma",
+  "name": "Lesjöfors Banddetaljer Flat-Strip Factory (Värnamo)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Värnamo",
+  "country": "Sverige",
+  "address": "Expovägen 7, 331 42 Värnamo",
+  "geoQueries": [
+   "Lesjöfors Banddetaljer Värnamo",
+   "Expovägen 7, 331 42 Värnamo"
+  ],
+  "approxLat": 57.192,
+  "approxLng": 14.056,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Lesjöfors Banddetaljer AB plant producing flat-strip components and pressings.",
+  "source": "https://www.lesjofors.com/en/contact/"
+ },
+ {
+  "parentName": "Beijer Alma",
+  "name": "Lesjöfors Springs UK Factory (Huddersfield)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Huddersfield",
+  "country": "UK",
+  "address": "Spring Moor, Lindley Moor Road, Huddersfield HD3 3TD",
+  "geoQueries": [
+   "Lesjofors Springs UK Huddersfield",
+   "Lindley Moor Road, Huddersfield HD3 3TD"
+  ],
+  "approxLat": 53.656,
+  "approxLng": -1.837,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Lesjöfors Springs (UK) Ltd spring manufacturing plant.",
+  "source": "https://www.lesjofors.com/en/contact/"
+ },
+ {
+  "parentName": "Beijer Alma",
+  "name": "Lesjöfors Springs Slovakia Factory (Myjava)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Myjava",
+  "country": "Slovakia",
+  "address": "Tehelná 655/25, 907 01 Myjava",
+  "geoQueries": [
+   "Lesjöfors Springs Slovakia Myjava",
+   "Tehelná 655/25, Myjava"
+  ],
+  "approxLat": 48.756,
+  "approxLng": 17.564,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Lesjöfors Springs Slovakia s.r.o. plant manufacturing springs for industrial and automotive customers.",
+  "source": "https://www.lesjofors.com/en/contact/"
+ },
+ {
+  "parentName": "Swedish Orphan Biovitrum",
+  "name": "Sobi International Hub (Messeturm, Basel)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Basel",
+  "country": "Switzerland",
+  "address": "Messeplatz 10, 4058 Basel",
+  "geoQueries": [
+   "Messeturm Basel",
+   "Messeplatz 10, 4058 Basel"
+  ],
+  "approxLat": 47.5634,
+  "approxLng": 7.6003,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Swedish Orphan Biovitrum AG, Sobi's major international hub for commercial operations outside Sweden and the US.",
+  "source": "https://www.moneyhouse.ch/en/list/person/oppitz-norbert"
+ },
+ {
+  "parentName": "Medicover",
+  "name": "Medicover Polska Head Office & Clinic (Al. Jerozolimskie 96, Warsaw)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Warszawa",
+  "country": "Poland",
+  "address": "Al. Jerozolimskie 96, 00-807 Warszawa",
+  "geoQueries": [
+   "Medicover Jerozolimskie 96",
+   "Al. Jerozolimskie 96, 00-807 Warszawa"
+  ],
+  "approxLat": 52.2268,
+  "approxLng": 20.993,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Registered office of Medicover sp. z o.o., head of Medicover's largest market, Poland, with a large outpatient medical centre in the same building.",
+  "source": "https://www.medicover.pl/llm-info/"
+ },
+ {
+  "parentName": "Medicover",
+  "name": "Synevo Central Reference Laboratory (Chiajna, Bucharest)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Chiajna",
+  "country": "Romania",
+  "address": "Strada Industriilor 25, Chiajna, Ilfov",
+  "geoQueries": [
+   "Synevo Chiajna",
+   "Strada Industriilor 25, Chiajna"
+  ],
+  "approxLat": 44.433,
+  "approxLng": 25.99,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Synevo Romania's central reference laboratory, described as the largest medical analysis unit in South-East Europe; Synevo is Medicover's diagnostic-services brand.",
+  "source": "https://www.forbes.ro/dosar-2023-laurentiu-luca-director-general-synevo-romania-333274"
+ },
+ {
+  "parentName": "Torm",
+  "name": "TORM plc Registered Office (120 Cannon Street, London)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "London",
+  "country": "UK",
+  "address": "120 Cannon Street, London EC4N 6AS",
+  "geoQueries": [
+   "120 Cannon Street, London",
+   "120 Cannon Street EC4N 6AS"
+  ],
+  "approxLat": 51.5114,
+  "approxLng": -0.0889,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Office of TORM plc, the UK-incorporated listed parent company of the TORM product-tanker group.",
+  "source": "https://www.torm.com/contact"
+ },
+ {
+  "parentName": "Torm",
+  "name": "TORM Shipping India Crew & Technical Office (Leela Business Park, Mumbai)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Mumbai",
+  "country": "India",
+  "address": "2nd Floor, Leela Business Park, Andheri-Kurla Road, Andheri (E), Mumbai 400059",
+  "geoQueries": [
+   "Leela Business Park Andheri",
+   "Andheri-Kurla Road, Andheri East, Mumbai 400059"
+  ],
+  "approxLat": 19.1095,
+  "approxLng": 72.8775,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "TORM Shipping India Pvt. Ltd., the group's main Indian office handling crewing and ship-management support.",
+  "source": "https://www.torm.com/contact"
+ },
+ {
+  "parentName": "Torm",
+  "name": "TORM Shipping Philippines Crewing Office (Salcedo Towers, Makati)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Makati City",
+  "country": "Philippines",
+  "address": "7th Floor Salcedo Towers, 169 H.V. dela Costa Street, Salcedo Village, Makati City 1227",
+  "geoQueries": [
+   "Salcedo Towers Makati",
+   "169 H.V. dela Costa Street, Makati"
+  ],
+  "approxLat": 14.5605,
+  "approxLng": 121.0225,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "TORM Shipping Phils., Inc., crewing office recruiting and managing Filipino seafarers for the TORM fleet.",
+  "source": "https://www.torm.com/contact"
+ },
+ {
+  "parentName": "Torm",
+  "name": "TORM Middle East Office (Gold Tower, JLT, Dubai)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "address": "AU (Gold) Tower 15-G, Jumeirah Lake Towers, Dubai",
+  "geoQueries": [
+   "Gold Tower JLT Dubai",
+   "AU Gold Tower Jumeirah Lake Towers"
+  ],
+  "approxLat": 25.0697,
+  "approxLng": 55.141,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "TORM Middle East FZCO, the group's commercial office for Middle East product-tanker chartering.",
+  "source": "https://www.torm.com/contact"
+ },
+ {
+  "parentName": "Addnode",
+  "name": "Addnode India Development Centre (Midas Tower, Hinjewadi, Pune)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Pune",
+  "country": "India",
+  "address": "Midas Tower, 6th Floor, Rajiv Gandhi Infotech Park Phase I, Hinjewadi, Pune 411057",
+  "geoQueries": [
+   "Midas Tower Hinjewadi",
+   "Rajiv Gandhi Infotech Park Phase 1 Hinjewadi Pune"
+  ],
+  "approxLat": 18.5912,
+  "approxLng": 73.738,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Addnode India Pvt. Ltd. software development and PLM services centre supporting Technia and other Addnode Group companies.",
+  "source": "https://www.technia.com/en/contact/"
+ },
+ {
+  "parentName": "Addnode",
+  "name": "TECHNIA GmbH Munich Office (Ismaning)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Ismaning",
+  "country": "Germany",
+  "address": "Carl-Zeiss-Ring 21, 85737 Ismaning",
+  "geoQueries": [
+   "Carl-Zeiss-Ring 21, 85737 Ismaning",
+   "TECHNIA Ismaning"
+  ],
+  "approxLat": 48.216,
+  "approxLng": 11.672,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Office of TECHNIA GmbH, Addnode's PLM division in Germany, its largest market outside the Nordics.",
+  "source": "https://www.technia.com/en/contact/"
+ },
+ {
+  "parentName": "Addnode",
+  "name": "TECHNIA Ltd UK Office (Nordic House, Milton Keynes)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Milton Keynes",
+  "country": "UK",
+  "address": "Nordic House, Brunleys, Kiln Farm, Milton Keynes MK11 3EW",
+  "geoQueries": [
+   "Nordic House Kiln Farm Milton Keynes",
+   "Brunleys, Kiln Farm, Milton Keynes MK11 3EW"
+  ],
+  "approxLat": 52.042,
+  "approxLng": -0.84,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "UK office of TECHNIA Ltd, Addnode's PLM software and services company.",
+  "source": "https://www.technia.com/en/contact/"
+ },
+ {
+  "parentName": "Addnode",
+  "name": "TECHNIA Gothenburg Office (Vasagatan 45)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Göteborg",
+  "country": "Sverige",
+  "address": "Vasagatan 45, 411 37 Göteborg",
+  "geoQueries": [
+   "Vasagatan 45, 411 37 Göteborg",
+   "TECHNIA Göteborg"
+  ],
+  "approxLat": 57.699,
+  "approxLng": 11.969,
+  "coordsExact": false,
+  "footprintRadiusMeters": 140,
+  "description": "TECHNIA AB office in Gothenburg serving Swedish automotive and manufacturing PLM customers.",
+  "source": "https://www.technia.com/en/contact/"
+ }
+]
