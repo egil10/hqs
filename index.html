@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
-  <title>Portfolio Map — SPN &amp; SFT</title>
+  <title>Portfolio Map</title>
   <link rel="dns-prefetch" href="https://tiles.openfreemap.org" />
   <link rel="dns-prefetch" href="https://www.google.com" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
@@ -13,69 +13,86 @@
 <body>
   <aside class="sidebar">
     <div class="sidebar-header">
-      <div class="title-row">
-        <div>
-          <h1>Portfolio Map</h1>
-          <span class="title-meta" id="headerSummary">308 Companies · 590 Sites</span>
+      <div class="search-top-row">
+        <div class="search-wrap">
+          <svg class="lucide-icon search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Search..."
+            autocomplete="off"
+          />
+          <button class="clear-search" id="btnClearSearch" title="Clear search" hidden>&times;</button>
         </div>
-        <button class="reset-link" id="btnResetSidebar" title="Reset search, filters and map">Reset</button>
-      </div>
-
-      <div class="search-wrap">
-        <input
-          type="text"
-          id="searchInput"
-          class="search-input"
-          placeholder="Search company, rig, mine, city..."
-          autocomplete="off"
-        />
-        <button class="clear-search" id="btnClearSearch" title="Clear search" hidden>&times;</button>
+        <button class="icon-btn" id="btnResetSidebar" title="Reset filters &amp; map view">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <path d="M3 3v5h5"></path>
+          </svg>
+        </button>
       </div>
 
       <div class="filters-row">
-        <select id="countrySelect" class="clean-select">
-          <option value="ALL">All Regions</option>
-          <option value="Norge">Norway</option>
-          <option value="Sverige">Sweden</option>
-          <option value="Finland">Finland</option>
-          <option value="Danmark">Denmark</option>
-          <option value="Island">Iceland</option>
-          <option value="GLOBAL">Global (Brazil, Africa, etc.)</option>
-          <option disabled>──────────</option>
-          <option value="FUND_SPN">SPN Fund Only</option>
-          <option value="FUND_SFT">SFT Fund Only</option>
+        <select id="countrySelect" class="clean-select" title="Filter by region or fund">
+          <option value="ALL">All</option>
+          <option value="Norge">🇳🇴 NO</option>
+          <option value="Sverige">🇸🇪 SE</option>
+          <option value="Finland">🇫🇮 FI</option>
+          <option value="Danmark">🇩🇰 DK</option>
+          <option value="Island">🇮🇸 IS</option>
+          <option value="GLOBAL">🌍 Intl</option>
+          <option disabled>────</option>
+          <option value="FUND_SPN">SPN</option>
+          <option value="FUND_SFT">SFT</option>
         </select>
 
-        <select id="typeSelect" class="clean-select">
+        <select id="typeSelect" class="clean-select" title="Filter by asset type">
           <option value="all">All Types</option>
-          <option value="hqs_only">HQs Only</option>
-          <option value="oilgas">Oil &amp; Gas Rigs</option>
-          <option value="fish">Fish Farms</option>
-          <option value="mills">Mines &amp; Smelters</option>
-          <option value="factories">Factories &amp; Defense</option>
-          <option value="datacenters">Data Centers</option>
-          <option value="distribution">Offices &amp; Logistics</option>
-          <option value="pharma">Pharma &amp; Labs</option>
+          <option value="hqs_only">HQs</option>
+          <option value="oilgas">Rigs</option>
+          <option value="fish">Fish</option>
+          <option value="mills">Mines</option>
+          <option value="factories">Plants</option>
+          <option value="datacenters">Data</option>
+          <option value="distribution">Hubs</option>
+          <option value="pharma">Labs</option>
         </select>
 
-        <select id="sortSelect" class="clean-select" title="Sort companies and sites">
-          <option value="value_desc">Sort: Holding ↓</option>
-          <option value="mcap_desc">Sort: MCap ↓</option>
-          <option value="own_desc">Sort: Own % ↓</option>
-          <option value="chg1m_desc">Sort: 1M % ↓</option>
-          <option value="chg1m_asc">Sort: 1M % ↑</option>
-          <option value="sites_desc">Sort: Sites ↓</option>
-          <option value="name_asc">Sort: A–Z</option>
+        <select id="sortSelect" class="clean-select" title="Sort list">
+          <option value="value_desc">Hold ↓</option>
+          <option value="mcap_desc">MCap ↓</option>
+          <option value="own_desc">Own ↓</option>
+          <option value="chg1m_desc">1M ↓</option>
+          <option value="chg1m_asc">1M ↑</option>
+          <option value="sites_desc">Sites ↓</option>
+          <option value="name_asc">A–Z</option>
         </select>
       </div>
     </div>
 
     <div class="segmented-tabs">
-      <button class="seg-btn active" id="tabCompanies">
-        Companies <span class="tab-count" id="tabCountCompanies">308</span>
+      <button class="seg-btn active" id="tabCompanies" title="Companies (HQs)">
+        <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
+          <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
+          <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
+          <path d="M10 6h4"></path>
+          <path d="M10 10h4"></path>
+          <path d="M10 14h4"></path>
+          <path d="M10 18h4"></path>
+        </svg>
+        <span class="tab-count" id="tabCountCompanies">335</span>
       </button>
-      <button class="seg-btn" id="tabFacilities">
-        Sites <span class="tab-count" id="tabCountFacilities">590</span>
+      <button class="seg-btn" id="tabFacilities" title="Operational Sites">
+        <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        <span class="tab-count" id="tabCountFacilities">614</span>
       </button>
     </div>
 
@@ -87,15 +104,46 @@
 
     <div class="map-toolbar">
       <div class="toolbar-group">
-        <button class="tool-btn active" id="btnToggleLogos" title="Toggle company favicons on map">Logos</button>
-        <button class="tool-btn active" id="btnToggleSites" title="Toggle operational sites (rigs, farms, mines)">Sites</button>
-        <button class="tool-btn" id="btnToggleLinks" title="Toggle all HQ-to-site connection lines">Links</button>
-        <button class="tool-btn" id="btnToggle3d" title="Toggle 3D buildings">3D</button>
+        <button class="tool-btn active" id="btnToggleLogos" title="Toggle company logos on map">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+            <circle cx="9" cy="9" r="2"></circle>
+            <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path>
+          </svg>
+        </button>
+        <button class="tool-btn active" id="btnToggleSites" title="Toggle operational sites">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+        </button>
+        <button class="tool-btn active" id="btnToggleLinks" title="Show connection lines for selected company">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="18" cy="5" r="3"></circle>
+            <circle cx="6" cy="12" r="3"></circle>
+            <circle cx="18" cy="19" r="3"></circle>
+            <line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line>
+            <line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line>
+          </svg>
+        </button>
+        <button class="tool-btn" id="btnToggle3d" title="Toggle 3D buildings">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path>
+            <path d="m3.3 7 8.7 5 8.7-5"></path>
+            <path d="M12 22V12"></path>
+          </svg>
+        </button>
       </div>
       <div class="toolbar-group">
-        <button class="tool-btn active" data-basemap="liberty">Map</button>
-        <button class="tool-btn" data-basemap="satellite">Satellite</button>
-        <button class="tool-btn" id="btnResetView">Reset</button>
+        <button class="tool-btn active" data-basemap="light" title="Minimal Light Map (Default)">Light</button>
+        <button class="tool-btn" data-basemap="liberty" title="Detailed Street Map">Map</button>
+        <button class="tool-btn" data-basemap="satellite" title="Satellite Imagery">Sat</button>
+        <button class="tool-btn" id="btnResetView" title="Reset map view">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <path d="M3 3v5h5"></path>
+          </svg>
+        </button>
       </div>
     </div>
 

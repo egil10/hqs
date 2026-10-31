@@ -41,15 +41,34 @@
   };
 
   const SHORT_TYPE_LABEL = {
-    "Factory & Manufacturing": "Factory",
+    "Factory & Manufacturing": "Plant",
     "Mill, Smelter & Mine": "Mine / Mill",
-    "R&D, Biotech & Medtech Lab": "R&D / Lab",
+    "R&D, Biotech & Medtech Lab": "Lab",
     "Offshore, Marine & Energy": "Offshore",
-    "Oil & Gas Drilling / Platform": "Oil Rig",
+    "Oil & Gas Drilling / Platform": "Rig",
     "Aquaculture & Fishery": "Fish Farm",
     "Data Center, Telecom & Cloud": "Data Center",
-    "Filial, Logistics & Subsidiary HQ": "Office / Hub"
+    "Filial, Logistics & Subsidiary HQ": "Hub / Office"
   };
+
+  // Minimal Lucide SVG Icons per Facility Category
+  const FACILITY_LUCIDE_SVG = {
+    "Offshore, Marine & Energy": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
+    "Oil & Gas Drilling / Platform": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
+    "Aquaculture & Fishery": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6s-7.56-2.53-8.5-6Z"/><path d="M18 12v.5"/><path d="M16 17.93a9.77 9.77 0 0 1 0-11.86"/><path d="M7 10.67C7 8 5.58 5.97 2.73 5.5c-1 1.5-1 5 .23 6.5-1.24 1.5-1.24 5-.23 6.5C5.58 18.03 7 16 7 13.33"/></svg>`,
+    "Mill, Smelter & Mine": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>`,
+    "Factory & Manufacturing": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/></svg>`,
+    "Data Center, Telecom & Cloud": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></svg>`,
+    "R&D, Biotech & Medtech Lab": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg>`,
+    "Filial, Logistics & Subsidiary HQ": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M12 6h.01"/><path d="M12 10h.01"/><path d="M12 14h.01"/><path d="M16 10h.01"/><path d="M16 14h.01"/><path d="M8 10h.01"/><path d="M8 14h.01"/></svg>`
+  };
+
+  function getFacilityIconBadge(facilityType) {
+    const color = FACILITY_COLORS[facilityType] || "#475569";
+    const svg = FACILITY_LUCIDE_SVG[facilityType] || FACILITY_LUCIDE_SVG["Filial, Logistics & Subsidiary HQ"];
+    const label = SHORT_TYPE_LABEL[facilityType] || "Site";
+    return `<span class="type-icon-badge" style="color:${color}" title="${label}">${svg}</span>`;
+  }
 
   function normName(s) {
     return String(s || "")
@@ -163,9 +182,8 @@
     "leroyseafood": "leroyseafood"
   };
 
-  // --- STAGE 2: Progressive Facility & Quote Loader (Loaded After HQs Render) ---
+  // --- STAGE 2: Progressive Facility & Quote Loader ---
   let facilities = [];
-  let quotesAttached = false;
 
   function attachMarketQuotes() {
     if (!window.MARKET_QUOTES) return false;
@@ -179,7 +197,6 @@
         }
       }
     });
-    if (newlyAttached) quotesAttached = true;
     return newlyAttached;
   }
 
@@ -255,7 +272,7 @@
     const min = Math.min(...closes);
     const max = Math.max(...closes);
     const span = max - min || 1;
-    const w = 64;
+    const w = 56;
     const h = 18;
     const pts = closes
       .map((v, i) => {
@@ -306,9 +323,9 @@
   let selectedFacilityId = null;
   let showLogos = true;
   let showSites = true;
-  let showAllLinks = false;
+  let showLinks = true; // Only shows links for the selected company when clicked
   let is3dEnabled = false;
-  let currentBasemap = "liberty";
+  let currentBasemap = "light"; // Default minimal light basemap
   let buildingMatchTimer = null;
   const logoMarkerPool = new Map();
   const visibleLogoRanks = new Set();
@@ -330,7 +347,7 @@
   const hoverPopup = new maplibregl.Popup({
     closeButton: false,
     closeOnClick: false,
-    offset: 8
+    offset: 10
   });
 
   // --- Geometry Helpers ---
@@ -442,7 +459,7 @@
           properties: {
             color,
             name: f.name,
-            subtitle: `${f.parentName} · Marine Sea-Cage`,
+            subtitle: `${f.parentName} · Sea-Cage`,
             entityType: "facility",
             entityId: f.id,
             height: 4
@@ -464,7 +481,7 @@
         properties: {
           color,
           name: f.name,
-          subtitle: `${f.parentName} · Offshore Platform / FPSO`,
+          subtitle: `${f.parentName} · Offshore`,
           entityType: "facility",
           entityId: f.id,
           height: 42
@@ -603,9 +620,74 @@
     return true;
   }
 
+  // --- Declutter Base Map (Hide Shops, Trains, Restaurants, Shields & Apply Minimal Light Theme) ---
+  function declutterBaseStyleLayers() {
+    if (!map.isStyleLoaded()) return;
+    const layers = map.getStyle().layers || [];
+
+    layers.forEach((lyr) => {
+      const id = (lyr.id || "").toLowerCase();
+      const srcLayer = (lyr["source-layer"] || "").toLowerCase();
+
+      // Always hide commercial POIs, shops, restaurants, train/bus icons, road shields, and house numbers
+      if (
+        srcLayer === "poi" ||
+        srcLayer === "housenumber" ||
+        srcLayer === "aerodrome_label" ||
+        id.includes("poi") ||
+        id.includes("transit") ||
+        id.includes("shield") ||
+        id.includes("aeroway") ||
+        id.includes("housenumber") ||
+        id.includes("ferry")
+      ) {
+        try {
+          map.setLayoutProperty(lyr.id, "visibility", "none");
+        } catch (e) {}
+      }
+    });
+  }
+
+  function applyBasemapMode() {
+    if (!map.isStyleLoaded()) return;
+
+    if (map.getLayer("carto-light-layer")) {
+      map.setLayoutProperty(
+        "carto-light-layer",
+        "visibility",
+        currentBasemap === "light" ? "visible" : "none"
+      );
+    }
+
+    if (map.getLayer("esri-satellite-layer")) {
+      map.setLayoutProperty(
+        "esri-satellite-layer",
+        "visibility",
+        currentBasemap === "satellite" ? "visible" : "none"
+      );
+    }
+  }
+
   // --- Setup Map Layers ---
   function setupCustomLayers() {
     if (!map.isStyleLoaded()) return;
+
+    // 1. Remove noisy POI / train / shop icons from base vector map
+    declutterBaseStyleLayers();
+
+    // 2. Add Minimal Light Basemap (Carto Positron Light) & Satellite Sources
+    if (!map.getSource("carto-light")) {
+      map.addSource("carto-light", {
+        type: "raster",
+        tiles: [
+          "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png",
+          "https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png",
+          "https://c.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png"
+        ],
+        tileSize: 256,
+        maxzoom: 19
+      });
+    }
 
     if (!map.getSource("esri-satellite")) {
       map.addSource("esri-satellite", {
@@ -625,6 +707,20 @@
         firstSymbolId = lyr.id;
         break;
       }
+    }
+
+    if (!map.getLayer("carto-light-layer")) {
+      map.addLayer(
+        {
+          id: "carto-light-layer",
+          type: "raster",
+          source: "carto-light",
+          layout: {
+            visibility: currentBasemap === "light" ? "visible" : "none"
+          }
+        },
+        firstSymbolId
+      );
     }
 
     if (!map.getLayer("esri-satellite-layer")) {
@@ -649,9 +745,9 @@
             type: "fill",
             source: "openmaptiles",
             "source-layer": "building",
-            minzoom: 13,
+            minzoom: 13.5,
             paint: {
-              "fill-color": "#cbd5e1",
+              "fill-color": "#e2e8f0",
               "fill-opacity": 0.45
             }
           },
@@ -671,7 +767,7 @@
               visibility: is3dEnabled ? "visible" : "none"
             },
             paint: {
-              "fill-extrusion-color": "#cbd5e1",
+              "fill-extrusion-color": "#e2e8f0",
               "fill-extrusion-height": ["coalesce", ["get", "render_height"], 10],
               "fill-extrusion-base": ["coalesce", ["get", "render_min_height"], 0],
               "fill-extrusion-opacity": 0.65
@@ -712,7 +808,7 @@
           source: "portfolio-buildings",
           paint: {
             "line-color": "#0f172a",
-            "line-width": 2
+            "line-width": 1.8
           }
         },
         firstSymbolId
@@ -747,7 +843,7 @@
         paint: {
           "line-color": ["get", "color"],
           "line-width": 1.6,
-          "line-opacity": 0.65,
+          "line-opacity": 0.72,
           "line-dasharray": [2, 2]
         }
       });
@@ -806,7 +902,7 @@
     renderAll();
   }
 
-  // --- Single-Building Exact Matcher (Fast, 1 Building Per Pin, Zero Lag) ---
+  // --- Single-Building Exact Matcher (1 Building Per Pin) ---
   function matchVectorBuildingsToPortfolio() {
     if (!map.isStyleLoaded() || !map.getSource("portfolio-buildings")) return;
 
@@ -815,7 +911,6 @@
     const bounds = map.getBounds();
     const zoom = map.getZoom();
 
-    // Render offshore platform decks and marine sea-cages when zoomed in (>= 11)
     if (zoom >= 11) {
       filteredFacilities.forEach((f) => {
         if (!bounds.contains([f.lng, f.lat])) return;
@@ -828,7 +923,6 @@
       });
     }
 
-    // Match onshore pins strictly to 1 exact building when zoomed in (>= 13.5)
     if (zoom >= 13.5 && map.getLayer("all-buildings-2d")) {
       const visibleEntities = [];
 
@@ -881,7 +975,6 @@
           }
           if (!rendered || rendered.length === 0) return;
 
-          // Pick strictly the SINGLE closest/containing building polygon
           let bestPoly = null;
           let bestHeight = 18;
           let bestDist = Infinity;
@@ -947,7 +1040,7 @@
     }, 80);
   }
 
-  // --- Pooled Map Favicon Markers (Zero DOM Re-creation During Pan/Zoom) ---
+  // --- Pooled Map Favicon Markers ---
   function getOrCreateLogoMarker(c) {
     let entry = logoMarkerPool.get(c.rank);
     if (entry) return entry;
@@ -980,7 +1073,7 @@
     const { filteredCompanies } = getFilteredData();
     const bounds = map.getBounds();
     const zoom = map.getZoom();
-    const maxLogos = zoom >= 10 ? 75 : zoom >= 6.5 ? 48 : 32;
+    const maxLogos = zoom >= 10 ? 85 : zoom >= 6.5 ? 52 : 34;
 
     const inView = filteredCompanies.filter((c) => bounds.contains([c.lng, c.lat]));
     inView.sort((a, b) => {
@@ -1015,7 +1108,6 @@
     const { filteredCompanies, filteredFacilities, facByRank, sortVal } = getFilteredData();
     const activeFacilities = showSites ? filteredFacilities : [];
 
-    document.getElementById("headerSummary").textContent = `${filteredCompanies.length} Companies · ${activeFacilities.length} Sites`;
     document.getElementById("tabCountCompanies").textContent = filteredCompanies.length;
     document.getElementById("tabCountFacilities").textContent = activeFacilities.length;
 
@@ -1063,26 +1155,27 @@
       };
     });
 
-    // Draw connection lines either for ALL visible companies (when Links toggle is active) OR for the selected company
+    // Draw connection lines ONLY for the currently selected company
     const linkFeatures = [];
-    if (showSites && (showAllLinks || selectedCompanyRank)) {
-      activeFacilities.forEach((f) => {
-        if (!showAllLinks && f.parentRank !== selectedCompanyRank) return;
-        const parent = companyByRank[f.parentRank];
-        if (!parent) return;
+    if (showSites && showLinks && selectedCompanyRank) {
+      const parent = companyByRank[selectedCompanyRank];
+      if (parent) {
         const color = SECTOR_COLORS[parent.sector] || "#2563eb";
-        linkFeatures.push({
-          type: "Feature",
-          properties: { color },
-          geometry: {
-            type: "LineString",
-            coordinates: [
-              [parent.lng, parent.lat],
-              [f.lng, f.lat]
-            ]
-          }
+        activeFacilities.forEach((f) => {
+          if (f.parentRank !== selectedCompanyRank) return;
+          linkFeatures.push({
+            type: "Feature",
+            properties: { color },
+            geometry: {
+              type: "LineString",
+              coordinates: [
+                [parent.lng, parent.lat],
+                [f.lng, f.lat]
+              ]
+            }
+          });
         });
-      });
+      }
     }
 
     map.getSource("portfolio-hqs").setData({ type: "FeatureCollection", features: hqFeatures });
@@ -1095,22 +1188,19 @@
 
   function formatRowRightMeta(c, siteCount, sortVal) {
     const q = c.quote;
-    const chgBadge = q ? formatPctBadge(q.change1m) : "";
     if (sortVal === "mcap_desc") {
-      return `<span>~${formatCompactValue(c.impliedMarketCap)}</span><span style="font-size:9px;color:#94a3b8;">MCap</span>`;
+      return `<span>~${formatCompactValue(c.impliedMarketCap)}</span>`;
     }
     if (sortVal === "own_desc") {
-      return `<span>${c.ownershipPercent.toFixed(2)}%</span><span style="font-size:9px;color:#94a3b8;">Own</span>`;
+      return `<span>${c.ownershipPercent.toFixed(1)}%</span>`;
     }
     if (sortVal === "chg1m_desc" || sortVal === "chg1m_asc") {
-      return q
-        ? `${formatPctBadge(q.change1m)}<span style="font-size:9px;color:#94a3b8;">${q.price} ${q.currency}</span>`
-        : `<span>—</span>`;
+      return q ? formatPctBadge(q.change1m) : `<span>—</span>`;
     }
     if (sortVal === "sites_desc") {
-      return `<span>${siteCount} sites</span><span style="font-size:9px;color:#94a3b8;">${formatCompactValue(c.marketValue)}</span>`;
+      return `<span>${siteCount}</span>`;
     }
-    return `<span>${formatCompactValue(c.marketValue)}</span>${chgBadge}`;
+    return `<span>${formatCompactValue(c.marketValue)}</span>`;
   }
 
   function renderList(filteredCompanies, filteredFacilities, facByRank, sortVal) {
@@ -1125,10 +1215,8 @@
             <div class="list-row ${isSelected ? "selected" : ""}" data-rank="${c.rank}">
               <div class="row-left">
                 ${renderLogoHtml(c)}
-                <div class="row-text">
-                  <div class="row-name">${c.name}</div>
-                  <div class="row-sub">${c.city}${siteCount > 0 ? ` · ${siteCount} sites` : ""}</div>
-                </div>
+                <div class="row-name" title="${c.name} · ${c.city}">${c.name}</div>
+                ${siteCount > 0 ? `<span class="site-pill" title="${siteCount} sites">${siteCount}</span>` : ""}
               </div>
               <div class="row-meta">${formatRowRightMeta(c, siteCount, sortVal)}</div>
             </div>
@@ -1146,17 +1234,13 @@
         .map((f) => {
           const parent = companyByRank[f.parentRank];
           const isSelected = selectedFacilityId === f.id;
-          const shortType = SHORT_TYPE_LABEL[f.facilityType] || "Site";
           return `
             <div class="list-row ${isSelected ? "selected" : ""}" data-fac-id="${f.id}">
               <div class="row-left">
                 ${renderLogoHtml(parent)}
-                <div class="row-text">
-                  <div class="row-name">${f.name}</div>
-                  <div class="row-sub">${f.parentName} · ${f.city}</div>
-                </div>
+                <div class="row-name" title="${f.name} (${f.parentName} · ${f.city})">${f.name}</div>
               </div>
-              <div class="row-meta">${shortType}</div>
+              <div class="row-meta">${getFacilityIconBadge(f.facilityType)}</div>
             </div>
           `;
         })
@@ -1170,7 +1254,12 @@
     }
   }
 
-  // --- Selection (Gentle Pan Only When Off-Screen; No Abrupt Zoom-In!) ---
+  function scrollSelectedRowIntoView() {
+    const sel = document.querySelector("#entityList .list-row.selected");
+    if (sel) sel.scrollIntoView({ block: "nearest" });
+  }
+
+  // --- Selection (Gentle Pan Only When Off-Screen; Connections Shown for Selected Company) ---
   function selectCompany(rank, panIfNeeded = false) {
     selectedCompanyRank = rank;
     selectedFacilityId = null;
@@ -1179,6 +1268,7 @@
 
     const cFacs = facilities.filter((f) => f.parentRank === rank);
     renderAll();
+    scrollSelectedRowIntoView();
     showCompanySheet(c, cFacs);
 
     if (panIfNeeded && !map.getBounds().contains([c.lng, c.lat])) {
@@ -1198,6 +1288,7 @@
     const parent = companyByRank[f.parentRank];
     const siblingFacs = facilities.filter((item) => item.parentRank === f.parentRank);
     renderAll();
+    scrollSelectedRowIntoView();
     showFacilitySheet(f, parent, siblingFacs);
 
     if (panIfNeeded && !map.getBounds().contains([f.lng, f.lat])) {
@@ -1210,15 +1301,15 @@
 
   function renderQuoteStripHtml(c) {
     const q = c.quote;
-    const mcapText = `MCap ~${formatCompactValue(c.impliedMarketCap)} NOK`;
-    const ownText = `Own ${c.ownershipPercent.toFixed(2)}%`;
+    const mcapText = `MCap ~${formatCompactValue(c.impliedMarketCap)}`;
+    const ownText = `Own ${c.ownershipPercent.toFixed(1)}%`;
 
     if (!q) {
       return `
         <div class="quote-strip">
           <div class="quote-left">
-            <div class="quote-price-line">${mcapText}</div>
-            <div class="quote-sub-line">${ownText} · Holding ${c.marketValue.toLocaleString()} MNOK</div>
+            <div class="quote-price-line">${mcapText} NOK</div>
+            <div class="quote-sub-line">${ownText} · Hold ${formatCompactValue(c.marketValue)} NOK</div>
           </div>
         </div>
       `;
@@ -1236,18 +1327,22 @@
           <div class="quote-price-line">
             <span>${q.price} ${q.currency}</span>
             <span class="quote-ticker">${q.ticker}</span>
-            <span class="${cls1d}" style="font-size:10px;">1D ${sign1d}${q.change1d.toFixed(1)}%</span>
-            <span class="${cls1m}" style="font-size:10px;">1M ${sign1m}${q.change1m.toFixed(1)}%</span>
+            <span class="${cls1d}">1D ${sign1d}${q.change1d.toFixed(1)}%</span>
+            <span class="${cls1m}">1M ${sign1m}${q.change1m.toFixed(1)}%</span>
           </div>
           <div class="quote-sub-line">${mcapText} · ${ownText} · Hold ${formatCompactValue(c.marketValue)}</div>
         </div>
-        <div class="quote-spark" title="Last 10 daily closes: ${q.closes.join(" → ")} ${q.currency}">
+        <div class="quote-spark" title="10d closes: ${q.closes.join(" → ")} ${q.currency}">
           ${renderSparklineSvg(q.closes, isPos)}
-          <span style="font-size:8.5px;color:#94a3b8;">10d closes</span>
         </div>
       </div>
     `;
   }
+
+  const ICON_CROSSHAIR = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="22" x2="18" y1="12" y2="12"/><line x1="6" x2="2" y1="12" y2="12"/><line x1="12" x2="12" y1="6" y2="2"/><line x1="12" x2="12" y1="22" y2="18"/></svg>`;
+  const ICON_NETWORK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>`;
+  const ICON_EXT_LINK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>`;
+  const ICON_BUILDING = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/></svg>`;
 
   function showCompanySheet(c, cFacs) {
     const sheet = document.getElementById("inspectorCard");
@@ -1257,9 +1352,9 @@
       <div class="sheet-top">
         <div class="sheet-head-left">
           ${renderLogoHtml(c)}
-          <div>
+          <div style="min-width:0">
             <div class="sheet-title">${c.name}</div>
-            <div class="sheet-sub">${c.city}, ${c.country} · ${fundsText} · ${c.sector}</div>
+            <div class="sheet-sub">${c.city}, ${c.country} · ${fundsText}</div>
           </div>
         </div>
         <button class="close-btn" id="closeSheetBtn">&times;</button>
@@ -1270,9 +1365,9 @@
       <div class="sheet-body">${c.hqDescription}</div>
 
       <div class="sheet-actions">
-        <button class="action-btn" id="btnZoomHq">Zoom to Building</button>
-        ${cFacs.length > 0 ? `<button class="action-btn" id="btnFitAll">All Sites (${cFacs.length + 1})</button>` : ""}
-        <a class="action-btn" href="${c.website}" target="_blank" rel="noopener">Website ↗</a>
+        <button class="action-btn" id="btnZoomHq">${ICON_CROSSHAIR} Zoom</button>
+        ${cFacs.length > 0 ? `<button class="action-btn" id="btnFitAll">${ICON_NETWORK} Sites (${cFacs.length})</button>` : ""}
+        <a class="action-btn" href="${c.website}" target="_blank" rel="noopener">${ICON_EXT_LINK} Web</a>
       </div>
 
       ${
@@ -1282,7 +1377,10 @@
                 .map(
                   (f) => `
                   <div class="sub-row" data-fac-id="${f.id}">
-                    <span style="color:#0f172a;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${f.name}</span>
+                    <span style="display:flex;align-items:center;gap:5px;min-width:0;">
+                      ${getFacilityIconBadge(f.facilityType)}
+                      <span style="color:#0f172a;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${f.name}</span>
+                    </span>
                     <span style="color:#94a3b8;flex-shrink:0;">${f.city}</span>
                   </div>`
                 )
@@ -1317,7 +1415,7 @@
       <div class="sheet-top">
         <div class="sheet-head-left">
           ${renderLogoHtml(parent)}
-          <div>
+          <div style="min-width:0">
             <div class="sheet-title">${f.name}</div>
             <div class="sheet-sub">${f.parentName} · ${f.city}, ${f.country}</div>
           </div>
@@ -1328,9 +1426,9 @@
       <div class="sheet-body">${f.description}</div>
 
       <div class="sheet-actions">
-        <button class="action-btn" id="btnZoomFac">Zoom to Site</button>
-        ${parent ? `<button class="action-btn" id="btnJumpHq">HQ (${parent.city})</button>` : ""}
-        ${parent ? `<button class="action-btn" id="btnFitFacNet">Network (${siblingFacs.length + 1})</button>` : ""}
+        <button class="action-btn" id="btnZoomFac">${ICON_CROSSHAIR} Zoom</button>
+        ${parent ? `<button class="action-btn" id="btnJumpHq">${ICON_BUILDING} HQ</button>` : ""}
+        ${parent ? `<button class="action-btn" id="btnFitFacNet">${ICON_NETWORK} All (${siblingFacs.length + 1})</button>` : ""}
       </div>
     `;
 
@@ -1371,9 +1469,7 @@
     selectedCompanyRank = null;
     selectedFacilityId = null;
     is3dEnabled = false;
-    showAllLinks = false;
     document.getElementById("btnToggle3d").classList.remove("active");
-    document.getElementById("btnToggleLinks").classList.remove("active");
     document.getElementById("inspectorCard").classList.remove("visible");
     if (map.getLayer("all-buildings-3d")) map.setLayoutProperty("all-buildings-3d", "visibility", "none");
     if (map.getLayer("portfolio-buildings-3d")) map.setLayoutProperty("portfolio-buildings-3d", "visibility", "none");
@@ -1414,7 +1510,7 @@
 
         hoverPopup
           .setLngLat(coords)
-          .setHTML(`<strong>${p.name || ""}</strong><div style="opacity:0.8">${p.subtitle || ""}</div>`)
+          .setHTML(`<strong>${p.name || ""}</strong><div style="color:#64748b">${p.subtitle || ""}</div>`)
           .addTo(map);
       });
 
@@ -1437,6 +1533,16 @@
       });
     });
 
+    // Clicking empty map area clears selection cleanly
+    map.on("click", (e) => {
+      const hit = map.queryRenderedFeatures(e.point, {
+        layers: interactiveLayers.filter((id) => map.getLayer(id))
+      });
+      if (!hit || hit.length === 0) {
+        if (selectedCompanyRank || selectedFacilityId) clearSelection();
+      }
+    });
+
     map.on("moveend", scheduleBuildingMatch);
   }
 
@@ -1455,12 +1561,8 @@
       renderAll();
     });
 
+    // Keep menus/tabs constant when changing filters
     document.getElementById("countrySelect").addEventListener("change", (e) => {
-      if (e.target.value === "GLOBAL") {
-        activeTab = "facilities";
-        document.getElementById("tabFacilities").classList.add("active");
-        document.getElementById("tabCompanies").classList.remove("active");
-      }
       renderAll();
       const { filteredCompanies, filteredFacilities } = getFilteredData();
       const pts =
@@ -1473,17 +1575,7 @@
       if (pts.length > 0) fitBoundsToPoints(pts);
     });
 
-    document.getElementById("typeSelect").addEventListener("change", (e) => {
-      const val = e.target.value;
-      if (val !== "all" && val !== "hqs_only") {
-        activeTab = "facilities";
-        document.getElementById("tabFacilities").classList.add("active");
-        document.getElementById("tabCompanies").classList.remove("active");
-      } else if (val === "hqs_only") {
-        activeTab = "companies";
-        document.getElementById("tabCompanies").classList.add("active");
-        document.getElementById("tabFacilities").classList.remove("active");
-      }
+    document.getElementById("typeSelect").addEventListener("change", () => {
       renderAll();
     });
 
@@ -1521,8 +1613,8 @@
     });
 
     document.getElementById("btnToggleLinks").addEventListener("click", (e) => {
-      showAllLinks = !showAllLinks;
-      e.currentTarget.classList.toggle("active", showAllLinks);
+      showLinks = !showLinks;
+      e.currentTarget.classList.toggle("active", showLinks);
       renderAll();
     });
 
@@ -1531,13 +1623,7 @@
         document.querySelectorAll("[data-basemap]").forEach((b) => b.classList.remove("active"));
         btn.classList.add("active");
         currentBasemap = btn.getAttribute("data-basemap");
-        if (map.getLayer("esri-satellite-layer")) {
-          map.setLayoutProperty(
-            "esri-satellite-layer",
-            "visibility",
-            currentBasemap === "satellite" ? "visible" : "none"
-          );
-        }
+        applyBasemapMode();
       });
     });
 
