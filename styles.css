@@ -74,6 +74,32 @@ kbd {
   padding: 14px 12px 0 14px;
 }
 
+.title-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reset-btn {
+  height: 22px;
+  padding: 0 0 0 9px;
+  border: none;
+  border-left: 1px solid var(--border);
+  background: none;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.reset-btn:hover,
+.reset-btn.dirty {
+  color: var(--text);
+}
+
+.reset-btn.dirty:hover {
+  color: var(--accent);
+}
+
 .fund-seg {
   display: flex;
   gap: 1px;
@@ -197,20 +223,6 @@ kbd {
 .opt.active {
   background: var(--text);
   color: #fff;
-}
-
-.fp-reset {
-  align-self: flex-end;
-  border: none;
-  background: none;
-  font-size: 11px;
-  color: var(--text-muted);
-  padding: 2px 4px;
-  border-radius: 4px;
-}
-
-.fp-reset:hover {
-  color: var(--text);
 }
 
 /* List header: count + one-click sort toggle */

@@ -1631,6 +1631,16 @@
     const el = document.getElementById("filterCount");
     el.hidden = n === 0;
     el.textContent = n;
+
+    // Reset is always visible; it darkens when there is something to reset
+    const dirty =
+      n > 0 ||
+      activeFund !== "all" ||
+      activeSort !== "value_desc" ||
+      !!soloRank ||
+      !!selectedCompanyRank ||
+      !!document.getElementById("searchInput").value;
+    document.getElementById("btnReset").classList.toggle("dirty", dirty);
   }
 
   // The card always shows the company. Picking one of its sites only adds a small site panel and
@@ -2093,7 +2103,10 @@
     });
 
     document.getElementById("btnToggle3d").addEventListener("click", () => setThreeD(!is3dEnabled));
-    document.getElementById("btnReset").addEventListener("click", resetAll);
+    document.getElementById("btnReset").addEventListener("click", () => {
+      setFilterPanel(false);
+      resetAll();
+    });
 
     document.addEventListener("keydown", (e) => {
       if (e.metaKey || e.ctrlKey || e.altKey || isTyping(e)) return;
