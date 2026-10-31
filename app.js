@@ -40,18 +40,43 @@
     "Filial, Logistics & Subsidiary HQ": "#475569"
   };
 
-  const SHORT_TYPE_LABEL = {
-    "Factory & Manufacturing": "Plant",
-    "Mill, Smelter & Mine": "Mine / Mill",
-    "R&D, Biotech & Medtech Lab": "Lab",
-    "Offshore, Marine & Energy": "Offshore",
-    "Oil & Gas Drilling / Platform": "Rig",
-    "Aquaculture & Fishery": "Fish Farm",
-    "Data Center, Telecom & Cloud": "Data Center",
-    "Filial, Logistics & Subsidiary HQ": "Hub / Office"
+  const COUNTRY_FLAGS = {
+    "Norge": "🇳🇴",
+    "Norway": "🇳🇴",
+    "Sverige": "🇸🇪",
+    "Sweden": "🇸🇪",
+    "Danmark": "🇩🇰",
+    "Denmark": "🇩🇰",
+    "Finland": "🇫🇮",
+    "Island": "🇮🇸",
+    "Iceland": "🇮🇸",
+    "Færøyene": "🇫🇴",
+    "Faroe Islands": "🇫🇴",
+    "Tyskland": "🇩🇪",
+    "Germany": "🇩🇪",
+    "Storbritannia": "🇬🇧",
+    "UK": "🇬🇧",
+    "United Kingdom": "🇬🇧",
+    "USA": "🇺🇸",
+    "United States": "🇺🇸",
+    "Brasil": "🇧🇷",
+    "Brazil": "🇧🇷",
+    "Gabon": "🇬🇦",
+    "Ekvatorial-Guinea": "🇬🇶",
+    "Tunisia": "🇹🇳",
+    "Polen": "🇵🇱",
+    "Belgia": "🇧🇪",
+    "Nederland": "🇳🇱",
+    "Frankrike": "🇫🇷",
+    " Sveits": "🇨🇭",
+    "Sveits": "🇨🇭",
+    "Spania": "🇪🇸",
+    "Italia": "🇮🇹",
+    "Canada": "🇨🇦",
+    "Singapore": "🇸🇬",
+    "Kina": "🇨🇳"
   };
 
-  // Minimal Lucide SVG Icons per Facility Category
   const FACILITY_LUCIDE_SVG = {
     "Offshore, Marine & Energy": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
     "Oil & Gas Drilling / Platform": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
@@ -60,14 +85,28 @@
     "Factory & Manufacturing": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/></svg>`,
     "Data Center, Telecom & Cloud": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></svg>`,
     "R&D, Biotech & Medtech Lab": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg>`,
-    "Filial, Logistics & Subsidiary HQ": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M12 6h.01"/><path d="M12 10h.01"/><path d="M12 14h.01"/><path d="M16 10h.01"/><path d="M16 14h.01"/><path d="M8 10h.01"/><path d="M8 14h.01"/></svg>`
+    "Filial, Logistics & Subsidiary HQ": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>`
   };
 
-  function getFacilityIconBadge(facilityType) {
+  function getMiniTypeIcon(facilityType) {
     const color = FACILITY_COLORS[facilityType] || "#475569";
     const svg = FACILITY_LUCIDE_SVG[facilityType] || FACILITY_LUCIDE_SVG["Filial, Logistics & Subsidiary HQ"];
-    const label = SHORT_TYPE_LABEL[facilityType] || "Site";
-    return `<span class="type-icon-badge" style="color:${color}" title="${label}">${svg}</span>`;
+    return `<span class="mini-type-icon" style="color:${color}">${svg}</span>`;
+  }
+
+  function shortCompanyName(name) {
+    return String(name || "")
+      .replace(/\s+(ASA|AS|AB|Oyj|Oy|A\/S|Plc|SE|Hf\.?|Holding|Holdings|Group|International|Breweries|i Skandinavien)\b/gi, "")
+      .trim();
+  }
+
+  function shortFacilityName(facName, parentName) {
+    const pShort = shortCompanyName(parentName);
+    let s = String(facName || "");
+    if (pShort && s.toLowerCase().startsWith(pShort.toLowerCase() + " ")) {
+      s = s.slice(pShort.length).trim();
+    }
+    return s.replace(/^[-–—·\s]+/, "");
   }
 
   function normName(s) {
@@ -82,7 +121,7 @@
       .replace(/[^a-z0-9]/g, "");
   }
 
-  // --- STAGE 1: Load Main HQs Immediately (SFT Part 1 + Part 2 + SPN) ---
+  // --- STAGE 1: Load Main HQs Immediately ---
   const sftRaw = [
     ...(window.HQ_COMPANIES || []),
     ...(window.HQ_COMPANIES_PART1 || []),
@@ -146,6 +185,7 @@
     const unified = Array.from(byKey.values()).sort((a, b) => b.marketValue - a.marketValue);
     unified.forEach((c, idx) => {
       c.rank = idx + 1;
+      c.shortName = shortCompanyName(c.name);
       c.ownershipPercent = Number(c.ownershipPercent) || 0;
       c.impliedMarketCap =
         c.ownershipPercent > 0.05
@@ -238,10 +278,12 @@
             (c) => normName(c.name).includes(aliased) || aliased.includes(normName(c.name))
           );
         }
+        const pName = parent ? parent.name : f.parentName;
         return {
           ...f,
           parentRank: parent ? parent.rank : f.parentRank || 1,
-          parentName: parent ? parent.name : f.parentName
+          parentName: pName,
+          shortName: shortFacilityName(f.name, pName)
         };
       });
     }
@@ -260,20 +302,11 @@
     return `${Math.round(v)}M`;
   }
 
-  function formatPctBadge(val) {
-    if (typeof val !== "number" || isNaN(val)) return "";
-    const sign = val > 0 ? "+" : "";
-    const cls = val >= 0 ? "chg-pos" : "chg-neg";
-    return `<span class="row-chg ${cls}">${sign}${val.toFixed(1)}%</span>`;
-  }
-
-  function renderSparklineSvg(closes, isPos) {
+  function renderSparklineSvg(closes, isPos, w = 44, h = 15) {
     if (!Array.isArray(closes) || closes.length < 2) return "";
     const min = Math.min(...closes);
     const max = Math.max(...closes);
     const span = max - min || 1;
-    const w = 56;
-    const h = 18;
     const pts = closes
       .map((v, i) => {
         const x = (i / (closes.length - 1)) * (w - 4) + 2;
@@ -282,7 +315,7 @@
       })
       .join(" ");
     const stroke = isPos ? "#16a34a" : "#dc2626";
-    return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" fill="none"><polyline points="${pts}" stroke="${stroke}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" fill="none"><polyline points="${pts}" stroke="${stroke}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
   }
 
   function getCompanyDomain(website) {
@@ -318,14 +351,17 @@
   }
 
   // --- State ---
-  let activeTab = "companies";
+  let activeTab = "companies"; // "companies" | "grid" | "facilities"
+  let activeRegion = "ALL";
+  let activeType = "all";
+  let activeSort = "value_desc";
   let selectedCompanyRank = null;
   let selectedFacilityId = null;
   let showLogos = true;
   let showSites = true;
-  let showLinks = true; // Only shows links for the selected company when clicked
+  let showLinks = true;
   let is3dEnabled = false;
-  let currentBasemap = "light"; // Default minimal light basemap
+  let currentBasemap = "light";
   let buildingMatchTimer = null;
   const logoMarkerPool = new Map();
   const visibleLogoRanks = new Set();
@@ -458,8 +494,8 @@
           type: "Feature",
           properties: {
             color,
-            name: f.name,
-            subtitle: `${f.parentName} · Sea-Cage`,
+            name: f.shortName || f.name,
+            subtitle: f.parentName,
             entityType: "facility",
             entityId: f.id,
             height: 4
@@ -480,8 +516,8 @@
         type: "Feature",
         properties: {
           color,
-          name: f.name,
-          subtitle: `${f.parentName} · Offshore`,
+          name: f.shortName || f.name,
+          subtitle: f.parentName,
           entityType: "facility",
           entityId: f.id,
           height: 42
@@ -499,10 +535,9 @@
 
   function getFilteredData() {
     const q = document.getElementById("searchInput").value.trim().toLowerCase();
-    const regionVal = document.getElementById("countrySelect").value;
-    const typeVal = document.getElementById("typeSelect").value;
-    const sortEl = document.getElementById("sortSelect");
-    const sortVal = sortEl ? sortEl.value : "value_desc";
+    const regionVal = activeRegion;
+    const typeVal = activeType;
+    const sortVal = activeSort;
 
     const facByRank = {};
     facilities.forEach((f) => {
@@ -511,14 +546,11 @@
     });
 
     const filteredCompanies = companies.filter((c) => {
-      if (regionVal === "FUND_SPN" && !c.funds.includes("SPN")) return false;
-      if (regionVal === "FUND_SFT" && !c.funds.includes("SFT")) return false;
-
       const cFacs = facByRank[c.rank] || [];
       if (regionVal === "GLOBAL") {
         const hasGlobal = !NORDIC_COUNTRIES.has(c.country) || cFacs.some((f) => !NORDIC_COUNTRIES.has(f.country));
         if (!hasGlobal) return false;
-      } else if (regionVal !== "ALL" && regionVal !== "FUND_SPN" && regionVal !== "FUND_SFT") {
+      } else if (regionVal !== "ALL") {
         if (c.country !== regionVal) return false;
       }
 
@@ -548,22 +580,16 @@
 
     filteredCompanies.sort((a, b) => {
       if (sortVal === "mcap_desc") return (b.impliedMarketCap || 0) - (a.impliedMarketCap || 0);
-      if (sortVal === "own_desc") return (b.ownershipPercent || 0) - (a.ownershipPercent || 0);
       if (sortVal === "chg1m_desc") {
         const va = a.quote && typeof a.quote.change1m === "number" ? a.quote.change1m : -999;
         const vb = b.quote && typeof b.quote.change1m === "number" ? b.quote.change1m : -999;
         return vb - va;
       }
-      if (sortVal === "chg1m_asc") {
-        const va = a.quote && typeof a.quote.change1m === "number" ? a.quote.change1m : 999;
-        const vb = b.quote && typeof b.quote.change1m === "number" ? b.quote.change1m : 999;
-        return va - vb;
-      }
       if (sortVal === "sites_desc") {
         const diff = (facByRank[b.rank] || []).length - (facByRank[a.rank] || []).length;
         return diff !== 0 ? diff : b.marketValue - a.marketValue;
       }
-      if (sortVal === "name_asc") return a.name.localeCompare(b.name, "nb");
+      if (sortVal === "name_asc") return a.shortName.localeCompare(b.shortName, "nb");
       return b.marketValue - a.marketValue;
     });
 
@@ -573,17 +599,8 @@
       typeVal === "hqs_only"
         ? []
         : facilities.filter((f) => {
-            const parent = companyByRank[f.parentRank];
-            if (regionVal === "FUND_SPN" && parent && !parent.funds.includes("SPN")) return false;
-            if (regionVal === "FUND_SFT" && parent && !parent.funds.includes("SFT")) return false;
             if (regionVal === "GLOBAL" && NORDIC_COUNTRIES.has(f.country)) return false;
-            if (
-              regionVal !== "ALL" &&
-              regionVal !== "GLOBAL" &&
-              regionVal !== "FUND_SPN" &&
-              regionVal !== "FUND_SFT" &&
-              f.country !== regionVal
-            ) {
+            if (regionVal !== "ALL" && regionVal !== "GLOBAL" && f.country !== regionVal) {
               return false;
             }
             if (!matchesTypeFilter(f, typeVal)) return false;
@@ -600,10 +617,10 @@
           });
 
     if (sortVal === "name_asc") {
-      filteredFacilities.sort((a, b) => a.name.localeCompare(b.name, "nb"));
+      filteredFacilities.sort((a, b) => (a.shortName || a.name).localeCompare(b.shortName || b.name, "nb"));
     }
 
-    return { filteredCompanies, filteredFacilities, facByRank, sortVal };
+    return { filteredCompanies, filteredFacilities, facByRank };
   }
 
   function matchesTypeFilter(f, typeVal) {
@@ -620,7 +637,7 @@
     return true;
   }
 
-  // --- Declutter Base Map (Hide Shops, Trains, Restaurants, Shields & Apply Minimal Light Theme) ---
+  // --- Declutter Base Map (Hide Shops, Trains, Restaurants, Shields) ---
   function declutterBaseStyleLayers() {
     if (!map.isStyleLoaded()) return;
     const layers = map.getStyle().layers || [];
@@ -629,7 +646,6 @@
       const id = (lyr.id || "").toLowerCase();
       const srcLayer = (lyr["source-layer"] || "").toLowerCase();
 
-      // Always hide commercial POIs, shops, restaurants, train/bus icons, road shields, and house numbers
       if (
         srcLayer === "poi" ||
         srcLayer === "housenumber" ||
@@ -672,10 +688,8 @@
   function setupCustomLayers() {
     if (!map.isStyleLoaded()) return;
 
-    // 1. Remove noisy POI / train / shop icons from base vector map
     declutterBaseStyleLayers();
 
-    // 2. Add Minimal Light Basemap (Carto Positron Light) & Satellite Sources
     if (!map.getSource("carto-light")) {
       map.addSource("carto-light", {
         type: "raster",
@@ -902,7 +916,7 @@
     renderAll();
   }
 
-  // --- Single-Building Exact Matcher (1 Building Per Pin) ---
+  // --- Single-Building Exact Matcher ---
   function matchVectorBuildingsToPortfolio() {
     if (!map.isStyleLoaded() || !map.getSource("portfolio-buildings")) return;
 
@@ -932,8 +946,8 @@
             lng: c.lng,
             lat: c.lat,
             color: SECTOR_COLORS[c.sector] || "#2563eb",
-            name: c.name,
-            subtitle: `HQ · ${c.city}`,
+            name: c.shortName,
+            subtitle: c.city,
             entityType: "company",
             entityId: c.rank,
             maxDistM: 28
@@ -948,8 +962,8 @@
             lng: f.lng,
             lat: f.lat,
             color: FACILITY_COLORS[f.facilityType] || "#059669",
-            name: f.name,
-            subtitle: `${f.parentName} · ${SHORT_TYPE_LABEL[f.facilityType] || f.facilityType}`,
+            name: f.shortName || f.name,
+            subtitle: f.parentName,
             entityType: "facility",
             entityId: f.id,
             maxDistM: 32
@@ -1047,7 +1061,7 @@
 
     const el = document.createElement("div");
     el.className = "map-logo-marker";
-    el.title = `${c.name} (${formatCompactValue(c.marketValue)} NOK)`;
+    el.title = c.shortName;
     el.innerHTML = renderLogoHtml(c);
     el.addEventListener("click", (ev) => {
       ev.stopPropagation();
@@ -1105,13 +1119,10 @@
 
   // --- Main Render ---
   function renderAll() {
-    const { filteredCompanies, filteredFacilities, facByRank, sortVal } = getFilteredData();
+    const { filteredCompanies, filteredFacilities, facByRank } = getFilteredData();
     const activeFacilities = showSites ? filteredFacilities : [];
 
-    document.getElementById("tabCountCompanies").textContent = filteredCompanies.length;
-    document.getElementById("tabCountFacilities").textContent = activeFacilities.length;
-
-    renderList(filteredCompanies, activeFacilities, facByRank, sortVal);
+    renderList(filteredCompanies, activeFacilities, facByRank);
 
     if (!map.isStyleLoaded() || !map.getSource("portfolio-hqs")) return;
 
@@ -1122,8 +1133,8 @@
         type: "Feature",
         properties: {
           rank: c.rank,
-          name: c.name,
-          subtitle: `${c.city} · ${formatCompactValue(c.marketValue)} NOK`,
+          name: c.shortName,
+          subtitle: c.city,
           color,
           strokeColor: isSelected ? "#0f172a" : "#ffffff",
           strokeWidth: isSelected ? 2.5 : 1.3
@@ -1143,8 +1154,8 @@
         properties: {
           id: f.id,
           parentRank: f.parentRank,
-          name: f.name,
-          subtitle: `${f.parentName} · ${f.city}`,
+          name: f.shortName || f.name,
+          subtitle: f.city,
           color,
           strokeWidth: isSelected ? 2.2 : 1.1
         },
@@ -1155,7 +1166,7 @@
       };
     });
 
-    // Draw connection lines ONLY for the currently selected company
+    // Connection lines ONLY for the currently selected company
     const linkFeatures = [];
     if (showSites && showLinks && selectedCompanyRank) {
       const parent = companyByRank[selectedCompanyRank];
@@ -1186,39 +1197,67 @@
     scheduleBuildingMatch();
   }
 
-  function formatRowRightMeta(c, siteCount, sortVal) {
+  function renderCompanyRightIcons(c, cFacs) {
+    const uniqueTypes = [];
+    const seen = new Set();
+    for (const f of cFacs) {
+      const normT =
+        f.facilityType === "Oil & Gas Drilling / Platform"
+          ? "Offshore, Marine & Energy"
+          : f.facilityType;
+      if (!seen.has(normT)) {
+        seen.add(normT);
+        uniqueTypes.push(f.facilityType);
+        if (uniqueTypes.length === 2) break;
+      }
+    }
+
+    const typeIconsHtml = uniqueTypes.map((t) => getMiniTypeIcon(t)).join("");
     const q = c.quote;
-    if (sortVal === "mcap_desc") {
-      return `<span>~${formatCompactValue(c.impliedMarketCap)}</span>`;
-    }
-    if (sortVal === "own_desc") {
-      return `<span>${c.ownershipPercent.toFixed(1)}%</span>`;
-    }
-    if (sortVal === "chg1m_desc" || sortVal === "chg1m_asc") {
-      return q ? formatPctBadge(q.change1m) : `<span>—</span>`;
-    }
-    if (sortVal === "sites_desc") {
-      return `<span>${siteCount}</span>`;
-    }
-    return `<span>${formatCompactValue(c.marketValue)}</span>`;
+    const sparkHtml =
+      q && q.closes
+        ? renderSparklineSvg(q.closes, q.change1m >= 0, 32, 13)
+        : "";
+    const flag = COUNTRY_FLAGS[c.country] || "";
+
+    return `${typeIconsHtml}${sparkHtml}<span class="mini-flag">${flag}</span>`;
   }
 
-  function renderList(filteredCompanies, filteredFacilities, facByRank, sortVal) {
+  function renderList(filteredCompanies, filteredFacilities, facByRank) {
     const listEl = document.getElementById("entityList");
 
-    if (activeTab === "companies") {
+    if (activeTab === "grid") {
+      listEl.innerHTML = `<div class="logo-grid">${filteredCompanies
+        .map((c) => {
+          const cFacs = facByRank[c.rank] || [];
+          const isSelected = selectedCompanyRank === c.rank && !selectedFacilityId;
+          const dotColor = SECTOR_COLORS[c.sector] || "#2563eb";
+          return `
+            <div class="logo-tile ${isSelected ? "selected" : ""}" data-rank="${c.rank}" title="${c.shortName}">
+              ${renderLogoHtml(c)}
+              ${cFacs.length > 0 ? `<span class="tile-dot" style="background:${dotColor}"></span>` : ""}
+            </div>
+          `;
+        })
+        .join("")}</div>`;
+
+      listEl.querySelectorAll(".logo-tile").forEach((tile) => {
+        tile.addEventListener("click", () => {
+          selectCompany(Number(tile.getAttribute("data-rank")), true);
+        });
+      });
+    } else if (activeTab === "companies") {
       listEl.innerHTML = filteredCompanies
         .map((c) => {
-          const siteCount = (facByRank[c.rank] || []).length;
+          const cFacs = facByRank[c.rank] || [];
           const isSelected = selectedCompanyRank === c.rank && !selectedFacilityId;
           return `
             <div class="list-row ${isSelected ? "selected" : ""}" data-rank="${c.rank}">
               <div class="row-left">
                 ${renderLogoHtml(c)}
-                <div class="row-name" title="${c.name} · ${c.city}">${c.name}</div>
-                ${siteCount > 0 ? `<span class="site-pill" title="${siteCount} sites">${siteCount}</span>` : ""}
+                <div class="row-name">${c.shortName}</div>
               </div>
-              <div class="row-meta">${formatRowRightMeta(c, siteCount, sortVal)}</div>
+              <div class="row-icons">${renderCompanyRightIcons(c, cFacs)}</div>
             </div>
           `;
         })
@@ -1234,13 +1273,17 @@
         .map((f) => {
           const parent = companyByRank[f.parentRank];
           const isSelected = selectedFacilityId === f.id;
+          const flag = COUNTRY_FLAGS[f.country] || "🌍";
           return `
             <div class="list-row ${isSelected ? "selected" : ""}" data-fac-id="${f.id}">
               <div class="row-left">
                 ${renderLogoHtml(parent)}
-                <div class="row-name" title="${f.name} (${f.parentName} · ${f.city})">${f.name}</div>
+                <div class="row-name">${f.shortName || f.name}</div>
               </div>
-              <div class="row-meta">${getFacilityIconBadge(f.facilityType)}</div>
+              <div class="row-icons">
+                ${getMiniTypeIcon(f.facilityType)}
+                <span class="mini-flag">${flag}</span>
+              </div>
             </div>
           `;
         })
@@ -1255,11 +1298,11 @@
   }
 
   function scrollSelectedRowIntoView() {
-    const sel = document.querySelector("#entityList .list-row.selected");
+    const sel = document.querySelector("#entityList .selected");
     if (sel) sel.scrollIntoView({ block: "nearest" });
   }
 
-  // --- Selection (Gentle Pan Only When Off-Screen; Connections Shown for Selected Company) ---
+  // --- Selection ---
   function selectCompany(rank, panIfNeeded = false) {
     selectedCompanyRank = rank;
     selectedFacilityId = null;
@@ -1301,39 +1344,29 @@
 
   function renderQuoteStripHtml(c) {
     const q = c.quote;
-    const mcapText = `MCap ~${formatCompactValue(c.impliedMarketCap)}`;
-    const ownText = `Own ${c.ownershipPercent.toFixed(1)}%`;
-
     if (!q) {
       return `
         <div class="quote-strip">
-          <div class="quote-left">
-            <div class="quote-price-line">${mcapText} NOK</div>
-            <div class="quote-sub-line">${ownText} · Hold ${formatCompactValue(c.marketValue)} NOK</div>
+          <div class="quote-price-line">
+            <span>~${formatCompactValue(c.impliedMarketCap)} NOK</span>
           </div>
+          <span style="color:#94a3b8">${c.ownershipPercent.toFixed(1)}%</span>
         </div>
       `;
     }
 
     const isPos = q.change1m >= 0;
-    const sign1d = q.change1d > 0 ? "+" : "";
     const sign1m = q.change1m > 0 ? "+" : "";
-    const cls1d = q.change1d >= 0 ? "chg-pos" : "chg-neg";
-    const cls1m = q.change1m >= 0 ? "chg-pos" : "chg-neg";
+    const cls1m = isPos ? "chg-pos" : "chg-neg";
 
     return `
       <div class="quote-strip">
-        <div class="quote-left">
-          <div class="quote-price-line">
-            <span>${q.price} ${q.currency}</span>
-            <span class="quote-ticker">${q.ticker}</span>
-            <span class="${cls1d}">1D ${sign1d}${q.change1d.toFixed(1)}%</span>
-            <span class="${cls1m}">1M ${sign1m}${q.change1m.toFixed(1)}%</span>
-          </div>
-          <div class="quote-sub-line">${mcapText} · ${ownText} · Hold ${formatCompactValue(c.marketValue)}</div>
+        <div class="quote-price-line">
+          <span>${q.price} ${q.currency}</span>
+          <span class="${cls1m}">${sign1m}${q.change1m.toFixed(1)}%</span>
         </div>
-        <div class="quote-spark" title="10d closes: ${q.closes.join(" → ")} ${q.currency}">
-          ${renderSparklineSvg(q.closes, isPos)}
+        <div class="quote-spark" title="${q.closes.join(" → ")} ${q.currency}">
+          ${renderSparklineSvg(q.closes, isPos, 56, 16)}
         </div>
       </div>
     `;
@@ -1346,28 +1379,23 @@
 
   function showCompanySheet(c, cFacs) {
     const sheet = document.getElementById("inspectorCard");
-    const fundsText = c.funds.join("+");
+    const flag = COUNTRY_FLAGS[c.country] || "";
 
     sheet.innerHTML = `
       <div class="sheet-top">
         <div class="sheet-head-left">
           ${renderLogoHtml(c)}
-          <div style="min-width:0">
-            <div class="sheet-title">${c.name}</div>
-            <div class="sheet-sub">${c.city}, ${c.country} · ${fundsText}</div>
-          </div>
+          <div class="sheet-title">${c.shortName} ${flag}</div>
         </div>
         <button class="close-btn" id="closeSheetBtn">&times;</button>
       </div>
 
       ${renderQuoteStripHtml(c)}
 
-      <div class="sheet-body">${c.hqDescription}</div>
-
       <div class="sheet-actions">
-        <button class="action-btn" id="btnZoomHq">${ICON_CROSSHAIR} Zoom</button>
-        ${cFacs.length > 0 ? `<button class="action-btn" id="btnFitAll">${ICON_NETWORK} Sites (${cFacs.length})</button>` : ""}
-        <a class="action-btn" href="${c.website}" target="_blank" rel="noopener">${ICON_EXT_LINK} Web</a>
+        <button class="action-btn" id="btnZoomHq" title="Zoom to building">${ICON_CROSSHAIR}</button>
+        ${cFacs.length > 0 ? `<button class="action-btn" id="btnFitAll" title="Show all ${cFacs.length} sites">${ICON_NETWORK} <span>${cFacs.length}</span></button>` : ""}
+        <a class="action-btn" href="${c.website}" target="_blank" rel="noopener" title="Website">${ICON_EXT_LINK}</a>
       </div>
 
       ${
@@ -1378,10 +1406,10 @@
                   (f) => `
                   <div class="sub-row" data-fac-id="${f.id}">
                     <span style="display:flex;align-items:center;gap:5px;min-width:0;">
-                      ${getFacilityIconBadge(f.facilityType)}
-                      <span style="color:#0f172a;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${f.name}</span>
+                      ${getMiniTypeIcon(f.facilityType)}
+                      <span style="color:#0f172a;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${f.shortName || f.name}</span>
                     </span>
-                    <span style="color:#94a3b8;flex-shrink:0;">${f.city}</span>
+                    <span class="mini-flag">${COUNTRY_FLAGS[f.country] || "🌍"}</span>
                   </div>`
                 )
                 .join("")}
@@ -1411,24 +1439,21 @@
 
   function showFacilitySheet(f, parent, siblingFacs) {
     const sheet = document.getElementById("inspectorCard");
+    const flag = COUNTRY_FLAGS[f.country] || "🌍";
+
     sheet.innerHTML = `
       <div class="sheet-top">
         <div class="sheet-head-left">
           ${renderLogoHtml(parent)}
-          <div style="min-width:0">
-            <div class="sheet-title">${f.name}</div>
-            <div class="sheet-sub">${f.parentName} · ${f.city}, ${f.country}</div>
-          </div>
+          <div class="sheet-title">${f.shortName || f.name} ${flag}</div>
         </div>
         <button class="close-btn" id="closeSheetBtn">&times;</button>
       </div>
 
-      <div class="sheet-body">${f.description}</div>
-
       <div class="sheet-actions">
-        <button class="action-btn" id="btnZoomFac">${ICON_CROSSHAIR} Zoom</button>
-        ${parent ? `<button class="action-btn" id="btnJumpHq">${ICON_BUILDING} HQ</button>` : ""}
-        ${parent ? `<button class="action-btn" id="btnFitFacNet">${ICON_NETWORK} All (${siblingFacs.length + 1})</button>` : ""}
+        <button class="action-btn" id="btnZoomFac" title="Zoom to site">${ICON_CROSSHAIR}</button>
+        ${parent ? `<button class="action-btn" id="btnJumpHq" title="Parent HQ">${ICON_BUILDING}</button>` : ""}
+        ${parent ? `<button class="action-btn" id="btnFitFacNet" title="All company sites">${ICON_NETWORK} <span>${siblingFacs.length + 1}</span></button>` : ""}
       </div>
     `;
 
@@ -1462,10 +1487,20 @@
   function resetAll() {
     document.getElementById("searchInput").value = "";
     document.getElementById("btnClearSearch").hidden = true;
-    document.getElementById("countrySelect").value = "ALL";
-    document.getElementById("typeSelect").value = "all";
-    const sortEl = document.getElementById("sortSelect");
-    if (sortEl) sortEl.value = "value_desc";
+    activeRegion = "ALL";
+    activeType = "all";
+    activeSort = "value_desc";
+
+    document.querySelectorAll("#regionBar .filter-pill").forEach((b) => {
+      b.classList.toggle("active", b.getAttribute("data-region") === "ALL");
+    });
+    document.querySelectorAll("#typeBar .filter-pill").forEach((b) => {
+      b.classList.toggle("active", b.getAttribute("data-type") === "all");
+    });
+    document.querySelectorAll("#sortBar .sort-btn").forEach((b) => {
+      b.classList.toggle("active", b.getAttribute("data-sort") === "value_desc");
+    });
+
     selectedCompanyRank = null;
     selectedFacilityId = null;
     is3dEnabled = false;
@@ -1510,7 +1545,7 @@
 
         hoverPopup
           .setLngLat(coords)
-          .setHTML(`<strong>${p.name || ""}</strong><div style="color:#64748b">${p.subtitle || ""}</div>`)
+          .setHTML(`<strong>${p.name || ""}</strong>`)
           .addTo(map);
       });
 
@@ -1533,7 +1568,6 @@
       });
     });
 
-    // Clicking empty map area clears selection cleanly
     map.on("click", (e) => {
       const hit = map.queryRenderedFeatures(e.point, {
         layers: interactiveLayers.filter((id) => map.getLayer(id))
@@ -1544,6 +1578,14 @@
     });
 
     map.on("moveend", scheduleBuildingMatch);
+  }
+
+  function setModeTab(tab) {
+    activeTab = tab;
+    document.getElementById("tabCompanies").classList.toggle("active", tab === "companies");
+    document.getElementById("tabGrid").classList.toggle("active", tab === "grid");
+    document.getElementById("tabFacilities").classList.toggle("active", tab === "facilities");
+    renderAll();
   }
 
   function initControls() {
@@ -1561,44 +1603,53 @@
       renderAll();
     });
 
-    // Keep menus/tabs constant when changing filters
-    document.getElementById("countrySelect").addEventListener("change", (e) => {
-      renderAll();
-      const { filteredCompanies, filteredFacilities } = getFilteredData();
-      const pts =
-        e.target.value === "GLOBAL"
-          ? filteredFacilities.map((f) => [f.lng, f.lat])
-          : [
-              ...filteredCompanies.map((c) => [c.lng, c.lat]),
-              ...filteredFacilities.map((f) => [f.lng, f.lat])
-            ];
-      if (pts.length > 0) fitBoundsToPoints(pts);
+    // 1-Click Region Flag Pills
+    document.querySelectorAll("#regionBar .filter-pill").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const reg = btn.getAttribute("data-region");
+        activeRegion = activeRegion === reg && reg !== "ALL" ? "ALL" : reg;
+        document.querySelectorAll("#regionBar .filter-pill").forEach((b) => {
+          b.classList.toggle("active", b.getAttribute("data-region") === activeRegion);
+        });
+        renderAll();
+        const { filteredCompanies, filteredFacilities } = getFilteredData();
+        const pts =
+          activeRegion === "GLOBAL"
+            ? filteredFacilities.map((f) => [f.lng, f.lat])
+            : [
+                ...filteredCompanies.map((c) => [c.lng, c.lat]),
+                ...filteredFacilities.map((f) => [f.lng, f.lat])
+              ];
+        if (pts.length > 0) fitBoundsToPoints(pts);
+      });
     });
 
-    document.getElementById("typeSelect").addEventListener("change", () => {
-      renderAll();
-    });
-
-    const sortSelect = document.getElementById("sortSelect");
-    if (sortSelect) {
-      sortSelect.addEventListener("change", () => {
+    // 1-Click Asset Type Icon Pills
+    document.querySelectorAll("#typeBar .filter-pill").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const t = btn.getAttribute("data-type");
+        activeType = activeType === t && t !== "all" ? "all" : t;
+        document.querySelectorAll("#typeBar .filter-pill").forEach((b) => {
+          b.classList.toggle("active", b.getAttribute("data-type") === activeType);
+        });
         renderAll();
       });
-    }
-
-    document.getElementById("tabCompanies").addEventListener("click", () => {
-      activeTab = "companies";
-      document.getElementById("tabCompanies").classList.add("active");
-      document.getElementById("tabFacilities").classList.remove("active");
-      renderAll();
     });
 
-    document.getElementById("tabFacilities").addEventListener("click", () => {
-      activeTab = "facilities";
-      document.getElementById("tabFacilities").classList.add("active");
-      document.getElementById("tabCompanies").classList.remove("active");
-      renderAll();
+    // 1-Click Sort Icon Buttons
+    document.querySelectorAll("#sortBar .sort-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        activeSort = btn.getAttribute("data-sort");
+        document.querySelectorAll("#sortBar .sort-btn").forEach((b) => {
+          b.classList.toggle("active", b === btn);
+        });
+        renderAll();
+      });
     });
+
+    document.getElementById("tabCompanies").addEventListener("click", () => setModeTab("companies"));
+    document.getElementById("tabGrid").addEventListener("click", () => setModeTab("grid"));
+    document.getElementById("tabFacilities").addEventListener("click", () => setModeTab("facilities"));
 
     document.getElementById("btnToggleLogos").addEventListener("click", (e) => {
       showLogos = !showLogos;
