@@ -2103,6 +2103,12 @@
     });
 
     document.getElementById("btnToggle3d").addEventListener("click", () => setThreeD(!is3dEnabled));
+    // Clicking the title reloads the whole page from scratch
+    document.getElementById("brandLink").addEventListener("click", (e) => {
+      e.preventDefault();
+      window.location.reload();
+    });
+
     document.getElementById("btnReset").addEventListener("click", () => {
       setFilterPanel(false);
       resetAll();

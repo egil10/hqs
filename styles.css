@@ -274,6 +274,13 @@ kbd {
   font-size: 13px;
   font-weight: 650;
   letter-spacing: -0.01em;
+  color: var(--text);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.brand:hover {
+  color: var(--accent);
 }
 
 .text-btn {
