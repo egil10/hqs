@@ -1,0 +1,58 @@
+DUP     Novonesis | Novonesis Kalundborg Enzyme Fermentation Plant
+OK      Novonesis | Novonesis Kalundborg Cultures Plant (ex-Chr. Hansen) | Juelsmindevej 5, 4400 Kalundborg -> place/house 5, Juelsmindevej, Nyvang, Kalundborg, Kalundborg Kommune, Region Sjæll
+OK      Novonesis | Novonesis Avedøre Food Cultures & Probiotics Plant (ex-Chr. Hansen) | Avedøre Jernholmen 1, 2650 Hvidovre -> place/house 1, Jernholmen, Avedøre Holme, Hvidovre Kommune, Region Hovedstaden, 26
+OK      Novonesis | Novonesis Hørsholm Food & Health R&D Campus (ex-Chr. Hansen HQ) | Bøge Allé 10, 2970 Hørsholm -> place/house 10, Bøge Alle, Isterød, Hørsholm, Rudersdal Kommune, Region Hovedstade
+NOGEO   Novonesis | Novonesis Blair Enzyme Manufacturing Plant
+NOGEO   Novonesis | Novonesis Tianjin Enzyme Plant
+OK      Demant | Demant Operations Poland Hearing Aid Factory (Mierzyn) | Demant Mierzyn -> landuse/industrial Demant, Mierzyn-Kuba, Mierzyn, Skarbimierzyce, gmina Dobra (Szczecińsk
+NOGEO   Demant | Demant Tijuana Hearing Aid Factory
+OK      Demant | Interacoustics Diagnostic Equipment HQ & Factory (Middelfart) | Interacoustics Middelfart -> man_made/works Interacoustics, Audiometer Alle, Staurby, Middelfart, Middelfart Kommu
+OK      Demant | Oticon Inc. US Headquarters (Somerset) | Oticon Somerset -> building/yes Oticon, Howard Avenue, Franklin Township, Somerset County, New Jersey,
+OK      Genmab | Genmab US Headquarters & R&D Labs (Princeton Forrestal Center) | 777 Scudders Mill Road, Plainsboro -> office/company Princeton Forrestal Innovation Park, 777, Scudders Mill Road, Plainsbo
+DUP     Genmab | Merus Bispecific Antibody R&D Center (Utrecht, Genmab)
+OK      H. Lundbeck | Lundbeck LLC US Headquarters (Deerfield) | Lundbeck Deerfield -> office/yes Lundbeck's, Parkway North, Deerfield, Lake County, Illinois, 60015, Un
+NOGEO   Ambu | Ambu Mexico Single-Use Endoscope Plant (Ciudad Juárez)
+NOGEO   Ambu | Ambu Penang Medical Device Plant (Bayan Lepas)
+NOGEO   Ambu | Ambu Xiamen Manufacturing Plant
+OK      GN Store Nord | GN Hearing North America HQ & Hearing Aid Plant (Shakopee) | 5005 Dean Lakes Boulevard, Shakopee -> place/house 5005, Dean Lakes Boulevard, Shakopee, Scott County, Minnesota, 55379, 
+NOGEO   GN Store Nord | GN ReSound Malaysia Hearing Aid Factory (Kulai, Johor)
+NOGEO   GN Store Nord | GN Xiamen Hearing & Audio Production Site
+OK      GN Store Nord | SteelSeries Headquarters (Copenhagen, GN Gaming) | Havneholmen 8, 2450 København -> place/house 8, Havneholmen, Frederiks Brygge, Den Gule By, Kødbyen, København, Køb
+OK      Swedish Orphan Biovitrum | Sobi North America Headquarters (Waltham) | Sobi Waltham -> office/company Sobi, Fourth Avenue, Waltham, Middlesex County, Massachusetts, 02451, 
+OK      ALK-Abelló | ALK-Abelló Madrid Allergen Immunotherapy Plant | Calle Miguel Fleta 19, Madrid -> building/yes 19, Calle de Miguel Fleta, Polígono Industrial Julián Camarillo, Siman
+OK      ALK-Abelló | ALK Port Washington Allergen Extract Plant | 35 Channel Drive, Port Washington -> building/commercial 35, Channel Drive, Port Washington, Town of North Hempstead, Nassau Co
+NOGEO   ALK-Abelló | ALK Post Falls Source Materials Plant
+OK      Getinge | Maquet Critical Care Ventilator Plant (Solna) | Röntgenvägen 2, Solna -> place/house 2, Röntgenvägen, Stenhöga, Västra skogen, Huvudsta, Solna, Solna kommu
+OK      Getinge | Maquet Cardiopulmonary Plant (Hechingen) | Neue Rottenburger Straße 37, Hechingen -> building/office 37, Neue Rottenburger Straße, Hechingen, Stein, Hechingen, VVG der Sta
+OK      Getinge | Getinge Mahwah Cardiac Assist Plant (Datascope) | 1300 MacArthur Boulevard, Mahwah -> place/house 1300, MacArthur Boulevard, Darlington Ridge, Mahwah, Bergen County, Ne
+OK      Getinge | Getinge Merrimack Vascular Plant (Atrium Medical) | Getinge Merrimack -> office/company Getinge, 40, Continental Boulevard, Thorntons Ferry, Merrimack, Hillsb
+OK      Getinge | Getinge Wayne Manufacturing & US Sales/Service Hub | Getinge Wayne -> office/company Getinge, 45, Barbour Pond Drive, Wayne, Passaic County, New Jersey, 07
+OK      Getinge | Maquet Suzhou Manufacturing Plant | Maquet Suzhou -> man_made/works MAQUET Suzhou, 158, 方洲路, 青年汇社区, 东沙湖社工委, 金鸡湖街道, 苏州工业园区, 苏州市, 江苏省, 21502
+OK      Zealand Pharma | Zealand Pharma US Research Hub (Cambridge, MA) | 35 CambridgePark Drive, Cambridge, MA -> building/yes 35, Cambridgepark Drive, North Cambridge, Cambridge, Middlesex County,
+OK      Asker Healthcare Group | OneMed Norge Warehouse & Office (Skedsmokorset, Asker Healthcare) | Bølerveien 63, 2020 Skedsmokorset -> place/house 63, Bølervegen, Berger, Vardeåsen, Skedsmokorset, Lillestrøm, Akershus
+OK      Asker Healthcare Group | OneMed A/S Danmark HQ & Warehouse (Søften) | Kappa 3, 8382 Hinnerup -> place/house 3, Kappa, Hinnerup, Favrskov Kommune, Region Midtjylland, 8382, Danmar
+NOGEO   AddLife | Mediplast AB Nordic HQ & Warehouse (Malmö, AddLife)
+OK      AddLife | Healthcare 21 Group HQ (Ballincollig, Cork, AddLife) | Healthcare 21 Ballincollig -> office/company Healthcare 21, Unit 4-6, Westpoint Buildings, Westpoint Business Park,
+NOGEO   Elekta | Elekta Beijing Linac & Gamma Knife Factory (Changping)
+OK      Elekta | Elekta Brachytherapy Plant (Veenendaal, ex-Nucletron) | Nucletron Veenendaal -> office/company Nucletron Operations BV, 1, Waardgelder, De Faktorij, Veenendaal, Utre
+OK      Elekta | Elekta Inc. North America HQ (Atlanta) | 400 Perimeter Center Terrace, Atlanta -> building/commercial The Terraces North, 400, Perimeter Center Terrace, Atlanta, DeKalb Cou
+OK      Medicover | Szpital Medicover Warsaw Hospital (Wilanów) | Szpital Medicover -> building/hospital Szpital Medicover, 5, Aleja Rzeczypospolitej, Miasteczko Wilanów, Błon
+OK      Medicover | Medicover Hospitals HITEC City (Hyderabad) | Medicover Hospitals HITEC City -> amenity/hospital Medicover, HITEC City–Kondapur Main Road, HITEC City, Ward 104 Kondapu
+OK      Medicover | Synevo Central Reference Laboratory (Chiajna, Bucharest) | Synevo Chiajna -> healthcare/laboratory Synevo, 25, Strada Industriilor, Chiajna, Ilfov, 077040, România
+OK      Embla Medical | Össur Mexico Prosthetics & Bracing Plant (Tijuana) | Ossur Tijuana -> man_made/works AIC1 Ossur, Calle Tulipán, Tijuana, Municipio de Tijuana, Baja Califor
+OK      Embla Medical | Össur Americas HQ & R&D (Foothill Ranch) | 27051 Towne Centre Drive, Foothill Ranch -> building/commercial 27051, Towne Centre Drive, Foothill Ranch, Lake Forest, Orange County,
+OK      Embla Medical | Fior & Gentz Orthotic Components Plant (Lüneburg) | Dorette-von-Stern-Straße 5, Lüneburg -> place/house 5, Dorette-von-Stern-Straße, Schützenplatz, Lüneburg, Landkreis Lünebu
+NOGEO   Xvivo Perfusion | XVIVO Lund Heart Preservation Manufacturing & R&D
+NOGEO   Xvivo Perfusion | XVIVO Groningen Liver & Kidney Perfusion Site (ex-Organ Assist)
+NOGEO   Xvivo Perfusion | XVIVO Americas Office (Denver)
+OK      Terveystalo | Terveystalo Oulu Medical Centre & Hospital | Albertinkatu 16, Oulu -> amenity/hospital Oulun Diakonissalaitos, 16, Albertinkatu, III Vanhatulli, Keskusta, Ou
+OK      Vitrolife | Igenomix Genetic Testing Laboratory (Valencia, Vitrolife Group) | Igenomix Valencia -> office/company Igenomix, 11-B, Ronda de Narcís Monturiol, Parc Tecnològic de València
+OK      Vitrolife | Vitrolife Inc. Americas Operations (Englewood) | 3601 South Inca Street, Englewood -> place/house 3601, South Inca Street, Englewood, Arapahoe County, Colorado, 80110, 
+OK      Vimian Group | Indical Bioscience Veterinary Diagnostics HQ & Lab (Leipzig) | Deutscher Platz 5b, Leipzig -> place/house 5b, Deutscher Platz, Thonberg, Zentrum-Südost, Mitte, Leipzig, Sachsen
+OK      Vimian Group | KYON Veterinary Orthopedic Implants HQ (Zurich, Movora) | Hardturmstrasse 103, Zürich -> place/house 103, Hardturmstrasse, Escher Wyss, Industriequartier, Zürich, Bezirk Z
+OK      Arjo | Arjo Poland Manufacturing Plant (Komorniki, Tulipan Park) | ArjoHuntleigh Polska -> man_made/works ArjoHuntleigh Polska Sp. z o.o., 2, Księdza Piotra Wawrzyniaka, Segro 
+OK      Arjo | Arjo Magog Medical Beds Plant (Québec) | 2001 rue Tanguay, Magog -> place/house 2001, Rue Tanguay, Omerville, Magog, Memphrémagog, Estrie, Québec, J1X
+OK      Arjo | Arjo Suzhou Manufacturing Plant | 158 Fangzhou Road, Suzhou -> man_made/works MAQUET Suzhou, 158, 方洲路, 青年汇社区, 东沙湖社工委, 金鸡湖街道, 苏州工业园区, 苏州市, 江苏省, 21502
+OK      Arjo | Arjo Cardiff Product Development & Production Unit (Huntleigh) | Huntleigh Healthcare Cardiff -> building/yes Huntleigh Healthcare, Portmanmoor Road, Splott, Cardiff, Cymru / Wales
+OK      Medistim | Medistim USA Inc. (Plymouth, MN) | 14000 25th Avenue North, Plymouth, MN -> place/house 14000, 25th Avenue North, Plymouth, Hennepin County, Minnesota, 55447,
+NOGEO   Revenio Group | Centervue Retinal Imaging R&D & Production Site (Vigonza)

@@ -1,0 +1,69 @@
+OK      Atlas Copco | Edwards Vacuum Global Technology Centre (Atlas Copco, Burgess Hill) | Edwards Vacuum Burgess Hill -> building/commercial Edwards Vacuum, Innovation Drive, Victoria Business Park, Burgess Hill
+OK      Atlas Copco | Leybold Cologne Vacuum Pump HQ & Plant (Atlas Copco) | Leybold Köln -> building/industrial Leybold, 498, Bonner Straße, Marienburg, Rodenkirchen, Köln, Nordrhein
+NOGEO   Atlas Copco | Atlas Copco India Dapodi Compressor Plant & HQ (Pune)
+NOGEO   Atlas Copco | Quincy Compressor Bay Minette Plant & HQ (Atlas Copco)
+OK      Epiroc | Epiroc Drilling Solutions Garland Plant & Surface Mining Automation Center | Epiroc Garland -> building/industrial Epiroc Drilling Solutions LLC, 2100, North 1st Street, Garland, Dallas
+OK      Epiroc | Epiroc Kalmar Hydraulic Breaker Factory | Epiroc Kalmar -> office/company Epiroc, Trångsundsvägen, Hagby gärde, Kalmar, Kalmar kommun, Kalmar lä
+NOGEO   Beijer Ref | SCM Frigo CO2 Refrigeration Plant & Beijer Ref Academy (Padua)
+NOGEO   Beijer Ref | Beijer Ref Australia & Kirby HQ and Distribution Centre (Bankstown Airport)
+OK      Bravida Holding | Bravida Norge Head Office (Lørenveien, Oslo) | Lørenveien 73A, 0585 Oslo -> place/house 73A, Lørenveien, Sinsenengen, Løren, Grünerløkka, Oslo, 0585, Norge
+OK      Bravida Holding | Bravida Danmark Head Office (Brøndby) | Bravida Danmark -> office/company Bravida, Abildager, Ragnesminde Erhvervsområde, Vesterled, Brøndby Kom
+OK      Verisure | Verisure Group Head Office (Versoix, Geneva) | Chemin Jean-Baptiste Vandelle 3A, 1290 Versoix -> amenity/clinic Vision Versoix Ophtalmologie, 3A, Chemin Jean-Baptiste Vandelle, Verso
+OK      Verisure | Securitas Direct (Verisure Spain) HQ & Alarm Receiving Centre (Pozuelo de Alarcón) | Calle Priégola 2, Pozuelo de Alarcón -> building/office 2, Calle Priégola, Distrito Municipal II (sin urbanizaciones), Pozuelo
+NOGEO   Lifco | Kinshofer Waakirchen/Marienstein Crane & Excavator Attachment Factory (Lifco)
+OK      Lifco | Kinshofer Group HQ (Holzkirchen, Lifco) | Raiffeisenstraße 12, 83607 Holzkirchen -> building/office 12, Raiffeisenstraße, Gewerbegebiet Holzkirchen-Ost, Fichtholz, Föchin
+OK      NIBE Industrier | ait-deutschland (alpha innotec) Kasendorf Heat Pump Factory (NIBE) | ait-deutschland Kasendorf -> man_made/works ait Deutschland GmbH, 3, Industriestraße, Heubsch, Kasendorf, Kasendor
+OK      NIBE Industrier | CTC / Enertech Ljungby Heat Pump & Boiler Factory (NIBE) | CTC Ljungby -> building/industrial CTC Enertech, 8, Näsvägen, Eka, Ljungby, Ljungby kommun, Kronobergs lä
+OK      NIBE Industrier | ClimateMaster Oklahoma City Geothermal Heat Pump Plant (NIBE) | ClimateMaster Oklahoma City -> office/company ClimateMaster, Inc., Southwest 44th Street, Oklahoma City, Oklahoma Co
+NOGEO   Karnell Group | Ojop Sweden Toggle Latch Factory (Karnell, Eskilstuna)
+OK      Karnell Group | Männistö Metallituote Pipe Support Factory (Karnell, Rauma) | Männistö Metallituote Rauma -> building/yes Männistö Oy Metallituote, 12, Männistönkatu, Papinhaka, Rauma, Rauman 
+OK      Trelleborg | Trelleborg Sealing Solutions European HQ & R&D Center (Stuttgart-Vaihingen) | Trelleborg Sealing Solutions Stuttgart -> office/company Trelleborg Sealing Solutions Germany GmbH, 1, Schockenriedstraße, Syne
+OK      Trelleborg | Trelleborg Sealing Solutions Fort Wayne Seal Plant | Trelleborg Fort Wayne -> building/warehouse Trelleborg Sealing Solutions, I 69;US 24;US 30, Fort Wayne, Allen Coun
+OK      SWECO | Sweco Nederland Head Office (De Bilt) | Sweco De Bilt -> office/consulting Sweco Nederland, 50, Soestdijkseweg Zuid, De Bilt, Utrecht, Nederland,
+OK      SWECO | Sweco Finland Head Office (Ilmala, Helsinki) | Ilmalantori 4, 00240 Helsinki -> building/office Ilmalanlinna, 4, Ilmalantori, Ilmala, Länsi-Pasila, Pasila, Keskinen s
+OK      HEXPOL | HEXPOL Compounding Middlefield Rubber Compound Plant (Ohio) | HEXPOL Middlefield -> building/industrial Hexpol Compounding - Middlefield, Bonner Drive, Middlefield, Geauga Co
+NOGEO   HEXPOL | HEXPOL TPE Åmål Thermoplastic Elastomer Plant
+NOGEO   HEXPOL | Stellana Laxå Polyurethane Wheel Factory (HEXPOL)
+NOGEO   KB Components | KB Components Irapuato Injection Moulding Plant
+NOGEO   KB Components | KB Components Wuxi Plastic Components Plant
+NOGEO   KB Components | KB Components Kaunas Plant (UAB KB Components)
+OK      Engcon | engcon Poland Niepruszewo Component & Compactor Factory | engcon Poland Niepruszewo -> man_made/works Engcon, Cisowa, Niepruszewo, gmina Buk, powiat poznański, województwo 
+OK      Loomis | Loomis US Headquarters (Westchase, Houston) | 2500 CityWest Boulevard, Houston -> building/yes 2500, Citywest Boulevard, Westchase, Houston, Harris County, Texas, 77
+OK      AQ Group | AQ Wiring Systems Łódź Cable Harness Plant | AQ Wiring Systems Łódź -> office/company AQ Wiring systems, 97, Zakładowa, Nr 33, Olechów, Łódź-Widzew, Łódź, w
+OK      AQ Group | AQ Wiring Systems Panevėžys Plant | AQ Wiring Systems Panevėžys -> building/industrial AQ Wiring Systems, 194E, Ramygalos g., Panevėžys, Panevėžio miesto sav
+OK      AQ Group | AQ Electric Pernik Electrical Cabinet Factory | AQ Electric Pernik -> landuse/industrial AQ Electric, ж.к. Гърляница, Радомир, Перник, България
+OK      Sdiptech | Rolec Services EV Charger Factory (Sdiptech, Boston, Lincolnshire) | Rolec Services Boston -> building/commercial Rolec Services Ltd, Ralphs Lane, Frampton West End, Frampton CP, Wyber
+OK      Beijer Alma | Habia Cable Söderfors Specialty Cable Factory (Beijer Alma) | Habia Cable Söderfors -> landuse/industrial Habia Cable, Söderfors, Tierps kommun, Uppsala län, Sverige
+NOGEO   Beijer Alma | Lesjöfors China Spring Plant (Changzhou)
+NOGEO   Beijer Alma | Lesjöfors Industrifjädrar Herrljunga Compression Spring Factory
+OK      AFRY | AFRY Schweiz Head Office (Herostrasse, Zürich-Altstetten) | AFRY Schweiz Zürich -> office/company AFRY Schweiz AG, Herostrasse, Werdwies, Altstetten, Kreis 9, Zürich, B
+OK      Nolato | Nolato Hungary Polymer Components Plant (Mosonmagyaróvár) | Jánossomorjai út 3, 9200 Mosonmagyaróvár -> building/industrial 3, Jánossomorjai út, Moson, Mosonmagyaróvár, Mosonmagyaróvári járás, G
+OK      Nolato | Nolato Gota Plastic Packaging Plant (Götene) | Nolato Gota -> building/industrial Nolato Gota, Skolgatan, Prästgårdsängen, Götene distrikt, Götene, Göte
+NOGEO   Nolato | Nolato Cerbo Pharma Packaging Plant (Trollhättan)
+NOGEO   Nolato | Nolato Contour Medical Device Plant (Baldwin, Wisconsin)
+OK      Nolato | Nolato Stargard Plant (Poland) | Usługowa 1, 73-110 Stargard -> building/yes 1a, Usługowa, Osiedle Chopina, Stargard, powiat stargardzki, województ
+NOGEO   MilDef Group | MilDef Inc. Rugged Computer Plant (Fullerton, California)
+OK      MilDef Group | MilDef Ltd Rugged Electronics Facility (St Athan, Wales) | Bro Tathan West St Athan -> landuse/commercial Bro Tathan West, St Athan, Vale of Glamorgan, Cymru / Wales, CF62 4AF,
+OK      MilDef Group | MilDef GmbH Lichtenau (Germany) | Landstraße 6, 77839 Lichtenau -> building/commercial 6, Landstraße, Scherzheim, Lichtenau, GVV Rheinmünster-Lichtenau, Land
+NOGEO   Alimak Group | Tractel Saint-Hilaire-sous-Romilly Hoist & Fall-Protection Plant (Alimak)
+OK      INVISIO | Racal Acoustics Military Headset Facility (INVISIO, Harrow) | Waverley Industrial Park, Hailsham Drive, Harrow -> amenity/courthouse Harrow Crown Court, Hailsham Drive, Waverley Industrial Park, Wealdsto
+OK      Inwido | Sokółka Okna i Drzwi Window & Door Factory (Inwido Poland) | Sokółka Okna i Drzwi -> landuse/industrial Sokółka Okna i Drzwi, Buchwałowo, Sokółka, gmina Sokółka, powiat sokól
+NOGEO   Inwido | Allan Brothers Timber Window Factory (Inwido UK, Berwick-upon-Tweed)
+NOGEO   Inwido | Sidey Solutions Window Factory (Inwido UK, Perth)
+OK      Systemair | Systemair GmbH Windischbuch Fan & Air Handling Factory (Boxberg) | Systemair Windischbuch -> amenity/exhibition_centre Systemair Expo Center, Seehof, Windischbuch, Boxberg, VVG der Stadt Bo
+OK      Systemair | Menerga Heat Recovery AHU Factory (Systemair, Mülheim an der Ruhr) | Alexanderstraße 69, 45472 Mülheim an der Ruhr -> building/warehouse picnic, 69, Alexanderstraße, Heißen-Mitte, Heißen, Rechtsruhr-Süd, Mül
+NOGEO   Systemair | Frico Air Curtain & Heating Products Plant (Systemair, Partille)
+OK      Systemair | Systemair Ukmergė Ventilation Factory (Lithuania) | Systemair Ukmergė -> building/industrial Systemair, 101, Linų g., Smėliai, Ukmergė, Ukmergės miesto seniūnija, 
+OK      Hanza | HANZA Mechanics Tartu Manufacturing Cluster (Estonia) | HANZA Mechanics Tartu -> man_made/works Hanza Mechanics Tartu AS, 6/8, Silikaadi, Vahi tööstuspark, Vahi alevi
+OK      Hanza | HANZA Mechanics Narva Heavy Mechanics Plant (Estonia) | Narva -> waterway/river Narva jõgi / Нарва, Eesti
+OK      Hanza | HANZA Mechanics Kunovice Sheet Metal Plant (Czech Republic) | HANZA Mechanics Kunovice -> building/industrial HANZA Mechanics Kunovice s.r.o., 498, Kunovice, okres Uherské Hradiště
+NOGEO   Hanza | HANZA Electronics Mönchengladbach (Germany)
+OK      Hanza | HANZA Electronics Brzeg Dolny (Poland) | HANZA Brzeg Dolny -> landuse/industrial HANZA ELECTRONICS BRZEG DOLNY, Brzeg Dolny, gmina Brzeg Dolny, powiat 
+OK      Coor Service Management Holding | Coor Norge Head Office (Skøyen, Oslo) | Askekroken 11, 0277 Oslo -> place/house 11, Askekroken, Sofienlund, Sjølyst, Ullern, Oslo, 0277, Norge
+OK      Coor Service Management Holding | Coor Danmark Head Office (Herlev) | Hørkær 12A, 2730 Herlev -> place/house 12A, Hørkær, Banevænget, Herlev, Herlev Kommune, Region Hovedstaden, 2
+OK      Nederman Holding | Nordfab Ducting Plant (Nederman, Thomasville NC) | 150 Transit Avenue, Thomasville, NC -> place/house 150, Transit Avenue, Thomasville, Davidson County, North Carolina, 273
+OK      Nederman Holding | Nederman MikroPul / Pneumafil North America HQ (Charlotte NC) | 4404 Chesapeake Drive, Charlotte, NC -> place/house 4404, Chesapeake Drive, Northwood, Charlotte, Mecklenburg County, Nort
+NOGEO   Nederman Holding | RoboVent Industrial Air Filtration Plant (Nederman, Sterling Heights MI)
+OK      Rejlers | Rejlers Norge Head Office (Schweigaards gate, Oslo) | Schweigaards gate 15, 0191 Oslo -> place/house 15, Schweigaards gate, Barcode, Grønland, Gamle Oslo, Oslo, 0191, Norg
+NOGEO   Ependion | Beijer Electronics APAC HQ & R&D (Xindian, New Taipei)
+NOGEO   Ependion | Beijer Electronics Inc. Rugged Terminal Facility (Salt Lake City)

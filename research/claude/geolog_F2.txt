@@ -1,0 +1,55 @@
+OK      Ovzon | Ovzon US LLC Herndon Government Satcom Office | 13461 Sunrise Valley Drive, Herndon -> office/company Bowman Consulting Herndon Office, 13461, Sunrise Valley Drive, Herndon
+OK      Ovzon | Ovzon LLC Tampa Office (SOCOM customer hub) | 5460 Beaumont Center Blvd, Tampa -> tourism/hotel Extended Stay America - Tampa - North Airport, Beaumont Center Bouleva
+OK      Qt Group | Qt Group Oslo R&D Office (former Trolltech) | Sandakerveien 116, 0484 Oslo -> place/house 116, Sandakerveien, Gullhaug, Nydalen, Nordre Aker, Oslo, 0484, Norge
+OK      Qt Group | Qt Group Berlin Adlershof R&D Office | Erich-Thilo-Straße 10, 12489 Berlin -> building/office Europa-Center am Forum, 10,12, Erich-Thilo-Straße, WISTA, Adlershof, T
+OK      Qt Group | Qt Group Oulu R&D Office | Elektroniikkatie 3, 90590 Oulu -> place/house 3, Elektroniikkatie, Linnanmaa, Kaijonharju, Oulu, Oulun seutukunta, P
+OK      Qt Group | Qt Group Hamburg Quality Assurance Tools Office (froglogic) | froglogic Hamburg -> office/company froglogic GmbH, 18, Gasstraße, Bahrenfeld, Altona, Hamburg, 22761, Deu
+OK      Lindex Group | Lindex Alingsås Omnichannel Distribution Centre | Lindex Alingsås -> shop/clothes Lindex, Kungsgatan, Stampen, Alingsås distrikt, Alingsås, Alingsås kom
+OK      Lindex Group | Stockmann Tallinn Department Store | Liivalaia 53, Tallinn -> place/house 53, Liivalaia, Maakri, Kesklinna linnaosa, Tallinn, Harju maakond, 101
+OK      Lindex Group | Stockmann Riga Department Store | Stockmann Riga -> building/warehouse Stockmann, 19, Cesvaines iela, Šķirotava, Latgales apkaime, Rīga, LV-1
+OK      Addnode Group | Technia Sweden HQ (Addnode PLM Division) | Norra Stationsgatan 93, 113 64 Stockholm -> place/house 93A, Norra Stationsgatan, Torsplan, Vasastaden, Norra innerstadens sta
+OK      Addnode Group | Ida Infront Linköping Office (Addnode Process Management) | Ida Infront Linköping -> office/it Ida Infront, 18, Sankt Larsgatan, Innerstaden, Linköpings Sankt Lars, 
+OK      Acast | Acast UK HQ & Acast Studios London (Old Street) | 168 Shoreditch High Street, London E1 6RA -> building/yes 168, Shoreditch High Street, Shoreditch, London Borough of Hackney, Gr
+OK      Matas | Matas Lynge Automated Logistics Center | Matas Lynge -> office/company Matas, Rørmosevej, Lynge Overdrev, Lillerød, Allerød Kommune, Region H
+OK      Matas | KICKS Group Head Office Stockholm (Matas subsidiary) | Klarabergsviadukten 90, 111 64 Stockholm -> place/house 90, Klarabergsviadukten, Norrmalm, Norra innerstadens stadsdelsområde,
+OK      Tokmanni Group | Dollarstore Head Office Kista (Tokmanni Group Sweden) | Dollarstore Kista -> office/company Dollarstore, 3, Kistagången, Kista, Järva stadsdelsområde, Stockholm, 
+NOGEO   Smartoptics Group | Smartoptics Americas Office & Logistics (Amsterdam, NY)
+NOGEO   Appear | Appear US Inc. Los Angeles Office (Woodland Hills)
+OK      Appear | Appear Ltd. Southampton Office (University of Southampton Science Park) | University of Southampton Science Park -> landuse/commercial University of Southampton Science Park, Chilworth Old Village, Chilwor
+NOGEO   Apotea | Apotea Varberg Automated Logistics Center
+NOGEO   BHG Group | Hafa Brand Group Halmstad HQ & Warehouse (BHG subsidiary)
+OK      Trifork Group | Trifork Copenhagen Office (Nordhavn) | Trifork Copenhagen -> office/company Trifork, Gdanskgade, Sundmolen, Nordhavn, København, Københavns Kommun
+NOGEO   Trifork Group | Trifork Switzerland Zurich Office
+OK      Trifork Group | Trifork Amsterdam Office | Trifork Amsterdam -> office/it Trifork, Heenwegpad, Nieuw-West, Amsterdam, Noord-Holland, Nederland, 
+OK      Trifork Group | Trifork UK London Office (South Place) | 10 South Place, London EC2M 7EB -> place/house 10, South Place, Bishopsgate Without, Moorgate, City of London, Greate
+OK      F-Secure | F-Secure Oulu R&D Office | Kirkkokatu 13, 90100 Oulu -> amenity/police Oulun keskustan poliisiasema, 13, Kirkkokatu, Ydinkeskusta, I Pokkinen
+OK      F-Secure | F-Secure Kuala Lumpur Security Lab & APAC Hub (Mid Valley) | Mid Valley City, Kuala Lumpur -> landuse/retail Mid Valley City, Seputeh, Kuala Lumpur, Malaysia
+OK      F-Secure | F-Secure Poznań Development Office | Rataje 164, Poznań -> building/yes 164, Rataje, Osiedle Piastowskie, Rataje, Poznań, województwo wielkopo
+OK      Yubico | Yubico Inc. US Headquarters (Santa Clara) | 5201 Great America Parkway, Santa Clara -> building/office TechMart, 5201, Great America Parkway, Santa Clara, Santa Clara County
+NOGEO   Proact IT Group | Proact IT UK Head Office (Grayson House, Chesterfield)
+OK      Proact IT Group | Proact IT Norge Oslo Office | Lørenveien 73A, 0585 Oslo -> place/house 73A, Lørenveien, Sinsenengen, Løren, Grünerløkka, Oslo, 0585, Norge
+OK      Truecaller | Truecaller India Office & R&D Hub (Bengaluru) | Truecaller Bengaluru -> office/company Truecaller, Inner Ring Road, Siddhartha Nagar, Yamalur, Bengaluru East
+OK      Note | NOTE Pärnu Electronics Factory | NOTE Pärnu -> man_made/works Note, 2, Laki, Mai, Pärnu linn, Pärnu maakond, 80010, Eesti
+NOGEO   Note | NOTE Sofia Electronics Factory
+NOGEO   Note | NOTE Electronics Dongguan Factory (Tangxia)
+OK      Note | NOTE Windsor Electronics Factory | 1a Alma Road, Windsor SL4 3HU -> building/industrial Speedboard Assembly Services Ltd., 1a, Alma Road, Clewer New Town, Cle
+OK      Note | NOTE Hyvinkää Electronics Factory | Noronkierto 6, 05810 Hyvinkää -> building/industrial 6, Noronkierto, Martinlehto, Hyvinkää, Helsingin seutukunta, Uusimaa, 
+NOGEO   Note | NOTE Lund Electronics Factory
+OK      Stillfront Group | Goodgame Studios Hamburg Campus (Stillfront) | Theodorstraße 42-90, 22761 Hamburg -> place/house Haus 6b, 42-90, Theodorstraße, Bahrenfeld, Altona, Hamburg, 22761, Deu
+NOGEO   Stillfront Group | Sandbox Interactive Berlin Studio (Albion Online, Stillfront)
+NOGEO   Stillfront Group | Nanobit Zagreb Studio (Stillfront)
+OK      Gofore | Gofore Helsinki Office (Siltasaari 10) | Siltasaarenkatu 8-10, 00530 Helsinki -> place/house 8-10, Siltasaarenkatu, Siltasaari, Kallio, Keskinen suurpiiri, Helsink
+OK      Gofore | Huld Espoo Office (Gofore Group, Keilasatama) | Keilasatama 5, 02150 Espoo -> building/office Keilasatama, 5, Keilasatama, Keilalahti, Otaniemi, Suur-Tapiola, Espoo
+OK      Gofore | esentri AG Ettlingen Office (Gofore Group) | esentri Ettlingen -> office/it esentri AG, 128b, Pforzheimer Straße, Ettlingen, Landkreis Karlsruhe, 
+OK      Gofore | Gofore Germany Munich Office | Zielstattstraße 34, 81379 München -> place/house 34, Zielstattstraße, Obersendling, Thalkirchen-Obersendling-Forstenrie
+OK      Savox Communications | Savox Communications Inc. Americas Office (Raleigh) | 4208 Six Forks Road, Raleigh, NC 27609 -> building/commercial Captrust Tower, 4208, Six Forks Road, North Hills, Raleigh, Wake Count
+OK      Better Collective | Better Collective Niš Tech & Content Hub | Better Collective Niš -> office/it Better Collective, 2, Трг краља Милана, Центар, Ниш (Медијана), Градск
+NOGEO   Better Collective | Better Collective US / Action Network New York Office
+NOGEO   Better Collective | Better Collective Kraków Office
+OK      Humble Group | Grenna Polkagriskokeri Candy Factory (Humble Group, Gränna) | Grenna Polkagriskokeri -> shop/yes Polkagriskokeri, 39A, Brahegatan, Norra Boarp, Gränna, Jönköpings komm
+NOGEO   Humble Group | Fitnessgrossisten High-Bay Warehouse (Humble Group, Kristiansand)
+NOGEO   Humble Group | Lev Diet Production Plant (Humble Group, Porto)
+OK      Lime Technologies | Lime Technologies Stockholm Office | Kungsbroplan 1, Stockholm -> place/house 1, Kungsbroplan, Kungsholmen, Kungsholmens stadsdelsområde, Stockholm,
+OK      Lime Technologies | Lime Technologies Cologne Office (Germany) | Im Mediapark 8, Köln -> building/office Kölnturm, 8, Im Mediapark, Mediapark, Neustadt/Nord, Innenstadt, Köln,
+OK      Lime Technologies | Lime Technologies Utrecht Office (Netherlands) | Pieterskerkhof 13A, Utrecht -> place/house 13A, Pieterskerkhof, Domplein, Neude, Janskerkhof, Binnenstad City- En
+OK      Lime Technologies | Lime Technologies Oslo Office | Meltzers gate 4, Oslo -> place/house 4, Meltzers gate, Ruseløkka, Uranienborg, Frogner, Oslo, 0257, Norge

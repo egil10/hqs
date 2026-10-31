@@ -727,5 +727,275 @@
     "footprintRadiusMeters": 160,
     "description": "Croatian mobile game studio (Design Masters, Hollywood Story) wholly owned by Stillfront since 2020.",
     "source": "https://www.stillfront.com/en/about-us/this-is-stillfront/"
+  },
+  {
+    "parentName": "Gofore",
+    "name": "Gofore Helsinki Office (Siltasaari 10)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Helsinki",
+    "country": "Finland",
+    "address": "Siltasaarenkatu 8-10, 00530 Helsinki",
+    "geoQueries": [
+      "Gofore Helsinki",
+      "Siltasaarenkatu 8-10, 00530 Helsinki"
+    ],
+    "approxLat": 60.18,
+    "approxLng": 24.95,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Gofore's largest office, serving public-sector and enterprise digital transformation clients in the capital region.",
+    "source": "https://gofore.com/en/get-in-touch/"
+  },
+  {
+    "parentName": "Gofore",
+    "name": "Huld Espoo Office (Gofore Group, Keilasatama)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Espoo",
+    "country": "Finland",
+    "address": "Keilasatama 5, 02150 Espoo",
+    "geoQueries": [
+      "Huld Espoo",
+      "Keilasatama 5, 02150 Espoo"
+    ],
+    "approxLat": 60.177,
+    "approxLng": 24.829,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Huld Oy, Gofore's embedded software, space and safety-critical systems engineering subsidiary.",
+    "source": "https://gofore.com/en/get-in-touch/"
+  },
+  {
+    "parentName": "Gofore",
+    "name": "esentri AG Ettlingen Office (Gofore Group)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Ettlingen",
+    "country": "Germany",
+    "address": "Pforzheimer Str. 128b, 76275 Ettlingen",
+    "geoQueries": [
+      "esentri Ettlingen",
+      "Pforzheimer Straße 128b, 76275 Ettlingen"
+    ],
+    "approxLat": 48.935,
+    "approxLng": 8.415,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of esentri AG, Gofore's German data and integration consultancy acquired in 2023.",
+    "source": "https://gofore.com/en/get-in-touch/"
+  },
+  {
+    "parentName": "Gofore",
+    "name": "Gofore Germany Munich Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Munich",
+    "country": "Germany",
+    "address": "Zielstattstraße 34-36, 81379 München",
+    "geoQueries": [
+      "Zielstattstraße 34, 81379 München",
+      "Gofore München"
+    ],
+    "approxLat": 48.106,
+    "approxLng": 11.522,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Gofore's Munich office, part of its German automotive and industrial software engineering business.",
+    "source": "https://gofore.com/en/get-in-touch/"
+  },
+  {
+    "parentName": "Savox Communications",
+    "name": "Savox Communications Inc. Americas Office (Raleigh)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Raleigh",
+    "country": "USA",
+    "address": "4208 Six Forks Road, Suite 1000, Raleigh, NC 27609",
+    "geoQueries": [
+      "4208 Six Forks Road, Raleigh, NC 27609",
+      "North Hills Raleigh Six Forks Road"
+    ],
+    "approxLat": 35.837,
+    "approxLng": -78.642,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Savox's Americas subsidiary office selling mission-critical communication accessories to US fire, police and military users.",
+    "source": "https://www.savox.com/contact-information"
+  },
+  {
+    "parentName": "Better Collective",
+    "name": "Better Collective Niš Tech & Content Hub",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Niš",
+    "country": "Serbia",
+    "address": "Niš",
+    "geoQueries": [
+      "Better Collective Niš",
+      "Niš, Serbia"
+    ],
+    "approxLat": 43.3209,
+    "approxLng": 21.8958,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "One of Better Collective's largest offices, housing software development and content teams for its sports-betting media platforms.",
+    "source": "https://bettercollective.com/contact/"
+  },
+  {
+    "parentName": "Better Collective",
+    "name": "Better Collective US / Action Network New York Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "New York",
+    "country": "USA",
+    "address": "New York, NY",
+    "geoQueries": [
+      "Action Network New York",
+      "Better Collective New York"
+    ],
+    "approxLat": 40.742,
+    "approxLng": -73.989,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "North American hub of Better Collective, home of Action Network, its main US sports-betting media brand (acquired 2021).",
+    "source": "https://bettercollective.com/contact/"
+  },
+  {
+    "parentName": "Better Collective",
+    "name": "Better Collective Kraków Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kraków",
+    "country": "Poland",
+    "address": "Kraków",
+    "geoQueries": [
+      "Better Collective Kraków",
+      "Kraków, Poland"
+    ],
+    "approxLat": 50.0647,
+    "approxLng": 19.945,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Better Collective's Polish office supporting its publishing and tech operations.",
+    "source": "https://bettercollective.com/contact/"
+  },
+  {
+    "parentName": "Humble Group",
+    "name": "Grenna Polkagriskokeri Candy Factory (Humble Group, Gränna)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Gränna (Jönköping)",
+    "country": "Sverige",
+    "address": "Gränna, 563 32 Jönköping Municipality",
+    "geoQueries": [
+      "Grenna Polkagriskokeri",
+      "Grenna Polkagriskokeri Gränna"
+    ],
+    "approxLat": 58.025,
+    "approxLng": 14.462,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Humble Group-owned traditional polkagris (peppermint rock candy) maker with its own factory in Gränna.",
+    "source": "https://humblegroup.com/"
+  },
+  {
+    "parentName": "Humble Group",
+    "name": "Fitnessgrossisten High-Bay Warehouse (Humble Group, Kristiansand)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kristiansand",
+    "country": "Norge",
+    "address": "Kristiansand",
+    "geoQueries": [
+      "Fitnessgrossisten Kristiansand",
+      "Fitnessgrossisten AS"
+    ],
+    "approxLat": 58.16,
+    "approxLng": 8.0,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Humble Group's Norwegian sports-nutrition wholesaler with a 1,200 m² high-bay warehouse.",
+    "source": "https://humblegroup.com/"
+  },
+  {
+    "parentName": "Humble Group",
+    "name": "Lev Diet Production Plant (Humble Group, Porto)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Porto",
+    "country": "Portugal",
+    "address": "Porto area",
+    "geoQueries": [
+      "Lev Diet Porto",
+      "Lev Diet Portugal"
+    ],
+    "approxLat": 41.1579,
+    "approxLng": -8.6291,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Portuguese meal-replacement and diet-products subsidiary of Humble Group with in-house production in Porto (and Aveiro).",
+    "source": "https://humblegroup.com/"
+  },
+  {
+    "parentName": "Lime Technologies",
+    "name": "Lime Technologies Stockholm Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Kungsbroplan 1, 112 27 Stockholm",
+    "geoQueries": [
+      "Kungsbroplan 1, Stockholm",
+      "Lime Technologies Stockholm"
+    ],
+    "approxLat": 59.332,
+    "approxLng": 18.048,
+    "coordsExact": false,
+    "footprintRadiusMeters": 140,
+    "description": "Lime Technologies' Stockholm office for CRM software sales, consulting and development.",
+    "source": "https://www.lime-technologies.com/en/about-us/"
+  },
+  {
+    "parentName": "Lime Technologies",
+    "name": "Lime Technologies Cologne Office (Germany)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Cologne",
+    "country": "Germany",
+    "address": "Im Mediapark 8, 50670 Köln",
+    "geoQueries": [
+      "Im Mediapark 8, Köln",
+      "KölnTurm Mediapark"
+    ],
+    "approxLat": 50.948,
+    "approxLng": 6.944,
+    "coordsExact": false,
+    "footprintRadiusMeters": 140,
+    "description": "Lime Technologies' German office, the base for its expansion into the DACH CRM market.",
+    "source": "https://www.lime-technologies.com/en/about-us/"
+  },
+  {
+    "parentName": "Lime Technologies",
+    "name": "Lime Technologies Utrecht Office (Netherlands)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "address": "Pieterskerkhof 13A, 3512 JR Utrecht",
+    "geoQueries": [
+      "Pieterskerkhof 13A, Utrecht",
+      "Lime Technologies Utrecht"
+    ],
+    "approxLat": 52.089,
+    "approxLng": 5.123,
+    "coordsExact": false,
+    "footprintRadiusMeters": 140,
+    "description": "Lime Technologies' Dutch office serving Benelux CRM customers.",
+    "source": "https://www.lime-technologies.com/en/about-us/"
+  },
+  {
+    "parentName": "Lime Technologies",
+    "name": "Lime Technologies Oslo Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Meltzers gate 4, 0257 Oslo",
+    "geoQueries": [
+      "Meltzers gate 4, Oslo",
+      "Lime Technologies Oslo"
+    ],
+    "approxLat": 59.916,
+    "approxLng": 10.72,
+    "coordsExact": false,
+    "footprintRadiusMeters": 140,
+    "description": "Lime Technologies' Norwegian office.",
+    "source": "https://www.lime-technologies.com/en/about-us/"
   }
 ]

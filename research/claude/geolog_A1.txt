@@ -1,0 +1,36 @@
+OK      Storebrand | SPP Pension & Försäkring Headquarters (Storebrand Sweden) | Vasagatan 10, 111 20 Stockholm -> place/house 10, Vasagatan, Klara, Norrmalm, Norra innerstadens stadsdelsområde, St
+OK      Gjensidige Forsikring | Gjensidige Danmark Head Office (Sydhavnen) | Gjensidige A.C. Meyers Vænge -> building/commercial Gjensidige Forsikring, A.C. Meyers Vænge, Teglholmen, Sydhavnen, Carls
+OK      Investor | Mölnlycke Health Care Global HQ & R&D Centre (GoCo Health Innovation City) | Mölnlycke Health Care Mölndal -> office/company Mölnlycke Health Care AB, 21, Entreprenörsstråket, GoCo Health Innovat
+OK      Investor | Permobil Global Innovation Centre & Wheelchair Factory (Birsta) | Permobil Sundsvall -> landuse/industrial Permobil AB, Alnö kommundel, Alnö distrikt, Sundsvalls kommun, Västern
+OK      Nordea Bank | Nordea Sweden Head Office (Smålandsgatan) | Smålandsgatan 17, Stockholm -> place/house 17, Smålandsgatan, Klara, Norrmalm, Norra innerstadens stadsdelsområde
+OK      Nordea Bank | Nordea Denmark Head Office (Ørestad) | Nordea Ørestad -> building/office Nordea Ørestad, Amagerfælledvej, Islands Brygge, Ballonparken, Københa
+OK      Protector Forsikring | Protector Försäkring Sverige Office | Västra Trädgårdsgatan 15, 111 53 Stockholm -> place/house 15, Västra Trädgårdsgatan, Klara, Norrmalm, Norra innerstadens stadsde
+OK      Protector Forsikring | Protector Forsikring Danmark Office (Frederiksberg) | Gammel Kongevej 60, 1850 Frederiksberg -> place/house 60, Gammel Kongevej, Frederiksberg, Frederiksberg Kommune, Region Hove
+OK      Swedbank | Swedbank Estonia Head Office (Arter Quarter Tower) | Arteri kvartal -> landuse/commercial Arteri kvartal, Keldrimäe, Kesklinna linnaosa, Tallinn, Harju maakond,
+OK      Swedbank | Swedbank Latvia Head Office (Saules Akmens) | Swedbank Balasta dambis 15 -> amenity/atm Swedbank, 15, Balasta dambis, Ķīpsala, Rīga, LV-1048, Latvija
+OK      Danske Bank | Danske Campus Vilnius (Danske Bank Lithuania) | Danske Bank Saltoniškių 7B -> office/company Danske Bank, 7B, Saltoniškių g., Saltoniškės, Žvėryno seniūnija, Vilni
+OK      Danske Bank | Danske Bank UK Head Office (Donegall Square West) | Danske Bank Donegall Square West -> amenity/bank Danske Bank, 14, Donegall Square West, Linen Quarter, Belfast City Dis
+OK      Sampo | If P&C Insurance Head Office (Bergshamra) | Barks väg 15, Solna -> building/commercial If Skadeförsäkring, 15, Barks väg, Kungshamra, Stocksundstorp, Bergsha
+OK      Sampo | Hastings Direct Head Office (Conquest House) | Conquest House Bexhill -> office/insurance Hastings Direct, 32-34, Collington Avenue, Collington, Bexhill-on-Sea,
+OK      Tryg | Tryg Norge Head Office (Bergen) | Folke Bernadottes vei 50, Bergen -> place/house 50, Folke Bernadottes vei, Sælemyra, Fyllingsdalen, Bergen, Vestland, 
+OK      Tryg | Trygg-Hansa Head Office (Trygg-Hansa-huset) | Fleminggatan 18, Stockholm -> place/house 18, Fleminggatan, Kungsholmen, Kungsholmens stadsdelsområde, Stockholm
+OK      Skandinaviska Enskilda Banken | SEB Arenastaden Office (Stjärntorget) | Stjärntorget 4, Solna -> place/house 4, Stjärntorget, Ritorp, Järva, Solna, Solna kommun, Stockholms län, 1
+NOGEO   Skandinaviska Enskilda Banken | SEB Estonia / Baltic Head Office Tower (Tornimäe)
+OK      Svenska Handelsbanken | Handelsbanken plc UK Head Office (Woolgate) | Woolgate Exchange -> building/commercial Woolgate Exchange, 25, Basinghall Street, Moorgate, City of London, Gr
+OK      Entra | Powerhouse Brattørkaia (Energy-Positive Office Building) | Powerhouse Brattørkaia -> building/office Powerhouse Brattørkaia, Brattørkaia, Nerbyen, Elgeseter, Midtbyen, Tro
+OK      Entra | Media City Bergen | Media City Bergen -> office/media Media City Bergen, Vestre Strømkaien, Nygård, Skuteviken, Bergenhus, B
+OK      EQT | EQT New York Office (245 Park Avenue) | 245 Park Avenue, New York -> building/commercial 245 Park Avenue, 245, Park Avenue, Midtown East, Manhattan Community B
+OK      EQT | EQT London Office (Broadwick Street) | 30 Broadwick Street, London -> building/commercial Thirty Broadwick, 30, Broadwick Street, Soho, City of Westminster, Gre
+OK      EQT | EQT Asia Office (Two International Finance Centre) | Two International Finance Centre -> building/yes 國際金融中心二期 Two International Finance Centre, 8, 金融街 Finance Street, 中環 C
+NOGEO   Sagax | Sagax Vantaa Food Production & Logistics Complex (HKScan sale-leaseback)
+OK      Lundbergs | Holmen Iggesund Paperboard Mill | Holmen Iggesund -> landuse/industrial Holmen Timber Iggesunds Sågverk Power Station, Iggesund, Hudiksvalls k
+NOGEO   Lundbergs | Holmen Braviken Paper Mill & Sawmill
+OK      Lundbergs | Hufvudstaden NK Stockholm Department Store Property | Hamngatan 18, Stockholm -> building/industrial 18, Hamngatan, Förrådet, Lilla Alby, Sundbybergs kommun, Stockholms lä
+NOGEO   Storskogen Group | Båstadgruppen Office & Distribution Centre (Ängelholm)
+OK      Röko | Fri-Jado Rotisserie & Food Display Factory | Blauwhekken 2, Oud Gastel -> place/house 2, Blauwhekken, Oud Gastel, Halderberge, Noord-Brabant, Nederland, 475
+OK      Röko | Oppigårds Bryggeri Brewery | Oppigårds Bryggeri -> craft/brewery Oppigårds Bryggeri, 14, Smedjegatan, Ingvallsbenning, Hedemora kommun,
+OK      Fastighets AB Balder | SATO Corporation Head Office (Balder Finland residential subsidiary) | Panuntie 4, 00610 Helsinki -> place/house 4, Panuntie, Käpylä, Keskinen suurpiiri, Helsinki, Helsingin seutukunt
+NOGEO   Sveafastigheter | Sveafastigheter Enhörningen Rental Housing Project (Kista)
+OK      Sveafastigheter | Sveafastigheter Årby Rental Housing Project (Eskilstuna) | Årby, Eskilstuna -> natural/grassland Årby, Eskilstuna, Eskilstuna kommun, Södermanlands län, Sverige
+OK      Nordnet | Nordnet Denmark Office (Havneholmen) | Havneholmen 6, 2450 København -> place/house 6, Havneholmen, Frederiks Brygge, Den Gule By, Kødbyen, København, Køb
+OK      Nordnet | Nordnet Norway Office (Karl Johans gate) | Karl Johans gate 16C, 0154 Oslo -> place/house 16C, Karl Johans gate, Kvadraturen, Sentrum, Oslo, 0154, Norge

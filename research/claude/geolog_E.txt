@@ -1,0 +1,50 @@
+OK      Veidekke | Veidekke Sverige Head Office (Veidekke Entreprenad AB, Solna) | Svetsarvägen 12, 171 41 Solna -> place/house 12, Svetsarvägen, Skytteholm, Solna, Solna kommun, Stockholms län, 171
+NOGEO   Veidekke | Veidekke Entreprenad Göteborg Regional Office (Anläggning Väst)
+OK      Veidekke | Hoffmann A/S Head Office (Veidekke Danmark, Glostrup) | Fabriksparken 66, 2600 Glostrup -> place/house 66, Fabriksparken, Herstedøster, Glostrup, Albertslund Kommune, Region
+OK      Veidekke | Veidekke Trondheim Regional Office (Sluppen) | Veidekke Trondheim -> office/company Veidekke Bygg Trøndelag, Sluppenvegen, Sorgenfri, Lerkendal, Trondheim
+OK      Tomra Systems | TOMRA Recycling Mülheim-Kärlich Sensor-Based Sorting Plant & Test Center | TOMRA Sorting GmbH Mülheim-Kärlich -> office/company Tomra Sorting GmbH, 2-6, Otto-Hahn-Straße, Gewerbepark Mülheim-Kärlich
+OK      Tomra Systems | TOMRA Food Leuven Optical Food-Sorting Headquarters & Plant | Romeinse straat 20, 3001 Leuven -> building/industrial TOMRA, 20, Romeinse straat, Tyco Thermal Controls, Leuvens Haasrode, H
+OK      Tomra Systems | TOMRA Food West Sacramento Sorting Equipment Facility | 875 Embarcadero Drive, West Sacramento, CA 95605 -> place/house 875, Embarcadero Drive, West Sacramento, Yolo County, California, 9560
+OK      Borregaard | Borregaard Czech Paskov Lignin Plant | Místecká 762, 739 21 Paskov -> place/house 762, Místecká, Oprechtice, Paskov, okres Frýdek-Místek, Moravskoslezsk
+OK      Borregaard | Borregaard Deutschland Karlsruhe Lignin Plant | DEA-Scholven-Straße 9, 76187 Karlsruhe -> man_made/works Borregaard, 9, DEA-Scholven-Straße, Neu-Knielingen, Knielingen, Karlsr
+NOGEO   Borregaard | Borregaard UK Warrington Lignin Plant
+OK      Borregaard | Borregaard USA Rothschild Lignin Plant | 100 Grand Avenue, Rothschild, WI 54474 -> building/yes 100, Grand Avenue, Rothschild, Marathon County, Wisconsin, 54474, Unit
+OK      Borregaard | LignoTech Florida Lignin Plant (Fernandina Beach) | 6 Gum Street, Fernandina Beach, FL 32034 -> place/house 6, Gum Street, Rayonier, Fernandina Beach, Nassau County, Florida, 320
+OK      AutoStore Holdings | AutoStore North America Headquarters & Experience Center (Tuscan Village, Salem NH) | AutoStore Salem NH -> office/it AutoStore, Via Toscana, Salem, Rockingham County, New Hampshire, 03079
+OK      AF Gruppen | AF Miljøbase Vats Offshore Decommissioning & Recycling Yard | Raunesvegen 597, 5578 Nedre Vats -> place/house 597, Raunesvegen, Raunes, Vats, Vindafjord, Rogaland, 5578, Norge
+OK      AF Gruppen | Kanonaden Entreprenad Mälardalen Office (AF Gruppen Sweden, Hägersten) | Tellusborgsvägen 69, 126 29 Hägersten -> place/house 69, Tellusborgsvägen, Västberga, Hägersten-Älvsjö stadsdelsområde, Sto
+OK      Wartsila | Wärtsilä Norway Rubbestadneset Propulsion Service & Production Base | Wichmannvegen 3, 5420 Rubbestadneset -> place/house 3, Wichmannvegen, Rubbestadneset, Bømlo, Vestland, 5420, Norge
+OK      Wartsila | Wärtsilä Moss Exhaust Gas Treatment & Carbon Capture Center | Værftsgata 9A, 1511 Moss -> place/house 9A, Værftsgata, Moss næringspark Jeløy, Fiske, Moss, Østfold, 1511, No
+OK      FLSmidth & Co | FLSmidth Global Minerals Technology Center (Midvale, Utah) | View 72 Midvale -> place/house 72, Garden View Drive, Alta View Gardens, Midvale, Salt Lake County, U
+NOGEO   FLSmidth & Co | FLSmidth Arakkonam Manufacturing & Service Centre
+OK      Kone | KONE Tytyri High-Rise Elevator Test Laboratory (Lohja limestone mine) | Tytyri mine Lohja -> building/commercial Tytyrin Elämyskaivoksen vierastupa, 42, Kuilukatu, Tytyri, Lohja, Hels
+NOGEO   Kone | KONE Park Kunshan Elevator & Escalator Factories and R&D Site
+NOGEO   Kone | KONE India Sriperumbudur Elevator Factory & Test Tower
+NOGEO   NKT | NKT Asnæs Medium-Voltage Power Cable Factory
+NOGEO   NKT | NKT Falun Power Cable Factory
+NOGEO   NKT | NKT Velké Meziříčí Medium & High-Voltage Cable Factory
+OK      NKT | NKT Nordenham High-Voltage Cable Accessories Plant | NKT Nordenham -> landuse/industrial nkt cables, Friedrich-August-Hütte, Nordenham, Landkreis Wesermarsch, 
+OK      Norbit | NORBIT EMS Selbu Electronics Manufacturing Factory | Øybergvegen 15, 7580 Selbu -> place/house 15, Øybergvegen, Garberg, Selbu, Trøndelag, 7580, Norge
+OK      Norbit | NORBIT EMS Røros Electronics Manufacturing Factory | Øverhagaen 8, 7374 Røros -> place/house 8, Øverhagaen, Småhagan, Røros, Trøndelag, 7374, Norge
+OK      Metso | Metso Research Center Pori (Minerals Processing & Smelting Pilot Plant) | Kuparitie 10, 28330 Pori -> building/garage 10, Kuparitie, Metallinkylä, Pori, Porin seutukunta, Satakunta, Manner
+OK      Metso | Metso Sala Slurry Pump Factory & Test and Training Center | Metso Sweden Sala -> building/commercial Metso Sweden, Väsbygatan, Tallbacken, Sala, Sala kommun, Västmanlands 
+OK      ISS | ISS Norge Head Office (ISS Facility Services AS, Kværnerbyen) | Smeltedigelen 1, 0195 Oslo -> place/house 1, Smeltedigelen, Kværnerbyen, Gamle Oslo, Oslo, 0195, Norge
+OK      Norconsult | Norconsult Sverige Göteborg Office (Lindholmen) | Norconsult Göteborg -> building/office Norconsult, 11, Theres Svenssons Gata, Lindholmshamnen, Lindholmen, Hi
+OK      Norconsult | Norconsult Finland Office (Otaniemi, Espoo) | Tekniikantie 14, 02150 Espoo -> office/company Electric Power Finland Oy, Espoo, 14, Tekniikantie, Maari, Otaniemi, S
+OK      Konecranes | Demag Cranes & Components Wetter Headquarters & Crane Components Plant | Demag Cranes & Components Wetter -> man_made/works DEMAG Cranes & Components GmbH, Carl-Bönnhoff-Straße, Schöntal, Alt-We
+OK      Sentia | HENT AS Head Office (Tiller, Trondheim) | Vestre Rosten 69, 7072 Heimdal -> place/house 69, Vestre Rosten, Rosten, Heimdal, Trondheim, Trøndelag, 7072, Norge
+OK      Vaisala | Vaisala Boulder Operations & North American Headquarters (Louisville, CO) | Vaisala Louisville -> building/yes Vaisala 2, South Taylor Avenue, Colorado Tech Center, Louisville, Boul
+OK      Vaisala | Vaisala Saclay Wind Lidar Site (former Leosphere) | Vaisala Saclay -> building/commercial Vaisala France, 6A, Rue René Razel, Saclay, Palaiseau, Essonne, Île-de
+OK      Huhtamäki | Huhtamaki Ronsberg Flexible Packaging Plant | Huhtamaki Ronsberg -> landuse/industrial Huhtamaki Ronsberg, 6-8, Wolfs, Ronsberg, Landkreis Ostallgäu, Bayern,
+OK      Huhtamäki | Huhtamaki Americas Headquarters & Packaging Plant (De Soto, Kansas) | Huhtamaki De Soto -> building/industrial Huhtamäki, 9201, Packaging Lane, Commerce Park Industrial, De Soto, Jo
+OK      Bittium | Bittium Biosignals Kuopio Medical Technology Site | Bittium Biosignals Kuopio -> building/yes Bittium Biosignals Oy -Mega Elektroniikka, 6, Pioneerinkatu, Pieni Neu
+OK      Bittium | Bittium Wireless Tampere R&D Office | Naulakatu 3, 33100 Tampere -> building/commercial 3, Naulakatu, Kalevanharju, Keskustan suuralue, Tampere, Tampereen seu
+OK      Bittium | Bittium Safemove Espoo Office | Hatsinanpuisto 8, 02600 Espoo -> building/office 8, Hatsinanpuisto, Oasis of Professionals - OOPS, Perkkaa, Leppävaara,
+OK      SP Group | SP Group Sieradz Plastics Campus (SP Tinby / SP Gibo / Ergomat Poland) | Stawiszcze 4, 98-200 Sieradz -> place/house 4, Stawiszcze, Grabowiec, gmina Sieradz, powiat sieradzki, województwo
+NOGEO   SP Group | SP Moulding / SP Tinby Suzhou Factory
+OK      SP Group | SP Tinby / SP Gibo Mount Pleasant Plant (Iowa) | 420 N Iris St, Mount Pleasant, IA 52641 -> place/house 420, North Iris Street, Mount Pleasant, Center Township, Henry County,
+OK      SP Group | SP Moulding Juelsminde Injection Moulding Plant (Klakring) | Savværksvej 28, 7130 Juelsminde -> place/house 28, Savværksvej, Klakring, Juelsminde, Hedensted Kommune, Region Midtj
+OK      SP Group | SP Meditec Helsingør Medical Device Factory | Fabriksvej 17C, 3000 Helsingør -> place/house 17C, Fabriksvej, Helsingør, Helsingør Kommune, Region Hovedstaden, 300
+NOGEO   SP Group | OGM Oxford Precision Moulding Plant (Yarnton)
+NOGEO   GRK Infra | GRK Sverige Head Office (Boden)
+OK      GRK Infra | GRK Eesti Head Office (Tartu) | Spektri 6, Tartu -> building/yes 6, Spektri, Ränilinn, Tartu linn, Tartu maakond, 50411, Eesti

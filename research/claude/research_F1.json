@@ -1164,5 +1164,223 @@
   "description": "Base of SMS, the Faroese grocery and retail group (Miklagarður, Bónus Faroes) acquired by Hagar.",
   "source": "https://en.wikipedia.org/wiki/Hagar_(company)",
   "parentName": "Hagar"
+ },
+ {
+  "name": "Cloetta Levice Confectionery Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Levice",
+  "country": "Slovakia",
+  "address": "Levice, Slovakia",
+  "geoQueries": [
+   "Cloetta Levice",
+   "Cloetta Slovakia Levice"
+  ],
+  "approxLat": 48.215,
+  "approxLng": 18.6,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Cloetta's largest factory (~700 employees) making Malaco, Red Band, Läkerol, Chewits and Mynthon via starch moulding, extrusion and boiled-candy lines.",
+  "source": "https://www.cloetta.com/en/about-cloetta/our-business/manufacturing/production-facilities/",
+  "parentName": "Cloetta"
+ },
+ {
+  "name": "Cloetta Roosendaal Spoorstraat Candy Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Roosendaal",
+  "country": "Netherlands",
+  "address": "Spoorstraat, Roosendaal",
+  "geoQueries": [
+   "Cloetta Roosendaal",
+   "Spoorstraat, Roosendaal"
+  ],
+  "approxLat": 51.533,
+  "approxLng": 4.462,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Cloetta factory (~160 employees) producing Red Band, Malaco, Venco and Lakrisal sugar confectionery and pastilles.",
+  "source": "https://www.cloetta.com/en/about-cloetta/our-business/manufacturing/production-facilities/",
+  "parentName": "Cloetta"
+ },
+ {
+  "name": "Cloetta Turnhout Candy Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Turnhout",
+  "country": "Belgium",
+  "address": "Turnhout, Belgium",
+  "geoQueries": [
+   "Cloetta Turnhout",
+   "Cloetta Belgium Turnhout"
+  ],
+  "approxLat": 51.322,
+  "approxLng": 4.945,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Cloetta starch-moulding plant (~115 employees) producing Malaco and Red Band candy.",
+  "source": "https://www.cloetta.com/en/about-cloetta/our-business/manufacturing/production-facilities/",
+  "parentName": "Cloetta"
+ },
+ {
+  "name": "Cloetta Sneek Chewing Gum Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Sneek",
+  "country": "Netherlands",
+  "address": "Sneek, Netherlands",
+  "geoQueries": [
+   "Cloetta Sneek",
+   "Cloetta Nederland Sneek"
+  ],
+  "approxLat": 53.033,
+  "approxLng": 5.66,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Cloetta plant (~100 employees) making Sportlife, Jenkki and King chewing gum, lozenges and hard candy.",
+  "source": "https://www.cloetta.com/en/about-cloetta/our-business/manufacturing/production-facilities/",
+  "parentName": "Cloetta"
+ },
+ {
+  "name": "The Jelly Bean Factory (Cloetta, Dublin)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Dublin",
+  "country": "Ireland",
+  "address": "Dublin, Ireland",
+  "geoQueries": [
+   "The Jelly Bean Factory Dublin",
+   "Cloetta Dublin"
+  ],
+  "approxLat": 53.35,
+  "approxLng": -6.26,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Cloetta-owned gourmet jelly bean plant (~60 employees) using starch moulding.",
+  "source": "https://www.cloetta.com/en/about-cloetta/our-business/manufacturing/production-facilities/",
+  "parentName": "Cloetta"
+ },
+ {
+  "name": "Bakkinn Warehouse & Distribution Center (Skarfagarðar, Sundahöfn)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Reykjavík",
+  "country": "Island",
+  "address": "Skarfagarðar, 104 Reykjavík",
+  "geoQueries": [
+   "Bakkinn Skarfagarðar",
+   "Skarfagarðar, Reykjavík"
+  ],
+  "approxLat": 64.152,
+  "approxLng": -21.864,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Warehouse of Festi's logistics arm Bakkinn, handling storage, packing and distribution for Krónan, ELKO and other group companies.",
+  "source": "https://www.festi.is/",
+  "parentName": "Festi"
+ },
+ {
+  "name": "Bakkinn Warehouse (Klettagarðar, Sundahöfn)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Reykjavík",
+  "country": "Island",
+  "address": "Klettagarðar, 104 Reykjavík",
+  "geoQueries": [
+   "Bakkinn Klettagarðar",
+   "Klettagarðar, Reykjavík"
+  ],
+  "approxLat": 64.15,
+  "approxLng": -21.856,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Second warehouse of Festi's logistics subsidiary Bakkinn by Sundahöfn harbour.",
+  "source": "https://www.festi.is/",
+  "parentName": "Festi"
+ },
+ {
+  "name": "Rochester Cable Fiber & Specialty Cable Plant (Culpeper, Virginia)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Culpeper",
+  "country": "USA",
+  "address": "751 Old Brandy Road, Culpeper, VA 22701",
+  "geoQueries": [
+   "Rochester Cable Culpeper",
+   "751 Old Brandy Road, Culpeper, VA"
+  ],
+  "approxLat": 38.463,
+  "approxLng": -77.983,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Hexatronic-owned Rochester Cable's North American manufacturing facility for fiber optic and specialty electro-optical cables.",
+  "source": "https://www.rochestercable.com/contact-us/",
+  "parentName": "Hexatronic Group"
+ },
+ {
+  "name": "Cēsu Alus Brewery (Olvi Latvia)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Cēsis",
+  "country": "Latvia",
+  "address": "Aldaru laukums 1, Cēsis, LV-4101",
+  "geoQueries": [
+   "Cēsu Alus",
+   "Aldaru laukums 1, Cēsis"
+  ],
+  "approxLat": 57.313,
+  "approxLng": 25.278,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Latvia's largest brewery, AS Cēsu Alus, wholly owned by Olvi; produces beer, ciders and soft drinks.",
+  "source": "https://www.olvigroup.fi/en/olvi-group/",
+  "parentName": "Olvi"
+ },
+ {
+  "name": "Volfas Engelman Brewery (Olvi Lithuania, Kaunas)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Kaunas",
+  "country": "Lithuania",
+  "address": "Kaunakiemio g. 2, LT-44354 Kaunas",
+  "geoQueries": [
+   "Volfas Engelman",
+   "Kaunakiemio g. 2, Kaunas"
+  ],
+  "approxLat": 54.892,
+  "approxLng": 23.93,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Olvi's Lithuanian brewery producing Volfas Engelman beers, ciders and soft drinks.",
+  "source": "https://www.olvigroup.fi/en/olvi-group/",
+  "parentName": "Olvi"
+ },
+ {
+  "name": "The Helsinki Distilling Company Distillery (Teurastamo)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Helsinki",
+  "country": "Finland",
+  "address": "Työpajankatu 2a R3, 00580 Helsinki",
+  "geoQueries": [
+   "The Helsinki Distilling Company",
+   "Työpajankatu 2, 00580 Helsinki",
+   "Teurastamo Helsinki"
+  ],
+  "approxLat": 60.188,
+  "approxLng": 24.975,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Olvi-owned craft distillery in the Teurastamo food district making gin, whisky and long drinks.",
+  "source": "https://www.olvigroup.fi/en/olvi-group/",
+  "parentName": "Olvi"
+ },
+ {
+  "name": "United Plantations HQ, Jendarata Estate & Unitata Refinery (Teluk Intan)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Teluk Intan",
+  "country": "Malaysia",
+  "address": "Jendarata Estate, 36009 Teluk Intan, Perak",
+  "geoQueries": [
+   "Jendarata Estate",
+   "United Plantations Teluk Intan",
+   "Unitata Berhad"
+  ],
+  "approxLat": 3.93,
+  "approxLng": 100.98,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Headquarters, oil-palm estate and palm-oil refinery of United Plantations Berhad, UIE's principal holding (~47% owned).",
+  "source": "https://en.wikipedia.org/wiki/United_Plantations",
+  "parentName": "UIE"
  }
 ]

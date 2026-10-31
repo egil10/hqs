@@ -12,3 +12,10 @@ Metso
 ISS
 Norconsult
 Konecranes
+Sentia
+SENTIA — skipped: same company as 'Sentia' (Sentia ASA, org 999256864); HENT site filed under 'Sentia'
+Vaisala
+Huhtamäki
+Bittium
+SP Group
+GRK Infra

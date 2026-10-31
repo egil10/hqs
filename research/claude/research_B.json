@@ -981,5 +981,458 @@
     "footprintRadiusMeters": 160,
     "description": "CMB.TECH German office for container ship chartering and fleet services.",
     "source": "https://cmb.tech/contact-us"
+  },
+  {
+    "parentName": "General Oceans",
+    "name": "Tritech International Subsea Sonar Facility (Westhill, Aberdeen)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Westhill",
+    "country": "UK",
+    "address": "Peregrine Road, Westhill Business Park, Westhill, Aberdeenshire AB32 6JL",
+    "geoQueries": [
+      "Tritech International, Westhill",
+      "Peregrine Road, Westhill AB32 6JL"
+    ],
+    "approxLat": 57.156,
+    "approxLng": -2.278,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Main site of General Oceans brand Tritech, which designs and builds subsea imaging sonars and sensors for ROVs.",
+    "source": "https://www.tritech.co.uk/contact"
+  },
+  {
+    "parentName": "General Oceans",
+    "name": "Tritech Ulverston Facility (Cumbria)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ulverston",
+    "country": "UK",
+    "address": "Ulverston, Cumbria LA12 7LB",
+    "geoQueries": [
+      "Tritech Ulverston",
+      "Ulverston LA12 7LB"
+    ],
+    "approxLat": 54.192,
+    "approxLng": -3.09,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Tritech (General Oceans) engineering and production site in Ulverston for subsea sonar products.",
+    "source": "https://www.tritech.co.uk/contact"
+  },
+  {
+    "parentName": "General Oceans",
+    "name": "Nortek Trondheim Office",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Trondheim",
+    "country": "Norge",
+    "address": "Skippergata 14, 7042 Trondheim",
+    "geoQueries": [
+      "Skippergata 14, 7042 Trondheim",
+      "Skippergata 14, Trondheim"
+    ],
+    "approxLat": 63.438,
+    "approxLng": 10.414,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Nortek (General Oceans) office in Trondheim working on acoustic Doppler current and wave sensor technology.",
+    "source": "https://www.nortekgroup.com/contact"
+  },
+  {
+    "parentName": "General Oceans",
+    "name": "Nortek USA Office (Boston Marine Park)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Boston",
+    "country": "USA",
+    "address": "21 Drydock Avenue, Boston, MA 02210",
+    "geoQueries": [
+      "21 Drydock Avenue, Boston",
+      "21 Drydock Ave, Boston MA 02210"
+    ],
+    "approxLat": 42.346,
+    "approxLng": -71.03,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Nortek's US subsidiary in Boston's Marine Industrial Park, selling and supporting its acoustic ocean sensors in the Americas.",
+    "source": "https://www.nortekgroup.com/contact"
+  },
+  {
+    "parentName": "General Oceans",
+    "name": "Klein Marine Systems Side-Scan Sonar Facility (Newburyport)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Newburyport",
+    "country": "USA",
+    "address": "65 Parker Street, Suite 5, Newburyport, MA 01950",
+    "geoQueries": [
+      "65 Parker Street, Newburyport",
+      "Klein Marine Systems Newburyport"
+    ],
+    "approxLat": 42.798,
+    "approxLng": -70.89,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Base of General Oceans brand Klein Marine Systems, maker of side-scan sonar systems.",
+    "source": "https://www.klein.com/contact"
+  },
+  {
+    "parentName": "General Oceans",
+    "name": "Reach Robotics Asia Pacific Head Office (Glebe, Sydney)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Sydney",
+    "country": "Australia",
+    "address": "3-5 Queen Street, Glebe NSW 2037",
+    "geoQueries": [
+      "3-5 Queen Street, Glebe NSW 2037",
+      "Queen Street, Glebe, Sydney"
+    ],
+    "approxLat": -33.88,
+    "approxLng": 151.188,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of General Oceans brand Reach Robotics, developer and builder of electric manipulator arms for ROVs.",
+    "source": "https://reachrobotics.com/contact/"
+  },
+  {
+    "parentName": "Fortum",
+    "name": "Oskarshamn Nuclear Power Plant (Fortum 43%)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Oskarshamn",
+    "country": "Sverige",
+    "address": "Simpevarp, 572 83 Oskarshamn",
+    "geoQueries": [
+      "Oskarshamns kärnkraftverk",
+      "Oskarshamn Nuclear Power Plant",
+      "Simpevarp, Oskarshamn"
+    ],
+    "approxLat": 57.415,
+    "approxLng": 16.671,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Swedish nuclear power plant (OKG, operated by Uniper) in which Fortum owns a 43% share.",
+    "source": "https://en.wikipedia.org/wiki/Fortum"
+  },
+  {
+    "parentName": "Fortum",
+    "name": "Forsmark Nuclear Power Plant (Fortum 22%)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Forsmark",
+    "country": "Sverige",
+    "address": "Forsmark, 742 03 Östhammar",
+    "geoQueries": [
+      "Forsmarks kärnkraftverk",
+      "Forsmark Nuclear Power Plant"
+    ],
+    "approxLat": 60.403,
+    "approxLng": 18.166,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Three-unit Swedish nuclear power plant operated by Vattenfall's Forsmarks Kraftgrupp, in which Fortum holds about 22%.",
+    "source": "https://en.wikipedia.org/wiki/Fortum"
+  },
+  {
+    "parentName": "Fortum",
+    "name": "Olkiluoto Nuclear Power Plant (Fortum ~27% via TVO)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Eurajoki",
+    "country": "Finland",
+    "address": "Olkiluoto, 27160 Eurajoki",
+    "geoQueries": [
+      "Olkiluoto Nuclear Power Plant",
+      "Olkiluodon ydinvoimalaitos",
+      "Olkiluoto, Eurajoki"
+    ],
+    "approxLat": 61.236,
+    "approxLng": 21.44,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Finland's largest nuclear plant (OL1-OL3) operated by Teollisuuden Voima, in which Fortum holds about a 27% stake.",
+    "source": "https://en.wikipedia.org/wiki/Fortum"
+  },
+  {
+    "parentName": "Fortum",
+    "name": "Fortum Meri-Pori Power Plant (Tahkoluoto, Pori)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Pori",
+    "country": "Finland",
+    "address": "Tahkoluoto, 28880 Pori",
+    "geoQueries": [
+      "Meri-Porin voimalaitos",
+      "Meri-Pori power plant",
+      "Tahkoluoto, Pori"
+    ],
+    "approxLat": 61.633,
+    "approxLng": 21.41,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Fortum's coal-fired condensing plant at Tahkoluoto, held in reserve for the National Emergency Supply Agency through December 2026 and due to close in spring 2027.",
+    "source": "https://en.wikipedia.org/wiki/Fortum"
+  },
+  {
+    "parentName": "Torm",
+    "name": "TORM plc Registered Office (120 Cannon Street, London)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "London",
+    "country": "UK",
+    "address": "120 Cannon Street, London EC4N 6AS",
+    "geoQueries": [
+      "120 Cannon Street, London",
+      "120 Cannon Street, EC4N 6AS"
+    ],
+    "approxLat": 51.5115,
+    "approxLng": -0.088,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "London office of UK-incorporated parent TORM plc, owner of one of the largest product tanker fleets.",
+    "source": "https://www.torm.com/contact"
+  },
+  {
+    "parentName": "Torm",
+    "name": "TORM Singapore Office (Six Battery Road)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "6 Battery Road #27-02, Singapore 049909",
+    "geoQueries": [
+      "Six Battery Road, Singapore",
+      "6 Battery Road, Singapore 049909"
+    ],
+    "approxLat": 1.2847,
+    "approxLng": 103.8515,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "TORM Singapore Pte. Ltd., the company's Asian commercial and chartering office for product tankers.",
+    "source": "https://www.torm.com/contact"
+  },
+  {
+    "parentName": "Torm",
+    "name": "TORM Shipping India Office (Leela Business Park, Mumbai)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Mumbai",
+    "country": "India",
+    "address": "2nd Floor, Leela Business Park, Andheri-Kurla Road, Andheri (E), Mumbai 400059",
+    "geoQueries": [
+      "Leela Business Park, Andheri Kurla Road, Mumbai",
+      "Leela Business Park, Andheri East"
+    ],
+    "approxLat": 19.109,
+    "approxLng": 72.869,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "TORM Shipping India, the group's largest technical management and crewing office outside Denmark.",
+    "source": "https://www.torm.com/contact"
+  },
+  {
+    "parentName": "Torm",
+    "name": "TORM Shipping Philippines Office (Salcedo Towers, Makati)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Makati",
+    "country": "Philippines",
+    "address": "7th Floor Salcedo Towers, 169 H.V. dela Costa Street, Salcedo Village, Makati City 1227",
+    "geoQueries": [
+      "Salcedo Towers, 169 HV dela Costa Street, Makati",
+      "Salcedo Towers Makati"
+    ],
+    "approxLat": 14.559,
+    "approxLng": 121.022,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "TORM Shipping Phils., the group's Manila office for seafarer crewing and fleet support.",
+    "source": "https://www.torm.com/contact"
+  },
+  {
+    "parentName": "Torm",
+    "name": "TORM USA Office (Houston City West)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Houston",
+    "country": "USA",
+    "address": "Suite 1625, 2500 CityWest Boulevard, Houston, TX 77042",
+    "geoQueries": [
+      "2500 CityWest Boulevard, Houston",
+      "2500 City West Blvd, Houston TX 77042"
+    ],
+    "approxLat": 29.736,
+    "approxLng": -95.562,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "TORM USA LLC chartering and operations office serving the Americas product tanker market.",
+    "source": "https://www.torm.com/contact"
+  },
+  {
+    "parentName": "Dampskibsselskabet NORDEN",
+    "name": "NORDEN Singapore Office (Suntec Tower Five)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "Suntec City Tower Five #15-05, 5 Temasek Boulevard, Singapore 038985",
+    "geoQueries": [
+      "Suntec Tower Five, 5 Temasek Boulevard, Singapore",
+      "5 Temasek Boulevard, Singapore 038985"
+    ],
+    "approxLat": 1.295,
+    "approxLng": 103.859,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "NORDEN's main Asian dry cargo and tanker chartering and operations hub.",
+    "source": "https://www.norden.com/contact/"
+  },
+  {
+    "parentName": "Dampskibsselskabet NORDEN",
+    "name": "NORDEN Annapolis Office (One Park Place)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Annapolis",
+    "country": "USA",
+    "address": "One Park Place, Suite 575, Annapolis, MD 21401",
+    "geoQueries": [
+      "One Park Place, Annapolis",
+      "1 Park Place, Annapolis MD 21401"
+    ],
+    "approxLat": 38.978,
+    "approxLng": -76.493,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "NORDEN's US East Coast office for Atlantic dry cargo chartering and operations.",
+    "source": "https://www.norden.com/contact/"
+  },
+  {
+    "parentName": "Dampskibsselskabet NORDEN",
+    "name": "NORDEN Houston Office (North Loop West)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Houston",
+    "country": "USA",
+    "address": "2525 North Loop West, Houston, TX 77008",
+    "geoQueries": [
+      "2525 North Loop West, Houston",
+      "2525 N Loop W, Houston TX 77008"
+    ],
+    "approxLat": 29.81,
+    "approxLng": -95.412,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "NORDEN's Houston office handling Americas project and dry cargo operations.",
+    "source": "https://www.norden.com/contact/"
+  },
+  {
+    "parentName": "Dampskibsselskabet NORDEN",
+    "name": "NORDEN Rio de Janeiro Office (Praia de Botafogo)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "address": "Praia de Botafogo 228, salas 513/514, 22250-040 Rio de Janeiro",
+    "geoQueries": [
+      "Praia de Botafogo 228, Rio de Janeiro",
+      "Praia de Botafogo, 228, Botafogo"
+    ],
+    "approxLat": -22.946,
+    "approxLng": -43.182,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "NORDEN's South American office for dry bulk chartering and operations.",
+    "source": "https://www.norden.com/contact/"
+  },
+  {
+    "parentName": "Dampskibsselskabet NORDEN",
+    "name": "NORDEN Tokyo Office (Pacific Century Place)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tokyo",
+    "country": "Japan",
+    "address": "Pacific Century Place 8F, 1-11-1 Marunouchi, Chiyoda-ku, Tokyo 100-6213",
+    "geoQueries": [
+      "Pacific Century Place Marunouchi, Tokyo",
+      "1-11-1 Marunouchi, Chiyoda, Tokyo"
+    ],
+    "approxLat": 35.679,
+    "approxLng": 139.768,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "NORDEN's Japan office managing relations with Japanese shipowners for its chartered-in fleet.",
+    "source": "https://www.norden.com/contact/"
+  },
+  {
+    "parentName": "Akastor",
+    "name": "HMH Houston Operational Center (Akastor 50% JV)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Houston",
+    "country": "USA",
+    "address": "3300 North Sam Houston Parkway East, Houston, TX 77032",
+    "geoQueries": [
+      "3300 North Sam Houston Parkway East, Houston",
+      "HMH Houston"
+    ],
+    "approxLat": 29.938,
+    "approxLng": -95.33,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Main US operational center of HMH, the offshore drilling equipment and aftermarket services company owned 50/50 by Akastor and Baker Hughes.",
+    "source": "https://hmhw.com/location-and-contact-information-2/"
+  },
+  {
+    "parentName": "Akastor",
+    "name": "HMH Global Headquarters (Amsterdam, Akastor 50% JV)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "address": "Weerdestein 97, 1083 GG Amsterdam",
+    "geoQueries": [
+      "Weerdestein 97, 1083 GG Amsterdam",
+      "Weerdestein 97, Amsterdam"
+    ],
+    "approxLat": 52.333,
+    "approxLng": 4.882,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Corporate headquarters of HMH, the drilling equipment group jointly owned by Akastor and Baker Hughes.",
+    "source": "https://hmhw.com/location-and-contact-information-2/"
+  },
+  {
+    "parentName": "Akastor",
+    "name": "HMH Singapore Facility (Benoi Lane, Akastor 50% JV)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "25 Benoi Lane, Singapore 627800",
+    "geoQueries": [
+      "25 Benoi Lane, Singapore 627800",
+      "25 Benoi Lane, Singapore"
+    ],
+    "approxLat": 1.316,
+    "approxLng": 103.683,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "HMH's Asia-Pacific drilling equipment service and repair facility in Singapore's Benoi industrial area.",
+    "source": "https://hmhw.com/location-and-contact-information-2/"
+  },
+  {
+    "parentName": "Akastor",
+    "name": "HMH Aberdeenshire Service Base (Kintore, Akastor 50% JV)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kintore",
+    "country": "UK",
+    "address": "Midmill Business Park, Tofthills Avenue, Kintore, Inverurie AB51 0QP",
+    "geoQueries": [
+      "Midmill Business Park, Kintore",
+      "Tofthills Avenue, Kintore AB51 0QP"
+    ],
+    "approxLat": 57.228,
+    "approxLng": -2.348,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "HMH's UK North Sea drilling equipment service base near Aberdeen.",
+    "source": "https://hmhw.com/location-and-contact-information-2/"
+  },
+  {
+    "parentName": "Akastor",
+    "name": "HMH Macaé Service Base (Akastor 50% JV)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Macaé",
+    "country": "Brazil",
+    "address": "Rua Sergio Roberto Franco s/n, Fazenda Boa Vista, Imboassica, 27932-354 Macaé, RJ",
+    "geoQueries": [
+      "Rua Sergio Roberto Franco, Macaé",
+      "Imboassica, Macaé"
+    ],
+    "approxLat": -22.39,
+    "approxLng": -41.85,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "HMH's Brazilian drilling equipment service base supporting rigs in the Campos and Santos basins.",
+    "source": "https://hmhw.com/location-and-contact-information-2/"
   }
 ]

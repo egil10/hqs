@@ -943,5 +943,423 @@
   "footprintRadiusMeters": 150,
   "description": "German MilDef subsidiary supplying and integrating rugged IT systems for the Bundeswehr and German defence industry.",
   "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "Alimak Group",
+  "name": "Tractel Saint-Hilaire-sous-Romilly Hoist & Fall-Protection Plant (Alimak)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Saint-Hilaire-sous-Romilly",
+  "country": "France",
+  "address": "RD 619, Saint-Hilaire-sous-Romilly, 10102 Romilly-sur-Seine",
+  "geoQueries": [
+   "Tractel Saint-Hilaire-sous-Romilly",
+   "Tractel SAS",
+   "Saint-Hilaire-sous-Romilly"
+  ],
+  "approxLat": 48.5175,
+  "approxLng": 3.652,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Main French production site of Tractel (Alimak Group since 2023), making wire-rope hoists (Tirfor), load-measurement and fall-protection equipment.",
+  "source": "https://www.tractel.com/"
+ },
+ {
+  "parentName": "INVISIO",
+  "name": "Racal Acoustics Military Headset Facility (INVISIO, Harrow)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Harrow",
+  "country": "UK",
+  "address": "Waverley Industrial Park, Hailsham Drive, Harrow HA1 4TR",
+  "geoQueries": [
+   "Racal Acoustics Harrow",
+   "Waverley Industrial Park, Hailsham Drive, Harrow",
+   "Racal Acoustics"
+  ],
+  "approxLat": 51.5935,
+  "approxLng": -0.3485,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "INVISIO subsidiary (acquired 2020) designing and producing military headsets and vehicle intercom systems.",
+  "source": "https://www.racalacoustics.com/"
+ },
+ {
+  "parentName": "Inwido",
+  "name": "Sokółka Okna i Drzwi Window & Door Factory (Inwido Poland)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Sokółka",
+  "country": "Poland",
+  "address": "Sokółka, Podlaskie, Poland",
+  "geoQueries": [
+   "Sokółka Okna i Drzwi",
+   "Sokolka Inwido",
+   "Sokółka"
+  ],
+  "approxLat": 53.405,
+  "approxLng": 23.505,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Inwido's Polish business unit Sokolka, a large manufacturer of wooden, PVC and aluminium windows and doors for export markets.",
+  "source": "https://www.inwido.com/business-areas-business-units"
+ },
+ {
+  "parentName": "Inwido",
+  "name": "Allan Brothers Timber Window Factory (Inwido UK, Berwick-upon-Tweed)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Berwick-upon-Tweed",
+  "country": "UK",
+  "address": "Berwick-upon-Tweed, Northumberland, UK",
+  "geoQueries": [
+   "Allan Brothers Berwick-upon-Tweed",
+   "Allan Brothers Windows",
+   "Berwick-upon-Tweed"
+  ],
+  "approxLat": 55.76,
+  "approxLng": -2.01,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Inwido West business unit manufacturing timber sash and casement windows and doors.",
+  "source": "https://www.inwido.com/business-areas-business-units"
+ },
+ {
+  "parentName": "Inwido",
+  "name": "Sidey Solutions Window Factory (Inwido UK, Perth)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Perth",
+  "country": "UK",
+  "address": "Perth, Scotland, UK",
+  "geoQueries": [
+   "Sidey Perth",
+   "Sidey Solutions",
+   "Perth, Scotland"
+  ],
+  "approxLat": 56.396,
+  "approxLng": -3.437,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Inwido West business unit manufacturing PVC windows and doors for the Scottish market.",
+  "source": "https://www.inwido.com/business-areas-business-units"
+ },
+ {
+  "parentName": "Systemair",
+  "name": "Systemair GmbH Windischbuch Fan & Air Handling Factory (Boxberg)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Boxberg-Windischbuch",
+  "country": "Germany",
+  "address": "Seehöfer Straße 45, 97944 Boxberg-Windischbuch",
+  "geoQueries": [
+   "Systemair Windischbuch",
+   "Systemair GmbH Boxberg",
+   "Seehöfer Straße 45, 97944 Boxberg"
+  ],
+  "approxLat": 49.4665,
+  "approxLng": 9.6905,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Systemair's large German plant and subsidiary HQ producing fans, air-handling units and ventilation products.",
+  "source": "https://www.systemair.com/de-de"
+ },
+ {
+  "parentName": "Systemair",
+  "name": "Menerga Heat Recovery AHU Factory (Systemair, Mülheim an der Ruhr)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Mülheim an der Ruhr",
+  "country": "Germany",
+  "address": "Alexanderstraße 69, 45472 Mülheim an der Ruhr",
+  "geoQueries": [
+   "Menerga Mülheim",
+   "Menerga GmbH",
+   "Alexanderstraße 69, 45472 Mülheim an der Ruhr"
+  ],
+  "approxLat": 51.4215,
+  "approxLng": 6.9115,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Systemair subsidiary Menerga manufacturing high-efficiency air-handling units and pool dehumidification systems.",
+  "source": "https://www.menerga.com/"
+ },
+ {
+  "parentName": "Systemair",
+  "name": "Frico Air Curtain & Heating Products Plant (Systemair, Partille)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Partille",
+  "country": "Sverige",
+  "address": "Partille (Göteborg), Sverige",
+  "geoQueries": [
+   "Frico Partille",
+   "Frico AB",
+   "Partille"
+  ],
+  "approxLat": 57.739,
+  "approxLng": 12.106,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Systemair subsidiary Frico producing air curtains, fan heaters and infrared heaters.",
+  "source": "https://www.frico.net/"
+ },
+ {
+  "parentName": "Systemair",
+  "name": "Systemair Ukmergė Ventilation Factory (Lithuania)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Ukmergė",
+  "country": "Lithuania",
+  "address": "Ukmergė, Lithuania",
+  "geoQueries": [
+   "Systemair Ukmergė",
+   "UAB Systemair",
+   "Ukmergė"
+  ],
+  "approxLat": 55.25,
+  "approxLng": 24.76,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Systemair's Lithuanian plant manufacturing air-handling units and ventilation equipment for European markets.",
+  "source": "https://www.systemair.com/lt-lt"
+ },
+ {
+  "parentName": "Hanza",
+  "name": "HANZA Mechanics Tartu Manufacturing Cluster (Estonia)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Tartu",
+  "country": "Estonia",
+  "address": "Tartu, Estonia",
+  "geoQueries": [
+   "HANZA Mechanics Tartu",
+   "HANZA Tartu",
+   "Tartu"
+  ],
+  "approxLat": 58.378,
+  "approxLng": 26.729,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "HANZA's largest Estonian cluster: machining, sheet metal, wire harnesses and final assembly for Nordic industrial customers.",
+  "source": "https://hanza.com/factories/"
+ },
+ {
+  "parentName": "Hanza",
+  "name": "HANZA Mechanics Narva Heavy Mechanics Plant (Estonia)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Narva",
+  "country": "Estonia",
+  "address": "Narva, Estonia",
+  "geoQueries": [
+   "HANZA Mechanics Narva",
+   "HANZA Narva",
+   "Narva"
+  ],
+  "approxLat": 59.377,
+  "approxLng": 28.19,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "HANZA heavy-mechanics plant producing large welded and machined structures with assembly.",
+  "source": "https://hanza.com/factories/"
+ },
+ {
+  "parentName": "Hanza",
+  "name": "HANZA Mechanics Kunovice Sheet Metal Plant (Czech Republic)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Kunovice",
+  "country": "Czech Republic",
+  "address": "Kunovice, Czech Republic",
+  "geoQueries": [
+   "HANZA Mechanics Kunovice",
+   "HANZA Kunovice",
+   "Kunovice"
+  ],
+  "approxLat": 49.045,
+  "approxLng": 17.47,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "HANZA Central Europe cluster plant for sheet-metal fabrication and assembly.",
+  "source": "https://hanza.com/factories/"
+ },
+ {
+  "parentName": "Hanza",
+  "name": "HANZA Electronics Mönchengladbach (Germany)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Mönchengladbach",
+  "country": "Germany",
+  "address": "Mönchengladbach, Germany",
+  "geoQueries": [
+   "HANZA Mönchengladbach",
+   "HANZA Electronics GmbH",
+   "Mönchengladbach"
+  ],
+  "approxLat": 51.185,
+  "approxLng": 6.44,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "HANZA electronics manufacturing (PCB assembly and box build) plant serving German industrial customers.",
+  "source": "https://hanza.com/factories/"
+ },
+ {
+  "parentName": "Hanza",
+  "name": "HANZA Electronics Brzeg Dolny (Poland)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Brzeg Dolny",
+  "country": "Poland",
+  "address": "Brzeg Dolny, Poland",
+  "geoQueries": [
+   "HANZA Brzeg Dolny",
+   "HANZA Electronics Brzeg Dolny",
+   "Brzeg Dolny"
+  ],
+  "approxLat": 51.27,
+  "approxLng": 16.72,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "HANZA electronics plant in Lower Silesia producing PCB assemblies and electronic box builds.",
+  "source": "https://hanza.com/factories/"
+ },
+ {
+  "parentName": "Coor Service Management Holding",
+  "name": "Coor Norge Head Office (Skøyen, Oslo)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Oslo",
+  "country": "Norge",
+  "address": "Askekroken 11, 0277 Oslo",
+  "geoQueries": [
+   "Coor Askekroken",
+   "Askekroken 11, 0277 Oslo",
+   "Coor Oslo"
+  ],
+  "approxLat": 59.9205,
+  "approxLng": 10.6795,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Head office of Coor's Norwegian facility-management business (cleaning, property and workplace services).",
+  "source": "https://www.coor.no/kontakt/"
+ },
+ {
+  "parentName": "Coor Service Management Holding",
+  "name": "Coor Danmark Head Office (Herlev)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Herlev",
+  "country": "Danmark",
+  "address": "Hørkær 12A, 2730 Herlev",
+  "geoQueries": [
+   "Coor Herlev",
+   "Hørkær 12A, 2730 Herlev",
+   "Coor Service Management Danmark"
+  ],
+  "approxLat": 55.7215,
+  "approxLng": 12.4295,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Head office of Coor's Danish facility-management business.",
+  "source": "https://www.coor.dk/kontakt/"
+ },
+ {
+  "parentName": "Nederman Holding",
+  "name": "Nordfab Ducting Plant (Nederman, Thomasville NC)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Thomasville",
+  "country": "USA",
+  "address": "150 Transit Avenue, Thomasville, NC 27360",
+  "geoQueries": [
+   "Nordfab Thomasville",
+   "150 Transit Avenue, Thomasville, NC",
+   "Nordfab Ducting"
+  ],
+  "approxLat": 35.8835,
+  "approxLng": -80.0865,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Nederman brand Nordfab's plant producing quick-fit clamp-together ducting for dust and fume extraction systems.",
+  "source": "https://www.nedermangroup.com/en/contact"
+ },
+ {
+  "parentName": "Nederman Holding",
+  "name": "Nederman MikroPul / Pneumafil North America HQ (Charlotte NC)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Charlotte",
+  "country": "USA",
+  "address": "4404A Chesapeake Drive, Charlotte, NC 28216",
+  "geoQueries": [
+   "Nederman MikroPul Charlotte",
+   "4404 Chesapeake Drive, Charlotte, NC",
+   "Nederman Charlotte"
+  ],
+  "approxLat": 35.2905,
+  "approxLng": -80.8855,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "North American base of Nederman's Process Technology division (MikroPul baghouse filters, Pneumafil textile air systems).",
+  "source": "https://www.nedermangroup.com/en/contact"
+ },
+ {
+  "parentName": "Nederman Holding",
+  "name": "RoboVent Industrial Air Filtration Plant (Nederman, Sterling Heights MI)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Sterling Heights",
+  "country": "USA",
+  "address": "Sterling Heights, MI, USA",
+  "geoQueries": [
+   "RoboVent Sterling Heights",
+   "RoboVent",
+   "Sterling Heights, Michigan"
+  ],
+  "approxLat": 42.58,
+  "approxLng": -83.03,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Nederman brand RoboVent's plant producing weld-fume and dust collectors for automotive and industrial manufacturers.",
+  "source": "https://www.nedermangroup.com/en/contact"
+ },
+ {
+  "parentName": "Rejlers",
+  "name": "Rejlers Norge Head Office (Schweigaards gate, Oslo)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Oslo",
+  "country": "Norge",
+  "address": "Schweigaards gate 15, 0191 Oslo",
+  "geoQueries": [
+   "Rejlers Schweigaards gate 15",
+   "Schweigaards gate 15, 0191 Oslo",
+   "Rejlers Norge"
+  ],
+  "approxLat": 59.9095,
+  "approxLng": 10.7625,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Head office of Rejlers Norge, the group's Norwegian engineering consultancy for energy, infrastructure and buildings.",
+  "source": "https://www.rejlers.com/no/kontakt/"
+ },
+ {
+  "parentName": "Ependion",
+  "name": "Beijer Electronics APAC HQ & R&D (Xindian, New Taipei)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "New Taipei City",
+  "country": "Taiwan",
+  "address": "14F, No. 225, Sec. 3, Beixin Rd., Xindian Dist., New Taipei City 23143",
+  "geoQueries": [
+   "Beijer Electronics Taiwan",
+   "No. 225, Section 3, Beixin Road, Xindian",
+   "Beijer Electronics Corporation"
+  ],
+  "approxLat": 24.9765,
+  "approxLng": 121.5425,
+  "coordsExact": false,
+  "footprintRadiusMeters": 120,
+  "description": "Ependion's Beijer Electronics Asia-Pacific headquarters with HMI and operator-panel development.",
+  "source": "https://www.beijerelectronics.com/en/contact"
+ },
+ {
+  "parentName": "Ependion",
+  "name": "Beijer Electronics Inc. Rugged Terminal Facility (Salt Lake City)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Salt Lake City",
+  "country": "USA",
+  "address": "50 South 3600 West, Suite C, Salt Lake City, UT 84104",
+  "geoQueries": [
+   "Beijer Electronics Salt Lake City",
+   "50 South 3600 West, Salt Lake City",
+   "Beijer Electronics Inc"
+  ],
+  "approxLat": 40.7675,
+  "approxLng": -111.9785,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "US subsidiary of Ependion's Beijer Electronics (ex-QSI) developing and building rugged HMI terminals for vehicles and industry.",
+  "source": "https://www.beijerelectronics.com/en/contact"
  }
 ]

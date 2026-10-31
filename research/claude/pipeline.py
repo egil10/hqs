@@ -10,6 +10,12 @@ import json, sys, time, math, subprocess, urllib.parse, re, os, glob
 G = sys.argv[1]
 D = "research/claude"
 items = json.load(open(f"{D}/research_{G}.json"))
+# agents shared a scratch helper for a while and some rows landed in the wrong group's file;
+# keep only companies that belong to this group (the owning group's file has its own copy)
+if os.path.exists(f"{D}/group_{G}.txt"):
+    allowed = {re.sub(r"\s*\([^()]*existing sites\)$", "", l.strip()) for l in open(f"{D}/group_{G}.txt") if l.strip()}
+    allowed |= {re.sub(r"\s*\(.*$", "", a) for a in allowed}
+    items = [it for it in items if it.get("parentName") in allowed]
 CACHE_F = f"{D}/geocache.json"
 cache = json.load(open(CACHE_F)) if os.path.exists(CACHE_F) else {}
 

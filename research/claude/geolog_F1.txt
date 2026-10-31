@@ -1,0 +1,76 @@
+OK      Telenor | Telenor Danmark Headquarters (Frederikskaj, Copenhagen) | Telenor Frederikskaj -> office/telecommunication telenor, Frederikskaj, Sluseholmen, Sydhavnen, Carlsberg Byen, Københa
+OK      Telenor | Telenor Sverige Headquarters (Solna) | Garvis Carlssons gata 3, Solna -> office/company Telenor, 3, Garvis Carlssons Gata, Vasalund, Råsunda, Solna, Solna kom
+OK      Telenor | Grameenphone GP House Headquarters (Dhaka) | GP House -> office/company GP House (GrameenPhone), সড়ক নং-১, ব্লক এ, কুড়িল, ঢাকা, ঢাকা মহানগর, 
+OK      Vend Marketplaces | Vend Sweden Office (Blocket, Stockholm) | Kungsbron 13, Stockholm -> place/house 13, Kungsbron, Klara, Norrmalm, Norra innerstadens stadsdelsområde, St
+NOGEO   Vend Marketplaces | Vend Finland Office (Tori & Oikotie, Helsinki)
+OK      Vend Marketplaces | Vend Denmark Office (DBA, Copenhagen) | Wildersgade 8, 1408 København -> place/house 8, Wildersgade, Gammelholm, Christianshavn, København, Københavns Komm
+OK      Vend Marketplaces | Vend Denmark Office (Bilbasen, Aarhus/Højbjerg) | Axel Kiers Vej 11, 8270 Højbjerg -> place/house 11, Axel Kiers Vej, Holme Industriby, Rosenhøj, Aarhus, Aarhus Kommune
+OK      Nordic Semiconductor | Nordic Semiconductor Oslo R&D Office | Nordic Semiconductor Oslo -> office/company Nordic Semiconductor ASA, Drammensveien, Solbakken, Skøyen, Ullern, Os
+OK      Nordic Semiconductor | Nordic Semiconductor Trondheim Leangen Office | Travbanevegen 2, Trondheim -> place/house 2, Travbanevegen, Leangen, Østbyen, Trondheim, Trøndelag, 7061, Norge
+OK      Nordic Semiconductor | Nordic Semiconductor Oulu R&D Center | Yrttipellontie 1, 90230 Oulu -> building/office Technopolis Peltola, 1, Yrttipellontie, Peltola, Oulunsuu, Oulu, Oulun
+OK      Nordic Semiconductor | Nordic Semiconductor Espoo R&D Office | Hatsinanpuisto 8, 02600 Espoo -> building/office 8, Hatsinanpuisto, Oasis of Professionals - OOPS, Perkkaa, Leppävaara,
+OK      Nordic Semiconductor | Nordic Semiconductor Turku R&D Office | Teollisuuskatu 40, 20520 Turku -> building/commercial InfraCity, 40, Teollisuuskatu, Itäharju, Nummi-Halinen, Turku, Turun s
+NOGEO   Europris | ÖoB Headquarters & Central Warehouse (Skänninge)
+OK      Synaferd | Visma Spiris Växjö Office (Visma Sweden) | Sambandsvägen 5, 352 36 Växjö -> building/yes 5, Sambandsvägen, Regementsstaden, Växjö, Växjö kommun, Kronobergs län
+OK      Synaferd | Visma Solutions Headquarters (Lappeenranta) | Villimiehenkatu 10, 53100 Lappeenranta -> place/house 10, Villimiehenkatu, Peltola, Lappeenranta, Lappeenrannan seutukunta, 
+OK      Synaferd | Visma Nederland Office (Amsterdam) | Wenckebachweg 200, 1096 AS Amsterdam -> place/house 200, H.J.E. Wenckebachweg, Weespertrekvaart-Zuid, Oost, Amsterdam-Duiv
+OK      Link Mobility Group Holding | LINK Mobility Germany Office (Hamburg HafenCity) | Am Sandtorkai 73, 20457 Hamburg -> place/house 73, Am Sandtorkai, Hanseatic Trade Center, HafenCity, Hamburg-Mitte, H
+OK      Link Mobility Group Holding | LINK Mobility Spain Office (Pozuelo de Alarcón, Madrid) | Vía de las Dos Castillas 33, Pozuelo de Alarcón -> office/coworking My Coworking Pozuelo, 33, Vía de las Dos Castillas, Distrito Municipal
+OK      Link Mobility Group Holding | LINK Mobility UK Office (The Shard, London) | The Shard, London -> office/yes The Shard, 32, London Bridge Street, London Bridge Quarter, Bermondsey
+OK      SoftwareOne | SoftwareOne Corporate Headquarters (Stans, Switzerland) | Riedenmatt 4, 6370 Stans -> building/commercial 4, Riedenmatt, Stans, Nidwalden, 6370, Schweiz/Suisse/Svizzera/Svizra
+OK      Kid | Hemtex Headquarters (Borås) | Hemtex Borås -> shop/fabric Hemtex, 11, Stora Brogatan, Lugnet, Borås, Borås kommun, Västra Götala
+OK      Bouvet | Bouvet Stavanger Regional Office (Hinna Park) | Bouvet Stavanger -> office/consulting Bouvet Stavanger, Laberget, Jåttåvågen, Gausel, Hinna, Stavanger, Roga
+OK      Bouvet | Bouvet Bergen Regional Office | Bouvet Bergen -> office/it Bouvet, Solheimsgaten, Solheim Industripark, Solheim, Årstad, Bergen, 
+OK      Bouvet | Bouvet Trondheim Regional Office | Professor Brochs gate 14, 7030 Trondheim -> place/house 14, Professor Brochs gate, Dalsenget, Elgeseter, Midtbyen, Trondheim, 
+OK      Bouvet | Bouvet Sverige Office (Stockholm) | Mäster Samuelsgatan 42, 111 57 Stockholm -> place/house 42, Mäster Samuelsgatan, Klara, Norrmalm, Norra innerstadens stadsdels
+OK      Essity | Essity Mainz-Kostheim Tissue Paper Mill | Essity Mainz-Kostheim -> man_made/works Essity, Hauptstraße, Mainz-Kostheim, Wiesbaden, Hessen, 55246, Deutsch
+OK      Essity | Essity Prudhoe Tissue Mill & Paper Recycling Facility | Essity Prudhoe -> man_made/works Essity, Princess Way, Prudhoe, Northumberland, North East, England, NE
+OK      Essity | Essity Ortmann Tissue Mill | Essity Ortmann -> landuse/industrial Essity Austria GmbH, 1, Katastralgemeinde Neusiedl bei Pernitz, Pernit
+NOGEO   Essity | Essity Neenah MacMahon Drive Tissue Mill
+NOGEO   Essity | Essity Barton Operations Tissue Mill (Cherokee, Alabama)
+OK      Evolution | Evolution Riga Live Casino Studio & Game Development Hub | Brīvības iela 151, Rīga -> office/company Evolution Gaming, 151, Brīvības iela, Brasa, Centra apkaime, Rīga, LV-
+NOGEO   Evolution | Evolution Tbilisi Live Casino Studio (Georgia)
+OK      Evolution | Evolution Malta Live Casino Studio (Mrieħel) | Mrieħel Birkirkara -> amenity/school Skola Sekondarja Mrieħel, Triq il-Parroċċa Santa Marija, L-Imrieħel, B
+NOGEO   Elisa | Elisa Säterinportti Data Center (Espoo)
+OK      Elisa | Elisa Tapiola Data Center (Espoo) | Ahertajantie 2, 02100 Espoo -> building/service Elisa Data Center, 2, Ahertajantie, Ahertaja, Länsikorkee, Tapiola, Su
+NOGEO   Elisa | Elisa Lauttasaari Data Center (Helsinki)
+NOGEO   Elisa | Elisa Raisio Data Center (Turku region)
+OK      Elisa | Elisa Tallinn Data Center (Elisa Eesti) | Elisa Tallinn -> office/telecommunication Elisa, 102, Paldiski mnt, Veskimetsa, Haabersti linnaosa, Tallinn, Har
+NOGEO   Pandora | Pandora Gemopolis Crafting Facilities incl. Triple A (Bangkok)
+NOGEO   Pandora | Pandora Lamphun Crafting Facility
+NOGEO   Pandora | Pandora Vietnam Crafting Facility (VSIP III, Binh Duong)
+NOGEO   NCAB Group | NCAB Group China Sourcing & Factory Management Office (Shenzhen)
+OK      NCAB Group | NCAB Group USA Office (Hampstead, New Hampshire) | 10 Starwood Drive, Hampstead, NH -> place/house 10, Starwood Drive, East Hampstead, Hampstead, Rockingham County, New 
+NOGEO   Pexip Holding | Pexip UK Office (Thames Valley Park, Reading)
+OK      Pexip Holding | Pexip Americas Office (Herndon, Virginia) | 13461 Sunrise Valley Drive, Herndon -> office/company Bowman Consulting Herndon Office, 13461, Sunrise Valley Drive, Herndon
+OK      Pexip Holding | Pexip Sweden Office (Hägersten, Stockholm) | Tellusgången 1, Hägersten -> place/house 1, Tellusgången, Midsommarkransen, Hägersten-Älvsjö stadsdelsområde, S
+OK      Pexip Holding | Pexip APAC Office (North Sydney) | Pexip Sydney -> office/it Pexip, Platypus Lane, Sub Base Platypus, Lower North Shore, Sydney, Ne
+OK      Thule Group | Thule Huta Szklana Factory (Poland) | Huta Szklana 91, 64-761 -> place/house 91, Huta Szklana, gmina Krzyż Wielkopolski, powiat czarnkowsko-trzcian
+OK      Thule Group | Thule Piła Assembly Plant (Poland) | Thule Piła -> landuse/industrial THULE, Podlasie, Piła, powiat pilski, województwo wielkopolskie, Polsk
+OK      Thule Group | Thule Americas HQ & Assembly Plant (Seymour, Connecticut) | 42 Silvermine Road, Seymour, CT -> place/house 42, Silvermine Road, Seymour, Naugatuck Valley Planning Region, Connec
+NOGEO   Framery Group | Framery North America Factory & Logistics Center (Zeeland, Michigan)
+OK      Recovery Holdco | Jøtul Wrocław Stove Manufacturing Plant (Poland) | Jotul Wroclaw -> man_made/works JOTUL Poland, A4;5, Kąty Wrocławskie, gmina Kąty Wrocławskie, powiat w
+OK      Recovery Holdco | Jøtul North America HQ & Stove Plant (Gorham, Maine) | 55 Hutcherson Drive, Gorham, ME -> building/industrial 55, Hutcherson Drive, Gorham, Cumberland County, Maine, 04038, United 
+OK      Inteno Group | Genexis Netherlands HQ & R&D (Eindhoven) | Genexis Eindhoven -> office/company Genexis BV, 1A, Lodewijkstraat, De Hurk, Strijp, Eindhoven, Noord-Brab
+OK      Inteno Group | Genexis Finland Office (Vaasa) | Yrittäjänkatu 12, 65380 Vaasa -> building/yes Futura IV, 12, Yrittäjänkatu, Airport Park, Vanha-Vaasa, Vaasa, Vaasan
+OK      Inteno Group | Genexis Germany Office (Königswinter) | Eduard-Rhein-Straße 58, Königswinter -> building/commercial 58, Eduard-Rhein-Straße, Hasenpohl, Ruttscheid, Kellersboseroth, König
+NOGEO   Inteno Group | Genexis Broadband UK Office (Warwick)
+OK      HMS Networks | Red Lion Controls HQ & Plant (York, Pennsylvania) | 1750 5th Avenue, York, PA 17403 -> place/house 1750, 5th Avenue, Elmwood, Spring Garden Township, York County, Pennsy
+OK      HMS Networks | HMS Ewon Development Center (Nivelles) | 22 Avenue Robert Schuman, 1400 Nivelles -> office/company HMS Industrial Networks SA, 22, Avenue Robert Schuman, Parc d'activité
+OK      HMS Networks | PEAK-System Technik Development Site (Darmstadt) | PEAK-System Darmstadt -> office/company PEAK-System Technik GmbH, 69, Otto-Röhm-Straße, Darmstadt-Nord, Darmst
+NOGEO   HMS Networks | HMS Ixxat Development Center (Ravensburg)
+OK      HMS Networks | HMS Intesis Development Center (Igualada) | Carrer Milà i Fontanals 7, Igualada -> office/company HMS Industrial Networks SLU, 7, Carrer de Milà i Fontanals, l'Escorxad
+DUP     Hagar | Olís Headquarters & Fuel Distribution Base (Skútuvogur, Reykjavík)
+NOGEO   Hagar | SMS Head Office & Miklagarður Retail (Tórshavn)
+OK      Cloetta | Cloetta Levice Confectionery Factory | Cloetta Levice -> man_made/works Cloetta, 5556, Géňa, Levice, okres Levice, Nitriansky kraj, 934 01, Sl
+NOGEO   Cloetta | Cloetta Roosendaal Spoorstraat Candy Factory
+OK      Cloetta | Cloetta Turnhout Candy Factory | Cloetta Turnhout -> building/yes Cloetta, 25, Everdongenlaan, Everdongen, Schorvoort, Turnhout, Antwerp
+NOGEO   Cloetta | Cloetta Sneek Chewing Gum Factory
+OK      Cloetta | The Jelly Bean Factory (Cloetta, Dublin) | The Jelly Bean Factory Dublin -> building/yes The Jelly Bean Factory, IDA Blanchardstown Snugborough Business and Te
+NOGEO   Festi | Bakkinn Warehouse & Distribution Center (Skarfagarðar, Sundahöfn)
+NOGEO   Festi | Bakkinn Warehouse (Klettagarðar, Sundahöfn)
+OK      Hexatronic Group | Rochester Cable Fiber & Specialty Cable Plant (Culpeper, Virginia) | 751 Old Brandy Road, Culpeper, VA -> place/house 751, Old Brandy Road, High Point, Culpeper, Culpeper County, Virginia,
+OK      Olvi | Cēsu Alus Brewery (Olvi Latvia) | Cēsu Alus -> man_made/works Cēsu Alus, 1, Eduarda Veidenbauma iela, Zeltkalns, Cēsis, Cēsu novads,
+OK      Olvi | Volfas Engelman Brewery (Olvi Lithuania, Kaunas) | Kaunakiemio g. 2, Kaunas -> building/yes Volfas Engelman alaus darykla, 2, Kaunakiemio g., Karmelitai, Centro s
+OK      Olvi | The Helsinki Distilling Company Distillery (Teurastamo) | The Helsinki Distilling Company -> craft/distillery The Helsinki Distilling Company, Työpajankatu, Suvilahti, Kalasatama, 
+NOGEO   UIE | United Plantations HQ, Jendarata Estate & Unitata Refinery (Teluk Intan)

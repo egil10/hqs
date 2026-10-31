@@ -24,3 +24,15 @@ Karnov Group — skipped: legal publisher; subsidiary office addresses (Denmark,
 Nolato
 Lindab International — skipped: Förslöv & Farum already mapped; further plant addresses not confirmable (search budget exhausted)
 MilDef Group
+Alimak Group
+INVISIO
+Inwido
+Systemair
+Bergman & Beving — skipped: only additional sites not confirmable (search budget exhausted); Ulricehamn hub already mapped
+Hanza
+Coor Service Management Holding
+Momentum Group — skipped: ~40 small decentralised distributors/workshops, no flagship site with confirmable address
+Troax Group — skipped: main factory is the Hillerstorp HQ; foreign plant addresses not confirmable
+Nederman Holding
+Rejlers
+Ependion

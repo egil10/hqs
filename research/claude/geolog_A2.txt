@@ -1,0 +1,20 @@
+OK      Hoist Finance | Hoist Italia Head Office Rome | Via Flaminia 133, 00196 Roma -> building/office 133, Via Flaminia, Flaminio, Municipio Roma II, Roma, Roma Capitale, L
+OK      Hoist Finance | Hoist Finance Shared Service Center Wrocław | Powstańców Śląskich 9, 53-332 Wrocław -> place/house 9, Powstańców Śląskich, Barbara, Powstańców Śląskich, Wrocław, wojewód
+OK      ABG Sundal Collier | ABG Sundal Collier Stockholm Office | Regeringsgatan 25, 111 53 Stockholm -> place/house 25, Regeringsgatan, Klara, Norrmalm, Norra innerstadens stadsdelsområd
+OK      ABG Sundal Collier | ABG Sundal Collier Copenhagen Office (Nordhavn) | Göteborg Plads 1, 2150 Nordhavn -> place/house 1, Göteborg Plads, Marmormolen, Nordhavn, København, Københavns Kommun
+OK      Axactor | Axactor Germany Office Heidelberg | Emil-Gumbel-Straße 3, 69126 Heidelberg -> place/house 3, Emil-Gumbel-Straße, Südstadt, Heidelberg, Baden-Württemberg, 69126,
+OK      Axactor | Axactor Sweden Office Göteborg | Nordstadstorget 6, 411 05 Göteborg -> place/house 6, Nordstadstorget, Nordstaden, Inom Vallgraven, Centrum, Göteborg, Gö
+OK      Eastnine | Eastnine S7 Office Park Vilnius (Žvėrynas) | Saltoniškių g. 7, Vilnius -> building/office Danske Bank DC Pier, 7, Saltoniškių g., Saltoniškės, Žvėryno seniūnija
+OK      Eastnine | Eastnine 3Burės Office Complex Vilnius | 3 Burės Vilnius -> building/office 3 burės, 25, Lvivo g., Piromontas, Šnipiškių seniūnija, Vilnius, Vilni
+OK      Eastnine | Eastnine Uniq Office Building Vilnius | Uniq Vilnius -> building/commercial „Uniq“ verslo centras, 12A, A. Goštauto g., Lukiškės, Naujamiesčio sen
+OK      Reitir | Kringlan Shopping Centre (Reitir Flagship) | Kringlan -> amenity/polling_station Kringlan, Kringla, Háaleiti og Bústaðir, Reykjavíkurborg, Höfuðborgars
+OK      Reitir | Hilton Reykjavik Nordica Hotel Property | Suðurlandsbraut 2, 108 Reykjavík -> building/hotel 2, Suðurlandsbraut, Háaleiti, Háaleiti og Bústaðir, Reykjavíkurborg, H
+OK      Heimar | Egilshöll Sports & Entertainment Complex (Heimar) | Egilshöll -> building/yes Egilshöll, 1, Fossaleynir, Leynar, Grafarvogur, Reykjavíkurborg, Höfuð
+NOGEO   John Mattson Fastighetsföretagen | John Mattson Larsberg Residential District (Lidingö)
+NOGEO   John Mattson Fastighetsföretagen | John Mattson Käppala Residential District (Lidingö)
+OK      Magnora Data Center | Storespeed Halden DC01 Colocation Data Center | Violgata 8, 1776 Halden -> place/house 8, Violgata, Schultzedalen, Halden, Østfold, 1776, Norge
+OK      Magnora Data Center | Magnora/Blix Nedre Rommen 5 AI & Edge Data Center (Oslo) | Nedre Rommen 5, 0988 Oslo -> place/house 5, Nedre Rommen, Rommen næringspark, Rommen, Stovner, Oslo, 0988, Norg
+OK      Intrum | Intrum Global Technologies IT Hub Riga | Ieriķu iela 5, Rīga -> building/yes 5, Ieriķu iela, Teika, Teikas apkaime, Rīga, LV-1084, Latvija
+OK      Intrum | Intrum Spain Office & Technology Hub Madrid (Parque Empresarial Cristalia) | Parque Empresarial Cristalia -> landuse/commercial Parque Empresarial Cristalia, Valdefuentes, Hortaleza, Madrid, Comunid
+OK      Catella | Catella Real Estate AG Property Funds HQ (Alter Hof, Munich) | Alter Hof 5, 80331 München -> place/house 5, Alter Hof, Graggenauerviertel, Altstadt-Lehel, München, Bayern, 803
+OK      Catella | Catella Investment Management Holding & Residential IM Office (Upper West, Berlin) | Upper West Berlin -> building/commercial Upper West, Kantstraße, City West, Charlottenburg, Charlottenburg-Wilm

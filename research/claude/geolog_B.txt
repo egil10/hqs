@@ -1,0 +1,79 @@
+NOGEO   Frontline | Frontline plc Registered Office & Frontline (Management) Cyprus (Limassol)
+OK      Frontline | Frontline Shipping Singapore Office (Guoco Tower) | Guoco Tower, Singapore -> office/yes Guoco Tower, Wallich Street, Tanjong Pagar, Civic District, Downtown C
+OK      Frontline | Frontline Corporate Services Glasgow Office | 183 St Vincent Street, Glasgow -> building/yes 183, St Vincent Street, Blythswood Hill, Anderston, Glasgow, Glasgow C
+OK      Frontline | Frontline Management (Bermuda) Office (Par-la-Ville Place) | Par-la-Ville Place, Hamilton -> building/office Par-La-Ville Place, 14, Par-La-Ville Road, City of Hamilton, HM 08, Be
+NOGEO   TGS | TGS Weybridge Office (Brooklands)
+NOGEO   TGS | TGS Norwich Office (Broadland Business Park)
+OK      TGS | TGS Fredrikstad Office | Habornveien 48, Fredrikstad -> place/house 48A, Habornveien, Øra, Kongsten, Fredrikstad, Østfold, 1630, Norge
+OK      TGS | TGS Calgary Office | 335 8 Avenue SW, Calgary T2P 1C9 -> building/commercial Royal Bank Building, 335, 8 Avenue SW, Downtown Commercial Core, Calga
+OK      TGS | TGS Perth Office | 140 St Georges Terrace, Perth -> building/commercial 140 St Georges Terrace, 140, St Georges Terrace, Perth, Western Austra
+OK      TGS | TGS Kuala Lumpur Office (Menara Maxis) | Menara Maxis, Kuala Lumpur -> building/yes Menara Maxis, Persiaran Petronas, Kampung Paya, Kampung Cendana, Kuala
+OK      Hafnia | Hafnia Copenhagen Office (Hellerup) | Hans Bekkevolds Allé 7, 2900 Hellerup -> place/house 7, Hans Bekkevolds Alle, Hellerup, Gentofte Kommune, Region Hovedstade
+OK      Hafnia | Hafnia Houston Office (Post Oak) | 1330 Post Oak Boulevard, Houston -> building/commercial Aon Building, 1330, Post Oak Boulevard, Uptown, Houston, Harris County
+OK      Hafnia | Hafnia Dubai Office (Tamweel Tower, JLT) | Tamweel Tower Dubai -> building/commercial Tamweel Tower, JLT Cluster U, تلال الإمارات, أبراج بحيرات الجميرا, دبي
+NOGEO   Hafnia | Hafnia / BW Maritime Mumbai Branch Office (R Square, Andheri)
+OK      BW LPG | BW LPG Singapore Global Headquarters (Mapletree Business City) | 10 Pasir Panjang Road, Singapore 117438 -> building/office Mapletree Business City Business Park Tower East, 10, Pasir Panjang Ro
+OK      BW LPG | BW LPG LLC Houston Office (Four Oaks Place) | 1330 Post Oak Blvd, Houston TX 77056 -> building/commercial Aon Building, 1330, Post Oak Boulevard, Uptown, Houston, Harris County
+OK      BW LPG | BW LPG Product Services Madrid Office (La Finca) | Parque Empresarial La Finca, Pozuelo de Alarcón -> landuse/commercial Parque Empresarial La Finca, 1, Somosaguas Sur, Húmera, Pozuelo de Ala
+NOGEO   BW LPG | BW LPG India Office (Chennai)
+OK      BW LPG | BW LPG Manila Office (Century Diamond Tower, Makati) | Century Diamond Tower, Makati -> building/yes Century Diamond Tower, Century City Drive, Century City Neighbourhood,
+OK      Norwegian Air Shuttle | Widerøe Head Office (Norwegian subsidiary, Bodø) | Langstranda 6, 8003 Bodø -> place/house 6, Langstranda, Vestbyen, Bodø, Nordland, 8003, Norge
+OK      Norwegian Air Shuttle | Widerøe Technical Services Maintenance Base (Bodø Airport) | Bodø lufthavn -> aeroway/aerodrome Bodø lufthavn - Bådådjo girddesalljo, Prinsens gate, Langstranda, Vest
+OK      Norwegian Air Shuttle | Norwegian Technical Main Base (Oslo Gardermoen Part-145) | Oslo lufthavn Gardermoen -> aeroway/aerodrome Oslo lufthavn, Gardermoen, Lufthavnvegen, Brudalen, Ullensaker, Akersh
+NOGEO   Scatec | Scatec Obelisk 1.1 GW Solar & 200 MWh Battery Plant (Nag Hammadi)
+NOGEO   Scatec | Scatec Benban Solar Plants (6 x 65 MW, Aswan)
+NOGEO   Scatec | Scatec Central Solar de Mocuba (Mozambique)
+OK      Scatec | SN Aboitiz Power Magat Hydroelectric Plant (Scatec 50% JV) | Magat Hydroelectric Power Plant -> landuse/industrial Magat Hydroelectric Power Plant, Santiago, Isabela, Cagayan Valley, Ph
+OK      DNO | DNO Norge Stavanger Office (North Sea Business incl. Sval Energi) | Badehusgata 37, 4014 Stavanger -> place/house 37, Badehusgata, Jammerdalen, Nylund, Storhaug, Stavanger, Rogaland, 4
+NOGEO   DNO | DNO Baeshiqa Field Early Production Facility (Kurdistan)
+NOGEO   DNO | DNO Erbil Kurdistan Operations Office
+OK      Höegh Autoliners | Höegh Autoliners Regional Operating Headquarters (Makati) | 125 L.P. Leviste Street, Makati -> building/office V Corporate Center, 125, L. P. Leviste Street, Salcedo Village, Bel-Ai
+OK      Höegh Autoliners | Höegh Autoliners Singapore Office (Pasir Panjang Terminal Building 2) | 33 Harbour Drive, Singapore 117606 -> military/checkpoint Pasir Panjang Terminal Gate 4, 33, Harbour Drive, Pasir Panjang Termin
+NOGEO   Wallenius Wilhelmsen | Wallenius Wilhelmsen Brunswick Terminal & Equipment Processing Center (Colonel's Island)
+OK      Wallenius Wilhelmsen | Gothenburg International Auto & RoRo Terminal (Wallenius Wilhelmsen) | Gothenburg Car Terminal -> landuse/industrial Gothenburg Car Terminal, Arendal, Hisingen, Göteborg, Göteborgs Stad, 
+OK      Cadeler | Cadeler Vejle Office (Havneparken) | Havneparken 1, 7100 Vejle -> place/house 1, Havneparken, Lille Grundet, Vejle, Vejle Kommune, Region Syddanmark
+NOGEO   Cadeler | Cadeler UK Office (Norwich, St Andrews Business Park)
+OK      Cadeler | Cadeler Rotterdam Office (Westerlaantoren) | Westerlaantoren, Rotterdam -> building/yes Westerlaantoren, Calandstraat, Scheepvaartkwartier, Centrum, Rotterdam
+NOGEO   Cadeler | Cadeler Asia-Pacific Hub (Taipei Xinyi)
+OK      Wilh. Wilhelmsen Holding | Wilhelmsen Chemicals Marine Chemicals Plant (Kjøpmannskjær, Tønsberg) | Kirkeveien 578, 3143 Kjøpmannskjær -> place/house 578, Kirkeveien, Tenvik, Kjøpmannskjær, Færder, Vestfold, 3143, Norge
+NOGEO   Wilh. Wilhelmsen Holding | NorSea Dusavik Supply Base (Stavanger)
+OK      Wilh. Wilhelmsen Holding | NorSea Vestbase Supply Base (Kristiansund) | Vestbase Kristiansund -> landuse/industrial Vestbase, Løkkemyra, Dale, Byskogen, Kristiansund, Møre og Romsdal, No
+OK      Wilh. Wilhelmsen Holding | NorSea Polarbase Supply Base (Rypefjord, Hammerfest) | Polarbase Hammerfest -> landuse/industrial Polarbase, Leirvik, Hammerfest, Finnmark, Norge
+OK      Stolt-Nielsen | Stolthaven New Orleans Chemical Tank Terminal (Braithwaite) | Stolthaven New Orleans -> building/office Stolthaven New Orleans, English Turn Road, English Turn, Braithwaite, 
+OK      Stolt-Nielsen | Stolthaven Moerdijk Bulk Liquid Terminal | Stolthaven Moerdijk -> man_made/works Stolthaven Moerdijk, Middenweg, Moerdijk, Noord-Brabant, Nederland, 47
+NOGEO   Stolt-Nielsen | Stolthaven Singapore Terminal (Jurong Island)
+NOGEO   Stolt-Nielsen | Stolt Sea Farm Cervo Flatfish Hatchery & Farm (Galicia)
+OK      MPC Container Ships | MPC Container Ships GmbH & Co. KG Hamburg Office (Palmaille) | Palmaille 75, 22767 Hamburg -> place/house 75, Palmaille, Altona, Altona-Altstadt, Altona, Hamburg, 22767, Deutsc
+OK      MPC Container Ships | MPC Container Ships Invest B.V. Office (Rhoon, Rotterdam) | Oever 5, 3161 GR Rhoon -> place/house 5, Oever, Binnenbaan, Rhoon, Albrandswaard, Zuid-Holland, Nederland, 3
+OK      Elmera Group | Fjordkraft Sandefjord Regional Office (Elmera Group) | Østre Kullerød 3, 3241 Sandefjord -> place/house 3, Østre Kullerød, Kullerød, Sandefjord, Vestfold, 3241, Norge
+OK      Elmera Group | Fjordkraft Trondheim Regional Office (Sluppen, Elmera Group) | Sluppenvegen 17B, 7037 Trondheim -> place/house 17B, Sluppenvegen, Sorgenfri, Lerkendal, Trondheim, Trøndelag, 7037, N
+OK      Euronav | Windcat Workboats Base (CMB.TECH/Euronav, IJmuiden) | Trawlerkade 106, 1976 CC IJmuiden -> place/house 106, Trawlerkade, IJmuiden aan Zee, IJmuiden, Velsen, Noord-Holland, N
+OK      Euronav | CMB.TECH Hong Kong Office (Harcourt House, Wanchai) | Harcourt House Hong Kong -> landuse/commercial 夏慤大廈 Harcourt House, 39, 灣仔 Wan Chai, 灣仔區 Wan Chai District, 香港島 Hong 
+NOGEO   Euronav | CMB.TECH Athens Office
+OK      Euronav | CMB.TECH Singapore Office (Guoco Tower) | Guoco Tower, Singapore -> office/yes Guoco Tower, Wallich Street, Tanjong Pagar, Civic District, Downtown C
+OK      Euronav | CMB.TECH Hamburg Office (Raboisen) | Raboisen 28, 20095 Hamburg -> building/office 28, Raboisen, Altstadt, Hamburg-Mitte, Hamburg, 20095, Deutschland
+NOGEO   General Oceans | Tritech International Subsea Sonar Facility (Westhill, Aberdeen)
+OK      General Oceans | Tritech Ulverston Facility (Cumbria) | Tritech Ulverston -> building/industrial Moog Tritech, Next Ness Lane, Egton with Newland, Ulverston, Westmorla
+OK      General Oceans | Nortek Trondheim Office | Skippergata 14, 7042 Trondheim -> place/house 14, Skippergata, Nyhavna, Reina, Nedre Elvehavn, Østbyen, Trondheim, T
+OK      General Oceans | Nortek USA Office (Boston Marine Park) | 21 Drydock Avenue, Boston -> place/house 21, Drydock Avenue, Seaport, Boston, Suffolk County, Massachusetts, 02
+OK      General Oceans | Klein Marine Systems Side-Scan Sonar Facility (Newburyport) | 65 Parker Street, Newburyport -> building/yes 65, Parker Street, Newburyport, Essex County, Massachusetts, 01922, Un
+NOGEO   General Oceans | Reach Robotics Asia Pacific Head Office (Glebe, Sydney)
+OK      Fortum | Oskarshamn Nuclear Power Plant (Fortum 43%) | Oskarshamns kärnkraftverk -> landuse/industrial Oskarshamns kärnkraftverk, 100, Söråbyn, Oskarshamns kommun, Kalmar lä
+OK      Fortum | Forsmark Nuclear Power Plant (Fortum 22%) | Forsmarks kärnkraftverk -> landuse/industrial Forsmarks Kärnkraftverk, Östhammars kommun, Uppsala län, Sverige
+NOGEO   Fortum | Olkiluoto Nuclear Power Plant (Fortum ~27% via TVO)
+OK      Fortum | Fortum Meri-Pori Power Plant (Tahkoluoto, Pori) | Meri-Porin voimalaitos -> landuse/industrial Meri-Porin voimalaitos, Tahkoluoto, Pori, Porin seutukunta, Satakunta,
+NOGEO   Torm | TORM plc Registered Office (120 Cannon Street, London)
+OK      Torm | TORM Singapore Office (Six Battery Road) | Six Battery Road, Singapore -> building/yes Six Battery Road, 6, Battery Road, Golden Shoe, Civic District, Downto
+OK      Torm | TORM Shipping India Office (Leela Business Park, Mumbai) | Leela Business Park, Andheri Kurla Road, Mumbai -> office/yes Leela Business Park, Mathuradas Vasanji Road (Andheri Kurla Road), Nav
+OK      Torm | TORM Shipping Philippines Office (Salcedo Towers, Makati) | Salcedo Towers Makati -> building/residential Salcedo Park Twin Towers, 121, H. V. de la Costa Street, Salcedo Villa
+OK      Torm | TORM USA Office (Houston City West) | 2500 CityWest Boulevard, Houston -> building/yes 2500, Citywest Boulevard, Westchase, Houston, Harris County, Texas, 77
+OK      Dampskibsselskabet NORDEN | NORDEN Singapore Office (Suntec Tower Five) | 5 Temasek Boulevard, Singapore 038985 -> building/office Suntec Tower 5, 5, Temasek Boulevard, Marina Centre, Civic District, D
+OK      Dampskibsselskabet NORDEN | NORDEN Annapolis Office (One Park Place) | 1 Park Place, Annapolis MD 21401 -> amenity/restaurant Park Deli, 1, Park Place, Bay View Heights, Captains Walk, Annapolis, 
+OK      Dampskibsselskabet NORDEN | NORDEN Houston Office (North Loop West) | 2525 North Loop West, Houston -> building/office Pinehollow Office Park, 2525, North Loop West, Houston, Harris County,
+OK      Dampskibsselskabet NORDEN | NORDEN Rio de Janeiro Office (Praia de Botafogo) | Praia de Botafogo 228, Rio de Janeiro -> building/commercial Edifício Argentina, 228, Praia de Botafogo, Botafogo, Rio de Janeiro, 
+NOGEO   Dampskibsselskabet NORDEN | NORDEN Tokyo Office (Pacific Century Place)
+OK      Akastor | HMH Houston Operational Center (Akastor 50% JV) | 3300 North Sam Houston Parkway East, Houston -> place/house 3300, North Sam Houston Parkway East, Houston, Harris County, Texas, 7
+OK      Akastor | HMH Global Headquarters (Amsterdam, Akastor 50% JV) | Weerdestein 97, 1083 GG Amsterdam -> place/house 97, Weerdestein, Buitenveldert, Zuid, Amsterdam, Noord-Holland, Nederl
+NOGEO   Akastor | HMH Singapore Facility (Benoi Lane, Akastor 50% JV)
+NOGEO   Akastor | HMH Aberdeenshire Service Base (Kintore, Akastor 50% JV)
+NOGEO   Akastor | HMH Macaé Service Base (Akastor 50% JV)

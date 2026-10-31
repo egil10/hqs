@@ -1,0 +1,4 @@
+INVALID Edwards Vacuum Global Technology Centre (Atlas Copco, Burgess Hill)
+INVALID Leybold Cologne Vacuum Pump HQ & Plant (Atlas Copco)
+INVALID Atlas Copco India Dapodi Compressor Plant & HQ (Pune)
+INVALID Quincy Compressor Bay Minette Plant & HQ (Atlas Copco)

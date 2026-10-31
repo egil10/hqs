@@ -622,5 +622,296 @@
     "source": "https://www.demagcranes.com",
     "parentName": "Konecranes",
     "coordsExact": false
+  },
+  {
+    "name": "HENT AS Head Office (Tiller, Trondheim)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Trondheim (Heimdal)",
+    "country": "Norge",
+    "address": "Vestre Rosten 69, 7072 Heimdal",
+    "geoQueries": [
+      "HENT AS Trondheim",
+      "Vestre Rosten 69, 7072 Heimdal"
+    ],
+    "approxLat": 63.36,
+    "approxLng": 10.379,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of HENT AS, the building contractor that is Sentia ASA's main operating subsidiary (Sentia ASA was formerly HENT Invest I AS).",
+    "source": "https://data.brreg.no/enhetsregisteret/api/enheter/990749655",
+    "parentName": "Sentia",
+    "coordsExact": false
+  },
+  {
+    "name": "Vaisala Boulder Operations & North American Headquarters (Louisville, CO)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Louisville (Colorado)",
+    "country": "USA",
+    "address": "194 South Taylor Avenue, Louisville, CO 80027",
+    "geoQueries": [
+      "Vaisala Louisville",
+      "194 South Taylor Avenue, Louisville, CO 80027"
+    ],
+    "approxLat": 39.966,
+    "approxLng": -105.141,
+    "footprintRadiusMeters": 180,
+    "description": "Vaisala Inc. North American headquarters and Boulder operations site for weather and environmental systems.",
+    "source": "https://www.vaisala.com/en/contact-us/office-locations",
+    "parentName": "Vaisala",
+    "coordsExact": false
+  },
+  {
+    "name": "Vaisala Saclay Wind Lidar Site (former Leosphere)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Saclay",
+    "country": "France",
+    "address": "Tech Park, 6A Rue René Razel, 91400 Saclay",
+    "geoQueries": [
+      "Vaisala Saclay",
+      "Leosphere Saclay",
+      "6A Rue René Razel, 91400 Saclay"
+    ],
+    "approxLat": 48.718,
+    "approxLng": 2.153,
+    "footprintRadiusMeters": 160,
+    "description": "Vaisala France site in the Paris-Saclay tech park, home of the former Leosphere wind lidar business acquired in 2020.",
+    "source": "https://www.vaisala.com/en/contact-us/office-locations",
+    "parentName": "Vaisala",
+    "coordsExact": false
+  },
+  {
+    "name": "Huhtamaki Ronsberg Flexible Packaging Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ronsberg",
+    "country": "Germany",
+    "address": "Heinrich-Nicolaus-Straße 6, 87671 Ronsberg",
+    "geoQueries": [
+      "Huhtamaki Ronsberg",
+      "Huhtamaki Flexible Packaging Germany Ronsberg",
+      "Heinrich-Nicolaus-Straße 6, 87671 Ronsberg"
+    ],
+    "approxLat": 47.9,
+    "approxLng": 10.415,
+    "footprintRadiusMeters": 300,
+    "description": "Huhtamaki's largest German site with over 1,000 employees, producing printed flexible packaging films and laminates.",
+    "source": "https://de.wikipedia.org/wiki/Ronsberg",
+    "parentName": "Huhtamäki",
+    "coordsExact": false
+  },
+  {
+    "name": "Huhtamaki Americas Headquarters & Packaging Plant (De Soto, Kansas)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "De Soto (Kansas)",
+    "country": "USA",
+    "address": "9201 Packaging Drive, De Soto, KS 66018",
+    "geoQueries": [
+      "Huhtamaki De Soto",
+      "9201 Packaging Drive, De Soto, KS 66018"
+    ],
+    "approxLat": 38.975,
+    "approxLng": -94.955,
+    "footprintRadiusMeters": 350,
+    "description": "North American headquarters of Huhtamaki and a major foodservice/fiber packaging plant, De Soto's third-largest employer (~640 workers).",
+    "source": "https://en.wikipedia.org/wiki/De_Soto,_Kansas",
+    "parentName": "Huhtamäki",
+    "coordsExact": false
+  },
+  {
+    "name": "Bittium Biosignals Kuopio Medical Technology Site",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Kuopio",
+    "country": "Finland",
+    "address": "Pioneerinkatu 6, 70800 Kuopio",
+    "geoQueries": [
+      "Bittium Biosignals Kuopio",
+      "Pioneerinkatu 6, 70800 Kuopio"
+    ],
+    "approxLat": 62.892,
+    "approxLng": 27.629,
+    "footprintRadiusMeters": 150,
+    "description": "Bittium Biosignals Ltd., developing and producing ECG, EEG and biosignal measurement devices for the Medical business.",
+    "source": "https://www.bittium.com/about-bittium/facts-figures/bittium-locations/",
+    "parentName": "Bittium",
+    "coordsExact": false
+  },
+  {
+    "name": "Bittium Wireless Tampere R&D Office",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Tampere",
+    "country": "Finland",
+    "address": "Naulakatu 3, 33100 Tampere",
+    "geoQueries": [
+      "Bittium Tampere",
+      "Naulakatu 3, 33100 Tampere"
+    ],
+    "approxLat": 61.496,
+    "approxLng": 23.779,
+    "footprintRadiusMeters": 130,
+    "description": "Bittium Wireless engineering office for tactical communications and secure connectivity product development.",
+    "source": "https://www.bittium.com/about-bittium/facts-figures/bittium-locations/",
+    "parentName": "Bittium",
+    "coordsExact": false
+  },
+  {
+    "name": "Bittium Safemove Espoo Office",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Espoo",
+    "country": "Finland",
+    "address": "Hatsinanpuisto 8, 02600 Espoo",
+    "geoQueries": [
+      "Bittium Espoo",
+      "Hatsinanpuisto 8, 02600 Espoo"
+    ],
+    "approxLat": 60.219,
+    "approxLng": 24.815,
+    "footprintRadiusMeters": 130,
+    "description": "Bittium Safemove Ltd., developing secure mobile VPN and connectivity software for defence and security customers.",
+    "source": "https://www.bittium.com/about-bittium/facts-figures/bittium-locations/",
+    "parentName": "Bittium",
+    "coordsExact": false
+  },
+  {
+    "name": "SP Group Sieradz Plastics Campus (SP Tinby / SP Gibo / Ergomat Poland)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Sieradz",
+    "country": "Poland",
+    "address": "Stawiszcze 4, 98-200 Sieradz",
+    "geoQueries": [
+      "SP Tinby Sieradz",
+      "SP Group Sieradz",
+      "Stawiszcze 4, 98-200 Sieradz"
+    ],
+    "approxLat": 51.595,
+    "approxLng": 18.73,
+    "footprintRadiusMeters": 300,
+    "description": "SP Group's main Polish production campus for polyurethane moulding, vacuum forming and Ergomat anti-fatigue mats (SP Moulding Poland is nearby at ul. Mickiewicza 96).",
+    "source": "https://www.sp-group.com/en/contact",
+    "parentName": "SP Group",
+    "coordsExact": false
+  },
+  {
+    "name": "SP Moulding / SP Tinby Suzhou Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Suzhou",
+    "country": "China",
+    "address": "399 Zhenbei Road, Suzhou New District, 215153 Suzhou",
+    "geoQueries": [
+      "SP Moulding Suzhou",
+      "399 Zhenbei Road, Suzhou"
+    ],
+    "approxLat": 31.35,
+    "approxLng": 120.49,
+    "footprintRadiusMeters": 200,
+    "description": "SP Group's Chinese plant for injection-moulded plastics and polyurethane components.",
+    "source": "https://www.sp-group.com/en/contact",
+    "parentName": "SP Group",
+    "coordsExact": false
+  },
+  {
+    "name": "SP Tinby / SP Gibo Mount Pleasant Plant (Iowa)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Mount Pleasant (Iowa)",
+    "country": "USA",
+    "address": "420 N Iris St., Mt. Pleasant, IA 52641",
+    "geoQueries": [
+      "SP Tinby Mt Pleasant",
+      "420 N Iris St, Mount Pleasant, IA 52641"
+    ],
+    "approxLat": 40.97,
+    "approxLng": -91.565,
+    "footprintRadiusMeters": 200,
+    "description": "SP Group's US factory for polyurethane and vacuum-formed plastic components.",
+    "source": "https://www.sp-group.com/en/contact",
+    "parentName": "SP Group",
+    "coordsExact": false
+  },
+  {
+    "name": "SP Moulding Juelsminde Injection Moulding Plant (Klakring)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Juelsminde",
+    "country": "Danmark",
+    "address": "Savværksvej 28, Klakring, 7130 Juelsminde",
+    "geoQueries": [
+      "SP Moulding Juelsminde",
+      "Savværksvej 28, 7130 Juelsminde"
+    ],
+    "approxLat": 55.74,
+    "approxLng": 9.97,
+    "footprintRadiusMeters": 200,
+    "description": "SP Moulding injection-moulding factory producing precision plastic components for industrial and healthcare customers.",
+    "source": "https://www.sp-group.com/en/contact",
+    "parentName": "SP Group",
+    "coordsExact": false
+  },
+  {
+    "name": "SP Meditec Helsingør Medical Device Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Helsingør",
+    "country": "Danmark",
+    "address": "Fabriksvej 17C, 3000 Helsingør",
+    "geoQueries": [
+      "SP Meditec Helsingør",
+      "Fabriksvej 17C, 3000 Helsingør"
+    ],
+    "approxLat": 56.025,
+    "approxLng": 12.585,
+    "footprintRadiusMeters": 180,
+    "description": "SP Meditec production of injection-moulded medical device components in cleanroom conditions.",
+    "source": "https://www.sp-group.com/en/contact",
+    "parentName": "SP Group",
+    "coordsExact": false
+  },
+  {
+    "name": "OGM Oxford Precision Moulding Plant (Yarnton)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Yarnton (Oxford)",
+    "country": "UK",
+    "address": "Oxford Pioneer Park, Mead Road, Yarnton, Oxfordshire OX5 1QU",
+    "geoQueries": [
+      "OGM Yarnton",
+      "Oxford Pioneer Park, Mead Road, Yarnton OX5 1QU"
+    ],
+    "approxLat": 51.803,
+    "approxLng": -1.31,
+    "footprintRadiusMeters": 180,
+    "description": "OGM (SP Group subsidiary) precision injection moulding plant for medical and healthcare components.",
+    "source": "https://www.sp-group.com/en/contact",
+    "parentName": "SP Group",
+    "coordsExact": false
+  },
+  {
+    "name": "GRK Sverige Head Office (Boden)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Boden",
+    "country": "Sverige",
+    "address": "Teknikvägen 13, 961 50 Boden",
+    "geoQueries": [
+      "GRK Sverige Boden",
+      "Teknikvägen 13, 961 50 Boden"
+    ],
+    "approxLat": 65.825,
+    "approxLng": 21.66,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of GRK Sverige AB, GRK's Swedish rail and infrastructure construction subsidiary.",
+    "source": "https://www.grk.fi/en/contact",
+    "parentName": "GRK Infra",
+    "coordsExact": false
+  },
+  {
+    "name": "GRK Eesti Head Office (Tartu)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tartu",
+    "country": "Estonia",
+    "address": "Spektri 6, 50411 Tartu",
+    "geoQueries": [
+      "GRK Eesti Tartu",
+      "Spektri 6, Tartu"
+    ],
+    "approxLat": 58.36,
+    "approxLng": 26.69,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of GRK Eesti AS, GRK's Estonian road, rail and bridge construction subsidiary.",
+    "source": "https://www.grk.fi/en/contact",
+    "parentName": "GRK Infra",
+    "coordsExact": false
   }
 ]
