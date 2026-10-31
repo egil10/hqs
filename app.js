@@ -1659,14 +1659,14 @@
     updateSitePanel();
   }
 
-  function stat(label, value) {
-    return `<div class="stat"><span class="stat-label">${label}</span><span class="stat-value">${value}</span></div>`;
-  }
-
   function formatPrice(p) {
     const n = Number(p);
     if (!isFinite(n)) return String(p);
     return n.toLocaleString("en-US", { maximumFractionDigits: n >= 100 ? 1 : 2 });
+  }
+
+  function fact(label, value) {
+    return `<div class="fact"><span class="fact-label">${label}</span><span class="fact-value">${value}</span></div>`;
   }
 
   function renderCompanyCard(c) {
@@ -1675,41 +1675,42 @@
     const q = c.quote;
     const sub = [c.city, SECTOR_LABELS[c.sector] || c.sector].filter(Boolean).join(" · ");
 
-    const stats = [
-      stat("Price", q ? `${formatPrice(q.price)} ${escapeHtml(q.currency)}` : "–"),
-      stat("1M", q ? formatChange(q.change1m) || "–" : "–"),
-      stat(activeFund === "all" ? "Holding" : `${activeFund} holding`, `${formatCompactValue(holdingOf(c))} NOK`)
+    const facts = [
+      fact("Price", q ? `${formatPrice(q.price)} ${escapeHtml(q.currency)}` : "–"),
+      fact("1M", q ? formatChange(q.change1m) || "–" : "–"),
+      fact(activeFund === "all" ? "Holding" : activeFund, `${formatCompactValue(holdingOf(c))} NOK`)
     ].join("");
 
     sheet.setAttribute("data-rank", c.rank);
     sheet.innerHTML = `
-      <div class="sheet-top">
-        <div class="sheet-head-link" data-action="company" title="Back to company (Esc)" style="display:flex;gap:9px;flex:1;min-width:0">
+      <div class="card-head">
+        <div class="card-id" data-action="company" title="Back to company (Esc)">
           ${renderLogoHtml(c)}
-          <div class="sheet-head">
-            <div class="sheet-title">${escapeHtml(c.shortName)}</div>
-            <div class="sheet-sub">${escapeHtml(sub)}</div>
+          <div class="card-id-text">
+            <div class="card-title">${escapeHtml(c.shortName)}</div>
+            <div class="card-sub">${escapeHtml(sub)}</div>
           </div>
         </div>
-        <button class="close-btn" data-action="close" title="Close">&times;</button>
+        <button class="card-close" data-action="close" title="Close">&times;</button>
       </div>
-      <div class="stats">${stats}</div>
-      <div class="sheet-actions">
-        <button class="action-btn" data-action="zoom-hq">Zoom</button>
-        ${sites.length ? `<button class="action-btn" data-action="fit">All sites</button>` : ""}
-        ${c.website ? `<a class="action-btn" href="${escapeHtml(c.website)}" target="_blank" rel="noopener">Web ↗</a>` : ""}
+      <div class="card-facts">${facts}</div>
+      <div class="card-actions">
+        <button class="opt" data-action="zoom-hq">Zoom</button>
+        ${sites.length ? `<button class="opt" data-action="fit">All sites</button>` : ""}
+        ${c.website ? `<a class="opt" href="${escapeHtml(c.website)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
       </div>
       <div class="site-panel" id="sitePanel" hidden></div>
       ${
         sites.length
-          ? `<div class="sub-head"><span>Sites</span><span>${sites.length}</span></div>
-      <div class="sub-list">
+          ? `<div class="list-head card-list-head"><span>${sites.length === 1 ? "1 site" : `${sites.length} sites`}</span></div>
+      <div class="card-list">
         ${sites
           .map(
             (f) => `
-          <div class="sub-row" data-fac-id="${escapeHtml(f.id)}" title="${escapeHtml(facilityLabel(f.facilityType))}">
+          <div class="sub-row" data-fac-id="${escapeHtml(f.id)}">
             ${typeDot(f.facilityType)}
             <span class="sub-name">${escapeHtml(f.shortName || f.name)}</span>
+            <span class="sub-type">${escapeHtml(facilityLabel(f.facilityType))}</span>
           </div>`
           )
           .join("")}
@@ -1738,13 +1739,16 @@
     }
     const where = [facilityLabel(f.facilityType), f.city, countryName(f.country)].filter(Boolean).join(" · ");
     panel.innerHTML = `
-      <div class="site-top">
+      <div class="site-head">
         ${typeDot(f.facilityType)}
-        <div class="site-name">${escapeHtml(f.shortName || f.name)}<div class="sheet-sub">${escapeHtml(where)}</div></div>
-        <button class="close-btn" data-action="company" title="Back to company (Esc)">&times;</button>
+        <div class="card-id-text">
+          <div class="site-name">${escapeHtml(f.shortName || f.name)}</div>
+          <div class="card-sub">${escapeHtml(where)}</div>
+        </div>
+        <button class="card-close" data-action="company" title="Back to company (Esc)">&times;</button>
       </div>
       ${f.description ? `<div class="sheet-desc" title="Click to expand">${escapeHtml(f.description)}</div>` : ""}
-      <button class="action-btn" data-action="zoom-site">Zoom to site</button>
+      <div class="card-actions site-actions"><button class="opt" data-action="zoom-site">Zoom to site</button></div>
     `;
     panel.hidden = false;
   }

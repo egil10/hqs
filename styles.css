@@ -693,75 +693,159 @@ kbd {
   font-weight: 600;
 }
 
-/* ---------- Detail sheet ---------- */
+/* ---------- Detail card (same language as the sidebar) ---------- */
 .detail-sheet {
   position: absolute;
   bottom: 12px;
   right: 12px;
   width: 300px;
   max-height: calc(100% - 70px);
-  overflow-y: auto;
-  background: rgba(255, 255, 255, 0.98);
-  backdrop-filter: blur(8px);
+  background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 10px;
-  padding: 12px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
   z-index: 100;
-  box-shadow: var(--shadow);
   display: none;
   flex-direction: column;
-  gap: 10px;
+  overflow: hidden;
 }
 
 .detail-sheet.visible {
   display: flex;
 }
 
-.sheet-top {
+.card-head {
   display: flex;
-  align-items: flex-start;
-  gap: 9px;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 10px 10px 12px;
 }
 
-.sheet-top .logo-box {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
+.card-id {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  cursor: pointer;
 }
 
-.sheet-top .logo-box img {
-  width: 22px;
-  height: 22px;
-}
-
-.sheet-head {
+.card-id-text {
   min-width: 0;
   flex: 1;
 }
 
-.sheet-title {
-  font-size: 13.5px;
+.card-title {
+  font-size: 13px;
   font-weight: 650;
-  line-height: 1.25;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.sheet-sub {
+.card-id:hover .card-title {
+  color: var(--accent);
+}
+
+.card-sub {
   font-size: 11px;
   color: var(--text-muted);
   margin-top: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.close-btn {
+.card-close {
+  width: 24px;
+  height: 24px;
   border: none;
   background: none;
-  font-size: 17px;
-  color: var(--text-muted);
+  border-radius: 5px;
+  font-size: 16px;
   line-height: 1;
-  padding: 0 2px;
+  color: var(--text-muted);
+  flex-shrink: 0;
 }
 
-.close-btn:hover {
+.card-close:hover {
+  background: var(--bg-hover);
   color: var(--text);
+}
+
+.card-facts {
+  display: flex;
+  gap: 18px;
+  padding: 0 12px 10px;
+}
+
+.fact {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.fact-label {
+  font-size: 10.5px;
+  color: var(--text-muted);
+}
+
+.fact-value {
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.card-actions {
+  display: flex;
+  gap: 2px;
+  padding: 0 8px 10px;
+}
+
+.opt {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.card-actions .opt {
+  color: var(--text-secondary);
+}
+
+.card-actions .opt:hover {
+  color: var(--text);
+}
+
+.site-panel {
+  border-top: 1px solid var(--border);
+  background: var(--bg-subtle);
+  padding: 10px 10px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.site-panel[hidden] {
+  display: none;
+}
+
+.site-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.site-head .dot {
+  margin-top: 5px;
+}
+
+.site-name {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.35;
 }
 
 .sheet-desc {
@@ -775,168 +859,45 @@ kbd {
   cursor: pointer;
 }
 
-.sheet-head-link {
-  cursor: pointer;
-}
-
-.sheet-head-link:hover .sheet-title {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.site-panel {
-  border: 1px solid var(--border);
-  background: var(--bg-subtle);
-  border-radius: var(--radius);
-  padding: 8px 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.site-panel[hidden] {
-  display: none;
-}
-
-.site-top {
-  display: flex;
-  align-items: flex-start;
-  gap: 7px;
-}
-
-.site-top .dot {
-  margin-top: 4px;
-}
-
-.site-name {
-  flex: 1;
-  min-width: 0;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-.site-panel .sheet-desc {
-  -webkit-line-clamp: 2;
-}
-
-.site-panel .action-btn {
-  flex: none;
-  align-self: flex-start;
-  height: 24px;
-  padding: 0 10px;
-}
-
 .sheet-desc.expanded {
   -webkit-line-clamp: unset;
 }
 
-.stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
+.site-actions {
+  padding: 0 0 4px;
+  margin-left: -6px;
 }
 
-.stat {
-  background: var(--bg-subtle);
-  padding: 6px 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  min-width: 0;
+.card-list-head {
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
 }
 
-.stat-label {
-  font-size: 9.5px;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-.stat-value {
-  font-size: 12px;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.sheet-actions {
-  display: flex;
-  gap: 4px;
-}
-
-.action-btn {
+.card-list {
   flex: 1;
-  height: 28px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  text-decoration: none;
-  font-size: 11.5px;
-  font-weight: 500;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--text-secondary);
-  white-space: nowrap;
-  transition: all 0.12s ease;
-}
-
-.action-btn:hover {
-  border-color: var(--text);
-  color: var(--text);
-}
-
-.action-btn.primary,
-.action-btn.primary:hover {
-  background: var(--text);
-  border-color: var(--text);
-  color: #fff;
-}
-
-.sub-head {
-  font-size: 10px;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  display: flex;
-  justify-content: space-between;
-}
-
-.sub-list {
-  display: flex;
-  flex-direction: column;
-  max-height: 200px;
+  min-height: 0;
+  max-height: 260px;
   overflow-y: auto;
-  margin: -4px -6px 0;
+  padding-bottom: 6px;
 }
 
 .sub-row {
-  font-size: 11.5px;
-  padding: 5px 6px;
-  border-radius: 5px;
-  cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 9px;
+  padding: 6px 12px;
+  border-left: 2px solid transparent;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .sub-row:hover {
-  background: var(--bg-hover);
+  background: var(--bg-subtle);
 }
 
 .sub-row.selected {
   background: var(--bg-active);
+  border-left-color: var(--accent);
 }
 
 .sub-name {
@@ -948,7 +909,7 @@ kbd {
 }
 
 .sub-type {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-muted);
   flex-shrink: 0;
 }
