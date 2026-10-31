@@ -26,3 +26,8 @@ Endúr
 Archer
 Odfjell Technology
 DFDS
+Lassila & Tikanoja -- skipped: company site lists no named plants/addresses beyond HQ (Kerava site already exists); web search budget exhausted
+Klaveness Combination Carriers
+Solstad Offshore
+Magnora -- skipped: development-stage renewables portfolio, no confirmed operating sites beyond HQ
+Orrön Energy -- skipped: company lists only Karskruv (already in repo) as operating asset plus 27% Cloudberry stake; note existing MLK entry may be stale

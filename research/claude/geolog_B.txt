@@ -83,3 +83,32 @@ NOGEO   Moreld | Ocean Installer & Global Maritime Aberdeen Offices (Aberdeen In
 NOGEO   Moreld | Ocean Installer Rio de Janeiro Office
 OK      Moreld | Global Maritime Singapore Office (The Arcade) | The Arcade, 11 Collyer Quay, Singapore -> building/yes The Arcade, 11, Collyer Quay, Golden Shoe, Civic District, Downtown Co
 OK      Finnair Plc | Finnair Cargo COOL Nordic Cargo Hub (Helsinki Airport) | Rahtitie 1, 01530 Vantaa -> building/warehouse Avia Cargo, 1, Rahtitie, Lentokenttä, Aviapoliksen suuralue, Vantaa, H
+OK      Paratus Energy Services | Paratus Energy Services Registered Headquarters (Par-la-Ville Place, Bermuda) | 14 Par-la-Ville Road, Hamilton -> building/office Par-La-Ville Place, 14, Par-La-Ville Road, City of Hamilton, HM 08, Be
+OK      Paratus Energy Services | Paratus Energy Services London Management Office (10 Eastcheap) | 10 Eastcheap, London -> building/yes 10, Eastcheap, Leadenhall Market, Monument, City of London, Greater Lo
+OK      Endúr | Endúr Maritime Laksevåg Shipyard (Bergen) | Damsgårdsveien 119, 5160 Laksevåg -> place/house 119, Damsgårdsveien, Damsgård, Laksevåg, Bergen, Vestland, 5160, Norge
+OK      Endúr | Endúr Maritime Straume Facility (Sotra) | Idrettsvegen 132, 5353 Straume -> place/house 132, Idrettsvegen, Straume Næringspark, Ebbesvika, Straume, Øygarden, 
+OK      Endúr | BMO Entreprenør Base (Skollenborg, Kongsberg) | Skrubbmoen 6, 3619 Skollenborg -> place/house 6, Skrubbmoen, Skollenborg, Kongsberg, Sandsværmoen, 3619, Norge
+OK      Endúr | Repstad Anlegg Kristiansand Base | Skibåsen 11, 4636 Kristiansand -> place/house 11, Skibåsen, Sørlandsparken, Hånes, Kristiansand, Agder, 4636, Norge
+OK      Endúr | Totalbetong Precast Concrete Plant (Bryne) | Martin Vagles veg 7, 4344 Bryne -> place/house 7, Martin Vagles veg, Line, Bryne, Time, Rogaland, 4344, Norge
+NOGEO   Endúr | Marcon-Gruppen i Sverige Head Office (Ängelholm)
+OK      Archer | Archer Sandnes Main Office & Operations Base | Archer Sandnes -> man_made/works Archer, 444, Stangaland, Sandnes, Rogaland, 4316, Norge
+OK      Archer | Archer House UK Base (Blackburn, Aberdeen) | Archer House, Blackburn, Aberdeen -> building/industrial Archer House, Main Road, Aberdeen City, Aberdeenshire, Alba / Scotland
+NOGEO   Archer | Archer Australia Facility (Malaga, Perth)
+OK      Archer | Archer Argentina Office (Buenos Aires) | Carlos Pellegrini 1023, C1009ABU -> place/house 1023, Carlos Pellegrini, Retiro, Buenos Aires, Comuna 1, Ciudad Autóno
+OK      Archer | Archer Gdańsk Engineering & Support Centre (Olivia Business Centre) | Olivia Business Centre, Aleja Grunwaldzka 472, Gdańsk -> building/commercial Olivia Four, 472B, Aleja Grunwaldzka, Olivia Centre, Oliwa, Gdańsk, wo
+NOGEO   Odfjell Technology | Odfjell Technology Ltd. Head Office (Prime Four, Kingswells, Aberdeen)
+NOGEO   Odfjell Technology | Odfjell Technology Well Services Base (Jebel Ali Free Zone, Dubai)
+NOGEO   Odfjell Technology | Odfjell Technology Well Services Base (Mussafah, Abu Dhabi)
+NOGEO   Odfjell Technology | Odfjell Arabia Drilling Services Base (Al Qatif, Eastern Province)
+OK      Odfjell Technology | Odfjell Technology Well Services Base (Coevorden) | Stephensonweg 18, Coevorden -> place/house 18, Stephensonweg, Coevorden, Drenthe, Nederland, 7741 KW, Nederland
+OK      DFDS | DFDS Shared Services Centre (Globis, Poznań) | Franklina Roosevelta 22, Poznań -> building/office Bałtyk, 22, Franklina Roosevelta, Jeżyce, Poznań, województwo wielkopo
+NOGEO   DFDS | DFDS Istanbul Pendik Ro-Ro Port Terminal (ex-U.N. Ro-Ro)
+NOGEO   DFDS | DFDS Trieste Ro-Ro Port Terminal
+OK      Klaveness Combination Carriers | Klaveness Combination Carriers Singapore Office (Republic Plaza) | Republic Plaza, 9 Raffles Place, Singapore -> building/yes Republic Plaza, 9, Raffles Place, Raffles Park, Civic District, Downto
+OK      Klaveness Combination Carriers | Klaveness Combination Carriers Dubai Branch (Saba Tower 1, JLT) | Saba Tower 1 JLT -> building/commercial Saba Tower 1, JLT Cluster E, تلال الإمارات, أبراج بحيرات الجميرا, دبي,
+NOGEO   Klaveness Combination Carriers | Klaveness Shore Services Manila Office (MOA Complex, Pasay)
+OK      Solstad Offshore | Solstad Offshore Base Husøy (Avaldsnes, Karmøy) | Husøyvegen 175, 4262 Avaldsnes -> place/house 175, Husøyvegen, Velle, Avaldsnes, Karmøy, Rogaland, 4262, Norge
+NOGEO   Solstad Offshore | Solstad Aberdeen Office (NEO House)
+NOGEO   Solstad Offshore | Solstad Singapore Office (International Business Park)
+NOGEO   Solstad Offshore | Solstad Manila Crewing Office (MetPark, Pasay)
+NOGEO   Solstad Offshore | Solstad Macaé Operations Base (Imbetiba)

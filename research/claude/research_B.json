@@ -1922,5 +1922,150 @@
     "footprintRadiusMeters": 300,
     "description": "DFDS port terminal in Trieste, the European end of its Turkey-Italy freight ferry corridor.",
     "source": "https://en.wikipedia.org/wiki/DFDS"
+  },
+  {
+    "parentName": "Klaveness Combination Carriers",
+    "name": "Klaveness Combination Carriers Singapore Office (Republic Plaza)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "9 Raffles Place, #16-02 Republic Plaza, Singapore 048619",
+    "geoQueries": [
+      "Republic Plaza, 9 Raffles Place, Singapore",
+      "9 Raffles Place, Singapore 048619"
+    ],
+    "approxLat": 1.284,
+    "approxLng": 103.851,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Seat of Klaveness Combination Carriers Pte. Ltd. and Klaveness Asia, handling chartering and operations of KCC's CABU/CLEANBU combination carriers in Asia.",
+    "source": "https://www.klaveness.com/contact/offices"
+  },
+  {
+    "parentName": "Klaveness Combination Carriers",
+    "name": "Klaveness Combination Carriers Dubai Branch (Saba Tower 1, JLT)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "address": "Unit 2201, Saba Tower 1, Cluster E, Jumeirah Lake Towers, Dubai",
+    "geoQueries": [
+      "Saba Tower 1, Jumeirah Lake Towers, Dubai",
+      "Saba Tower 1 JLT"
+    ],
+    "approxLat": 25.07,
+    "approxLng": 55.142,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Free-zone branch of Klaveness Combination Carriers serving Middle East caustic soda and product tanker trades.",
+    "source": "https://www.klaveness.com/contact/offices"
+  },
+  {
+    "parentName": "Klaveness Combination Carriers",
+    "name": "Klaveness Shore Services Manila Office (MOA Complex, Pasay)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Pasay",
+    "country": "Philippines",
+    "address": "5F, FiveE-com Center, Harbour Drive, MOA Complex, Pasay City 1300",
+    "geoQueries": [
+      "Five E-com Center, Mall of Asia Complex, Pasay",
+      "FiveE-com Center Pasay"
+    ],
+    "approxLat": 14.533,
+    "approxLng": 120.983,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Klaveness Shore Services Inc., providing fleet operations, technical and crewing support to the Klaveness/KCC fleet.",
+    "source": "https://www.klaveness.com/contact/offices"
+  },
+  {
+    "parentName": "Solstad Offshore",
+    "name": "Solstad Offshore Base Husøy (Avaldsnes, Karmøy)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Avaldsnes",
+    "country": "Norge",
+    "address": "Husøyvegen 175, 4262 Avaldsnes",
+    "geoQueries": [
+      "Husøyvegen 175, 4262 Avaldsnes",
+      "Solstad Offshore Base Husøy",
+      "Husøy, Karmøy"
+    ],
+    "approxLat": 59.392,
+    "approxLng": 5.29,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Solstad's quayside offshore base at Husøy on Karmøy used for vessel lay-up, mobilisation and equipment storage.",
+    "source": "https://www.solstad.com/contact/"
+  },
+  {
+    "parentName": "Solstad Offshore",
+    "name": "Solstad Aberdeen Office (NEO House)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Aberdeen",
+    "country": "UK",
+    "address": "NEO House, Riverside Drive, Aberdeen AB11 7LH",
+    "geoQueries": [
+      "NEO House, Riverside Drive, Aberdeen",
+      "Riverside Drive, Aberdeen AB11 7LH"
+    ],
+    "approxLat": 57.137,
+    "approxLng": -2.096,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Solstad's UK office managing vessel operations and chartering for the North Sea.",
+    "source": "https://www.solstad.com/contact/"
+  },
+  {
+    "parentName": "Solstad Offshore",
+    "name": "Solstad Singapore Office (International Business Park)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "1A International Business Park #05-02, Singapore 609933",
+    "geoQueries": [
+      "1A International Business Park, Singapore 609933",
+      "1A International Business Park, Singapore"
+    ],
+    "approxLat": 1.327,
+    "approxLng": 103.746,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Solstad's Asia-Pacific office for offshore vessel operations.",
+    "source": "https://www.solstad.com/contact/"
+  },
+  {
+    "parentName": "Solstad Offshore",
+    "name": "Solstad Manila Crewing Office (MetPark, Pasay)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Pasay",
+    "country": "Philippines",
+    "address": "12th floor, MetPark Business Center Tower A, Roxas Blvd. corner Road 2, Metropolitan Park, Pasay 1300",
+    "geoQueries": [
+      "Metropolitan Park, Roxas Boulevard, Pasay",
+      "MetPark Business Center, Pasay"
+    ],
+    "approxLat": 14.537,
+    "approxLng": 120.988,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Solstad's Philippine office for seafarer recruitment and crew management.",
+    "source": "https://www.solstad.com/contact/"
+  },
+  {
+    "parentName": "Solstad Offshore",
+    "name": "Solstad Macaé Operations Base (Imbetiba)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Macaé",
+    "country": "Brazil",
+    "address": "Rua Abilio Moreira de Miranda 606, Imbetiba, 27915-250 Macaé, RJ",
+    "geoQueries": [
+      "Rua Abilio Moreira de Miranda 606, Macaé",
+      "Imbetiba, Macaé"
+    ],
+    "approxLat": -22.38,
+    "approxLng": -41.78,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Solstad's Brazilian operations office in Macaé supporting its vessels on Petrobras contracts.",
+    "source": "https://www.solstad.com/contact/"
   }
 ]
