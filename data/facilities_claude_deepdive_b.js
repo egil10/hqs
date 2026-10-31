@@ -3,19 +3,6 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
   {
     id: "fac-claude-ddb-001",
     parentName: "Frontline",
-    name: "Frontline Shipping Singapore Office (Guoco Tower)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Singapore",
-    country: "Singapore",
-    lat: 1.27704,
-    lng: 103.84569,
-    address: "1 Wallich Street, Guoco Tower #14-02, Singapore 078881",
-    footprintRadiusMeters: 160,
-    description: "Frontline Shipping Singapore Pte Ltd, the group's Asian chartering and commercial office for its crude and product tanker fleet."
-  },
-  {
-    id: "fac-claude-ddb-002",
-    parentName: "Frontline",
     name: "Frontline Corporate Services Glasgow Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Glasgow",
@@ -27,7 +14,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Frontline Corporate Services office in Glasgow providing accounting and corporate administration for the Frontline group."
   },
   {
-    id: "fac-claude-ddb-003",
+    id: "fac-claude-ddb-002",
     parentName: "Frontline",
     name: "Frontline Management (Bermuda) Office (Par-la-Ville Place)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -40,7 +27,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Frontline Management (Bermuda) Ltd., the group's Bermuda management company at Par-la-Ville Place."
   },
   {
-    id: "fac-claude-ddb-004",
+    id: "fac-claude-ddb-003",
     parentName: "TGS",
     name: "TGS Fredrikstad Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -53,7 +40,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "TGS Norwegian operations office in Fredrikstad."
   },
   {
-    id: "fac-claude-ddb-005",
+    id: "fac-claude-ddb-004",
     parentName: "TGS",
     name: "TGS Calgary Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -66,7 +53,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "TGS Canadian office serving its well-data and seismic data library business in Western Canada."
   },
   {
-    id: "fac-claude-ddb-006",
+    id: "fac-claude-ddb-005",
     parentName: "TGS",
     name: "TGS Perth Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -79,20 +66,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "TGS Asia-Pacific office in Perth for Australian multi-client seismic and imaging work."
   },
   {
-    id: "fac-claude-ddb-007",
-    parentName: "TGS",
-    name: "TGS Kuala Lumpur Office (Menara Maxis)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Kuala Lumpur",
-    country: "Malaysia",
-    lat: 3.15815,
-    lng: 101.71304,
-    address: "Level 33, Suite E, Menara Maxis, KL City Centre, 50088 Kuala Lumpur",
-    footprintRadiusMeters: 160,
-    description: "TGS Southeast Asia office in Kuala Lumpur supporting regional seismic acquisition and imaging."
-  },
-  {
-    id: "fac-claude-ddb-008",
+    id: "fac-claude-ddb-006",
     parentName: "Hafnia",
     name: "Hafnia Copenhagen Office (Hellerup)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -105,7 +79,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Hafnia's Copenhagen office for commercial management, chartering and pool operations of its product and chemical tanker fleet."
   },
   {
-    id: "fac-claude-ddb-009",
+    id: "fac-claude-ddb-007",
     parentName: "Hafnia",
     name: "Hafnia Houston Office (Post Oak)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -118,20 +92,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Hafnia's Americas chartering and operations office for its product tanker pools."
   },
   {
-    id: "fac-claude-ddb-010",
-    parentName: "Hafnia",
-    name: "Hafnia Dubai Office (Tamweel Tower, JLT)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Dubai",
-    country: "United Arab Emirates",
-    lat: 25.0804,
-    lng: 55.15145,
-    address: "Tamweel Tower, Unit 304, Cluster U, Jumeirah Lake Towers, Dubai",
-    footprintRadiusMeters: 160,
-    description: "Hafnia's Middle East chartering and operations office."
-  },
-  {
-    id: "fac-claude-ddb-011",
+    id: "fac-claude-ddb-008",
     parentName: "BW LPG",
     name: "BW LPG Singapore Global Headquarters (Mapletree Business City)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -144,7 +105,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Operating headquarters of BW LPG, the world's largest VLGC owner/operator, housing commercial, technical and ship management functions."
   },
   {
-    id: "fac-claude-ddb-012",
+    id: "fac-claude-ddb-009",
     parentName: "BW LPG",
     name: "BW LPG LLC Houston Office (Four Oaks Place)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -157,33 +118,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "BW LPG's US commercial office for chartering of LPG exported from the US Gulf Coast."
   },
   {
-    id: "fac-claude-ddb-013",
+    id: "fac-claude-ddb-010",
     parentName: "BW LPG",
     name: "BW LPG Product Services Madrid Office (La Finca)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Pozuelo de Alarcón",
     country: "Spain",
-    lat: 40.41936,
-    lng: -3.80112,
+    lat: 40.41819,
+    lng: -3.80009,
     address: "Parque Empresarial La Finca, Paseo del Club Deportivo 1, Edificio 11, 28223 Pozuelo de Alarcón, Madrid",
     footprintRadiusMeters: 180,
     description: "Madrid office of BW LPG's Product Services LPG cargo trading and delivery business."
   },
   {
-    id: "fac-claude-ddb-014",
-    parentName: "BW LPG",
-    name: "BW LPG Manila Office (Century Diamond Tower, Makati)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Makati",
-    country: "Philippines",
-    lat: 14.56698,
-    lng: 121.02804,
-    address: "Unit 2, 33rd Floor, Century Diamond Tower, Kalayaan Avenue cor. Salamanca Street, Poblacion, Makati City 1210",
-    footprintRadiusMeters: 160,
-    description: "BW LPG's Philippine office supporting seafarer crewing for the VLGC fleet."
-  },
-  {
-    id: "fac-claude-ddb-015",
+    id: "fac-claude-ddb-011",
     parentName: "Norwegian Air Shuttle",
     name: "Widerøe Head Office (Norwegian subsidiary, Bodø)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -196,46 +144,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Widerøe's Flyveselskap, Norway's largest regional airline, wholly owned by Norwegian Air Shuttle since 2024."
   },
   {
-    id: "fac-claude-ddb-016",
-    parentName: "Norwegian Air Shuttle",
-    name: "Widerøe Technical Services Maintenance Base (Bodø Airport)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Bodø",
-    country: "Norge",
-    lat: 67.26439,
-    lng: 14.34775,
-    address: "Bodø lufthavn, 8001 Bodø",
-    footprintRadiusMeters: 300,
-    description: "Main base of Widerøe Technical Services, which performs Dash 8/Q-Series heavy and line maintenance for the Widerøe fleet."
-  },
-  {
-    id: "fac-claude-ddb-017",
-    parentName: "Norwegian Air Shuttle",
-    name: "Norwegian Technical Main Base (Oslo Gardermoen Part-145)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Gardermoen",
-    country: "Norge",
-    lat: 60.19787,
-    lng: 11.09968,
-    address: "Oslo lufthavn Gardermoen, 2060 Gardermoen",
-    footprintRadiusMeters: 350,
-    description: "Norwegian's main operating base and Part-145 technical base for its Boeing 737 fleet at Oslo Airport."
-  },
-  {
-    id: "fac-claude-ddb-018",
-    parentName: "Scatec",
-    name: "SN Aboitiz Power Magat Hydroelectric Plant (Scatec 50% JV)",
-    facilityType: "Offshore, Marine & Energy",
-    city: "Ramon",
-    country: "Philippines",
-    lat: 16.82688,
-    lng: 121.45559,
-    address: "Magat Hydroelectric Power Plant, Ramon, Isabela, Philippines",
-    footprintRadiusMeters: 300,
-    description: "360-388 MW hydropower plant on the Isabela-Ifugao border owned and operated by SN Aboitiz Power, a 50/50 Scatec-AboitizPower joint venture, with a 20 MW battery system added on site."
-  },
-  {
-    id: "fac-claude-ddb-019",
+    id: "fac-claude-ddb-012",
     parentName: "DNO",
     name: "DNO Norge Stavanger Office (North Sea Business incl. Sval Energi)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -248,7 +157,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Office of DNO Norge AS, which runs DNO's Norwegian and UK North Sea business, expanded in 2025 with the acquisition of Sval Energi."
   },
   {
-    id: "fac-claude-ddb-020",
+    id: "fac-claude-ddb-013",
     parentName: "Höegh Autoliners",
     name: "Höegh Autoliners Regional Operating Headquarters (Makati)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -261,20 +170,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Höegh Autoliners' regional operating headquarters in Manila, handling fleet operations, crewing and shared services for its PCTC fleet."
   },
   {
-    id: "fac-claude-ddb-021",
-    parentName: "Höegh Autoliners",
-    name: "Höegh Autoliners Singapore Office (Pasir Panjang Terminal Building 2)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Singapore",
-    country: "Singapore",
-    lat: 1.28342,
-    lng: 103.7771,
-    address: "33 Harbour Drive, 1st Floor, Pasir Panjang Terminal Building 2, Singapore 117606",
-    footprintRadiusMeters: 200,
-    description: "Höegh Autoliners' Singapore port office at the Pasir Panjang Automobile Terminal, where its car carriers berth (P12)."
-  },
-  {
-    id: "fac-claude-ddb-022",
+    id: "fac-claude-ddb-014",
     parentName: "Wallenius Wilhelmsen",
     name: "Gothenburg International Auto & RoRo Terminal (Wallenius Wilhelmsen)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -287,7 +183,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "240,000 m2 car and RoRo terminal with two quay positions in the Port of Gothenburg, operated by a Wallenius Wilhelmsen subsidiary under a 12-year contract from February 2026."
   },
   {
-    id: "fac-claude-ddb-023",
+    id: "fac-claude-ddb-015",
     parentName: "Cadeler",
     name: "Cadeler Vejle Office (Havneparken)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -300,20 +196,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Cadeler's Jutland office near offshore wind turbine OEMs and suppliers, supporting project and engineering work for its wind installation vessels."
   },
   {
-    id: "fac-claude-ddb-024",
+    id: "fac-claude-ddb-016",
     parentName: "Cadeler",
     name: "Cadeler Rotterdam Office (Westerlaantoren)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Rotterdam",
     country: "Netherlands",
-    lat: 51.90557,
-    lng: 4.47443,
+    lat: 51.90578,
+    lng: 4.47418,
     address: "Westerlaantoren, Westerlaan 20, 10th floor, 3016 CK Rotterdam",
     footprintRadiusMeters: 160,
     description: "Cadeler's Netherlands office supporting continental European offshore wind installation contracts."
   },
   {
-    id: "fac-claude-ddb-025",
+    id: "fac-claude-ddb-017",
     parentName: "Wilh. Wilhelmsen Holding",
     name: "Wilhelmsen Chemicals Marine Chemicals Plant (Kjøpmannskjær, Tønsberg)",
     facilityType: "Factory & Manufacturing",
@@ -326,33 +222,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "12,000 m2 Wilhelmsen Ships Service plant producing over 350 Unitor and Nalfleet marine chemical products, up to 500 tonnes per day."
   },
   {
-    id: "fac-claude-ddb-026",
+    id: "fac-claude-ddb-018",
     parentName: "Wilh. Wilhelmsen Holding",
     name: "NorSea Vestbase Supply Base (Kristiansund)",
     facilityType: "Offshore, Marine & Energy",
     city: "Kristiansund",
     country: "Norge",
-    lat: 63.10595,
-    lng: 7.79944,
+    lat: 63.10615,
+    lng: 7.78012,
     address: "Omagata 122, 6517 Kristiansund N",
     footprintRadiusMeters: 350,
     description: "NorSea's Vestbase at Vikan, the Norwegian Sea supply base serving fields such as Draugen, Heidrun and Aasta Hansteen."
   },
   {
-    id: "fac-claude-ddb-027",
-    parentName: "Wilh. Wilhelmsen Holding",
-    name: "NorSea Polarbase Supply Base (Rypefjord, Hammerfest)",
-    facilityType: "Offshore, Marine & Energy",
-    city: "Hammerfest",
-    country: "Norge",
-    lat: 70.63094,
-    lng: 23.64566,
-    address: "Polarbase, Rypefjord, 9610 Rypefjord",
-    footprintRadiusMeters: 350,
-    description: "NorSea's Barents Sea supply base at Rypefjord outside Hammerfest serving Snøhvit, Goliat and Johan Castberg."
-  },
-  {
-    id: "fac-claude-ddb-028",
+    id: "fac-claude-ddb-019",
     parentName: "Stolt-Nielsen",
     name: "Stolthaven New Orleans Chemical Tank Terminal (Braithwaite)",
     facilityType: "Offshore, Marine & Energy",
@@ -365,7 +248,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Wholly owned Stolthaven bulk liquid chemical terminal on the Mississippi River with about 90 tanks and roughly 380,000 m3 capacity."
   },
   {
-    id: "fac-claude-ddb-029",
+    id: "fac-claude-ddb-020",
     parentName: "Stolt-Nielsen",
     name: "Stolthaven Moerdijk Bulk Liquid Terminal",
     facilityType: "Offshore, Marine & Energy",
@@ -378,7 +261,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Wholly owned 45-tank chemical storage terminal (about 48,000 m3) in the lock-free port of Moerdijk between Rotterdam and Antwerp."
   },
   {
-    id: "fac-claude-ddb-030",
+    id: "fac-claude-ddb-021",
     parentName: "MPC Container Ships",
     name: "MPC Container Ships GmbH & Co. KG Hamburg Office (Palmaille)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -391,7 +274,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Hamburg operating subsidiary of MPC Container Ships handling fleet management and chartering of its feeder container ships."
   },
   {
-    id: "fac-claude-ddb-031",
+    id: "fac-claude-ddb-022",
     parentName: "MPC Container Ships",
     name: "MPC Container Ships Invest B.V. Office (Rhoon, Rotterdam)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -404,7 +287,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Dutch vessel-owning and investment subsidiary of MPC Container Ships near Rotterdam."
   },
   {
-    id: "fac-claude-ddb-032",
+    id: "fac-claude-ddb-023",
     parentName: "Elmera Group",
     name: "Fjordkraft Sandefjord Regional Office (Elmera Group)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -417,7 +300,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Fjordkraft AS regional office (about 25 employees) serving Elmera Group's electricity retail customers in Eastern Norway."
   },
   {
-    id: "fac-claude-ddb-033",
+    id: "fac-claude-ddb-024",
     parentName: "Elmera Group",
     name: "Fjordkraft Trondheim Regional Office (Sluppen, Elmera Group)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -430,7 +313,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Fjordkraft AS regional office (about 21 employees) in Trondheim for Elmera Group's Central Norway electricity retail business."
   },
   {
-    id: "fac-claude-ddb-034",
+    id: "fac-claude-ddb-025",
     parentName: "Euronav",
     name: "Windcat Workboats Base (CMB.TECH/Euronav, IJmuiden)",
     facilityType: "Offshore, Marine & Energy",
@@ -443,33 +326,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Base of Windcat, CMB.TECH's offshore wind crew transfer and commissioning service vessel operator (CMB.TECH merged into Euronav in 2025)."
   },
   {
-    id: "fac-claude-ddb-035",
-    parentName: "Euronav",
-    name: "CMB.TECH Hong Kong Office (Harcourt House, Wanchai)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Hong Kong",
-    country: "Hong Kong",
-    lat: 22.27894,
-    lng: 114.16999,
-    address: "Room 2503-05, 25/F, Harcourt House, 39 Gloucester Road, Wanchai, Hong Kong",
-    footprintRadiusMeters: 160,
-    description: "CMB.TECH (ex-Euronav/Bocimar) Asian office for dry bulk and container ship chartering and newbuilding supervision."
-  },
-  {
-    id: "fac-claude-ddb-036",
-    parentName: "Euronav",
-    name: "CMB.TECH Singapore Office (Guoco Tower)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Singapore",
-    country: "Singapore",
-    lat: 1.27704,
-    lng: 103.84569,
-    address: "1 Wallich Street, #14-02 Guoco Tower, Singapore 078881",
-    footprintRadiusMeters: 160,
-    description: "CMB.TECH's Singapore office, including its Asia-Pacific ammonia-fuel operations team."
-  },
-  {
-    id: "fac-claude-ddb-037",
+    id: "fac-claude-ddb-026",
     parentName: "Euronav",
     name: "CMB.TECH Hamburg Office (Raboisen)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -482,7 +339,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "CMB.TECH German office for container ship chartering and fleet services."
   },
   {
-    id: "fac-claude-ddb-038",
+    id: "fac-claude-ddb-027",
     parentName: "General Oceans",
     name: "Tritech Ulverston Facility (Cumbria)",
     facilityType: "Factory & Manufacturing",
@@ -495,7 +352,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Tritech (General Oceans) engineering and production site in Ulverston for subsea sonar products."
   },
   {
-    id: "fac-claude-ddb-039",
+    id: "fac-claude-ddb-028",
     parentName: "General Oceans",
     name: "Nortek Trondheim Office",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -508,7 +365,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Nortek (General Oceans) office in Trondheim working on acoustic Doppler current and wave sensor technology."
   },
   {
-    id: "fac-claude-ddb-040",
+    id: "fac-claude-ddb-029",
     parentName: "General Oceans",
     name: "Nortek USA Office (Boston Marine Park)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -521,7 +378,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Nortek's US subsidiary in Boston's Marine Industrial Park, selling and supporting its acoustic ocean sensors in the Americas."
   },
   {
-    id: "fac-claude-ddb-041",
+    id: "fac-claude-ddb-030",
     parentName: "General Oceans",
     name: "Klein Marine Systems Side-Scan Sonar Facility (Newburyport)",
     facilityType: "Factory & Manufacturing",
@@ -534,7 +391,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Base of General Oceans brand Klein Marine Systems, maker of side-scan sonar systems."
   },
   {
-    id: "fac-claude-ddb-042",
+    id: "fac-claude-ddb-031",
     parentName: "Fortum",
     name: "Oskarshamn Nuclear Power Plant (Fortum 43%)",
     facilityType: "Offshore, Marine & Energy",
@@ -547,7 +404,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Swedish nuclear power plant (OKG, operated by Uniper) in which Fortum owns a 43% share."
   },
   {
-    id: "fac-claude-ddb-043",
+    id: "fac-claude-ddb-032",
     parentName: "Fortum",
     name: "Forsmark Nuclear Power Plant (Fortum 22%)",
     facilityType: "Offshore, Marine & Energy",
@@ -560,20 +417,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Three-unit Swedish nuclear power plant operated by Vattenfall's Forsmarks Kraftgrupp, in which Fortum holds about 22%."
   },
   {
-    id: "fac-claude-ddb-044",
-    parentName: "Fortum",
-    name: "Fortum Meri-Pori Power Plant (Tahkoluoto, Pori)",
-    facilityType: "Offshore, Marine & Energy",
-    city: "Pori",
-    country: "Finland",
-    lat: 61.63197,
-    lng: 21.40771,
-    address: "Tahkoluoto, 28880 Pori",
-    footprintRadiusMeters: 300,
-    description: "Fortum's coal-fired condensing plant at Tahkoluoto, held in reserve for the National Emergency Supply Agency through December 2026 and due to close in spring 2027."
-  },
-  {
-    id: "fac-claude-ddb-045",
+    id: "fac-claude-ddb-033",
     parentName: "Torm",
     name: "TORM Singapore Office (Six Battery Road)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -586,33 +430,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "TORM Singapore Pte. Ltd., the company's Asian commercial and chartering office for product tankers."
   },
   {
-    id: "fac-claude-ddb-046",
-    parentName: "Torm",
-    name: "TORM Shipping India Office (Leela Business Park, Mumbai)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Mumbai",
-    country: "India",
-    lat: 19.11094,
-    lng: 72.87352,
-    address: "2nd Floor, Leela Business Park, Andheri-Kurla Road, Andheri (E), Mumbai 400059",
-    footprintRadiusMeters: 160,
-    description: "TORM Shipping India, the group's largest technical management and crewing office outside Denmark."
-  },
-  {
-    id: "fac-claude-ddb-047",
-    parentName: "Torm",
-    name: "TORM Shipping Philippines Office (Salcedo Towers, Makati)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Makati",
-    country: "Philippines",
-    lat: 14.56165,
-    lng: 121.02439,
-    address: "7th Floor Salcedo Towers, 169 H.V. dela Costa Street, Salcedo Village, Makati City 1227",
-    footprintRadiusMeters: 160,
-    description: "TORM Shipping Phils., the group's Manila office for seafarer crewing and fleet support."
-  },
-  {
-    id: "fac-claude-ddb-048",
+    id: "fac-claude-ddb-034",
     parentName: "Torm",
     name: "TORM USA Office (Houston City West)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -625,7 +443,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "TORM USA LLC chartering and operations office serving the Americas product tanker market."
   },
   {
-    id: "fac-claude-ddb-049",
+    id: "fac-claude-ddb-035",
     parentName: "Dampskibsselskabet NORDEN",
     name: "NORDEN Singapore Office (Suntec Tower Five)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -638,20 +456,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NORDEN's main Asian dry cargo and tanker chartering and operations hub."
   },
   {
-    id: "fac-claude-ddb-050",
+    id: "fac-claude-ddb-036",
     parentName: "Dampskibsselskabet NORDEN",
     name: "NORDEN Annapolis Office (One Park Place)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Annapolis",
     country: "USA",
-    lat: 38.97662,
-    lng: -76.50279,
+    lat: 38.97674,
+    lng: -76.50321,
     address: "One Park Place, Suite 575, Annapolis, MD 21401",
     footprintRadiusMeters: 160,
     description: "NORDEN's US East Coast office for Atlantic dry cargo chartering and operations."
   },
   {
-    id: "fac-claude-ddb-051",
+    id: "fac-claude-ddb-037",
     parentName: "Dampskibsselskabet NORDEN",
     name: "NORDEN Houston Office (North Loop West)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -664,7 +482,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NORDEN's Houston office handling Americas project and dry cargo operations."
   },
   {
-    id: "fac-claude-ddb-052",
+    id: "fac-claude-ddb-038",
     parentName: "Dampskibsselskabet NORDEN",
     name: "NORDEN Rio de Janeiro Office (Praia de Botafogo)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -677,7 +495,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NORDEN's South American office for dry bulk chartering and operations."
   },
   {
-    id: "fac-claude-ddb-053",
+    id: "fac-claude-ddb-039",
     parentName: "Akastor",
     name: "HMH Houston Operational Center (Akastor 50% JV)",
     facilityType: "Factory & Manufacturing",
@@ -690,7 +508,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Main US operational center of HMH, the offshore drilling equipment and aftermarket services company owned 50/50 by Akastor and Baker Hughes."
   },
   {
-    id: "fac-claude-ddb-054",
+    id: "fac-claude-ddb-040",
     parentName: "Akastor",
     name: "HMH Global Headquarters (Amsterdam, Akastor 50% JV)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -701,5 +519,44 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     address: "Weerdestein 97, 1083 GG Amsterdam",
     footprintRadiusMeters: 160,
     description: "Corporate headquarters of HMH, the drilling equipment group jointly owned by Akastor and Baker Hughes."
+  },
+  {
+    id: "fac-claude-ddb-041",
+    parentName: "Moreld",
+    name: "Ocean Installer Head Office (Forus, Stavanger)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Stavanger",
+    country: "Norge",
+    lat: 58.895,
+    lng: 5.68644,
+    address: "Kanalsletta 8, Forus, 4033 Stavanger",
+    footprintRadiusMeters: 180,
+    description: "Head office of Moreld subsidiary Ocean Installer, a subsea and marine construction contractor."
+  },
+  {
+    id: "fac-claude-ddb-042",
+    parentName: "Moreld",
+    name: "Global Maritime Singapore Office (The Arcade)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Singapore",
+    country: "Singapore",
+    lat: 1.28362,
+    lng: 103.85204,
+    address: "11 Collyer Quay, #17-00 The Arcade, Singapore 049317",
+    footprintRadiusMeters: 160,
+    description: "Asia hub of Moreld's marine and offshore engineering consultancy Global Maritime."
+  },
+  {
+    id: "fac-claude-ddb-043",
+    parentName: "Finnair Plc",
+    name: "Finnair Cargo COOL Nordic Cargo Hub (Helsinki Airport)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Vantaa",
+    country: "Finland",
+    lat: 60.31189,
+    lng: 24.97378,
+    address: "Rahtitie 1, 01530 Vantaa",
+    footprintRadiusMeters: 300,
+    description: "Finnair Cargo's automated freight terminal at Helsinki Airport, opened in 2017, and seat of Finnair Cargo Oy and Finnair Cargo Terminal Operations Oy."
   }
 ]);

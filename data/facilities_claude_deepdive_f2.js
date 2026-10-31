@@ -2,32 +2,6 @@
 window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
   {
     id: "fac-claude-ddf2-001",
-    parentName: "Ovzon",
-    name: "Ovzon US LLC Herndon Government Satcom Office",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Herndon",
-    country: "USA",
-    lat: 38.95852,
-    lng: -77.41327,
-    address: "13461 Sunrise Valley Drive, Suite 110, Herndon, VA 20171",
-    footprintRadiusMeters: 160,
-    description: "Ovzon's US subsidiary office near Washington DC, serving US Department of Defense and government customers for the Ovzon 3 mobile satcom service."
-  },
-  {
-    id: "fac-claude-ddf2-002",
-    parentName: "Ovzon",
-    name: "Ovzon LLC Tampa Office (SOCOM customer hub)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Tampa",
-    country: "USA",
-    lat: 27.99795,
-    lng: -82.54662,
-    address: "5460 Beaumont Center Blvd, Suite 550, Tampa, FL 33634",
-    footprintRadiusMeters: 160,
-    description: "Ovzon's Tampa office, opened to be close to US Special Operations Command customers of its satellite communication service."
-  },
-  {
-    id: "fac-claude-ddf2-003",
     parentName: "Qt Group",
     name: "Qt Group Oslo R&D Office (former Trolltech)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -40,7 +14,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Qt framework engineering office in Nydalen, the birthplace of Qt (Trolltech)."
   },
   {
-    id: "fac-claude-ddf2-004",
+    id: "fac-claude-ddf2-002",
     parentName: "Qt Group",
     name: "Qt Group Berlin Adlershof R&D Office",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -53,7 +27,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "One of Qt's largest software development sites, located in the Adlershof science park."
   },
   {
-    id: "fac-claude-ddf2-005",
+    id: "fac-claude-ddf2-003",
     parentName: "Qt Group",
     name: "Qt Group Oulu R&D Office",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -66,33 +40,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Qt Group software engineering office in Oulu's Technopolis area."
   },
   {
-    id: "fac-claude-ddf2-006",
+    id: "fac-claude-ddf2-004",
     parentName: "Qt Group",
     name: "Qt Group Hamburg Quality Assurance Tools Office (froglogic)",
     facilityType: "R&D, Biotech & Medtech Lab",
     city: "Hamburg",
     country: "Germany",
-    lat: 53.56309,
-    lng: 9.91342,
+    lat: 53.56245,
+    lng: 9.91326,
     address: "Gasstr. 18, Haus 1, 22761 Hamburg",
     footprintRadiusMeters: 160,
     description: "Former froglogic office, now Qt Group's development site for the Squish GUI test automation and Coco code coverage tools."
   },
   {
-    id: "fac-claude-ddf2-007",
-    parentName: "Lindex Group",
-    name: "Lindex Alingsås Omnichannel Distribution Centre",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Alingsås",
-    country: "Sverige",
-    lat: 57.92988,
-    lng: 12.53647,
-    address: "Alingsås, Västra Götaland",
-    footprintRadiusMeters: 300,
-    description: "Lindex's ~40,000 m² highly automated omnichannel warehouse (≈EUR 110m), launched November 2024 to replace the Partille and Borås warehouses."
-  },
-  {
-    id: "fac-claude-ddf2-008",
+    id: "fac-claude-ddf2-005",
     parentName: "Lindex Group",
     name: "Stockmann Tallinn Department Store",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -105,7 +66,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Stockmann department store in Tallinn, part of the Stockmann division Lindex Group is reviewing for divestment."
   },
   {
-    id: "fac-claude-ddf2-009",
+    id: "fac-claude-ddf2-006",
     parentName: "Lindex Group",
     name: "Stockmann Riga Department Store",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -118,7 +79,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Stockmann department store in central Riga, part of the Stockmann division Lindex Group is reviewing for divestment."
   },
   {
-    id: "fac-claude-ddf2-010",
+    id: "fac-claude-ddf2-007",
     parentName: "Addnode Group",
     name: "Technia Sweden HQ (Addnode PLM Division)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -131,7 +92,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Technia, Addnode's largest subsidiary (PLM software and services, 600+ employees in 30+ offices), in Hagastaden."
   },
   {
-    id: "fac-claude-ddf2-011",
+    id: "fac-claude-ddf2-008",
     parentName: "Addnode Group",
     name: "Ida Infront Linköping Office (Addnode Process Management)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -144,7 +105,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Ida Infront, Addnode's provider of case and document management software (iipax) for public authorities."
   },
   {
-    id: "fac-claude-ddf2-012",
+    id: "fac-claude-ddf2-009",
     parentName: "Acast",
     name: "Acast UK HQ & Acast Studios London (Old Street)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -157,7 +118,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Acast's UK headquarters and podcast recording studios, opened December 2024 near Old Street; the UK is Acast's largest market outside Sweden."
   },
   {
-    id: "fac-claude-ddf2-013",
+    id: "fac-claude-ddf2-010",
     parentName: "Matas",
     name: "Matas Lynge Automated Logistics Center",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -170,7 +131,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Matas' 32,500 m² highly automated logistics center (≈DKK 500m) serving Matas stores and webshop, opened January 2025 and DGNB Gold-certified in 2026."
   },
   {
-    id: "fac-claude-ddf2-014",
+    id: "fac-claude-ddf2-011",
     parentName: "Matas",
     name: "KICKS Group Head Office Stockholm (Matas subsidiary)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -183,7 +144,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of KICKS, the Nordic beauty chain (≈260 stores in Sweden, Norway and Finland) wholly owned by Matas since 2023."
   },
   {
-    id: "fac-claude-ddf2-015",
+    id: "fac-claude-ddf2-012",
     parentName: "Tokmanni Group",
     name: "Dollarstore Head Office Kista (Tokmanni Group Sweden)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -196,20 +157,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Dollarstore, Tokmanni Group's Swedish discount chain (acquired 2023), which also runs Big Dollar in Denmark."
   },
   {
-    id: "fac-claude-ddf2-016",
-    parentName: "Appear",
-    name: "Appear Ltd. Southampton Office (University of Southampton Science Park)",
-    facilityType: "R&D, Biotech & Medtech Lab",
-    city: "Southampton (Chilworth)",
-    country: "UK",
-    lat: 50.96176,
-    lng: -1.424,
-    address: "University of Southampton Science Park, Chilworth, Southampton SO16 7NP",
-    footprintRadiusMeters: 200,
-    description: "Appear's UK subsidiary office at the Southampton Science Park."
-  },
-  {
-    id: "fac-claude-ddf2-017",
+    id: "fac-claude-ddf2-013",
     parentName: "Trifork Group",
     name: "Trifork Copenhagen Office (Nordhavn)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -222,7 +170,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Trifork's largest Copenhagen office for software development and digital transformation services."
   },
   {
-    id: "fac-claude-ddf2-018",
+    id: "fac-claude-ddf2-014",
     parentName: "Trifork Group",
     name: "Trifork Amsterdam Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -235,7 +183,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Trifork's Dutch office for software engineering and consulting services."
   },
   {
-    id: "fac-claude-ddf2-019",
+    id: "fac-claude-ddf2-015",
     parentName: "Trifork Group",
     name: "Trifork UK London Office (South Place)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -248,33 +196,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Trifork UK office, sharing the address with its CodeNode tech events venue."
   },
   {
-    id: "fac-claude-ddf2-020",
+    id: "fac-claude-ddf2-016",
     parentName: "F-Secure",
     name: "F-Secure Oulu R&D Office",
     facilityType: "R&D, Biotech & Medtech Lab",
     city: "Oulu",
     country: "Finland",
-    lat: 65.01265,
-    lng: 25.4719,
+    lat: 65.01266,
+    lng: 25.47223,
     address: "Kirkkokatu 13b, 90100 Oulu",
     footprintRadiusMeters: 160,
     description: "F-Secure's second Finnish engineering site, developing consumer security products."
   },
   {
-    id: "fac-claude-ddf2-021",
-    parentName: "F-Secure",
-    name: "F-Secure Kuala Lumpur Security Lab & APAC Hub (Mid Valley)",
-    facilityType: "R&D, Biotech & Medtech Lab",
-    city: "Kuala Lumpur",
-    country: "Malaysia",
-    lat: 3.11851,
-    lng: 101.67685,
-    address: "Suite 18.01, Level 18, The Gardens South Tower, Mid Valley City, Lingkaran Syed Putra, 59200 Kuala Lumpur",
-    footprintRadiusMeters: 160,
-    description: "F-Secure's Asia-Pacific hub and one of its threat research/security lab locations."
-  },
-  {
-    id: "fac-claude-ddf2-022",
+    id: "fac-claude-ddf2-017",
     parentName: "F-Secure",
     name: "F-Secure Poznań Development Office",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -287,7 +222,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "F-Secure's Polish software development office."
   },
   {
-    id: "fac-claude-ddf2-023",
+    id: "fac-claude-ddf2-018",
     parentName: "Yubico",
     name: "Yubico Inc. US Headquarters (Santa Clara)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -300,7 +235,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Yubico's US headquarters (its largest market), one of the two main offices near which YubiKeys are manufactured and finished (Sweden and USA)."
   },
   {
-    id: "fac-claude-ddf2-024",
+    id: "fac-claude-ddf2-019",
     parentName: "Proact IT Group",
     name: "Proact IT Norge Oslo Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -313,7 +248,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Registered business address of Proact IT Norge AS, Proact's Norwegian data infrastructure and cloud services subsidiary."
   },
   {
-    id: "fac-claude-ddf2-025",
+    id: "fac-claude-ddf2-020",
     parentName: "Truecaller",
     name: "Truecaller India Office & R&D Hub (Bengaluru)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -326,7 +261,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Truecaller's largest office outside Sweden (30,443 sq ft, up to 250 staff), opened March 2023 as the hub for India-first product development; India is Truecaller's largest market."
   },
   {
-    id: "fac-claude-ddf2-026",
+    id: "fac-claude-ddf2-021",
     parentName: "Note",
     name: "NOTE Pärnu Electronics Factory",
     facilityType: "Factory & Manufacturing",
@@ -339,7 +274,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NOTE's largest plant, specialising in industrialisation and volume production of labour-intensive electronics and box-build products."
   },
   {
-    id: "fac-claude-ddf2-027",
+    id: "fac-claude-ddf2-022",
     parentName: "Note",
     name: "NOTE Windsor Electronics Factory",
     facilityType: "Factory & Manufacturing",
@@ -352,7 +287,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NOTE's UK EMS plant for PCB assembly and small-to-medium box-build projects."
   },
   {
-    id: "fac-claude-ddf2-028",
+    id: "fac-claude-ddf2-023",
     parentName: "Note",
     name: "NOTE Hyvinkää Electronics Factory",
     facilityType: "Factory & Manufacturing",
@@ -365,7 +300,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NOTE's Finnish factory for small-to-medium volume electronics manufacturing."
   },
   {
-    id: "fac-claude-ddf2-029",
+    id: "fac-claude-ddf2-024",
     parentName: "Stillfront Group",
     name: "Goodgame Studios Hamburg Campus (Stillfront)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -378,7 +313,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Stillfront's largest game studio (Empire, Big Farm), wholly owned since 2018, in Hamburg-Bahrenfeld."
   },
   {
-    id: "fac-claude-ddf2-030",
+    id: "fac-claude-ddf2-025",
     parentName: "Gofore",
     name: "Gofore Helsinki Office (Siltasaari 10)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -391,7 +326,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Gofore's largest office, serving public-sector and enterprise digital transformation clients in the capital region."
   },
   {
-    id: "fac-claude-ddf2-031",
+    id: "fac-claude-ddf2-026",
     parentName: "Gofore",
     name: "Huld Espoo Office (Gofore Group, Keilasatama)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -404,7 +339,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Huld Oy, Gofore's embedded software, space and safety-critical systems engineering subsidiary."
   },
   {
-    id: "fac-claude-ddf2-032",
+    id: "fac-claude-ddf2-027",
     parentName: "Gofore",
     name: "esentri AG Ettlingen Office (Gofore Group)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -417,7 +352,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of esentri AG, Gofore's German data and integration consultancy acquired in 2023."
   },
   {
-    id: "fac-claude-ddf2-033",
+    id: "fac-claude-ddf2-028",
     parentName: "Gofore",
     name: "Gofore Germany Munich Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -430,7 +365,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Gofore's Munich office, part of its German automotive and industrial software engineering business."
   },
   {
-    id: "fac-claude-ddf2-034",
+    id: "fac-claude-ddf2-029",
     parentName: "Savox Communications",
     name: "Savox Communications Inc. Americas Office (Raleigh)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -443,7 +378,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Savox's Americas subsidiary office selling mission-critical communication accessories to US fire, police and military users."
   },
   {
-    id: "fac-claude-ddf2-035",
+    id: "fac-claude-ddf2-030",
     parentName: "Better Collective",
     name: "Better Collective Niš Tech & Content Hub",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -456,20 +391,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "One of Better Collective's largest offices, housing software development and content teams for its sports-betting media platforms."
   },
   {
-    id: "fac-claude-ddf2-036",
-    parentName: "Humble Group",
-    name: "Grenna Polkagriskokeri Candy Factory (Humble Group, Gränna)",
-    facilityType: "Factory & Manufacturing",
-    city: "Gränna (Jönköping)",
-    country: "Sverige",
-    lat: 58.02236,
-    lng: 14.46674,
-    address: "Gränna, 563 32 Jönköping Municipality",
-    footprintRadiusMeters: 160,
-    description: "Humble Group-owned traditional polkagris (peppermint rock candy) maker with its own factory in Gränna."
-  },
-  {
-    id: "fac-claude-ddf2-037",
+    id: "fac-claude-ddf2-031",
     parentName: "Lime Technologies",
     name: "Lime Technologies Stockholm Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -482,7 +404,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Lime Technologies' Stockholm office for CRM software sales, consulting and development."
   },
   {
-    id: "fac-claude-ddf2-038",
+    id: "fac-claude-ddf2-032",
     parentName: "Lime Technologies",
     name: "Lime Technologies Cologne Office (Germany)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -495,7 +417,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Lime Technologies' German office, the base for its expansion into the DACH CRM market."
   },
   {
-    id: "fac-claude-ddf2-039",
+    id: "fac-claude-ddf2-033",
     parentName: "Lime Technologies",
     name: "Lime Technologies Utrecht Office (Netherlands)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -508,7 +430,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Lime Technologies' Dutch office serving Benelux CRM customers."
   },
   {
-    id: "fac-claude-ddf2-040",
+    id: "fac-claude-ddf2-034",
     parentName: "Lime Technologies",
     name: "Lime Technologies Oslo Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -519,5 +441,96 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     address: "Meltzers gate 4, 0257 Oslo",
     footprintRadiusMeters: 160,
     description: "Lime Technologies' Norwegian office."
+  },
+  {
+    id: "fac-claude-ddf2-035",
+    parentName: "Fiskars",
+    name: "Fiskars Sorsakoski Cookware Factory",
+    facilityType: "Factory & Manufacturing",
+    city: "Sorsakoski (Leppävirta)",
+    country: "Finland",
+    lat: 62.45098,
+    lng: 27.66188,
+    address: "Sorsakoskentie 17, 79130 Sorsakoski",
+    footprintRadiusMeters: 220,
+    description: "Fiskars Group's stainless-steel cookware factory (Hackman/Iittala/Fiskars pots and pans)."
+  },
+  {
+    id: "fac-claude-ddf2-036",
+    parentName: "Fiskars",
+    name: "Fiskars Hämeenlinna Distribution Center",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Hämeenlinna",
+    country: "Finland",
+    lat: 60.95433,
+    lng: 24.45606,
+    address: "Taipaleentie 6, 13430 Hämeenlinna",
+    footprintRadiusMeters: 300,
+    description: "Fiskars Group's main Nordic/European distribution center for Iittala, Arabia and Fiskars products."
+  },
+  {
+    id: "fac-claude-ddf2-037",
+    parentName: "Fiskars",
+    name: "Steklarna Rogaška Crystal Glassworks (Fiskars Group)",
+    facilityType: "Factory & Manufacturing",
+    city: "Rogaška Slatina",
+    country: "Slovenia",
+    lat: 46.22513,
+    lng: 15.64471,
+    address: "Ulica talcev 1, 3250 Rogaška Slatina",
+    footprintRadiusMeters: 250,
+    description: "Hand-made crystal glassworks owned by Fiskars Group (Rogaška brand; also produces for Waterford)."
+  },
+  {
+    id: "fac-claude-ddf2-038",
+    parentName: "Fiskars",
+    name: "Wedgwood Barlaston Factory & World of Wedgwood (Fiskars Group)",
+    facilityType: "Factory & Manufacturing",
+    city: "Barlaston (Stoke-on-Trent)",
+    country: "UK",
+    lat: 52.95167,
+    lng: -2.16595,
+    address: "Wedgwood Drive, Barlaston, Stoke-on-Trent ST12 9ER",
+    footprintRadiusMeters: 350,
+    description: "Wedgwood's historic Barlaston pottery works with visitor centre and UK office of Fiskars Group's Vita (living) business."
+  },
+  {
+    id: "fac-claude-ddf2-039",
+    parentName: "Fiskars",
+    name: "Fiskars Brands Americas HQ (Middleton, WI)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Middleton",
+    country: "USA",
+    lat: 43.1022,
+    lng: -89.51711,
+    address: "7800 Discovery Drive, Middleton, WI 53562",
+    footprintRadiusMeters: 200,
+    description: "Americas headquarters of Fiskars Brands Inc. (scissors, crafting and garden tools)."
+  },
+  {
+    id: "fac-claude-ddf2-040",
+    parentName: "Knowit",
+    name: "Knowit Norway Head Office (Oslo)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Oslo",
+    country: "Norge",
+    lat: 59.91613,
+    lng: 10.76298,
+    address: "Universitetsgata 1, 0164 Oslo",
+    footprintRadiusMeters: 160,
+    description: "Head office of Knowit's Norwegian operations, one of the group's largest country units for IT and digital consulting."
+  },
+  {
+    id: "fac-claude-ddf2-041",
+    parentName: "Knowit",
+    name: "Knowit Finland Head Office (Helsinki)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Helsinki",
+    country: "Finland",
+    lat: 60.16763,
+    lng: 24.93359,
+    address: "Kansakoulukuja 1, 00100 Helsinki",
+    footprintRadiusMeters: 160,
+    description: "Main office of Knowit's Finnish digital consulting operations."
   }
 ]);

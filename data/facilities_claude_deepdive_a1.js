@@ -107,31 +107,18 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
   {
     id: "fac-claude-dda1-009",
     parentName: "Swedbank",
-    name: "Swedbank Estonia Head Office (Arter Quarter Tower)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Tallinn",
-    country: "Estonia",
-    lat: 59.42983,
-    lng: 24.75949,
-    address: "Liivalaia 36, 10132 Tallinn",
-    footprintRadiusMeters: 180,
-    description: "Head office of Swedbank AS, Estonia's largest bank, in the 28-storey Arter quarter tower completed in 2025."
-  },
-  {
-    id: "fac-claude-dda1-010",
-    parentName: "Swedbank",
     name: "Swedbank Latvia Head Office (Saules Akmens)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Riga",
     country: "Latvia",
-    lat: 56.94902,
-    lng: 24.08912,
+    lat: 56.94888,
+    lng: 24.08933,
     address: "Balasta dambis 15, Riga LV-1048",
     footprintRadiusMeters: 160,
     description: "Head office of Swedbank AS Latvia in the 'Saules akmens' (Sun Stone) tower on the left bank of the Daugava."
   },
   {
-    id: "fac-claude-dda1-011",
+    id: "fac-claude-dda1-010",
     parentName: "Danske Bank",
     name: "Danske Campus Vilnius (Danske Bank Lithuania)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -144,20 +131,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Danske Bank's consolidated Vilnius campus housing its large IT, operations and shared-services centre for the group."
   },
   {
-    id: "fac-claude-dda1-012",
-    parentName: "Danske Bank",
-    name: "Danske Bank UK Head Office (Donegall Square West)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Belfast",
-    country: "UK",
-    lat: 54.59624,
-    lng: -5.93197,
-    address: "Donegall Square West, Belfast BT1 6JS",
-    footprintRadiusMeters: 160,
-    description: "Head office of Northern Bank Ltd, trading as Danske Bank UK, Danske Bank's wholly owned Northern Ireland subsidiary."
-  },
-  {
-    id: "fac-claude-dda1-013",
+    id: "fac-claude-dda1-011",
     parentName: "Sampo",
     name: "If P&C Insurance Head Office (Bergshamra)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -170,7 +144,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of If Skadeförsäkring AB, Sampo's wholly owned Nordic property & casualty insurance subsidiary."
   },
   {
-    id: "fac-claude-dda1-014",
+    id: "fac-claude-dda1-012",
     parentName: "Sampo",
     name: "Hastings Direct Head Office (Conquest House)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -183,7 +157,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office and main operations centre of UK motor and home insurer Hastings Group, wholly owned by Sampo since 2020."
   },
   {
-    id: "fac-claude-dda1-015",
+    id: "fac-claude-dda1-013",
     parentName: "Tryg",
     name: "Tryg Norge Head Office (Bergen)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -196,7 +170,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Tryg's Norwegian non-life insurance business (about 1,100 employees in Norway)."
   },
   {
-    id: "fac-claude-dda1-016",
+    id: "fac-claude-dda1-014",
     parentName: "Tryg",
     name: "Trygg-Hansa Head Office (Trygg-Hansa-huset)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -209,7 +183,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Stockholm head office of Trygg-Hansa, Tryg's wholly owned Swedish non-life insurer acquired in 2022."
   },
   {
-    id: "fac-claude-dda1-017",
+    id: "fac-claude-dda1-015",
     parentName: "Skandinaviska Enskilda Banken",
     name: "SEB Arenastaden Office (Stjärntorget)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -222,7 +196,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "SEB's largest office, a Fabege-built complex with about 4,500 workplaces housing much of the bank's IT, operations and staff functions since 2017-18."
   },
   {
-    id: "fac-claude-dda1-018",
+    id: "fac-claude-dda1-016",
     parentName: "Svenska Handelsbanken",
     name: "Handelsbanken plc UK Head Office (Woolgate)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -235,7 +209,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Handelsbanken plc, the bank's UK subsidiary (largest market outside Sweden), on a 15-year lease of 53,000 sq ft after relocating from Wapping."
   },
   {
-    id: "fac-claude-dda1-019",
+    id: "fac-claude-dda1-017",
     parentName: "Entra",
     name: "Powerhouse Brattørkaia (Energy-Positive Office Building)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -248,7 +222,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Entra's Snøhetta-designed 18,000 m2 energy-positive office building on the Trondheim waterfront, opened 2019."
   },
   {
-    id: "fac-claude-dda1-020",
+    id: "fac-claude-dda1-018",
     parentName: "Entra",
     name: "Media City Bergen",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -261,7 +235,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Media cluster office building housing TV 2, NRK, Schibsted/Bergens Tidende and others, owned by Entra OPF Utvikling (50/50 Entra and Oslo Pensjonsforsikring) and managed by Entra."
   },
   {
-    id: "fac-claude-dda1-021",
+    id: "fac-claude-dda1-019",
     parentName: "EQT",
     name: "EQT New York Office (245 Park Avenue)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -274,7 +248,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "EQT's main North American office for private equity, infrastructure and real estate investment teams."
   },
   {
-    id: "fac-claude-dda1-022",
+    id: "fac-claude-dda1-020",
     parentName: "EQT",
     name: "EQT London Office (Broadwick Street)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -287,7 +261,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "EQT's UK office in Soho hosting investment advisory teams for private capital and infrastructure."
   },
   {
-    id: "fac-claude-dda1-023",
+    id: "fac-claude-dda1-021",
     parentName: "EQT",
     name: "EQT Asia Office (Two International Finance Centre)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -300,7 +274,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Hong Kong office of EQT's Asia private equity business (formerly Baring Private Equity Asia, acquired 2022)."
   },
   {
-    id: "fac-claude-dda1-024",
+    id: "fac-claude-dda1-022",
     parentName: "Lundbergs",
     name: "Holmen Iggesund Paperboard Mill",
     facilityType: "Mill, Smelter & Mine",
@@ -313,7 +287,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Integrated pulp and Invercote paperboard mill of Holmen, in which Lundbergs holds about 35% of capital and 63% of votes."
   },
   {
-    id: "fac-claude-dda1-025",
+    id: "fac-claude-dda1-023",
     parentName: "Lundbergs",
     name: "Hufvudstaden NK Stockholm Department Store Property",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -326,7 +300,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Hufvudstaden's flagship NK department store property (Hufvudstaden owned ~47% of capital / 89% of votes by Lundbergs)."
   },
   {
-    id: "fac-claude-dda1-026",
+    id: "fac-claude-dda1-024",
     parentName: "Röko",
     name: "Fri-Jado Rotisserie & Food Display Factory",
     facilityType: "Factory & Manufacturing",
@@ -339,20 +313,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "HQ, development and production of chicken rotisseries and heated/refrigerated food displays; Röko acquired 93% in May 2026."
   },
   {
-    id: "fac-claude-dda1-027",
-    parentName: "Röko",
-    name: "Oppigårds Bryggeri Brewery",
-    facilityType: "Factory & Manufacturing",
-    city: "Hedemora",
-    country: "Sverige",
-    lat: 60.25646,
-    lng: 15.88422,
-    address: "Smedjegatan 15, Ingvallsbenning, 776 93 Hedemora",
-    footprintRadiusMeters: 160,
-    description: "One of Sweden's leading craft breweries, owned by Röko."
-  },
-  {
-    id: "fac-claude-dda1-028",
+    id: "fac-claude-dda1-025",
     parentName: "Fastighets AB Balder",
     name: "SATO Corporation Head Office (Balder Finland residential subsidiary)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -365,20 +326,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of SATO Oyj, a Finnish rental-housing company with about 27,000 apartments in which Balder holds a majority stake (about 57%)."
   },
   {
-    id: "fac-claude-dda1-029",
-    parentName: "Sveafastigheter",
-    name: "Sveafastigheter Årby Rental Housing Project (Eskilstuna)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Eskilstuna",
-    country: "Sverige",
-    lat: 59.39249,
-    lng: 16.51795,
-    address: "Årby, 633 49 Eskilstuna",
-    footprintRadiusMeters: 220,
-    description: "New-build project of 206 rental apartments in Årby, Eskilstuna, under construction with move-in 2026-2027."
-  },
-  {
-    id: "fac-claude-dda1-030",
+    id: "fac-claude-dda1-026",
     parentName: "Nordnet",
     name: "Nordnet Denmark Office (Havneholmen)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -391,7 +339,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Danish office of Nordnet's online savings and investment bank."
   },
   {
-    id: "fac-claude-dda1-031",
+    id: "fac-claude-dda1-027",
     parentName: "Nordnet",
     name: "Nordnet Norway Office (Karl Johans gate)",
     facilityType: "Filial, Logistics & Subsidiary HQ",

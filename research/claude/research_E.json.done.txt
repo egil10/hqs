@@ -19,3 +19,8 @@ Huhtamäki
 Bittium
 SP Group
 GRK Infra
+YIT
+Scanfil
+ZAPTEC — skipped: only Forus HQ in Norwegian registry; production is outsourced to Westcontrol Tau (already in data)
+Multiconsult
+MT Hoejgaard Holding

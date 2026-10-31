@@ -997,5 +997,187 @@
     "footprintRadiusMeters": 140,
     "description": "Lime Technologies' Norwegian office.",
     "source": "https://www.lime-technologies.com/en/about-us/"
+  },
+  {
+    "parentName": "Fiskars",
+    "name": "Fiskars Sorsakoski Cookware Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Sorsakoski (Leppävirta)",
+    "country": "Finland",
+    "address": "Sorsakoskentie 17, 79130 Sorsakoski",
+    "geoQueries": [
+      "Fiskars Sorsakoski",
+      "Sorsakoskentie 17, 79130 Sorsakoski"
+    ],
+    "approxLat": 62.463,
+    "approxLng": 27.687,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Fiskars Group's stainless-steel cookware factory (Hackman/Iittala/Fiskars pots and pans).",
+    "source": "https://fiskarsgroup.com/contact/our-locations/"
+  },
+  {
+    "parentName": "Fiskars",
+    "name": "Fiskars Hämeenlinna Distribution Center",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hämeenlinna",
+    "country": "Finland",
+    "address": "Taipaleentie 6, 13430 Hämeenlinna",
+    "geoQueries": [
+      "Fiskars Hämeenlinna",
+      "Taipaleentie 6, 13430 Hämeenlinna"
+    ],
+    "approxLat": 60.96,
+    "approxLng": 24.4,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Fiskars Group's main Nordic/European distribution center for Iittala, Arabia and Fiskars products.",
+    "source": "https://fiskarsgroup.com/contact/our-locations/"
+  },
+  {
+    "parentName": "Fiskars",
+    "name": "Royal Copenhagen Porcelain Factory Saraburi (Fiskars Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Saraburi (Nong Khae)",
+    "country": "Thailand",
+    "address": "54/1 Nongpling, Nong Khae, Saraburi 18140",
+    "geoQueries": [
+      "Royal Copenhagen Thailand",
+      "Royal Copenhagen Nong Khae",
+      "Nong Khae, Saraburi"
+    ],
+    "approxLat": 14.34,
+    "approxLng": 100.87,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Royal Copenhagen (Thailand) Ltd's factory where Royal Copenhagen porcelain is now produced.",
+    "source": "https://fiskarsgroup.com/contact/our-locations/"
+  },
+  {
+    "parentName": "Fiskars",
+    "name": "PT Doulton Ceramics Factory (Fiskars Group, Balaraja)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Balaraja (Tangerang)",
+    "country": "Indonesia",
+    "address": "Jl. Raya Serang KM 29.9, Desa Gembong, Balaraja, Tangerang 15610, Banten",
+    "geoQueries": [
+      "PT Doulton Balaraja",
+      "Jl. Raya Serang KM 29, Balaraja"
+    ],
+    "approxLat": -6.21,
+    "approxLng": 106.46,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Fiskars Group's Indonesian ceramics plant producing Wedgwood, Royal Doulton and Royal Albert tableware.",
+    "source": "https://fiskarsgroup.com/contact/our-locations/"
+  },
+  {
+    "parentName": "Fiskars",
+    "name": "Steklarna Rogaška Crystal Glassworks (Fiskars Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Rogaška Slatina",
+    "country": "Slovenia",
+    "address": "Ulica talcev 1, 3250 Rogaška Slatina",
+    "geoQueries": [
+      "Steklarna Rogaška",
+      "Ulica talcev 1, 3250 Rogaška Slatina"
+    ],
+    "approxLat": 46.237,
+    "approxLng": 15.638,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Hand-made crystal glassworks owned by Fiskars Group (Rogaška brand; also produces for Waterford).",
+    "source": "https://fiskarsgroup.com/contact/our-locations/"
+  },
+  {
+    "parentName": "Fiskars",
+    "name": "Wedgwood Barlaston Factory & World of Wedgwood (Fiskars Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Barlaston (Stoke-on-Trent)",
+    "country": "UK",
+    "address": "Wedgwood Drive, Barlaston, Stoke-on-Trent ST12 9ER",
+    "geoQueries": [
+      "World of Wedgwood",
+      "Wedgwood Barlaston",
+      "Wedgwood Drive, Barlaston ST12 9ER"
+    ],
+    "approxLat": 52.948,
+    "approxLng": -2.17,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Wedgwood's historic Barlaston pottery works with visitor centre and UK office of Fiskars Group's Vita (living) business.",
+    "source": "https://fiskarsgroup.com/contact/our-locations/"
+  },
+  {
+    "parentName": "Fiskars",
+    "name": "Gerber Legendary Blades HQ & Plant (Fiskars Group, Portland)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Portland (Tigard)",
+    "country": "USA",
+    "address": "14200 SW 72nd Avenue, Portland, OR 97224",
+    "geoQueries": [
+      "Gerber Legendary Blades",
+      "14200 SW 72nd Avenue, Portland, OR 97224"
+    ],
+    "approxLat": 45.418,
+    "approxLng": -122.748,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Head office and knife/multi-tool manufacturing site of Gerber, Fiskars Group's outdoor-gear brand.",
+    "source": "https://fiskarsgroup.com/contact/our-locations/"
+  },
+  {
+    "parentName": "Fiskars",
+    "name": "Fiskars Brands Americas HQ (Middleton, WI)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Middleton",
+    "country": "USA",
+    "address": "7800 Discovery Drive, Middleton, WI 53562",
+    "geoQueries": [
+      "Fiskars Middleton",
+      "7800 Discovery Drive, Middleton, WI"
+    ],
+    "approxLat": 43.086,
+    "approxLng": -89.532,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Americas headquarters of Fiskars Brands Inc. (scissors, crafting and garden tools).",
+    "source": "https://fiskarsgroup.com/contact/our-locations/"
+  },
+  {
+    "parentName": "Knowit",
+    "name": "Knowit Norway Head Office (Oslo)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Universitetsgata 1, 0164 Oslo",
+    "geoQueries": [
+      "Knowit Oslo",
+      "Universitetsgata 1, 0164 Oslo"
+    ],
+    "approxLat": 59.915,
+    "approxLng": 10.739,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of Knowit's Norwegian operations, one of the group's largest country units for IT and digital consulting.",
+    "source": "https://www.knowit.no/kontakt/"
+  },
+  {
+    "parentName": "Knowit",
+    "name": "Knowit Finland Head Office (Helsinki)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Helsinki",
+    "country": "Finland",
+    "address": "Kansakoulukuja 1, 00100 Helsinki",
+    "geoQueries": [
+      "Knowit Helsinki",
+      "Kansakoulukuja 1, 00100 Helsinki"
+    ],
+    "approxLat": 60.168,
+    "approxLng": 24.933,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Main office of Knowit's Finnish digital consulting operations.",
+    "source": "https://www.knowit.fi/ota-yhteytta/"
   }
 ]

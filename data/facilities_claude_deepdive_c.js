@@ -85,8 +85,8 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     facilityType: "R&D, Biotech & Medtech Lab",
     city: "Plainsboro (Princeton)",
     country: "USA",
-    lat: 40.34289,
-    lng: -74.60786,
+    lat: 40.3408,
+    lng: -74.60577,
     address: "777 Scudders Mill Road, Plainsboro, NJ 08536",
     footprintRadiusMeters: 220,
     description: "Genmab's US headquarters with offices and R&D laboratories at Princeton University's Forrestal Center."
@@ -302,19 +302,6 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
   {
     id: "fac-claude-ddc-024",
     parentName: "Elekta",
-    name: "Elekta Brachytherapy Plant (Veenendaal, ex-Nucletron)",
-    facilityType: "Factory & Manufacturing",
-    city: "Veenendaal",
-    country: "Netherlands",
-    lat: 52.04113,
-    lng: 5.5382,
-    address: "Waardgelder 1, 3905 TH Veenendaal",
-    footprintRadiusMeters: 200,
-    description: "Elekta's brachytherapy manufacturing and R&D site (former Nucletron)."
-  },
-  {
-    id: "fac-claude-ddc-025",
-    parentName: "Elekta",
     name: "Elekta Inc. North America HQ (Atlanta)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Atlanta",
@@ -326,7 +313,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "North American headquarters of Elekta's radiotherapy business."
   },
   {
-    id: "fac-claude-ddc-026",
+    id: "fac-claude-ddc-025",
     parentName: "Medicover",
     name: "Szpital Medicover Warsaw Hospital (Wilanów)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -339,7 +326,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Medicover's flagship multi-specialty private hospital in Warsaw."
   },
   {
-    id: "fac-claude-ddc-027",
+    id: "fac-claude-ddc-026",
     parentName: "Medicover",
     name: "Medicover Hospitals HITEC City (Hyderabad)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -352,20 +339,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "300-400 bed flagship tertiary hospital of Medicover's Indian hospital network."
   },
   {
-    id: "fac-claude-ddc-028",
-    parentName: "Medicover",
-    name: "Synevo Central Reference Laboratory (Chiajna, Bucharest)",
-    facilityType: "R&D, Biotech & Medtech Lab",
-    city: "Chiajna (Bucharest)",
-    country: "Romania",
-    lat: 44.44672,
-    lng: 25.95875,
-    address: "Chiajna, Ilfov County",
-    footprintRadiusMeters: 200,
-    description: "Medicover's Synevo central laboratory (opened 2010), described as the largest medical analysis unit in Southeast Europe."
-  },
-  {
-    id: "fac-claude-ddc-029",
+    id: "fac-claude-ddc-027",
     parentName: "Embla Medical",
     name: "Össur Mexico Prosthetics & Bracing Plant (Tijuana)",
     facilityType: "Factory & Manufacturing",
@@ -378,7 +352,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Embla Medical's main Össur manufacturing site in Mexico (600+ employees) for prosthetic and bracing products."
   },
   {
-    id: "fac-claude-ddc-030",
+    id: "fac-claude-ddc-028",
     parentName: "Embla Medical",
     name: "Össur Americas HQ & R&D (Foothill Ranch)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -391,7 +365,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Össur Americas headquarters for sales, marketing, engineering and R&D."
   },
   {
-    id: "fac-claude-ddc-031",
+    id: "fac-claude-ddc-029",
     parentName: "Embla Medical",
     name: "Fior & Gentz Orthotic Components Plant (Lüneburg)",
     facilityType: "Factory & Manufacturing",
@@ -404,20 +378,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Wholly owned Embla Medical subsidiary developing and manufacturing neuro-orthotic joints and components."
   },
   {
-    id: "fac-claude-ddc-032",
+    id: "fac-claude-ddc-030",
     parentName: "Terveystalo",
     name: "Terveystalo Oulu Medical Centre & Hospital",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Oulu",
     country: "Finland",
-    lat: 65.00906,
-    lng: 25.47023,
+    lat: 65.00893,
+    lng: 25.47005,
     address: "Albertinkatu 16, 90100 Oulu",
     footprintRadiusMeters: 160,
     description: "One of Terveystalo's major regional medical centres with day-surgery in Northern Finland."
   },
   {
-    id: "fac-claude-ddc-033",
+    id: "fac-claude-ddc-031",
     parentName: "Vitrolife",
     name: "Igenomix Genetic Testing Laboratory (Valencia, Vitrolife Group)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -430,7 +404,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Headquarters and main reproductive genetic-testing (PGT) laboratory of Igenomix, acquired by Vitrolife Group in 2021."
   },
   {
-    id: "fac-claude-ddc-034",
+    id: "fac-claude-ddc-032",
     parentName: "Vitrolife",
     name: "Vitrolife Inc. Americas Operations (Englewood)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -443,7 +417,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Vitrolife's US subsidiary handling IVF media production/distribution and sales for the Americas."
   },
   {
-    id: "fac-claude-ddc-035",
+    id: "fac-claude-ddc-033",
     parentName: "Vimian Group",
     name: "Indical Bioscience Veterinary Diagnostics HQ & Lab (Leipzig)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -456,7 +430,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Vimian's Diagnostics segment: development and production of molecular and immunoassay kits for veterinary labs."
   },
   {
-    id: "fac-claude-ddc-036",
+    id: "fac-claude-ddc-034",
     parentName: "Vimian Group",
     name: "KYON Veterinary Orthopedic Implants HQ (Zurich, Movora)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -469,7 +443,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Movora's KYON brand: design and supply of veterinary orthopaedic implants; Movora's Zurich regional HQ."
   },
   {
-    id: "fac-claude-ddc-037",
+    id: "fac-claude-ddc-035",
     parentName: "Arjo",
     name: "Arjo Poland Manufacturing Plant (Komorniki, Tulipan Park)",
     facilityType: "Factory & Manufacturing",
@@ -482,7 +456,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Arjo's largest production site (since 2007) making patient-handling lifts, hygiene systems and beds."
   },
   {
-    id: "fac-claude-ddc-038",
+    id: "fac-claude-ddc-036",
     parentName: "Arjo",
     name: "Arjo Magog Medical Beds Plant (Québec)",
     facilityType: "Factory & Manufacturing",
@@ -495,33 +469,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Arjo production unit in Québec manufacturing medical beds and patient-handling equipment."
   },
   {
-    id: "fac-claude-ddc-039",
-    parentName: "Arjo",
-    name: "Arjo Suzhou Manufacturing Plant",
-    facilityType: "Factory & Manufacturing",
-    city: "Suzhou",
-    country: "China",
-    lat: 31.32082,
-    lng: 120.78714,
-    address: "No. 158 Fangzhou Road, Suzhou Industrial Park, 215024 Suzhou",
-    footprintRadiusMeters: 200,
-    description: "Arjo (Suzhou) Co. production of patient-handling and medical-bed products."
-  },
-  {
-    id: "fac-claude-ddc-040",
-    parentName: "Arjo",
-    name: "Arjo Cardiff Product Development & Production Unit (Huntleigh)",
-    facilityType: "Factory & Manufacturing",
-    city: "Cardiff",
-    country: "UK",
-    lat: 51.47582,
-    lng: -3.14659,
-    address: "35 Portmanmoor Road, Cardiff CF24 5HN",
-    footprintRadiusMeters: 200,
-    description: "Former Huntleigh site producing Doppler/diagnostics, DVT prevention and therapy-surface products."
-  },
-  {
-    id: "fac-claude-ddc-041",
+    id: "fac-claude-ddc-037",
     parentName: "Medistim",
     name: "Medistim USA Inc. (Plymouth, MN)",
     facilityType: "Filial, Logistics & Subsidiary HQ",

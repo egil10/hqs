@@ -17,11 +17,11 @@ OK      Wartsila | Wärtsilä Norway Rubbestadneset Propulsion Service & Product
 OK      Wartsila | Wärtsilä Moss Exhaust Gas Treatment & Carbon Capture Center | Værftsgata 9A, 1511 Moss -> place/house 9A, Værftsgata, Moss næringspark Jeløy, Fiske, Moss, Østfold, 1511, No
 OK      FLSmidth & Co | FLSmidth Global Minerals Technology Center (Midvale, Utah) | View 72 Midvale -> place/house 72, Garden View Drive, Alta View Gardens, Midvale, Salt Lake County, U
 NOGEO   FLSmidth & Co | FLSmidth Arakkonam Manufacturing & Service Centre
-OK      Kone | KONE Tytyri High-Rise Elevator Test Laboratory (Lohja limestone mine) | Tytyri mine Lohja -> building/commercial Tytyrin Elämyskaivoksen vierastupa, 42, Kuilukatu, Tytyri, Lohja, Hels
+NOGEO   Kone | KONE Tytyri High-Rise Elevator Test Laboratory (Lohja limestone mine)
 NOGEO   Kone | KONE Park Kunshan Elevator & Escalator Factories and R&D Site
 NOGEO   Kone | KONE India Sriperumbudur Elevator Factory & Test Tower
-NOGEO   NKT | NKT Asnæs Medium-Voltage Power Cable Factory
-NOGEO   NKT | NKT Falun Power Cable Factory
+OK      NKT | NKT Asnæs Medium-Voltage Power Cable Factory | NKT Asnæs -> landuse/industrial NKT, Næsdal Plantage, Asnæs, Odsherred Kommune, Region Sjælland, Danma
+OK      NKT | NKT Falun Power Cable Factory | NKT Falun -> man_made/works NKT, Källtorpsvägen, Källtorp, Falun, Falu kommun, Dalarnas län, 791 5
 NOGEO   NKT | NKT Velké Meziříčí Medium & High-Voltage Cable Factory
 OK      NKT | NKT Nordenham High-Voltage Cable Accessories Plant | NKT Nordenham -> landuse/industrial nkt cables, Friedrich-August-Hütte, Nordenham, Landkreis Wesermarsch, 
 OK      Norbit | NORBIT EMS Selbu Electronics Manufacturing Factory | Øybergvegen 15, 7580 Selbu -> place/house 15, Øybergvegen, Garberg, Selbu, Trøndelag, 7580, Norge
@@ -30,7 +30,7 @@ OK      Metso | Metso Research Center Pori (Minerals Processing & Smelting Pilot
 OK      Metso | Metso Sala Slurry Pump Factory & Test and Training Center | Metso Sweden Sala -> building/commercial Metso Sweden, Väsbygatan, Tallbacken, Sala, Sala kommun, Västmanlands 
 OK      ISS | ISS Norge Head Office (ISS Facility Services AS, Kværnerbyen) | Smeltedigelen 1, 0195 Oslo -> place/house 1, Smeltedigelen, Kværnerbyen, Gamle Oslo, Oslo, 0195, Norge
 OK      Norconsult | Norconsult Sverige Göteborg Office (Lindholmen) | Norconsult Göteborg -> building/office Norconsult, 11, Theres Svenssons Gata, Lindholmshamnen, Lindholmen, Hi
-OK      Norconsult | Norconsult Finland Office (Otaniemi, Espoo) | Tekniikantie 14, 02150 Espoo -> office/company Electric Power Finland Oy, Espoo, 14, Tekniikantie, Maari, Otaniemi, S
+OK      Norconsult | Norconsult Finland Office (Otaniemi, Espoo) | Tekniikantie 14, 02150 Espoo -> building/commercial Innopoli 2, 14, Tekniikantie, Maari, Otaniemi, Suur-Tapiola, Espoo, He
 OK      Konecranes | Demag Cranes & Components Wetter Headquarters & Crane Components Plant | Demag Cranes & Components Wetter -> man_made/works DEMAG Cranes & Components GmbH, Carl-Bönnhoff-Straße, Schöntal, Alt-We
 OK      Sentia | HENT AS Head Office (Tiller, Trondheim) | Vestre Rosten 69, 7072 Heimdal -> place/house 69, Vestre Rosten, Rosten, Heimdal, Trondheim, Trøndelag, 7072, Norge
 OK      Vaisala | Vaisala Boulder Operations & North American Headquarters (Louisville, CO) | Vaisala Louisville -> building/yes Vaisala 2, South Taylor Avenue, Colorado Tech Center, Louisville, Boul
@@ -48,3 +48,14 @@ OK      SP Group | SP Meditec Helsingør Medical Device Factory | Fabriksvej 17C
 NOGEO   SP Group | OGM Oxford Precision Moulding Plant (Yarnton)
 NOGEO   GRK Infra | GRK Sverige Head Office (Boden)
 OK      GRK Infra | GRK Eesti Head Office (Tartu) | Spektri 6, Tartu -> building/yes 6, Spektri, Ränilinn, Tartu linn, Tartu maakond, 50411, Eesti
+NOGEO   YIT | YIT Eesti Head Office (Tallinn)
+OK      YIT | YIT Lietuva Vilnius Office | Spaudos g. 7, Vilnius -> building/commercial 7, Spaudos g., Viršuliškės, Viršuliškių seniūnija, Vilnius, Vilniaus m
+OK      Scanfil | Scanfil Pärnu Electronics Manufacturing Plant | Scanfil Pärnu -> building/industrial Scanfil, 40, Vana-Sauga, Ülejõe, Pärnu linn, Pärnu maakond, 80010, Ees
+NOGEO   Scanfil | Scanfil Suzhou Electronics Manufacturing Plant
+OK      Scanfil | Scanfil Wutha-Farnroda Electronics Plant | Scanfil Wutha -> office/company SCANFIL, 5, Röberstraße, Gewerbepark Röber, Wutha, Wutha-Farnroda, War
+OK      Scanfil | Scanfil Myslowice Manufacturing Plant | Scanfil Myslowice -> man_made/works Scanfil, 59, Brzezińska, Osiedle Zawadzkiego, Brzezinka, Mysłowice, Gó
+NOGEO   Scanfil | MB Elettronica Cortona Plant (Scanfil)
+OK      Scanfil | Scanfil Atlanta Manufacturing Plant (Buford) | 4345 Hamilton Mill Road, Buford, GA 30518 -> place/house 4345, Hamilton Mill Road, Woodbriar East, Buford, Gwinnett County, Geo
+OK      Multiconsult | Multiconsult Trondheim Regional Office (Sluppen) | Multiconsult Trondheim -> office/company Multiconsult, Sluppenvegen, Sorgenfri, Lerkendal, Trondheim, Trøndelag
+NOGEO   Multiconsult | Multiconsult Fredrikstad Regional Office
+OK      Multiconsult | Multiconsult Tromsø Regional Office | Kvaløyvegen 156, 9013 Tromsø -> place/house 156, Kvaløyvegen, Nordheim, Vangberg, Tromsø, Troms, 9013, Norge

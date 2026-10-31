@@ -69,8 +69,9 @@ def geocode(it):
         return it["approxLat"], it["approxLng"], "source-exact"
     if it.get("approxLat") is None:
         return None
-    toks = [norm(t) for t in re.split(r"[\s/()&,.-]+", it["parentName"] + " " + it["name"])]
-    toks = [t for t in toks if len(t) >= 4 and t not in STOP][:8]
+    words = lambda txt, n: [norm(t) for t in re.split(r"[\s/()&,.-]+", txt) if len(norm(t)) >= n and norm(t) not in STOP]
+    ptoks = words(it["parentName"], 3)[:4]
+    btoks = words(it["name"], 4)[:1]  # leading brand word of the site name, e.g. "Racal", "Hemtex"
     best = None
     for q in (it.get("geoQueries") or [])[:4]:
         isaddr = bool(re.search(r"\d", q))
@@ -85,8 +86,15 @@ def geocode(it):
             dist = hav(it["approxLat"], it["approxLng"], lat, lng)
             if dist > 25:
                 continue
+            if cls in ("shop", "tourism"):
+                continue
+            if cls == "amenity" and typ not in ("hospital", "clinic", "university", "college", "research_institute"):
+                continue
             dn = norm((r.get("name") or "") + " " + r["display_name"].split(",")[0])
-            named = any(t in dn for t in toks)
+            named = any(t in dn for t in ptoks) or (
+                cls in ("landuse", "man_made", "power", "industrial", "building", "office") and any(t in dn for t in btoks))
+            if cls == "amenity" and not any(t in dn for t in ptoks):
+                continue
             exact_addr = isaddr and (typ == "house" or cls == "building")
             if not named and not exact_addr:
                 continue

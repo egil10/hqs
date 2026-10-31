@@ -1361,5 +1361,43 @@
   "footprintRadiusMeters": 150,
   "description": "US subsidiary of Ependion's Beijer Electronics (ex-QSI) developing and building rugged HMI terminals for vehicles and industry.",
   "source": "https://www.beijerelectronics.com/en/contact"
+ },
+ {
+  "parentName": "Aktiebolag Fagerhult",
+  "name": "iGuzzini Recanati Lighting HQ & Factory (Fagerhult)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Recanati",
+  "country": "Italy",
+  "address": "Via Mariano Guzzini 37, 62019 Recanati (MC)",
+  "geoQueries": [
+   "iGuzzini Recanati",
+   "Via Mariano Guzzini 37, 62019 Recanati",
+   "iGuzzini illuminazione"
+  ],
+  "approxLat": 43.3925,
+  "approxLng": 13.5755,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "HQ and main production site of iGuzzini illuminazione, Fagerhult Group's largest company, making architectural indoor and outdoor lighting.",
+  "source": "https://www.iguzzini.com/contacts/"
+ },
+ {
+  "parentName": "Aktiebolag Fagerhult",
+  "name": "Whitecroft Lighting Factory (Fagerhult, Ashton-under-Lyne)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Ashton-under-Lyne",
+  "country": "UK",
+  "address": "Burlington Street, Ashton-under-Lyne OL7 0AX",
+  "geoQueries": [
+   "Whitecroft Lighting Ashton-under-Lyne",
+   "Whitecroft Lighting",
+   "Burlington Street, Ashton-under-Lyne"
+  ],
+  "approxLat": 53.4845,
+  "approxLng": -2.1065,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Fagerhult Group's UK lighting manufacturer Whitecroft, producing LED luminaires for healthcare, education and offices.",
+  "source": "https://www.whitecroftlighting.com/"
  }
 ]

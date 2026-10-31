@@ -8,7 +8,7 @@ NOGEO   Beijer Ref | SCM Frigo CO2 Refrigeration Plant & Beijer Ref Academy (Pad
 NOGEO   Beijer Ref | Beijer Ref Australia & Kirby HQ and Distribution Centre (Bankstown Airport)
 OK      Bravida Holding | Bravida Norge Head Office (Lørenveien, Oslo) | Lørenveien 73A, 0585 Oslo -> place/house 73A, Lørenveien, Sinsenengen, Løren, Grünerløkka, Oslo, 0585, Norge
 OK      Bravida Holding | Bravida Danmark Head Office (Brøndby) | Bravida Danmark -> office/company Bravida, Abildager, Ragnesminde Erhvervsområde, Vesterled, Brøndby Kom
-OK      Verisure | Verisure Group Head Office (Versoix, Geneva) | Chemin Jean-Baptiste Vandelle 3A, 1290 Versoix -> amenity/clinic Vision Versoix Ophtalmologie, 3A, Chemin Jean-Baptiste Vandelle, Verso
+NOGEO   Verisure | Verisure Group Head Office (Versoix, Geneva)
 OK      Verisure | Securitas Direct (Verisure Spain) HQ & Alarm Receiving Centre (Pozuelo de Alarcón) | Calle Priégola 2, Pozuelo de Alarcón -> building/office 2, Calle Priégola, Distrito Municipal II (sin urbanizaciones), Pozuelo
 NOGEO   Lifco | Kinshofer Waakirchen/Marienstein Crane & Excavator Attachment Factory (Lifco)
 OK      Lifco | Kinshofer Group HQ (Holzkirchen, Lifco) | Raiffeisenstraße 12, 83607 Holzkirchen -> building/office 12, Raiffeisenstraße, Gewerbegebiet Holzkirchen-Ost, Fichtholz, Föchin
@@ -20,7 +20,7 @@ OK      Karnell Group | Männistö Metallituote Pipe Support Factory (Karnell, R
 OK      Trelleborg | Trelleborg Sealing Solutions European HQ & R&D Center (Stuttgart-Vaihingen) | Trelleborg Sealing Solutions Stuttgart -> office/company Trelleborg Sealing Solutions Germany GmbH, 1, Schockenriedstraße, Syne
 OK      Trelleborg | Trelleborg Sealing Solutions Fort Wayne Seal Plant | Trelleborg Fort Wayne -> building/warehouse Trelleborg Sealing Solutions, I 69;US 24;US 30, Fort Wayne, Allen Coun
 OK      SWECO | Sweco Nederland Head Office (De Bilt) | Sweco De Bilt -> office/consulting Sweco Nederland, 50, Soestdijkseweg Zuid, De Bilt, Utrecht, Nederland,
-OK      SWECO | Sweco Finland Head Office (Ilmala, Helsinki) | Ilmalantori 4, 00240 Helsinki -> building/office Ilmalanlinna, 4, Ilmalantori, Ilmala, Länsi-Pasila, Pasila, Keskinen s
+OK      SWECO | Sweco Finland Head Office (Ilmala, Helsinki) | Sweco Finland -> building/office Sweco, 2, Ilmalanportti, Ilmala, Länsi-Pasila, Pasila, Keskinen suurpi
 OK      HEXPOL | HEXPOL Compounding Middlefield Rubber Compound Plant (Ohio) | HEXPOL Middlefield -> building/industrial Hexpol Compounding - Middlefield, Bonner Drive, Middlefield, Geauga Co
 NOGEO   HEXPOL | HEXPOL TPE Åmål Thermoplastic Elastomer Plant
 NOGEO   HEXPOL | Stellana Laxå Polyurethane Wheel Factory (HEXPOL)
@@ -43,19 +43,19 @@ NOGEO   Nolato | Nolato Cerbo Pharma Packaging Plant (Trollhättan)
 NOGEO   Nolato | Nolato Contour Medical Device Plant (Baldwin, Wisconsin)
 OK      Nolato | Nolato Stargard Plant (Poland) | Usługowa 1, 73-110 Stargard -> building/yes 1a, Usługowa, Osiedle Chopina, Stargard, powiat stargardzki, województ
 NOGEO   MilDef Group | MilDef Inc. Rugged Computer Plant (Fullerton, California)
-OK      MilDef Group | MilDef Ltd Rugged Electronics Facility (St Athan, Wales) | Bro Tathan West St Athan -> landuse/commercial Bro Tathan West, St Athan, Vale of Glamorgan, Cymru / Wales, CF62 4AF,
+NOGEO   MilDef Group | MilDef Ltd Rugged Electronics Facility (St Athan, Wales)
 OK      MilDef Group | MilDef GmbH Lichtenau (Germany) | Landstraße 6, 77839 Lichtenau -> building/commercial 6, Landstraße, Scherzheim, Lichtenau, GVV Rheinmünster-Lichtenau, Land
 NOGEO   Alimak Group | Tractel Saint-Hilaire-sous-Romilly Hoist & Fall-Protection Plant (Alimak)
-OK      INVISIO | Racal Acoustics Military Headset Facility (INVISIO, Harrow) | Waverley Industrial Park, Hailsham Drive, Harrow -> amenity/courthouse Harrow Crown Court, Hailsham Drive, Waverley Industrial Park, Wealdsto
+NOGEO   INVISIO | Racal Acoustics Military Headset Facility (INVISIO, Harrow)
 OK      Inwido | Sokółka Okna i Drzwi Window & Door Factory (Inwido Poland) | Sokółka Okna i Drzwi -> landuse/industrial Sokółka Okna i Drzwi, Buchwałowo, Sokółka, gmina Sokółka, powiat sokól
 NOGEO   Inwido | Allan Brothers Timber Window Factory (Inwido UK, Berwick-upon-Tweed)
 NOGEO   Inwido | Sidey Solutions Window Factory (Inwido UK, Perth)
-OK      Systemair | Systemair GmbH Windischbuch Fan & Air Handling Factory (Boxberg) | Systemair Windischbuch -> amenity/exhibition_centre Systemair Expo Center, Seehof, Windischbuch, Boxberg, VVG der Stadt Bo
+NOGEO   Systemair | Systemair GmbH Windischbuch Fan & Air Handling Factory (Boxberg)
 OK      Systemair | Menerga Heat Recovery AHU Factory (Systemair, Mülheim an der Ruhr) | Alexanderstraße 69, 45472 Mülheim an der Ruhr -> building/warehouse picnic, 69, Alexanderstraße, Heißen-Mitte, Heißen, Rechtsruhr-Süd, Mül
 NOGEO   Systemair | Frico Air Curtain & Heating Products Plant (Systemair, Partille)
 OK      Systemair | Systemair Ukmergė Ventilation Factory (Lithuania) | Systemair Ukmergė -> building/industrial Systemair, 101, Linų g., Smėliai, Ukmergė, Ukmergės miesto seniūnija, 
 OK      Hanza | HANZA Mechanics Tartu Manufacturing Cluster (Estonia) | HANZA Mechanics Tartu -> man_made/works Hanza Mechanics Tartu AS, 6/8, Silikaadi, Vahi tööstuspark, Vahi alevi
-OK      Hanza | HANZA Mechanics Narva Heavy Mechanics Plant (Estonia) | Narva -> waterway/river Narva jõgi / Нарва, Eesti
+NOGEO   Hanza | HANZA Mechanics Narva Heavy Mechanics Plant (Estonia)
 OK      Hanza | HANZA Mechanics Kunovice Sheet Metal Plant (Czech Republic) | HANZA Mechanics Kunovice -> building/industrial HANZA Mechanics Kunovice s.r.o., 498, Kunovice, okres Uherské Hradiště
 NOGEO   Hanza | HANZA Electronics Mönchengladbach (Germany)
 OK      Hanza | HANZA Electronics Brzeg Dolny (Poland) | HANZA Brzeg Dolny -> landuse/industrial HANZA ELECTRONICS BRZEG DOLNY, Brzeg Dolny, gmina Brzeg Dolny, powiat 
@@ -67,3 +67,5 @@ NOGEO   Nederman Holding | RoboVent Industrial Air Filtration Plant (Nederman, S
 OK      Rejlers | Rejlers Norge Head Office (Schweigaards gate, Oslo) | Schweigaards gate 15, 0191 Oslo -> place/house 15, Schweigaards gate, Barcode, Grønland, Gamle Oslo, Oslo, 0191, Norg
 NOGEO   Ependion | Beijer Electronics APAC HQ & R&D (Xindian, New Taipei)
 NOGEO   Ependion | Beijer Electronics Inc. Rugged Terminal Facility (Salt Lake City)
+OK      Aktiebolag Fagerhult | iGuzzini Recanati Lighting HQ & Factory (Fagerhult) | iGuzzini Recanati -> man_made/works iGuzzini illuminazione, 37, Via Mariano Guzzini, Zona industriale Frat
+OK      Aktiebolag Fagerhult | Whitecroft Lighting Factory (Fagerhult, Ashton-under-Lyne) | Whitecroft Lighting Ashton-under-Lyne -> building/yes Whitecroft Lighting, Burlington Street, Taunton, Ashton-under-Lyne, Ta

@@ -120,19 +120,6 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
   {
     id: "fac-claude-dda2-010",
     parentName: "Reitir",
-    name: "Kringlan Shopping Centre (Reitir Flagship)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Reykjavík",
-    country: "Island",
-    lat: 64.13042,
-    lng: -21.89427,
-    address: "Kringlan 4-12, 103 Reykjavík",
-    footprintRadiusMeters: 300,
-    description: "Iceland's largest indoor shopping centre (~32,000 sqm), Reitir's flagship asset, where Reitir is also leading the Kringlureitur residential redevelopment."
-  },
-  {
-    id: "fac-claude-dda2-011",
-    parentName: "Reitir",
     name: "Hilton Reykjavik Nordica Hotel Property",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Reykjavík",
@@ -144,7 +131,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "13,750 sqm hotel and conference property owned by Reitir and operated as the Hilton Reykjavik Nordica."
   },
   {
-    id: "fac-claude-dda2-012",
+    id: "fac-claude-dda2-011",
     parentName: "Heimar",
     name: "Egilshöll Sports & Entertainment Complex (Heimar)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -157,7 +144,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Large indoor sports, cinema and leisure complex in Grafarvogur owned by Heimar, BREEAM In-Use recertified in 2026."
   },
   {
-    id: "fac-claude-dda2-013",
+    id: "fac-claude-dda2-012",
     parentName: "Magnora Data Center",
     name: "Storespeed Halden DC01 Colocation Data Center",
     facilityType: "Data Center, Telecom & Cloud",
@@ -170,7 +157,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Operating ~1 MW colocation data center (scalable to 5 MW) run by Storespeed AS, majority (~75%) owned by Magnora Data Center with Blix Group."
   },
   {
-    id: "fac-claude-dda2-014",
+    id: "fac-claude-dda2-013",
     parentName: "Magnora Data Center",
     name: "Magnora/Blix Nedre Rommen 5 AI & Edge Data Center (Oslo)",
     facilityType: "Data Center, Telecom & Cloud",
@@ -183,7 +170,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Former bank payment-processing facility being converted by Magnora Data Center (75%) and Blix Group into a liquid-cooled AI/edge data center, 1 MW initially scalable to ~9 MW."
   },
   {
-    id: "fac-claude-dda2-015",
+    id: "fac-claude-dda2-014",
     parentName: "Intrum",
     name: "Intrum Global Technologies IT Hub Riga",
     facilityType: "Data Center, Telecom & Cloud",
@@ -196,20 +183,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Intrum's IT centre of excellence building and supporting the group-wide IT platform used across its European markets."
   },
   {
-    id: "fac-claude-dda2-016",
+    id: "fac-claude-dda2-015",
     parentName: "Intrum",
     name: "Intrum Spain Office & Technology Hub Madrid (Parque Empresarial Cristalia)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Madrid",
     country: "Spain",
-    lat: 40.476,
-    lng: -3.63391,
+    lat: 40.47494,
+    lng: -3.6347,
     address: "Calle Vía de los Poblados 3, Edificio 1, 28033 Madrid",
     footprintRadiusMeters: 200,
     description: "Intrum's main Spanish office and Intrum Global Technologies hub serving its large Spanish credit management and real-estate servicing business."
   },
   {
-    id: "fac-claude-dda2-017",
+    id: "fac-claude-dda2-016",
     parentName: "Catella",
     name: "Catella Real Estate AG Property Funds HQ (Alter Hof, Munich)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -222,14 +209,14 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Catella Real Estate AG, Catella's German property fund management company (KVG) managing open-ended real estate funds."
   },
   {
-    id: "fac-claude-dda2-018",
+    id: "fac-claude-dda2-017",
     parentName: "Catella",
     name: "Catella Investment Management Holding & Residential IM Office (Upper West, Berlin)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Berlin",
     country: "Germany",
-    lat: 52.50488,
-    lng: 13.33284,
+    lat: 52.50505,
+    lng: 13.33296,
     address: "Upper West, Kantstraße 164, 10623 Berlin",
     footprintRadiusMeters: 160,
     description: "Office of Catella Investment Management Holding and Catella Residential Investment Management GmbH in Berlin's Upper West tower."

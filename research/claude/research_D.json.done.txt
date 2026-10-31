@@ -36,3 +36,8 @@ Troax Group — skipped: main factory is the Hillerstorp HQ; foreign plant addre
 Nederman Holding
 Rejlers
 Ependion
+Aktiebolag Fagerhult
+Instalco — skipped: ~100 small decentralised installation subsidiaries, no flagship site confirmable (search budget exhausted)
+Cynca Nordic — skipped: no confirmable operating site beyond HQ (search budget exhausted)
+BTS Group — skipped: consultancy with leased offices only; no confirmable major site (search budget exhausted)
+Salix Group — skipped: no confirmable site beyond HQ (search budget exhausted)

@@ -15,10 +15,10 @@ OK      Synaferd | Visma Spiris Växjö Office (Visma Sweden) | Sambandsvägen 5
 OK      Synaferd | Visma Solutions Headquarters (Lappeenranta) | Villimiehenkatu 10, 53100 Lappeenranta -> place/house 10, Villimiehenkatu, Peltola, Lappeenranta, Lappeenrannan seutukunta, 
 OK      Synaferd | Visma Nederland Office (Amsterdam) | Wenckebachweg 200, 1096 AS Amsterdam -> place/house 200, H.J.E. Wenckebachweg, Weespertrekvaart-Zuid, Oost, Amsterdam-Duiv
 OK      Link Mobility Group Holding | LINK Mobility Germany Office (Hamburg HafenCity) | Am Sandtorkai 73, 20457 Hamburg -> place/house 73, Am Sandtorkai, Hanseatic Trade Center, HafenCity, Hamburg-Mitte, H
-OK      Link Mobility Group Holding | LINK Mobility Spain Office (Pozuelo de Alarcón, Madrid) | Vía de las Dos Castillas 33, Pozuelo de Alarcón -> office/coworking My Coworking Pozuelo, 33, Vía de las Dos Castillas, Distrito Municipal
-OK      Link Mobility Group Holding | LINK Mobility UK Office (The Shard, London) | The Shard, London -> office/yes The Shard, 32, London Bridge Street, London Bridge Quarter, Bermondsey
+OK      Link Mobility Group Holding | LINK Mobility Spain Office (Pozuelo de Alarcón, Madrid) | Vía de las Dos Castillas 33, Pozuelo de Alarcón -> place/house 33, Vía de las Dos Castillas, Distrito Municipal I (sin urbanizaciones
+NOGEO   Link Mobility Group Holding | LINK Mobility UK Office (The Shard, London)
 OK      SoftwareOne | SoftwareOne Corporate Headquarters (Stans, Switzerland) | Riedenmatt 4, 6370 Stans -> building/commercial 4, Riedenmatt, Stans, Nidwalden, 6370, Schweiz/Suisse/Svizzera/Svizra
-OK      Kid | Hemtex Headquarters (Borås) | Hemtex Borås -> shop/fabric Hemtex, 11, Stora Brogatan, Lugnet, Borås, Borås kommun, Västra Götala
+OK      Kid | Hemtex Headquarters (Borås) | Prognosgatan 22, 504 64 Borås -> place/house 22A, Prognosgatan, Viared västra, Viås, Borås, Borås kommun, Västra Gö
 OK      Bouvet | Bouvet Stavanger Regional Office (Hinna Park) | Bouvet Stavanger -> office/consulting Bouvet Stavanger, Laberget, Jåttåvågen, Gausel, Hinna, Stavanger, Roga
 OK      Bouvet | Bouvet Bergen Regional Office | Bouvet Bergen -> office/it Bouvet, Solheimsgaten, Solheim Industripark, Solheim, Årstad, Bergen, 
 OK      Bouvet | Bouvet Trondheim Regional Office | Professor Brochs gate 14, 7030 Trondheim -> place/house 14, Professor Brochs gate, Dalsenget, Elgeseter, Midtbyen, Trondheim, 
@@ -30,7 +30,7 @@ NOGEO   Essity | Essity Neenah MacMahon Drive Tissue Mill
 NOGEO   Essity | Essity Barton Operations Tissue Mill (Cherokee, Alabama)
 OK      Evolution | Evolution Riga Live Casino Studio & Game Development Hub | Brīvības iela 151, Rīga -> office/company Evolution Gaming, 151, Brīvības iela, Brasa, Centra apkaime, Rīga, LV-
 NOGEO   Evolution | Evolution Tbilisi Live Casino Studio (Georgia)
-OK      Evolution | Evolution Malta Live Casino Studio (Mrieħel) | Mrieħel Birkirkara -> amenity/school Skola Sekondarja Mrieħel, Triq il-Parroċċa Santa Marija, L-Imrieħel, B
+NOGEO   Evolution | Evolution Malta Live Casino Studio (Mrieħel)
 NOGEO   Elisa | Elisa Säterinportti Data Center (Espoo)
 OK      Elisa | Elisa Tapiola Data Center (Espoo) | Ahertajantie 2, 02100 Espoo -> building/service Elisa Data Center, 2, Ahertajantie, Ahertaja, Länsikorkee, Tapiola, Su
 NOGEO   Elisa | Elisa Lauttasaari Data Center (Helsinki)
@@ -42,7 +42,7 @@ NOGEO   Pandora | Pandora Vietnam Crafting Facility (VSIP III, Binh Duong)
 NOGEO   NCAB Group | NCAB Group China Sourcing & Factory Management Office (Shenzhen)
 OK      NCAB Group | NCAB Group USA Office (Hampstead, New Hampshire) | 10 Starwood Drive, Hampstead, NH -> place/house 10, Starwood Drive, East Hampstead, Hampstead, Rockingham County, New 
 NOGEO   Pexip Holding | Pexip UK Office (Thames Valley Park, Reading)
-OK      Pexip Holding | Pexip Americas Office (Herndon, Virginia) | 13461 Sunrise Valley Drive, Herndon -> office/company Bowman Consulting Herndon Office, 13461, Sunrise Valley Drive, Herndon
+NOGEO   Pexip Holding | Pexip Americas Office (Herndon, Virginia)
 OK      Pexip Holding | Pexip Sweden Office (Hägersten, Stockholm) | Tellusgången 1, Hägersten -> place/house 1, Tellusgången, Midsommarkransen, Hägersten-Älvsjö stadsdelsområde, S
 OK      Pexip Holding | Pexip APAC Office (North Sydney) | Pexip Sydney -> office/it Pexip, Platypus Lane, Sub Base Platypus, Lower North Shore, Sydney, Ne
 OK      Thule Group | Thule Huta Szklana Factory (Poland) | Huta Szklana 91, 64-761 -> place/house 91, Huta Szklana, gmina Krzyż Wielkopolski, powiat czarnkowsko-trzcian
@@ -72,5 +72,5 @@ NOGEO   Festi | Bakkinn Warehouse (Klettagarðar, Sundahöfn)
 OK      Hexatronic Group | Rochester Cable Fiber & Specialty Cable Plant (Culpeper, Virginia) | 751 Old Brandy Road, Culpeper, VA -> place/house 751, Old Brandy Road, High Point, Culpeper, Culpeper County, Virginia,
 OK      Olvi | Cēsu Alus Brewery (Olvi Latvia) | Cēsu Alus -> man_made/works Cēsu Alus, 1, Eduarda Veidenbauma iela, Zeltkalns, Cēsis, Cēsu novads,
 OK      Olvi | Volfas Engelman Brewery (Olvi Lithuania, Kaunas) | Kaunakiemio g. 2, Kaunas -> building/yes Volfas Engelman alaus darykla, 2, Kaunakiemio g., Karmelitai, Centro s
-OK      Olvi | The Helsinki Distilling Company Distillery (Teurastamo) | The Helsinki Distilling Company -> craft/distillery The Helsinki Distilling Company, Työpajankatu, Suvilahti, Kalasatama, 
+OK      Olvi | The Helsinki Distilling Company Distillery (Teurastamo) | Työpajankatu 2, 00580 Helsinki -> building/yes R8, 2, Työpajankatu, Suvilahti, Kalasatama, Sörnäinen, Keskinen suurpi
 NOGEO   UIE | United Plantations HQ, Jendarata Estate & Unitata Refinery (Teluk Intan)

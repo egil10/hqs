@@ -202,27 +202,14 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Pozuelo de Alarcón",
     country: "Spain",
-    lat: 40.44083,
-    lng: -3.78493,
+    lat: 40.44062,
+    lng: -3.78615,
     address: "Vía de las Dos Castillas 33, 28224 Pozuelo de Alarcón, Madrid",
     footprintRadiusMeters: 160,
     description: "Spanish office of LINK Mobility, running the group's Iberian SMS and messaging brands (Altiria, WAUSMS)."
   },
   {
     id: "fac-claude-ddf1-017",
-    parentName: "Link Mobility Group Holding",
-    name: "LINK Mobility UK Office (The Shard, London)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "London",
-    country: "UK",
-    lat: 51.50437,
-    lng: -0.08647,
-    address: "Level 24/25, The Shard, 32 London Bridge Street, London SE1 9SG",
-    footprintRadiusMeters: 160,
-    description: "UK office of LINK Mobility, the group's business messaging operations in the United Kingdom."
-  },
-  {
-    id: "fac-claude-ddf1-018",
     parentName: "SoftwareOne",
     name: "SoftwareOne Corporate Headquarters (Stans, Switzerland)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -235,20 +222,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Registered seat and corporate headquarters of SoftwareOne Holding AG, which absorbed Oslo-based Crayon in 2025 (Oslo remains a key secondary site)."
   },
   {
-    id: "fac-claude-ddf1-019",
+    id: "fac-claude-ddf1-018",
     parentName: "Kid",
     name: "Hemtex Headquarters (Borås)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Borås",
     country: "Sverige",
-    lat: 57.72043,
-    lng: 12.93789,
+    lat: 57.68728,
+    lng: 12.79994,
     address: "Prognosgatan 22, 504 64 Borås",
     footprintRadiusMeters: 180,
     description: "Head office of Swedish home-textile chain Hemtex AB, wholly owned by Kid ASA since 2019."
   },
   {
-    id: "fac-claude-ddf1-020",
+    id: "fac-claude-ddf1-019",
     parentName: "Bouvet",
     name: "Bouvet Stavanger Regional Office (Hinna Park)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -261,7 +248,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "One of Bouvet's largest regional IT consulting offices, serving energy-sector clients in the Stavanger region."
   },
   {
-    id: "fac-claude-ddf1-021",
+    id: "fac-claude-ddf1-020",
     parentName: "Bouvet",
     name: "Bouvet Bergen Regional Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -274,7 +261,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Bouvet's Bergen IT and digital consulting office."
   },
   {
-    id: "fac-claude-ddf1-022",
+    id: "fac-claude-ddf1-021",
     parentName: "Bouvet",
     name: "Bouvet Trondheim Regional Office",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -287,7 +274,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Bouvet's Trondheim IT and digital consulting office."
   },
   {
-    id: "fac-claude-ddf1-023",
+    id: "fac-claude-ddf1-022",
     parentName: "Bouvet",
     name: "Bouvet Sverige Office (Stockholm)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -300,7 +287,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Office of Bouvet Sverige AB, the group's Swedish IT consulting subsidiary."
   },
   {
-    id: "fac-claude-ddf1-024",
+    id: "fac-claude-ddf1-023",
     parentName: "Essity",
     name: "Essity Mainz-Kostheim Tissue Paper Mill",
     facilityType: "Mill, Smelter & Mine",
@@ -313,7 +300,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Essity tissue paper mill (~540 employees) producing toilet paper and kitchen towels (Zewa), recently expanded with new converting lines."
   },
   {
-    id: "fac-claude-ddf1-025",
+    id: "fac-claude-ddf1-024",
     parentName: "Essity",
     name: "Essity Prudhoe Tissue Mill & Paper Recycling Facility",
     facilityType: "Mill, Smelter & Mine",
@@ -326,7 +313,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Essity tissue and towel mill in Northumberland with a new GBP 30m+ recycled-fibre facility opened in April 2026."
   },
   {
-    id: "fac-claude-ddf1-026",
+    id: "fac-claude-ddf1-025",
     parentName: "Essity",
     name: "Essity Ortmann Tissue Mill",
     facilityType: "Mill, Smelter & Mine",
@@ -339,7 +326,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Essity tissue mill producing toilet paper, household towels, napkins and handkerchiefs (Cosy, Tempo) for Central Europe."
   },
   {
-    id: "fac-claude-ddf1-027",
+    id: "fac-claude-ddf1-026",
     parentName: "Evolution",
     name: "Evolution Riga Live Casino Studio & Game Development Hub",
     facilityType: "Data Center, Telecom & Cloud",
@@ -352,20 +339,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Evolution's original live casino studio and main hub for developing, testing and launching new live games (Evolution Latvia SIA)."
   },
   {
-    id: "fac-claude-ddf1-028",
-    parentName: "Evolution",
-    name: "Evolution Malta Live Casino Studio (Mrieħel)",
-    facilityType: "Data Center, Telecom & Cloud",
-    city: "Birkirkara",
-    country: "Malta",
-    lat: 35.89366,
-    lng: 14.45815,
-    address: "Fort Mrieħel, Mrieħel, Birkirkara, Malta",
-    footprintRadiusMeters: 250,
-    description: "One of Evolution's three main European live casino hubs, housing international native-language dealer teams."
-  },
-  {
-    id: "fac-claude-ddf1-029",
+    id: "fac-claude-ddf1-027",
     parentName: "Elisa",
     name: "Elisa Tapiola Data Center (Espoo)",
     facilityType: "Data Center, Telecom & Cloud",
@@ -378,7 +352,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Elisa-operated colocation data center in Tapiola, Espoo."
   },
   {
-    id: "fac-claude-ddf1-030",
+    id: "fac-claude-ddf1-028",
     parentName: "Elisa",
     name: "Elisa Tallinn Data Center (Elisa Eesti)",
     facilityType: "Data Center, Telecom & Cloud",
@@ -391,7 +365,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Data center of Elisa's wholly owned Estonian operator Elisa Eesti."
   },
   {
-    id: "fac-claude-ddf1-031",
+    id: "fac-claude-ddf1-029",
     parentName: "NCAB Group",
     name: "NCAB Group USA Office (Hampstead, New Hampshire)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -404,20 +378,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of NCAB Group USA, the PCB supplier's North American subsidiary."
   },
   {
-    id: "fac-claude-ddf1-032",
-    parentName: "Pexip Holding",
-    name: "Pexip Americas Office (Herndon, Virginia)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Herndon",
-    country: "USA",
-    lat: 38.95852,
-    lng: -77.41327,
-    address: "13461 Sunrise Valley Drive, Suite 160, Herndon, VA 20171",
-    footprintRadiusMeters: 160,
-    description: "Pexip's US office near Washington DC, serving government and enterprise customers in the Americas."
-  },
-  {
-    id: "fac-claude-ddf1-033",
+    id: "fac-claude-ddf1-030",
     parentName: "Pexip Holding",
     name: "Pexip Sweden Office (Hägersten, Stockholm)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -430,7 +391,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Pexip's Swedish office in Stockholm."
   },
   {
-    id: "fac-claude-ddf1-034",
+    id: "fac-claude-ddf1-031",
     parentName: "Pexip Holding",
     name: "Pexip APAC Office (North Sydney)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -443,7 +404,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Pexip's Australian office for the Asia-Pacific region."
   },
   {
-    id: "fac-claude-ddf1-035",
+    id: "fac-claude-ddf1-032",
     parentName: "Thule Group",
     name: "Thule Huta Szklana Factory (Poland)",
     facilityType: "Factory & Manufacturing",
@@ -456,7 +417,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Thule's largest European production and assembly plant (Thule Sp. z o.o.), operating for some two decades and making carriers and racks."
   },
   {
-    id: "fac-claude-ddf1-036",
+    id: "fac-claude-ddf1-033",
     parentName: "Thule Group",
     name: "Thule Piła Assembly Plant (Poland)",
     facilityType: "Factory & Manufacturing",
@@ -469,7 +430,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "13,500 m2 Thule assembly facility opened in January 2018 (SEK 80m investment) in the Piła special economic subzone."
   },
   {
-    id: "fac-claude-ddf1-037",
+    id: "fac-claude-ddf1-034",
     parentName: "Thule Group",
     name: "Thule Americas HQ & Assembly Plant (Seymour, Connecticut)",
     facilityType: "Factory & Manufacturing",
@@ -482,7 +443,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Thule's North American headquarters with fabrication and assembly of roof racks and carriers."
   },
   {
-    id: "fac-claude-ddf1-038",
+    id: "fac-claude-ddf1-035",
     parentName: "Recovery Holdco",
     name: "Jøtul Wrocław Stove Manufacturing Plant (Poland)",
     facilityType: "Factory & Manufacturing",
@@ -495,7 +456,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Jøtul group assembly and manufacturing plant for wood stoves and fireplaces, officially opened in February 2020 after moving labour-intensive work from Norway and Denmark."
   },
   {
-    id: "fac-claude-ddf1-039",
+    id: "fac-claude-ddf1-036",
     parentName: "Recovery Holdco",
     name: "Jøtul North America HQ & Stove Plant (Gorham, Maine)",
     facilityType: "Factory & Manufacturing",
@@ -508,7 +469,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Jøtul's North American headquarters and plant where ~90 employees assemble about 20,000 wood and gas stoves a year."
   },
   {
-    id: "fac-claude-ddf1-040",
+    id: "fac-claude-ddf1-037",
     parentName: "Inteno Group",
     name: "Genexis Netherlands HQ & R&D (Eindhoven)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -521,7 +482,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Co-headquarters of Genexis (Inteno Group), developing fibre-to-the-home CPE, gateways and Wi-Fi equipment."
   },
   {
-    id: "fac-claude-ddf1-041",
+    id: "fac-claude-ddf1-038",
     parentName: "Inteno Group",
     name: "Genexis Finland Office (Vaasa)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -534,7 +495,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Office of Genexis Finland Oy Ab, Inteno Group's Finnish broadband-equipment subsidiary."
   },
   {
-    id: "fac-claude-ddf1-042",
+    id: "fac-claude-ddf1-039",
     parentName: "Inteno Group",
     name: "Genexis Germany Office (Königswinter)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -547,7 +508,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Office of Genexis Germany GmbH, serving German fibre operators with home gateways."
   },
   {
-    id: "fac-claude-ddf1-043",
+    id: "fac-claude-ddf1-040",
     parentName: "HMS Networks",
     name: "Red Lion Controls HQ & Plant (York, Pennsylvania)",
     facilityType: "Factory & Manufacturing",
@@ -560,7 +521,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Home of Red Lion Controls (acquired by HMS in 2024), maker of industrial HMIs, data-acquisition devices and industrial Ethernet switches."
   },
   {
-    id: "fac-claude-ddf1-044",
+    id: "fac-claude-ddf1-041",
     parentName: "HMS Networks",
     name: "HMS Ewon Development Center (Nivelles)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -573,7 +534,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "HMS product development site for the Ewon remote-access and industrial IIoT router brand."
   },
   {
-    id: "fac-claude-ddf1-045",
+    id: "fac-claude-ddf1-042",
     parentName: "HMS Networks",
     name: "PEAK-System Technik Development Site (Darmstadt)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -586,7 +547,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "HMS-owned PEAK-System, developer of CAN-bus interfaces and automotive diagnostic tools."
   },
   {
-    id: "fac-claude-ddf1-046",
+    id: "fac-claude-ddf1-043",
     parentName: "HMS Networks",
     name: "HMS Intesis Development Center (Igualada)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -599,7 +560,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "HMS product development site for Intesis building-automation and HVAC protocol gateways."
   },
   {
-    id: "fac-claude-ddf1-047",
+    id: "fac-claude-ddf1-044",
     parentName: "Cloetta",
     name: "Cloetta Levice Confectionery Factory",
     facilityType: "Factory & Manufacturing",
@@ -612,7 +573,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Cloetta's largest factory (~700 employees) making Malaco, Red Band, Läkerol, Chewits and Mynthon via starch moulding, extrusion and boiled-candy lines."
   },
   {
-    id: "fac-claude-ddf1-048",
+    id: "fac-claude-ddf1-045",
     parentName: "Cloetta",
     name: "Cloetta Turnhout Candy Factory",
     facilityType: "Factory & Manufacturing",
@@ -625,7 +586,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Cloetta starch-moulding plant (~115 employees) producing Malaco and Red Band candy."
   },
   {
-    id: "fac-claude-ddf1-049",
+    id: "fac-claude-ddf1-046",
     parentName: "Cloetta",
     name: "The Jelly Bean Factory (Cloetta, Dublin)",
     facilityType: "Factory & Manufacturing",
@@ -638,7 +599,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Cloetta-owned gourmet jelly bean plant (~60 employees) using starch moulding."
   },
   {
-    id: "fac-claude-ddf1-050",
+    id: "fac-claude-ddf1-047",
     parentName: "Hexatronic Group",
     name: "Rochester Cable Fiber & Specialty Cable Plant (Culpeper, Virginia)",
     facilityType: "Factory & Manufacturing",
@@ -651,7 +612,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Hexatronic-owned Rochester Cable's North American manufacturing facility for fiber optic and specialty electro-optical cables."
   },
   {
-    id: "fac-claude-ddf1-051",
+    id: "fac-claude-ddf1-048",
     parentName: "Olvi",
     name: "Cēsu Alus Brewery (Olvi Latvia)",
     facilityType: "Factory & Manufacturing",
@@ -664,7 +625,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Latvia's largest brewery, AS Cēsu Alus, wholly owned by Olvi; produces beer, ciders and soft drinks."
   },
   {
-    id: "fac-claude-ddf1-052",
+    id: "fac-claude-ddf1-049",
     parentName: "Olvi",
     name: "Volfas Engelman Brewery (Olvi Lithuania, Kaunas)",
     facilityType: "Factory & Manufacturing",
@@ -677,14 +638,14 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Olvi's Lithuanian brewery producing Volfas Engelman beers, ciders and soft drinks."
   },
   {
-    id: "fac-claude-ddf1-053",
+    id: "fac-claude-ddf1-050",
     parentName: "Olvi",
     name: "The Helsinki Distilling Company Distillery (Teurastamo)",
     facilityType: "Factory & Manufacturing",
     city: "Helsinki",
     country: "Finland",
-    lat: 60.19011,
-    lng: 24.96995,
+    lat: 60.18942,
+    lng: 24.97274,
     address: "Työpajankatu 2a R3, 00580 Helsinki",
     footprintRadiusMeters: 160,
     description: "Olvi-owned craft distillery in the Teurastamo food district making gin, whisky and long drinks."

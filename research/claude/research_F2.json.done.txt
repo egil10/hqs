@@ -27,3 +27,6 @@ Better Collective (offices only city-level; no street addresses published)
 Bera — skipped: brewery/HQ (Hálsar, Reykjavík) is the HQ site; no other site confirmable
 Humble Group
 Lime Technologies
+Fiskars
+Knowit (note: company contact page lists Stockholm visiting address Sveavägen 20, while HQ in data is Klarabergsgatan 60)
+cBrain — skipped: only the Copenhagen HQ is published; US subsidiary cBrain Inc. has no listed address

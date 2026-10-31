@@ -913,5 +913,257 @@
     "source": "https://www.grk.fi/en/contact",
     "parentName": "GRK Infra",
     "coordsExact": false
+  },
+  {
+    "name": "YIT Eesti Head Office (Tallinn)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "address": "Pärnu mnt 102B, 11312 Tallinn",
+    "geoQueries": [
+      "YIT Eesti Tallinn",
+      "Pärnu maantee 102b, 11312 Tallinn"
+    ],
+    "approxLat": 59.42,
+    "approxLng": 24.728,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of AS YIT Eesti, YIT's Estonian residential development, building and infrastructure construction subsidiary.",
+    "source": "https://www.yit.ee/en/home",
+    "parentName": "YIT",
+    "coordsExact": false
+  },
+  {
+    "name": "YIT Lietuva Vilnius Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "address": "Spaudos g. 7, LT-05132 Vilnius",
+    "geoQueries": [
+      "YIT Lietuva Vilnius",
+      "Spaudos g. 7, Vilnius"
+    ],
+    "approxLat": 54.705,
+    "approxLng": 25.26,
+    "footprintRadiusMeters": 150,
+    "description": "Main Vilnius office of YIT's Lithuanian housing development and construction business (a second office is in Kaunas).",
+    "source": "https://www.yit.lt/en/housing",
+    "parentName": "YIT",
+    "coordsExact": false
+  },
+  {
+    "name": "Scanfil Pärnu Electronics Manufacturing Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Pärnu",
+    "country": "Estonia",
+    "address": "Vana-Sauga 40, 80010 Pärnu",
+    "geoQueries": [
+      "Scanfil Pärnu",
+      "Vana-Sauga 40, Pärnu"
+    ],
+    "approxLat": 58.4,
+    "approxLng": 24.53,
+    "footprintRadiusMeters": 250,
+    "description": "Scanfil contract manufacturing plant for electronics, mechanics and system integration.",
+    "source": "https://www.scanfil.com/contact-us/",
+    "parentName": "Scanfil",
+    "coordsExact": false
+  },
+  {
+    "name": "Scanfil Suzhou Electronics Manufacturing Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Suzhou",
+    "country": "China",
+    "address": "#9 Sheng'ai Lu, North Loufeng, Suzhou Industrial Park, 215021 Suzhou",
+    "geoQueries": [
+      "Scanfil Suzhou",
+      "9 Sheng'ai Road, Suzhou Industrial Park"
+    ],
+    "approxLat": 31.35,
+    "approxLng": 120.72,
+    "footprintRadiusMeters": 220,
+    "description": "Scanfil's Chinese contract electronics manufacturing plant in Suzhou Industrial Park.",
+    "source": "https://www.scanfil.com/contact-us/",
+    "parentName": "Scanfil",
+    "coordsExact": false
+  },
+  {
+    "name": "Scanfil Wutha-Farnroda Electronics Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Wutha-Farnroda",
+    "country": "Germany",
+    "address": "Röberstraße 5, 99848 Wutha-Farnroda",
+    "geoQueries": [
+      "Scanfil Wutha",
+      "Röberstraße 5, 99848 Wutha-Farnroda"
+    ],
+    "approxLat": 50.955,
+    "approxLng": 10.41,
+    "footprintRadiusMeters": 220,
+    "description": "Scanfil's German contract manufacturing plant for electronics assemblies and box builds.",
+    "source": "https://www.scanfil.com/contact-us/",
+    "parentName": "Scanfil",
+    "coordsExact": false
+  },
+  {
+    "name": "Scanfil Myslowice Manufacturing Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Mysłowice",
+    "country": "Poland",
+    "address": "Brzezińska 59, 41-404 Mysłowice",
+    "geoQueries": [
+      "Scanfil Myslowice",
+      "Brzezińska 59, 41-404 Mysłowice"
+    ],
+    "approxLat": 50.22,
+    "approxLng": 19.14,
+    "footprintRadiusMeters": 250,
+    "description": "Scanfil plant for electronics manufacturing, mechanical assembly and system integration.",
+    "source": "https://www.scanfil.com/contact-us/",
+    "parentName": "Scanfil",
+    "coordsExact": false
+  },
+  {
+    "name": "MB Elettronica Cortona Plant (Scanfil)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Cortona",
+    "country": "Italy",
+    "address": "Zona Industriale C.S. Ossaia 35-35/P, 52044 Cortona (AR)",
+    "geoQueries": [
+      "MB Elettronica Cortona",
+      "Ossaia, Cortona"
+    ],
+    "approxLat": 43.26,
+    "approxLng": 11.97,
+    "footprintRadiusMeters": 200,
+    "description": "Italian electronics manufacturing services company acquired by Scanfil, producing PCB assemblies.",
+    "source": "https://www.scanfil.com/contact-us/",
+    "parentName": "Scanfil",
+    "coordsExact": false
+  },
+  {
+    "name": "Scanfil Atlanta Manufacturing Plant (Buford)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Buford (Georgia)",
+    "country": "USA",
+    "address": "4345 Hamilton Mill Road, Suite 400, Buford, GA 30518",
+    "geoQueries": [
+      "Scanfil Atlanta",
+      "4345 Hamilton Mill Road, Buford, GA 30518"
+    ],
+    "approxLat": 34.07,
+    "approxLng": -83.93,
+    "footprintRadiusMeters": 200,
+    "description": "Scanfil's US contract manufacturing plant serving North American customers.",
+    "source": "https://www.scanfil.com/contact-us/",
+    "parentName": "Scanfil",
+    "coordsExact": false
+  },
+  {
+    "name": "Multiconsult Trondheim Regional Office (Sluppen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Trondheim",
+    "country": "Norge",
+    "address": "Sluppenvegen 23, 7037 Trondheim",
+    "geoQueries": [
+      "Multiconsult Trondheim",
+      "Sluppenvegen 23, 7037 Trondheim"
+    ],
+    "approxLat": 63.398,
+    "approxLng": 10.403,
+    "footprintRadiusMeters": 150,
+    "description": "Multiconsult Norge's Trondheim engineering office with about 240 employees.",
+    "source": "https://data.brreg.no/enhetsregisteret/api/underenheter/973102346",
+    "parentName": "Multiconsult",
+    "coordsExact": false
+  },
+  {
+    "name": "Multiconsult Fredrikstad Regional Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Fredrikstad",
+    "country": "Norge",
+    "address": "Storgata 33, 1607 Fredrikstad",
+    "geoQueries": [
+      "Multiconsult Fredrikstad",
+      "Storgata 33, 1607 Fredrikstad"
+    ],
+    "approxLat": 59.2105,
+    "approxLng": 10.935,
+    "footprintRadiusMeters": 130,
+    "description": "Multiconsult Norge's Østfold engineering office with about 185 employees.",
+    "source": "https://data.brreg.no/enhetsregisteret/api/underenheter/971609656",
+    "parentName": "Multiconsult",
+    "coordsExact": false
+  },
+  {
+    "name": "Multiconsult Tromsø Regional Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tromsø",
+    "country": "Norge",
+    "address": "Kvaløyvegen 156, 9013 Tromsø",
+    "geoQueries": [
+      "Multiconsult Tromsø",
+      "Kvaløyvegen 156, 9013 Tromsø"
+    ],
+    "approxLat": 69.65,
+    "approxLng": 18.93,
+    "footprintRadiusMeters": 130,
+    "description": "Multiconsult Norge's main Northern Norway engineering office with about 150 employees.",
+    "source": "https://data.brreg.no/enhetsregisteret/api/underenheter/973102338",
+    "parentName": "Multiconsult",
+    "coordsExact": false
+  },
+  {
+    "name": "Enemærke & Petersen Head Office (Ringsted)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Ringsted",
+    "country": "Danmark",
+    "address": "Ole Hansens Vej 1, 4100 Ringsted",
+    "geoQueries": [
+      "Enemærke & Petersen Ringsted",
+      "Ole Hansens Vej 1, 4100 Ringsted"
+    ],
+    "approxLat": 55.44,
+    "approxLng": 11.8,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of Enemærke & Petersen A/S, MT Højgaard Holding's renovation, new-build and building services contractor.",
+    "source": "https://eogp.dk/kontakt",
+    "parentName": "MT Hoejgaard Holding",
+    "coordsExact": false
+  },
+  {
+    "name": "MT Højgaard Danmark Aarhus Regional Office (Risskov)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Risskov (Aarhus)",
+    "country": "Danmark",
+    "address": "Mosevej 3, 8240 Risskov",
+    "geoQueries": [
+      "MT Højgaard Risskov",
+      "Mosevej 3, 8240 Risskov"
+    ],
+    "approxLat": 56.19,
+    "approxLng": 10.21,
+    "footprintRadiusMeters": 150,
+    "description": "MT Højgaard Danmark's main Jutland office for construction and civil engineering projects.",
+    "source": "https://mth.dk/kontakt",
+    "parentName": "MT Hoejgaard Holding",
+    "coordsExact": false
+  },
+  {
+    "name": "MT Højgaard Danmark Aalborg Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Aalborg",
+    "country": "Danmark",
+    "address": "Danalien 1, 9000 Aalborg",
+    "geoQueries": [
+      "MT Højgaard Aalborg",
+      "Danalien 1, 9000 Aalborg"
+    ],
+    "approxLat": 57.05,
+    "approxLng": 9.93,
+    "footprintRadiusMeters": 130,
+    "description": "MT Højgaard Danmark's North Jutland regional office.",
+    "source": "https://mth.dk/kontakt",
+    "parentName": "MT Hoejgaard Holding",
+    "coordsExact": false
   }
 ]

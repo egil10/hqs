@@ -210,19 +210,32 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
   },
   {
     id: "fac-claude-dde-017",
-    parentName: "Kone",
-    name: "KONE Tytyri High-Rise Elevator Test Laboratory (Lohja limestone mine)",
-    facilityType: "R&D, Biotech & Medtech Lab",
-    city: "Lohja",
-    country: "Finland",
-    lat: 60.26365,
-    lng: 24.06845,
-    address: "Tytyri mine, Lohja, Finland",
-    footprintRadiusMeters: 250,
-    description: "KONE's underground high-rise elevator test laboratory with 11 shafts reaching 350 m depth in the Tytyri limestone mine."
+    parentName: "NKT",
+    name: "NKT Asnæs Medium-Voltage Power Cable Factory",
+    facilityType: "Factory & Manufacturing",
+    city: "Asnæs (Odsherred)",
+    country: "Danmark",
+    lat: 55.80481,
+    lng: 11.50917,
+    address: "Industrivangen, 4550 Asnæs",
+    footprintRadiusMeters: 300,
+    description: "NKT's Danish cable plant (since 1965), producing medium-voltage and specialised 1 kV power cables and serving as Scandinavian logistics hub; expanded in 2024-2025."
   },
   {
     id: "fac-claude-dde-018",
+    parentName: "NKT",
+    name: "NKT Falun Power Cable Factory",
+    facilityType: "Factory & Manufacturing",
+    city: "Falun",
+    country: "Sverige",
+    lat: 60.58084,
+    lng: 15.6495,
+    address: "Källviksvägen 18, 791 52 Falun",
+    footprintRadiusMeters: 300,
+    description: "Former Ericsson Cables plant (acquired 2013) producing building wires, 1 kV, medium- and high-voltage cables up to 170 kV."
+  },
+  {
+    id: "fac-claude-dde-019",
     parentName: "NKT",
     name: "NKT Nordenham High-Voltage Cable Accessories Plant",
     facilityType: "Factory & Manufacturing",
@@ -235,7 +248,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NKT site producing high-voltage cable accessories (joints and terminations), being expanded by over 50% with completion in 2026."
   },
   {
-    id: "fac-claude-dde-019",
+    id: "fac-claude-dde-020",
     parentName: "Norbit",
     name: "NORBIT EMS Selbu Electronics Manufacturing Factory",
     facilityType: "Factory & Manufacturing",
@@ -248,7 +261,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NORBIT EMS contract electronics manufacturing plant in the Product Innovation & Realization segment."
   },
   {
-    id: "fac-claude-dde-020",
+    id: "fac-claude-dde-021",
     parentName: "Norbit",
     name: "NORBIT EMS Røros Electronics Manufacturing Factory",
     facilityType: "Factory & Manufacturing",
@@ -261,7 +274,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NORBIT EMS factory producing electronics including on-board units for road tolling and contract manufacturing."
   },
   {
-    id: "fac-claude-dde-021",
+    id: "fac-claude-dde-022",
     parentName: "Metso",
     name: "Metso Research Center Pori (Minerals Processing & Smelting Pilot Plant)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -274,7 +287,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Metso's research and piloting hub for mineral processing, flotation, hydrometallurgy, battery-material processes and smelting technologies."
   },
   {
-    id: "fac-claude-dde-022",
+    id: "fac-claude-dde-023",
     parentName: "Metso",
     name: "Metso Sala Slurry Pump Factory & Test and Training Center",
     facilityType: "Factory & Manufacturing",
@@ -287,7 +300,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Metso's slurry pump manufacturing and test center with a 4 MW extra-large pump test rig, being expanded under the Sala 2.0 project."
   },
   {
-    id: "fac-claude-dde-023",
+    id: "fac-claude-dde-024",
     parentName: "ISS",
     name: "ISS Norge Head Office (ISS Facility Services AS, Kværnerbyen)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -300,7 +313,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of ISS Norway, one of the group's largest country operations for cleaning, food, workplace and property services."
   },
   {
-    id: "fac-claude-dde-024",
+    id: "fac-claude-dde-025",
     parentName: "Norconsult",
     name: "Norconsult Sverige Göteborg Office (Lindholmen)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -313,20 +326,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Norconsult's main office in western Sweden, also registered address of subsidiary Norconsult Fältgeoteknik AB."
   },
   {
-    id: "fac-claude-dde-025",
+    id: "fac-claude-dde-026",
     parentName: "Norconsult",
     name: "Norconsult Finland Office (Otaniemi, Espoo)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Espoo",
     country: "Finland",
-    lat: 60.18563,
-    lng: 24.81169,
+    lat: 60.18538,
+    lng: 24.81226,
     address: "Tekniikantie 14, 02150 Espoo",
     footprintRadiusMeters: 160,
     description: "Head office of Norconsult's Finnish engineering consultancy operations."
   },
   {
-    id: "fac-claude-dde-026",
+    id: "fac-claude-dde-027",
     parentName: "Konecranes",
     name: "Demag Cranes & Components Wetter Headquarters & Crane Components Plant",
     facilityType: "Factory & Manufacturing",
@@ -339,7 +352,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Headquarters and main production site of Konecranes' wholly owned Demag brand, making hoists, crane components and drive technology."
   },
   {
-    id: "fac-claude-dde-027",
+    id: "fac-claude-dde-028",
     parentName: "Sentia",
     name: "HENT AS Head Office (Tiller, Trondheim)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -352,7 +365,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of HENT AS, the building contractor that is Sentia ASA's main operating subsidiary (Sentia ASA was formerly HENT Invest I AS)."
   },
   {
-    id: "fac-claude-dde-028",
+    id: "fac-claude-dde-029",
     parentName: "Vaisala",
     name: "Vaisala Boulder Operations & North American Headquarters (Louisville, CO)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -365,7 +378,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Vaisala Inc. North American headquarters and Boulder operations site for weather and environmental systems."
   },
   {
-    id: "fac-claude-dde-029",
+    id: "fac-claude-dde-030",
     parentName: "Vaisala",
     name: "Vaisala Saclay Wind Lidar Site (former Leosphere)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -378,7 +391,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Vaisala France site in the Paris-Saclay tech park, home of the former Leosphere wind lidar business acquired in 2020."
   },
   {
-    id: "fac-claude-dde-030",
+    id: "fac-claude-dde-031",
     parentName: "Huhtamäki",
     name: "Huhtamaki Ronsberg Flexible Packaging Plant",
     facilityType: "Factory & Manufacturing",
@@ -391,7 +404,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Huhtamaki's largest German site with over 1,000 employees, producing printed flexible packaging films and laminates."
   },
   {
-    id: "fac-claude-dde-031",
+    id: "fac-claude-dde-032",
     parentName: "Huhtamäki",
     name: "Huhtamaki Americas Headquarters & Packaging Plant (De Soto, Kansas)",
     facilityType: "Factory & Manufacturing",
@@ -404,7 +417,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "North American headquarters of Huhtamaki and a major foodservice/fiber packaging plant, De Soto's third-largest employer (~640 workers)."
   },
   {
-    id: "fac-claude-dde-032",
+    id: "fac-claude-dde-033",
     parentName: "Bittium",
     name: "Bittium Biosignals Kuopio Medical Technology Site",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -417,7 +430,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Bittium Biosignals Ltd., developing and producing ECG, EEG and biosignal measurement devices for the Medical business."
   },
   {
-    id: "fac-claude-dde-033",
+    id: "fac-claude-dde-034",
     parentName: "Bittium",
     name: "Bittium Wireless Tampere R&D Office",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -430,7 +443,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Bittium Wireless engineering office for tactical communications and secure connectivity product development."
   },
   {
-    id: "fac-claude-dde-034",
+    id: "fac-claude-dde-035",
     parentName: "Bittium",
     name: "Bittium Safemove Espoo Office",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -443,7 +456,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Bittium Safemove Ltd., developing secure mobile VPN and connectivity software for defence and security customers."
   },
   {
-    id: "fac-claude-dde-035",
+    id: "fac-claude-dde-036",
     parentName: "SP Group",
     name: "SP Group Sieradz Plastics Campus (SP Tinby / SP Gibo / Ergomat Poland)",
     facilityType: "Factory & Manufacturing",
@@ -456,7 +469,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "SP Group's main Polish production campus for polyurethane moulding, vacuum forming and Ergomat anti-fatigue mats (SP Moulding Poland is nearby at ul. Mickiewicza 96)."
   },
   {
-    id: "fac-claude-dde-036",
+    id: "fac-claude-dde-037",
     parentName: "SP Group",
     name: "SP Tinby / SP Gibo Mount Pleasant Plant (Iowa)",
     facilityType: "Factory & Manufacturing",
@@ -469,7 +482,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "SP Group's US factory for polyurethane and vacuum-formed plastic components."
   },
   {
-    id: "fac-claude-dde-037",
+    id: "fac-claude-dde-038",
     parentName: "SP Group",
     name: "SP Moulding Juelsminde Injection Moulding Plant (Klakring)",
     facilityType: "Factory & Manufacturing",
@@ -482,7 +495,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "SP Moulding injection-moulding factory producing precision plastic components for industrial and healthcare customers."
   },
   {
-    id: "fac-claude-dde-038",
+    id: "fac-claude-dde-039",
     parentName: "SP Group",
     name: "SP Meditec Helsingør Medical Device Factory",
     facilityType: "Factory & Manufacturing",
@@ -495,7 +508,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "SP Meditec production of injection-moulded medical device components in cleanroom conditions."
   },
   {
-    id: "fac-claude-dde-039",
+    id: "fac-claude-dde-040",
     parentName: "GRK Infra",
     name: "GRK Eesti Head Office (Tartu)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -506,5 +519,96 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     address: "Spektri 6, 50411 Tartu",
     footprintRadiusMeters: 160,
     description: "Head office of GRK Eesti AS, GRK's Estonian road, rail and bridge construction subsidiary."
+  },
+  {
+    id: "fac-claude-dde-041",
+    parentName: "YIT",
+    name: "YIT Lietuva Vilnius Office",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Vilnius",
+    country: "Lithuania",
+    lat: 54.7013,
+    lng: 25.21415,
+    address: "Spaudos g. 7, LT-05132 Vilnius",
+    footprintRadiusMeters: 160,
+    description: "Main Vilnius office of YIT's Lithuanian housing development and construction business (a second office is in Kaunas)."
+  },
+  {
+    id: "fac-claude-dde-042",
+    parentName: "Scanfil",
+    name: "Scanfil Pärnu Electronics Manufacturing Plant",
+    facilityType: "Factory & Manufacturing",
+    city: "Pärnu",
+    country: "Estonia",
+    lat: 58.39481,
+    lng: 24.46751,
+    address: "Vana-Sauga 40, 80010 Pärnu",
+    footprintRadiusMeters: 250,
+    description: "Scanfil contract manufacturing plant for electronics, mechanics and system integration."
+  },
+  {
+    id: "fac-claude-dde-043",
+    parentName: "Scanfil",
+    name: "Scanfil Wutha-Farnroda Electronics Plant",
+    facilityType: "Factory & Manufacturing",
+    city: "Wutha-Farnroda",
+    country: "Germany",
+    lat: 50.95637,
+    lng: 10.39138,
+    address: "Röberstraße 5, 99848 Wutha-Farnroda",
+    footprintRadiusMeters: 220,
+    description: "Scanfil's German contract manufacturing plant for electronics assemblies and box builds."
+  },
+  {
+    id: "fac-claude-dde-044",
+    parentName: "Scanfil",
+    name: "Scanfil Myslowice Manufacturing Plant",
+    facilityType: "Factory & Manufacturing",
+    city: "Mysłowice",
+    country: "Poland",
+    lat: 50.19519,
+    lng: 19.16514,
+    address: "Brzezińska 59, 41-404 Mysłowice",
+    footprintRadiusMeters: 250,
+    description: "Scanfil plant for electronics manufacturing, mechanical assembly and system integration."
+  },
+  {
+    id: "fac-claude-dde-045",
+    parentName: "Scanfil",
+    name: "Scanfil Atlanta Manufacturing Plant (Buford)",
+    facilityType: "Factory & Manufacturing",
+    city: "Buford (Georgia)",
+    country: "USA",
+    lat: 34.11202,
+    lng: -83.99011,
+    address: "4345 Hamilton Mill Road, Suite 400, Buford, GA 30518",
+    footprintRadiusMeters: 200,
+    description: "Scanfil's US contract manufacturing plant serving North American customers."
+  },
+  {
+    id: "fac-claude-dde-046",
+    parentName: "Multiconsult",
+    name: "Multiconsult Trondheim Regional Office (Sluppen)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Trondheim",
+    country: "Norge",
+    lat: 63.39769,
+    lng: 10.39704,
+    address: "Sluppenvegen 23, 7037 Trondheim",
+    footprintRadiusMeters: 160,
+    description: "Multiconsult Norge's Trondheim engineering office with about 240 employees."
+  },
+  {
+    id: "fac-claude-dde-047",
+    parentName: "Multiconsult",
+    name: "Multiconsult Tromsø Regional Office",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Tromsø",
+    country: "Norge",
+    lat: 69.64691,
+    lng: 18.89866,
+    address: "Kvaløyvegen 156, 9013 Tromsø",
+    footprintRadiusMeters: 160,
+    description: "Multiconsult Norge's main Northern Norway engineering office with about 150 employees."
   }
 ]);

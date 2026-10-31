@@ -81,19 +81,6 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
   {
     id: "fac-claude-ddd-007",
     parentName: "Verisure",
-    name: "Verisure Group Head Office (Versoix, Geneva)",
-    facilityType: "Filial, Logistics & Subsidiary HQ",
-    city: "Versoix",
-    country: "Switzerland",
-    lat: 46.28137,
-    lng: 6.16489,
-    address: "Chemin Jean-Baptiste Vandelle 3A, 1290 Versoix",
-    footprintRadiusMeters: 160,
-    description: "Group headquarters office of Verisure (Verisure Sàrl) on Lake Geneva, coordinating the monitored-alarm business across Europe and Latin America."
-  },
-  {
-    id: "fac-claude-ddd-008",
-    parentName: "Verisure",
     name: "Securitas Direct (Verisure Spain) HQ & Alarm Receiving Centre (Pozuelo de Alarcón)",
     facilityType: "Data Center, Telecom & Cloud",
     city: "Pozuelo de Alarcón (Madrid)",
@@ -105,7 +92,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Spanish headquarters opened 2024, housing Verisure's largest alarm receiving (monitoring) centre in Europe for its biggest market."
   },
   {
-    id: "fac-claude-ddd-009",
+    id: "fac-claude-ddd-008",
     parentName: "Lifco",
     name: "Kinshofer Group HQ (Holzkirchen, Lifco)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -118,7 +105,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Headquarters of Kinshofer GmbH (part of Lifco since 2007) with management, development, sales and administration."
   },
   {
-    id: "fac-claude-ddd-010",
+    id: "fac-claude-ddd-009",
     parentName: "NIBE Industrier",
     name: "ait-deutschland (alpha innotec) Kasendorf Heat Pump Factory (NIBE)",
     facilityType: "Factory & Manufacturing",
@@ -131,7 +118,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NIBE Climate Solutions subsidiary producing alpha innotec and NOVELAN heat pumps and KKT chillers."
   },
   {
-    id: "fac-claude-ddd-011",
+    id: "fac-claude-ddd-010",
     parentName: "NIBE Industrier",
     name: "CTC / Enertech Ljungby Heat Pump & Boiler Factory (NIBE)",
     facilityType: "Factory & Manufacturing",
@@ -144,7 +131,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "NIBE-owned Enertech AB plant making CTC-brand heat pumps, boilers and water heaters."
   },
   {
-    id: "fac-claude-ddd-012",
+    id: "fac-claude-ddd-011",
     parentName: "NIBE Industrier",
     name: "ClimateMaster Oklahoma City Geothermal Heat Pump Plant (NIBE)",
     facilityType: "Factory & Manufacturing",
@@ -157,7 +144,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "HQ and factory of ClimateMaster (NIBE since 2017), North America's largest maker of water-source and geothermal heat pumps."
   },
   {
-    id: "fac-claude-ddd-013",
+    id: "fac-claude-ddd-012",
     parentName: "Karnell Group",
     name: "Männistö Metallituote Pipe Support Factory (Karnell, Rauma)",
     facilityType: "Factory & Manufacturing",
@@ -170,7 +157,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Karnell product company (acquired 2025) manufacturing pipe clamps, duct holders and insulation fasteners for the maritime and HVAC industries."
   },
   {
-    id: "fac-claude-ddd-014",
+    id: "fac-claude-ddd-013",
     parentName: "Trelleborg",
     name: "Trelleborg Sealing Solutions European HQ & R&D Center (Stuttgart-Vaihingen)",
     facilityType: "R&D, Biotech & Medtech Lab",
@@ -183,7 +170,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Headquarters and central R&D centre of Trelleborg Sealing Solutions, the group's largest business area (polymer seals for aerospace, automotive and industry)."
   },
   {
-    id: "fac-claude-ddd-015",
+    id: "fac-claude-ddd-014",
     parentName: "Trelleborg",
     name: "Trelleborg Sealing Solutions Fort Wayne Seal Plant",
     facilityType: "Factory & Manufacturing",
@@ -196,7 +183,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Full-service Trelleborg Sealing Solutions manufacturing facility producing polymer seals and O-rings for North American customers."
   },
   {
-    id: "fac-claude-ddd-016",
+    id: "fac-claude-ddd-015",
     parentName: "SWECO",
     name: "Sweco Nederland Head Office (De Bilt)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -209,20 +196,20 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Sweco Nederland (ex-Grontmij), one of Sweco's largest country units for engineering, environment and architecture consulting."
   },
   {
-    id: "fac-claude-ddd-017",
+    id: "fac-claude-ddd-016",
     parentName: "SWECO",
     name: "Sweco Finland Head Office (Ilmala, Helsinki)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
     city: "Helsinki",
     country: "Finland",
-    lat: 60.20761,
-    lng: 24.9189,
+    lat: 60.20775,
+    lng: 24.91761,
     address: "Ilmalantori 4, 00240 Helsinki",
     footprintRadiusMeters: 160,
     description: "Head office of Sweco Finland, the group's Finnish engineering and architecture consulting business."
   },
   {
-    id: "fac-claude-ddd-018",
+    id: "fac-claude-ddd-017",
     parentName: "HEXPOL",
     name: "HEXPOL Compounding Middlefield Rubber Compound Plant (Ohio)",
     facilityType: "Factory & Manufacturing",
@@ -235,7 +222,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "One of HEXPOL Compounding Americas' largest rubber compounding (mixing) plants serving automotive and industrial customers."
   },
   {
-    id: "fac-claude-ddd-019",
+    id: "fac-claude-ddd-018",
     parentName: "Engcon",
     name: "engcon Poland Niepruszewo Component & Compactor Factory",
     facilityType: "Factory & Manufacturing",
@@ -248,7 +235,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "engcon's Polish factory (opened 2012, extended 2018) producing components for tiltrotators plus plate compactors and sorting grabs."
   },
   {
-    id: "fac-claude-ddd-020",
+    id: "fac-claude-ddd-019",
     parentName: "Loomis",
     name: "Loomis US Headquarters (Westchase, Houston)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -261,7 +248,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Headquarters of Loomis Armored US, the group's largest market for cash-in-transit, ATM and SafePoint cash-automation services."
   },
   {
-    id: "fac-claude-ddd-021",
+    id: "fac-claude-ddd-020",
     parentName: "AQ Group",
     name: "AQ Wiring Systems Łódź Cable Harness Plant",
     facilityType: "Factory & Manufacturing",
@@ -274,7 +261,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "12,300 m2 AQ Wiring Systems facility (opened 2019) producing cable harnesses and electrical systems for commercial vehicle and industrial customers."
   },
   {
-    id: "fac-claude-ddd-022",
+    id: "fac-claude-ddd-021",
     parentName: "AQ Group",
     name: "AQ Wiring Systems Panevėžys Plant",
     facilityType: "Factory & Manufacturing",
@@ -287,7 +274,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "AQ Group's Lithuanian wiring-system production site (from the 2012 Durapart acquisition), making cable harnesses."
   },
   {
-    id: "fac-claude-ddd-023",
+    id: "fac-claude-ddd-022",
     parentName: "AQ Group",
     name: "AQ Electric Pernik Electrical Cabinet Factory",
     facilityType: "Factory & Manufacturing",
@@ -300,7 +287,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "New AQ factory for electrical cabinets on a 22,000 m2 property acquired for EUR 5m, expanding AQ's large Bulgarian operations."
   },
   {
-    id: "fac-claude-ddd-024",
+    id: "fac-claude-ddd-023",
     parentName: "Sdiptech",
     name: "Rolec Services EV Charger Factory (Sdiptech, Boston, Lincolnshire)",
     facilityType: "Factory & Manufacturing",
@@ -313,7 +300,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Sdiptech's largest acquisition (2021): UK manufacturer of EV charging points and outdoor electrical supply pillars for marinas and caravan parks."
   },
   {
-    id: "fac-claude-ddd-025",
+    id: "fac-claude-ddd-024",
     parentName: "Beijer Alma",
     name: "Habia Cable Söderfors Specialty Cable Factory (Beijer Alma)",
     facilityType: "Factory & Manufacturing",
@@ -326,7 +313,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Main production plant of Beijer Alma subsidiary Habia Cable, making custom high-performance cables for defence, nuclear, telecom and industry."
   },
   {
-    id: "fac-claude-ddd-026",
+    id: "fac-claude-ddd-025",
     parentName: "AFRY",
     name: "AFRY Schweiz Head Office (Herostrasse, Zürich-Altstetten)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -339,7 +326,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of AFRY Schweiz AG and AFRY Management Consulting (ex-Pöyry Switzerland), centre for hydropower and energy engineering."
   },
   {
-    id: "fac-claude-ddd-027",
+    id: "fac-claude-ddd-026",
     parentName: "Nolato",
     name: "Nolato Hungary Polymer Components Plant (Mosonmagyaróvár)",
     facilityType: "Factory & Manufacturing",
@@ -352,7 +339,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Nolato's large Hungarian plant injection-moulding and assembling polymer products for medical and industrial customers."
   },
   {
-    id: "fac-claude-ddd-028",
+    id: "fac-claude-ddd-027",
     parentName: "Nolato",
     name: "Nolato Gota Plastic Packaging Plant (Götene)",
     facilityType: "Factory & Manufacturing",
@@ -365,7 +352,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Nolato Medical Solutions plant producing plastic pharmaceutical packaging and inhaler components."
   },
   {
-    id: "fac-claude-ddd-029",
+    id: "fac-claude-ddd-028",
     parentName: "Nolato",
     name: "Nolato Stargard Plant (Poland)",
     facilityType: "Factory & Manufacturing",
@@ -378,20 +365,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Nolato Industrial Solutions plant in northwest Poland producing polymer components and assemblies."
   },
   {
-    id: "fac-claude-ddd-030",
-    parentName: "MilDef Group",
-    name: "MilDef Ltd Rugged Electronics Facility (St Athan, Wales)",
-    facilityType: "Factory & Manufacturing",
-    city: "St Athan",
-    country: "UK",
-    lat: 51.40982,
-    lng: -3.43741,
-    address: "Building 232, Dragon Way, Bro Tathan West, St Athan CF62 4AF",
-    footprintRadiusMeters: 180,
-    description: "MilDef UK manufacturing and engineering site at the former RAF St Athan aerospace park, producing rugged displays and computers for defence."
-  },
-  {
-    id: "fac-claude-ddd-031",
+    id: "fac-claude-ddd-029",
     parentName: "MilDef Group",
     name: "MilDef GmbH Lichtenau (Germany)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -404,20 +378,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "German MilDef subsidiary supplying and integrating rugged IT systems for the Bundeswehr and German defence industry."
   },
   {
-    id: "fac-claude-ddd-032",
-    parentName: "INVISIO",
-    name: "Racal Acoustics Military Headset Facility (INVISIO, Harrow)",
-    facilityType: "Factory & Manufacturing",
-    city: "Harrow",
-    country: "UK",
-    lat: 51.59387,
-    lng: -0.33979,
-    address: "Waverley Industrial Park, Hailsham Drive, Harrow HA1 4TR",
-    footprintRadiusMeters: 160,
-    description: "INVISIO subsidiary (acquired 2020) designing and producing military headsets and vehicle intercom systems."
-  },
-  {
-    id: "fac-claude-ddd-033",
+    id: "fac-claude-ddd-030",
     parentName: "Inwido",
     name: "Sokółka Okna i Drzwi Window & Door Factory (Inwido Poland)",
     facilityType: "Factory & Manufacturing",
@@ -430,20 +391,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Inwido's Polish business unit Sokolka, a large manufacturer of wooden, PVC and aluminium windows and doors for export markets."
   },
   {
-    id: "fac-claude-ddd-034",
-    parentName: "Systemair",
-    name: "Systemair GmbH Windischbuch Fan & Air Handling Factory (Boxberg)",
-    facilityType: "Factory & Manufacturing",
-    city: "Boxberg-Windischbuch",
-    country: "Germany",
-    lat: 49.44637,
-    lng: 9.64438,
-    address: "Seehöfer Straße 45, 97944 Boxberg-Windischbuch",
-    footprintRadiusMeters: 300,
-    description: "Systemair's large German plant and subsidiary HQ producing fans, air-handling units and ventilation products."
-  },
-  {
-    id: "fac-claude-ddd-035",
+    id: "fac-claude-ddd-031",
     parentName: "Systemair",
     name: "Menerga Heat Recovery AHU Factory (Systemair, Mülheim an der Ruhr)",
     facilityType: "Factory & Manufacturing",
@@ -456,7 +404,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Systemair subsidiary Menerga manufacturing high-efficiency air-handling units and pool dehumidification systems."
   },
   {
-    id: "fac-claude-ddd-036",
+    id: "fac-claude-ddd-032",
     parentName: "Systemair",
     name: "Systemair Ukmergė Ventilation Factory (Lithuania)",
     facilityType: "Factory & Manufacturing",
@@ -469,7 +417,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Systemair's Lithuanian plant manufacturing air-handling units and ventilation equipment for European markets."
   },
   {
-    id: "fac-claude-ddd-037",
+    id: "fac-claude-ddd-033",
     parentName: "Hanza",
     name: "HANZA Mechanics Tartu Manufacturing Cluster (Estonia)",
     facilityType: "Factory & Manufacturing",
@@ -482,20 +430,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "HANZA's largest Estonian cluster: machining, sheet metal, wire harnesses and final assembly for Nordic industrial customers."
   },
   {
-    id: "fac-claude-ddd-038",
-    parentName: "Hanza",
-    name: "HANZA Mechanics Narva Heavy Mechanics Plant (Estonia)",
-    facilityType: "Factory & Manufacturing",
-    city: "Narva",
-    country: "Estonia",
-    lat: 59.25915,
-    lng: 27.93432,
-    address: "Narva, Estonia",
-    footprintRadiusMeters: 250,
-    description: "HANZA heavy-mechanics plant producing large welded and machined structures with assembly."
-  },
-  {
-    id: "fac-claude-ddd-039",
+    id: "fac-claude-ddd-034",
     parentName: "Hanza",
     name: "HANZA Mechanics Kunovice Sheet Metal Plant (Czech Republic)",
     facilityType: "Factory & Manufacturing",
@@ -508,7 +443,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "HANZA Central Europe cluster plant for sheet-metal fabrication and assembly."
   },
   {
-    id: "fac-claude-ddd-040",
+    id: "fac-claude-ddd-035",
     parentName: "Hanza",
     name: "HANZA Electronics Brzeg Dolny (Poland)",
     facilityType: "Factory & Manufacturing",
@@ -521,7 +456,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "HANZA electronics plant in Lower Silesia producing PCB assemblies and electronic box builds."
   },
   {
-    id: "fac-claude-ddd-041",
+    id: "fac-claude-ddd-036",
     parentName: "Coor Service Management Holding",
     name: "Coor Norge Head Office (Skøyen, Oslo)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -534,7 +469,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Coor's Norwegian facility-management business (cleaning, property and workplace services)."
   },
   {
-    id: "fac-claude-ddd-042",
+    id: "fac-claude-ddd-037",
     parentName: "Coor Service Management Holding",
     name: "Coor Danmark Head Office (Herlev)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -547,7 +482,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Head office of Coor's Danish facility-management business."
   },
   {
-    id: "fac-claude-ddd-043",
+    id: "fac-claude-ddd-038",
     parentName: "Nederman Holding",
     name: "Nordfab Ducting Plant (Nederman, Thomasville NC)",
     facilityType: "Factory & Manufacturing",
@@ -560,7 +495,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "Nederman brand Nordfab's plant producing quick-fit clamp-together ducting for dust and fume extraction systems."
   },
   {
-    id: "fac-claude-ddd-044",
+    id: "fac-claude-ddd-039",
     parentName: "Nederman Holding",
     name: "Nederman MikroPul / Pneumafil North America HQ (Charlotte NC)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -573,7 +508,7 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     description: "North American base of Nederman's Process Technology division (MikroPul baghouse filters, Pneumafil textile air systems)."
   },
   {
-    id: "fac-claude-ddd-045",
+    id: "fac-claude-ddd-040",
     parentName: "Rejlers",
     name: "Rejlers Norge Head Office (Schweigaards gate, Oslo)",
     facilityType: "Filial, Logistics & Subsidiary HQ",
@@ -584,5 +519,31 @@ window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
     address: "Schweigaards gate 15, 0191 Oslo",
     footprintRadiusMeters: 160,
     description: "Head office of Rejlers Norge, the group's Norwegian engineering consultancy for energy, infrastructure and buildings."
+  },
+  {
+    id: "fac-claude-ddd-041",
+    parentName: "Aktiebolag Fagerhult",
+    name: "iGuzzini Recanati Lighting HQ & Factory (Fagerhult)",
+    facilityType: "Factory & Manufacturing",
+    city: "Recanati",
+    country: "Italy",
+    lat: 43.36049,
+    lng: 13.50313,
+    address: "Via Mariano Guzzini 37, 62019 Recanati (MC)",
+    footprintRadiusMeters: 350,
+    description: "HQ and main production site of iGuzzini illuminazione, Fagerhult Group's largest company, making architectural indoor and outdoor lighting."
+  },
+  {
+    id: "fac-claude-ddd-042",
+    parentName: "Aktiebolag Fagerhult",
+    name: "Whitecroft Lighting Factory (Fagerhult, Ashton-under-Lyne)",
+    facilityType: "Factory & Manufacturing",
+    city: "Ashton-under-Lyne",
+    country: "UK",
+    lat: 53.48661,
+    lng: -2.11051,
+    address: "Burlington Street, Ashton-under-Lyne OL7 0AX",
+    footprintRadiusMeters: 200,
+    description: "Fagerhult Group's UK lighting manufacturer Whitecroft, producing LED luminaires for healthcare, education and offices."
   }
 ]);

@@ -1434,5 +1434,349 @@
     "footprintRadiusMeters": 220,
     "description": "HMH's Brazilian drilling equipment service base supporting rigs in the Campos and Santos basins.",
     "source": "https://hmhw.com/location-and-contact-information-2/"
+  },
+  {
+    "parentName": "Moreld",
+    "name": "Ocean Installer Head Office (Forus, Stavanger)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stavanger",
+    "country": "Norge",
+    "address": "Kanalsletta 8, Forus, 4033 Stavanger",
+    "geoQueries": [
+      "Kanalsletta 8, Forus",
+      "Kanalsletta 8, Stavanger"
+    ],
+    "approxLat": 58.879,
+    "approxLng": 5.729,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Head office of Moreld subsidiary Ocean Installer, a subsea and marine construction contractor.",
+    "source": "https://oceaninstaller.com/"
+  },
+  {
+    "parentName": "Moreld",
+    "name": "Ocean Installer Stord Base (Eldøyane Næringspark)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Stord",
+    "country": "Norge",
+    "address": "Stordbase, Eldøyane Næringspark, Hall 137, 5411 Stord",
+    "geoQueries": [
+      "Stordbase Eldøyane",
+      "Eldøyane Næringspark, Stord"
+    ],
+    "approxLat": 59.77,
+    "approxLng": 5.49,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Ocean Installer (Moreld) quayside operations and mobilisation base at Stordbase, Eldøyane.",
+    "source": "https://oceaninstaller.com/"
+  },
+  {
+    "parentName": "Moreld",
+    "name": "Ocean Installer & Global Maritime Aberdeen Offices (Aberdeen International Business Park)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Aberdeen",
+    "country": "UK",
+    "address": "Building 3, Aberdeen International Business Park, Dyce Drive, Aberdeen AB21 0BR",
+    "geoQueries": [
+      "Aberdeen International Business Park, Dyce Drive",
+      "Dyce Drive, Aberdeen AB21 0BR"
+    ],
+    "approxLat": 57.205,
+    "approxLng": -2.206,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "UK North Sea offices of Moreld subsidiaries Ocean Installer (subsea construction) and Global Maritime (marine services) in the same building.",
+    "source": "https://globalmaritime.com/office-locations/"
+  },
+  {
+    "parentName": "Moreld",
+    "name": "Ocean Installer Rio de Janeiro Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "address": "Avenida República do Chile 230, Office 2901, 20031-919 Rio de Janeiro",
+    "geoQueries": [
+      "Avenida República do Chile 230, Rio de Janeiro",
+      "Av. República do Chile, 230, Centro"
+    ],
+    "approxLat": -22.91,
+    "approxLng": -43.18,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Ocean Installer (Moreld) Brazilian office for subsea construction projects offshore Brazil.",
+    "source": "https://oceaninstaller.com/"
+  },
+  {
+    "parentName": "Moreld",
+    "name": "Global Maritime Singapore Office (The Arcade)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "11 Collyer Quay, #17-00 The Arcade, Singapore 049317",
+    "geoQueries": [
+      "The Arcade, 11 Collyer Quay, Singapore",
+      "11 Collyer Quay, Singapore 049317"
+    ],
+    "approxLat": 1.284,
+    "approxLng": 103.853,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Asia hub of Moreld's marine and offshore engineering consultancy Global Maritime.",
+    "source": "https://globalmaritime.com/office-locations/"
+  },
+  {
+    "parentName": "Finnair Plc",
+    "name": "Finnair Cargo COOL Nordic Cargo Hub (Helsinki Airport)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vantaa",
+    "country": "Finland",
+    "address": "Rahtitie 1, 01530 Vantaa",
+    "geoQueries": [
+      "Finnair COOL cargo terminal",
+      "Finnair Cargo, Rahtitie 1, Vantaa",
+      "Rahtitie 1, 01530 Vantaa"
+    ],
+    "approxLat": 60.326,
+    "approxLng": 24.958,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Finnair Cargo's automated freight terminal at Helsinki Airport, opened in 2017, and seat of Finnair Cargo Oy and Finnair Cargo Terminal Operations Oy.",
+    "source": "https://en.wikipedia.org/wiki/Finnair"
+  },
+  {
+    "parentName": "Paratus Energy Services",
+    "name": "Paratus Energy Services Registered Headquarters (Par-la-Ville Place, Bermuda)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hamilton",
+    "country": "Bermuda",
+    "address": "Par-la-Ville Place, 14 Par-la-Ville Road, Hamilton HM 08, Bermuda",
+    "geoQueries": [
+      "Par-la-Ville Place, Hamilton",
+      "14 Par-la-Ville Road, Hamilton"
+    ],
+    "approxLat": 32.2935,
+    "approxLng": -64.784,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Bermuda corporate headquarters of Paratus Energy Services, owner of Seagems subsea vessels in Brazil.",
+    "source": "https://www.paratus-energy.com/contact"
+  },
+  {
+    "parentName": "Paratus Energy Services",
+    "name": "Paratus Energy Services London Management Office (10 Eastcheap)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "London",
+    "country": "UK",
+    "address": "10 Eastcheap, London EC3M 1AJ",
+    "geoQueries": [
+      "10 Eastcheap, London",
+      "10 Eastcheap, EC3M 1AJ"
+    ],
+    "approxLat": 51.5105,
+    "approxLng": -0.085,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Paratus Energy Services' UK management office.",
+    "source": "https://www.paratus-energy.com/contact"
+  },
+  {
+    "parentName": "Endúr",
+    "name": "Endúr Maritime Laksevåg Shipyard (Bergen)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Bergen",
+    "country": "Norge",
+    "address": "Damsgårdsveien 119, 5160 Laksevåg",
+    "geoQueries": [
+      "Damsgårdsveien 119, 5160 Laksevåg",
+      "Endúr Maritime Laksevåg",
+      "Damsgårdsveien 119, Bergen"
+    ],
+    "approxLat": 60.392,
+    "approxLng": 5.301,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Endúr Maritime's quayside yard in Laksevåg, Bergen, for ship repair, conversion and maritime/aquaculture steel work.",
+    "source": "https://www.endur.no/facilities/"
+  },
+  {
+    "parentName": "Endúr",
+    "name": "Endúr Maritime Straume Facility (Sotra)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Straume",
+    "country": "Norge",
+    "address": "Idrettsvegen 132, 5353 Straume",
+    "geoQueries": [
+      "Idrettsvegen 132, 5353 Straume",
+      "Idrettsvegen 132, Straume"
+    ],
+    "approxLat": 60.357,
+    "approxLng": 5.125,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Endúr Maritime workshop and service facility at Straume on Sotra west of Bergen.",
+    "source": "https://www.endur.no/facilities/"
+  },
+  {
+    "parentName": "Endúr",
+    "name": "BMO Entreprenør Base (Skollenborg, Kongsberg)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Skollenborg",
+    "country": "Norge",
+    "address": "Skrubbmoen 6, 3619 Skollenborg",
+    "geoQueries": [
+      "Skrubbmoen 6, 3619 Skollenborg",
+      "Skrubbmoen 6, Kongsberg"
+    ],
+    "approxLat": 59.623,
+    "approxLng": 9.667,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Base of Endúr's BMO Entreprenør and sister companies NERO Anlegg, Norsk Bergsikring and Banekompaniet (bridge rehabilitation, rock securing and rail works).",
+    "source": "https://www.endur.no/facilities/"
+  },
+  {
+    "parentName": "Endúr",
+    "name": "Repstad Anlegg Kristiansand Base",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kristiansand",
+    "country": "Norge",
+    "address": "Skibåsen 11, 4636 Kristiansand",
+    "geoQueries": [
+      "Skibåsen 11, 4636 Kristiansand",
+      "Repstad Anlegg Kristiansand"
+    ],
+    "approxLat": 58.17,
+    "approxLng": 8.07,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Head base of Endúr's Repstad Anlegg, a port, quay and marine civil works contractor.",
+    "source": "https://www.endur.no/facilities/"
+  },
+  {
+    "parentName": "Endúr",
+    "name": "Totalbetong Precast Concrete Plant (Bryne)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Bryne",
+    "country": "Norge",
+    "address": "Martin Vagles veg 7, 4344 Bryne",
+    "geoQueries": [
+      "Martin Vagles veg 7, 4344 Bryne",
+      "Totalbetong Bryne"
+    ],
+    "approxLat": 58.733,
+    "approxLng": 5.655,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Endúr subsidiary Totalbetong's concrete element and construction base on Jæren.",
+    "source": "https://www.endur.no/facilities/"
+  },
+  {
+    "parentName": "Endúr",
+    "name": "Marcon-Gruppen i Sverige Head Office (Ängelholm)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Ängelholm",
+    "country": "Sverige",
+    "address": "Ekhögsvägen 5, 262 74 Ängelholm",
+    "geoQueries": [
+      "Ekhögsvägen 5, 262 74 Ängelholm",
+      "Marcon Ängelholm"
+    ],
+    "approxLat": 56.26,
+    "approxLng": 12.88,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Swedish head office of Endúr's Marcon group of marine and underwater construction companies (SSE, Marcon Teknik, SVENTAB, Dykab, STDG).",
+    "source": "https://www.endur.no/facilities/"
+  },
+  {
+    "parentName": "Archer",
+    "name": "Archer Sandnes Main Office & Operations Base",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Sandnes",
+    "country": "Norge",
+    "address": "Sandnesveien 358, 4312 Sandnes",
+    "geoQueries": [
+      "Sandnesveien 358, 4312 Sandnes",
+      "Archer Sandnes"
+    ],
+    "approxLat": 58.865,
+    "approxLng": 5.734,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Archer's main Norwegian office and operations center for platform drilling, well services and plug-and-abandonment.",
+    "source": "https://www.archerwell.com/contact/"
+  },
+  {
+    "parentName": "Archer",
+    "name": "Archer House UK Base (Blackburn, Aberdeen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Aberdeen",
+    "country": "UK",
+    "address": "Archer House, Main Road, Blackburn, Aberdeen AB21 0BP",
+    "geoQueries": [
+      "Archer House, Blackburn, Aberdeen",
+      "Main Road, Blackburn AB21 0BP"
+    ],
+    "approxLat": 57.193,
+    "approxLng": -2.32,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Archer's UK headquarters and well services/tools base serving the UK North Sea.",
+    "source": "https://www.archerwell.com/contact/"
+  },
+  {
+    "parentName": "Archer",
+    "name": "Archer Australia Facility (Malaga, Perth)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Malaga",
+    "country": "Australia",
+    "address": "17 Truganina Road, Malaga WA 6090",
+    "geoQueries": [
+      "17 Truganina Road, Malaga WA 6090",
+      "Truganina Road, Malaga"
+    ],
+    "approxLat": -31.858,
+    "approxLng": 115.893,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Archer's Australian well services and wireline/tool facility in Perth's Malaga industrial area.",
+    "source": "https://www.archerwell.com/contact/"
+  },
+  {
+    "parentName": "Archer",
+    "name": "Archer Argentina Office (Buenos Aires)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "address": "Carlos Pellegrini 1023, Piso 7, C1009ABU Buenos Aires",
+    "geoQueries": [
+      "Carlos Pellegrini 1023, Buenos Aires",
+      "Carlos Pellegrini 1023, C1009ABU"
+    ],
+    "approxLat": -34.596,
+    "approxLng": -58.38,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Archer's Argentine land drilling and workover rig business.",
+    "source": "https://www.archerwell.com/contact/"
+  },
+  {
+    "parentName": "Archer",
+    "name": "Archer Gdańsk Engineering & Support Centre (Olivia Business Centre)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Gdańsk",
+    "country": "Poland",
+    "address": "Olivia Business Centre PRIME A, 9th floor, Aleja Grunwaldzka 472E, 80-309 Gdańsk",
+    "geoQueries": [
+      "Olivia Business Centre, Aleja Grunwaldzka 472, Gdańsk",
+      "Olivia Prime A, Gdańsk"
+    ],
+    "approxLat": 54.403,
+    "approxLng": 18.57,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Archer's Polish office providing engineering and shared services for its global operations.",
+    "source": "https://www.archerwell.com/contact/"
   }
 ]
