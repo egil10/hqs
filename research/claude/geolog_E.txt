@@ -59,3 +59,12 @@ OK      Scanfil | Scanfil Atlanta Manufacturing Plant (Buford) | 4345 Hamilton M
 OK      Multiconsult | Multiconsult Trondheim Regional Office (Sluppen) | Multiconsult Trondheim -> office/company Multiconsult, Sluppenvegen, Sorgenfri, Lerkendal, Trondheim, Trøndelag
 NOGEO   Multiconsult | Multiconsult Fredrikstad Regional Office
 OK      Multiconsult | Multiconsult Tromsø Regional Office | Kvaløyvegen 156, 9013 Tromsø -> place/house 156, Kvaløyvegen, Nordheim, Vangberg, Tromsø, Troms, 9013, Norge
+OK      MT Hoejgaard Holding | Enemærke & Petersen Head Office (Ringsted) | Ole Hansens Vej 1, 4100 Ringsted -> place/house 1, Ole Hansens Vej, Ringsted, Ringsted Kommune, Region Sjælland, 4100,
+OK      MT Hoejgaard Holding | MT Højgaard Danmark Aarhus Regional Office (Risskov) | Mosevej 3, 8240 Risskov -> place/house 3B, Mosevej, Risskov, Aarhus, Aarhus Kommune, Region Midtjylland, 8240
+OK      MT Hoejgaard Holding | MT Højgaard Danmark Aalborg Office | Danalien 1, 9000 Aalborg -> place/house 1, Danalien, Parkbyen, Grønlandskvarteret, Eternitten, Aalborg, Aalbor
+NOGEO   Incap | Incap India Tumkur Electronics Factory
+OK      Incap | Incap UK Newcastle-under-Lyme Factory (former AWS Electronics) | Incap Electronics UK -> man_made/works Incap Electronics UK, Croft Road, Hempstalls, Newcastle-under-Lyme, St
+OK      Incap | Incap Slovakia Námestovo Factory | Vavrečka 311, Námestovo -> building/industrial 311, Vavrečka, okres Námestovo, Žilinský kraj, 029 01, Slovensko
+OK      Incap | Incap US Coal Center Factory (Pennsylvania) | Incap Electronics US Coal Center -> office/company Incap Electronics US, Inc., 75, Technology Drive, California Technolog
+OK      Incap | Incap Electronics Germany Karlsfeld Plant | Hertzstraße 2, 85757 Karlsfeld -> place/house 2, Hertzstraße, Rothschwaige, Karlsfeld, Landkreis Dachau, Bayern, 857
+OK      Incap | Incap Electronics Romania Galați Plant | Incap Electronics Romania Galați -> building/industrial Incap Electronics Romania SRL, 470, Strada Traian, Cartierul Vânători,

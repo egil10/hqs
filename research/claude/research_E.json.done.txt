@@ -24,3 +24,6 @@ Scanfil
 ZAPTEC — skipped: only Forus HQ in Norwegian registry; production is outsourced to Westcontrol Tau (already in data)
 Multiconsult
 MT Hoejgaard Holding
+Incap
+Ponsse — skipped: all machines built in Vieremä (HQ/factory already in data) plus Epec Seinäjoki (in data); subsidiary sales/service offices unverifiable
+Kempower — skipped: main sites Lahti HQ/factory, Tampere R&D and Durham factory already covered; no further verified sites

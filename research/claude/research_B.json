@@ -1778,5 +1778,149 @@
     "footprintRadiusMeters": 160,
     "description": "Archer's Polish office providing engineering and shared services for its global operations.",
     "source": "https://www.archerwell.com/contact/"
+  },
+  {
+    "parentName": "Odfjell Technology",
+    "name": "Odfjell Technology Ltd. Head Office (Prime Four, Kingswells, Aberdeen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Aberdeen",
+    "country": "UK",
+    "address": "Lower Ground Floor, Prime View, Prime Four Business Park, Kingswells, Aberdeen AB15 8PU",
+    "geoQueries": [
+      "Prime View, Prime Four Business Park, Kingswells",
+      "Prime Four Business Park, Aberdeen AB15 8PU"
+    ],
+    "approxLat": 57.163,
+    "approxLng": -2.212,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Corporate headquarters of Odfjell Technology Ltd., managing its drilling operations, engineering and well services businesses.",
+    "source": "https://www.odfjelltechnology.com/contact"
+  },
+  {
+    "parentName": "Odfjell Technology",
+    "name": "Odfjell Technology Well Services Base (Jebel Ali Free Zone, Dubai)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "address": "Al Hesah Street, near Gate 8, Jebel Ali Free Zone (North), Dubai",
+    "geoQueries": [
+      "Jebel Ali Free Zone North Gate 8, Dubai",
+      "Al Hesah Street, Jebel Ali"
+    ],
+    "approxLat": 25.01,
+    "approxLng": 55.09,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Odfjell Technology Middle East well services base for tubular running, wellbore cleanup and drilling tool rental.",
+    "source": "https://www.odfjelltechnology.com/contact/united-arab-emirates/"
+  },
+  {
+    "parentName": "Odfjell Technology",
+    "name": "Odfjell Technology Well Services Base (Mussafah, Abu Dhabi)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "address": "Esnaad Compound TWH-08, Mussafah, Abu Dhabi",
+    "geoQueries": [
+      "Esnaad, Mussafah, Abu Dhabi",
+      "Mussafah, Abu Dhabi"
+    ],
+    "approxLat": 24.34,
+    "approxLng": 54.49,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Odfjell Technology well services base in ADNOC's Esnaad oilfield service compound in Mussafah.",
+    "source": "https://www.odfjelltechnology.com/contact/united-arab-emirates/"
+  },
+  {
+    "parentName": "Odfjell Technology",
+    "name": "Odfjell Arabia Drilling Services Base (Al Qatif, Eastern Province)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Al Qatif",
+    "country": "Saudi Arabia",
+    "address": "Safwa Dist., Albadrani Area, 32475 Al Qatif, Eastern Province",
+    "geoQueries": [
+      "Safwa, Al Qatif",
+      "Albadrani, Safwa, Eastern Province"
+    ],
+    "approxLat": 26.65,
+    "approxLng": 49.95,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Odfjell Technology's Saudi well services base serving onshore and offshore drilling in the Eastern Province.",
+    "source": "https://www.odfjelltechnology.com/contact/saudi-arabia/"
+  },
+  {
+    "parentName": "Odfjell Technology",
+    "name": "Odfjell Technology Well Services Base (Coevorden)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Coevorden",
+    "country": "Netherlands",
+    "address": "Stephensonweg 18A, 7741 KW Coevorden",
+    "geoQueries": [
+      "Stephensonweg 18A, 7741 KW Coevorden",
+      "Stephensonweg 18, Coevorden"
+    ],
+    "approxLat": 52.66,
+    "approxLng": 6.73,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Odfjell Technology's continental European well services and tool rental base.",
+    "source": "https://www.odfjelltechnology.com/contact/netherlands/"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "DFDS Shared Services Centre (Globis, Poznań)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Poznań",
+    "country": "Poland",
+    "address": "Globis Poznań, ul. Franklina Roosevelta 22, 60-829 Poznań",
+    "geoQueries": [
+      "Globis Poznań",
+      "Franklina Roosevelta 22, Poznań"
+    ],
+    "approxLat": 52.408,
+    "approxLng": 16.914,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "DFDS's group shared services centre (finance, IT and customer service) in the Globis office building.",
+    "source": "https://en.wikipedia.org/wiki/DFDS"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "DFDS Istanbul Pendik Ro-Ro Port Terminal (ex-U.N. Ro-Ro)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "address": "Pendik Ro-Ro Terminal, Pendik, Istanbul",
+    "geoQueries": [
+      "Pendik Ro-Ro Terminal",
+      "Pendik Limanı, Istanbul"
+    ],
+    "approxLat": 40.87,
+    "approxLng": 29.26,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "DFDS Denizcilik (ex-U.N. Ro-Ro) port terminal in Istanbul for the Mediterranean freight ferry network to Trieste, Sète and Tarragona.",
+    "source": "https://en.wikipedia.org/wiki/DFDS"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "DFDS Trieste Ro-Ro Port Terminal",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Trieste",
+    "country": "Italy",
+    "address": "Port of Trieste, Riva Traiana, 34123 Trieste",
+    "geoQueries": [
+      "Riva Traiana, Trieste",
+      "Porto di Trieste ro-ro terminal"
+    ],
+    "approxLat": 45.636,
+    "approxLng": 13.762,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "DFDS port terminal in Trieste, the European end of its Turkey-Italy freight ferry corridor.",
+    "source": "https://en.wikipedia.org/wiki/DFDS"
   }
 ]

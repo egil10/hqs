@@ -1165,5 +1165,114 @@
     "source": "https://mth.dk/kontakt",
     "parentName": "MT Hoejgaard Holding",
     "coordsExact": false
+  },
+  {
+    "name": "Incap India Tumkur Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tumkur (Karnataka)",
+    "country": "India",
+    "address": "Survey No 36-39, Pandithanahalli, Hirehalli Post, Tumkur 572104, Karnataka",
+    "geoQueries": [
+      "Incap Contract Manufacturing Services Tumkur",
+      "Pandithanahalli, Tumkur"
+    ],
+    "approxLat": 13.29,
+    "approxLng": 77.19,
+    "footprintRadiusMeters": 250,
+    "description": "Incap's largest factory, producing PCB assemblies, power electronics, cable harnesses and box builds.",
+    "source": "https://www.incapcorp.com/contact",
+    "parentName": "Incap",
+    "coordsExact": false
+  },
+  {
+    "name": "Incap UK Newcastle-under-Lyme Factory (former AWS Electronics)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Newcastle-under-Lyme",
+    "country": "UK",
+    "address": "Croft Road, Newcastle-under-Lyme, Staffordshire ST5 0TW",
+    "geoQueries": [
+      "Incap Electronics UK",
+      "AWS Electronics Newcastle-under-Lyme",
+      "Croft Road, Newcastle-under-Lyme ST5 0TW"
+    ],
+    "approxLat": 53.03,
+    "approxLng": -2.24,
+    "footprintRadiusMeters": 200,
+    "description": "Incap Electronics UK electronics manufacturing plant (acquired with AWS Electronics Group).",
+    "source": "https://www.incapcorp.com/contact",
+    "parentName": "Incap",
+    "coordsExact": false
+  },
+  {
+    "name": "Incap Slovakia Námestovo Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Námestovo",
+    "country": "Slovakia",
+    "address": "Vavrečka 311, 029 01 Námestovo",
+    "geoQueries": [
+      "Incap Electronics Slovakia",
+      "Vavrečka 311, Námestovo"
+    ],
+    "approxLat": 49.4,
+    "approxLng": 19.47,
+    "footprintRadiusMeters": 200,
+    "description": "Incap Electronics Slovakia plant for cable harnesses and electronics assembly.",
+    "source": "https://www.incapcorp.com/contact",
+    "parentName": "Incap",
+    "coordsExact": false
+  },
+  {
+    "name": "Incap US Coal Center Factory (Pennsylvania)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Coal Center (Pennsylvania)",
+    "country": "USA",
+    "address": "75 Technology Drive, Coal Center, PA 15423",
+    "geoQueries": [
+      "Incap Electronics US Coal Center",
+      "75 Technology Drive, Coal Center, PA 15423"
+    ],
+    "approxLat": 40.07,
+    "approxLng": -79.9,
+    "footprintRadiusMeters": 200,
+    "description": "Incap Electronics US contract manufacturing plant for electronics and box-build assemblies.",
+    "source": "https://www.incapcorp.com/contact",
+    "parentName": "Incap",
+    "coordsExact": false
+  },
+  {
+    "name": "Incap Electronics Germany Karlsfeld Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Karlsfeld",
+    "country": "Germany",
+    "address": "Hertzstraße 2, 85757 Karlsfeld",
+    "geoQueries": [
+      "Incap Electronics Germany Karlsfeld",
+      "Hertzstraße 2, 85757 Karlsfeld"
+    ],
+    "approxLat": 48.22,
+    "approxLng": 11.48,
+    "footprintRadiusMeters": 180,
+    "description": "Incap's German electronics manufacturing company, with a further production site in Boxberg.",
+    "source": "https://www.incapcorp.com/contact",
+    "parentName": "Incap",
+    "coordsExact": false
+  },
+  {
+    "name": "Incap Electronics Romania Galați Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Galați",
+    "country": "Romania",
+    "address": "Strada Traian 470, 800179 Galați",
+    "geoQueries": [
+      "Incap Electronics Romania Galați",
+      "Strada Traian 470, Galați"
+    ],
+    "approxLat": 45.44,
+    "approxLng": 28.03,
+    "footprintRadiusMeters": 200,
+    "description": "Incap's Romanian electronics production plant, part of the German acquisition.",
+    "source": "https://www.incapcorp.com/contact",
+    "parentName": "Incap",
+    "coordsExact": false
   }
 ]
