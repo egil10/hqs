@@ -328,9 +328,9 @@
     }
 
     renderAll();
-    if (selectedCompanyRank && !selectedFacilityId) {
-      const c = companyByRank[selectedCompanyRank];
-      if (c) showCompanySheet(c);
+    if (selectedCompanyRank) {
+      document.getElementById("inspectorCard").removeAttribute("data-rank"); // site list may have grown
+      refreshSheet();
     }
   }
 
@@ -994,11 +994,11 @@
             ["linear"],
             ["zoom"],
             3,
-            3.5,
+            2.5,
             10,
-            5.5,
+            4,
             15,
-            7.5
+            6
           ],
           "circle-color": ["get", "color"],
           "circle-stroke-color": "#ffffff",
@@ -1193,81 +1193,160 @@
     return [c.city, n ? plural(n, "site") : ""].filter(Boolean).join(" · ");
   }
 
-  // --- Pooled Map Logo Markers ---
-  function getOrCreateLogoMarker(c) {
-    let entry = logoMarkerPool.get(c.rank);
+  // --- Pooled Map Favicon Markers (HQ logos + site favicons) ---
+  // Keys: "c:<rank>" for a company HQ, "f:<facility id>" for a site.
+  const HQ_SIZE = 26;
+  const SITE_SIZE = 16;
+  const OWN_SITE_SIZE = 20;
+
+  function getOrCreateMarker(key, item) {
+    let entry = logoMarkerPool.get(key);
     if (entry) return entry;
 
+    const isSite = key[0] === "f";
+    const parent = isSite ? companyByRank[item.parentRank] : item;
     const el = document.createElement("div");
-    el.className = "map-logo-marker";
-    el.innerHTML = renderLogoHtml(c);
+    el.className = isSite ? "map-site-marker" : "map-logo-marker";
+    el.innerHTML = renderLogoHtml(parent);
     el.addEventListener("click", (ev) => {
       ev.stopPropagation();
-      selectCompany(c.rank);
+      if (isSite) selectFacility(item.id);
+      else selectCompany(item.rank);
     });
     el.addEventListener("dblclick", (ev) => {
       ev.stopPropagation();
       ev.preventDefault();
-      setSolo(c.rank);
+      setSolo(isSite ? item.parentRank : item.rank);
     });
-    el.addEventListener("mouseenter", () => showHover([c.lng, c.lat], c.shortName, companyMeta(c)));
+    el.addEventListener("mouseenter", () => {
+      if (isSite) {
+        showHover([item.lng, item.lat], item.shortName || item.name, `${parent ? parent.shortName : item.parentName} · ${facilityLabel(item.facilityType)}`);
+      } else {
+        showHover([item.lng, item.lat], item.shortName, companyMeta(item));
+      }
+    });
     el.addEventListener("mouseleave", () => hoverPopup.remove());
 
-    const marker = new maplibregl.Marker({ element: el, anchor: "center" }).setLngLat([c.lng, c.lat]);
-    entry = { marker, el };
-    logoMarkerPool.set(c.rank, entry);
+    const marker = new maplibregl.Marker({ element: el, anchor: "center" }).setLngLat([item.lng, item.lat]);
+    entry = { marker, el, item, isSite };
+    logoMarkerPool.set(key, entry);
     return entry;
   }
 
-  // Every HQ in view gets its logo, decluttered in screen space: where logos would overlap the larger
-  // holding (or the selected company) wins and the others fall back to their small dot until you zoom in.
+  // Decluttering is done once per half zoom level in world (Mercator) pixels, not per frame in screen
+  // pixels. That keeps the set of visible favicons stable: panning never changes which one wins an
+  // overlap, and zooming only reveals more at each half step instead of shuffling them every frame.
+  // HQ logos are placed first, then sites (the selected company's sites first). Anything that loses
+  // falls back to a small dot underneath until you zoom in.
+  let logoDataVersion = 0;
+  let logoPlacementKey = null;
+  let logoWinners = [];
+
+  function computeMarkerWinners(bucket) {
+    const scale = 512 * Math.pow(2, bucket);
+    const cellSize = HQ_SIZE + 2;
+    const grid = new Map();
+    const winners = [];
+    const value = (rank) => (companyByRank[rank] ? companyByRank[rank].marketValue : 0);
+
+    const candidates = [];
+    mapData.companies.forEach((c) => {
+      const pri = c.rank === selectedCompanyRank ? 3 : 2;
+      candidates.push({ key: `c:${c.rank}`, item: c, size: HQ_SIZE, pri, val: c.marketValue });
+    });
+    mapData.facilities.forEach((f) => {
+      const own = f.parentRank === selectedCompanyRank;
+      candidates.push({
+        key: `f:${f.id}`,
+        item: f,
+        size: own ? OWN_SITE_SIZE : SITE_SIZE,
+        pri: f.id === selectedFacilityId ? 2.5 : own ? 1 : 0,
+        val: value(f.parentRank)
+      });
+    });
+    candidates.sort((a, b) => b.pri - a.pri || b.val - a.val);
+
+    for (const cand of candidates) {
+      const m = maplibregl.MercatorCoordinate.fromLngLat([cand.item.lng, cand.item.lat]);
+      const x = m.x * scale;
+      const y = m.y * scale;
+      const gx = Math.floor(x / cellSize);
+      const gy = Math.floor(y / cellSize);
+      let blocked = false;
+      for (let dx = -1; dx <= 1 && !blocked; dx++) {
+        for (let dy = -1; dy <= 1 && !blocked; dy++) {
+          const cell = grid.get(`${gx + dx},${gy + dy}`);
+          if (!cell) continue;
+          blocked = cell.some((p) => {
+            const need = (p.size + cand.size) / 2 + 2;
+            return Math.abs(p.x - x) < need && Math.abs(p.y - y) < need;
+          });
+        }
+      }
+      if (blocked) continue;
+      const gk = `${gx},${gy}`;
+      if (!grid.has(gk)) grid.set(gk, []);
+      grid.get(gk).push({ x, y, size: cand.size });
+      winners.push(cand);
+    }
+    return winners;
+  }
+
   function updateMapLogoMarkers() {
-    const nextRanks = new Set();
+    const nextKeys = new Set();
+    const itemByKey = new Map();
 
     if (showLogos && mapReady) {
+      const bucket = Math.floor(map.getZoom() * 2) / 2;
+      const key = `${bucket}|${logoDataVersion}|${selectedCompanyRank}|${selectedFacilityId}`;
+      if (key !== logoPlacementKey) {
+        logoPlacementKey = key;
+        logoWinners = computeMarkerWinners(bucket);
+      }
+
+      // Only keep DOM markers on or near the screen (margin so edges are already filled while panning)
       const canvas = map.getCanvas();
       const w = canvas.clientWidth;
       const h = canvas.clientHeight;
-      const minGap = map.getZoom() >= 12 ? 22 : 28;
-      const placed = [];
-      const ordered = mapData.companies.slice().sort((a, b) => {
-        if (a.rank === selectedCompanyRank) return -1;
-        if (b.rank === selectedCompanyRank) return 1;
-        return b.marketValue - a.marketValue;
-      });
-
-      for (const c of ordered) {
-        if (placed.length >= 260) break;
-        const pt = map.project([c.lng, c.lat]);
-        if (pt.x < -20 || pt.y < -20 || pt.x > w + 20 || pt.y > h + 20) continue;
-        if (placed.some((p) => Math.abs(p.x - pt.x) < minGap && Math.abs(p.y - pt.y) < minGap)) continue;
-        placed.push(pt);
-        nextRanks.add(c.rank);
+      for (const cand of logoWinners) {
+        if (nextKeys.size >= 450) break;
+        const pt = map.project([cand.item.lng, cand.item.lat]);
+        if (pt.x < -w * 0.5 || pt.y < -h * 0.5 || pt.x > w * 1.5 || pt.y > h * 1.5) continue;
+        nextKeys.add(cand.key);
+        itemByKey.set(cand.key, cand.item);
       }
     }
 
-    nextRanks.forEach((rank) => {
-      const entry = getOrCreateLogoMarker(companyByRank[rank]);
-      entry.el.classList.toggle("active", rank === selectedCompanyRank);
-      if (!visibleLogoRanks.has(rank)) entry.marker.addTo(map);
+    nextKeys.forEach((key) => {
+      const entry = getOrCreateMarker(key, itemByKey.get(key));
+      if (entry.isSite) {
+        const own = entry.item.parentRank === selectedCompanyRank;
+        entry.el.classList.toggle("own", own);
+        entry.el.classList.toggle("active", entry.item.id === selectedFacilityId);
+      } else {
+        entry.el.classList.toggle("active", entry.item.rank === selectedCompanyRank);
+      }
+      if (!visibleLogoRanks.has(key)) entry.marker.addTo(map);
     });
-    visibleLogoRanks.forEach((rank) => {
-      if (!nextRanks.has(rank)) {
-        const entry = logoMarkerPool.get(rank);
+    visibleLogoRanks.forEach((key) => {
+      if (!nextKeys.has(key)) {
+        const entry = logoMarkerPool.get(key);
         if (entry) entry.marker.remove();
       }
     });
     visibleLogoRanks.clear();
-    nextRanks.forEach((r) => visibleLogoRanks.add(r));
+    nextKeys.forEach((k) => visibleLogoRanks.add(k));
   }
 
   // --- Main Render ---
   function renderAll() {
     current = getFilteredData();
     mapData = computeMapData();
+    logoDataVersion++;
 
     renderList();
-    renderSoloChip();
+    renderSoloButton();
+    renderFilterCount();
 
     if (!mapReady || !map.getSource("portfolio-hqs")) return;
 
@@ -1297,8 +1376,8 @@
           parentRank: f.parentRank,
           name: f.shortName || f.name,
           subtitle: [parent ? parent.shortName : f.parentName, facilityLabel(f.facilityType)].join(" · "),
-          color: facilityColor(f.facilityType),
-          strokeWidth: selectedFacilityId === f.id ? 3 : isSelected ? 2.2 : 1.1
+          color: isSelected ? facilityColor(f.facilityType) : "#a3abb8",
+          strokeWidth: selectedFacilityId === f.id ? 3 : isSelected ? 2 : 1
         },
         geometry: { type: "Point", coordinates: [f.lng, f.lat] }
       };
@@ -1340,18 +1419,20 @@
     return `<span class="${cls}">${v > 0 ? "+" : ""}${v.toFixed(1)}%</span>`;
   }
 
+  function rowValue(c) {
+    if (activeSort === "chg1m_desc") return c.quote ? formatChange(c.quote.change1m) : "";
+    if (activeSort === "mcap_desc") return `~${formatCompactValue(c.impliedMarketCap)}`;
+    if (activeSort === "sites_desc") return String(sitesOf(c.rank).length);
+    return formatCompactValue(c.marketValue);
+  }
+
   function renderList() {
     const { filteredCompanies, filteredFacilities } = current;
     const listEl = document.getElementById("entityList");
-    const metaEl = document.getElementById("listMeta");
 
-    metaEl.textContent =
-      activeTab === "facilities"
-        ? plural(filteredFacilities.length, "site")
-        : `${plural(filteredCompanies.length, "company").replace("companys", "companies")} · ${plural(
-            filteredFacilities.length,
-            "site"
-          )}`;
+    const n = activeTab === "facilities" ? filteredFacilities.length : filteredCompanies.length;
+    const noun = activeTab === "facilities" ? (n === 1 ? "site" : "sites") : n === 1 ? "company" : "companies";
+    document.getElementById("searchInput").placeholder = `Search ${n} ${noun}`;
 
     const empty = `<div class="empty-state">No matches</div>`;
 
@@ -1359,7 +1440,7 @@
       listEl.innerHTML = filteredCompanies.length
         ? `<div class="logo-grid">${filteredCompanies
             .map((c) => {
-              const isSelected = selectedCompanyRank === c.rank && !selectedFacilityId;
+              const isSelected = selectedCompanyRank === c.rank;
               return `<div class="logo-tile ${isSelected ? "selected" : ""}" data-rank="${c.rank}" title="${escapeHtml(c.shortName)}">${renderLogoHtml(c)}</div>`;
             })
             .join("")}</div>`
@@ -1368,23 +1449,12 @@
       listEl.innerHTML = filteredCompanies.length
         ? filteredCompanies
             .map((c) => {
-              const isSelected = selectedCompanyRank === c.rank && !selectedFacilityId;
-              const value =
-                activeSort === "mcap_desc"
-                  ? `~${formatCompactValue(c.impliedMarketCap)}`
-                  : formatCompactValue(c.marketValue);
-              const chg = c.quote ? formatChange(c.quote.change1m) : "";
+              const isSelected = selectedCompanyRank === c.rank;
               return `
             <div class="list-row ${isSelected ? "selected" : ""}" data-rank="${c.rank}">
               ${renderLogoHtml(c)}
-              <div class="row-text">
-                <div class="row-name">${escapeHtml(c.shortName)}</div>
-                <div class="row-meta">${escapeHtml(companyMeta(c))}</div>
-              </div>
-              <div class="row-right">
-                <div class="row-value">${value}</div>
-                ${chg ? `<div class="row-chg">${chg}</div>` : ""}
-              </div>
+              <div class="row-text"><div class="row-name">${escapeHtml(c.shortName)}</div></div>
+              <div class="row-value">${rowValue(c)}</div>
             </div>`;
             })
             .join("")
@@ -1396,19 +1466,12 @@
               const parent = companyByRank[f.parentRank];
               const isSelected = selectedFacilityId === f.id;
               return `
-            <div class="list-row ${isSelected ? "selected" : ""}" data-fac-id="${escapeHtml(f.id)}">
+            <div class="list-row ${isSelected ? "selected" : ""}" data-fac-id="${escapeHtml(f.id)}" title="${escapeHtml(
+                `${parent ? parent.shortName : f.parentName} · ${facilityLabel(f.facilityType)} · ${f.city || ""}`
+              )}">
               ${renderLogoHtml(parent)}
-              <div class="row-text">
-                <div class="row-name">${escapeHtml(f.shortName || f.name)}</div>
-                <div class="row-meta">${escapeHtml(
-                  [parent ? parent.shortName : f.parentName, f.city].filter(Boolean).join(" · ")
-                )}</div>
-              </div>
-              <div class="row-right">
-                <div class="row-chg" style="display:flex;align-items:center;gap:5px;color:var(--text-muted)">${typeDot(
-                  f.facilityType
-                )}${facilityLabel(f.facilityType)}</div>
-              </div>
+              <div class="row-text"><div class="row-name">${escapeHtml(f.shortName || f.name)}</div></div>
+              ${typeDot(f.facilityType)}
             </div>`;
             })
             .join("")
@@ -1462,7 +1525,7 @@
 
     renderAll();
     scrollSelectedRowIntoView();
-    showCompanySheet(c);
+    refreshSheet();
 
     if (soloMoved) fitCompany(c);
     else if (opts.fly) flyToPoint(c.lng, c.lat, 9);
@@ -1477,7 +1540,7 @@
 
     renderAll();
     scrollSelectedRowIntoView();
-    showFacilitySheet(f);
+    refreshSheet();
 
     if (opts.fly) flyToPoint(f.lng, f.lat, 10);
   }
@@ -1508,32 +1571,51 @@
     else if (selectedCompanyRank) setSolo(selectedCompanyRank);
   }
 
-  function renderSoloChip() {
-    const chip = document.getElementById("soloChip");
-    const c = soloRank && companyByRank[soloRank];
+  function setFilterPanel(open) {
+    document.getElementById("filterPanel").hidden = !open;
+    document.getElementById("btnFilter").setAttribute("aria-expanded", String(open));
+  }
+
+  function renderFilterCount() {
+    const n = (activeRegion !== "ALL") + (activeType !== "all") + (activeSort !== "value_desc");
+    const el = document.getElementById("filterCount");
+    el.hidden = n === 0;
+    el.textContent = n;
+  }
+
+  // Global Solo button (top right): solo the selected company, or leave solo
+  function renderSoloButton() {
+    const btn = document.getElementById("btnSolo");
+    const soloC = soloRank && companyByRank[soloRank];
+    const selC = selectedCompanyRank && companyByRank[selectedCompanyRank];
+    btn.classList.toggle("active", !!soloC);
+    if (soloC) {
+      btn.disabled = false;
+      btn.textContent = `Solo: ${soloC.shortName} ×`;
+      btn.title = "Show all companies again (S)";
+    } else {
+      btn.disabled = !selC;
+      btn.textContent = "Solo";
+      btn.title = selC ? `Show only ${selC.shortName} on the map (S)` : "Select a company first";
+    }
+  }
+
+  // The card always shows the company. Picking one of its sites only adds a small site panel and
+  // highlights the row, so the card (and its scroll position) stays put and the company is one click away.
+  function refreshSheet() {
+    const sheet = document.getElementById("inspectorCard");
+    const c = selectedCompanyRank && companyByRank[selectedCompanyRank];
     if (!c) {
-      chip.hidden = true;
+      sheet.classList.remove("visible");
+      sheet.removeAttribute("data-rank");
       return;
     }
-    chip.hidden = false;
-    chip.innerHTML = `<span class="solo-label">Solo</span><strong>${escapeHtml(c.shortName)}</strong><span class="solo-label">${plural(
-      sitesOf(c.rank).length,
-      "site"
-    )}</span><button data-action="exit-solo" title="Show all companies (Esc)">Show all</button>`;
+    if (sheet.getAttribute("data-rank") !== String(c.rank) || !sheet.classList.contains("visible")) {
+      renderCompanyCard(c);
+    }
+    updateSitePanel();
   }
 
-  function refreshSheet() {
-    if (selectedFacilityId) {
-      const f = facilities.find((item) => item.id === selectedFacilityId);
-      if (f) return showFacilitySheet(f);
-    }
-    if (selectedCompanyRank && companyByRank[selectedCompanyRank]) {
-      return showCompanySheet(companyByRank[selectedCompanyRank]);
-    }
-    document.getElementById("inspectorCard").classList.remove("visible");
-  }
-
-  // --- Detail sheet ---
   function stat(label, value) {
     return `<div class="stat"><span class="stat-label">${label}</span><span class="stat-value">${value}</span></div>`;
   }
@@ -1544,96 +1626,84 @@
     return n.toLocaleString("en-US", { maximumFractionDigits: n >= 100 ? 1 : 2 });
   }
 
-  function renderSitesList(sites, title) {
-    if (!sites.length) return "";
-    return `
-      <div class="sub-head"><span>${escapeHtml(title)}</span><span>${sites.length}</span></div>
+  function renderCompanyCard(c) {
+    const sheet = document.getElementById("inspectorCard");
+    const sites = sitesOf(c.rank);
+    const q = c.quote;
+    const sub = [c.city, SECTOR_LABELS[c.sector] || c.sector].filter(Boolean).join(" · ");
+
+    const stats = [
+      stat("Price", q ? `${formatPrice(q.price)} ${escapeHtml(q.currency)}` : "–"),
+      stat("1M", q ? formatChange(q.change1m) || "–" : "–"),
+      stat("Holding", `${formatCompactValue(c.marketValue)} NOK`)
+    ].join("");
+
+    sheet.setAttribute("data-rank", c.rank);
+    sheet.innerHTML = `
+      <div class="sheet-top">
+        <div class="sheet-head-link" data-action="company" title="Back to company (Esc)" style="display:flex;gap:9px;flex:1;min-width:0">
+          ${renderLogoHtml(c)}
+          <div class="sheet-head">
+            <div class="sheet-title">${escapeHtml(c.shortName)}</div>
+            <div class="sheet-sub">${escapeHtml(sub)}</div>
+          </div>
+        </div>
+        <button class="close-btn" data-action="close" title="Close">&times;</button>
+      </div>
+      <div class="stats">${stats}</div>
+      <div class="sheet-actions">
+        <button class="action-btn" data-action="zoom-hq">Zoom</button>
+        ${sites.length ? `<button class="action-btn" data-action="fit">All sites</button>` : ""}
+        ${c.website ? `<a class="action-btn" href="${escapeHtml(c.website)}" target="_blank" rel="noopener">Web ↗</a>` : ""}
+      </div>
+      <div class="site-panel" id="sitePanel" hidden></div>
+      ${
+        sites.length
+          ? `<div class="sub-head"><span>Sites</span><span>${sites.length}</span></div>
       <div class="sub-list">
         ${sites
           .map(
             (f) => `
-          <div class="sub-row ${selectedFacilityId === f.id ? "selected" : ""}" data-fac-id="${escapeHtml(f.id)}">
+          <div class="sub-row" data-fac-id="${escapeHtml(f.id)}" title="${escapeHtml(facilityLabel(f.facilityType))}">
             ${typeDot(f.facilityType)}
             <span class="sub-name">${escapeHtml(f.shortName || f.name)}</span>
-            <span class="sub-type">${escapeHtml(facilityLabel(f.facilityType))}</span>
           </div>`
           )
           .join("")}
-      </div>`;
-  }
-
-  function soloButton(rank) {
-    const on = soloRank === rank;
-    return `<button class="action-btn ${on ? "primary" : ""}" data-action="solo" title="Show only this company on the map (S)">${
-      on ? "Soloed" : "Solo"
-    }</button>`;
-  }
-
-  function showCompanySheet(c) {
-    const sheet = document.getElementById("inspectorCard");
-    const sites = sitesOf(c.rank);
-    const q = c.quote;
-    const sub = [c.city, countryName(c.country), SECTOR_LABELS[c.sector] || c.sector].filter(Boolean).join(" · ");
-
-    const stats = [
-      stat("Price", q ? `${formatPrice(q.price)} ${escapeHtml(q.currency)}` : "–"),
-      stat(
-        "1M",
-        q ? `${formatChange(q.change1m)}${q.closes ? renderSparklineSvg(q.closes, q.change1m >= 0, 34, 14) : ""}` : "–"
-      ),
-      stat("Mkt cap", `~${formatCompactValue(c.impliedMarketCap)}`),
-      stat("Holding", `${formatCompactValue(c.marketValue)} NOK`),
-      stat("Owned", `${c.ownershipPercent.toFixed(2)}%`),
-      stat("Fund", escapeHtml((c.funds || []).join(" + ")))
-    ].join("");
-
-    sheet.innerHTML = `
-      <div class="sheet-top">
-        ${renderLogoHtml(c)}
-        <div class="sheet-head">
-          <div class="sheet-title">${escapeHtml(c.name)}</div>
-          <div class="sheet-sub">${escapeHtml(sub)}</div>
-        </div>
-        <button class="close-btn" data-action="close" title="Close (Esc)">&times;</button>
-      </div>
-      <div class="stats">${stats}</div>
-      ${c.hqDescription ? `<div class="sheet-desc" title="Click to expand">${escapeHtml(c.hqDescription)}</div>` : ""}
-      <div class="sheet-actions">
-        <button class="action-btn" data-action="zoom-hq" title="Zoom to the HQ building">Zoom</button>
-        ${sites.length ? `<button class="action-btn" data-action="fit" title="Fit HQ and all sites in view">All sites</button>` : ""}
-        ${soloButton(c.rank)}
-        ${c.website ? `<a class="action-btn" href="${escapeHtml(c.website)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
-      </div>
-      ${renderSitesList(sites, "Sites")}
+      </div>`
+          : ""
+      }
     `;
     sheet.classList.add("visible");
   }
 
-  function showFacilitySheet(f) {
+  function updateSitePanel() {
     const sheet = document.getElementById("inspectorCard");
-    const parent = companyByRank[f.parentRank];
-    const siblings = sitesOf(f.parentRank);
-    const sub = [facilityLabel(f.facilityType), f.city, countryName(f.country)].filter(Boolean).join(" · ");
+    const panel = document.getElementById("sitePanel");
+    const f = selectedFacilityId && facilities.find((item) => item.id === selectedFacilityId);
 
-    sheet.innerHTML = `
-      <div class="sheet-top">
-        ${renderLogoHtml(parent)}
-        <div class="sheet-head">
-          <div class="sheet-title">${escapeHtml(f.shortName || f.name)}</div>
-          <div class="sheet-sub">${escapeHtml(parent ? parent.shortName : f.parentName)} · ${escapeHtml(sub)}</div>
-        </div>
-        <button class="close-btn" data-action="close" title="Close (Esc)">&times;</button>
+    sheet.querySelectorAll(".sub-row").forEach((row) => {
+      const on = !!f && row.getAttribute("data-fac-id") === f.id;
+      row.classList.toggle("selected", on);
+      if (on) row.scrollIntoView({ block: "nearest" });
+    });
+    if (!panel) return;
+    if (!f) {
+      panel.hidden = true;
+      panel.innerHTML = "";
+      return;
+    }
+    const where = [facilityLabel(f.facilityType), f.city, countryName(f.country)].filter(Boolean).join(" · ");
+    panel.innerHTML = `
+      <div class="site-top">
+        ${typeDot(f.facilityType)}
+        <div class="site-name">${escapeHtml(f.shortName || f.name)}<div class="sheet-sub">${escapeHtml(where)}</div></div>
+        <button class="close-btn" data-action="company" title="Back to company (Esc)">&times;</button>
       </div>
       ${f.description ? `<div class="sheet-desc" title="Click to expand">${escapeHtml(f.description)}</div>` : ""}
-      ${f.address ? `<div class="sheet-sub">${escapeHtml(f.address)}</div>` : ""}
-      <div class="sheet-actions">
-        <button class="action-btn" data-action="zoom-site" title="Zoom to this site">Zoom</button>
-        ${parent ? `<button class="action-btn" data-action="company" title="Go to the company (Esc)">Company</button>` : ""}
-        ${parent ? soloButton(parent.rank) : ""}
-      </div>
-      ${renderSitesList(siblings, parent ? `${parent.shortName} sites` : "Sites")}
+      <button class="action-btn" data-action="zoom-site">Zoom to site</button>
     `;
-    sheet.classList.add("visible");
+    panel.hidden = false;
   }
 
   function onSheetClick(e) {
@@ -1664,10 +1734,7 @@
         if (c) fitCompany(c);
         break;
       case "company":
-        if (c) selectCompany(c.rank, { fly: true });
-        break;
-      case "solo":
-        toggleSolo();
+        if (c) selectCompany(c.rank, { fly: !!f });
         break;
     }
   }
@@ -1720,7 +1787,7 @@
     activeRegion = "ALL";
     activeType = "all";
     activeSort = "value_desc";
-    document.getElementById("sortSelect").value = activeSort;
+    setActiveIn("#sortBar", "data-sort", activeSort);
     setActiveIn("#regionBar", "data-region", activeRegion);
     setActiveIn("#typeBar", "data-type", activeType);
 
@@ -1818,7 +1885,7 @@
       }
     });
 
-    map.on("zoom", scheduleLogoUpdate);
+    map.on("move", scheduleLogoUpdate);
     map.on("moveend", scheduleBuildingMatch);
   }
 
@@ -1889,8 +1956,19 @@
     });
 
     document.getElementById("inspectorCard").addEventListener("click", onSheetClick);
-    document.getElementById("soloChip").addEventListener("click", (e) => {
-      if (e.target.closest('[data-action="exit-solo"]')) exitSolo();
+    document.getElementById("btnSolo").addEventListener("click", toggleSolo);
+
+    // One Filter button: everything (view, region, type, sort, reset) lives in its popover
+    const filterBtn = document.getElementById("btnFilter");
+    const filterPanel = document.getElementById("filterPanel");
+    filterBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      setFilterPanel(filterPanel.hidden);
+    });
+    document.addEventListener("mousedown", (e) => {
+      if (!filterPanel.hidden && !filterPanel.contains(e.target) && !filterBtn.contains(e.target)) {
+        setFilterPanel(false);
+      }
     });
 
     // Changing region or type leaves solo, so the map always reflects the filter you just picked
@@ -1917,9 +1995,12 @@
       });
     });
 
-    document.getElementById("sortSelect").addEventListener("change", (e) => {
-      activeSort = e.target.value;
-      renderAll();
+    document.querySelectorAll("#sortBar [data-sort]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        activeSort = btn.getAttribute("data-sort");
+        setActiveIn("#sortBar", "data-sort", activeSort);
+        renderAll();
+      });
     });
 
     document.querySelectorAll("#viewBar [data-view]").forEach((btn) => {
@@ -1967,7 +2048,8 @@
         searchInput.focus();
         searchInput.select();
       } else if (e.key === "Escape") {
-        stepBack();
+        if (!document.getElementById("filterPanel").hidden) setFilterPanel(false);
+        else stepBack();
       } else if (e.key === "s" || e.key === "S") {
         toggleSolo();
       } else if (e.key === "ArrowDown" || e.key === "ArrowUp") {
