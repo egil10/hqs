@@ -1,0 +1,29 @@
+Storebrand
+Gjensidige Forsikring
+SpareBank 1 Sør-Norge (skipped: already has 2 sites, bank cap of 2)
+Investor
+Nordea Bank
+Protector Forsikring
+Swedbank
+Danske Bank
+Sampo
+Tryg
+Skandinaviska Enskilda Banken
+Svenska Handelsbanken
+Entra
+EQT
+Sagax
+Kinnevik (skipped: investment company with only minority stakes in digital/healthtech firms, no physical sites)
+Industrivärden (skipped: holding company with only minority stakes in separately listed companies)
+Lundbergs
+Storskogen Group
+Röko
+Fastighets AB Balder
+Sveafastigheter
+Bakkegruppen (skipped: company website unreachable, web search budget exhausted, no verified sites)
+Jyske Bank (skipped: already has Jyske Realkredit Lyngby site; no further verified site)
+Nordnet
+Avanza Bank Holding (skipped: no verified site beyond Stockholm HQ)
+Mandatum (skipped: no verified site beyond Helsinki HQ)
+ALM Brand (skipped: no verified site beyond Copenhagen HQ)
+Islandsbanki (skipped: no significant site beyond Kópavogur HQ verified)

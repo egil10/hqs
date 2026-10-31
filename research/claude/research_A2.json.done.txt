@@ -1,0 +1,28 @@
+Arion Banki -- skipped: subsidiaries (Vörður, Stefnir) co-located at Borgartún 19 HQ; no other confirmed major site
+Hoist Finance
+NOBA Bank Group -- skipped: Bank Norwegian Fornebu already present; Nordax/Svensk Hypotekspension co-located at Stockholm HQ
+Bure Equity -- skipped: investment company, holdings are separately listed companies; no own sites beyond HQ
+Aktia Bank -- skipped: only retail branches beyond Helsinki HQ, no confirmed major ops/IT center
+SJF Bank -- skipped: regional savings bank with retail branches only, no confirmed major ops center
+Stendörren Fastigheter -- skipped: flagship GreenHub Bro (Nygård 2:14) already present; other properties lack confirmed addresses
+Fastighetsbolaget Emilshus -- skipped: dispersed small-industrial portfolio; could not confirm street addresses of flagship properties
+Amasten Fastighets -- skipped: absorbed into SBB/Sveafastigheter in 2022; no confirmed current flagship property
+Nivika Fastigheter -- skipped: dispersed regional portfolio; could not confirm addresses of flagship properties
+Pareto Bank -- skipped: single Oslo HQ, no confirmed branch/ops sites
+Avarda Bank -- skipped: Stockholm-based digital bank, no confirmed sites beyond HQ
+ABG Sundal Collier
+Kvika banki -- skipped: Reykjavík HQ only (merging with Arion); no confirmed separate ops site
+Axactor
+Eastnine
+Morrow Bank -- skipped: digital consumer bank with single HQ, no confirmed ops site
+Enity Holding -- skipped: Bluestep mortgage offices are small Nordic sales offices, no confirmed major ops site
+Reitir
+Heimar
+John Mattson Fastighetsföretagen
+Taaleri -- skipped: asset manager with Helsinki HQ; fund-owned wind/solar assets not Taaleri's own operated sites
+Oma Säästöpankki -- skipped: regional savings bank with retail branches only
+Investment AB Öresund -- skipped: investment company with no own sites beyond HQ
+Magnora Data Center
+Bruton -- skipped: Bermuda-incorporated tanker investment vehicle (VLCC newbuilds), no fixed operational sites
+Intrum
+Catella

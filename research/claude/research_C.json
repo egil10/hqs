@@ -1,0 +1,1062 @@
+[
+  {
+    "parentName": "Novonesis",
+    "name": "Novonesis Kalundborg Enzyme Fermentation Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kalundborg",
+    "country": "Danmark",
+    "address": "Hallas Allé 1, 4400 Kalundborg",
+    "geoQueries": [
+      "Novonesis Kalundborg",
+      "Novozymes Kalundborg",
+      "Hallas Allé 1, 4400 Kalundborg"
+    ],
+    "approxLat": 55.6655,
+    "approxLng": 11.103,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Novonesis' (ex-Novozymes) largest enzyme fermentation and recovery plant, part of the Kalundborg Symbiosis.",
+    "source": "https://en.wikipedia.org/wiki/Kalundborg_Eco-industrial_Park"
+  },
+  {
+    "parentName": "Novonesis",
+    "name": "Novonesis Kalundborg Cultures Plant (ex-Chr. Hansen)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kalundborg",
+    "country": "Danmark",
+    "address": "Juelsmindevej 5, 4400 Kalundborg",
+    "geoQueries": [
+      "Chr. Hansen Kalundborg",
+      "Juelsmindevej 5, 4400 Kalundborg"
+    ],
+    "approxLat": 55.67,
+    "approxLng": 11.115,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Former Chr. Hansen food culture and probiotic production site in Kalundborg.",
+    "source": "https://www.novonesis.com/de/about-us/subsidiaries"
+  },
+  {
+    "parentName": "Novonesis",
+    "name": "Novonesis Avedøre Food Cultures & Probiotics Plant (ex-Chr. Hansen)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Hvidovre (Avedøre Holme)",
+    "country": "Danmark",
+    "address": "Avedøre Jernholmen 1-27, 2650 Hvidovre",
+    "geoQueries": [
+      "Chr. Hansen Avedøre",
+      "Avedøre Jernholmen 1, 2650 Hvidovre"
+    ],
+    "approxLat": 55.6185,
+    "approxLng": 12.464,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Large-scale fermentation plant for dairy cultures and probiotics, inherited from Chr. Hansen.",
+    "source": "https://www.novonesis.com/de/about-us/subsidiaries"
+  },
+  {
+    "parentName": "Novonesis",
+    "name": "Novonesis Hørsholm Food & Health R&D Campus (ex-Chr. Hansen HQ)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Hørsholm",
+    "country": "Danmark",
+    "address": "Bøge Allé 10-12, 2970 Hørsholm",
+    "geoQueries": [
+      "Chr. Hansen Hørsholm",
+      "Bøge Allé 10, 2970 Hørsholm"
+    ],
+    "approxLat": 55.872,
+    "approxLng": 12.496,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Former Chr. Hansen headquarters and main R&D/innovation campus for cultures, enzymes and probiotics.",
+    "source": "https://www.novonesis.com/de/about-us/subsidiaries"
+  },
+  {
+    "parentName": "Novonesis",
+    "name": "Novonesis Blair Enzyme Manufacturing Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Blair",
+    "country": "USA",
+    "address": "600 S 1st St, Blair, NE 68008",
+    "geoQueries": [
+      "Novozymes Blair",
+      "600 South 1st Street, Blair, Nebraska"
+    ],
+    "approxLat": 41.535,
+    "approxLng": -96.125,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Enzyme production plant co-located with the Cargill biorefinery campus in Nebraska.",
+    "source": "https://www.novonesis.com/de/about-us/subsidiaries"
+  },
+  {
+    "parentName": "Novonesis",
+    "name": "Novonesis Tianjin Enzyme Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tianjin",
+    "country": "China",
+    "address": "No. 150 Nanhai Road, TEDA, Tianjin 300457",
+    "geoQueries": [
+      "Novozymes Tianjin",
+      "150 Nanhai Road, Tianjin"
+    ],
+    "approxLat": 39.048,
+    "approxLng": 117.698,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Novozymes (China) Biotechnology enzyme fermentation plant in the Tianjin Economic-Technological Development Area.",
+    "source": "https://www.novonesis.com/de/about-us/subsidiaries"
+  },
+  {
+    "parentName": "Demant",
+    "name": "Demant Operations Poland Hearing Aid Factory (Mierzyn)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Mierzyn (Szczecin)",
+    "country": "Poland",
+    "address": "ul. Lubieszyńska 59, 72-006 Mierzyn",
+    "geoQueries": [
+      "Demant Operations Poland",
+      "Demant Mierzyn",
+      "Lubieszyńska 59, 72-006 Mierzyn"
+    ],
+    "approxLat": 53.438,
+    "approxLng": 14.461,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "One of Demant's main hearing aid production sites, opened 2008 near Szczecin.",
+    "source": "https://rejestr.io/krs/285548"
+  },
+  {
+    "parentName": "Demant",
+    "name": "Demant Tijuana Hearing Aid Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tijuana",
+    "country": "Mexico",
+    "address": "Tijuana, Baja California",
+    "geoQueries": [
+      "Demant Operations Mexico Tijuana",
+      "Demant Tijuana"
+    ],
+    "approxLat": 32.515,
+    "approxLng": -116.97,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Approx. 20,000 m² Demant hearing aid manufacturing plant serving the Americas.",
+    "source": "https://www.demant.com/about/latest-news/row-3-demant-expands-in-north-america"
+  },
+  {
+    "parentName": "Demant",
+    "name": "Interacoustics Diagnostic Equipment HQ & Factory (Middelfart)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Middelfart",
+    "country": "Danmark",
+    "address": "Audiometer Allé 1, 5500 Middelfart",
+    "geoQueries": [
+      "Interacoustics Middelfart",
+      "Audiometer Allé 1, 5500 Middelfart"
+    ],
+    "approxLat": 55.495,
+    "approxLng": 9.76,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Demant's Interacoustics subsidiary, developing and producing audiometers and balance/diagnostic equipment.",
+    "source": "https://www.interacoustics.com/contact"
+  },
+  {
+    "parentName": "Demant",
+    "name": "Oticon Inc. US Headquarters (Somerset)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Somerset",
+    "country": "USA",
+    "address": "580 Howard Avenue, Somerset, NJ 08873",
+    "geoQueries": [
+      "Oticon Somerset",
+      "580 Howard Avenue, Somerset, NJ"
+    ],
+    "approxLat": 40.53,
+    "approxLng": -74.53,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "US headquarters for Demant's Oticon hearing aid business.",
+    "source": "https://www.oticon.com/contact"
+  },
+  {
+    "parentName": "Genmab",
+    "name": "Genmab US Headquarters & R&D Labs (Princeton Forrestal Center)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Plainsboro (Princeton)",
+    "country": "USA",
+    "address": "777 Scudders Mill Road, Plainsboro, NJ 08536",
+    "geoQueries": [
+      "Genmab Plainsboro",
+      "Genmab US",
+      "777 Scudders Mill Road, Plainsboro"
+    ],
+    "approxLat": 40.353,
+    "approxLng": -74.605,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Genmab's US headquarters with offices and R&D laboratories at Princeton University's Forrestal Center.",
+    "source": "https://choosenj.com/news/leading-global-biotech-expands-base-in-new-jersey/"
+  },
+  {
+    "parentName": "Genmab",
+    "name": "Merus Bispecific Antibody R&D Center (Utrecht, Genmab)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "address": "Uppsalalaan 17, 3584 CT Utrecht",
+    "geoQueries": [
+      "Merus Utrecht",
+      "Uppsalalaan 17, Utrecht"
+    ],
+    "approxLat": 52.087,
+    "approxLng": 5.178,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Headquarters and labs of Merus N.V., the bispecific-antibody biotech acquired by Genmab in 2025.",
+    "source": "https://merus.nl/contact/"
+  },
+  {
+    "parentName": "H. Lundbeck",
+    "name": "Lundbeck LLC US Headquarters (Deerfield)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Deerfield",
+    "country": "USA",
+    "address": "6 Parkway North, Deerfield, IL 60015",
+    "geoQueries": [
+      "Lundbeck Deerfield",
+      "6 Parkway North, Deerfield, Illinois"
+    ],
+    "approxLat": 42.157,
+    "approxLng": -87.865,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Current US headquarters of Lundbeck (announced relocation to Greater Boston over 2026-27).",
+    "source": "https://www.fiercepharma.com/pharma/lundbeck-move-us-digs-boston-it-eyes-bigger-innovation-frontiers"
+  },
+  {
+    "parentName": "Ambu",
+    "name": "Ambu Mexico Single-Use Endoscope Plant (Ciudad Juárez)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ciudad Juárez",
+    "country": "Mexico",
+    "address": "Circuito Intermex Sur 4166, Parque Industrial Intermex, Ciudad Juárez, Chihuahua",
+    "geoQueries": [
+      "Ambu Mexico Operations",
+      "Ambu Juárez",
+      "Circuito Intermex Sur 4166, Ciudad Juárez"
+    ],
+    "approxLat": 31.653,
+    "approxLng": -106.38,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Ambu's largest factory worldwide (opened 2022), producing single-use endoscopes for the Americas.",
+    "source": "https://www.elpasoinc.com/news/local_news/danish-company-opens-ju-rez-factory/article_4a7c1488-6e08-11ed-a42d-6b1dbf048045.html"
+  },
+  {
+    "parentName": "Ambu",
+    "name": "Ambu Penang Medical Device Plant (Bayan Lepas)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Bayan Lepas (Penang)",
+    "country": "Malaysia",
+    "address": "Lot 69B, Lintang Bayan Lepas 6, Phase IV, 11900 Bayan Lepas, Penang",
+    "geoQueries": [
+      "Ambu Sdn Bhd",
+      "Ambu Penang",
+      "Lintang Bayan Lepas 6, Bayan Lepas"
+    ],
+    "approxLat": 5.295,
+    "approxLng": 100.265,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Ambu Sdn Bhd manufacturing of single-use endoscopes, anaesthesia and patient-monitoring products.",
+    "source": "https://scandasia.com/danish-medtech-ambu-buys-penang-factory-from-skygate-for-61-million-dkk/"
+  },
+  {
+    "parentName": "Ambu",
+    "name": "Ambu Xiamen Manufacturing Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Xiamen",
+    "country": "China",
+    "address": "No. 21 Xiangxing 1st Road, Huli District, Xiamen, Fujian",
+    "geoQueries": [
+      "Ambu Xiamen",
+      "Ambu Ltd Xiamen",
+      "21 Xiangxing 1st Road, Xiamen"
+    ],
+    "approxLat": 24.52,
+    "approxLng": 118.15,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Ambu Ltd. production of single-use medical devices (electrodes, anaesthesia, endoscopy).",
+    "source": "https://panjiva.com/Ambu-Ltd/1010359"
+  },
+  {
+    "parentName": "GN Store Nord",
+    "name": "GN Hearing North America HQ & Hearing Aid Plant (Shakopee)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Shakopee",
+    "country": "USA",
+    "address": "5005 Dean Lakes Blvd, Shakopee, MN 55379",
+    "geoQueries": [
+      "GN Hearing Shakopee",
+      "ReSound Shakopee",
+      "5005 Dean Lakes Boulevard, Shakopee"
+    ],
+    "approxLat": 44.79,
+    "approxLng": -93.44,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "218,000 sq ft North American hearing HQ with hearing aid manufacturing, repair and shipping for ReSound, Beltone and Jabra Enhance.",
+    "source": "https://www.gn.com/Newsroom/News/2024/September/Relocation-of-North-American-hearing-headquarters"
+  },
+  {
+    "parentName": "GN Store Nord",
+    "name": "GN ReSound Malaysia Hearing Aid Factory (Kulai, Johor)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kulai (Johor)",
+    "country": "Malaysia",
+    "address": "Kawasan Perindustrian i-Park, Bandar Indahpura, 81000 Kulai, Johor",
+    "geoQueries": [
+      "GN ReSound Malaysia",
+      "GN ReSound i-Park Indahpura Kulai"
+    ],
+    "approxLat": 1.63,
+    "approxLng": 103.63,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "GN Hearing production plant opened 2015 to expand global hearing aid manufacturing capacity.",
+    "source": "https://www.resound.com/en/press/gn-resound-opens-new-factory-in-malaysia-to-support-continued-company-growth"
+  },
+  {
+    "parentName": "GN Store Nord",
+    "name": "GN Xiamen Hearing & Audio Production Site",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Xiamen",
+    "country": "China",
+    "address": "Xiamen, Fujian",
+    "geoQueries": [
+      "GN Xiamen",
+      "GN ReSound Xiamen"
+    ],
+    "approxLat": 24.48,
+    "approxLng": 118.1,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "GN's production site in Xiamen manufacturing hearing aid components and devices.",
+    "source": "https://www.gn.com/Newsroom/News/2020/January/GN-temporarily-suspends-operations-at-its-Xiamen-production-site-in-China"
+  },
+  {
+    "parentName": "GN Store Nord",
+    "name": "SteelSeries Headquarters (Copenhagen, GN Gaming)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "København SV",
+    "country": "Danmark",
+    "address": "Havneholmen 8, 2450 København SV",
+    "geoQueries": [
+      "SteelSeries",
+      "Havneholmen 8, 2450 København"
+    ],
+    "approxLat": 55.665,
+    "approxLng": 12.56,
+    "coordsExact": false,
+    "footprintRadiusMeters": 120,
+    "description": "Headquarters of GN's gaming-gear subsidiary SteelSeries.",
+    "source": "https://steelseries.com/legal-notice"
+  },
+  {
+    "parentName": "Swedish Orphan Biovitrum",
+    "name": "Sobi North America Headquarters (Waltham)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Waltham",
+    "country": "USA",
+    "address": "77 Fourth Avenue, 3rd Floor, Waltham, MA 02451",
+    "geoQueries": [
+      "Sobi Waltham",
+      "77 Fourth Avenue, Waltham, MA"
+    ],
+    "approxLat": 42.401,
+    "approxLng": -71.256,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "North American headquarters of Sobi, running US commercial operations for its rare-disease portfolio.",
+    "source": "https://winmo.com/open/company/health-care-pharmaceuticals-and-otc-drugs/ma/waltham/sobi-inc/69182"
+  },
+  {
+    "parentName": "ALK-Abelló",
+    "name": "ALK-Abelló Madrid Allergen Immunotherapy Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Madrid",
+    "country": "Spain",
+    "address": "Calle Miguel Fleta 19, 28037 Madrid",
+    "geoQueries": [
+      "ALK-Abelló Madrid",
+      "Calle Miguel Fleta 19, Madrid"
+    ],
+    "approxLat": 40.438,
+    "approxLng": -3.626,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "ALK's Spanish production site in Ciudad Lineal manufacturing allergy immunotherapy products.",
+    "source": "https://en.wikipedia.org/wiki/ALK-Abell%C3%B3"
+  },
+  {
+    "parentName": "ALK-Abelló",
+    "name": "ALK Port Washington Allergen Extract Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Port Washington",
+    "country": "USA",
+    "address": "35 Channel Drive, Port Washington, NY 11050",
+    "geoQueries": [
+      "ALK-Abelló Port Washington",
+      "35 Channel Drive, Port Washington"
+    ],
+    "approxLat": 40.835,
+    "approxLng": -73.693,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "North American production site for ALK allergen extracts.",
+    "source": "https://en.wikipedia.org/wiki/ALK-Abell%C3%B3"
+  },
+  {
+    "parentName": "ALK-Abelló",
+    "name": "ALK Post Falls Source Materials Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Post Falls",
+    "country": "USA",
+    "address": "Riverbend Commerce Park, Post Falls, ID 83854",
+    "geoQueries": [
+      "ALK-Abelló Post Falls",
+      "ALK Source Materials Post Falls"
+    ],
+    "approxLat": 47.705,
+    "approxLng": -116.99,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "~USD 32m plant producing allergen source materials (pollens, mites) for ALK's immunotherapy products.",
+    "source": "https://idahobusinessreview.com/2007/06/20/new-pharmaceutical-plant-coming-to-post-falls"
+  },
+  {
+    "parentName": "Getinge",
+    "name": "Maquet Critical Care Ventilator Plant (Solna)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Solna",
+    "country": "Sverige",
+    "address": "Röntgenvägen 2, 171 54 Solna",
+    "geoQueries": [
+      "Maquet Critical Care Solna",
+      "Getinge Solna",
+      "Röntgenvägen 2, Solna"
+    ],
+    "approxLat": 59.35,
+    "approxLng": 18.023,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Getinge's Maquet Critical Care site developing and manufacturing Servo ventilators and anaesthesia systems.",
+    "source": "https://www.getinge.com/int/contact/offices/"
+  },
+  {
+    "parentName": "Getinge",
+    "name": "Maquet Cardiopulmonary Plant (Hechingen)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Hechingen",
+    "country": "Germany",
+    "address": "Neue Rottenburger Straße 37, 72379 Hechingen",
+    "geoQueries": [
+      "Maquet Cardiopulmonary Hechingen",
+      "Getinge Hechingen",
+      "Neue Rottenburger Straße 37, Hechingen"
+    ],
+    "approxLat": 48.36,
+    "approxLng": 8.96,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Getinge site making heart-lung machines, oxygenators and ECMO/cardiopulmonary products.",
+    "source": "https://www.stepstone.de/jobs/getinge/in-schwarzwald"
+  },
+  {
+    "parentName": "Getinge",
+    "name": "Getinge Mahwah Cardiac Assist Plant (Datascope)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Mahwah",
+    "country": "USA",
+    "address": "1300 MacArthur Blvd, Mahwah, NJ 07430",
+    "geoQueries": [
+      "Getinge Mahwah",
+      "Datascope Mahwah",
+      "1300 MacArthur Boulevard, Mahwah"
+    ],
+    "approxLat": 41.07,
+    "approxLng": -74.15,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Manufacturing of intra-aortic balloon pumps and cardiac assist devices (ex-Datascope).",
+    "source": "https://www.getinge.com/uk/contact/manufacturing/"
+  },
+  {
+    "parentName": "Getinge",
+    "name": "Getinge Merrimack Vascular Plant (Atrium Medical)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Merrimack",
+    "country": "USA",
+    "address": "40 Continental Blvd, Merrimack, NH 03054",
+    "geoQueries": [
+      "Atrium Medical Merrimack",
+      "Getinge Merrimack",
+      "40 Continental Boulevard, Merrimack"
+    ],
+    "approxLat": 42.835,
+    "approxLng": -71.5,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Atrium Medical plant producing vascular grafts, covered stents and chest drainage products.",
+    "source": "https://www.getinge.com/uk/contact/manufacturing/"
+  },
+  {
+    "parentName": "Getinge",
+    "name": "Getinge Wayne Manufacturing & US Sales/Service Hub",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Wayne",
+    "country": "USA",
+    "address": "45 Barbour Pond Drive, Wayne, NJ 07470",
+    "geoQueries": [
+      "Getinge Wayne",
+      "45 Barbour Pond Drive, Wayne, NJ"
+    ],
+    "approxLat": 40.96,
+    "approxLng": -74.27,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Getinge US manufacturing site, near the company's North American sales and service hub at 1 Geoffrey Way.",
+    "source": "https://njbiz.com/getinge-us-consolidates-sales-service-ops-former-toys-r-us-hq-wayne/"
+  },
+  {
+    "parentName": "Getinge",
+    "name": "Maquet Suzhou Manufacturing Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Suzhou",
+    "country": "China",
+    "address": "No. 158 Fangzhou Road, SIP, 215024 Suzhou",
+    "geoQueries": [
+      "Maquet Suzhou",
+      "158 Fangzhou Road, Suzhou"
+    ],
+    "approxLat": 31.32,
+    "approxLng": 120.73,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Getinge's Chinese manufacturing site in Suzhou Industrial Park.",
+    "source": "https://www.getinge.com/uk/contact/manufacturing/"
+  },
+  {
+    "parentName": "Zealand Pharma",
+    "name": "Zealand Pharma US Research Hub (Cambridge, MA)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Cambridge",
+    "country": "USA",
+    "address": "35 CambridgePark Drive, Cambridge, MA 02140",
+    "geoQueries": [
+      "Zealand Pharma Cambridge",
+      "35 CambridgePark Drive, Cambridge, MA"
+    ],
+    "approxLat": 42.395,
+    "approxLng": -71.145,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Zealand's primary US site with peptide drug-discovery labs and offices, opened autumn 2026.",
+    "source": "https://www.connectcre.com/stories/zealand-pharma-will-establish-research-hub-with-healthpeak-in-cambridge/"
+  },
+  {
+    "parentName": "Asker Healthcare Group",
+    "name": "OneMed Norge Warehouse & Office (Skedsmokorset, Asker Healthcare)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Skedsmokorset (Lillestrøm)",
+    "country": "Norge",
+    "address": "Bølerveien 63, 2020 Skedsmokorset",
+    "geoQueries": [
+      "OneMed Skedsmokorset",
+      "Bølerveien 63, 2020 Skedsmokorset"
+    ],
+    "approxLat": 60.004,
+    "approxLng": 11.034,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "OneMed AS warehouse and office in the Berger industrial area supplying Norwegian hospitals and care providers.",
+    "source": "https://www.finn.no/410236182"
+  },
+  {
+    "parentName": "Asker Healthcare Group",
+    "name": "OneMed A/S Danmark HQ & Warehouse (Søften)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hinnerup (Søften)",
+    "country": "Danmark",
+    "address": "Kappa 3, Søften, 8382 Hinnerup",
+    "geoQueries": [
+      "OneMed Hinnerup",
+      "Kappa 3, 8382 Hinnerup"
+    ],
+    "approxLat": 56.23,
+    "approxLng": 10.105,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Danish subsidiary of Asker Healthcare Group distributing medical consumables.",
+    "source": "https://estatistik.dk/virksomhed/onemed-as/19846679"
+  },
+  {
+    "parentName": "AddLife",
+    "name": "Mediplast AB Nordic HQ & Warehouse (Malmö, AddLife)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Malmö",
+    "country": "Sverige",
+    "address": "Bronsåldersgatan 2, 213 76 Malmö",
+    "geoQueries": [
+      "Mediplast Malmö",
+      "Bronsåldersgatan 2, 213 76 Malmö"
+    ],
+    "approxLat": 55.575,
+    "approxLng": 13.055,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "AddLife subsidiary distributing medical disposables across the Nordics, from a Wihlborgs-leased office and warehouse.",
+    "source": "https://wihlborgs.se/en/investor-relations/press-releases/2017/wihlborgs-signs-lease-with-mediplast-in-malmo"
+  },
+  {
+    "parentName": "AddLife",
+    "name": "Healthcare 21 Group HQ (Ballincollig, Cork, AddLife)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Ballincollig (Cork)",
+    "country": "Ireland",
+    "address": "Unit 5, Westpoint Buildings, Westpoint Business Park, Ballincollig, Co. Cork",
+    "geoQueries": [
+      "Healthcare 21 Ballincollig",
+      "Westpoint Business Park, Ballincollig"
+    ],
+    "approxLat": 51.888,
+    "approxLng": -8.575,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of Healthcare 21, AddLife's Irish/UK medtech distribution group.",
+    "source": "https://cpaireland.ie/Employers/Employer-Network-Directory/Employers/Healthcare-21"
+  },
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Beijing Linac & Gamma Knife Factory (Changping)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Beijing (Changping)",
+    "country": "China",
+    "address": "No. 21 Chuang Xin Road, Science and Technology Park, Changping, Beijing 102200",
+    "geoQueries": [
+      "Elekta Beijing Medical Systems",
+      "21 Chuangxin Road, Changping, Beijing"
+    ],
+    "approxLat": 40.2,
+    "approxLng": 116.23,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Elekta's most complete global manufacturing hub, producing linear accelerators and Leksell Gamma Knife systems.",
+    "source": "https://www.elekta.com/focus/elektas-beijing-factory-celebrates-production-of-100th-cancer-fighting-machine/"
+  },
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Brachytherapy Plant (Veenendaal, ex-Nucletron)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Veenendaal",
+    "country": "Netherlands",
+    "address": "Waardgelder 1, 3905 TH Veenendaal",
+    "geoQueries": [
+      "Elekta Veenendaal",
+      "Nucletron Veenendaal",
+      "Waardgelder 1, Veenendaal"
+    ],
+    "approxLat": 52.02,
+    "approxLng": 5.57,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Elekta's brachytherapy manufacturing and R&D site (former Nucletron).",
+    "source": "https://en.wikipedia.org/wiki/Elekta"
+  },
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Inc. North America HQ (Atlanta)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Atlanta",
+    "country": "USA",
+    "address": "400 Perimeter Center Terrace, Suite 50, Atlanta, GA 30346",
+    "geoQueries": [
+      "Elekta Atlanta",
+      "400 Perimeter Center Terrace, Atlanta"
+    ],
+    "approxLat": 33.925,
+    "approxLng": -84.34,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "North American headquarters of Elekta's radiotherapy business.",
+    "source": "https://en.wikipedia.org/wiki/Elekta"
+  },
+  {
+    "parentName": "Medicover",
+    "name": "Szpital Medicover Warsaw Hospital (Wilanów)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Warszawa",
+    "country": "Poland",
+    "address": "Aleja Rzeczypospolitej 5, 02-972 Warszawa",
+    "geoQueries": [
+      "Szpital Medicover",
+      "Medicover Hospital Warsaw",
+      "Aleja Rzeczypospolitej 5, Warszawa"
+    ],
+    "approxLat": 52.163,
+    "approxLng": 21.075,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Medicover's flagship multi-specialty private hospital in Warsaw.",
+    "source": "https://www.medicover.pl/en/medicover-hospital/hospital-facility/"
+  },
+  {
+    "parentName": "Medicover",
+    "name": "Medicover Hospitals HITEC City (Hyderabad)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hyderabad",
+    "country": "India",
+    "address": "Behind Cyber Towers, HUDA Techno Enclave, HITEC City, Hyderabad, Telangana 500081",
+    "geoQueries": [
+      "Medicover Hospitals HITEC City",
+      "Medicover Hospital Madhapur Hyderabad"
+    ],
+    "approxLat": 17.449,
+    "approxLng": 78.38,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "300-400 bed flagship tertiary hospital of Medicover's Indian hospital network.",
+    "source": "https://housing.com/news/facts-about-medicover-hospital-hyderabad"
+  },
+  {
+    "parentName": "Medicover",
+    "name": "Synevo Central Reference Laboratory (Chiajna, Bucharest)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Chiajna (Bucharest)",
+    "country": "Romania",
+    "address": "Chiajna, Ilfov County",
+    "geoQueries": [
+      "Synevo Chiajna",
+      "Laboratorul Central Synevo Chiajna"
+    ],
+    "approxLat": 44.456,
+    "approxLng": 25.97,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Medicover's Synevo central laboratory (opened 2010), described as the largest medical analysis unit in Southeast Europe.",
+    "source": "https://www.forbes.ro/?p=416219"
+  },
+  {
+    "parentName": "Embla Medical",
+    "name": "Össur Mexico Prosthetics & Bracing Plant (Tijuana)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tijuana",
+    "country": "Mexico",
+    "address": "Tijuana, Baja California",
+    "geoQueries": [
+      "Össur Mexico Tijuana",
+      "Ossur Tijuana"
+    ],
+    "approxLat": 32.515,
+    "approxLng": -116.96,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Embla Medical's main Össur manufacturing site in Mexico (600+ employees) for prosthetic and bracing products.",
+    "source": "https://media.ossur.com/image/upload/documents/corporate/agm/2026/2026_AGM_Main_Subsidiaries.pdf"
+  },
+  {
+    "parentName": "Embla Medical",
+    "name": "Össur Americas HQ & R&D (Foothill Ranch)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Foothill Ranch (Lake Forest)",
+    "country": "USA",
+    "address": "27051 Towne Centre Drive, Foothill Ranch, CA 92610",
+    "geoQueries": [
+      "Ossur Americas Foothill Ranch",
+      "27051 Towne Centre Drive, Foothill Ranch"
+    ],
+    "approxLat": 33.685,
+    "approxLng": -117.665,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Össur Americas headquarters for sales, marketing, engineering and R&D.",
+    "source": "https://www.ocbj.com/healthcare/prosthetic-device-maker-unifies-foothill-ranch/"
+  },
+  {
+    "parentName": "Embla Medical",
+    "name": "Fior & Gentz Orthotic Components Plant (Lüneburg)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Lüneburg",
+    "country": "Germany",
+    "address": "Dorette-von-Stern-Straße 5, 21337 Lüneburg",
+    "geoQueries": [
+      "Fior & Gentz Lüneburg",
+      "Dorette-von-Stern-Straße 5, Lüneburg"
+    ],
+    "approxLat": 53.235,
+    "approxLng": 10.44,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Wholly owned Embla Medical subsidiary developing and manufacturing neuro-orthotic joints and components.",
+    "source": "https://media.ossur.com/image/upload/documents/corporate/agm/2026/2026_AGM_Main_Subsidiaries.pdf"
+  },
+  {
+    "parentName": "Xvivo Perfusion",
+    "name": "XVIVO Lund Heart Preservation Manufacturing & R&D",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Lund",
+    "country": "Sverige",
+    "address": "Lund",
+    "geoQueries": [
+      "XVIVO Perfusion Lund",
+      "Xvivo Lund"
+    ],
+    "approxLat": 55.715,
+    "approxLng": 13.21,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "XVIVO subsidiary handling manufacturing and development of the heart-transplant (non-ischemic heart preservation) technology.",
+    "source": "https://news.cision.com/xvivo-perfusion/r/annual-report-2019,c3054873"
+  },
+  {
+    "parentName": "Xvivo Perfusion",
+    "name": "XVIVO Groningen Liver & Kidney Perfusion Site (ex-Organ Assist)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Groningen",
+    "country": "Netherlands",
+    "address": "Groningen",
+    "geoQueries": [
+      "XVIVO Groningen",
+      "Organ Assist Groningen"
+    ],
+    "approxLat": 53.219,
+    "approxLng": 6.567,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Former Organ Assist (acquired 2021), developing and manufacturing XVIVO's abdominal organ perfusion machines.",
+    "source": "https://www.xvivogroup.com/about-us/"
+  },
+  {
+    "parentName": "Xvivo Perfusion",
+    "name": "XVIVO Americas Office (Denver)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Denver",
+    "country": "USA",
+    "address": "Denver, Colorado",
+    "geoQueries": [
+      "XVIVO Perfusion Inc Denver",
+      "Xvivo Denver"
+    ],
+    "approxLat": 39.65,
+    "approxLng": -104.9,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "XVIVO subsidiary handling sales to North and South America.",
+    "source": "https://news.cision.com/xvivo-perfusion/r/annual-report-2019,c3054873"
+  },
+  {
+    "parentName": "Terveystalo",
+    "name": "Terveystalo Oulu Medical Centre & Hospital",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oulu",
+    "country": "Finland",
+    "address": "Albertinkatu 16, 90100 Oulu",
+    "geoQueries": [
+      "Terveystalo Oulu",
+      "Albertinkatu 16, Oulu"
+    ],
+    "approxLat": 65.012,
+    "approxLng": 25.47,
+    "coordsExact": false,
+    "footprintRadiusMeters": 120,
+    "description": "One of Terveystalo's major regional medical centres with day-surgery in Northern Finland.",
+    "source": "https://www.terveystalo.com/globalassets/yhtio/laatu-ja-vastuullisuus/suomen-terveystalo-oy-iso-14001-sertifikaatti-2021-2024-eng_paivitetty-15022024_v2.pdf"
+  },
+  {
+    "parentName": "Vitrolife",
+    "name": "Igenomix Genetic Testing Laboratory (Valencia, Vitrolife Group)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Paterna (Valencia)",
+    "country": "Spain",
+    "address": "Ronda de Narcís Monturiol 11B, Parque Tecnológico de Paterna, 46980 Valencia",
+    "geoQueries": [
+      "Igenomix Valencia",
+      "Igenomix Paterna",
+      "Narcís Monturiol 11, Paterna"
+    ],
+    "approxLat": 39.548,
+    "approxLng": -0.458,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Headquarters and main reproductive genetic-testing (PGT) laboratory of Igenomix, acquired by Vitrolife Group in 2021.",
+    "source": "https://www.igenomix.com/contact/"
+  },
+  {
+    "parentName": "Vitrolife",
+    "name": "Vitrolife Inc. Americas Operations (Englewood)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Englewood",
+    "country": "USA",
+    "address": "3601 South Inca Street, Englewood, CO 80110",
+    "geoQueries": [
+      "Vitrolife Englewood",
+      "3601 South Inca Street, Englewood"
+    ],
+    "approxLat": 39.653,
+    "approxLng": -104.995,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Vitrolife's US subsidiary handling IVF media production/distribution and sales for the Americas.",
+    "source": "https://www.vitrolife.com/about-us/contact/"
+  },
+  {
+    "parentName": "Vimian Group",
+    "name": "Indical Bioscience Veterinary Diagnostics HQ & Lab (Leipzig)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Leipzig",
+    "country": "Germany",
+    "address": "Deutscher Platz 5b, 04103 Leipzig",
+    "geoQueries": [
+      "Indical Bioscience Leipzig",
+      "Deutscher Platz 5b, Leipzig"
+    ],
+    "approxLat": 51.32,
+    "approxLng": 12.395,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Vimian's Diagnostics segment: development and production of molecular and immunoassay kits for veterinary labs.",
+    "source": "https://www.indical.com"
+  },
+  {
+    "parentName": "Vimian Group",
+    "name": "KYON Veterinary Orthopedic Implants HQ (Zurich, Movora)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "address": "Hardturmstrasse 103, 8005 Zürich",
+    "geoQueries": [
+      "KYON Zürich",
+      "Hardturmstrasse 103, Zürich"
+    ],
+    "approxLat": 47.392,
+    "approxLng": 8.51,
+    "coordsExact": false,
+    "footprintRadiusMeters": 120,
+    "description": "Movora's KYON brand: design and supply of veterinary orthopaedic implants; Movora's Zurich regional HQ.",
+    "source": "https://movora.com/news/fidelio-forms-vimian-a-global-powerhouse-within-animal-health"
+  },
+  {
+    "parentName": "Arjo",
+    "name": "Arjo Poland Manufacturing Plant (Komorniki, Tulipan Park)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Komorniki (Poznań)",
+    "country": "Poland",
+    "address": "Tulipan Park Poznań, ul. Ks. Wawrzyniaka 2, 62-052 Komorniki",
+    "geoQueries": [
+      "Arjo Komorniki",
+      "ArjoHuntleigh Polska",
+      "Tulipan Park Poznań Komorniki"
+    ],
+    "approxLat": 52.348,
+    "approxLng": 16.815,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Arjo's largest production site (since 2007) making patient-handling lifts, hygiene systems and beds.",
+    "source": "https://bank.pl/?p=30647"
+  },
+  {
+    "parentName": "Arjo",
+    "name": "Arjo Magog Medical Beds Plant (Québec)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Magog",
+    "country": "Canada",
+    "address": "2001 rue Tanguay, Magog, QC J1X 5Y5",
+    "geoQueries": [
+      "ArjoHuntleigh Magog",
+      "2001 rue Tanguay, Magog"
+    ],
+    "approxLat": 45.27,
+    "approxLng": -72.13,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Arjo production unit in Québec manufacturing medical beds and patient-handling equipment.",
+    "source": "https://www.arjo.com/siteassets/01-about-us/iso-9001_2015.pdf"
+  },
+  {
+    "parentName": "Arjo",
+    "name": "Arjo Suzhou Manufacturing Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Suzhou",
+    "country": "China",
+    "address": "No. 158 Fangzhou Road, Suzhou Industrial Park, 215024 Suzhou",
+    "geoQueries": [
+      "Arjo Suzhou",
+      "158 Fangzhou Road, Suzhou"
+    ],
+    "approxLat": 31.3205,
+    "approxLng": 120.7305,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Arjo (Suzhou) Co. production of patient-handling and medical-bed products.",
+    "source": "https://www.arjo.com/siteassets/01-about-us/iso-9001_2015.pdf"
+  },
+  {
+    "parentName": "Arjo",
+    "name": "Arjo Cardiff Product Development & Production Unit (Huntleigh)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Cardiff",
+    "country": "UK",
+    "address": "35 Portmanmoor Road, Cardiff CF24 5HN",
+    "geoQueries": [
+      "Huntleigh Healthcare Cardiff",
+      "Arjo Cardiff",
+      "35 Portmanmoor Road, Cardiff"
+    ],
+    "approxLat": 51.473,
+    "approxLng": -3.155,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Former Huntleigh site producing Doppler/diagnostics, DVT prevention and therapy-surface products.",
+    "source": "https://viewer.ipaper.io/arjo/arjo-aar-2023/arjo-ar2023-eng/?Page=3"
+  },
+  {
+    "parentName": "Medistim",
+    "name": "Medistim USA Inc. (Plymouth, MN)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Plymouth",
+    "country": "USA",
+    "address": "14000 25th Ave N, Suite 108, Plymouth, MN 55447",
+    "geoQueries": [
+      "Medistim USA Plymouth",
+      "14000 25th Avenue North, Plymouth, MN"
+    ],
+    "approxLat": 45.03,
+    "approxLng": -93.46,
+    "coordsExact": false,
+    "footprintRadiusMeters": 120,
+    "description": "US subsidiary handling Medistim's direct sales, service and customer support in its largest market.",
+    "source": "https://www.medistim.com/contact/"
+  },
+  {
+    "parentName": "Revenio Group",
+    "name": "Centervue Retinal Imaging R&D & Production Site (Vigonza)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Vigonza (Padova)",
+    "country": "Italy",
+    "address": "Via Germania 34, 35010 Vigonza (PD)",
+    "geoQueries": [
+      "Centervue Vigonza",
+      "Via Germania 34, Vigonza"
+    ],
+    "approxLat": 45.44,
+    "approxLng": 11.98,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Operating site of Revenio's Centervue S.p.A., legal manufacturer of DRSplus, EIDON, COMPASS and MAIA ophthalmic imaging devices.",
+    "source": "https://www.icare-world.com/contact-us/"
+  }
+]

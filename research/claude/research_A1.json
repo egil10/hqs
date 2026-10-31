@@ -1,0 +1,665 @@
+[
+ {
+  "parentName": "Storebrand",
+  "name": "SPP Pension & Försäkring Headquarters (Storebrand Sweden)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Vasagatan 10, 111 20 Stockholm",
+  "geoQueries": [
+   "SPP Vasagatan 10 Stockholm",
+   "Vasagatan 10, 111 20 Stockholm"
+  ],
+  "approxLat": 59.3318,
+  "approxLng": 18.0573,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of SPP Pension & Försäkring, Storebrand's wholly owned Swedish occupational pension and life insurance subsidiary.",
+  "source": "https://www.privateequityinternational.com/institution-profiles/spp-pension-f%C3%B6rs%C3%A4kring-ab.html"
+ },
+ {
+  "parentName": "Gjensidige Forsikring",
+  "name": "Gjensidige Danmark Head Office (Sydhavnen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "København",
+  "country": "Danmark",
+  "address": "A.C. Meyers Vænge 9, 2450 København SV",
+  "geoQueries": [
+   "Gjensidige A.C. Meyers Vænge",
+   "A.C. Meyers Vænge 9, 2450 København"
+  ],
+  "approxLat": 55.6545,
+  "approxLng": 12.5425,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Gjensidige's Danish branch, the group's largest non-life insurance operation outside Norway.",
+  "source": "https://www.topograph.co/companies/dk/gjensidige-forsikring-dansk-filial-af-gjensidige-forsikring-asa-norge-33259247"
+ },
+ {
+  "parentName": "Investor",
+  "name": "Mölnlycke Health Care Global HQ & R&D Centre (GoCo Health Innovation City)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Mölndal",
+  "country": "Sverige",
+  "address": "GoCo Health Innovation City, 431 83 Mölndal",
+  "geoQueries": [
+   "Mölnlycke Health Care Mölndal",
+   "GoCo Health Innovation City",
+   "GoCo House Mölndal"
+  ],
+  "approxLat": 57.665,
+  "approxLng": 12.02,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Global headquarters and R&D centre of wound-care and surgical products maker Mölnlycke Health Care (99% owned by Investor via Patricia Industries), opened 2025.",
+  "source": "https://www.molnlycke.com/en-us/news/media-room/molnlycke-health-care-unveils-new-headquarters-at-goco-health-innovation-city-marking-a-new-era-of-collaboration-and-innovation/"
+ },
+ {
+  "parentName": "Investor",
+  "name": "Permobil Global Innovation Centre & Wheelchair Factory (Birsta)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Sundsvall",
+  "country": "Sverige",
+  "address": "Birsta, 863 37 Sundsvall",
+  "geoQueries": [
+   "Permobil Birsta",
+   "Permobil Sundsvall",
+   "Birsta, Sundsvall"
+  ],
+  "approxLat": 62.443,
+  "approxLng": 17.33,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Permobil's 14,000 m2 headquarters, product development and power/manual wheelchair production site, wholly owned by Investor's Patricia Industries.",
+  "source": "https://www.mynewsdesk.com/se/vectura-fastigheter/pressreleases/tillgaenglighet-i-vaerldsklass-foer-vecturas-utveckling-av-permobils-nya-huvudkontor-3231686"
+ },
+ {
+  "parentName": "Nordea Bank",
+  "name": "Nordea Sweden Head Office (Smålandsgatan)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Smålandsgatan 17, 111 46 Stockholm",
+  "geoQueries": [
+   "Nordea Smålandsgatan 17",
+   "Smålandsgatan 17, Stockholm"
+  ],
+  "approxLat": 59.3343,
+  "approxLng": 18.073,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Nordea's Swedish banking operations.",
+  "source": "https://www.nordea.com/en/doc/nordea-groups-parent-company-and-nordic-branches-2026.pdf"
+ },
+ {
+  "parentName": "Nordea Bank",
+  "name": "Nordea Denmark Head Office (Ørestad)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "København",
+  "country": "Danmark",
+  "address": "Grønjordsvej 10, 2300 København S",
+  "geoQueries": [
+   "Nordea Grønjordsvej 10",
+   "Nordea Ørestad",
+   "Grønjordsvej 10, 2300 København"
+  ],
+  "approxLat": 55.634,
+  "approxLng": 12.578,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Danish head office of Nordea, a large office campus in Ørestad housing several thousand bank and group IT/operations staff.",
+  "source": "https://www.nordea.com/en/doc/nordea-groups-parent-company-and-nordic-branches-2026.pdf"
+ },
+ {
+  "parentName": "Protector Forsikring",
+  "name": "Protector Försäkring Sverige Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Västra Trädgårdsgatan 15, 111 53 Stockholm",
+  "geoQueries": [
+   "Protector Försäkring Stockholm",
+   "Västra Trädgårdsgatan 15, 111 53 Stockholm"
+  ],
+  "approxLat": 59.3322,
+  "approxLng": 18.0693,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Swedish branch office of Protector Forsikring, a commercial and public-sector non-life insurer.",
+  "source": "https://lei.bloomberg.com/leis/view/529900PS73EVHFIR5O90"
+ },
+ {
+  "parentName": "Protector Forsikring",
+  "name": "Protector Forsikring Danmark Office (Frederiksberg)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Frederiksberg",
+  "country": "Danmark",
+  "address": "Gammel Kongevej 60, 1850 Frederiksberg C",
+  "geoQueries": [
+   "Protector Forsikring Gammel Kongevej",
+   "Gammel Kongevej 60, 1850 Frederiksberg"
+  ],
+  "approxLat": 55.6768,
+  "approxLng": 12.5483,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Danish branch office of Protector Forsikring, handling commercial, public and change-of-ownership insurance and claims.",
+  "source": "https://www.jobindex.dk/virksomhed/44778/protector-forsikring-danmark"
+ },
+ {
+  "parentName": "Swedbank",
+  "name": "Swedbank Estonia Head Office (Arter Quarter Tower)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "address": "Liivalaia 36, 10132 Tallinn",
+  "geoQueries": [
+   "Arteri kvartal",
+   "Swedbank Arter Tallinn",
+   "Liivalaia 36, Tallinn"
+  ],
+  "approxLat": 59.432,
+  "approxLng": 24.76,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Swedbank AS, Estonia's largest bank, in the 28-storey Arter quarter tower completed in 2025.",
+  "source": "https://news.err.ee/1609040447/swedbank-to-move-headquarters-to-tallinn-s-arter-quarter-in-2025"
+ },
+ {
+  "parentName": "Swedbank",
+  "name": "Swedbank Latvia Head Office (Saules Akmens)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Riga",
+  "country": "Latvia",
+  "address": "Balasta dambis 15, Riga LV-1048",
+  "geoQueries": [
+   "Saules akmens",
+   "Swedbank Balasta dambis 15",
+   "Balasta dambis 15, Riga"
+  ],
+  "approxLat": 56.9555,
+  "approxLng": 24.0905,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Swedbank AS Latvia in the 'Saules akmens' (Sun Stone) tower on the left bank of the Daugava.",
+  "source": "https://en.wikipedia.org/wiki/Saules_akmens"
+ },
+ {
+  "parentName": "Danske Bank",
+  "name": "Danske Campus Vilnius (Danske Bank Lithuania)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Vilnius",
+  "country": "Lithuania",
+  "address": "Saltoniškių g. 7B, LT-08105 Vilnius",
+  "geoQueries": [
+   "Danske Bank Saltoniškių 7B",
+   "Saltoniškių g. 7B, Vilnius"
+  ],
+  "approxLat": 54.697,
+  "approxLng": 25.2585,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Danske Bank's consolidated Vilnius campus housing its large IT, operations and shared-services centre for the group.",
+  "source": "https://danskebank.lt/en/about-the-bank/news/2022/new-address"
+ },
+ {
+  "parentName": "Danske Bank",
+  "name": "Danske Bank UK Head Office (Donegall Square West)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Belfast",
+  "country": "UK",
+  "address": "Donegall Square West, Belfast BT1 6JS",
+  "geoQueries": [
+   "Danske Bank Donegall Square West",
+   "Donegall Square West, Belfast BT1 6JS"
+  ],
+  "approxLat": 54.5964,
+  "approxLng": -5.9318,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Northern Bank Ltd, trading as Danske Bank UK, Danske Bank's wholly owned Northern Ireland subsidiary.",
+  "source": "https://danskebank.co.uk/important-information/legal-information"
+ },
+ {
+  "parentName": "Sampo",
+  "name": "If P&C Insurance Head Office (Bergshamra)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Solna",
+  "country": "Sverige",
+  "address": "Barks väg 15, 170 73 Solna",
+  "geoQueries": [
+   "If Skadeförsäkring Barks väg",
+   "Barks väg 15, Solna"
+  ],
+  "approxLat": 59.38,
+  "approxLng": 18.036,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of If Skadeförsäkring AB, Sampo's wholly owned Nordic property & casualty insurance subsidiary.",
+  "source": "https://www.allabolag.se/5164018102"
+ },
+ {
+  "parentName": "Sampo",
+  "name": "Hastings Direct Head Office (Conquest House)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bexhill-on-Sea",
+  "country": "UK",
+  "address": "Conquest House, Collington Avenue, Bexhill-on-Sea TN39 3LW",
+  "geoQueries": [
+   "Hastings Direct Conquest House",
+   "Conquest House Bexhill",
+   "Collington Avenue, Bexhill-on-Sea TN39 3LW"
+  ],
+  "approxLat": 50.8445,
+  "approxLng": 0.46,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Head office and main operations centre of UK motor and home insurer Hastings Group, wholly owned by Sampo since 2020.",
+  "source": "https://find-and-update.company-information.service.gov.uk/company/03234853"
+ },
+ {
+  "parentName": "Tryg",
+  "name": "Tryg Norge Head Office (Bergen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bergen",
+  "country": "Norge",
+  "address": "Folke Bernadottes vei 50, 5147 Fyllingsdalen, Bergen",
+  "geoQueries": [
+   "Tryg Folke Bernadottes vei 50",
+   "Folke Bernadottes vei 50, Bergen"
+  ],
+  "approxLat": 60.35,
+  "approxLng": 5.293,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Tryg's Norwegian non-life insurance business (about 1,100 employees in Norway).",
+  "source": "https://tryg.com/en/about-us/Our%20offices"
+ },
+ {
+  "parentName": "Tryg",
+  "name": "Trygg-Hansa Head Office (Trygg-Hansa-huset)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Fleminggatan 18, 112 26 Stockholm",
+  "geoQueries": [
+   "Trygg-Hansahuset",
+   "Trygg-Hansa Fleminggatan 18",
+   "Fleminggatan 18, Stockholm"
+  ],
+  "approxLat": 59.3335,
+  "approxLng": 18.0445,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Stockholm head office of Trygg-Hansa, Tryg's wholly owned Swedish non-life insurer acquired in 2022.",
+  "source": "https://www.allabolag.se/5164038662"
+ },
+ {
+  "parentName": "Skandinaviska Enskilda Banken",
+  "name": "SEB Arenastaden Office (Stjärntorget)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Solna",
+  "country": "Sverige",
+  "address": "Stjärntorget 4, 169 79 Solna",
+  "geoQueries": [
+   "SEB Arenastaden",
+   "SEB Stjärntorget 4 Solna",
+   "Stjärntorget 4, Solna"
+  ],
+  "approxLat": 59.3705,
+  "approxLng": 18.0035,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "SEB's largest office, a Fabege-built complex with about 4,500 workplaces housing much of the bank's IT, operations and staff functions since 2017-18.",
+  "source": "https://www.fabege.se/en/press-room/press-releases/2014/seb-chose-arenastaden"
+ },
+ {
+  "parentName": "Skandinaviska Enskilda Banken",
+  "name": "SEB Estonia / Baltic Head Office Tower (Tornimäe)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "address": "Tornimäe 2, 15010 Tallinn",
+  "geoQueries": [
+   "SEB Tornimäe 2",
+   "SEB maja Tallinn",
+   "Tornimäe 2, Tallinn"
+  ],
+  "approxLat": 59.4335,
+  "approxLng": 24.761,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "24-storey head office of AS SEB Pank, SEB's Estonian subsidiary and Baltic division headquarters (leased; planned move to Talsinki in 2028).",
+  "source": "https://www.seb.ee/en/contacts"
+ },
+ {
+  "parentName": "Svenska Handelsbanken",
+  "name": "Handelsbanken plc UK Head Office (Woolgate)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "London",
+  "country": "UK",
+  "address": "Woolgate, 25 Basinghall Street, London EC2V 5HA",
+  "geoQueries": [
+   "Woolgate Exchange",
+   "25 Basinghall Street, London EC2V 5HA",
+   "Handelsbanken Basinghall Street"
+  ],
+  "approxLat": 51.5162,
+  "approxLng": -0.0905,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Head office of Handelsbanken plc, the bank's UK subsidiary (largest market outside Sweden), on a 15-year lease of 53,000 sq ft after relocating from Wapping.",
+  "source": "https://www.buildington.co.uk/buildings/news/view/19958"
+ },
+ {
+  "parentName": "Entra",
+  "name": "Powerhouse Brattørkaia (Energy-Positive Office Building)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Trondheim",
+  "country": "Norge",
+  "address": "Brattørkaia 17A, 7010 Trondheim",
+  "geoQueries": [
+   "Powerhouse Brattørkaia",
+   "Brattørkaia 17A, 7010 Trondheim"
+  ],
+  "approxLat": 63.4405,
+  "approxLng": 10.4025,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Entra's Snøhetta-designed 18,000 m2 energy-positive office building on the Trondheim waterfront, opened 2019.",
+  "source": "https://snohetta.com/projects/456-powerhouse-brattorkaia-the-worlds-northernmost-energy-positive-building"
+ },
+ {
+  "parentName": "Entra",
+  "name": "Media City Bergen",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bergen",
+  "country": "Norge",
+  "address": "Lars Hilles gate 30, 5008 Bergen",
+  "geoQueries": [
+   "Media City Bergen",
+   "Lars Hilles gate 30, 5008 Bergen"
+  ],
+  "approxLat": 60.3895,
+  "approxLng": 5.331,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Media cluster office building housing TV 2, NRK, Schibsted/Bergens Tidende and others, owned by Entra OPF Utvikling (50/50 Entra and Oslo Pensjonsforsikring) and managed by Entra.",
+  "source": "https://www.placera.se/pressmeddelanden/entra-entra-asa-renewed-lease-contract-at-media-city-bergen-20250619"
+ },
+ {
+  "parentName": "EQT",
+  "name": "EQT New York Office (245 Park Avenue)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "New York",
+  "country": "USA",
+  "address": "245 Park Avenue, 34th Floor, New York, NY 10167",
+  "geoQueries": [
+   "245 Park Avenue, New York",
+   "245 Park Avenue"
+  ],
+  "approxLat": 40.7545,
+  "approxLng": -73.9755,
+  "coordsExact": false,
+  "footprintRadiusMeters": 120,
+  "description": "EQT's main North American office for private equity, infrastructure and real estate investment teams.",
+  "source": "https://eqtgroup.com/about/offices/new-york"
+ },
+ {
+  "parentName": "EQT",
+  "name": "EQT London Office (Broadwick Street)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "London",
+  "country": "UK",
+  "address": "30 Broadwick Street, 3rd Floor, London W1F 8JB",
+  "geoQueries": [
+   "30 Broadwick Street, London",
+   "30 Broadwick Street, London W1F 8JB"
+  ],
+  "approxLat": 51.5137,
+  "approxLng": -0.1365,
+  "coordsExact": false,
+  "footprintRadiusMeters": 120,
+  "description": "EQT's UK office in Soho hosting investment advisory teams for private capital and infrastructure.",
+  "source": "https://eqtgroup.com/about/offices/london"
+ },
+ {
+  "parentName": "EQT",
+  "name": "EQT Asia Office (Two International Finance Centre)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Hong Kong",
+  "country": "Hong Kong",
+  "address": "38/F Two International Finance Centre, 8 Finance Street, Central, Hong Kong",
+  "geoQueries": [
+   "Two International Finance Centre",
+   "8 Finance Street, Central, Hong Kong"
+  ],
+  "approxLat": 22.2852,
+  "approxLng": 114.159,
+  "coordsExact": false,
+  "footprintRadiusMeters": 120,
+  "description": "Hong Kong office of EQT's Asia private equity business (formerly Baring Private Equity Asia, acquired 2022).",
+  "source": "https://eqtgroup.com/about/offices/hong-kong"
+ },
+ {
+  "parentName": "Sagax",
+  "name": "Sagax Vantaa Food Production & Logistics Complex (HKScan sale-leaseback)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Vantaa",
+  "country": "Finland",
+  "address": "Aviapolis business park (Pakkala), 01510 Vantaa",
+  "geoQueries": [
+   "HKScan Vantaa",
+   "HKFoods Vantaa",
+   "Aviapolis, Vantaa"
+  ],
+  "approxLat": 60.3,
+  "approxLng": 24.96,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "About 51,000 m2 meat processing, ready-meal and logistics complex bought by Sagax for ~EUR 80m in 2021 and leased back to HKScan/HKFoods on a 20-year lease.",
+  "source": "https://www.castren.fi/cases/cases-2021/sagax/"
+ },
+ {
+  "parentName": "Lundbergs",
+  "name": "Holmen Iggesund Paperboard Mill",
+  "facilityType": "Mill, Smelter & Mine",
+  "city": "Iggesund",
+  "country": "Sverige",
+  "address": "Iggesunds bruk, 825 80 Iggesund",
+  "geoQueries": [
+   "Iggesunds bruk",
+   "Iggesund Paperboard",
+   "Holmen Iggesund"
+  ],
+  "approxLat": 61.64,
+  "approxLng": 17.087,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Integrated pulp and Invercote paperboard mill of Holmen, in which Lundbergs holds about 35% of capital and 63% of votes.",
+  "source": "https://en.wikipedia.org/wiki/Iggesund_Paperboard"
+ },
+ {
+  "parentName": "Lundbergs",
+  "name": "Holmen Braviken Paper Mill & Sawmill",
+  "facilityType": "Mill, Smelter & Mine",
+  "city": "Norrköping",
+  "country": "Sverige",
+  "address": "Braviken, 601 88 Norrköping",
+  "geoQueries": [
+   "Braviken pappersbruk",
+   "Holmen Paper Braviken",
+   "Braviken sågverk"
+  ],
+  "approxLat": 58.636,
+  "approxLng": 16.33,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Holmen's paper mill and adjacent sawmill at Bråviken outside Norrköping (Holmen ~35% capital / 63% votes owned by Lundbergs).",
+  "source": "https://en.wikipedia.org/wiki/Holmen_(company)"
+ },
+ {
+  "parentName": "Lundbergs",
+  "name": "Hufvudstaden NK Stockholm Department Store Property",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Hamngatan 18-20, 111 47 Stockholm",
+  "geoQueries": [
+   "NK Stockholm",
+   "Nordiska Kompaniet Hamngatan",
+   "Hamngatan 18, Stockholm"
+  ],
+  "approxLat": 59.3333,
+  "approxLng": 18.0688,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Hufvudstaden's flagship NK department store property (Hufvudstaden owned ~47% of capital / 89% of votes by Lundbergs).",
+  "source": "https://en.wikipedia.org/wiki/Nordiska_Kompaniet"
+ },
+ {
+  "parentName": "Storskogen Group",
+  "name": "Båstadgruppen Office & Distribution Centre (Ängelholm)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Ängelholm",
+  "country": "Sverige",
+  "address": "Fraktgatan 1, 262 73 Ängelholm",
+  "geoQueries": [
+   "Båstadgruppen Ängelholm",
+   "Fraktgatan 1, Ängelholm"
+  ],
+  "approxLat": 56.242,
+  "approxLng": 12.883,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office and warehouse of Båstadgruppen, Storskogen's workwear and protective-equipment wholesale business unit.",
+  "source": "https://largestcompanies.com/company/Bastadgruppen-AB-114644"
+ },
+ {
+  "parentName": "Röko",
+  "name": "Fri-Jado Rotisserie & Food Display Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Oud Gastel",
+  "country": "Netherlands",
+  "address": "Blauwhekken 2, 4751 XD Oud Gastel",
+  "geoQueries": [
+   "Fri-Jado Oud Gastel",
+   "Blauwhekken 2, Oud Gastel"
+  ],
+  "approxLat": 51.587,
+  "approxLng": 4.456,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "HQ, development and production of chicken rotisseries and heated/refrigerated food displays; Röko acquired 93% in May 2026.",
+  "source": "https://mfn.se/a/roko-ab/roko-forvarvar-en-majoritet-av-fri-jado-i-nederlanderna"
+ },
+ {
+  "parentName": "Röko",
+  "name": "Oppigårds Bryggeri Brewery",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Hedemora",
+  "country": "Sverige",
+  "address": "Smedjegatan 15, Ingvallsbenning, 776 93 Hedemora",
+  "geoQueries": [
+   "Oppigårds Bryggeri",
+   "Oppigårds bryggeri Ingvallsbenning",
+   "Ingvallsbenning, Hedemora"
+  ],
+  "approxLat": 60.248,
+  "approxLng": 15.88,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "One of Sweden's leading craft breweries, owned by Röko.",
+  "source": "https://nedredalalven.se/en/verksamhet/lokalmatproduktion/oppigards-bryggeri"
+ },
+ {
+  "parentName": "Fastighets AB Balder",
+  "name": "SATO Corporation Head Office (Balder Finland residential subsidiary)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Helsinki",
+  "country": "Finland",
+  "address": "Panuntie 4, 00610 Helsinki",
+  "geoQueries": [
+   "SATO Panuntie 4",
+   "Panuntie 4, 00610 Helsinki"
+  ],
+  "approxLat": 60.2205,
+  "approxLng": 24.865,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of SATO Oyj, a Finnish rental-housing company with about 27,000 apartments in which Balder holds a majority stake (about 57%).",
+  "source": "https://www.sato.fi/en/releases/change-of-control-in-sato-corporation"
+ },
+ {
+  "parentName": "Sveafastigheter",
+  "name": "Sveafastigheter Enhörningen Rental Housing Project (Kista)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Kvarteret Enhörningen, Kista, 164 40 Stockholm",
+  "geoQueries": [
+   "Enhörningen Kista",
+   "Kista, Stockholm"
+  ],
+  "approxLat": 59.404,
+  "approxLng": 17.945,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Sveafastigheter's largest current new-build project: 216 rental apartments in Kista with move-in during 2026.",
+  "source": "https://www.sveafastigheter.se/en/"
+ },
+ {
+  "parentName": "Sveafastigheter",
+  "name": "Sveafastigheter Årby Rental Housing Project (Eskilstuna)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Eskilstuna",
+  "country": "Sverige",
+  "address": "Årby, 633 49 Eskilstuna",
+  "geoQueries": [
+   "Årby, Eskilstuna",
+   "Sveafastigheter Årby"
+  ],
+  "approxLat": 59.354,
+  "approxLng": 16.473,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "New-build project of 206 rental apartments in Årby, Eskilstuna, under construction with move-in 2026-2027.",
+  "source": "https://www.sveafastigheter.se/en/"
+ },
+ {
+  "parentName": "Nordnet",
+  "name": "Nordnet Denmark Office (Havneholmen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "København",
+  "country": "Danmark",
+  "address": "Havneholmen 6, 5. sal, 2450 København SV",
+  "geoQueries": [
+   "Nordnet Havneholmen 6",
+   "Havneholmen 6, 2450 København"
+  ],
+  "approxLat": 55.6645,
+  "approxLng": 12.5605,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "Danish office of Nordnet's online savings and investment bank.",
+  "source": "https://www.nordnet.dk/dk/kundeservice/kontakt"
+ },
+ {
+  "parentName": "Nordnet",
+  "name": "Nordnet Norway Office (Karl Johans gate)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Oslo",
+  "country": "Norge",
+  "address": "Karl Johans gate 16C, 0154 Oslo",
+  "geoQueries": [
+   "Nordnet Karl Johans gate 16",
+   "Karl Johans gate 16C, 0154 Oslo"
+  ],
+  "approxLat": 59.9118,
+  "approxLng": 10.7475,
+  "coordsExact": false,
+  "footprintRadiusMeters": 120,
+  "description": "Norwegian office of Nordnet's online savings and investment bank (branch of Nordnet Bank AB).",
+  "source": "https://www.nordnet.no/no/kundeservice/kontakt"
+ }
+]

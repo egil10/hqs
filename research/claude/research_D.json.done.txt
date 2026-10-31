@@ -1,0 +1,26 @@
+Telenor
+Atlas Copco
+Epiroc
+Beijer Ref
+Bravida Holding
+Verisure
+Lifco
+NIBE Industrier
+Indutrade — skipped: ~220 small decentralised subsidiaries, no confirmed flagship site beyond HQ
+Karnell Group
+Trelleborg
+SWECO
+HEXPOL
+KB Components
+Engcon
+Loomis
+OEM International — skipped: Norway & Finland subsidiaries already mapped; remaining units are small sales offices
+Bufab — skipped: trading company; only owned production (BUMAX) already mapped, no other confirmed site
+AQ Group
+Sdiptech
+Beijer Alma
+AFRY
+Karnov Group — skipped: legal publisher; subsidiary office addresses (Denmark, Spain) could not be confirmed
+Nolato
+Lindab International — skipped: Förslöv & Farum already mapped; further plant addresses not confirmable (search budget exhausted)
+MilDef Group

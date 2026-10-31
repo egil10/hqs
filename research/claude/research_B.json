@@ -1,0 +1,985 @@
+[
+  {
+    "parentName": "Frontline",
+    "name": "Frontline plc Registered Office & Frontline (Management) Cyprus (Limassol)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Limassol",
+    "country": "Cyprus",
+    "address": "John Kennedy 8, Iris Building, 7th floor, Office 740B, 3106 Limassol, Cyprus",
+    "geoQueries": [
+      "Iris Building, John Kennedy, Limassol",
+      "8 John Kennedy Street, 3106 Limassol",
+      "Iris House Limassol"
+    ],
+    "approxLat": 34.6823,
+    "approxLng": 33.0446,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Registered head office of Cyprus-domiciled Frontline plc and seat of Frontline (Management) Cyprus Ltd., which provides management services to the tanker fleet.",
+    "source": "https://www.frontline.bm/contact/"
+  },
+  {
+    "parentName": "Frontline",
+    "name": "Frontline Shipping Singapore Office (Guoco Tower)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "1 Wallich Street, Guoco Tower #14-02, Singapore 078881",
+    "geoQueries": [
+      "Guoco Tower, Singapore",
+      "1 Wallich Street, Singapore 078881"
+    ],
+    "approxLat": 1.2766,
+    "approxLng": 103.8458,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Frontline Shipping Singapore Pte Ltd, the group's Asian chartering and commercial office for its crude and product tanker fleet.",
+    "source": "https://www.frontline.bm/contact/"
+  },
+  {
+    "parentName": "Frontline",
+    "name": "Frontline Corporate Services Glasgow Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Glasgow",
+    "country": "UK",
+    "address": "183 St Vincent Street, Glasgow G2 5QD",
+    "geoQueries": [
+      "183 St Vincent Street, Glasgow",
+      "183 St Vincent Street, G2 5QD Glasgow"
+    ],
+    "approxLat": 55.8628,
+    "approxLng": -4.2632,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Frontline Corporate Services office in Glasgow providing accounting and corporate administration for the Frontline group.",
+    "source": "https://www.frontline.bm/contact/"
+  },
+  {
+    "parentName": "Frontline",
+    "name": "Frontline Management (Bermuda) Office (Par-la-Ville Place)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hamilton",
+    "country": "Bermuda",
+    "address": "Par-la-Ville Place, 14 Par-la-Ville Road, Hamilton HM 08, Bermuda",
+    "geoQueries": [
+      "Par-la-Ville Place, Hamilton",
+      "14 Par-la-Ville Road, Hamilton"
+    ],
+    "approxLat": 32.2935,
+    "approxLng": -64.784,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Frontline Management (Bermuda) Ltd., the group's Bermuda management company at Par-la-Ville Place.",
+    "source": "https://www.frontline.bm/contact/"
+  },
+  {
+    "parentName": "TGS",
+    "name": "TGS Weybridge Office (Brooklands)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Weybridge",
+    "country": "UK",
+    "address": "4 The Heights, Brooklands, Weybridge, Surrey KT13 0NY",
+    "geoQueries": [
+      "4 The Heights, Brooklands, Weybridge",
+      "The Heights, Weybridge KT13 0NY"
+    ],
+    "approxLat": 51.3501,
+    "approxLng": -0.4686,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "TGS UK office at Brooklands (legacy PGS site) handling geoscience, imaging and multi-client data operations for Europe.",
+    "source": "https://www.tgs.com/contact-us"
+  },
+  {
+    "parentName": "TGS",
+    "name": "TGS Norwich Office (Broadland Business Park)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Norwich",
+    "country": "UK",
+    "address": "Lakeside 300, Old Chapel Way, Broadland Business Park, Norwich NR7 0WG",
+    "geoQueries": [
+      "Lakeside 300, Old Chapel Way, Norwich",
+      "Broadland Business Park, Norwich NR7 0WG"
+    ],
+    "approxLat": 52.6343,
+    "approxLng": 1.3609,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "TGS UK regional office in Norwich supporting its subsurface data and geoscience services.",
+    "source": "https://www.tgs.com/contact-us"
+  },
+  {
+    "parentName": "TGS",
+    "name": "TGS Fredrikstad Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Fredrikstad",
+    "country": "Norge",
+    "address": "Habornveien 48B, 1630 Gamle Fredrikstad",
+    "geoQueries": [
+      "Habornveien 48B, 1630 Gamle Fredrikstad",
+      "Habornveien 48, Fredrikstad"
+    ],
+    "approxLat": 59.2015,
+    "approxLng": 10.967,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "TGS Norwegian operations office in Fredrikstad.",
+    "source": "https://www.tgs.com/contact-us"
+  },
+  {
+    "parentName": "TGS",
+    "name": "TGS Calgary Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Calgary",
+    "country": "Canada",
+    "address": "Suite 720, 335 8th Ave SW, Calgary, Alberta T2P 1C9",
+    "geoQueries": [
+      "335 8th Avenue SW, Calgary",
+      "335 8 Avenue SW, Calgary T2P 1C9"
+    ],
+    "approxLat": 51.0459,
+    "approxLng": -114.0688,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "TGS Canadian office serving its well-data and seismic data library business in Western Canada.",
+    "source": "https://www.tgs.com/contact-us"
+  },
+  {
+    "parentName": "TGS",
+    "name": "TGS Perth Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Perth",
+    "country": "Australia",
+    "address": "Level 28, 140 St George's Terrace, Perth WA 6000",
+    "geoQueries": [
+      "140 St Georges Terrace, Perth",
+      "140 St George's Terrace, Perth WA 6000"
+    ],
+    "approxLat": -31.9545,
+    "approxLng": 115.8562,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "TGS Asia-Pacific office in Perth for Australian multi-client seismic and imaging work.",
+    "source": "https://www.tgs.com/contact-us"
+  },
+  {
+    "parentName": "TGS",
+    "name": "TGS Kuala Lumpur Office (Menara Maxis)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "address": "Level 33, Suite E, Menara Maxis, KL City Centre, 50088 Kuala Lumpur",
+    "geoQueries": [
+      "Menara Maxis, Kuala Lumpur",
+      "Menara Maxis KLCC"
+    ],
+    "approxLat": 3.1569,
+    "approxLng": 101.7123,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "TGS Southeast Asia office in Kuala Lumpur supporting regional seismic acquisition and imaging.",
+    "source": "https://www.tgs.com/contact-us"
+  },
+  {
+    "parentName": "Hafnia",
+    "name": "Hafnia Copenhagen Office (Hellerup)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hellerup",
+    "country": "Danmark",
+    "address": "Hans Bekkevolds Allé 7, 2900 Hellerup",
+    "geoQueries": [
+      "Hans Bekkevolds Allé 7, 2900 Hellerup",
+      "Hans Bekkevolds Alle 7, Hellerup"
+    ],
+    "approxLat": 55.733,
+    "approxLng": 12.578,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Hafnia's Copenhagen office for commercial management, chartering and pool operations of its product and chemical tanker fleet.",
+    "source": "https://hafnia.com/contact/"
+  },
+  {
+    "parentName": "Hafnia",
+    "name": "Hafnia Houston Office (Post Oak)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Houston",
+    "country": "USA",
+    "address": "1330 Post Oak Blvd, Suite 1050, Houston, TX 77056",
+    "geoQueries": [
+      "1330 Post Oak Boulevard, Houston",
+      "1330 Post Oak Blvd, Houston TX 77056"
+    ],
+    "approxLat": 29.753,
+    "approxLng": -95.461,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Hafnia's Americas chartering and operations office for its product tanker pools.",
+    "source": "https://hafnia.com/contact/"
+  },
+  {
+    "parentName": "Hafnia",
+    "name": "Hafnia Dubai Office (Tamweel Tower, JLT)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "address": "Tamweel Tower, Unit 304, Cluster U, Jumeirah Lake Towers, Dubai",
+    "geoQueries": [
+      "Tamweel Tower, Jumeirah Lake Towers, Dubai",
+      "Tamweel Tower Dubai"
+    ],
+    "approxLat": 25.0716,
+    "approxLng": 55.1402,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Hafnia's Middle East chartering and operations office.",
+    "source": "https://hafnia.com/contact/"
+  },
+  {
+    "parentName": "Hafnia",
+    "name": "Hafnia / BW Maritime Mumbai Branch Office (R Square, Andheri)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Mumbai",
+    "country": "India",
+    "address": "Office No. 1001, 10th Floor, R Square, Andheri-Kurla Road, J.B. Nagar, Andheri East, Mumbai 400059",
+    "geoQueries": [
+      "R Square, Andheri Kurla Road, Mumbai",
+      "Andheri-Kurla Road, J.B. Nagar, Andheri East, Mumbai 400059"
+    ],
+    "approxLat": 19.1112,
+    "approxLng": 72.8667,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "BW Maritime India branch office handling crewing and technical support for Hafnia's tanker fleet.",
+    "source": "https://hafnia.com/contact/"
+  },
+  {
+    "parentName": "BW LPG",
+    "name": "BW LPG Singapore Global Headquarters (Mapletree Business City)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "10 Pasir Panjang Road, #17-02 Mapletree Business City, Singapore 117438",
+    "geoQueries": [
+      "Mapletree Business City, 10 Pasir Panjang Road, Singapore",
+      "10 Pasir Panjang Road, Singapore 117438"
+    ],
+    "approxLat": 1.275,
+    "approxLng": 103.799,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Operating headquarters of BW LPG, the world's largest VLGC owner/operator, housing commercial, technical and ship management functions.",
+    "source": "https://www.bwlpg.com/contact/"
+  },
+  {
+    "parentName": "BW LPG",
+    "name": "BW LPG LLC Houston Office (Four Oaks Place)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Houston",
+    "country": "USA",
+    "address": "Four Oaks Place, 1330 Post Oak Boulevard, Suite 1050, Houston, TX 77056",
+    "geoQueries": [
+      "Four Oaks Place, 1330 Post Oak Boulevard, Houston",
+      "1330 Post Oak Blvd, Houston TX 77056"
+    ],
+    "approxLat": 29.753,
+    "approxLng": -95.461,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "BW LPG's US commercial office for chartering of LPG exported from the US Gulf Coast.",
+    "source": "https://www.bwlpg.com/contact/"
+  },
+  {
+    "parentName": "BW LPG",
+    "name": "BW LPG Product Services Madrid Office (La Finca)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Pozuelo de Alarcón",
+    "country": "Spain",
+    "address": "Parque Empresarial La Finca, Paseo del Club Deportivo 1, Edificio 11, 28223 Pozuelo de Alarcón, Madrid",
+    "geoQueries": [
+      "Parque Empresarial La Finca, Pozuelo de Alarcón",
+      "Paseo del Club Deportivo 1, 28223 Pozuelo de Alarcón"
+    ],
+    "approxLat": 40.403,
+    "approxLng": -3.814,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Madrid office of BW LPG's Product Services LPG cargo trading and delivery business.",
+    "source": "https://www.bwlpg.com/contact/"
+  },
+  {
+    "parentName": "BW LPG",
+    "name": "BW LPG India Office (Chennai)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Chennai",
+    "country": "India",
+    "address": "328LA, S. Kolathur Main Road, Viduthalai Nagar, Kovilambakkam, Chennai 600117",
+    "geoQueries": [
+      "Kovilambakkam, Chennai 600117",
+      "S. Kolathur Main Road, Kovilambakkam, Chennai"
+    ],
+    "approxLat": 12.937,
+    "approxLng": 80.188,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Office of BW LPG India, the Indian-listed subsidiary owning Indian-flagged VLGCs.",
+    "source": "https://www.bwlpg.com/contact/"
+  },
+  {
+    "parentName": "BW LPG",
+    "name": "BW LPG Manila Office (Century Diamond Tower, Makati)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Makati",
+    "country": "Philippines",
+    "address": "Unit 2, 33rd Floor, Century Diamond Tower, Kalayaan Avenue cor. Salamanca Street, Poblacion, Makati City 1210",
+    "geoQueries": [
+      "Century Diamond Tower, Makati",
+      "Kalayaan Avenue corner Salamanca Street, Makati"
+    ],
+    "approxLat": 14.566,
+    "approxLng": 121.029,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "BW LPG's Philippine office supporting seafarer crewing for the VLGC fleet.",
+    "source": "https://www.bwlpg.com/contact/"
+  },
+  {
+    "parentName": "Norwegian Air Shuttle",
+    "name": "Widerøe Head Office (Norwegian subsidiary, Bodø)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Bodø",
+    "country": "Norge",
+    "address": "Langstranda 6, 8003 Bodø",
+    "geoQueries": [
+      "Widerøe, Langstranda 6, Bodø",
+      "Langstranda 6, 8003 Bodø"
+    ],
+    "approxLat": 67.279,
+    "approxLng": 14.387,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Head office of Widerøe's Flyveselskap, Norway's largest regional airline, wholly owned by Norwegian Air Shuttle since 2024.",
+    "source": "https://www.wideroe.no/en/about-wideroe"
+  },
+  {
+    "parentName": "Norwegian Air Shuttle",
+    "name": "Widerøe Technical Services Maintenance Base (Bodø Airport)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Bodø",
+    "country": "Norge",
+    "address": "Bodø lufthavn, 8001 Bodø",
+    "geoQueries": [
+      "Widerøe Technical Services Bodø",
+      "Widerøe hangar Bodø lufthavn",
+      "Bodø lufthavn"
+    ],
+    "approxLat": 67.27,
+    "approxLng": 14.37,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Main base of Widerøe Technical Services, which performs Dash 8/Q-Series heavy and line maintenance for the Widerøe fleet.",
+    "source": "https://centreforaviation.com/data/profiles/maintenance-repair-and-overhaul/wideroe-technical-services"
+  },
+  {
+    "parentName": "Norwegian Air Shuttle",
+    "name": "Norwegian Technical Main Base (Oslo Gardermoen Part-145)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Gardermoen",
+    "country": "Norge",
+    "address": "Oslo lufthavn Gardermoen, 2060 Gardermoen",
+    "geoQueries": [
+      "Norwegian hangar Gardermoen",
+      "Oslo lufthavn Gardermoen"
+    ],
+    "approxLat": 60.194,
+    "approxLng": 11.1,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Norwegian's main operating base and Part-145 technical base for its Boeing 737 fleet at Oslo Airport.",
+    "source": "https://careers.norwegian.com/job/Gardermoen-Licensed-Aircraft-Engineer-OSL-2060/1371341057/"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Scatec Obelisk 1.1 GW Solar & 200 MWh Battery Plant (Nag Hammadi)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Nag Hammadi",
+    "country": "Egypt",
+    "address": "Near Nag Hammadi, Qena Governorate, Egypt",
+    "geoQueries": [
+      "Obelisk solar plant Nag Hammadi",
+      "Scatec Obelisk solar Egypt",
+      "Nag Hammadi, Qena"
+    ],
+    "approxLat": 26.05,
+    "approxLng": 32.25,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "1.1 GW solar PV plus 100 MW/200 MWh battery hybrid plant, fully operational from August 2026 under a 25-year PPA with EETC; Scatec majority-owned with Norfund and EDF as partners.",
+    "source": "https://www.pv-magazine.com/2026/08/13/scatec-completes-1-gw-200-mwh-solar-plus-storage-project-in-egypt/"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Scatec Benban Solar Plants (6 x 65 MW, Aswan)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Benban",
+    "country": "Egypt",
+    "address": "Benban Solar Park, Aswan Governorate, Egypt",
+    "geoQueries": [
+      "Benban Solar Park",
+      "Benban, Aswan"
+    ],
+    "approxLat": 24.456,
+    "approxLng": 32.739,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Six 65 MW solar PV plants (390 MW) in the Benban solar complex near Aswan, developed and operated by Scatec with Norfund and partners, selling power to EETC under 25-year PPAs.",
+    "source": "https://www.africa50.com/our-funds/projects/scatec-egypt-benban-solar-plants/"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Scatec Central Solar de Mocuba (Mozambique)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Mocuba",
+    "country": "Mozambique",
+    "address": "Mocuba, Zambézia Province, Mozambique",
+    "geoQueries": [
+      "Central Solar de Mocuba",
+      "Mocuba solar plant",
+      "Mocuba, Zambézia"
+    ],
+    "approxLat": -16.84,
+    "approxLng": 36.98,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Mozambique's first utility-scale solar plant (about 40 MW), majority-owned (52.5%) by Scatec with Norfund/KLP and state utility EDM.",
+    "source": "https://www.norfund.no/central-solar-de-mocuba-2/"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "SN Aboitiz Power Magat Hydroelectric Plant (Scatec 50% JV)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Ramon",
+    "country": "Philippines",
+    "address": "Magat Hydroelectric Power Plant, Ramon, Isabela, Philippines",
+    "geoQueries": [
+      "Magat Hydroelectric Power Plant",
+      "Magat Dam, Ramon, Isabela"
+    ],
+    "approxLat": 16.825,
+    "approxLng": 121.455,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "360-388 MW hydropower plant on the Isabela-Ifugao border owned and operated by SN Aboitiz Power, a 50/50 Scatec-AboitizPower joint venture, with a 20 MW battery system added on site.",
+    "source": "https://aboitiz.com/sn-aboitiz-power-operates-magat-hydroelectric-power-plant-not-magat-dam"
+  },
+  {
+    "parentName": "DNO",
+    "name": "DNO Norge Stavanger Office (North Sea Business incl. Sval Energi)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stavanger",
+    "country": "Norge",
+    "address": "Badehusgata 37, 4014 Stavanger",
+    "geoQueries": [
+      "Badehusgata 37, 4014 Stavanger",
+      "Badehusgata 37, Stavanger"
+    ],
+    "approxLat": 58.9746,
+    "approxLng": 5.7395,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Office of DNO Norge AS, which runs DNO's Norwegian and UK North Sea business, expanded in 2025 with the acquisition of Sval Energi.",
+    "source": "https://www.topograph.co/companies/no/dno-norge-as-996888177"
+  },
+  {
+    "parentName": "DNO",
+    "name": "DNO Baeshiqa Field Early Production Facility (Kurdistan)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Baeshiqa",
+    "country": "Iraq",
+    "address": "Baeshiqa licence, Nineveh plain, Kurdistan Region of Iraq",
+    "geoQueries": [
+      "Baeshiqa oil field",
+      "Bashiqa, Nineveh"
+    ],
+    "approxLat": 36.45,
+    "approxLng": 43.35,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "DNO-operated Baeshiqa licence in Kurdistan where DNO is developing production via an early production facility.",
+    "source": "https://karriere.no/jobb/project-epf-manager-baeshiqa-4274192"
+  },
+  {
+    "parentName": "DNO",
+    "name": "DNO Erbil Kurdistan Operations Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Erbil",
+    "country": "Iraq",
+    "address": "Erbil, Kurdistan Region of Iraq",
+    "geoQueries": [
+      "DNO Erbil",
+      "Erbil, Kurdistan"
+    ],
+    "approxLat": 36.19,
+    "approxLng": 44.01,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "DNO's Kurdistan country office in Erbil managing the operated Tawke and Baeshiqa licences (street address not published; city-level coordinates).",
+    "source": "https://snl.no/DNO_ASA"
+  },
+  {
+    "parentName": "Höegh Autoliners",
+    "name": "Höegh Autoliners Regional Operating Headquarters (Makati)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Makati",
+    "country": "Philippines",
+    "address": "7F V Corporate Centre, 125 L.P. Leviste St., Salcedo Village, Makati City",
+    "geoQueries": [
+      "V Corporate Centre, Salcedo Village, Makati",
+      "125 L.P. Leviste Street, Makati"
+    ],
+    "approxLat": 14.56,
+    "approxLng": 121.023,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Höegh Autoliners' regional operating headquarters in Manila, handling fleet operations, crewing and shared services for its PCTC fleet.",
+    "source": "https://www.kalibrr.id/c/h-egh-autoliners-regional-operating-headquarter/jobs"
+  },
+  {
+    "parentName": "Höegh Autoliners",
+    "name": "Höegh Autoliners Singapore Office (Pasir Panjang Terminal Building 2)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "33 Harbour Drive, 1st Floor, Pasir Panjang Terminal Building 2, Singapore 117606",
+    "geoQueries": [
+      "Pasir Panjang Terminal Building 2, Singapore",
+      "33 Harbour Drive, Singapore 117606",
+      "Pasir Panjang Automobile Terminal"
+    ],
+    "approxLat": 1.277,
+    "approxLng": 103.77,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Höegh Autoliners' Singapore port office at the Pasir Panjang Automobile Terminal, where its car carriers berth (P12).",
+    "source": "https://www.hoeghautoliners.com/offices-agents-and-ports/singapore"
+  },
+  {
+    "parentName": "Wallenius Wilhelmsen",
+    "name": "Wallenius Wilhelmsen Brunswick Terminal & Equipment Processing Center (Colonel's Island)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Brunswick",
+    "country": "USA",
+    "address": "Colonel's Island Terminal, Port of Brunswick, Brunswick, GA 31523",
+    "geoQueries": [
+      "Colonel's Island Terminal, Brunswick",
+      "Colonel's Island, Brunswick, Georgia"
+    ],
+    "approxLat": 31.13,
+    "approxLng": -81.545,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Wallenius Wilhelmsen's southeast US hub on a 20-year GPA lease, with an RoRo terminal, vehicle processing center and new equipment processing center for heavy machinery.",
+    "source": "https://www.walleniuswilhelmsen.com/news/wallenius-wilhelmsen-moves-first-on-brunswick-port-expansion-enhancing-us-capabilities"
+  },
+  {
+    "parentName": "Wallenius Wilhelmsen",
+    "name": "Gothenburg International Auto & RoRo Terminal (Wallenius Wilhelmsen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "Port of Gothenburg car terminal, Arendal, 418 34 Göteborg",
+    "geoQueries": [
+      "Gothenburg Car Terminal",
+      "Göteborgs bilterminal Arendal",
+      "Port of Gothenburg car terminal"
+    ],
+    "approxLat": 57.694,
+    "approxLng": 11.835,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "240,000 m2 car and RoRo terminal with two quay positions in the Port of Gothenburg, operated by a Wallenius Wilhelmsen subsidiary under a 12-year contract from February 2026.",
+    "source": "https://transport-online.de/news/wallenius-wilhelmsen-autoterminal-giart-goeteborg-startet-betrieb-187113.html"
+  },
+  {
+    "parentName": "Cadeler",
+    "name": "Cadeler Vejle Office (Havneparken)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vejle",
+    "country": "Danmark",
+    "address": "Havneparken 1, 2nd floor, 7100 Vejle",
+    "geoQueries": [
+      "Havneparken 1, 7100 Vejle",
+      "Havneparken, Vejle"
+    ],
+    "approxLat": 55.707,
+    "approxLng": 9.542,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Cadeler's Jutland office near offshore wind turbine OEMs and suppliers, supporting project and engineering work for its wind installation vessels.",
+    "source": "https://www.cadeler.com/contact"
+  },
+  {
+    "parentName": "Cadeler",
+    "name": "Cadeler UK Office (Norwich, St Andrews Business Park)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Norwich",
+    "country": "UK",
+    "address": "Avocet Court, 8 Central Avenue, St Andrews Business Park, Norwich NR7 0HR",
+    "geoQueries": [
+      "Avocet Court, Central Avenue, Norwich",
+      "St Andrews Business Park, Norwich NR7 0HR"
+    ],
+    "approxLat": 52.637,
+    "approxLng": 1.348,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Cadeler's UK office serving East Anglian and North Sea offshore wind installation projects.",
+    "source": "https://www.cadeler.com/contact"
+  },
+  {
+    "parentName": "Cadeler",
+    "name": "Cadeler Rotterdam Office (Westerlaantoren)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "address": "Westerlaantoren, Westerlaan 20, 10th floor, 3016 CK Rotterdam",
+    "geoQueries": [
+      "Westerlaantoren, Rotterdam",
+      "Westerlaan 20, 3016 CK Rotterdam"
+    ],
+    "approxLat": 51.907,
+    "approxLng": 4.465,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Cadeler's Netherlands office supporting continental European offshore wind installation contracts.",
+    "source": "https://www.cadeler.com/contact"
+  },
+  {
+    "parentName": "Cadeler",
+    "name": "Cadeler Asia-Pacific Hub (Taipei Xinyi)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "address": "13F, No. 529, Sec. 4, Zhongxiao East Road, Xinyi District, Taipei City",
+    "geoQueries": [
+      "No. 529, Section 4, Zhongxiao East Road, Taipei",
+      "Zhongxiao East Road Section 4, Xinyi District, Taipei"
+    ],
+    "approxLat": 25.041,
+    "approxLng": 121.56,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Cadeler's regional Asia-Pacific hub for offshore wind installation projects in Taiwan, Japan and Korea.",
+    "source": "https://suboptic.org/news/cadeler-opens-new-taipei-office-reinforcing-commitment-to-asia-pacific"
+  },
+  {
+    "parentName": "Wilh. Wilhelmsen Holding",
+    "name": "Wilhelmsen Chemicals Marine Chemicals Plant (Kjøpmannskjær, Tønsberg)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kjøpmannskjær",
+    "country": "Norge",
+    "address": "Kirkeveien 578, 3143 Kjøpmannskjær",
+    "geoQueries": [
+      "Wilhelmsen Chemicals, Kjøpmannskjær",
+      "Kirkeveien 578, 3143 Kjøpmannskjær",
+      "Kirkeveien 578, Færder"
+    ],
+    "approxLat": 59.221,
+    "approxLng": 10.404,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "12,000 m2 Wilhelmsen Ships Service plant producing over 350 Unitor and Nalfleet marine chemical products, up to 500 tonnes per day.",
+    "source": "https://virksomhet.brreg.no/en/oppslag/enheter/953803674"
+  },
+  {
+    "parentName": "Wilh. Wilhelmsen Holding",
+    "name": "NorSea Dusavik Supply Base (Stavanger)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Stavanger",
+    "country": "Norge",
+    "address": "Dusavik, 4029 Stavanger",
+    "geoQueries": [
+      "NorSea Dusavik",
+      "Dusavikbasen Stavanger",
+      "Notberget, 4029 Stavanger"
+    ],
+    "approxLat": 58.998,
+    "approxLng": 5.712,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "NorSea's main supply and logistics base for North Sea oil and gas operators at Dusavik, Stavanger; NorSea Group is 99% owned by Wilh. Wilhelmsen Holding.",
+    "source": "https://wilhelmsen.com/about-wilhelmsen/our-holdings-and-investments/norsea-group"
+  },
+  {
+    "parentName": "Wilh. Wilhelmsen Holding",
+    "name": "NorSea Vestbase Supply Base (Kristiansund)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Kristiansund",
+    "country": "Norge",
+    "address": "Omagata 122, 6517 Kristiansund N",
+    "geoQueries": [
+      "Vestbase Kristiansund",
+      "Omagata 122, 6517 Kristiansund",
+      "Vikan, Kristiansund"
+    ],
+    "approxLat": 63.118,
+    "approxLng": 7.702,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "NorSea's Vestbase at Vikan, the Norwegian Sea supply base serving fields such as Draugen, Heidrun and Aasta Hansteen.",
+    "source": "https://draugen.industriminne.no/en/2018/10/05/vestbase-2/"
+  },
+  {
+    "parentName": "Wilh. Wilhelmsen Holding",
+    "name": "NorSea Polarbase Supply Base (Rypefjord, Hammerfest)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Hammerfest",
+    "country": "Norge",
+    "address": "Polarbase, Rypefjord, 9610 Rypefjord",
+    "geoQueries": [
+      "Polarbase Hammerfest",
+      "Polarbase, Rypefjord",
+      "Rypefjord, Hammerfest"
+    ],
+    "approxLat": 70.638,
+    "approxLng": 23.662,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "NorSea's Barents Sea supply base at Rypefjord outside Hammerfest serving Snøhvit, Goliat and Johan Castberg.",
+    "source": "https://www.finn.no/442009710"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven New Orleans Chemical Tank Terminal (Braithwaite)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Braithwaite",
+    "country": "USA",
+    "address": "2444 English Turn Road, Braithwaite, LA 70040",
+    "geoQueries": [
+      "Stolthaven New Orleans",
+      "2444 English Turn Road, Braithwaite"
+    ],
+    "approxLat": 29.878,
+    "approxLng": -89.95,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Wholly owned Stolthaven bulk liquid chemical terminal on the Mississippi River with about 90 tanks and roughly 380,000 m3 capacity.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Moerdijk Bulk Liquid Terminal",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Moerdijk",
+    "country": "Netherlands",
+    "address": "Middenweg 30, 4782 PM Moerdijk",
+    "geoQueries": [
+      "Stolthaven Moerdijk",
+      "Middenweg 30, Moerdijk"
+    ],
+    "approxLat": 51.684,
+    "approxLng": 4.605,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Wholly owned 45-tank chemical storage terminal (about 48,000 m3) in the lock-free port of Moerdijk between Rotterdam and Antwerp.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/stolthaven-moerdijk/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Singapore Terminal (Jurong Island)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "22 Tembusu Crescent, Jurong Island, Singapore 627613",
+    "geoQueries": [
+      "Stolthaven Singapore",
+      "22 Tembusu Crescent, Jurong Island"
+    ],
+    "approxLat": 1.264,
+    "approxLng": 103.683,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Stolthaven's bulk liquid chemical storage terminal on Jurong Island serving Singapore's petrochemical cluster.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolt Sea Farm Cervo Flatfish Hatchery & Farm (Galicia)",
+    "facilityType": "Aquaculture & Fishery",
+    "city": "Cervo",
+    "country": "Spain",
+    "address": "Cervo, A Mariña, Lugo, Galicia",
+    "geoQueries": [
+      "Stolt Sea Farm Cervo",
+      "Stolt Sea Farm, Cervo, Lugo",
+      "Cervo, Lugo"
+    ],
+    "approxLat": 43.7,
+    "approxLng": -7.42,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Stolt Sea Farm's turbot and sole site in Cervo with the world's largest flatfish hatchery and a new 7,000 m2 sole facility.",
+    "source": "https://weareaquaculture.com/news/aquaculture/stolt-sea-farm-expands-its-capacity-in-galicia-with-a-new-sole-facility-in-cervo"
+  },
+  {
+    "parentName": "MPC Container Ships",
+    "name": "MPC Container Ships GmbH & Co. KG Hamburg Office (Palmaille)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hamburg",
+    "country": "Germany",
+    "address": "Palmaille 75, 22767 Hamburg",
+    "geoQueries": [
+      "Palmaille 75, 22767 Hamburg",
+      "Palmaille 75, Hamburg"
+    ],
+    "approxLat": 53.5455,
+    "approxLng": 9.9395,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Hamburg operating subsidiary of MPC Container Ships handling fleet management and chartering of its feeder container ships.",
+    "source": "https://www.mpc-container.com/contact"
+  },
+  {
+    "parentName": "MPC Container Ships",
+    "name": "MPC Container Ships Invest B.V. Office (Rhoon, Rotterdam)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Rhoon",
+    "country": "Netherlands",
+    "address": "Oever 5, 3161 GR Rhoon",
+    "geoQueries": [
+      "Oever 5, 3161 GR Rhoon",
+      "Oever 5, Rhoon"
+    ],
+    "approxLat": 51.859,
+    "approxLng": 4.42,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Dutch vessel-owning and investment subsidiary of MPC Container Ships near Rotterdam.",
+    "source": "https://www.mpc-container.com/contact"
+  },
+  {
+    "parentName": "Elmera Group",
+    "name": "Fjordkraft Sandefjord Regional Office (Elmera Group)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Sandefjord",
+    "country": "Norge",
+    "address": "Østre Kullerød 3, 3241 Sandefjord",
+    "geoQueries": [
+      "Østre Kullerød 3, 3241 Sandefjord",
+      "Østre Kullerød 3, Sandefjord"
+    ],
+    "approxLat": 59.153,
+    "approxLng": 10.209,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Fjordkraft AS regional office (about 25 employees) serving Elmera Group's electricity retail customers in Eastern Norway.",
+    "source": "https://data.brreg.no/enhetsregisteret/api/underenheter?navn=fjordkraft"
+  },
+  {
+    "parentName": "Elmera Group",
+    "name": "Fjordkraft Trondheim Regional Office (Sluppen, Elmera Group)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Trondheim",
+    "country": "Norge",
+    "address": "Sluppenvegen 17B, 7037 Trondheim",
+    "geoQueries": [
+      "Sluppenvegen 17B, 7037 Trondheim",
+      "Sluppenvegen 17, Trondheim"
+    ],
+    "approxLat": 63.399,
+    "approxLng": 10.4,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Fjordkraft AS regional office (about 21 employees) in Trondheim for Elmera Group's Central Norway electricity retail business.",
+    "source": "https://data.brreg.no/enhetsregisteret/api/underenheter?navn=fjordkraft"
+  },
+  {
+    "parentName": "Euronav",
+    "name": "Windcat Workboats Base (CMB.TECH/Euronav, IJmuiden)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "IJmuiden",
+    "country": "Netherlands",
+    "address": "Trawlerkade 106, 1976 CC IJmuiden",
+    "geoQueries": [
+      "Windcat Workboats IJmuiden",
+      "Trawlerkade 106, 1976 CC IJmuiden"
+    ],
+    "approxLat": 52.461,
+    "approxLng": 4.608,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Base of Windcat, CMB.TECH's offshore wind crew transfer and commissioning service vessel operator (CMB.TECH merged into Euronav in 2025).",
+    "source": "https://cmb.tech/contact-us"
+  },
+  {
+    "parentName": "Euronav",
+    "name": "CMB.TECH Hong Kong Office (Harcourt House, Wanchai)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "address": "Room 2503-05, 25/F, Harcourt House, 39 Gloucester Road, Wanchai, Hong Kong",
+    "geoQueries": [
+      "Harcourt House, 39 Gloucester Road, Wanchai",
+      "Harcourt House Hong Kong"
+    ],
+    "approxLat": 22.279,
+    "approxLng": 114.173,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "CMB.TECH (ex-Euronav/Bocimar) Asian office for dry bulk and container ship chartering and newbuilding supervision.",
+    "source": "https://cmb.tech/contact-us"
+  },
+  {
+    "parentName": "Euronav",
+    "name": "CMB.TECH Athens Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Athens",
+    "country": "Greece",
+    "address": "Athinon Avenue 31-33, 10447 Athens",
+    "geoQueries": [
+      "Leoforos Athinon 31, 10447 Athens",
+      "Athinon Avenue 31-33, Athens"
+    ],
+    "approxLat": 37.989,
+    "approxLng": 23.705,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "CMB.TECH's Greek office supporting tanker and dry bulk fleet operations (legacy Euronav ship management).",
+    "source": "https://cmb.tech/contact-us"
+  },
+  {
+    "parentName": "Euronav",
+    "name": "CMB.TECH Singapore Office (Guoco Tower)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "1 Wallich Street, #14-02 Guoco Tower, Singapore 078881",
+    "geoQueries": [
+      "Guoco Tower, Singapore",
+      "1 Wallich Street, Singapore 078881"
+    ],
+    "approxLat": 1.2766,
+    "approxLng": 103.8458,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "CMB.TECH's Singapore office, including its Asia-Pacific ammonia-fuel operations team.",
+    "source": "https://cmb.tech/contact-us"
+  },
+  {
+    "parentName": "Euronav",
+    "name": "CMB.TECH Hamburg Office (Raboisen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hamburg",
+    "country": "Germany",
+    "address": "Raboisen 28, 20095 Hamburg",
+    "geoQueries": [
+      "Raboisen 28, 20095 Hamburg",
+      "Raboisen 28, Hamburg"
+    ],
+    "approxLat": 53.552,
+    "approxLng": 10.001,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "CMB.TECH German office for container ship chartering and fleet services.",
+    "source": "https://cmb.tech/contact-us"
+  }
+]

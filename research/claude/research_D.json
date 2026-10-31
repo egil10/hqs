@@ -1,0 +1,947 @@
+[
+ {
+  "parentName": "Telenor",
+  "name": "Telenor Danmark Headquarters (Frederikskaj, Copenhagen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "København",
+  "country": "Danmark",
+  "address": "Frederikskaj 8, 1780 København V",
+  "geoQueries": [
+   "Telenor Frederikskaj",
+   "Frederikskaj 8, 1780 København"
+  ],
+  "approxLat": 55.6505,
+  "approxLng": 12.5465,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Telenor A/S, Telenor's wholly owned Danish mobile and broadband operator.",
+  "source": "https://www.telenor.com/who-we-are/our-companies/nordics/telenor-denmark/"
+ },
+ {
+  "parentName": "Telenor",
+  "name": "Telenor Sverige Headquarters (Solna)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Solna",
+  "country": "Sverige",
+  "address": "Garvis Carlssons gata 3, 169 73 Solna",
+  "geoQueries": [
+   "Telenor Sverige Solna",
+   "Garvis Carlssons gata 3, Solna"
+  ],
+  "approxLat": 59.3625,
+  "approxLng": 18.0035,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Telenor Sverige AB, Telenor's wholly owned Swedish mobile, broadband and TV operator.",
+  "source": "https://www.telenor.com/who-we-are/our-companies/nordics/telenor-sweden/"
+ },
+ {
+  "parentName": "Telenor",
+  "name": "Grameenphone GP House Headquarters (Dhaka)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Dhaka",
+  "country": "Bangladesh",
+  "address": "GP House, Bashundhara, Baridhara, Dhaka-1229",
+  "geoQueries": [
+   "GP House",
+   "Grameenphone GP House Bashundhara",
+   "Bashundhara Residential Area, Dhaka"
+  ],
+  "approxLat": 23.8155,
+  "approxLng": 90.4255,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Headquarters campus of Grameenphone, Bangladesh's largest mobile operator, in which Telenor holds a 55.8% stake.",
+  "source": "https://www.telenor.com/who-we-are/our-companies/asia/grameenphone-bangladesh/"
+ },
+ {
+  "parentName": "Atlas Copco",
+  "name": "Edwards Vacuum Global Technology Centre (Atlas Copco, Burgess Hill)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Burgess Hill",
+  "country": "UK",
+  "address": "Innovation Drive, Burgess Hill RH15 9TW, West Sussex",
+  "geoQueries": [
+   "Edwards Vacuum Burgess Hill",
+   "Edwards Innovation Drive Burgess Hill",
+   "Innovation Drive, RH15 9TW Burgess Hill"
+  ],
+  "approxLat": 50.9585,
+  "approxLng": -0.1265,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Headquarters and global technology centre of Edwards, Atlas Copco's vacuum pump and abatement subsidiary for semiconductor and industrial markets.",
+  "source": "https://find-and-update.company-information.service.gov.uk/company/01148654"
+ },
+ {
+  "parentName": "Atlas Copco",
+  "name": "Leybold Cologne Vacuum Pump HQ & Plant (Atlas Copco)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Köln",
+  "country": "Germany",
+  "address": "Bonner Strasse 498, 50968 Köln",
+  "geoQueries": [
+   "Leybold Köln",
+   "Leybold GmbH Bonner Straße",
+   "Bonner Straße 498, 50968 Köln"
+  ],
+  "approxLat": 50.9035,
+  "approxLng": 6.9765,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Headquarters, R&D and production of Leybold vacuum pumps and systems, part of Atlas Copco's Vacuum Technique area.",
+  "source": "https://www.wirtschaftsforum.de/leybold-gmbh"
+ },
+ {
+  "parentName": "Atlas Copco",
+  "name": "Atlas Copco India Dapodi Compressor Plant & HQ (Pune)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Pune",
+  "country": "India",
+  "address": "Sveanagar, Bombay-Pune Road, Dapodi, Pune 411012",
+  "geoQueries": [
+   "Atlas Copco Dapodi",
+   "Atlas Copco India Pune",
+   "Old Mumbai-Pune Highway, Dapodi, Pune"
+  ],
+  "approxLat": 18.5835,
+  "approxLng": 73.8305,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Atlas Copco (India) headquarters and compressor manufacturing site in Dapodi, Pune; further plants at nearby Chakan.",
+  "source": "https://machinist.in/2025/08/atlas-copco-to-invest-inr-5-75-billion-in-new-pune-headquarters/"
+ },
+ {
+  "parentName": "Atlas Copco",
+  "name": "Quincy Compressor Bay Minette Plant & HQ (Atlas Copco)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Bay Minette",
+  "country": "USA",
+  "address": "701 N Dobson Ave, Bay Minette, AL 36507",
+  "geoQueries": [
+   "Quincy Compressor Bay Minette",
+   "701 North Dobson Avenue, Bay Minette",
+   "Quincy Compressor"
+  ],
+  "approxLat": 30.889,
+  "approxLng": -87.775,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Headquarters and main plant of Atlas Copco subsidiary Quincy Compressor, producing rotary screw and reciprocating air compressors.",
+  "source": "https://www.rermag.com/news-analysis/headline-news/article/20938975/atlas-copco-completes-us-acquisition-of-quincy-compressor"
+ },
+ {
+  "parentName": "Epiroc",
+  "name": "Epiroc Drilling Solutions Garland Plant & Surface Mining Automation Center",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Garland",
+  "country": "USA",
+  "address": "2100 N First Street, Garland, TX 75040",
+  "geoQueries": [
+   "Epiroc Garland",
+   "Epiroc Drilling Solutions",
+   "2100 North 1st Street, Garland, TX 75040"
+  ],
+  "approxLat": 32.9305,
+  "approxLng": -96.6315,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Global HQ and plant of Epiroc Drilling Solutions, building surface blasthole drill rigs, with a surface mining automation center opened in 2024.",
+  "source": "https://www.epiroc.com/en-us/contact/epiroc-garland-texas"
+ },
+ {
+  "parentName": "Epiroc",
+  "name": "Epiroc Kalmar Hydraulic Breaker Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Kalmar",
+  "country": "Sverige",
+  "address": "Kalmar, Sverige",
+  "geoQueries": [
+   "Epiroc Kalmar",
+   "Epiroc Rock Drills Kalmar",
+   "Kalmar"
+  ],
+  "approxLat": 56.676,
+  "approxLng": 16.33,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "8,000+ m2 plant (expanded 2026, ~175 staff) producing Epiroc's full range of hydraulic breakers for excavators, after consolidation from Essen.",
+  "source": "https://www.epirocgroup.com/en/media/corporate-press-releases/2026/20260909-epiroc-inaugurates-expanded-manufacturing-facility-for-hydraulic-attachments-in-sweden"
+ },
+ {
+  "parentName": "Beijer Ref",
+  "name": "SCM Frigo CO2 Refrigeration Plant & Beijer Ref Academy (Padua)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Sant'Angelo di Piove di Sacco",
+  "country": "Italy",
+  "address": "Via Andrea Palladio 31, 35020 Sant'Angelo di Piove di Sacco (PD)",
+  "geoQueries": [
+   "SCM Frigo",
+   "SCM Frigo Sant'Angelo di Piove di Sacco",
+   "Via Andrea Palladio 31, Sant'Angelo di Piove di Sacco"
+  ],
+  "approxLat": 45.318,
+  "approxLng": 12.003,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Beijer Ref's wholly owned OEM subsidiary manufacturing transcritical CO2 refrigeration systems, also hosting the Beijer Ref Academy for CO2 technology.",
+  "source": "https://www.coolingpost.com/world-news/beijer-ref-buys-remainder-of-scm-frigo/"
+ },
+ {
+  "parentName": "Beijer Ref",
+  "name": "Beijer Ref Australia & Kirby HQ and Distribution Centre (Bankstown Airport)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Sydney (Bankstown Aerodrome)",
+  "country": "Australia",
+  "address": "2 Kirby Place, Bankstown Aerodrome NSW 2200",
+  "geoQueries": [
+   "Kirby Bankstown Airport",
+   "Beijer Ref Australia",
+   "2 Kirby Place, Bankstown Aerodrome NSW 2200"
+  ],
+  "approxLat": -33.9255,
+  "approxLng": 150.9905,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "A$48m purpose-built headquarters and warehouse for Beijer Ref Australia and its Kirby (ex-Heatcraft Australia) HVAC-R wholesale business.",
+  "source": "https://www.coolingpost.com/world-news/beijer-ref-plans-new-australian-hq/"
+ },
+ {
+  "parentName": "Bravida Holding",
+  "name": "Bravida Norge Head Office (Lørenveien, Oslo)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Oslo",
+  "country": "Norge",
+  "address": "Lørenveien 73A, 0585 Oslo",
+  "geoQueries": [
+   "Bravida Norge Lørenveien",
+   "Lørenveien 73A, 0585 Oslo",
+   "Bravida Oslo"
+  ],
+  "approxLat": 59.9295,
+  "approxLng": 10.7955,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Bravida Norge AS, the group's Norwegian electrical, HVAC and sprinkler installation and service subsidiary.",
+  "source": "https://virksomhet.brreg.no/en/oppslag/enheter/987582561"
+ },
+ {
+  "parentName": "Bravida Holding",
+  "name": "Bravida Danmark Head Office (Brøndby)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Brøndby",
+  "country": "Danmark",
+  "address": "Park Allé 373, 2605 Brøndby",
+  "geoQueries": [
+   "Bravida Danmark Brøndby",
+   "Park Allé 373, 2605 Brøndby",
+   "Bravida Danmark"
+  ],
+  "approxLat": 55.6535,
+  "approxLng": 12.3965,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Bravida Danmark A/S, the group's Danish technical installation and service subsidiary.",
+  "source": "https://jobbank.dk/virksomheder/33132/info/bravida-danmark"
+ },
+ {
+  "parentName": "Verisure",
+  "name": "Verisure Group Head Office (Versoix, Geneva)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Versoix",
+  "country": "Switzerland",
+  "address": "Chemin Jean-Baptiste Vandelle 3A, 1290 Versoix",
+  "geoQueries": [
+   "Verisure Versoix",
+   "Chemin Jean-Baptiste Vandelle 3A, 1290 Versoix",
+   "Verisure Sàrl"
+  ],
+  "approxLat": 46.2835,
+  "approxLng": 6.1625,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Group headquarters office of Verisure (Verisure Sàrl) on Lake Geneva, coordinating the monitored-alarm business across Europe and Latin America.",
+  "source": "https://business-monitor.ch/en/companies/673238-verisure-sarl"
+ },
+ {
+  "parentName": "Verisure",
+  "name": "Securitas Direct (Verisure Spain) HQ & Alarm Receiving Centre (Pozuelo de Alarcón)",
+  "facilityType": "Data Center, Telecom & Cloud",
+  "city": "Pozuelo de Alarcón (Madrid)",
+  "country": "Spain",
+  "address": "Calle Priégola 2, 28224 Pozuelo de Alarcón, Madrid",
+  "geoQueries": [
+   "Securitas Direct Pozuelo de Alarcón",
+   "Calle Priégola 2, Pozuelo de Alarcón",
+   "Securitas Direct sede central"
+  ],
+  "approxLat": 40.454,
+  "approxLng": -3.788,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Spanish headquarters opened 2024, housing Verisure's largest alarm receiving (monitoring) centre in Europe for its biggest market.",
+  "source": "https://www.interempresas.net/Seguridad/565913-Securitas-Direct-inaugura-su-sede-central-en-la-Comunidad-de-Madrid.html"
+ },
+ {
+  "parentName": "Lifco",
+  "name": "Kinshofer Waakirchen/Marienstein Crane & Excavator Attachment Factory (Lifco)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Waakirchen",
+  "country": "Germany",
+  "address": "Bergwerkstrasse 20, 83666 Waakirchen",
+  "geoQueries": [
+   "Kinshofer Waakirchen",
+   "Kinshofer Marienstein",
+   "Bergwerkstraße 20, 83666 Waakirchen"
+  ],
+  "approxLat": 47.735,
+  "approxLng": 11.672,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Main production plant of Lifco subsidiary Kinshofer, making grabs, tiltrotators and attachments for cranes and excavators (HQ in nearby Holzkirchen).",
+  "source": "https://kinshofer.com/en/home/locations"
+ },
+ {
+  "parentName": "Lifco",
+  "name": "Kinshofer Group HQ (Holzkirchen, Lifco)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Holzkirchen",
+  "country": "Germany",
+  "address": "Raiffeisenstrasse 12, 83607 Holzkirchen",
+  "geoQueries": [
+   "Kinshofer Holzkirchen",
+   "Raiffeisenstraße 12, 83607 Holzkirchen"
+  ],
+  "approxLat": 47.8835,
+  "approxLng": 11.7065,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Headquarters of Kinshofer GmbH (part of Lifco since 2007) with management, development, sales and administration.",
+  "source": "https://kinshofer.com/en/home/locations"
+ },
+ {
+  "parentName": "NIBE Industrier",
+  "name": "ait-deutschland (alpha innotec) Kasendorf Heat Pump Factory (NIBE)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Kasendorf",
+  "country": "Germany",
+  "address": "Industriestraße 3, 95359 Kasendorf",
+  "geoQueries": [
+   "ait-deutschland Kasendorf",
+   "alpha innotec Kasendorf",
+   "Industriestraße 3, 95359 Kasendorf"
+  ],
+  "approxLat": 50.036,
+  "approxLng": 11.355,
+  "coordsExact": false,
+  "footprintRadiusMeters": 280,
+  "description": "NIBE Climate Solutions subsidiary producing alpha innotec and NOVELAN heat pumps and KKT chillers.",
+  "source": "https://pro-physik.de/anbieter/ait-deutschland-gmbh-kkt-chillers"
+ },
+ {
+  "parentName": "NIBE Industrier",
+  "name": "CTC / Enertech Ljungby Heat Pump & Boiler Factory (NIBE)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Ljungby",
+  "country": "Sverige",
+  "address": "Näsvägen 8, 341 34 Ljungby",
+  "geoQueries": [
+   "CTC Ljungby",
+   "Enertech Ljungby",
+   "Näsvägen 8, Ljungby"
+  ],
+  "approxLat": 56.84,
+  "approxLng": 13.93,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "NIBE-owned Enertech AB plant making CTC-brand heat pumps, boilers and water heaters.",
+  "source": "https://www.ctc.se/"
+ },
+ {
+  "parentName": "NIBE Industrier",
+  "name": "ClimateMaster Oklahoma City Geothermal Heat Pump Plant (NIBE)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Oklahoma City",
+  "country": "USA",
+  "address": "7300 SW 44th Street, Oklahoma City, OK 73179",
+  "geoQueries": [
+   "ClimateMaster Oklahoma City",
+   "7300 SW 44th Street, Oklahoma City",
+   "ClimateMaster"
+  ],
+  "approxLat": 35.4215,
+  "approxLng": -97.6475,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "HQ and factory of ClimateMaster (NIBE since 2017), North America's largest maker of water-source and geothermal heat pumps.",
+  "source": "https://www.climatemaster.com/"
+ },
+ {
+  "parentName": "Karnell Group",
+  "name": "Ojop Sweden Toggle Latch Factory (Karnell, Eskilstuna)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Eskilstuna",
+  "country": "Sverige",
+  "address": "Eskilstuna, Sverige",
+  "geoQueries": [
+   "Ojop Eskilstuna",
+   "Ojop Sweden AB",
+   "Eskilstuna"
+  ],
+  "approxLat": 59.371,
+  "approxLng": 16.51,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Karnell product company (acquired 2024, ~20 staff) making toggle latches, trailer latches and battery connectors sold in ~50 countries.",
+  "source": "https://inderes.fi/releases/karnell-acquires-ojop-sweden-ab"
+ },
+ {
+  "parentName": "Karnell Group",
+  "name": "Männistö Metallituote Pipe Support Factory (Karnell, Rauma)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Rauma",
+  "country": "Finland",
+  "address": "Rauma, Finland",
+  "geoQueries": [
+   "Männistö Metallituote Rauma",
+   "Männistö Oy Metallituote",
+   "Rauma"
+  ],
+  "approxLat": 61.128,
+  "approxLng": 21.511,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Karnell product company (acquired 2025) manufacturing pipe clamps, duct holders and insulation fasteners for the maritime and HVAC industries.",
+  "source": "https://www.inderes.fi/releases/karnell-acquires-mannisto-oy-metallituote"
+ },
+ {
+  "parentName": "Trelleborg",
+  "name": "Trelleborg Sealing Solutions European HQ & R&D Center (Stuttgart-Vaihingen)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Stuttgart",
+  "country": "Germany",
+  "address": "Schockenriedstraße 1, 70565 Stuttgart",
+  "geoQueries": [
+   "Trelleborg Sealing Solutions Stuttgart",
+   "Schockenriedstraße 1, 70565 Stuttgart",
+   "Trelleborg Stuttgart"
+  ],
+  "approxLat": 48.7255,
+  "approxLng": 9.1105,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Headquarters and central R&D centre of Trelleborg Sealing Solutions, the group's largest business area (polymer seals for aerospace, automotive and industry).",
+  "source": "https://www.trelleborg.com/seals/About-Us/Customer-Solution-Centers/Germany"
+ },
+ {
+  "parentName": "Trelleborg",
+  "name": "Trelleborg Sealing Solutions Fort Wayne Seal Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Fort Wayne",
+  "country": "USA",
+  "address": "2531 Bremer Road, Fort Wayne, IN 46803",
+  "geoQueries": [
+   "Trelleborg Fort Wayne",
+   "Trelleborg Sealing Solutions Fort Wayne",
+   "2531 Bremer Road, Fort Wayne"
+  ],
+  "approxLat": 41.0665,
+  "approxLng": -85.0855,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Full-service Trelleborg Sealing Solutions manufacturing facility producing polymer seals and O-rings for North American customers.",
+  "source": "https://www.trelleborg.com/seals/about-us/manufacturing-capabilities/fort-wayne-usa"
+ },
+ {
+  "parentName": "SWECO",
+  "name": "Sweco Nederland Head Office (De Bilt)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "De Bilt",
+  "country": "Netherlands",
+  "address": "De Holle Bilt 22, 3732 HM De Bilt",
+  "geoQueries": [
+   "Sweco De Bilt",
+   "De Holle Bilt 22, 3732 HM De Bilt",
+   "Sweco Nederland"
+  ],
+  "approxLat": 52.1065,
+  "approxLng": 5.1745,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Sweco Nederland (ex-Grontmij), one of Sweco's largest country units for engineering, environment and architecture consulting.",
+  "source": "https://www.swecogroup.com/about-us/our-services/architecture/our-studios/"
+ },
+ {
+  "parentName": "SWECO",
+  "name": "Sweco Finland Head Office (Ilmala, Helsinki)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Helsinki",
+  "country": "Finland",
+  "address": "Ilmalantori 4, 00240 Helsinki",
+  "geoQueries": [
+   "Sweco Ilmalantori",
+   "Ilmalantori 4, 00240 Helsinki",
+   "Sweco Finland"
+  ],
+  "approxLat": 60.2085,
+  "approxLng": 24.921,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Sweco Finland, the group's Finnish engineering and architecture consulting business.",
+  "source": "https://www.swecogroup.com/about-us/our-services/architecture/our-studios/"
+ },
+ {
+  "parentName": "HEXPOL",
+  "name": "HEXPOL Compounding Middlefield Rubber Compound Plant (Ohio)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Middlefield",
+  "country": "USA",
+  "address": "14910 Madison Road, Middlefield, OH 44062",
+  "geoQueries": [
+   "HEXPOL Middlefield",
+   "HEXPOL Compounding Middlefield",
+   "14910 Madison Road, Middlefield, OH"
+  ],
+  "approxLat": 41.4695,
+  "approxLng": -81.0665,
+  "coordsExact": false,
+  "footprintRadiusMeters": 280,
+  "description": "One of HEXPOL Compounding Americas' largest rubber compounding (mixing) plants serving automotive and industrial customers.",
+  "source": "https://www.hexpol.com/plant-locations/hexpol-middlefield/"
+ },
+ {
+  "parentName": "HEXPOL",
+  "name": "HEXPOL TPE Åmål Thermoplastic Elastomer Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Åmål",
+  "country": "Sverige",
+  "address": "Åmål, Sverige (shore of Lake Vänern)",
+  "geoQueries": [
+   "HEXPOL TPE Åmål",
+   "Elasto Åmål",
+   "Åmål"
+  ],
+  "approxLat": 59.05,
+  "approxLng": 12.705,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "HEXPOL TPE's Swedish plant compounding thermoplastic elastomers (Dryflex, Mediprene) on the shore of Lake Vänern.",
+  "source": "https://www.hexpol.com/tpe/plant-locations/"
+ },
+ {
+  "parentName": "HEXPOL",
+  "name": "Stellana Laxå Polyurethane Wheel Factory (HEXPOL)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Laxå",
+  "country": "Sverige",
+  "address": "SE-695 22 Laxå",
+  "geoQueries": [
+   "Stellana Laxå",
+   "Stellana AB",
+   "Laxå"
+  ],
+  "approxLat": 58.985,
+  "approxLng": 14.62,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "HEXPOL Engineered Products subsidiary producing polyurethane and rubber wheels for forklifts and material-handling equipment.",
+  "source": "https://investors.hexpol.com/sites/hexpol-ir-v2/files/pr/201904049225-1.pdf"
+ },
+ {
+  "parentName": "KB Components",
+  "name": "KB Components Irapuato Injection Moulding Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Irapuato",
+  "country": "Mexico",
+  "address": "Irapuato, Guanajuato, Mexico",
+  "geoQueries": [
+   "KB Components Irapuato",
+   "KB Components Mexico Irapuato",
+   "Irapuato, Guanajuato"
+  ],
+  "approxLat": 20.6767,
+  "approxLng": -101.3563,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "KB Components' second Mexican plant (opened 2021-22), injection-moulding plastic and rubber components for automotive OEMs.",
+  "source": "https://www.promexicoindustry.com/en/article/kb-components-expands-in-mexico-chooses-irapuato-to-open-second-plant"
+ },
+ {
+  "parentName": "KB Components",
+  "name": "KB Components Wuxi Plastic Components Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Wuxi",
+  "country": "China",
+  "address": "Wuxi, Jiangsu, China",
+  "geoQueries": [
+   "KB Components Wuxi",
+   "Wuxi, Jiangsu"
+  ],
+  "approxLat": 31.49,
+  "approxLng": 120.31,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "KB Components' Chinese production site making polymer components for automotive and industrial customers.",
+  "source": "https://pitchbook.com/profiles/company/66338-20"
+ },
+ {
+  "parentName": "KB Components",
+  "name": "KB Components Kaunas Plant (UAB KB Components)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Kaunas",
+  "country": "Lithuania",
+  "address": "Kaunas, Lithuania",
+  "geoQueries": [
+   "KB Components Kaunas",
+   "UAB KB Components",
+   "Kaunas"
+  ],
+  "approxLat": 54.8985,
+  "approxLng": 23.9036,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Lithuanian production subsidiary of KB Components moulding plastic and rubber components.",
+  "source": "https://ru.cvbankas.lt/chemikas-technologas-kaune/1-4871089"
+ },
+ {
+  "parentName": "Engcon",
+  "name": "engcon Poland Niepruszewo Component & Compactor Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Niepruszewo",
+  "country": "Poland",
+  "address": "ul. Cisowa 15, 64-320 Niepruszewo",
+  "geoQueries": [
+   "engcon Poland Niepruszewo",
+   "Cisowa 15, 64-320 Niepruszewo",
+   "engcon Poland"
+  ],
+  "approxLat": 52.372,
+  "approxLng": 16.622,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "engcon's Polish factory (opened 2012, extended 2018) producing components for tiltrotators plus plate compactors and sorting grabs.",
+  "source": "https://engcon.com/en/about-us/companies/our-production-companies.html"
+ },
+ {
+  "parentName": "Loomis",
+  "name": "Loomis US Headquarters (Westchase, Houston)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Houston",
+  "country": "USA",
+  "address": "2500 CityWest Blvd, Suite 2100, Houston, TX 77042",
+  "geoQueries": [
+   "2500 CityWest Boulevard, Houston",
+   "Loomis Armored US Houston",
+   "CityWest Place Houston"
+  ],
+  "approxLat": 29.7395,
+  "approxLng": -95.5575,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Headquarters of Loomis Armored US, the group's largest market for cash-in-transit, ATM and SafePoint cash-automation services.",
+  "source": "https://realtynewsreport.com/jll-handles-expansion-for-loomis-us-headquarters-in-houston/"
+ },
+ {
+  "parentName": "AQ Group",
+  "name": "AQ Wiring Systems Łódź Cable Harness Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Łódź",
+  "country": "Poland",
+  "address": "Łódź, Poland",
+  "geoQueries": [
+   "AQ Wiring Systems Łódź",
+   "AQ Wiring Systems Sp. z o.o.",
+   "Łódź"
+  ],
+  "approxLat": 51.76,
+  "approxLng": 19.46,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "12,300 m2 AQ Wiring Systems facility (opened 2019) producing cable harnesses and electrical systems for commercial vehicle and industrial customers.",
+  "source": "https://www.aqgroup.com/en/wiring-systems-spzoo/aq-wiring-systems-spz-oo"
+ },
+ {
+  "parentName": "AQ Group",
+  "name": "AQ Wiring Systems Panevėžys Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Panevėžys",
+  "country": "Lithuania",
+  "address": "Panevėžys, Lithuania",
+  "geoQueries": [
+   "AQ Wiring Systems Panevėžys",
+   "AQ Panevėžys",
+   "Panevėžys"
+  ],
+  "approxLat": 55.735,
+  "approxLng": 24.36,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "AQ Group's Lithuanian wiring-system production site (from the 2012 Durapart acquisition), making cable harnesses.",
+  "source": "https://www.aqgroup.com/en/wiring-systems-spzoo/aq-wiring-systems-spz-oo"
+ },
+ {
+  "parentName": "AQ Group",
+  "name": "AQ Electric Pernik Electrical Cabinet Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Pernik",
+  "country": "Bulgaria",
+  "address": "Pernik, Bulgaria",
+  "geoQueries": [
+   "AQ Electric Pernik",
+   "AQ Pernik",
+   "Pernik"
+  ],
+  "approxLat": 42.605,
+  "approxLng": 23.035,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "New AQ factory for electrical cabinets on a 22,000 m2 property acquired for EUR 5m, expanding AQ's large Bulgarian operations.",
+  "source": "https://www.inderes.se/en/releases/aq-group-aq-establishes-new-factory-for-electrical-cabinets-in-bulgaria"
+ },
+ {
+  "parentName": "Sdiptech",
+  "name": "Rolec Services EV Charger Factory (Sdiptech, Boston, Lincolnshire)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Boston",
+  "country": "UK",
+  "address": "Boston, Lincolnshire, UK",
+  "geoQueries": [
+   "Rolec Services Boston",
+   "Rolec EV Boston Lincolnshire",
+   "Boston, Lincolnshire"
+  ],
+  "approxLat": 52.976,
+  "approxLng": -0.026,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Sdiptech's largest acquisition (2021): UK manufacturer of EV charging points and outdoor electrical supply pillars for marinas and caravan parks.",
+  "source": "https://borsvarlden.com/artiklar/sdiptech-new-acquisition-will-lead-the-charge-nordea"
+ },
+ {
+  "parentName": "Beijer Alma",
+  "name": "Habia Cable Söderfors Specialty Cable Factory (Beijer Alma)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Söderfors",
+  "country": "Sverige",
+  "address": "Elementvägen 8, 815 75 Söderfors",
+  "geoQueries": [
+   "Habia Cable Söderfors",
+   "Elementvägen 8, Söderfors",
+   "Habia Cable"
+  ],
+  "approxLat": 60.389,
+  "approxLng": 17.235,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Main production plant of Beijer Alma subsidiary Habia Cable, making custom high-performance cables for defence, nuclear, telecom and industry.",
+  "source": "https://cn.panjiva.com/Habia-Cable-Ab/1480568"
+ },
+ {
+  "parentName": "Beijer Alma",
+  "name": "Lesjöfors China Spring Plant (Changzhou)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Changzhou",
+  "country": "China",
+  "address": "No. 22 TianShan Road, New District, Changzhou, Jiangsu",
+  "geoQueries": [
+   "Lesjöfors China Changzhou",
+   "22 Tianshan Road Changzhou",
+   "Lesjofors Changzhou"
+  ],
+  "approxLat": 31.835,
+  "approxLng": 119.965,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "8,000 m2 Lesjöfors plant (founded 2005, ISO 13485) making springs, wire forms and flat-strip components incl. medical parts.",
+  "source": "https://www.lesjoforsab.com/en-us/contact/lesjofors-china-ltd-changzhou"
+ },
+ {
+  "parentName": "Beijer Alma",
+  "name": "Lesjöfors Industrifjädrar Herrljunga Compression Spring Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Herrljunga (Hudene)",
+  "country": "Sverige",
+  "address": "Hudene, 524 92 Herrljunga",
+  "geoQueries": [
+   "Lesjöfors Industrifjädrar Herrljunga",
+   "Lesjöfors Hudene",
+   "Hudene, Herrljunga"
+  ],
+  "approxLat": 58.05,
+  "approxLng": 13.08,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Lesjöfors plant specialising in compression springs (0.20-12 mm wire), extension springs and wire forms.",
+  "source": "https://www.lesjofors.com/da/kontakt/lesjofors-industrifjadrar-ab-herrljunga/"
+ },
+ {
+  "parentName": "AFRY",
+  "name": "AFRY Schweiz Head Office (Herostrasse, Zürich-Altstetten)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Zürich",
+  "country": "Switzerland",
+  "address": "Herostrasse 12, 8048 Zürich",
+  "geoQueries": [
+   "Herostrasse 12, 8048 Zürich",
+   "AFRY Schweiz Zürich",
+   "AFRY Zürich"
+  ],
+  "approxLat": 47.3915,
+  "approxLng": 8.4925,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of AFRY Schweiz AG and AFRY Management Consulting (ex-Pöyry Switzerland), centre for hydropower and energy engineering.",
+  "source": "https://www.moneyhouse.ch/de/companydirectory/zh/a/af"
+ },
+ {
+  "parentName": "Nolato",
+  "name": "Nolato Hungary Polymer Components Plant (Mosonmagyaróvár)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Mosonmagyaróvár",
+  "country": "Hungary",
+  "address": "Jánossomorjai út 3, 9200 Mosonmagyaróvár",
+  "geoQueries": [
+   "Nolato Hungary",
+   "Nolato Mosonmagyaróvár",
+   "Jánossomorjai út 3, 9200 Mosonmagyaróvár"
+  ],
+  "approxLat": 47.8605,
+  "approxLng": 17.2525,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Nolato's large Hungarian plant injection-moulding and assembling polymer products for medical and industrial customers.",
+  "source": "https://www.nolato.com/en/contact"
+ },
+ {
+  "parentName": "Nolato",
+  "name": "Nolato Gota Plastic Packaging Plant (Götene)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Götene",
+  "country": "Sverige",
+  "address": "Alsborgsgatan 2, 533 21 Götene",
+  "geoQueries": [
+   "Nolato Gota",
+   "Nolato Götene",
+   "Alsborgsgatan 2, 533 21 Götene"
+  ],
+  "approxLat": 58.5255,
+  "approxLng": 13.4945,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Nolato Medical Solutions plant producing plastic pharmaceutical packaging and inhaler components.",
+  "source": "https://www.nolato.com/en/contact"
+ },
+ {
+  "parentName": "Nolato",
+  "name": "Nolato Cerbo Pharma Packaging Plant (Trollhättan)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Trollhättan",
+  "country": "Sverige",
+  "address": "Verkmästarevägen 1-3, 461 29 Trollhättan",
+  "geoQueries": [
+   "Nolato Cerbo",
+   "Nolato Cerbo Trollhättan",
+   "Verkmästarevägen 1, Trollhättan"
+  ],
+  "approxLat": 58.2835,
+  "approxLng": 12.2805,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Nolato plant making plastic bottles, jars and closures for pharmaceutical and nutritional products.",
+  "source": "https://www.nolato.com/en/contact"
+ },
+ {
+  "parentName": "Nolato",
+  "name": "Nolato Contour Medical Device Plant (Baldwin, Wisconsin)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Baldwin",
+  "country": "USA",
+  "address": "660 VandeBerg Street, Baldwin, WI 54002",
+  "geoQueries": [
+   "Nolato Contour Baldwin",
+   "660 Vandeberg Street, Baldwin, WI",
+   "Nolato Contour"
+  ],
+  "approxLat": 44.9615,
+  "approxLng": -92.3825,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "US Nolato Medical Solutions site producing medical device components, catheter and tubing products.",
+  "source": "https://www.nolato.com/en/contact"
+ },
+ {
+  "parentName": "Nolato",
+  "name": "Nolato Stargard Plant (Poland)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Stargard",
+  "country": "Poland",
+  "address": "ul. Usługowa 1, 73-110 Stargard",
+  "geoQueries": [
+   "Nolato Stargard",
+   "Usługowa 1, 73-110 Stargard",
+   "Nolato Polska"
+  ],
+  "approxLat": 53.33,
+  "approxLng": 15.0,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Nolato Industrial Solutions plant in northwest Poland producing polymer components and assemblies.",
+  "source": "https://www.nolato.com/en/contact"
+ },
+ {
+  "parentName": "MilDef Group",
+  "name": "MilDef Inc. Rugged Computer Plant (Fullerton, California)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Fullerton",
+  "country": "USA",
+  "address": "851 Enterprise Way, Fullerton, CA 92831",
+  "geoQueries": [
+   "MilDef Fullerton",
+   "851 Enterprise Way, Fullerton, CA 92831",
+   "MilDef Inc"
+  ],
+  "approxLat": 33.8885,
+  "approxLng": -117.8975,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "MilDef's US subsidiary designing and building rugged computers and displays for US military programmes.",
+  "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "MilDef Group",
+  "name": "MilDef Ltd Rugged Electronics Facility (St Athan, Wales)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "St Athan",
+  "country": "UK",
+  "address": "Building 232, Dragon Way, Bro Tathan West, St Athan CF62 4AF",
+  "geoQueries": [
+   "MilDef St Athan",
+   "Bro Tathan West St Athan",
+   "Dragon Way, St Athan CF62 4AF"
+  ],
+  "approxLat": 51.405,
+  "approxLng": -3.4365,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "MilDef UK manufacturing and engineering site at the former RAF St Athan aerospace park, producing rugged displays and computers for defence.",
+  "source": "https://mildef.com/contact/"
+ },
+ {
+  "parentName": "MilDef Group",
+  "name": "MilDef GmbH Lichtenau (Germany)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Lichtenau",
+  "country": "Germany",
+  "address": "Landstraße 6, 77839 Lichtenau",
+  "geoQueries": [
+   "MilDef GmbH Lichtenau",
+   "Landstraße 6, 77839 Lichtenau"
+  ],
+  "approxLat": 48.7265,
+  "approxLng": 8.0045,
+  "coordsExact": false,
+  "footprintRadiusMeters": 150,
+  "description": "German MilDef subsidiary supplying and integrating rugged IT systems for the Bundeswehr and German defence industry.",
+  "source": "https://mildef.com/contact/"
+ }
+]

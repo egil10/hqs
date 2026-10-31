@@ -1,0 +1,731 @@
+[
+  {
+    "parentName": "Ovzon",
+    "name": "Ovzon US LLC Herndon Government Satcom Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Herndon",
+    "country": "USA",
+    "address": "13461 Sunrise Valley Drive, Suite 110, Herndon, VA 20171",
+    "geoQueries": [
+      "13461 Sunrise Valley Drive, Herndon",
+      "Sunrise Valley Drive, Herndon, VA 20171"
+    ],
+    "approxLat": 38.9531,
+    "approxLng": -77.4005,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Ovzon's US subsidiary office near Washington DC, serving US Department of Defense and government customers for the Ovzon 3 mobile satcom service.",
+    "source": "https://ovzon.com/en/section/contact"
+  },
+  {
+    "parentName": "Ovzon",
+    "name": "Ovzon LLC Tampa Office (SOCOM customer hub)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tampa",
+    "country": "USA",
+    "address": "5460 Beaumont Center Blvd, Suite 550, Tampa, FL 33634",
+    "geoQueries": [
+      "5460 Beaumont Center Blvd, Tampa",
+      "Beaumont Center Blvd, Tampa, FL 33634"
+    ],
+    "approxLat": 28.0127,
+    "approxLng": -82.549,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Ovzon's Tampa office, opened to be close to US Special Operations Command customers of its satellite communication service.",
+    "source": "https://ovzon.com/en/section/contact"
+  },
+  {
+    "parentName": "Qt Group",
+    "name": "Qt Group Oslo R&D Office (former Trolltech)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Sandakerveien 116, 0484 Oslo",
+    "geoQueries": [
+      "Qt Oslo Sandakerveien",
+      "Sandakerveien 116, 0484 Oslo"
+    ],
+    "approxLat": 59.952,
+    "approxLng": 10.768,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Qt framework engineering office in Nydalen, the birthplace of Qt (Trolltech).",
+    "source": "https://www.qt.io/contact-us/qt-offices"
+  },
+  {
+    "parentName": "Qt Group",
+    "name": "Qt Group Berlin Adlershof R&D Office",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Berlin",
+    "country": "Germany",
+    "address": "Erich-Thilo-Str. 10, 12489 Berlin",
+    "geoQueries": [
+      "The Qt Company Berlin",
+      "Erich-Thilo-Straße 10, 12489 Berlin"
+    ],
+    "approxLat": 52.4318,
+    "approxLng": 13.53,
+    "coordsExact": false,
+    "footprintRadiusMeters": 170,
+    "description": "One of Qt's largest software development sites, located in the Adlershof science park.",
+    "source": "https://www.adlershof.de/en/companies-institutes/directory/firma/detail/the-qt-company"
+  },
+  {
+    "parentName": "Qt Group",
+    "name": "Qt Group Oulu R&D Office",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Oulu",
+    "country": "Finland",
+    "address": "Elektroniikkatie 3, 90590 Oulu",
+    "geoQueries": [
+      "Qt Oulu",
+      "Elektroniikkatie 3, 90590 Oulu"
+    ],
+    "approxLat": 65.058,
+    "approxLng": 25.443,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Qt Group software engineering office in Oulu's Technopolis area.",
+    "source": "https://www.qt.io/contact-us/qt-offices"
+  },
+  {
+    "parentName": "Qt Group",
+    "name": "Qt Group Hamburg Quality Assurance Tools Office (froglogic)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Hamburg",
+    "country": "Germany",
+    "address": "Gasstr. 18, Haus 1, 22761 Hamburg",
+    "geoQueries": [
+      "froglogic Hamburg",
+      "Gasstraße 18, 22761 Hamburg"
+    ],
+    "approxLat": 53.56,
+    "approxLng": 9.915,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Former froglogic office, now Qt Group's development site for the Squish GUI test automation and Coco code coverage tools.",
+    "source": "https://qt.io/locations/"
+  },
+  {
+    "parentName": "Lindex Group",
+    "name": "Lindex Alingsås Omnichannel Distribution Centre",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Alingsås",
+    "country": "Sverige",
+    "address": "Alingsås, Västra Götaland",
+    "geoQueries": [
+      "Lindex Alingsås",
+      "Lindex lager Alingsås",
+      "Alingsås"
+    ],
+    "approxLat": 57.93,
+    "approxLng": 12.533,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Lindex's ~40,000 m² highly automated omnichannel warehouse (≈EUR 110m), launched November 2024 to replace the Partille and Borås warehouses.",
+    "source": "https://inderes.dk/en/releases/lindex-group-oyj-lindexs-strategic-growth-investment-proceeded-successfully-the-new-omnichannel-distribution-centre-launched-on-schedule"
+  },
+  {
+    "parentName": "Lindex Group",
+    "name": "Stockmann Tallinn Department Store",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "address": "Liivalaia 53, 10145 Tallinn",
+    "geoQueries": [
+      "Stockmann Tallinn",
+      "Kaubamaja Stockmann Liivalaia",
+      "Liivalaia 53, Tallinn"
+    ],
+    "approxLat": 59.429,
+    "approxLng": 24.759,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Stockmann department store in Tallinn, part of the Stockmann division Lindex Group is reviewing for divestment.",
+    "source": "https://www.lindexgroup.com/en/category/press-release/"
+  },
+  {
+    "parentName": "Lindex Group",
+    "name": "Stockmann Riga Department Store",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Riga",
+    "country": "Latvia",
+    "address": "13. janvāra iela 8, LV-1050 Rīga",
+    "geoQueries": [
+      "Stockmann Riga",
+      "Stockmann 13. janvāra iela",
+      "13. janvāra iela 8, Rīga"
+    ],
+    "approxLat": 56.944,
+    "approxLng": 24.116,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Stockmann department store in central Riga, part of the Stockmann division Lindex Group is reviewing for divestment.",
+    "source": "https://www.lindexgroup.com/en/category/press-release/"
+  },
+  {
+    "parentName": "Addnode Group",
+    "name": "Technia Sweden HQ (Addnode PLM Division)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Norra Stationsgatan 93, 113 64 Stockholm",
+    "geoQueries": [
+      "Technia Stockholm",
+      "Norra Stationsgatan 93, 113 64 Stockholm"
+    ],
+    "approxLat": 59.349,
+    "approxLng": 18.035,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Technia, Addnode's largest subsidiary (PLM software and services, 600+ employees in 30+ offices), in Hagastaden.",
+    "source": "https://www.technia.com/en/contact/"
+  },
+  {
+    "parentName": "Addnode Group",
+    "name": "Ida Infront Linköping Office (Addnode Process Management)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Linköping",
+    "country": "Sverige",
+    "address": "S:t Larsgatan 18, 582 24 Linköping",
+    "geoQueries": [
+      "Ida Infront Linköping",
+      "S:t Larsgatan 18, Linköping"
+    ],
+    "approxLat": 58.411,
+    "approxLng": 15.623,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of Ida Infront, Addnode's provider of case and document management software (iipax) for public authorities.",
+    "source": "https://www.cbinsights.com/company/ida-infront"
+  },
+  {
+    "parentName": "Acast",
+    "name": "Acast UK HQ & Acast Studios London (Old Street)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "London",
+    "country": "UK",
+    "address": "Old Street / Shoreditch, London EC1 (registered office: 168 Shoreditch High Street, London E1 6RA)",
+    "geoQueries": [
+      "Acast London",
+      "Acast Studios London",
+      "168 Shoreditch High Street, London E1 6RA"
+    ],
+    "approxLat": 51.526,
+    "approxLng": -0.082,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Acast's UK headquarters and podcast recording studios, opened December 2024 near Old Street; the UK is Acast's largest market outside Sweden.",
+    "source": "https://soundsprofitable.com/press-release/acast-uk-opens-its-doors-to-the-future-of-podcasting-with-new-london-hub/"
+  },
+  {
+    "parentName": "Matas",
+    "name": "Matas Lynge Automated Logistics Center",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Lynge (Allerød)",
+    "country": "Danmark",
+    "address": "Lynge, 3540 Lynge (Allerød Municipality)",
+    "geoQueries": [
+      "Matas Lynge",
+      "Matas logistikcenter Lynge",
+      "Lynge, 3540"
+    ],
+    "approxLat": 55.837,
+    "approxLng": 12.285,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Matas' 32,500 m² highly automated logistics center (≈DKK 500m) serving Matas stores and webshop, opened January 2025 and DGNB Gold-certified in 2026.",
+    "source": "https://via.ritzau.dk/pressemeddelelse/14889606/matas-lager-far-guldstempel-for-ansvarlighed?lang=da"
+  },
+  {
+    "parentName": "Matas",
+    "name": "KICKS Group Head Office Stockholm (Matas subsidiary)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Klarabergsviadukten 90, 111 64 Stockholm",
+    "geoQueries": [
+      "KICKS huvudkontor",
+      "Klarabergsviadukten 90, 111 64 Stockholm"
+    ],
+    "approxLat": 59.332,
+    "approxLng": 18.056,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of KICKS, the Nordic beauty chain (≈260 stores in Sweden, Norway and Finland) wholly owned by Matas since 2023.",
+    "source": "https://www.eniro.se/kicks+huvudkontor+stockholm/12299423/firma"
+  },
+  {
+    "parentName": "Tokmanni Group",
+    "name": "Dollarstore Head Office Kista (Tokmanni Group Sweden)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kista (Stockholm)",
+    "country": "Sverige",
+    "address": "Kista, 164 40 Stockholm",
+    "geoQueries": [
+      "Dollarstore huvudkontor Kista",
+      "Dollarstore Kista",
+      "Kista, Stockholm"
+    ],
+    "approxLat": 59.403,
+    "approxLng": 17.944,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Dollarstore, Tokmanni Group's Swedish discount chain (acquired 2023), which also runs Big Dollar in Denmark.",
+    "source": "https://inderes.fi/sv/companies/Tokmanni-Group"
+  },
+  {
+    "parentName": "Smartoptics Group",
+    "name": "Smartoptics Americas Office & Logistics (Amsterdam, NY)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Amsterdam (New York)",
+    "country": "USA",
+    "address": "120 Genesee Lane, Suite 6, Amsterdam, NY 12010",
+    "geoQueries": [
+      "120 Genesee Lane, Amsterdam, NY 12010",
+      "Genesee Lane, Amsterdam, NY"
+    ],
+    "approxLat": 42.953,
+    "approxLng": -74.22,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Smartoptics' North American office serving US customers with open-line DWDM optical transport and transceivers.",
+    "source": "https://smartoptics.com/contact/"
+  },
+  {
+    "parentName": "Appear",
+    "name": "Appear US Inc. Los Angeles Office (Woodland Hills)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Woodland Hills (Los Angeles)",
+    "country": "USA",
+    "address": "21650 Oxnard St, Suite 2000, Woodland Hills, CA 91367",
+    "geoQueries": [
+      "21650 Oxnard Street, Woodland Hills",
+      "Warner Center Towers Woodland Hills"
+    ],
+    "approxLat": 34.1795,
+    "approxLng": -118.596,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Appear's US subsidiary office serving broadcasters and sports/media production customers with its live video processing platforms.",
+    "source": "https://appear.net/contact"
+  },
+  {
+    "parentName": "Appear",
+    "name": "Appear Ltd. Southampton Office (University of Southampton Science Park)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Southampton (Chilworth)",
+    "country": "UK",
+    "address": "University of Southampton Science Park, Chilworth, Southampton SO16 7NP",
+    "geoQueries": [
+      "University of Southampton Science Park",
+      "Southampton Science Park, Chilworth"
+    ],
+    "approxLat": 50.96,
+    "approxLng": -1.424,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Appear's UK subsidiary office at the Southampton Science Park.",
+    "source": "https://appear.net/contact"
+  },
+  {
+    "parentName": "Apotea",
+    "name": "Apotea Varberg Automated Logistics Center",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Varberg",
+    "country": "Sverige",
+    "address": "Varberg, Halland",
+    "geoQueries": [
+      "Apotea Varberg",
+      "Apotea logistikcenter Varberg",
+      "Varberg"
+    ],
+    "approxLat": 57.115,
+    "approxLng": 12.27,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Apotea's second highly automated e-pharmacy logistics center (≈SEK 500m, SSI Schäfer automation), shipping parcels since mid-2025 to western and southern Sweden.",
+    "source": "https://www.affarsvarlden.se/artikel/apotea-ska-bygga-logistikcenter-for-en-halv-miljard"
+  },
+  {
+    "parentName": "BHG Group",
+    "name": "Hafa Brand Group Halmstad HQ & Warehouse (BHG subsidiary)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Halmstad",
+    "country": "Sverige",
+    "address": "Svarvaregatan 5, 302 50 Halmstad",
+    "geoQueries": [
+      "Hafa Halmstad",
+      "Hafa Bathroom Group",
+      "Svarvaregatan 5, Halmstad"
+    ],
+    "approxLat": 56.69,
+    "approxLng": 12.88,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Base of Hafa Brand Group (Hafa, Westerbergs, Noro bathroom brands; Lindström & Sondén warehousing integrated), ~94% acquired by BHG in 2021.",
+    "source": "https://mfn.se/cis/a/bhg-group/bhg-group-acquires-hafa-bathroom-group-including-the-hafa-westerbergs-and-noro-brands-707c44fe"
+  },
+  {
+    "parentName": "Trifork Group",
+    "name": "Trifork Copenhagen Office (Nordhavn)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Copenhagen",
+    "country": "Danmark",
+    "address": "Gdanskgade 2, 2150 Nordhavn",
+    "geoQueries": [
+      "Trifork Copenhagen",
+      "Gdanskgade 2, 2150 Nordhavn"
+    ],
+    "approxLat": 55.71,
+    "approxLng": 12.596,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Trifork's largest Copenhagen office for software development and digital transformation services.",
+    "source": "https://trifork.com/contact/"
+  },
+  {
+    "parentName": "Trifork Group",
+    "name": "Trifork Switzerland Zurich Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "address": "Hofwiesenstrasse 349, 8050 Zürich",
+    "geoQueries": [
+      "Trifork Zürich",
+      "Hofwiesenstrasse 349, 8050 Zürich"
+    ],
+    "approxLat": 47.411,
+    "approxLng": 8.545,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Main Swiss office of Trifork, the group's second-largest market (fintech, cloud and digital health engineering).",
+    "source": "https://trifork.com/contact/"
+  },
+  {
+    "parentName": "Trifork Group",
+    "name": "Trifork Amsterdam Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "address": "Vlaardingenlaan 15, 1062 HM Amsterdam",
+    "geoQueries": [
+      "Trifork Amsterdam",
+      "Vlaardingenlaan 15, 1062 HM Amsterdam"
+    ],
+    "approxLat": 52.346,
+    "approxLng": 4.838,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Trifork's Dutch office for software engineering and consulting services.",
+    "source": "https://trifork.com/contact/"
+  },
+  {
+    "parentName": "Trifork Group",
+    "name": "Trifork UK London Office (South Place)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "London",
+    "country": "UK",
+    "address": "10 South Place, London EC2M 7EB",
+    "geoQueries": [
+      "10 South Place, London EC2M 7EB",
+      "Trifork London"
+    ],
+    "approxLat": 51.5185,
+    "approxLng": -0.086,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Trifork UK office, sharing the address with its CodeNode tech events venue.",
+    "source": "https://trifork.com/contact/"
+  },
+  {
+    "parentName": "F-Secure",
+    "name": "F-Secure Oulu R&D Office",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Oulu",
+    "country": "Finland",
+    "address": "Kirkkokatu 13b, 90100 Oulu",
+    "geoQueries": [
+      "F-Secure Oulu",
+      "Kirkkokatu 13, 90100 Oulu"
+    ],
+    "approxLat": 65.013,
+    "approxLng": 25.47,
+    "coordsExact": false,
+    "footprintRadiusMeters": 140,
+    "description": "F-Secure's second Finnish engineering site, developing consumer security products.",
+    "source": "https://company.f-secure.com/en/contact-us"
+  },
+  {
+    "parentName": "F-Secure",
+    "name": "F-Secure Kuala Lumpur Security Lab & APAC Hub (Mid Valley)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "address": "Suite 18.01, Level 18, The Gardens South Tower, Mid Valley City, Lingkaran Syed Putra, 59200 Kuala Lumpur",
+    "geoQueries": [
+      "The Gardens South Tower, Mid Valley City",
+      "Mid Valley City, Kuala Lumpur"
+    ],
+    "approxLat": 3.118,
+    "approxLng": 101.677,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "F-Secure's Asia-Pacific hub and one of its threat research/security lab locations.",
+    "source": "https://company.f-secure.com/en/contact-us"
+  },
+  {
+    "parentName": "F-Secure",
+    "name": "F-Secure Poznań Development Office",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Poznań",
+    "country": "Poland",
+    "address": "ul. Rataje 164, 61-168 Poznań",
+    "geoQueries": [
+      "F-Secure Poznań",
+      "Rataje 164, Poznań"
+    ],
+    "approxLat": 52.392,
+    "approxLng": 16.96,
+    "coordsExact": false,
+    "footprintRadiusMeters": 140,
+    "description": "F-Secure's Polish software development office.",
+    "source": "https://company.f-secure.com/en/contact-us"
+  },
+  {
+    "parentName": "Yubico",
+    "name": "Yubico Inc. US Headquarters (Santa Clara)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Santa Clara",
+    "country": "USA",
+    "address": "5201 Great America Parkway, Suite 122, Santa Clara, CA 95054",
+    "geoQueries": [
+      "5201 Great America Parkway, Santa Clara",
+      "Yubico Santa Clara"
+    ],
+    "approxLat": 37.404,
+    "approxLng": -121.977,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Yubico's US headquarters (its largest market), one of the two main offices near which YubiKeys are manufactured and finished (Sweden and USA).",
+    "source": "https://en.wikipedia.org/wiki/YubiKey"
+  },
+  {
+    "parentName": "Proact IT Group",
+    "name": "Proact IT UK Head Office (Grayson House, Chesterfield)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Chesterfield",
+    "country": "UK",
+    "address": "Grayson House, Venture Way, Chesterfield, Derbyshire S41 8NE",
+    "geoQueries": [
+      "Grayson House, Venture Way, Chesterfield",
+      "Venture Way, Chesterfield S41 8NE"
+    ],
+    "approxLat": 53.256,
+    "approxLng": -1.438,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Registered office and operations base of Proact IT UK, the group's UK data centre, cloud and managed services subsidiary.",
+    "source": "https://find-and-update.company-information.service.gov.uk/company/03968273"
+  },
+  {
+    "parentName": "Proact IT Group",
+    "name": "Proact IT Norge Oslo Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Lørenveien 73A, 0585 Oslo",
+    "geoQueries": [
+      "Lørenveien 73A, 0585 Oslo",
+      "Proact Oslo"
+    ],
+    "approxLat": 59.93,
+    "approxLng": 10.795,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Registered business address of Proact IT Norge AS, Proact's Norwegian data infrastructure and cloud services subsidiary.",
+    "source": "https://virksomhet.brreg.no/en/oppslag/enheter/971210737"
+  },
+  {
+    "parentName": "Truecaller",
+    "name": "Truecaller India Office & R&D Hub (Bengaluru)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Bengaluru",
+    "country": "India",
+    "address": "Bengaluru, Karnataka",
+    "geoQueries": [
+      "Truecaller Bengaluru",
+      "Truecaller office Bangalore",
+      "Bengaluru"
+    ],
+    "approxLat": 12.9716,
+    "approxLng": 77.5946,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Truecaller's largest office outside Sweden (30,443 sq ft, up to 250 staff), opened March 2023 as the hub for India-first product development; India is Truecaller's largest market.",
+    "source": "https://www.mfn.se/cis/a/truecaller/truecaller-ab-indian-minister-mr-rajeev-chandrasekhar-inaugurates-truecallers-new-office-in-india-619c7c7c"
+  },
+  {
+    "parentName": "Note",
+    "name": "NOTE Pärnu Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Pärnu",
+    "country": "Estonia",
+    "address": "Laki 2, 80010 Pärnu",
+    "geoQueries": [
+      "NOTE Pärnu",
+      "Laki 2, Pärnu"
+    ],
+    "approxLat": 58.37,
+    "approxLng": 24.53,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "NOTE's largest plant, specialising in industrialisation and volume production of labour-intensive electronics and box-build products.",
+    "source": "https://www.note-ems.com/kontakt/parnu-estland/"
+  },
+  {
+    "parentName": "Note",
+    "name": "NOTE Sofia Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "address": "89 Trayan Tanev St., 1362 Sofia",
+    "geoQueries": [
+      "NOTE Sofia",
+      "89 Trayan Tanev Street, Sofia"
+    ],
+    "approxLat": 42.73,
+    "approxLng": 23.27,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "NOTE's Bulgarian EMS plant providing cost-effective PCBA and box-build production close to European customers.",
+    "source": "https://www.note-ems.com/kontakt/sofia-bulgarien/"
+  },
+  {
+    "parentName": "Note",
+    "name": "NOTE Electronics Dongguan Factory (Tangxia)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Dongguan (Tangxia)",
+    "country": "China",
+    "address": "No. 8 Ling Dong 3 Road, Lincun Industrial Center, Tangxia, Dongguan 523710",
+    "geoQueries": [
+      "NOTE Electronics Dongguan",
+      "Lincun Industrial Center Tangxia"
+    ],
+    "approxLat": 22.8,
+    "approxLng": 114.09,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "NOTE's Chinese electronics manufacturing plant in the Pearl River Delta.",
+    "source": "https://www.note-ems.com/kontakt/tangxia-kina/"
+  },
+  {
+    "parentName": "Note",
+    "name": "NOTE Windsor Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Windsor",
+    "country": "UK",
+    "address": "1a Alma Road, Windsor SL4 3HU",
+    "geoQueries": [
+      "NOTE Windsor",
+      "1a Alma Road, Windsor SL4 3HU"
+    ],
+    "approxLat": 51.48,
+    "approxLng": -0.613,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "NOTE's UK EMS plant for PCB assembly and small-to-medium box-build projects.",
+    "source": "https://www.note-ems.com/kontakt/windsor-england/"
+  },
+  {
+    "parentName": "Note",
+    "name": "NOTE Hyvinkää Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Hyvinkää",
+    "country": "Finland",
+    "address": "Noronkierto 6, 05810 Hyvinkää",
+    "geoQueries": [
+      "NOTE Hyvinkää",
+      "Noronkierto 6, 05810 Hyvinkää"
+    ],
+    "approxLat": 60.61,
+    "approxLng": 24.82,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "NOTE's Finnish factory for small-to-medium volume electronics manufacturing.",
+    "source": "https://www.note-ems.com/kontakt/hyvinkaa-finland/"
+  },
+  {
+    "parentName": "Note",
+    "name": "NOTE Lund Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Lund",
+    "country": "Sverige",
+    "address": "Rucolagatan 5b, 224 78 Lund",
+    "geoQueries": [
+      "NOTE Lund",
+      "Rucolagatan 5, Lund"
+    ],
+    "approxLat": 55.718,
+    "approxLng": 13.22,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "NOTE's ~5,000 m² electronics manufacturing plant in Lund.",
+    "source": "https://www.note-ems.com/kontakt/lund-sverige/"
+  },
+  {
+    "parentName": "Stillfront Group",
+    "name": "Goodgame Studios Hamburg Campus (Stillfront)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Hamburg",
+    "country": "Germany",
+    "address": "Theodorstraße 42-90, Haus 9, 22761 Hamburg",
+    "geoQueries": [
+      "Goodgame Studios Hamburg",
+      "Theodorstraße 42-90, 22761 Hamburg"
+    ],
+    "approxLat": 53.564,
+    "approxLng": 9.902,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Stillfront's largest game studio (Empire, Big Farm), wholly owned since 2018, in Hamburg-Bahrenfeld.",
+    "source": "https://en.wikipedia.org/wiki/Goodgame_Studios"
+  },
+  {
+    "parentName": "Stillfront Group",
+    "name": "Sandbox Interactive Berlin Studio (Albion Online, Stillfront)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Berlin",
+    "country": "Germany",
+    "address": "Berlin",
+    "geoQueries": [
+      "Sandbox Interactive Berlin",
+      "Sandbox Interactive GmbH"
+    ],
+    "approxLat": 52.52,
+    "approxLng": 13.405,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Berlin-based Stillfront studio developing the sandbox MMORPG Albion Online.",
+    "source": "https://www.stillfront.com/en/about-us/this-is-stillfront/"
+  },
+  {
+    "parentName": "Stillfront Group",
+    "name": "Nanobit Zagreb Studio (Stillfront)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Zagreb",
+    "country": "Croatia",
+    "address": "Zagreb",
+    "geoQueries": [
+      "Nanobit Zagreb",
+      "Nanobit d.o.o."
+    ],
+    "approxLat": 45.815,
+    "approxLng": 15.9819,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Croatian mobile game studio (Design Masters, Hollywood Story) wholly owned by Stillfront since 2020.",
+    "source": "https://www.stillfront.com/en/about-us/this-is-stillfront/"
+  }
+]

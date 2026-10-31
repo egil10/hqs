@@ -1,0 +1,21 @@
+Raisio — skipped: all production is in Raisio and Nokia, both already in data
+Ovzon
+Qt Group
+Lindex Group
+Addnode Group
+Acast
+Matas
+Tokmanni Group
+Smartoptics Group (note: HQ in data is Brynsalléen 2 but company site now lists Akersgata 32, 0180 Oslo; existing Kista entry street is Borgarfjordsgatan 7 but company lists Torshamnsgatan 32D)
+Appear
+Apotea
+BHG Group
+Trifork Group
+Marimekko — skipped: only own production (Herttoniemi printing factory) is at the HQ address; central warehouse is outsourced to DSV Vantaa
+F-Secure
+Yubico
+Aker Biomarine — skipped: Houston plant (main site) already in data; Montevideo hub/krill fleet went with Aker QRILL sale (2024). Note existing 'Ski' entry may be outdated.
+Proact IT Group
+Truecaller
+Note
+Stillfront Group

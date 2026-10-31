@@ -1,0 +1,626 @@
+[
+  {
+    "name": "Veidekke Sverige Head Office (Veidekke Entreprenad AB, Solna)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Solna",
+    "country": "Sverige",
+    "address": "Svetsarvägen 12, 171 41 Solna",
+    "geoQueries": [
+      "Veidekke Entreprenad Solna",
+      "Svetsarvägen 12, 171 41 Solna"
+    ],
+    "approxLat": 59.3638,
+    "approxLng": 18.001,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Veidekke's Swedish contracting subsidiary Veidekke Entreprenad AB.",
+    "source": "https://www.veidekke.com/siteassets/om-veidekke/styrende-dokumenter/iso-sertifikater/certifikat-iso-9001-veidekke-2025-sverige.pdf",
+    "parentName": "Veidekke",
+    "coordsExact": false
+  },
+  {
+    "name": "Veidekke Entreprenad Göteborg Regional Office (Anläggning Väst)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "Falkenbergsgatan 3, 412 85 Göteborg",
+    "geoQueries": [
+      "Veidekke Göteborg",
+      "Falkenbergsgatan 3, 412 85 Göteborg"
+    ],
+    "approxLat": 57.6985,
+    "approxLng": 11.9935,
+    "footprintRadiusMeters": 160,
+    "description": "Regional office for Veidekke's civil engineering and building operations in western Sweden.",
+    "source": "https://www.veidekke.com/siteassets/om-veidekke/styrende-dokumenter/iso-sertifikater/certifikat-iso-9001-veidekke-2025-sverige.pdf",
+    "parentName": "Veidekke",
+    "coordsExact": false
+  },
+  {
+    "name": "Hoffmann A/S Head Office (Veidekke Danmark, Glostrup)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Glostrup",
+    "country": "Danmark",
+    "address": "Fabriksparken 66, 2600 Glostrup",
+    "geoQueries": [
+      "Hoffmann A/S Glostrup",
+      "Fabriksparken 66, 2600 Glostrup"
+    ],
+    "approxLat": 55.672,
+    "approxLng": 12.386,
+    "footprintRadiusMeters": 180,
+    "description": "Head office of Hoffmann A/S, Veidekke's wholly owned Danish building and civil engineering contractor.",
+    "source": "https://firmaapi.dk/virksomhed/hoffmann-as-63030228",
+    "parentName": "Veidekke",
+    "coordsExact": false
+  },
+  {
+    "name": "Veidekke Trondheim Regional Office (Sluppen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Trondheim",
+    "country": "Norge",
+    "address": "Sluppenvegen 19, 7037 Trondheim",
+    "geoQueries": [
+      "Veidekke Trondheim",
+      "Sluppenvegen 19, 7037 Trondheim"
+    ],
+    "approxLat": 63.399,
+    "approxLng": 10.403,
+    "footprintRadiusMeters": 160,
+    "description": "Regional office of Veidekke Entreprenør for building and civil works in Trøndelag.",
+    "source": "https://utdanning.no/finnlarebedrift/bedrift/829477432/",
+    "parentName": "Veidekke",
+    "coordsExact": false
+  },
+  {
+    "name": "TOMRA Recycling Mülheim-Kärlich Sensor-Based Sorting Plant & Test Center",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Mülheim-Kärlich",
+    "country": "Germany",
+    "address": "Otto-Hahn-Straße 2-6, 56218 Mülheim-Kärlich",
+    "geoQueries": [
+      "TOMRA Sorting GmbH Mülheim-Kärlich",
+      "TOMRA Recycling Mülheim-Kärlich",
+      "Otto-Hahn-Straße 6, 56218 Mülheim-Kärlich"
+    ],
+    "approxLat": 50.392,
+    "approxLng": 7.499,
+    "footprintRadiusMeters": 220,
+    "description": "Headquarters, production and test center of TOMRA's Recycling division, building sensor-based sorting machines for waste and metal recycling.",
+    "source": "https://www.tomra.com/en/contact-us/office-directory/europe/germany",
+    "parentName": "Tomra Systems",
+    "coordsExact": false
+  },
+  {
+    "name": "TOMRA Food Leuven Optical Food-Sorting Headquarters & Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Leuven",
+    "country": "Belgium",
+    "address": "Research Park Haasrode 1622, Romeinse straat 20, 3001 Leuven",
+    "geoQueries": [
+      "TOMRA Food Leuven",
+      "TOMRA Sorting Food Haasrode",
+      "Romeinse straat 20, 3001 Leuven"
+    ],
+    "approxLat": 50.858,
+    "approxLng": 4.735,
+    "footprintRadiusMeters": 200,
+    "description": "Headquarters, R&D and production site of TOMRA Food (former BEST/Odenberg business), making optical sorting and peeling equipment for the food industry.",
+    "source": "https://www.tomra.com/en/contact-us/office-directory/europe/belgium",
+    "parentName": "Tomra Systems",
+    "coordsExact": false
+  },
+  {
+    "name": "TOMRA Food West Sacramento Sorting Equipment Facility",
+    "facilityType": "Factory & Manufacturing",
+    "city": "West Sacramento",
+    "country": "USA",
+    "address": "875 Embarcadero Drive, West Sacramento, CA 95605",
+    "geoQueries": [
+      "TOMRA West Sacramento",
+      "875 Embarcadero Drive, West Sacramento, CA 95605"
+    ],
+    "approxLat": 38.566,
+    "approxLng": -121.547,
+    "footprintRadiusMeters": 180,
+    "description": "TOMRA Food's North American site for food sorting machine assembly, service and customer testing.",
+    "source": "https://www.tomra.com/en/contact-us/office-directory/americas/united-states-of-america",
+    "parentName": "Tomra Systems",
+    "coordsExact": false
+  },
+  {
+    "name": "Borregaard Czech Paskov Lignin Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Paskov",
+    "country": "Czech Republic",
+    "address": "Místecká 762, 739 21 Paskov",
+    "geoQueries": [
+      "Borregaard Czech Paskov",
+      "Místecká 762, 739 21 Paskov"
+    ],
+    "approxLat": 49.73,
+    "approxLng": 18.283,
+    "footprintRadiusMeters": 220,
+    "description": "Borregaard plant producing lignin-based biopolymers (lignosulfonates) adjacent to the Paskov pulp mill.",
+    "source": "https://www.borregaard.com/company/contact-us/our-plants-and-offices",
+    "parentName": "Borregaard",
+    "coordsExact": false
+  },
+  {
+    "name": "Borregaard Deutschland Karlsruhe Lignin Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Karlsruhe",
+    "country": "Germany",
+    "address": "DEA-Scholven-Straße 9, 76187 Karlsruhe",
+    "geoQueries": [
+      "Borregaard Deutschland Karlsruhe",
+      "DEA-Scholven-Straße 9, 76187 Karlsruhe"
+    ],
+    "approxLat": 49.02,
+    "approxLng": 8.322,
+    "footprintRadiusMeters": 200,
+    "description": "Borregaard lignin products plant and German sales office in the Karlsruhe Rhine port area.",
+    "source": "https://www.borregaard.com/company/contact-us/our-plants-and-offices",
+    "parentName": "Borregaard",
+    "coordsExact": false
+  },
+  {
+    "name": "Borregaard UK Warrington Lignin Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Warrington",
+    "country": "UK",
+    "address": "Clayton Road, Birchwood, Warrington, Cheshire WA3 6QQ",
+    "geoQueries": [
+      "Borregaard UK Warrington",
+      "Clayton Road, Birchwood, Warrington WA3 6QQ"
+    ],
+    "approxLat": 53.417,
+    "approxLng": -2.53,
+    "footprintRadiusMeters": 180,
+    "description": "Borregaard UK lignin-based products plant and sales office at Birchwood, Warrington.",
+    "source": "https://www.borregaard.com/company/contact-us/our-plants-and-offices",
+    "parentName": "Borregaard",
+    "coordsExact": false
+  },
+  {
+    "name": "Borregaard USA Rothschild Lignin Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Rothschild",
+    "country": "USA",
+    "address": "100 Grand Avenue, Rothschild, WI 54474",
+    "geoQueries": [
+      "Borregaard Rothschild",
+      "100 Grand Avenue, Rothschild, WI 54474"
+    ],
+    "approxLat": 44.887,
+    "approxLng": -89.624,
+    "footprintRadiusMeters": 200,
+    "description": "Borregaard USA lignin products plant and office in Rothschild, Wisconsin.",
+    "source": "https://www.borregaard.com/company/contact-us/our-plants-and-offices",
+    "parentName": "Borregaard",
+    "coordsExact": false
+  },
+  {
+    "name": "LignoTech Florida Lignin Plant (Fernandina Beach)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Fernandina Beach",
+    "country": "USA",
+    "address": "6 Gum Street, Fernandina Beach, FL 32034",
+    "geoQueries": [
+      "LignoTech Florida",
+      "6 Gum Street, Fernandina Beach, FL 32034",
+      "Rayonier Advanced Materials Fernandina Beach"
+    ],
+    "approxLat": 30.685,
+    "approxLng": -81.456,
+    "footprintRadiusMeters": 250,
+    "description": "Lignin plant (about 100,000 t/yr) at RYAM's Fernandina Beach mill, owned 55% by Borregaard and 45% by Rayonier Advanced Materials.",
+    "source": "https://www.borregaard.com/company/contact-us/our-plants-and-offices",
+    "parentName": "Borregaard",
+    "coordsExact": false
+  },
+  {
+    "name": "AutoStore North America Headquarters & Experience Center (Tuscan Village, Salem NH)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Salem (New Hampshire)",
+    "country": "USA",
+    "address": "Tuscan Village, South Broadway, Salem, NH 03079",
+    "geoQueries": [
+      "AutoStore Salem NH",
+      "Tuscan Village, Salem, NH"
+    ],
+    "approxLat": 42.776,
+    "approxLng": -71.208,
+    "footprintRadiusMeters": 180,
+    "description": "40,000 sq ft US headquarters opened in 2024 with AutoStore Academy training center and demo-grid Experience Center.",
+    "source": "https://www.autostoresystem.com/news/launch-of-us-headquarters-boston",
+    "parentName": "AutoStore Holdings",
+    "coordsExact": false
+  },
+  {
+    "name": "AF Miljøbase Vats Offshore Decommissioning & Recycling Yard",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Nedre Vats (Vindafjord)",
+    "country": "Norge",
+    "address": "Raunesvegen 597, 5578 Nedre Vats",
+    "geoQueries": [
+      "AF Miljøbase Vats",
+      "AF Decom Vats Raunes",
+      "Raunesvegen 597, 5578 Nedre Vats"
+    ],
+    "approxLat": 59.48,
+    "approxLng": 5.75,
+    "footprintRadiusMeters": 350,
+    "description": "AF Offshore Decom's ~300,000 m2 yard on Raunes industrial area where offshore platforms, rigs and ships are dismantled and over 95% of material recycled.",
+    "source": "https://www.afgruppen.com/offshore/Decommissioning/af-miljobase-vats",
+    "parentName": "AF Gruppen",
+    "coordsExact": false
+  },
+  {
+    "name": "Kanonaden Entreprenad Mälardalen Office (AF Gruppen Sweden, Hägersten)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm (Hägersten)",
+    "country": "Sverige",
+    "address": "Tellusborgsvägen 69, 126 29 Hägersten",
+    "geoQueries": [
+      "Kanonaden Entreprenad Hägersten",
+      "Tellusborgsvägen 69, 126 29 Hägersten"
+    ],
+    "approxLat": 59.298,
+    "approxLng": 17.987,
+    "footprintRadiusMeters": 160,
+    "description": "Office of Kanonaden Entreprenad Mälardalen AB, AF Gruppen's Swedish civil engineering and groundworks subsidiary for the Stockholm/Mälardalen region.",
+    "source": "https://www.allabolag.se/5591115117",
+    "parentName": "AF Gruppen",
+    "coordsExact": false
+  },
+  {
+    "name": "Wärtsilä Norway Rubbestadneset Propulsion Service & Production Base",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Rubbestadneset (Bømlo)",
+    "country": "Norge",
+    "address": "Wichmannvegen 3, 5420 Rubbestadneset",
+    "geoQueries": [
+      "Wärtsilä Norway Rubbestadneset",
+      "Wichmannvegen 3, 5420 Rubbestadneset"
+    ],
+    "approxLat": 59.815,
+    "approxLng": 5.27,
+    "footprintRadiusMeters": 250,
+    "description": "Head office, service workshop and production facilities of Wärtsilä Norway AS (former Wichmann engine works) at Rubbestadneset.",
+    "source": "https://www.wartsila.com/nor/om-oss/kontakt-oss",
+    "parentName": "Wartsila",
+    "coordsExact": false
+  },
+  {
+    "name": "Wärtsilä Moss Exhaust Gas Treatment & Carbon Capture Center",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Moss",
+    "country": "Norge",
+    "address": "Værftsgata 9A, 1511 Moss",
+    "geoQueries": [
+      "Wärtsilä Moss",
+      "Værftsgata 9A, 1511 Moss"
+    ],
+    "approxLat": 59.433,
+    "approxLng": 10.656,
+    "footprintRadiusMeters": 160,
+    "description": "Wärtsilä Moss AS, developing marine exhaust gas treatment (scrubbers), inert gas systems and onboard carbon capture.",
+    "source": "https://oljelandet.no/bedrift/w-rtsil-moss-as/informasjon",
+    "parentName": "Wartsila",
+    "coordsExact": false
+  },
+  {
+    "name": "FLSmidth Global Minerals Technology Center (Midvale, Utah)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Midvale (Utah)",
+    "country": "USA",
+    "address": "7158 S FLSmidth Drive, Midvale, UT 84047",
+    "geoQueries": [
+      "FLSmidth Midvale",
+      "7158 S FLSmidth Drive, Midvale, UT 84047",
+      "View 72 Midvale"
+    ],
+    "approxLat": 40.617,
+    "approxLng": -111.905,
+    "footprintRadiusMeters": 200,
+    "description": "FLSmidth USA headquarters and global minerals technology center for mining process equipment engineering, sales and service.",
+    "source": "https://www.at-minerals.com/en/artikel/at_2010-11_New_Global_Minerals_Technology_Center-1020282.html",
+    "parentName": "FLSmidth & Co",
+    "coordsExact": false
+  },
+  {
+    "name": "FLSmidth Arakkonam Manufacturing & Service Centre",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Arakkonam (Tamil Nadu)",
+    "country": "India",
+    "address": "Arakkonam, Ranipet district, Tamil Nadu, India",
+    "geoQueries": [
+      "FLSmidth Arakkonam",
+      "FLSmidth Private Limited Arakkonam"
+    ],
+    "approxLat": 13.08,
+    "approxLng": 79.67,
+    "footprintRadiusMeters": 250,
+    "description": "FLSmidth manufacturing and service centre (new facility inaugurated June 2025) producing heavy minerals-processing equipment.",
+    "source": "https://machinist.in/2025/07/flsmidth-opens-new-manufacturing-and-service-facility-in-tamil-nadu/",
+    "parentName": "FLSmidth & Co",
+    "coordsExact": false
+  },
+  {
+    "name": "KONE Tytyri High-Rise Elevator Test Laboratory (Lohja limestone mine)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Lohja",
+    "country": "Finland",
+    "address": "Tytyri mine, Lohja, Finland",
+    "geoQueries": [
+      "Tytyri mine Lohja",
+      "Tytyrin kaivos",
+      "Tytyrin kaivosmuseo, Lohja"
+    ],
+    "approxLat": 60.256,
+    "approxLng": 24.048,
+    "footprintRadiusMeters": 250,
+    "description": "KONE's underground high-rise elevator test laboratory with 11 shafts reaching 350 m depth in the Tytyri limestone mine.",
+    "source": "https://www.kone.com/global/en/newsroom/stories/testing-elevators-underground-and-remotely.html",
+    "parentName": "Kone",
+    "coordsExact": false
+  },
+  {
+    "name": "KONE Park Kunshan Elevator & Escalator Factories and R&D Site",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kunshan (Jiangsu)",
+    "country": "China",
+    "address": "KONE Park, Yushan Town, Kunshan, Jiangsu 215316, China",
+    "geoQueries": [
+      "KONE Park Kunshan",
+      "KONE Elevators Co Ltd Kunshan"
+    ],
+    "approxLat": 31.4,
+    "approxLng": 120.95,
+    "footprintRadiusMeters": 350,
+    "description": "KONE's largest manufacturing unit (~240,000 m2) with three elevator factories, an escalator factory and an R&D center.",
+    "source": "https://www.kone.co.uk/stories-and-references/press-releases/kone-celebrates-opening-of-kone-park-manufacturing-and-r-d-site-in-kunshan--china-2013-04-10.aspx",
+    "parentName": "Kone",
+    "coordsExact": false
+  },
+  {
+    "name": "KONE India Sriperumbudur Elevator Factory & Test Tower",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Sriperumbudur (Chennai)",
+    "country": "India",
+    "address": "SIPCOT Industrial Park, Pillaipakkam, Sriperumbudur, Tamil Nadu, India",
+    "geoQueries": [
+      "KONE Elevator India Pillaipakkam",
+      "KONE Sriperumbudur factory",
+      "SIPCOT Industrial Park Pillaipakkam"
+    ],
+    "approxLat": 12.89,
+    "approxLng": 79.93,
+    "footprintRadiusMeters": 300,
+    "description": "KONE elevator manufacturing plant inaugurated in 2019, with an R&D elevator test tower and labs added in 2023.",
+    "source": "https://www.kone.in/discover-stories/press-releases/kone-inaugurates-its-world-class-elevator-manufacturing-facility-in-india.html",
+    "parentName": "Kone",
+    "coordsExact": false
+  },
+  {
+    "name": "NKT Asnæs Medium-Voltage Power Cable Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Asnæs (Odsherred)",
+    "country": "Danmark",
+    "address": "Industrivangen, 4550 Asnæs",
+    "geoQueries": [
+      "NKT Asnæs",
+      "NKT A/S Asnæs fabrik",
+      "Industrivangen, 4550 Asnæs"
+    ],
+    "approxLat": 55.812,
+    "approxLng": 11.5,
+    "footprintRadiusMeters": 300,
+    "description": "NKT's Danish cable plant (since 1965), producing medium-voltage and specialised 1 kV power cables and serving as Scandinavian logistics hub; expanded in 2024-2025.",
+    "source": "https://www.nkt.com/news-press-releases/nkt-completes-expansion-of-medium-voltage-power-cable-production-in-denmark",
+    "parentName": "NKT",
+    "coordsExact": false
+  },
+  {
+    "name": "NKT Falun Power Cable Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Falun",
+    "country": "Sverige",
+    "address": "Källviksvägen 18, 791 52 Falun",
+    "geoQueries": [
+      "NKT Falun",
+      "NKT Sweden AB Falun",
+      "Källviksvägen 18, 791 52 Falun"
+    ],
+    "approxLat": 60.602,
+    "approxLng": 15.66,
+    "footprintRadiusMeters": 300,
+    "description": "Former Ericsson Cables plant (acquired 2013) producing building wires, 1 kV, medium- and high-voltage cables up to 170 kV.",
+    "source": "https://en.wikipedia.org/wiki/NKT_A/S",
+    "parentName": "NKT",
+    "coordsExact": false
+  },
+  {
+    "name": "NKT Velké Meziříčí Medium & High-Voltage Cable Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Velké Meziříčí",
+    "country": "Czech Republic",
+    "address": "Velké Meziříčí, 594 01, Czech Republic",
+    "geoQueries": [
+      "NKT Cables Velké Meziříčí",
+      "NKT Velké Meziříčí"
+    ],
+    "approxLat": 49.355,
+    "approxLng": 16.01,
+    "footprintRadiusMeters": 300,
+    "description": "NKT plant producing medium- and high-voltage power cables up to 220 kV, part of NKT's EUR 100m medium-voltage capacity investment programme.",
+    "source": "https://www.nkt.com/news-press-releases/investments-in-additional-capacity-in-the-medium-voltage-power-cable-business-completed-at-two-out-of-three-sites",
+    "parentName": "NKT",
+    "coordsExact": false
+  },
+  {
+    "name": "NKT Nordenham High-Voltage Cable Accessories Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Nordenham",
+    "country": "Germany",
+    "address": "Helgoländer Damm 75, 26954 Nordenham",
+    "geoQueries": [
+      "NKT Nordenham",
+      "NKT GmbH Nordenham",
+      "Helgoländer Damm 75, 26954 Nordenham"
+    ],
+    "approxLat": 53.49,
+    "approxLng": 8.48,
+    "footprintRadiusMeters": 200,
+    "description": "NKT site producing high-voltage cable accessories (joints and terminations), being expanded by over 50% with completion in 2026.",
+    "source": "https://www.nkt.com/news-press-releases/nkt-expands-capacity-at-german-cable-accessories-site-in-nordenham",
+    "parentName": "NKT",
+    "coordsExact": false
+  },
+  {
+    "name": "NORBIT EMS Selbu Electronics Manufacturing Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Selbu",
+    "country": "Norge",
+    "address": "Øybergvegen 15, 7580 Selbu",
+    "geoQueries": [
+      "NORBIT EMS Selbu",
+      "Øybergvegen 15, 7580 Selbu"
+    ],
+    "approxLat": 63.219,
+    "approxLng": 11.05,
+    "footprintRadiusMeters": 180,
+    "description": "NORBIT EMS contract electronics manufacturing plant in the Product Innovation & Realization segment.",
+    "source": "https://norbit.com/people",
+    "parentName": "Norbit",
+    "coordsExact": false
+  },
+  {
+    "name": "NORBIT EMS Røros Electronics Manufacturing Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Røros",
+    "country": "Norge",
+    "address": "Øverhagaen 8, 7374 Røros",
+    "geoQueries": [
+      "NORBIT EMS Røros",
+      "Øverhagaen 8, 7374 Røros"
+    ],
+    "approxLat": 62.58,
+    "approxLng": 11.37,
+    "footprintRadiusMeters": 180,
+    "description": "NORBIT EMS factory producing electronics including on-board units for road tolling and contract manufacturing.",
+    "source": "https://norbit.com/people",
+    "parentName": "Norbit",
+    "coordsExact": false
+  },
+  {
+    "name": "Metso Research Center Pori (Minerals Processing & Smelting Pilot Plant)",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Pori",
+    "country": "Finland",
+    "address": "Kuparitie 10, 28330 Pori",
+    "geoQueries": [
+      "Metso Research Center Pori",
+      "Outotec Research Center Pori",
+      "Kuparitie 10, 28330 Pori"
+    ],
+    "approxLat": 61.49,
+    "approxLng": 21.75,
+    "footprintRadiusMeters": 250,
+    "description": "Metso's research and piloting hub for mineral processing, flotation, hydrometallurgy, battery-material processes and smelting technologies.",
+    "source": "https://www.metso.com/campaigns/smelting-newsletter/smelting-insights/metso-invests-in-piloting-capabilities-for-metso-research-center-in-pori/",
+    "parentName": "Metso",
+    "coordsExact": false
+  },
+  {
+    "name": "Metso Sala Slurry Pump Factory & Test and Training Center",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Sala",
+    "country": "Sverige",
+    "address": "Norrängsgatan 2, 733 38 Sala",
+    "geoQueries": [
+      "Metso Sweden Sala",
+      "Norrängsgatan 2, Sala"
+    ],
+    "approxLat": 59.92,
+    "approxLng": 16.6,
+    "footprintRadiusMeters": 250,
+    "description": "Metso's slurry pump manufacturing and test center with a 4 MW extra-large pump test rig, being expanded under the Sala 2.0 project.",
+    "source": "https://themachinemaker.com/?p=113616",
+    "parentName": "Metso",
+    "coordsExact": false
+  },
+  {
+    "name": "ISS Norge Head Office (ISS Facility Services AS, Kværnerbyen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Smeltedigelen 1, 0195 Oslo",
+    "geoQueries": [
+      "ISS Facility Services Oslo",
+      "Smeltedigelen 1, 0195 Oslo"
+    ],
+    "approxLat": 59.9055,
+    "approxLng": 10.7905,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of ISS Norway, one of the group's largest country operations for cleaning, food, workplace and property services.",
+    "source": "https://kommunikasjon.ntb.no/presserom/17849095/issworld",
+    "parentName": "ISS",
+    "coordsExact": false
+  },
+  {
+    "name": "Norconsult Sverige Göteborg Office (Lindholmen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "Theres Svenssons gata 11, 417 55 Göteborg",
+    "geoQueries": [
+      "Norconsult Göteborg",
+      "Theres Svenssons gata 11, 417 55 Göteborg"
+    ],
+    "approxLat": 57.707,
+    "approxLng": 11.938,
+    "footprintRadiusMeters": 150,
+    "description": "Norconsult's main office in western Sweden, also registered address of subsidiary Norconsult Fältgeoteknik AB.",
+    "source": "https://virksomhet.brreg.no/en/oppslag/enheter/833152572",
+    "parentName": "Norconsult",
+    "coordsExact": false
+  },
+  {
+    "name": "Norconsult Finland Office (Otaniemi, Espoo)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Espoo",
+    "country": "Finland",
+    "address": "Tekniikantie 14, 02150 Espoo",
+    "geoQueries": [
+      "Norconsult Espoo",
+      "Tekniikantie 14, 02150 Espoo"
+    ],
+    "approxLat": 60.1845,
+    "approxLng": 24.8125,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of Norconsult's Finnish engineering consultancy operations.",
+    "source": "https://norconsult.com/contact",
+    "parentName": "Norconsult",
+    "coordsExact": false
+  },
+  {
+    "name": "Demag Cranes & Components Wetter Headquarters & Crane Components Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Wetter (Ruhr)",
+    "country": "Germany",
+    "address": "Ruhrstraße 28, 58300 Wetter",
+    "geoQueries": [
+      "Demag Cranes & Components Wetter",
+      "Demag Wetter Ruhrstraße",
+      "Ruhrstraße 28, 58300 Wetter"
+    ],
+    "approxLat": 51.39,
+    "approxLng": 7.39,
+    "footprintRadiusMeters": 300,
+    "description": "Headquarters and main production site of Konecranes' wholly owned Demag brand, making hoists, crane components and drive technology.",
+    "source": "https://www.demagcranes.com",
+    "parentName": "Konecranes",
+    "coordsExact": false
+  }
+]

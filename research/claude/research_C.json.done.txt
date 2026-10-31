@@ -1,0 +1,33 @@
+Novonesis
+Demant
+Genmab
+H. Lundbeck — Padova API plant skipped (sold to Flamma Oct 2026)
+Ambu
+GN Store Nord
+Swedish Orphan Biovitrum
+ALK-Abelló
+Getinge
+Zealand Pharma
+Asker Healthcare Group
+AddLife
+Attendo — skipped: dispersed care homes, no significant single site beyond HQ/existing Finland HQ
+Ambea — skipped: dispersed care units, no significant single site beyond HQ/existing Stendi
+Camurus — skipped: only Lund HQ + existing Rechon plant; no further confirmed sites
+Elekta
+Medicover
+Embla Medical
+BioArctic — skipped: only Stockholm HQ/lab
+BioGaia — skipped: only HQ + existing Eslöv plant
+RaySearch Laboratories — skipped: software company, only Stockholm HQ plus small sales offices
+Bonesupport Holding — skipped: HQ+production at Lund Ideon only
+CHEMOMETEC — skipped: HQ+production in Allerød only
+Xvivo Perfusion
+Terveystalo
+MedCap — no new sites beyond existing Unimedic Matfors (subsidiary addresses unconfirmed)
+Vitrolife
+Vimian Group
+Arjo
+Medistim
+Revenio Group
+Gubra — skipped: only Hørsholm HQ/labs found; sites unverifiable (web budget exhausted, site 403)
+Sedana Medical — skipped: only Danderyd HQ and small sales offices; production outsourced

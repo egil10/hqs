@@ -1,0 +1,24 @@
+Telenor
+Vend Marketplaces
+Nordic Semiconductor
+Europris
+Synaferd
+Nedhalia Topco -- skipped: Visma holding vehicle at Visma HQ address, no own sites (Visma sites listed under Synaferd)
+Link Mobility Group Holding
+SoftwareOne
+Kid
+Sats -- skipped: operations are ~280 retail gyms; no distinct non-HQ office/site confirmed
+Bouvet
+Essity
+Evolution
+Elisa
+Pandora
+NCAB Group
+Pexip Holding
+Thule Group
+Bohus -- skipped: only stores beyond HQ; central warehouse already in dataset
+Framery Group
+Recovery Holdco
+Inteno Group
+HMS Networks
+Hagar

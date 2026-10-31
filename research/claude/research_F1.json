@@ -1,0 +1,1168 @@
+[
+ {
+  "parentName": "Telenor",
+  "name": "Telenor Danmark Headquarters (Frederikskaj, Copenhagen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "København",
+  "country": "Danmark",
+  "address": "Frederikskaj 8, 1780 København V",
+  "geoQueries": [
+   "Telenor Frederikskaj",
+   "Frederikskaj 8, 1780 København"
+  ],
+  "approxLat": 55.6505,
+  "approxLng": 12.5465,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Telenor A/S, Telenor's wholly owned Danish mobile and broadband operator.",
+  "source": "https://www.telenor.com/who-we-are/our-companies/nordics/telenor-denmark/"
+ },
+ {
+  "parentName": "Telenor",
+  "name": "Telenor Sverige Headquarters (Solna)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Solna",
+  "country": "Sverige",
+  "address": "Garvis Carlssons gata 3, 169 73 Solna",
+  "geoQueries": [
+   "Telenor Sverige Solna",
+   "Garvis Carlssons gata 3, Solna"
+  ],
+  "approxLat": 59.3625,
+  "approxLng": 18.0035,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Telenor Sverige AB, Telenor's wholly owned Swedish mobile, broadband and TV operator.",
+  "source": "https://www.telenor.com/who-we-are/our-companies/nordics/telenor-sweden/"
+ },
+ {
+  "parentName": "Telenor",
+  "name": "Grameenphone GP House Headquarters (Dhaka)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Dhaka",
+  "country": "Bangladesh",
+  "address": "GP House, Bashundhara, Baridhara, Dhaka-1229",
+  "geoQueries": [
+   "GP House",
+   "Grameenphone GP House Bashundhara",
+   "Bashundhara Residential Area, Dhaka"
+  ],
+  "approxLat": 23.8155,
+  "approxLng": 90.4255,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Headquarters campus of Grameenphone, Bangladesh's largest mobile operator, in which Telenor holds a 55.8% stake.",
+  "source": "https://www.telenor.com/who-we-are/our-companies/asia/grameenphone-bangladesh/"
+ },
+ {
+  "name": "Vend Sweden Office (Blocket, Stockholm)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Kungsbron 13, 111 22 Stockholm",
+  "geoQueries": [
+   "Kungsbron 13, Stockholm",
+   "Vend Marketplaces Stockholm",
+   "Blocket Stockholm"
+  ],
+  "approxLat": 59.3325,
+  "approxLng": 18.0535,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Swedish hub of Vend Marketplaces, home to Blocket, Sweden's largest classifieds marketplace.",
+  "source": "https://vend.com/our-offices",
+  "parentName": "Vend Marketplaces"
+ },
+ {
+  "name": "Vend Finland Office (Tori & Oikotie, Helsinki)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Helsinki",
+  "country": "Finland",
+  "address": "Keskuskatu 1 B, 00100 Helsinki",
+  "geoQueries": [
+   "Keskuskatu 1, Helsinki",
+   "Vend Marketplaces Oy Helsinki"
+  ],
+  "approxLat": 60.1695,
+  "approxLng": 24.944,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Finnish office of Vend Marketplaces running the Tori and Oikotie marketplaces.",
+  "source": "https://vend.com/our-offices",
+  "parentName": "Vend Marketplaces"
+ },
+ {
+  "name": "Vend Denmark Office (DBA, Copenhagen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "København",
+  "country": "Danmark",
+  "address": "Wildersgade 8, 1408 København K",
+  "geoQueries": [
+   "Wildersgade 8, 1408 København",
+   "Vend Marketplaces ApS København"
+  ],
+  "approxLat": 55.672,
+  "approxLng": 12.59,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Copenhagen office of Vend Marketplaces ApS, operator of the Danish marketplaces DBA and Bilbasen.",
+  "source": "https://vend.com/our-offices",
+  "parentName": "Vend Marketplaces"
+ },
+ {
+  "name": "Vend Denmark Office (Bilbasen, Aarhus/Højbjerg)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Højbjerg",
+  "country": "Danmark",
+  "address": "Axel Kiers Vej 11, 8270 Højbjerg",
+  "geoQueries": [
+   "Axel Kiers Vej 11, 8270 Højbjerg",
+   "Bilbasen Højbjerg"
+  ],
+  "approxLat": 56.122,
+  "approxLng": 10.197,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Aarhus-area office of Vend Marketplaces ApS, historically the home of the Bilbasen car marketplace.",
+  "source": "https://vend.com/our-offices",
+  "parentName": "Vend Marketplaces"
+ },
+ {
+  "name": "Nordic Semiconductor Oslo R&D Office",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Oslo",
+  "country": "Norge",
+  "address": "Drammensveien 126, 0277 Oslo",
+  "geoQueries": [
+   "Nordic Semiconductor Oslo",
+   "Drammensveien 126, 0277 Oslo"
+  ],
+  "approxLat": 59.9185,
+  "approxLng": 10.6775,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Nordic Semiconductor's Oslo site, a major chip design and R&D centre for its low-power wireless SoCs.",
+  "source": "https://www.nordicsemi.com/About-us/Visit-Us/Europe/Norway/Oslo",
+  "parentName": "Nordic Semiconductor"
+ },
+ {
+  "name": "Nordic Semiconductor Trondheim Leangen Office",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Trondheim",
+  "country": "Norge",
+  "address": "Travbanevegen 2, 7044 Trondheim",
+  "geoQueries": [
+   "Travbanevegen 2, Trondheim",
+   "Nordic Semiconductor Leangen"
+  ],
+  "approxLat": 63.437,
+  "approxLng": 10.464,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Second Trondheim office of Nordic Semiconductor at Leangen, housing engineering and R&D staff.",
+  "source": "https://www.nordicsemi.com/About-us/Office-locations/Europe/Norway/Trondheim-Leangen",
+  "parentName": "Nordic Semiconductor"
+ },
+ {
+  "name": "Nordic Semiconductor Oulu R&D Center",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Oulu",
+  "country": "Finland",
+  "address": "Yrttipellontie 1 D, 90230 Oulu",
+  "geoQueries": [
+   "Yrttipellontie 1, 90230 Oulu",
+   "Nordic Semiconductor Oulu"
+  ],
+  "approxLat": 65.0585,
+  "approxLng": 25.443,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Nordic Semiconductor Oy's Oulu centre, focused on cellular IoT (LTE-M/NB-IoT) development.",
+  "source": "https://www.nordicsemi.com/About-us/Visit-Us/Europe/Finland/Oulu",
+  "parentName": "Nordic Semiconductor"
+ },
+ {
+  "name": "Nordic Semiconductor Espoo R&D Office",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Espoo",
+  "country": "Finland",
+  "address": "Hatsinanpuisto 8, 02600 Espoo",
+  "geoQueries": [
+   "Hatsinanpuisto 8, 02600 Espoo",
+   "Nordic Semiconductor Espoo"
+  ],
+  "approxLat": 60.219,
+  "approxLng": 24.813,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Nordic Semiconductor Oy's Espoo engineering office working on wireless chip and software development.",
+  "source": "https://www.nordicsemi.com/About-us/Visit-Us/Europe/Finland/Espoo",
+  "parentName": "Nordic Semiconductor"
+ },
+ {
+  "name": "Nordic Semiconductor Turku R&D Office",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Turku",
+  "country": "Finland",
+  "address": "Teollisuuskatu 40, 20520 Turku",
+  "geoQueries": [
+   "Teollisuuskatu 40, 20520 Turku",
+   "Nordic Semiconductor Turku"
+  ],
+  "approxLat": 60.459,
+  "approxLng": 22.293,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Nordic Semiconductor Oy's Turku engineering office for wireless chip development.",
+  "source": "https://www.nordicsemi.com/About-us/Visit-Us/Europe/Finland/Turku",
+  "parentName": "Nordic Semiconductor"
+ },
+ {
+  "name": "ÖoB Headquarters & Central Warehouse (Skänninge)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Skänninge",
+  "country": "Sverige",
+  "address": "Borgmästaregatan 23, 596 34 Skänninge",
+  "geoQueries": [
+   "ÖoB Skänninge",
+   "Borgmästaregatan 23, 596 34 Skänninge",
+   "Överskottsbolaget Skänninge"
+  ],
+  "approxLat": 58.396,
+  "approxLng": 15.083,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Head office and central distribution warehouse of Swedish discount chain ÖoB, wholly owned by Europris since May 2024.",
+  "source": "https://via.tt.se/pressrum/3237268/oob",
+  "parentName": "Europris"
+ },
+ {
+  "name": "Visma Spiris Växjö Office (Visma Sweden)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Växjö",
+  "country": "Sverige",
+  "address": "Sambandsvägen 5, 352 36 Växjö",
+  "geoQueries": [
+   "Visma Växjö",
+   "Sambandsvägen 5, 352 36 Växjö",
+   "Visma Spiris"
+  ],
+  "approxLat": 56.889,
+  "approxLng": 14.835,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Visma's largest Swedish site (~6,300 m2), home of Visma Spiris (formerly Spcs) accounting software and other Visma Sweden units.",
+  "source": "https://www.dagensps.se/teknik/tioarsavtal-ger-visma-fraschare-kontorslokaler",
+  "parentName": "Synaferd"
+ },
+ {
+  "name": "Visma Solutions Headquarters (Lappeenranta)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Lappeenranta",
+  "country": "Finland",
+  "address": "Villimiehenkatu 10, 53100 Lappeenranta",
+  "geoQueries": [
+   "Visma Solutions Lappeenranta",
+   "Villimiehenkatu 10, 53100 Lappeenranta"
+  ],
+  "approxLat": 61.059,
+  "approxLng": 28.188,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Headquarters of Visma Solutions Oy, maker of Netvisor and Visma Sign cloud software, a Visma subsidiary.",
+  "source": "https://www.asiakastieto.fi/yritykset/fi/visma-solutions-oy/19675438/rekisteritiedot",
+  "parentName": "Synaferd"
+ },
+ {
+  "name": "Visma Nederland Office (Amsterdam)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "address": "Wenckebachweg 200, 1096 AS Amsterdam",
+  "geoQueries": [
+   "Wenckebachweg 200, 1096 AS Amsterdam",
+   "Visma Amsterdam"
+  ],
+  "approxLat": 52.342,
+  "approxLng": 4.922,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Registered office of Visma Nederland B.V., Visma's Dutch holding entity for its Benelux software businesses.",
+  "source": "https://opencorporates.com/companies/nl/51972093",
+  "parentName": "Synaferd"
+ },
+ {
+  "name": "LINK Mobility Germany Office (Hamburg HafenCity)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Hamburg",
+  "country": "Germany",
+  "address": "Am Sandtorkai 73, 20457 Hamburg",
+  "geoQueries": [
+   "Am Sandtorkai 73, 20457 Hamburg",
+   "LINK Mobility Hamburg"
+  ],
+  "approxLat": 53.5435,
+  "approxLng": 9.987,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of LINK Mobility GmbH, the group's German CPaaS/business messaging subsidiary.",
+  "source": "https://linkmobility.com/en-GB/our-offices",
+  "parentName": "Link Mobility Group Holding"
+ },
+ {
+  "name": "LINK Mobility Spain Office (Pozuelo de Alarcón, Madrid)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Pozuelo de Alarcón",
+  "country": "Spain",
+  "address": "Vía de las Dos Castillas 33, 28224 Pozuelo de Alarcón, Madrid",
+  "geoQueries": [
+   "Vía de las Dos Castillas 33, Pozuelo de Alarcón",
+   "LINK Mobility Madrid"
+  ],
+  "approxLat": 40.401,
+  "approxLng": -3.792,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Spanish office of LINK Mobility, running the group's Iberian SMS and messaging brands (Altiria, WAUSMS).",
+  "source": "https://linkmobility.com/es/nuestras-oficinas",
+  "parentName": "Link Mobility Group Holding"
+ },
+ {
+  "name": "LINK Mobility UK Office (The Shard, London)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "London",
+  "country": "UK",
+  "address": "Level 24/25, The Shard, 32 London Bridge Street, London SE1 9SG",
+  "geoQueries": [
+   "The Shard, London",
+   "32 London Bridge Street, London SE1 9SG"
+  ],
+  "approxLat": 51.5045,
+  "approxLng": -0.0865,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "UK office of LINK Mobility, the group's business messaging operations in the United Kingdom.",
+  "source": "https://linkmobility.com/en-GB/our-offices",
+  "parentName": "Link Mobility Group Holding"
+ },
+ {
+  "name": "SoftwareOne Corporate Headquarters (Stans, Switzerland)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stans",
+  "country": "Switzerland",
+  "address": "Riedenmatt 4, 6370 Stans",
+  "geoQueries": [
+   "SoftwareOne Stans",
+   "Riedenmatt 4, 6370 Stans"
+  ],
+  "approxLat": 46.9615,
+  "approxLng": 8.372,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Registered seat and corporate headquarters of SoftwareOne Holding AG, which absorbed Oslo-based Crayon in 2025 (Oslo remains a key secondary site).",
+  "source": "https://www.softwareone.com/en-ch/media-releases/2026/01/29/crayon-transitions-to-softwareone-brand",
+  "parentName": "SoftwareOne"
+ },
+ {
+  "name": "Hemtex Headquarters (Borås)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Borås",
+  "country": "Sverige",
+  "address": "Prognosgatan 22, 504 64 Borås",
+  "geoQueries": [
+   "Hemtex Borås",
+   "Prognosgatan 22, 504 64 Borås"
+  ],
+  "approxLat": 57.73,
+  "approxLng": 12.918,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Head office of Swedish home-textile chain Hemtex AB, wholly owned by Kid ASA since 2019.",
+  "source": "https://www.allabolag.se/5561327056",
+  "parentName": "Kid"
+ },
+ {
+  "name": "Bouvet Stavanger Regional Office (Hinna Park)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stavanger",
+  "country": "Norge",
+  "address": "Laberget 28, 4020 Stavanger",
+  "geoQueries": [
+   "Laberget 28, Stavanger",
+   "Bouvet Stavanger",
+   "Hinna Park Stavanger"
+  ],
+  "approxLat": 58.9165,
+  "approxLng": 5.731,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "One of Bouvet's largest regional IT consulting offices, serving energy-sector clients in the Stavanger region.",
+  "source": "https://en.bouvet.no/about-bouvet/main-offices/stavanger",
+  "parentName": "Bouvet"
+ },
+ {
+  "name": "Bouvet Bergen Regional Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bergen",
+  "country": "Norge",
+  "address": "Solheimsgaten 15, 5058 Bergen",
+  "geoQueries": [
+   "Solheimsgaten 15, 5058 Bergen",
+   "Bouvet Bergen"
+  ],
+  "approxLat": 60.379,
+  "approxLng": 5.34,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Bouvet's Bergen IT and digital consulting office.",
+  "source": "https://en.bouvet.no/about-bouvet/main-offices/bergen",
+  "parentName": "Bouvet"
+ },
+ {
+  "name": "Bouvet Trondheim Regional Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Trondheim",
+  "country": "Norge",
+  "address": "Professor Brochs gate 14, 7030 Trondheim",
+  "geoQueries": [
+   "Professor Brochs gate 14, 7030 Trondheim",
+   "Bouvet Trondheim"
+  ],
+  "approxLat": 63.4215,
+  "approxLng": 10.4,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Bouvet's Trondheim IT and digital consulting office.",
+  "source": "https://en.bouvet.no/about-bouvet/main-offices/trondheim",
+  "parentName": "Bouvet"
+ },
+ {
+  "name": "Bouvet Sverige Office (Stockholm)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Mäster Samuelsgatan 42, 111 57 Stockholm",
+  "geoQueries": [
+   "Mäster Samuelsgatan 42, 111 57 Stockholm",
+   "Bouvet Sverige"
+  ],
+  "approxLat": 59.335,
+  "approxLng": 18.063,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of Bouvet Sverige AB, the group's Swedish IT consulting subsidiary.",
+  "source": "https://en.bouvet.no/about-bouvet/main-offices/stockholm",
+  "parentName": "Bouvet"
+ },
+ {
+  "name": "Essity Mainz-Kostheim Tissue Paper Mill",
+  "facilityType": "Mill, Smelter & Mine",
+  "city": "Mainz-Kostheim",
+  "country": "Germany",
+  "address": "Mainz-Kostheim, 55246 Mainz-Kostheim (Hesse)",
+  "geoQueries": [
+   "Essity Mainz-Kostheim",
+   "Papierfabrik Kostheim",
+   "Kostheim paper mill"
+  ],
+  "approxLat": 50.0005,
+  "approxLng": 8.302,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Essity tissue paper mill (~540 employees) producing toilet paper and kitchen towels (Zewa), recently expanded with new converting lines.",
+  "source": "https://www.paper-world.com/en/newsdetail/essity-launches-two-new-processing-lines-in-mainz-kostheim",
+  "parentName": "Essity"
+ },
+ {
+  "name": "Essity Prudhoe Tissue Mill & Paper Recycling Facility",
+  "facilityType": "Mill, Smelter & Mine",
+  "city": "Prudhoe",
+  "country": "UK",
+  "address": "Prudhoe, Northumberland NE42, UK",
+  "geoQueries": [
+   "Essity Prudhoe",
+   "Prudhoe paper mill",
+   "Prudhoe tissue mill"
+  ],
+  "approxLat": 54.964,
+  "approxLng": -1.851,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Essity tissue and towel mill in Northumberland with a new GBP 30m+ recycled-fibre facility opened in April 2026.",
+  "source": "https://www.paperage.com/2026news/02-18-2026essity-to-open-new-gbp-30-million-paper-recycling-facility-in-prudhoe-england.html",
+  "parentName": "Essity"
+ },
+ {
+  "name": "Essity Ortmann Tissue Mill",
+  "facilityType": "Mill, Smelter & Mine",
+  "city": "Pernitz-Ortmann",
+  "country": "Austria",
+  "address": "Ortmann, 2763 Pernitz, Lower Austria",
+  "geoQueries": [
+   "Essity Ortmann",
+   "Papierfabrik Ortmann",
+   "Ortmann Pernitz"
+  ],
+  "approxLat": 47.896,
+  "approxLng": 15.975,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Essity tissue mill producing toilet paper, household towels, napkins and handkerchiefs (Cosy, Tempo) for Central Europe.",
+  "source": "https://www.essityusa.com/pages/essity-by-country/austria",
+  "parentName": "Essity"
+ },
+ {
+  "name": "Essity Neenah MacMahon Drive Tissue Mill",
+  "facilityType": "Mill, Smelter & Mine",
+  "city": "Neenah",
+  "country": "USA",
+  "address": "1451 MacMahon Drive, Neenah, WI 54956",
+  "geoQueries": [
+   "1451 MacMahon Drive, Neenah",
+   "Essity Neenah"
+  ],
+  "approxLat": 44.178,
+  "approxLng": -88.464,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Essity Professional Hygiene North America tissue mill producing Tork away-from-home tissue products.",
+  "source": "https://www.paper-world.com/en/company/essity-professional-hygiene-north-america-llc-neenah-macmahon-drive-mill-neenah-2400790",
+  "parentName": "Essity"
+ },
+ {
+  "name": "Essity Barton Operations Tissue Mill (Cherokee, Alabama)",
+  "facilityType": "Mill, Smelter & Mine",
+  "city": "Cherokee",
+  "country": "USA",
+  "address": "1500 Orchard Hills Road, Cherokee, AL 35616",
+  "geoQueries": [
+   "1500 Orchard Hills Road, Cherokee",
+   "Essity Barton",
+   "Barton Mill Cherokee Alabama"
+  ],
+  "approxLat": 34.739,
+  "approxLng": -87.97,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Essity Professional Hygiene North America's Barton tissue mill and converting plant on the Tennessee River for Tork products.",
+  "source": "https://www.paper-world.com/en/company/essity-professional-hygiene-north-america-llc-barton-operations-cherokee-1653954",
+  "parentName": "Essity"
+ },
+ {
+  "name": "Evolution Riga Live Casino Studio & Game Development Hub",
+  "facilityType": "Data Center, Telecom & Cloud",
+  "city": "Riga",
+  "country": "Latvia",
+  "address": "Brīvības iela 151, Rīga, LV-1012",
+  "geoQueries": [
+   "Brīvības iela 151, Rīga",
+   "Evolution Latvia Riga"
+  ],
+  "approxLat": 56.97,
+  "approxLng": 24.145,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Evolution's original live casino studio and main hub for developing, testing and launching new live games (Evolution Latvia SIA).",
+  "source": "https://scoris.eu/company/LV/40003815611",
+  "parentName": "Evolution"
+ },
+ {
+  "name": "Evolution Tbilisi Live Casino Studio (Georgia)",
+  "facilityType": "Data Center, Telecom & Cloud",
+  "city": "Tbilisi",
+  "country": "Georgia",
+  "address": "Tbilisi, Georgia",
+  "geoQueries": [
+   "Evolution Georgia Tbilisi",
+   "Evolution Gaming Tbilisi"
+  ],
+  "approxLat": 41.7151,
+  "approxLng": 44.8271,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Evolution's largest live casino production hub, opened in 2018, streaming hundreds of live dealer tables to operators worldwide.",
+  "source": "https://www.gamingintelligence.com/markets/39265-evolution-boosts-live-dealer-capabilities-with-georgian-studio/",
+  "parentName": "Evolution"
+ },
+ {
+  "name": "Evolution Malta Live Casino Studio (Mrieħel)",
+  "facilityType": "Data Center, Telecom & Cloud",
+  "city": "Birkirkara",
+  "country": "Malta",
+  "address": "Fort Mrieħel, Mrieħel, Birkirkara, Malta",
+  "geoQueries": [
+   "Evolution Malta Mriehel",
+   "Mrieħel Birkirkara"
+  ],
+  "approxLat": 35.892,
+  "approxLng": 14.472,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "One of Evolution's three main European live casino hubs, housing international native-language dealer teams.",
+  "source": "https://igamingbusiness.com/casino-games/evolution-looking-into-malta-expansion",
+  "parentName": "Evolution"
+ },
+ {
+  "name": "Elisa Säterinportti Data Center (Espoo)",
+  "facilityType": "Data Center, Telecom & Cloud",
+  "city": "Espoo",
+  "country": "Finland",
+  "address": "Säterinkatu 2, 02600 Espoo",
+  "geoQueries": [
+   "Säterinkatu 2, 02600 Espoo",
+   "Elisa Säterinportti"
+  ],
+  "approxLat": 60.221,
+  "approxLng": 24.812,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Elisa-operated colocation and cloud data center in Leppävaara, Espoo.",
+  "source": "https://www.datacentermap.com/finland/helsinki/elisa-saterinportti-data-center-espoo",
+  "parentName": "Elisa"
+ },
+ {
+  "name": "Elisa Tapiola Data Center (Espoo)",
+  "facilityType": "Data Center, Telecom & Cloud",
+  "city": "Espoo",
+  "country": "Finland",
+  "address": "Ahertajantie 2, 02100 Espoo",
+  "geoQueries": [
+   "Ahertajantie 2, 02100 Espoo",
+   "Elisa Tapiola data center"
+  ],
+  "approxLat": 60.18,
+  "approxLng": 24.803,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Elisa-operated colocation data center in Tapiola, Espoo.",
+  "source": "https://www.datacentermap.com/finland/helsinki/elisa-tapiola-data-center-espoo/",
+  "parentName": "Elisa"
+ },
+ {
+  "name": "Elisa Lauttasaari Data Center (Helsinki)",
+  "facilityType": "Data Center, Telecom & Cloud",
+  "city": "Helsinki",
+  "country": "Finland",
+  "address": "Kiviaidankatu 2, 00210 Helsinki",
+  "geoQueries": [
+   "Kiviaidankatu 2, Helsinki",
+   "Elisa Lauttasaari"
+  ],
+  "approxLat": 60.16,
+  "approxLng": 24.882,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Elisa data center and telecom node on Lauttasaari island in Helsinki.",
+  "source": "https://baxtel.com/data-center/elisa-helsinki-lauttasaari",
+  "parentName": "Elisa"
+ },
+ {
+  "name": "Elisa Raisio Data Center (Turku region)",
+  "facilityType": "Data Center, Telecom & Cloud",
+  "city": "Raisio",
+  "country": "Finland",
+  "address": "Kuninkaanväylä 3, 20320 Raisio",
+  "geoQueries": [
+   "Kuninkaanväylä 3, 20320 Raisio",
+   "Elisa Raisio data center"
+  ],
+  "approxLat": 60.479,
+  "approxLng": 22.19,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Elisa-operated data center serving the Turku region of western Finland.",
+  "source": "https://datacentermap.com/finland/turku/elisa-raisio-data-center",
+  "parentName": "Elisa"
+ },
+ {
+  "name": "Elisa Tallinn Data Center (Elisa Eesti)",
+  "facilityType": "Data Center, Telecom & Cloud",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "address": "Adala 4, 10614 Tallinn",
+  "geoQueries": [
+   "Adala 4, 10614 Tallinn",
+   "Elisa Tallinn"
+  ],
+  "approxLat": 59.443,
+  "approxLng": 24.715,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Data center of Elisa's wholly owned Estonian operator Elisa Eesti.",
+  "source": "https://www.datacentermap.com/estonia/tallinn/elisa-tallinn/",
+  "parentName": "Elisa"
+ },
+ {
+  "name": "Pandora Gemopolis Crafting Facilities incl. Triple A (Bangkok)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Bangkok",
+  "country": "Thailand",
+  "address": "Gemopolis Industrial Estate, Prawet, Bangkok 10250",
+  "geoQueries": [
+   "Pandora Production Gemopolis",
+   "Gemopolis Industrial Estate Bangkok",
+   "Pandora Triple A Bangkok"
+  ],
+  "approxLat": 13.702,
+  "approxLng": 100.703,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Pandora's original jewellery crafting campus in the Gemopolis jewellery zone (since 2005), including the Triple A facility opened in 2018; part of Pandora Production Thailand's ~13,000-strong workforce.",
+  "source": "https://pandoragroup.com/about/crafting",
+  "parentName": "Pandora"
+ },
+ {
+  "name": "Pandora Lamphun Crafting Facility",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Lamphun",
+  "country": "Thailand",
+  "address": "Northern Region Industrial Estate, Mueang Lamphun, Lamphun 51000",
+  "geoQueries": [
+   "Pandora Production Lamphun",
+   "Northern Region Industrial Estate Lamphun"
+  ],
+  "approxLat": 18.534,
+  "approxLng": 99.056,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Pandora jewellery crafting facility near Chiang Mai, opened in 2016-17 as part of a THB 9bn capacity expansion.",
+  "source": "https://www.pandoragroup.com/about-us/craftmanship/lamphun",
+  "parentName": "Pandora"
+ },
+ {
+  "name": "Pandora Vietnam Crafting Facility (VSIP III, Binh Duong)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Tan Uyen, Binh Duong",
+  "country": "Vietnam",
+  "address": "Vietnam-Singapore Industrial Park III (VSIP III), Tan Uyen, Binh Duong Province",
+  "geoQueries": [
+   "Pandora VSIP III",
+   "VSIP III Binh Duong",
+   "Pandora Production Vietnam"
+  ],
+  "approxLat": 11.17,
+  "approxLng": 106.74,
+  "coordsExact": false,
+  "footprintRadiusMeters": 350,
+  "description": "Pandora's ~USD 150m LEED crafting facility, its first outside Thailand and billed as the world's largest fine-jewellery crafting facility.",
+  "source": "https://vir.com.vn/pandora-opens-worlds-largest-fine-jewellery-crafting-facility-162001.html",
+  "parentName": "Pandora"
+ },
+ {
+  "name": "NCAB Group China Sourcing & Factory Management Office (Shenzhen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Shenzhen",
+  "country": "China",
+  "address": "Chiwan Tower, No. 8 Chiwan 6th Road, Nanshan (Qianhai & Shekou FTZ), Shenzhen 518067",
+  "geoQueries": [
+   "Chiwan Tower Shenzhen",
+   "No. 8 Chiwan 6th Road, Shenzhen",
+   "NCAB Group Shenzhen"
+  ],
+  "approxLat": 22.485,
+  "approxLng": 113.889,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "NCAB's Shenzhen hub running factory management, quality control and PCB sourcing from its Chinese partner factories.",
+  "source": "https://www.electronics.org/member-directory?page=320",
+  "parentName": "NCAB Group"
+ },
+ {
+  "name": "NCAB Group USA Office (Hampstead, New Hampshire)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Hampstead",
+  "country": "USA",
+  "address": "10 Starwood Drive, Hampstead, NH 03841",
+  "geoQueries": [
+   "10 Starwood Drive, Hampstead, NH",
+   "NCAB Group USA Hampstead"
+  ],
+  "approxLat": 42.876,
+  "approxLng": -71.172,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of NCAB Group USA, the PCB supplier's North American subsidiary.",
+  "source": "https://www.electronics.org/member-directory?page=320",
+  "parentName": "NCAB Group"
+ },
+ {
+  "name": "Pexip UK Office (Thames Valley Park, Reading)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Reading",
+  "country": "UK",
+  "address": "NOW Building, Thames Valley Drive, Thames Valley Park, Reading RG6 1RB",
+  "geoQueries": [
+   "Thames Valley Park, Reading RG6 1RB",
+   "Pexip Reading"
+  ],
+  "approxLat": 51.461,
+  "approxLng": -0.931,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of Pexip Ltd., the video-conferencing software company's UK subsidiary.",
+  "source": "https://pexip.com/contact",
+  "parentName": "Pexip Holding"
+ },
+ {
+  "name": "Pexip Americas Office (Herndon, Virginia)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Herndon",
+  "country": "USA",
+  "address": "13461 Sunrise Valley Drive, Suite 160, Herndon, VA 20171",
+  "geoQueries": [
+   "13461 Sunrise Valley Drive, Herndon",
+   "Pexip Herndon"
+  ],
+  "approxLat": 38.952,
+  "approxLng": -77.41,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Pexip's US office near Washington DC, serving government and enterprise customers in the Americas.",
+  "source": "https://pexip.com/contact",
+  "parentName": "Pexip Holding"
+ },
+ {
+  "name": "Pexip Sweden Office (Hägersten, Stockholm)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Hägersten",
+  "country": "Sverige",
+  "address": "Tellusgången 1, 126 26 Hägersten",
+  "geoQueries": [
+   "Tellusgången 1, Hägersten",
+   "Pexip Stockholm"
+  ],
+  "approxLat": 59.299,
+  "approxLng": 17.995,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Pexip's Swedish office in Stockholm.",
+  "source": "https://pexip.com/contact",
+  "parentName": "Pexip Holding"
+ },
+ {
+  "name": "Pexip APAC Office (North Sydney)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "North Sydney",
+  "country": "Australia",
+  "address": "Level 4, Suite 3, 50 Berry Street, North Sydney NSW 2060",
+  "geoQueries": [
+   "50 Berry Street, North Sydney",
+   "Pexip Sydney"
+  ],
+  "approxLat": -33.839,
+  "approxLng": 151.208,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Pexip's Australian office for the Asia-Pacific region.",
+  "source": "https://pexip.com/contact",
+  "parentName": "Pexip Holding"
+ },
+ {
+  "name": "Thule Huta Szklana Factory (Poland)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Huta Szklana (Krzyż Wielkopolski)",
+  "country": "Poland",
+  "address": "Huta Szklana 91, 64-761 Krzyż Wielkopolski",
+  "geoQueries": [
+   "Thule Huta Szklana",
+   "Huta Szklana 91, 64-761",
+   "Thule Sp. z o.o."
+  ],
+  "approxLat": 52.965,
+  "approxLng": 16.03,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Thule's largest European production and assembly plant (Thule Sp. z o.o.), operating for some two decades and making carriers and racks.",
+  "source": "https://www.oicompass.com/the-thule-group-has-opened-a-new-assembly-facility-of-/61832.article",
+  "parentName": "Thule Group"
+ },
+ {
+  "name": "Thule Piła Assembly Plant (Poland)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Piła",
+  "country": "Poland",
+  "address": "Pomeranian Special Economic Zone, Piła subzone, 64-920 Piła",
+  "geoQueries": [
+   "Thule Piła",
+   "Thule Group Piła"
+  ],
+  "approxLat": 53.15,
+  "approxLng": 16.74,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "13,500 m2 Thule assembly facility opened in January 2018 (SEK 80m investment) in the Piła special economic subzone.",
+  "source": "https://bicycleretailer.com/international/2018/01/17/thule-opens-new-factory-poland",
+  "parentName": "Thule Group"
+ },
+ {
+  "name": "Thule Americas HQ & Assembly Plant (Seymour, Connecticut)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Seymour",
+  "country": "USA",
+  "address": "42 Silvermine Road, Seymour, CT 06483",
+  "geoQueries": [
+   "42 Silvermine Road, Seymour, CT",
+   "Thule Seymour"
+  ],
+  "approxLat": 41.378,
+  "approxLng": -73.087,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Thule's North American headquarters with fabrication and assembly of roof racks and carriers.",
+  "source": "https://connecticut.news12.com/made-in-connecticut-thule",
+  "parentName": "Thule Group"
+ },
+ {
+  "name": "Framery North America Factory & Logistics Center (Zeeland, Michigan)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Zeeland",
+  "country": "USA",
+  "address": "Zeeland, MI 49464",
+  "geoQueries": [
+   "Framery Zeeland",
+   "Framery Michigan"
+  ],
+  "approxLat": 42.8125,
+  "approxLng": -86.0187,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Framery's US logistics center being converted (2026-27) into a factory making the Gradus pod line for the US and Canadian markets.",
+  "source": "https://www.wgvunews.org/news/2026-04-27/finnish-furniture-maker-converting-site-in-zeeland-for-manufacturing-plant",
+  "parentName": "Framery Group"
+ },
+ {
+  "name": "Jøtul Wrocław Stove Manufacturing Plant (Poland)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Wrocław",
+  "country": "Poland",
+  "address": "Wrocław, Poland",
+  "geoQueries": [
+   "Jøtul Polska Wrocław",
+   "Jotul Wroclaw"
+  ],
+  "approxLat": 51.1079,
+  "approxLng": 17.0385,
+  "coordsExact": false,
+  "footprintRadiusMeters": 300,
+  "description": "Jøtul group assembly and manufacturing plant for wood stoves and fireplaces, officially opened in February 2020 after moving labour-intensive work from Norway and Denmark.",
+  "source": "https://mynewsdesk.com/no/joetul-as/pressreleases/official-opening-of-joetul-groups-new-manufacturing-facility-in-wroclaw-poland-2976608",
+  "parentName": "Recovery Holdco"
+ },
+ {
+  "name": "Jøtul North America HQ & Stove Plant (Gorham, Maine)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Gorham",
+  "country": "USA",
+  "address": "55 Hutcherson Drive, Gorham, ME 04038",
+  "geoQueries": [
+   "Jotul North America Gorham",
+   "55 Hutcherson Drive, Gorham, ME"
+  ],
+  "approxLat": 43.696,
+  "approxLng": -70.41,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Jøtul's North American headquarters and plant where ~90 employees assemble about 20,000 wood and gas stoves a year.",
+  "source": "https://www.jotul.com/press-release/jotul-north-america-expands-operation-include-wood-stove-production",
+  "parentName": "Recovery Holdco"
+ },
+ {
+  "name": "Genexis Netherlands HQ & R&D (Eindhoven)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "address": "Achtseweg Zuid 179C, 5651 GW Eindhoven",
+  "geoQueries": [
+   "Achtseweg Zuid 179, Eindhoven",
+   "Genexis Eindhoven"
+  ],
+  "approxLat": 51.428,
+  "approxLng": 5.432,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "Co-headquarters of Genexis (Inteno Group), developing fibre-to-the-home CPE, gateways and Wi-Fi equipment.",
+  "source": "https://genexis.eu/contact/",
+  "parentName": "Inteno Group"
+ },
+ {
+  "name": "Genexis Finland Office (Vaasa)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Vaasa",
+  "country": "Finland",
+  "address": "Yrittäjänkatu 12, 65380 Vaasa",
+  "geoQueries": [
+   "Yrittäjänkatu 12, 65380 Vaasa",
+   "Genexis Vaasa"
+  ],
+  "approxLat": 63.075,
+  "approxLng": 21.66,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of Genexis Finland Oy Ab, Inteno Group's Finnish broadband-equipment subsidiary.",
+  "source": "https://genexis.eu/contact/",
+  "parentName": "Inteno Group"
+ },
+ {
+  "name": "Genexis Germany Office (Königswinter)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Königswinter",
+  "country": "Germany",
+  "address": "Eduard-Rhein-Straße 58, 53639 Königswinter",
+  "geoQueries": [
+   "Eduard-Rhein-Straße 58, Königswinter",
+   "Genexis Germany"
+  ],
+  "approxLat": 50.68,
+  "approxLng": 7.2,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of Genexis Germany GmbH, serving German fibre operators with home gateways.",
+  "source": "https://genexis.eu/contact/",
+  "parentName": "Inteno Group"
+ },
+ {
+  "name": "Genexis Broadband UK Office (Warwick)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Warwick",
+  "country": "UK",
+  "address": "1 Chapel Street, Warwick CV34 4HL",
+  "geoQueries": [
+   "Chapel Street, Warwick CV34 4HL",
+   "Genexis Warwick"
+  ],
+  "approxLat": 52.283,
+  "approxLng": -1.582,
+  "coordsExact": false,
+  "footprintRadiusMeters": 120,
+  "description": "Office of Genexis Broadband UK Ltd, Inteno Group's UK broadband-equipment subsidiary.",
+  "source": "https://genexis.eu/contact/",
+  "parentName": "Inteno Group"
+ },
+ {
+  "name": "Red Lion Controls HQ & Plant (York, Pennsylvania)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "York",
+  "country": "USA",
+  "address": "1750 5th Avenue, York, PA 17403",
+  "geoQueries": [
+   "Red Lion Controls York",
+   "1750 5th Avenue, York, PA 17403"
+  ],
+  "approxLat": 39.945,
+  "approxLng": -76.702,
+  "coordsExact": false,
+  "footprintRadiusMeters": 250,
+  "description": "Home of Red Lion Controls (acquired by HMS in 2024), maker of industrial HMIs, data-acquisition devices and industrial Ethernet switches.",
+  "source": "https://www.hms-networks.com/all-contacts",
+  "parentName": "HMS Networks"
+ },
+ {
+  "name": "HMS Ewon Development Center (Nivelles)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Nivelles",
+  "country": "Belgium",
+  "address": "22 Avenue Robert Schuman, 1400 Nivelles",
+  "geoQueries": [
+   "Ewon Nivelles",
+   "22 Avenue Robert Schuman, 1400 Nivelles"
+  ],
+  "approxLat": 50.605,
+  "approxLng": 4.342,
+  "coordsExact": false,
+  "footprintRadiusMeters": 180,
+  "description": "HMS product development site for the Ewon remote-access and industrial IIoT router brand.",
+  "source": "https://www.hms-networks.com/all-contacts",
+  "parentName": "HMS Networks"
+ },
+ {
+  "name": "PEAK-System Technik Development Site (Darmstadt)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Darmstadt",
+  "country": "Germany",
+  "address": "Leydheckerstraße 10, 64293 Darmstadt",
+  "geoQueries": [
+   "PEAK-System Darmstadt",
+   "Leydheckerstraße 10, 64293 Darmstadt"
+  ],
+  "approxLat": 49.883,
+  "approxLng": 8.645,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "HMS-owned PEAK-System, developer of CAN-bus interfaces and automotive diagnostic tools.",
+  "source": "https://www.hms-networks.com/all-contacts",
+  "parentName": "HMS Networks"
+ },
+ {
+  "name": "HMS Ixxat Development Center (Ravensburg)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Ravensburg",
+  "country": "Germany",
+  "address": "Helmut-Vetter-Straße 2, 88213 Ravensburg",
+  "geoQueries": [
+   "Helmut-Vetter-Straße 2, Ravensburg",
+   "HMS Ixxat Ravensburg"
+  ],
+  "approxLat": 47.79,
+  "approxLng": 9.62,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "HMS product development site for Ixxat CAN and industrial communication products.",
+  "source": "https://www.hms-networks.com/all-contacts",
+  "parentName": "HMS Networks"
+ },
+ {
+  "name": "HMS Intesis Development Center (Igualada)",
+  "facilityType": "R&D, Biotech & Medtech Lab",
+  "city": "Igualada",
+  "country": "Spain",
+  "address": "c/ Milà i Fontanals 7, 08700 Igualada",
+  "geoQueries": [
+   "Intesis Igualada",
+   "Carrer Milà i Fontanals 7, Igualada"
+  ],
+  "approxLat": 41.58,
+  "approxLng": 1.618,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "HMS product development site for Intesis building-automation and HVAC protocol gateways.",
+  "source": "https://www.hms-networks.com/all-contacts",
+  "parentName": "HMS Networks"
+ },
+ {
+  "name": "Olís Headquarters & Fuel Distribution Base (Skútuvogur, Reykjavík)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Reykjavík",
+  "country": "Island",
+  "address": "Skútuvogur 5, 104 Reykjavík",
+  "geoQueries": [
+   "Olís Skútuvogur",
+   "Skútuvogur 5, 104 Reykjavík"
+  ],
+  "approxLat": 64.136,
+  "approxLng": -21.853,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Head office of Olís ehf, Hagar's wholly owned fuel and service-station chain.",
+  "source": "https://www.olis.is/",
+  "parentName": "Hagar"
+ },
+ {
+  "name": "SMS Head Office & Miklagarður Retail (Tórshavn)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Tórshavn",
+  "country": "Færøyene",
+  "address": "Trapputrøð 100, 100 Tórshavn",
+  "geoQueries": [
+   "SMS Tórshavn",
+   "Trapputrøð, Tórshavn",
+   "Miklagarður SMS"
+  ],
+  "approxLat": 62.017,
+  "approxLng": -6.782,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Base of SMS, the Faroese grocery and retail group (Miklagarður, Bónus Faroes) acquired by Hagar.",
+  "source": "https://en.wikipedia.org/wiki/Hagar_(company)",
+  "parentName": "Hagar"
+ }
+]

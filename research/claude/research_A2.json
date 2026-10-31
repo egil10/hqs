@@ -1,0 +1,363 @@
+[
+  {
+    "parentName": "Hoist Finance",
+    "name": "Hoist Italia Head Office Rome",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Roma",
+    "country": "Italy",
+    "address": "Via Flaminia 133, 00196 Roma",
+    "geoQueries": [
+      "Hoist Italia",
+      "Via Flaminia 133, 00196 Roma"
+    ],
+    "approxLat": 41.9262,
+    "approxLng": 12.4692,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Hoist Italia Srl, Hoist Finance's Italian credit management subsidiary, one of the group's largest markets.",
+    "source": "https://atoka.io/public/it/azienda/hoist-italia-srl/1110e3a5dc48"
+  },
+  {
+    "parentName": "Hoist Finance",
+    "name": "Hoist Finance Shared Service Center Wrocław",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Wrocław",
+    "country": "Poland",
+    "address": "ul. Powstańców Śląskich 9, 53-332 Wrocław",
+    "geoQueries": [
+      "Hoist Finance Wrocław",
+      "Powstańców Śląskich 9, 53-332 Wrocław"
+    ],
+    "approxLat": 51.0985,
+    "approxLng": 17.022,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Hoist Finance's Polish branch and group shared service center providing finance, IT and operational support to the entire group.",
+    "source": "https://int.hoistfinance.com/about-us/shared-service-center/"
+  },
+  {
+    "parentName": "ABG Sundal Collier",
+    "name": "ABG Sundal Collier Stockholm Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Regeringsgatan 25, 111 53 Stockholm",
+    "geoQueries": [
+      "ABG Sundal Collier Stockholm",
+      "Regeringsgatan 25, 111 53 Stockholm"
+    ],
+    "approxLat": 59.3343,
+    "approxLng": 18.0703,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "ABG Sundal Collier's Swedish investment banking, equity sales and research office, the group's second-largest after Oslo.",
+    "source": "https://www.abgsc.com/contact"
+  },
+  {
+    "parentName": "ABG Sundal Collier",
+    "name": "ABG Sundal Collier Copenhagen Office (Nordhavn)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "København",
+    "country": "Danmark",
+    "address": "Göteborg Plads 1, 2150 Nordhavn, København",
+    "geoQueries": [
+      "ABG Sundal Collier Copenhagen",
+      "Göteborg Plads 1, 2150 Nordhavn"
+    ],
+    "approxLat": 55.7078,
+    "approxLng": 12.5948,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "ABG Sundal Collier's Danish investment banking and brokerage office in Copenhagen's Nordhavn district.",
+    "source": "https://www.abgsc.com/contact"
+  },
+  {
+    "parentName": "Axactor",
+    "name": "Axactor Germany Office Heidelberg",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Heidelberg",
+    "country": "Germany",
+    "address": "Emil-Gumbel-Straße 3, 69126 Heidelberg",
+    "geoQueries": [
+      "Axactor Heidelberg",
+      "Emil-Gumbel-Straße 3, 69126 Heidelberg"
+    ],
+    "approxLat": 49.3812,
+    "approxLng": 8.6885,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Axactor Germany GmbH, Axactor's German debt collection and NPL servicing operation.",
+    "source": "https://www.axactor.com/en-de/contact-us"
+  },
+  {
+    "parentName": "Axactor",
+    "name": "Axactor Sweden Office Göteborg",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "Nordstadstorget 6, 411 05 Göteborg",
+    "geoQueries": [
+      "Axactor Sweden Göteborg",
+      "Nordstadstorget 6, 411 05 Göteborg"
+    ],
+    "approxLat": 57.7093,
+    "approxLng": 11.969,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Axactor Sweden AB, the group's Swedish debt purchasing and collection operation.",
+    "source": "https://www.axactor.com/en-se/about-us/career/open-application"
+  },
+  {
+    "parentName": "Eastnine",
+    "name": "Eastnine S7 Office Park Vilnius (Žvėrynas)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "address": "Saltoniškių g. 7, Vilnius, Lithuania",
+    "geoQueries": [
+      "S7 Saltoniškių 7 Vilnius",
+      "Saltoniškių g. 7, Vilnius"
+    ],
+    "approxLat": 54.6955,
+    "approxLng": 25.261,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Three-building S7 office complex (S7-1 to S7-3) in Vilnius's Žvėrynas business district, wholly owned by Eastnine.",
+    "source": "https://www.eastnine.com/en/press/eastnine-takes-possession-s7-3-property-vilnius-1821407"
+  },
+  {
+    "parentName": "Eastnine",
+    "name": "Eastnine 3Burės Office Complex Vilnius",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "address": "Lvivo g. 25, LT-09320 Vilnius, Lithuania",
+    "geoQueries": [
+      "3 Burės Vilnius",
+      "3Burės verslo centras",
+      "Lvivo g. 25, Vilnius"
+    ],
+    "approxLat": 54.6955,
+    "approxLng": 25.276,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Eastnine's 3Burės office towers in the Vilnius CBD north of the Neris River, owned since 2014 with a further building developed in 2018.",
+    "source": "https://www.eastnine.com/en/properties-vilnius"
+  },
+  {
+    "parentName": "Eastnine",
+    "name": "Eastnine Uniq Office Building Vilnius",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "address": "A. Goštauto g. 12A, Vilnius, Lithuania",
+    "geoQueries": [
+      "Uniq Vilnius",
+      "A. Goštauto g. 12A, Vilnius"
+    ],
+    "approxLat": 54.6887,
+    "approxLng": 25.2712,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "6,900 sqm UNIQ office building between Vilnius old town and the business district, acquired by Eastnine in 2021 and leased to Danske Bank's IT service centre.",
+    "source": "https://europe-re.com/eastnine-acquires-35-5m-office-portfolio-in-the-baltics/69078"
+  },
+  {
+    "parentName": "Reitir",
+    "name": "Kringlan Shopping Centre (Reitir Flagship)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Reykjavík",
+    "country": "Island",
+    "address": "Kringlan 4-12, 103 Reykjavík",
+    "geoQueries": [
+      "Kringlan",
+      "Kringlan 4-12, 103 Reykjavík"
+    ],
+    "approxLat": 64.13,
+    "approxLng": -21.8945,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Iceland's largest indoor shopping centre (~32,000 sqm), Reitir's flagship asset, where Reitir is also leading the Kringlureitur residential redevelopment.",
+    "source": "https://reykjavik.is/frettir/2025/fyrsti-afangi-uppbyggingar-kringlusvaedinu"
+  },
+  {
+    "parentName": "Reitir",
+    "name": "Hilton Reykjavik Nordica Hotel Property",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Reykjavík",
+    "country": "Island",
+    "address": "Suðurlandsbraut 2, 108 Reykjavík",
+    "geoQueries": [
+      "Hilton Reykjavik Nordica",
+      "Suðurlandsbraut 2, 108 Reykjavík"
+    ],
+    "approxLat": 64.1395,
+    "approxLng": -21.8775,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "13,750 sqm hotel and conference property owned by Reitir and operated as the Hilton Reykjavik Nordica.",
+    "source": "https://www.eoi.at/wp-content/uploads/2018/09/2010_annual_reportEN1.pdf"
+  },
+  {
+    "parentName": "Heimar",
+    "name": "Egilshöll Sports & Entertainment Complex (Heimar)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Reykjavík",
+    "country": "Island",
+    "address": "Fossaleynir 1, 112 Reykjavík",
+    "geoQueries": [
+      "Egilshöll",
+      "Fossaleynir 1, 112 Reykjavík"
+    ],
+    "approxLat": 64.146,
+    "approxLng": -21.7745,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Large indoor sports, cinema and leisure complex in Grafarvogur owned by Heimar, BREEAM In-Use recertified in 2026.",
+    "source": "https://storage.mfn.se/e0c8a26e-a26b-4c36-8376-8b8f04043ba0/heimar-hf-tilkynning-um-uppgjor-1f-2026.pdf"
+  },
+  {
+    "parentName": "John Mattson Fastighetsföretagen",
+    "name": "John Mattson Larsberg Residential District (Lidingö)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Lidingö",
+    "country": "Sverige",
+    "address": "Larsbergsvägen 10, Lidingö",
+    "geoQueries": [
+      "Larsberg, Lidingö",
+      "Larsbergsvägen 10, Lidingö"
+    ],
+    "approxLat": 59.353,
+    "approxLng": 18.184,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Large rental housing district built 1965-1973 by John Mattson as developer and still its core holding, with a local management office at Larsbergsvägen 10.",
+    "source": "https://lidingo.se/download/18.416ed2b3191713181ab986/1724830309900/06%20Baggeby%20och%20Larsberg%20stadsdel.pdf"
+  },
+  {
+    "parentName": "John Mattson Fastighetsföretagen",
+    "name": "John Mattson Käppala Residential District (Lidingö)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Lidingö",
+    "country": "Sverige",
+    "address": "Käppala, Lidingö",
+    "geoQueries": [
+      "Käppala, Lidingö",
+      "Käppalavägen, Lidingö"
+    ],
+    "approxLat": 59.356,
+    "approxLng": 18.215,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Rental apartment area in eastern Lidingö forming part of John Mattson's core residential portfolio.",
+    "source": "https://www.affarsvarlden.se/analys/john-mattson-vaxer-sig-storre"
+  },
+  {
+    "parentName": "Magnora Data Center",
+    "name": "Storespeed Halden DC01 Colocation Data Center",
+    "facilityType": "Data Center, Telecom & Cloud",
+    "city": "Halden",
+    "country": "Norge",
+    "address": "Violgata 8, 1776 Halden",
+    "geoQueries": [
+      "Storespeed Halden",
+      "Violgata 8, 1776 Halden"
+    ],
+    "approxLat": 59.124,
+    "approxLng": 11.387,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Operating ~1 MW colocation data center (scalable to 5 MW) run by Storespeed AS, majority (~75%) owned by Magnora Data Center with Blix Group.",
+    "source": "https://www.datacentermap.com/norway/halden/halden-dc01/"
+  },
+  {
+    "parentName": "Magnora Data Center",
+    "name": "Magnora/Blix Nedre Rommen 5 AI & Edge Data Center (Oslo)",
+    "facilityType": "Data Center, Telecom & Cloud",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Nedre Rommen 5, 0988 Oslo",
+    "geoQueries": [
+      "Nedre Rommen 5, 0988 Oslo",
+      "Nedre Rommen 5 Oslo"
+    ],
+    "approxLat": 59.964,
+    "approxLng": 10.9035,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Former bank payment-processing facility being converted by Magnora Data Center (75%) and Blix Group into a liquid-cooled AI/edge data center, 1 MW initially scalable to ~9 MW.",
+    "source": "https://baxtel.com/data-center/magnora-nedre-rommen-5"
+  },
+  {
+    "parentName": "Intrum",
+    "name": "Intrum Global Technologies IT Hub Riga",
+    "facilityType": "Data Center, Telecom & Cloud",
+    "city": "Riga",
+    "country": "Latvia",
+    "address": "Ieriķu iela 5, LV-1084 Riga",
+    "geoQueries": [
+      "Intrum Global Technologies Riga",
+      "Ieriķu iela 5, Rīga"
+    ],
+    "approxLat": 56.96,
+    "approxLng": 24.183,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Intrum's IT centre of excellence building and supporting the group-wide IT platform used across its European markets.",
+    "source": "https://www.intrum.com/intrum-global-technologies/contact-us/riga-latvia/"
+  },
+  {
+    "parentName": "Intrum",
+    "name": "Intrum Spain Office & Technology Hub Madrid (Parque Empresarial Cristalia)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Madrid",
+    "country": "Spain",
+    "address": "Calle Vía de los Poblados 3, Edificio 1, 28033 Madrid",
+    "geoQueries": [
+      "Parque Empresarial Cristalia",
+      "Calle Vía de los Poblados 3, 28033 Madrid"
+    ],
+    "approxLat": 40.464,
+    "approxLng": -3.6175,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Intrum's main Spanish office and Intrum Global Technologies hub serving its large Spanish credit management and real-estate servicing business.",
+    "source": "https://intrum.com/intrum-global-technologies/contact-us/madrid-malaga"
+  },
+  {
+    "parentName": "Catella",
+    "name": "Catella Real Estate AG Property Funds HQ (Alter Hof, Munich)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "München",
+    "country": "Germany",
+    "address": "Alter Hof 5, 80331 München",
+    "geoQueries": [
+      "Catella Real Estate AG",
+      "Alter Hof 5, 80331 München"
+    ],
+    "approxLat": 48.1386,
+    "approxLng": 11.5781,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Catella Real Estate AG, Catella's German property fund management company (KVG) managing open-ended real estate funds.",
+    "source": "https://catella.com/en/germany/property-funds/about-us/creag/legal-notice"
+  },
+  {
+    "parentName": "Catella",
+    "name": "Catella Investment Management Holding & Residential IM Office (Upper West, Berlin)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Berlin",
+    "country": "Germany",
+    "address": "Upper West, Kantstraße 164, 10623 Berlin",
+    "geoQueries": [
+      "Upper West Berlin",
+      "Kantstraße 164, 10623 Berlin"
+    ],
+    "approxLat": 52.5055,
+    "approxLng": 13.3298,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Office of Catella Investment Management Holding and Catella Residential Investment Management GmbH in Berlin's Upper West tower.",
+    "source": "https://www.catella.com/en/germany/property-funds/about-us/cim-holding/legal-notice"
+  }
+]
