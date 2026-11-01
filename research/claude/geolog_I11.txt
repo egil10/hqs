@@ -1,0 +1,10 @@
+NOGEO   Appear | Appear US Inc Americas Office (Woodland Hills, Los Angeles)
+OK      Appear | Appear EMEA Office (Stockholm) | Olof Palmes gata 11, 111 37 Stockholm -> place/house 11, Olof Palmes Gata, Norrmalm, Norra innerstadens stadsdelsområde, St
+OK      Appear | Appear Ltd Southampton Office (University of Southampton Science Park) | 5 Benham Road, Chilworth, Southampton SO16 7QJ -> building/office 5, Benham Road, Chilworth Old Village, Chilworth, Rownhams, Southampto
+NOGEO   Framery | Framery US Factory (Zeeland, Michigan)
+OK      cBrain | cBrain Berlin Office (Stresemannstrasse) | Stresemannstraße 123C, 10963 Berlin -> place/house 123C, Stresemannstraße, Friedrichstadt, Mitte, Berlin, 10963, Deutschl
+OK      Gjensidige Forsikring | Gjensidige Sverige Stockholm Office (Kungsgatan) | Kungsgatan 47, 111 56 Stockholm -> place/house 47, Kungsgatan, Klara, Norrmalm, Norra innerstadens stadsdelsområde, S
+OK      NTG Nordic Transport | DTK Padborg Headquarters & Terminal (Hermesvej) | Hermesvej 18, 6330 Padborg -> place/house 18, Hermesvej, Toftemade, Bov, Padborg, Aabenraa Kommune, Region Sydda
+OK      NTG Nordic Transport | NTG Neptun Transport Hvidovre Office & Warehouse (Avedoreholmen) | Avedøreholmen 72, 2650 Hvidovre -> place/house 72, Avedøreholmen, Avedøre Holme, Hvidovre Kommune, Region Hovedstaden
+OK      NTG Nordic Transport | SCHMALZ+SCHON Logistics Fellbach Headquarters (Ringstrasse) | Schmalz+Schön Fellbach -> building/warehouse Schmalz+Schön Logistik-Gruppe, 73, Ringstraße, Fellbach, Rems-Murr-Kre
+OK      NTG Nordic Transport | SCHMALZ+SCHON Logistics Bautzen Logistics Centre (Bloaschutz) | Philipp-Reis-Straße 18, 02625 Bautzen -> building/industrial Schmalz + Schön Logistics, 18, Philipp-Reis-Straße, Bloaschütz - Błoha

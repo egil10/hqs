@@ -1,0 +1,15 @@
+OK      Nedhalia Topco | Visma e-conomic Copenhagen Office (Carlsberg Byen) | Visma e-conomic Copenhagen -> office/company Visma e-conomic, Ny Carlsberg Vej, Humleby, Den Gule By, Carlsberg Bye
+OK      Nedhalia Topco | Visma Tech Lietuva Vilnius Development Hub (Artery) | Konstitucijos pr. 18B, Vilnius -> building/office Artery, 18B, Konstitucijos pr., Piromontas, Šnipiškių seniūnija, Vilni
+OK      Nedhalia Topco | Visma Software Timisoara Development Office (Openville UBC 3) | United Business Center 3 Timisoara -> building/commercial United Business Center 3, 2E, Piața Consiliul Europei, Antene, Lipovei
+OK      Avarda Bank | Avarda Bank Borås Head Office | Lilla Brogatan 6, 503 30 Borås -> place/house 6, Lilla Brogatan, Druvefors, Borås, Borås kommun, Västra Götalands lä
+OK      Avarda Bank | Avarda Bank Gdańsk Branch Office | Grunwaldzka 103A, 80-244 Gdańsk -> building/office Centrum Biurowe Neptun, 103A, Aleja Grunwaldzka, Strzyża Dolna, Wrzesz
+NOGEO   Salmon Evolution | Salmon Evolution Dale Smolt Facility (Dalsbygda, Volda)
+OK      Salmon Evolution | Salmon Evolution Sales Office Ålesund | Rasmus Rønnebergs gate 21, 6002 Ålesund -> place/house 21, Rasmus Rønnebergs gate, Slinningen, Ålesund, Møre og Romsdal, 6002
+NOGEO   Europris | ÖoB Head Office Skänninge
+OK      Electrolux Professional | Electrolux Professional Vallenoncello Pordenone Plant | Electrolux Professional Vallenoncello -> man_made/works Electrolux Professional, Viale Treviso, Noncello, Vallenoncello, Porde
+NOGEO   Electrolux Professional | Electrolux Professional Spilamberto Plant
+NOGEO   Electrolux Professional | Electrolux Professional Sursee Production Unit
+NOGEO   Electrolux Professional | Electrolux Professional Rayong Production Unit
+NOGEO   Reitir | Hótel Borg Historic Hotel Property
+NOGEO   Reitir | Korputún Business Area (Korputorg)
+OK      Reitir | Holtagarðar Commercial Property Complex | Holtavegur 10, 104 Reykjavík -> place/house 10, Holtavegur, Sundahöfn, Laugardalur, Reykjavíkurborg, Höfuðborgarsv

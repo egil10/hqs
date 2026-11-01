@@ -1,0 +1,22 @@
+NOGEO   Stendörren Fastigheter | Stendörren Brunna Logistics Park (Symmetrivägen 9-11)
+NOGEO   Stendörren Fastigheter | Stendörren Jursta Logistics Property (Jurstagårdsvägen 1, Bro)
+NOGEO   Stendörren Fastigheter | Stendörren Elementet 1 Ulvsunda (Hedin Bil, Bromma)
+OK      Sentia | HENT Oslo Regional Office (Lysaker) | Oksenøyveien 10, 1366 Lysaker -> place/house 10, Oksenøyveien, Boligsameiet Fornebuporten 1, Lysaker mølle, Lysaker
+OK      Sentia | HENT Bergen Regional Office | Inger Bang Lunds vei 14, 5059 Bergen -> place/house 14, Inger Bang Lunds vei, Kronstadparken, Kronstad, Årstad, Bergen, Ve
+OK      Sentia | HENT Bodø Regional Office | Klinkerveien 8, 8006 Bodø -> place/house 8, Klinkerveien, Rønvik industripark, Reinsletta, Kirkhaugen, Rønvik, 
+NOGEO   Savox Communications | Savox Savonlinna Factory
+NOGEO   RaySearch Laboratories | RaySearch Americas Office (New York)
+OK      RaySearch Laboratories | RaySearch Americas West Coast Office (Santa Clara) | 2445 Augustine Drive, Santa Clara, CA 95054 -> place/house 2445, Augustine Drive, Santa Clara, Santa Clara County, California, 95
+OK      RaySearch Laboratories | RaySearch Belgium Office (Hasselt) | Kempische Steenweg 303, 3500 Hasselt -> building/industrial Corda 6A, 303, Kempische Steenweg, Heksenberg, Banneux, Hasselt, Heusd
+OK      RaySearch Laboratories | RaySearch Germany Office (Berlin) | Zimmerstraße 23, 10969 Berlin -> place/house 23, Zimmerstraße, Friedrichstadt, Mitte, Berlin, 10969, Deutschland
+OK      Sagax | Sagax Finland Helsinki Office | Keskuskatu 6, 00100 Helsinki -> place/house 6, Keskuskatu, Keskusta, Kluuvi, Eteläinen suurpiiri, Helsinki, Helsin
+OK      Sagax | Sagax Denmark Copenhagen Office | Indiakaj 1, 2100 København Ø -> place/house 1, Indiakaj, Nyboder, Østerbro, København, Københavns Kommune, Region 
+OK      Sagax | Sagax Germany Frankfurt Office (Oper46) | Bockenheimer Anlage 46, 60322 Frankfurt -> building/office 46, Bockenheimer Anlage, Westend Süd, Innenstadt 2, Frankfurt am Main,
+OK      Sagax | Sagax France Paris Office | 2 Place de la Madeleine, 75008 Paris -> place/house 2, Place de la Madeleine, Quartier de la Madeleine, Paris 8e Arrondiss
+OK      Sagax | Sagax Nederland Rotterdam Office | Weena 738, 3014 DA Rotterdam -> place/house 738A, Weena, Chinatown, Oude Westen, Centrum, Rotterdam, Zuid-Holland,
+OK      Sagax | Sagax Spain Barcelona Office | Carrer del Mestre Nicolau 19 Barcelona -> place/house 19, Carrer del Mestre Nicolau, Galvany, Sant Gervasi - Galvany, Sarrià
+OK      BTS | BTS US-West Office (San Francisco) | 222 Kearny St, San Francisco, CA 94108 -> building/yes 222, Kearny Street, Union Square, Financial District, San Francisco, C
+OK      BTS | BTS US-East Office (New York) | 350 Fifth Avenue, New York, NY 10118 -> place/house 350, 5th Avenue, North Pelham, Village of Pelham, Town of Pelham, West
+NOGEO   BTS | BTS London Office (Hammersmith)
+OK      BTS | BTS Germany Office (Cologne) | Im Mediapark 6b, 50670 Köln -> place/house 6b, Im Mediapark, Mediapark, Neustadt/Nord, Innenstadt, Köln, Nordrhei
+OK      BTS | BTS Singapore Office | 1 Finlayson Green, Singapore 049246 -> building/office One Finlayson Green, 1, Finlayson Green, Golden Shoe, Civic District, 

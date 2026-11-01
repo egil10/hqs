@@ -1,0 +1,13 @@
+OK      Xvivo Perfusion | XVIVO Lund Manufacturing & Heart Transplant Development Site | Propellervägen 16, 224 78 Lund -> building/yes 16, Propellervägen, Gastelyckan, Söder, Lund, Lunds kommun, Skåne län,
+NOGEO   Xvivo Perfusion | XVIVO Perfusion Inc. Americas Office (Golden, Colorado)
+OK      Xvivo Perfusion | XVIVO Perfusion Inc. Aurora Warehouse | 3250 Quentin Street, Aurora, CO 80011 -> building/office Commerce Square, 3250, Quentin Street, Aurora, Arapahoe County, Colora
+OK      Xvivo Perfusion | XVIVO B.V. Groningen (Netherlands Subsidiary) | Bornholmstraat 84, 9723 AZ Groningen -> place/house 84, Bornholmstraat, Eemskanaal, Zuid, Groningen, Nederland, 9723 AZ, N
+NOGEO   Kinnevik | Kinnevik Capital Ltd London Investment Office
+OK      Morrow Bank | Morrow Bank AB Stockholm Head Office (Torsgatan) | Torsgatan 13, 111 23 Stockholm -> place/house 13, Torsgatan, Sabbatsberg, Norrmalm, Norra innerstadens stadsdelsområ
+NOGEO   Morrow Bank | MedMera Bank Solna Office (Morrow subsidiary)
+OK      Kvika banki | Kvika Limited London Office (Wigmore Street) | Nations House, 103 Wigmore Street, London W1U 1QS -> building/yes Nations House, 103, Wigmore Street, East Marylebone, Marylebone, City 
+NOGEO   Bufab | Bufab Shanghai (China Subsidiary, Jiading)
+OK      Bufab | Bufab Poland (Gdańsk) | Bufab Poland Sp. z o.o. Gdańsk -> building/warehouse Bufab Poland Sp. z o.o., 110, Elbląska, Reduta Płońska, Rudniki, Gdańs
+OK      Bufab | Bufab Germany (Mörfelden-Walldorf) | Starkenburgstraße 10, 64546 Mörfelden-Walldorf -> office/company Bufab Germany Lager, 10, Starkenburgstraße, Mörfelden, Mörfelden-Walld
+OK      Bufab | Bufab Singapore / Kian Soon & PureSys (Asia-Pacific Head Office) | 21 Serangoon North Ave 5, Singapore 554864 -> building/yes Ban Teck Han Bldg, 21, Serangoon North Avenue 5, Serangoon North, Sera
+OK      Bufab | Pajo-Bolte A/S Hobro (Danish Subsidiary) | Lupinvej 1, 9500 Hobro -> place/house 1, Lupinvej, Hostrup Huse, Hegedal, Kirketerp, Hobro, Mariagerfjord Ko

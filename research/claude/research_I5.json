@@ -55,5 +55,100 @@
     "footprintRadiusMeters": 160,
     "description": "Stockholm headquarters of Swedish asset manager Cliens Kapitalförvaltning, in which Mandatum acquired 78.4% (via Cliens Holding AB) in October 2026, giving it its main Swedish base.",
     "source": "https://www.cliens.se/kontakt"
+  },
+  {
+    "parentName": "Storskogen",
+    "name": "Roslagsgjuteriet Iron Foundry (Herräng)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Herräng",
+    "country": "Sverige",
+    "address": "Herrängsvägen 38, 763 71 Herräng",
+    "geoQueries": [
+      "Roslagsgjuteriet Herräng",
+      "Herrängsvägen 38, 763 71 Herräng",
+      "Herrängsvägen 38, Herräng"
+    ],
+    "approxLat": 60.119,
+    "approxLng": 18.612,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Iron foundry producing machine- and hand-moulded castings up to 500 kg; Industrial Technologies company in Storskogen's Industry business area.",
+    "source": "https://roslagsgjut.se"
+  },
+  {
+    "parentName": "Storskogen",
+    "name": "Storebrogjuteriet Heavy Iron Foundry (Storebro)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Storebro",
+    "country": "Sverige",
+    "address": "Masugnsvägen 1, 598 70 Storebro",
+    "geoQueries": [
+      "Storebrogjuteriet",
+      "Masugnsvägen 1, 598 70 Storebro",
+      "Masugnsvägen 1, Storebro"
+    ],
+    "approxLat": 57.587,
+    "approxLng": 16.333,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Historic foundry (castings since 1808) specialising in heavier iron castings up to 7,000 kg; part of Storskogen's Industry business area.",
+    "source": "https://storebrogjut.se"
+  },
+  {
+    "parentName": "Storskogen",
+    "name": "Alfta Kvalitetslego Precision Machining Plant (Alfta)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Alfta",
+    "country": "Sverige",
+    "address": "Västra Ösavägen 24E, 822 40 Alfta",
+    "geoQueries": [
+      "Alfta Kvalitetslego",
+      "Västra Ösavägen 24E, 822 40 Alfta",
+      "Västra Ösavägen, Alfta"
+    ],
+    "approxLat": 61.344,
+    "approxLng": 16.04,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Contract manufacturer of CNC-turned and multi-operation machined components with circumferential welding; Storskogen Industrial Technologies company.",
+    "source": "https://www.alfta-kvalitetslego.se/"
+  },
+  {
+    "parentName": "Storskogen",
+    "name": "Wibe Group Cable Management Factory (Mora)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Mora",
+    "country": "Sverige",
+    "address": "Wibevägen 1, 792 36 Mora",
+    "geoQueries": [
+      "Wibe Group Mora",
+      "Wibevägen 1, 792 36 Mora",
+      "Wibevägen 1, Mora"
+    ],
+    "approxLat": 61.007,
+    "approxLng": 14.53,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Headquarters and main factory of Wibe Group (cable ladders, trays and mesh trays under the Wibe, Stago, Mita and Defem brands); part of Storskogen's Product Solutions segment.",
+    "source": "https://wibe-group.com/contact-us"
+  },
+  {
+    "parentName": "Storskogen",
+    "name": "Brenderup Group Headquarters (Malmö Hyllie)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Malmö",
+    "country": "Sverige",
+    "address": "Hyllie Boulevard 6E, 216 26 Malmö",
+    "geoQueries": [
+      "Brenderup Group Malmö",
+      "Hyllie Boulevard 6E, 216 26 Malmö",
+      "Hyllie Boulevard 6, Malmö"
+    ],
+    "approxLat": 55.564,
+    "approxLng": 12.976,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Brenderup Group, a Storskogen Product Solutions company making leisure, professional, boat and snowmobile trailers in Wieleń (Poland), Stigamo (Sweden) and Tyssebotnen (Norway).",
+    "source": "https://www.brenderupgroup.com/en/en/"
   }
 ]

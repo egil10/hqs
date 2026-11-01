@@ -1,0 +1,27 @@
+NOGEO   Evolution | Evolution Tbilisi Live Casino Studio
+NOGEO   Evolution | Evolution Malta Live Casino Studio & Office (Mriehel)
+NOGEO   Evolution | Evolution Bucharest Live Casino Studio
+NOGEO   Evolution | Evolution Vancouver-area Live Casino Studio (New Westminster)
+OK      YIT | YIT Eesti Tallinn Office | Pärnu mnt 102b, 11312 Tallinn -> building/office 102b, Pärnu mnt, Kitseküla, Kesklinna linnaosa, Tallinn, Harju maakond
+OK      YIT | YIT Latvija Riga Office (YIT Infra Latvija / Celtniecība) | YIT Latvija Rīga -> office/company YIT Latvija, 4, Malduguņu iela, Business Garden Rīga, Mārupe, Mārupes 
+OK      YIT | YIT Slovakia Bratislava Office | Svätoplukova 2A, Bratislava -> place/house 18892/2A, Svätoplukova, Klingerova kolónia, Bratislavský downtown, Bra
+OK      YIT | YIT Stavo Prague Office (Telehouse, Dejvice) | Generála Píky 430/26, Praha 6 -> place/house 430/26, Generála Píky, Ořechovka, Praha 6, obvod Praha 6, Praha, 160 0
+NOGEO   MedCap | Abilia AB Headquarters & Assistive Technology Operations (Solna)
+OK      MedCap | Cardiolex Medical Solna ECG Equipment Headquarters | Sundbybergsvägen 1, 171 73 Solna -> building/yes 1, Sundbybergsvägen, Skytteholm, Solna, Solna kommun, Stockholms län, 
+OK      MedCap | Inpac AB Lund Contract Manufacturing & Packaging Site | Inpac Lund -> building/yes Inpac, Sellerigatan, Gastelyckan, Söder, Lund, Lunds kommun, Skåne län
+NOGEO   Better Collective | Better Collective Vienna Office
+NOGEO   Better Collective | Better Collective New York Office (Action Network)
+NOGEO   Better Collective | Better Collective Stockholm Office
+NOGEO   Better Collective | Better Collective Malta Office (St. Julian's)
+NOGEO   Better Collective | Better Collective Kraków Office
+NOGEO   Rejlers | Rejlers Finland Vantaa Office
+NOGEO   Rejlers | Rejlers Finland Oulu Office
+NOGEO   Rejlers | Rejlers Finland Turku Office
+NOGEO   Rejlers | Rejlers Abu Dhabi Office
+NOGEO   Aker | Cognite Headquarters (Lysaker/Oslo)
+NOGEO   Aker | Mainstream Renewable Power Dublin Office
+OK      Aker | Aker Tech House Fornebu | Aker Tech House, Fornebu -> building/office Aker Tech House, John Strandruds vei, Fornebuporten, Lysaker mølle, Fo
+NOGEO   Aker | Nscale Narvik AI Data Centre Campus (Stargate Norway)
+NOGEO   UIE | United Plantations Jendarata Estate Head Office, Mill & Unitata Refinery
+NOGEO   UIE | United Plantations Unifuji Refinery, Ulu Bernam Estate
+NOGEO   UIE | PT Surya Sawit Sejati Oil Palm Operations, Pangkalan Bun

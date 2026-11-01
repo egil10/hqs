@@ -1,0 +1,16 @@
+OK      Sdiptech | HeatWork Narvik Mobile Hydronic Heating Production Plant (Sdiptech) | Skarvenesveien 6, 8514 Narvik -> place/house 6, Skarvenesveien, Fagernes - Čoalbmi, Narvik, Nordland, 8514, Norge
+NOGEO   Sdiptech | Phase 3 Connectors Knowsley Power Connector Manufacturing Site (Sdiptech)
+NOGEO   Sdiptech | Water Treatment Products Blaenavon Speciality Chemicals Plant (Sdiptech)
+NOGEO   Pandora | Pandora Lamphun Jewellery Crafting Facility
+NOGEO   Pandora | Pandora Gemopolis Bangkok Crafting Facilities (incl. Triple A)
+NOGEO   Pandora | Pandora Production Vietnam VSIP III Crafting Facility
+NOGEO   Humble | The Bars Production Gråbo Protein & Snack Bar Factory (Humble Group)
+OK      Humble | Franssons Konfektyr Gränna Confectionery Factory (Humble Group) | Skiftesvägen 33, 563 31 Gränna -> building/yes 33, Skiftesvägen, Gränna, Jönköpings kommun, Jönköpings län, 563 32, S
+OK      Humble | Grenna Polkagriskokeri Gränna Polkagris Factory (Humble Group) | Brahegatan 39, 563 32 Gränna -> place/house 39B, Brahegatan, Norra Boarp, Gränna, Jönköpings kommun, Jönköpings lä
+OK      Humble | Delsbo Candle Taper Candle Factory (Humble Group) | Delsbo Candle Fredriksfors -> man_made/works Delsbo Candle, 84, Fredriksfors, Hudiksvalls kommun, Gävleborgs län, 8
+OK      Humble | Kryddhuset Ljung Spice Production & Warehouse (Humble Group) | Kryddhuset Ljung -> building/industrial Kryddhuset, Industrivägen, Melltorp, Grude distrikt, Ljung, Herrljunga
+NOGEO   Momentum | Momentum Industrial Göteborg Head Office (Momentum Group)
+NOGEO   Momentum | Swerub Sunne Rubber Products Production Facility (Momentum Group)
+NOGEO   Momentum | Swerub Ekshärad Rubber Products Production Facility (Momentum Group)
+NOGEO   Momentum | Polymore Bålsta Polymer Makedown Unit Plant (Momentum Group)
+OK      Norion Bank | Norion Bank Stockholm Office | Linnégatan 2, 114 47 Stockholm -> place/house 2, Linnégatan, Eriksberg, Östermalm, Norra innerstadens stadsdelsområd

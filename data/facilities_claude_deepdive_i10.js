@@ -1,0 +1,107 @@
+// Claude deep-dive batch I10: researched sites for smaller SPN/SFT holdings, OSM/Nominatim-geocoded
+window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
+  {
+    id: "fac-claude-ddi10-001",
+    parentName: "Nedhalia Topco",
+    name: "Visma e-conomic Copenhagen Office (Carlsberg Byen)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Copenhagen",
+    country: "Danmark",
+    lat: 55.6663,
+    lng: 12.53841,
+    address: "Gærtorvet 3, 1799 København V",
+    footprintRadiusMeters: 160,
+    description: "Danish headquarters of Visma e-conomic, Visma's cloud accounting software unit, located in the Carlsberg Byen district of Copenhagen."
+  },
+  {
+    id: "fac-claude-ddi10-002",
+    parentName: "Nedhalia Topco",
+    name: "Visma Tech Lietuva Vilnius Development Hub (Artery)",
+    facilityType: "R&D, Biotech & Medtech Lab",
+    city: "Vilnius",
+    country: "Lithuania",
+    lat: 54.69511,
+    lng: 25.27636,
+    address: "Artery building, Konstitucijos pr. 18B, 09308 Vilnius",
+    footprintRadiusMeters: 160,
+    description: "Visma Tech Lithuania software engineering and DevOps hub in the Vilnius central business district, which moved into the Artery office building in 2024."
+  },
+  {
+    id: "fac-claude-ddi10-003",
+    parentName: "Nedhalia Topco",
+    name: "Visma Software Timisoara Development Office (Openville UBC 3)",
+    facilityType: "R&D, Biotech & Medtech Lab",
+    city: "Timisoara",
+    country: "Romania",
+    lat: 45.76505,
+    lng: 21.22768,
+    address: "United Business Center 3, Openville, Timisoara",
+    footprintRadiusMeters: 180,
+    description: "Visma Software development centre leasing about 4,200 sqm across three floors of the UBC 3 office building in the Openville complex next to Iulius Mall."
+  },
+  {
+    id: "fac-claude-ddi10-004",
+    parentName: "Avarda Bank",
+    name: "Avarda Bank Borås Head Office",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Borås",
+    country: "Sverige",
+    lat: 57.71984,
+    lng: 12.93794,
+    address: "Lilla Brogatan 6, 503 30 Borås",
+    footprintRadiusMeters: 160,
+    description: "Registered head office of Avarda Bank AB (formerly TF Bank, founded in Borås in 1987), housing group staff functions and consumer banking operations."
+  },
+  {
+    id: "fac-claude-ddi10-005",
+    parentName: "Avarda Bank",
+    name: "Avarda Bank Gdańsk Branch Office",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Gdańsk",
+    country: "Poland",
+    lat: 54.37958,
+    lng: 18.6052,
+    address: "al. Grunwaldzka 103A, 80-244 Gdańsk",
+    footprintRadiusMeters: 160,
+    description: "Polish branch (Oddział w Polsce) of Avarda Bank, the bank's second staff and customer-service location alongside the Borås head office."
+  },
+  {
+    id: "fac-claude-ddi10-006",
+    parentName: "Salmon Evolution",
+    name: "Salmon Evolution Sales Office Ålesund",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Ålesund",
+    country: "Norge",
+    lat: 62.47231,
+    lng: 6.15837,
+    address: "Rasmus Rønnebergs gate 21, 6002 Ålesund",
+    footprintRadiusMeters: 160,
+    description: "Sales office (Salmon Evolution Sales AS) marketing the land-based salmon produced at Indre Harøy."
+  },
+  {
+    id: "fac-claude-ddi10-007",
+    parentName: "Electrolux Professional",
+    name: "Electrolux Professional Vallenoncello Pordenone Plant",
+    facilityType: "Factory & Manufacturing",
+    city: "Pordenone (Vallenoncello)",
+    country: "Italy",
+    lat: 45.92858,
+    lng: 12.64625,
+    address: "Viale Treviso 15, 33170 Pordenone",
+    footprintRadiusMeters: 300,
+    description: "Italian production unit and registered office of Electrolux Professional S.p.A., one of the group's production units for professional food-service equipment."
+  },
+  {
+    id: "fac-claude-ddi10-008",
+    parentName: "Reitir",
+    name: "Holtagarðar Commercial Property Complex",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Reykjavík",
+    country: "Island",
+    lat: 64.14188,
+    lng: -21.84785,
+    address: "Holtagarðar, Holtavegur, 104 Reykjavík",
+    footprintRadiusMeters: 250,
+    description: "Large commercial property complex in Reykjavík's Holt district, listed among Reitir's major portfolio properties (together with Holtavegur 8)."
+  }
+]);

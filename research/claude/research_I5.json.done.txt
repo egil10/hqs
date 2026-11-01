@@ -1,3 +1,4 @@
 Bohus - SKIPPED: only Heia/Fetsund central warehouse (already in facilities_expansion.js); rest are retail stores
 Bergman & Beving - done (2 sites: Orbital Fabrications St Ives, Polartherm Luvia). NOTE: existing fac-bergman-ulricehamn lists Skydda, which B&B divested to Ahlsell effective 1 July 2025.
 Mandatum - done (1 site: Cliens Stockholm; other Finnish/Luxembourg/Stockholm offices unconfirmed addresses)
+Storskogen - done (5 sites: Roslagsgjuteriet, Storebrogjuteriet, Alfta Kvalitetslego, Wibe Mora, Brenderup HQ Malmö)

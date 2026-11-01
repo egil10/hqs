@@ -1,0 +1,18 @@
+OK      Proact IT | Proact Deutschland Nürnberg Office | Südwestpark 43, 90449 Nürnberg -> place/house 43, Südwestpark, Gebersdorf, Westliche Außenstadt, Nürnberg, Bayern, 9
+OK      Proact IT | Proact IT UK Chesterfield Office | Proact IT UK Chesterfield -> building/commercial Proact IT UK, Venture Way, Dunston Technology Park, Whittington Moor, 
+OK      Proact IT | Proact Netherlands Hoofddorp Office | Scorpius 171, 2132 LR Hoofddorp -> place/house 171, Scorpius, Beukenhorst-Oost, Hoofddorp, Haarlemmermeer, Noord-Holl
+NOGEO   Proact IT | Proact Belgium Machelen Office
+NOGEO   Stillfront | Imperia Online Sofia Studio (Stillfront)
+NOGEO   Stillfront | Nanobit Zagreb Studio (Stillfront)
+NOGEO   KB Components | KB Components Gislaved Plastics Plant
+NOGEO   KB Components | KB Components Žilina Plant
+NOGEO   KB Components | KB Components Kaunas Plant
+NOGEO   KB Components | KB Components Windsor Plant (Lakeside Plastics)
+OK      KB Components | KB Components Innotech Precision Toronto Plant | 70 Novopharm Court, Toronto, ON -> place/house 70, Novopharm Court, Malvern East, Scarborough North, Scarborough, Tor
+NOGEO   KB Components | KB Components Puebla Plant
+NOGEO   Nivika Fastigheter | PostNord Logistics Terminal Värnamo (Nivika)
+NOGEO   Nivika Fastigheter | Rudhäll Industri (Bufab) Warehouse Värnamo (Nivika)
+NOGEO   Sveafastigheter | Sveafastigheter Enhörningen Kista Äng
+NOGEO   Sveafastigheter | Sveafastigheter Solhusen Orminge
+NOGEO   Sveafastigheter | Sveafastigheter Årby Eskilstuna
+OK      Svenska Handelsbanken | Handelsbanken Norge Head Office (Tjuvholmen) | Tjuvholmen allé 11, 0113 Oslo -> place/house 11, Tjuvholmen allé, Ruseløkka, Tjuvholmen, Frogner, Oslo, 0252, Norge

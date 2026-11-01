@@ -1,0 +1,107 @@
+// Claude deep-dive batch I11: researched sites for smaller SPN/SFT holdings, OSM/Nominatim-geocoded
+window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
+  {
+    id: "fac-claude-ddi11-001",
+    parentName: "Appear",
+    name: "Appear EMEA Office (Stockholm)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Stockholm",
+    country: "Sverige",
+    lat: 59.33596,
+    lng: 18.061,
+    address: "Olof Palmes gata 11, 111 37 Stockholm",
+    footprintRadiusMeters: 160,
+    description: "Appear's regional office for EMEA sales and support, located in central Stockholm."
+  },
+  {
+    id: "fac-claude-ddi11-002",
+    parentName: "Appear",
+    name: "Appear Ltd Southampton Office (University of Southampton Science Park)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Southampton",
+    country: "UK",
+    lat: 50.96226,
+    lng: -1.43048,
+    address: "Unit 1-2, 5 Benham Road, University of Southampton Science Park, Chilworth, Southampton SO16 7QJ",
+    footprintRadiusMeters: 200,
+    description: "UK office of Appear Ltd at the University of Southampton Science Park in Chilworth."
+  },
+  {
+    id: "fac-claude-ddi11-003",
+    parentName: "cBrain",
+    name: "cBrain Berlin Office (Stresemannstrasse)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Berlin",
+    country: "Germany",
+    lat: 52.5074,
+    lng: 13.37835,
+    address: "Stresemannstraße 123C, 10963 Berlin",
+    footprintRadiusMeters: 160,
+    description: "cBrain's German office, delivering F2-based digital government solutions to German federal authorities."
+  },
+  {
+    id: "fac-claude-ddi11-004",
+    parentName: "Gjensidige Forsikring",
+    name: "Gjensidige Sverige Stockholm Office (Kungsgatan)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Stockholm",
+    country: "Sverige",
+    lat: 59.33483,
+    lng: 18.06103,
+    address: "Kungsgatan 47 B, 111 56 Stockholm",
+    footprintRadiusMeters: 160,
+    description: "Main Stockholm office of Gjensidige's Swedish non-life insurance branch, which operates from Stockholm, Malmö, Gävle and Luleå with about 250 employees."
+  },
+  {
+    id: "fac-claude-ddi11-005",
+    parentName: "NTG Nordic Transport",
+    name: "DTK Padborg Headquarters & Terminal (Hermesvej)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Padborg",
+    country: "Danmark",
+    lat: 54.82504,
+    lng: 9.33623,
+    address: "Hermesvej 18, 6330 Padborg",
+    footprintRadiusMeters: 280,
+    description: "Headquarters and cross-border terminal of DTK, the Danish full-load, part-load and temperature-controlled freight forwarder acquired by NTG in 2025, with frost-proof high-bay warehousing in Padborg and Harrislee."
+  },
+  {
+    id: "fac-claude-ddi11-006",
+    parentName: "NTG Nordic Transport",
+    name: "NTG Neptun Transport Hvidovre Office & Warehouse (Avedoreholmen)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Hvidovre",
+    country: "Danmark",
+    lat: 55.6114,
+    lng: 12.46797,
+    address: "Avedøreholmen 72, 2650 Hvidovre",
+    footprintRadiusMeters: 220,
+    description: "Office and warehouse of NTG Neptun Transport, a TAPA TSR1-certified road transport and groupage operator focused on pharma and healthcare freight in Scandinavia and Europe."
+  },
+  {
+    id: "fac-claude-ddi11-007",
+    parentName: "NTG Nordic Transport",
+    name: "SCHMALZ+SCHON Logistics Fellbach Headquarters (Ringstrasse)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Fellbach",
+    country: "Germany",
+    lat: 48.82267,
+    lng: 9.28274,
+    address: "Ringstraße 39-41, 70736 Fellbach",
+    footprintRadiusMeters: 260,
+    description: "Stuttgart-region base of SCHMALZ+SCHON Logistics, an NTG road and contract-logistics subsidiary group with about 130,000 sqm of warehouse space and 650 staff across Germany and Czechia."
+  },
+  {
+    id: "fac-claude-ddi11-008",
+    parentName: "NTG Nordic Transport",
+    name: "SCHMALZ+SCHON Logistics Bautzen Logistics Centre (Bloaschutz)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Bautzen",
+    country: "Germany",
+    lat: 51.19519,
+    lng: 14.3465,
+    address: "Philipp-Reis-Straße 18, 02625 Bautzen-Bloaschütz",
+    footprintRadiusMeters: 260,
+    description: "Eastern Germany logistics centre of SCHMALZ+SCHON Logistics (NTG), serving as the Region Bautzen hub alongside the St. Gangloff site."
+  }
+]);

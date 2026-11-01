@@ -1,0 +1,8 @@
+NOGEO   Bergman & Beving | Orbital Fabrications High-Purity Gas Systems Plant (St Ives)
+NOGEO   Bergman & Beving | Polartherm Mobile Heater Plant (Luvia)
+NOGEO   Mandatum | Cliens Kapitalförvaltning Stockholm Headquarters
+OK      Storskogen | Roslagsgjuteriet Iron Foundry (Herräng) | Roslagsgjuteriet Herräng -> landuse/industrial Roslagsgjuteriet, Herräng, Norrtälje kommun, Stockholms län, Sverige
+NOGEO   Storskogen | Storebrogjuteriet Heavy Iron Foundry (Storebro)
+NOGEO   Storskogen | Alfta Kvalitetslego Precision Machining Plant (Alfta)
+NOGEO   Storskogen | Wibe Group Cable Management Factory (Mora)
+NOGEO   Storskogen | Brenderup Group Headquarters (Malmö Hyllie)

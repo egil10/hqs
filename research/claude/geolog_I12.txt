@@ -1,0 +1,19 @@
+NOGEO   Okeanis Eco Tankers | Okeanis Eco Tankers Neo Faliro Management Office (OET Chartering)
+NOGEO   John Mattson Fastighetsföretagen | John Mattson Dalénum Residential Area (Lidingö)
+NOGEO   John Mattson Fastighetsföretagen | John Mattson Larsberg Residential Area (Lidingö)
+NOGEO   John Mattson Fastighetsföretagen | John Mattson Rotebro & Rotsunda Residential Area (Sollentuna)
+NOGEO   John Mattson Fastighetsföretagen | John Mattson Häggvik & Tureberg Residential Area (Sollentuna)
+NOGEO   John Mattson Fastighetsföretagen | John Mattson Senapsfabriken Apartments (Uppsala)
+OK      Röko | Oppold System Solid-Wood Tooling Plant (Oberkochen) | Röchlingstraße 18, 73447 Oberkochen -> building/industrial 18, Röchlingstraße, Heide, Oberkochen, Ostalbkreis, Baden-Württemberg,
+NOGEO   Röko | ITIB Machinery International Corrugator Factory (Paderno Franciacorta)
+NOGEO   Röko | Access Building Products Tockwith Factory (ABP Group)
+NOGEO   Skandinaviska Enskilda Banken | SEB Bankas Lithuanian Head Office (Vilnius)
+NOGEO   Skandinaviska Enskilda Banken | SEB Pank Estonian Head Office (Tallinn)
+OK      Ambea | Vardaga Head Office (Solna) | Röntgenvägen 3D, 171 29 Solna -> building/office Origo, 3D, Röntgenvägen, Stenhöga, Västra skogen, Huvudsta, Solna, Sol
+OK      Ambea | Altiden Danish Head Office (Ballerup) | Lautrupvang 2, 2750 Ballerup -> place/house 2, Lautrupvang, Høje Haver, Sømose Hegn, Lautrupgård, Ballerup, Baller
+OK      Ambea | Validia Finland Head Office (Helsinki) | Mannerheimintie 107, 00280 Helsinki -> building/office Invalidiliiton esteetön toimitalo, 107, Mannerheimintie, Huopalahdenpo
+NOGEO   Lassila & Tikanoja | L&T Tikanmaa Circular Economy Center (Kangasala)
+OK      Lassila & Tikanoja | L&T Oulu Recycling Plant | Liitintie 29, 90620 Oulu -> building/yes 29, Liitintie, Ruskonselkä, Korvensuora, Oulu, Oulun seutukunta, Pohjo
+OK      Lassila & Tikanoja | L&T Turku Recycling Plant | Vaskikatu 13, 20380 Turku -> building/yes 13, Vaskikatu, Saramäki, Maaria-Paattinen, Turku, Turun seutukunta, Va
+NOGEO   Lassila & Tikanoja | L&T Kotka Treatment Center
+OK      Lassila & Tikanoja | L&T Leppävirta Treatment Center | Riikinnevantie 153, 79130 Leppävirta -> building/yes 153a, Riikinnevantie, Varkaus, Varkauden seutukunta, Pohjois-Savo, Man

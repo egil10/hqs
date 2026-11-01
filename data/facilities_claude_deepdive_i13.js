@@ -1,0 +1,107 @@
+// Claude deep-dive batch I13: researched sites for smaller SPN/SFT holdings, OSM/Nominatim-geocoded
+window.EXTRA_FACILITIES = (window.EXTRA_FACILITIES || []).concat([
+  {
+    id: "fac-claude-ddi13-001",
+    parentName: "Bakkegruppen",
+    name: "Bakkegruppen Oslo Office (Drammensveien 165)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Oslo",
+    country: "Norge",
+    lat: 59.92167,
+    lng: 10.67495,
+    address: "Drammensveien 165, 0277 Oslo",
+    footprintRadiusMeters: 160,
+    description: "Bakkegruppen's second principal office in Oslo, housing the apartment division Bakke Leiligheter and group management."
+  },
+  {
+    id: "fac-claude-ddi13-002",
+    parentName: "Attendo",
+    name: "Attendo Lærkevej Care Home and Danish Contact Office (Frederikssund)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Frederikssund",
+    country: "Danmark",
+    lat: 55.83424,
+    lng: 12.06361,
+    address: "Lærkevej 11, 3600 Frederikssund",
+    footprintRadiusMeters: 160,
+    description: "Private nursing home (friplejehjem) in Frederikssund that is also the contact address of Attendo's Danish operations."
+  },
+  {
+    id: "fac-claude-ddi13-003",
+    parentName: "Attendo",
+    name: "Attendo Esrumvej Care Home (Helsingør)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Helsingør",
+    country: "Danmark",
+    lat: 56.03995,
+    lng: 12.56672,
+    address: "Moselundsvej 3, 3000 Helsingør",
+    footprintRadiusMeters: 160,
+    description: "Attendo friplejehjem in North Zealand with 58 residents across two floors."
+  },
+  {
+    id: "fac-claude-ddi13-004",
+    parentName: "Attendo",
+    name: "Attendo Klædebo Care Home (Hørsholm)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Hørsholm",
+    country: "Danmark",
+    lat: 55.89667,
+    lng: 12.49551,
+    address: "Ved Klædebo 2B, 2970 Hørsholm",
+    footprintRadiusMeters: 160,
+    description: "Recently opened Attendo friplejehjem in Hørsholm, North Zealand."
+  },
+  {
+    id: "fac-claude-ddi13-005",
+    parentName: "NCAB",
+    name: "NCAB Group Germany Head Office (Munich)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Munich",
+    country: "Germany",
+    lat: 48.13996,
+    lng: 11.51889,
+    address: "Elsenheimer Straße 7, 80687 München",
+    footprintRadiusMeters: 160,
+    description: "Head office of NCAB Group Germany GmbH with management, finance, key account management and technical support for the German market."
+  },
+  {
+    id: "fac-claude-ddi13-006",
+    parentName: "NCAB",
+    name: "NCAB Group USA North Central Division and Warehouse (Itasca, IL)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Itasca",
+    country: "USA",
+    lat: 41.98583,
+    lng: -88.04071,
+    address: "1300 Norwood Avenue, Itasca, IL 60143",
+    footprintRadiusMeters: 200,
+    description: "NCAB USA's Chicago-area division with account management, quality assurance and a warehouse handling PCB shipping and receiving."
+  },
+  {
+    id: "fac-claude-ddi13-007",
+    parentName: "NCAB",
+    name: "NCAB Group USA Silicon Valley Division (San Jose)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "San Jose",
+    country: "USA",
+    lat: 37.38199,
+    lng: -121.90865,
+    address: "1864 Hartog Drive, San Jose, CA 95131",
+    footprintRadiusMeters: 200,
+    description: "NCAB USA's Silicon Valley division handling PCB production management, procurement, component receiving and kitting, and shipping."
+  },
+  {
+    id: "fac-claude-ddi13-008",
+    parentName: "CHEMOMETEC",
+    name: "ChemoMetec Inc. US Headquarters (Bohemia, NY)",
+    facilityType: "Filial, Logistics & Subsidiary HQ",
+    city: "Bohemia",
+    country: "USA",
+    lat: 40.78276,
+    lng: -73.10653,
+    address: "3920 Veterans Memorial Highway, Suite 3, Bohemia, NY 11716",
+    footprintRadiusMeters: 160,
+    description: "Long Island office of ChemoMetec Inc., the US sales and support subsidiary for NucleoCounter cell-counting instruments, with satellite offices in Cambridge MA, La Jolla CA and South San Francisco."
+  }
+]);

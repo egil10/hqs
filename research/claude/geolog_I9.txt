@@ -1,0 +1,18 @@
+OK      SJF Bank | SJF Bank Odense Områdecenter & Erhvervscenter Fyn | Søndergade 17, 5000 Odense C -> place/house 17, Søndergade, City Campus, Odense, Odense Kommune, Region Syddanmark
+OK      Instalco | Fabri AG Headquarters Nuremberg (Instalco Germany) | Brunnengasse 13, 90402 Nürnberg -> place/house 13, Brunnengasse, Altstadt, St. Lorenz, Altstadt und engere Innenstadt
+OK      Revenio | iCare Finland Vantaa Operating Site (Härkähaankuja) | Härkähaankuja 7, 01730 Vantaa -> building/yes 7, Härkähaankuja, Vehkala, Myllymäki, Kivistön suuralue, Vantaa, Helsi
+NOGEO   Revenio | CenterVue Vigonza Operations (Padua)
+NOGEO   Revenio | Visionix Headquarters & Factory Pont-de-l'Arche
+OK      Revenio | Optovue (Visionix) Fremont OCT Site | 2800 Bayview Drive, Fremont, CA 94538 -> building/yes 2800, Bayview Drive, Warm Springs District, Fremont, Alameda County, C
+NOGEO   Salix | Heco Nordiska (Heco Skruvspecialisten) Hillerstorp
+NOGEO   Salix | Duschprodukter Sweden Kungälv
+NOGEO   Salix | Arvid Nilsson Kungälv
+NOGEO   Salix | Thomee Malmö
+OK      Oma Säästöpankki | Oma Säästöpankki Helsinki Corporate Banking Office | Kluuvikatu 3, 00100 Helsinki -> place/house 3, Kluuvikatu, Kaisaniemi, Kluuvi, Eteläinen suurpiiri, Helsinki, Hels
+OK      Karnell | Rotomon Kangasniemi Plastic Pipe Factory | Hallitie 26, 51200 Kangasniemi -> building/yes 26, Hallitie, Lapasniemi, Kangasniemi, Mikkelin seutukunta, Etelä-Savo
+OK      Karnell | Rotomon Järvenpää Plant | Tempo 2, 04430 Järvenpää -> building/industrial 2, Tempo, Mikonkorpi, Mylly, Järvenpää, Helsingin seutukunta, Uusimaa,
+NOGEO   Karnell | Drivex Edsbyn Factory
+NOGEO   Karnell | LundHalsey Aylesbury Operator Desk Factory
+NOGEO   Karnell | Re-board Norrköping Board Production
+NOGEO   Karnell | Vebe Teknik Björköby Bagging Systems Plant
+NOGEO   Acast | Acast New York Office (US Creator Network)

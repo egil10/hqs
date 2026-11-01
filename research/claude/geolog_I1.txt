@@ -1,0 +1,10 @@
+NOGEO   Recovery Holdco | Jøtul Italia (Ravelli) Chiari Pellet Stove Plant & Italian HQ
+OK      Electrolux | Electrolux Żarów Dishwasher Plant | Electrolux Żarów -> landuse/industrial Electrolux Poland Sp. z o.o., Żarów, gmina Żarów, powiat świdnicki, wo
+OK      Electrolux | Electrolux Oława Washing Machine Plant | Electrolux Oława -> man_made/works Electrolux Poland, 5, Ofiar Katynia, Oława, gmina Oława, powiat oławsk
+OK      Electrolux | Electrolux Siewierz Tumble Dryer Plant | Electrolux Siewierz -> man_made/works Electrolux Poland, 87, Warszawska, Piwoń, Siewierz, gmina Siewierz, po
+OK      Electrolux | Electrolux Rothenburg AEG Appliance Plant and Development Centre | Bodelschwinghstraße 1, 91541 Rothenburg ob der Tauber -> man_made/works AEG-Electrolux, 1, Bodelschwinghstraße, Schlößlein, Rothenburg ob der 
+NOGEO   Electrolux | Electrolux Rayong Refrigerator and Laundry Plant (Thailand)
+OK      Electrolux | Electrolux Springfield Cooking Products Plant (Tennessee) | Electrolux Springfield Tennessee -> man_made/works Electrolux, Woodard Reid Road, Springfield, Robertson County, Middle T
+NOGEO   Aktia Bank | Aktia Vaasa Regional Office (Ostrobothnia)
+NOGEO   Aktia Bank | Aktia Turku Regional Office
+OK      Fastighets Balder | Karlatornet Residential Tower (Lindholmen, Göteborg) | source-exact

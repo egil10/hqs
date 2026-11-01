@@ -1,0 +1,15 @@
+NOGEO   Sedana Medical | Innovatif Cekal Sedaconda ACD Manufacturing Plant (Klang)
+NOGEO   Bakkegruppen | Bakkegruppen Aurskog Head Office (Finstadhagen)
+OK      Bakkegruppen | Bakkegruppen Oslo Office (Drammensveien 165) | Drammensveien 165, 0277 Oslo -> place/house 165, Drammensveien, SjølystParken, Sjølyst, Ullern, Oslo, 0277, Norge
+NOGEO   Bakkegruppen | Skogmo Park Housing Development (Jessheim)
+NOGEO   Bakkegruppen | Fredheimkvartalet Apartment Development (Ås)
+NOGEO   Kesko | Kesko Onnela Logistics Centre (Hyvinkää)
+NOGEO   Kesko | Kesko Senukai Logistics Centre (Žemaitkiemis, Kaunas)
+OK      Attendo | Attendo Lærkevej Care Home and Danish Contact Office (Frederikssund) | Lærkevej 11, 3600 Frederikssund -> place/house 11, Lærkevej, Fiomagården, Kristiansholm, Frederikssund, Frederikssund
+OK      Attendo | Attendo Esrumvej Care Home (Helsingør) | Moselundsvej 3, 3000 Helsingør -> place/house 3, Moselundsvej, Helsingør, Helsingør Kommune, Region Hovedstaden, 300
+OK      Attendo | Attendo Klædebo Care Home (Hørsholm) | Ved Klædebo 2B, 2970 Hørsholm -> place/house 2B, Ved Klædebo, Usserød, Hørsholm, Hørsholm Kommune, Region Hovedstad
+NOGEO   NCAB | NCAB Group China Main Office (Shenzhen, Kerry Center)
+OK      NCAB | NCAB Group Germany Head Office (Munich) | Elsenheimerstraße 7, 80687 München -> place/house 7, Elsenheimerstraße, Neu-Friedenheim, Friedenheim, Laim, München, Bay
+OK      NCAB | NCAB Group USA North Central Division and Warehouse (Itasca, IL) | 1300 Norwood Ave, Itasca, IL 60143 -> place/house 1300, Norwood Avenue, Spring Lake Executive Center, Itasca, Bloomingda
+OK      NCAB | NCAB Group USA Silicon Valley Division (San Jose) | 1864 Hartog Dr, San Jose, CA 95131 -> place/house 1864, Hartog Drive, North San Jose, San Jose, Santa Clara County, Cali
+OK      CHEMOMETEC | ChemoMetec Inc. US Headquarters (Bohemia, NY) | 3920 Veterans Memorial Highway, Bohemia, NY 11716 -> place/house 3920, Veterans Memorial Highway, Bohemia, Town of Islip, Suffolk Count

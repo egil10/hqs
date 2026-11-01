@@ -1,0 +1,12 @@
+NOGEO   Klaveness Combination Carriers | Klaveness Shore Services Manila Shared Service Centre (MOA Complex)
+NOGEO   Truecaller | Truecaller International LLP Gurugram Office (Platina Tower)
+NOGEO   GRK Infra | GRK Sverige AB Boden Office (Norrbotnia Line Rail Projects)
+NOGEO   GRK Infra | KSBR Keski-Suomen Betonirakenne Pihtipudas Concrete Construction Base
+OK      Festi | Bakkinn Vöruhótel Skarfagarðar Warehouse (Sundahöfn) | Skarfagarðar 2, 104 Reykjavík -> building/yes 2, Skarfagarðar, Sundahöfn, Laugardalur, Reykjavíkurborg, Höfuðborgars
+DUP     Festi | Bakkinn Vöruhótel Klettagarðar Warehouse
+OK      Finnair | Finnair Flight Academy (Helsinki Airport, Vantaa) | Pyhtäänkorventie 11, 01530 Vantaa -> building/office Finnair Flight Academy, 11-13, Pyhtäänkorventie, Aerola, Veromies, Avi
+OK      Finnair | Finnair Business Services Tartu Office | Tähe 4, 51010 Tartu -> building/service 4, Tähe, Riiamäe, Kesklinn, Tartu linn, Tartu maakond, 51010, Eesti
+NOGEO   Indutrade | Flintec Transducers Katunayake Load Cell Factory (KEPZ, Sri Lanka)
+OK      Indutrade | Flintec Inc. Hudson Office (Massachusetts) | 18 Kane Industrial Drive, Hudson, MA 01749 -> building/industrial 18, Kane Industrial Drive, Hudson, Middlesex County, Massachusetts, 01
+OK      Indutrade | Flintec GmbH Meckesheim Office (Germany) | Bemannsbruch 9, 74909 Meckesheim -> building/yes 9, Bemannsbruch, Meckesheim, GVV Elsenztal, Rhein-Neckar-Kreis, Baden-
+NOGEO   Indutrade | PMH International Ystad Headquarters & Warehouse
