@@ -205,5 +205,117 @@
     "footprintRadiusMeters": 160,
     "description": "OmaSp's Helsinki office in Kluuvi, with the bank's corporate banking (yrityspankki) unit on the 3rd floor; the capital-region hub of a bank with about 48 branches.",
     "source": "https://www.omasp.fi/en/konttorit"
+  },
+  {
+    "parentName": "Karnell",
+    "name": "Rotomon Kangasniemi Plastic Pipe Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kangasniemi",
+    "country": "Finland",
+    "address": "Hallitie 26, 51200 Kangasniemi",
+    "geoQueries": [
+      "Hallitie 26, 51200 Kangasniemi",
+      "Rotomon Kangasniemi",
+      "Rotomon Oy"
+    ],
+    "approxLat": 61.993,
+    "approxLng": 26.64,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Main factory of Karnell product company Rotomon, making plastic drainage pipes, cable protection pipes and waste tanks (about 48 employees, two plants).",
+    "source": "https://www.rotomon.fi/"
+  },
+  {
+    "parentName": "Karnell",
+    "name": "Rotomon Järvenpää Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Järvenpää",
+    "country": "Finland",
+    "address": "Tempo 2, 04430 Järvenpää",
+    "geoQueries": [
+      "Tempo 2, 04430 Järvenpää",
+      "Rotomon Järvenpää"
+    ],
+    "approxLat": 60.473,
+    "approxLng": 25.09,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Second production site of Karnell company Rotomon, serving southern Finland with plastic drainage and cable-protection products.",
+    "source": "https://www.rotomon.fi/"
+  },
+  {
+    "parentName": "Karnell",
+    "name": "Drivex Edsbyn Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Edsbyn",
+    "country": "Sverige",
+    "address": "Drivex AB, Box 117, 828 22 Edsbyn",
+    "geoQueries": [
+      "Drivex Edsbyn",
+      "Drivex AB Edsbyn"
+    ],
+    "approxLat": 61.3817,
+    "approxLng": 15.8167,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Karnell company Drivex's production site making snow ploughs, buckets, forks and sweepers as attachments for wheel loaders and tractors (about 50 employees).",
+    "source": "https://www.drivex.se/kontakt"
+  },
+  {
+    "parentName": "Karnell",
+    "name": "LundHalsey Aylesbury Operator Desk Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Aylesbury",
+    "country": "UK",
+    "address": "Gatehouse Close, Aylesbury, Buckinghamshire HP19 8DE",
+    "geoQueries": [
+      "Gatehouse Close, Aylesbury HP19 8DE",
+      "LundHalsey Aylesbury",
+      "LundHalsey"
+    ],
+    "approxLat": 51.824,
+    "approxLng": -0.818,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Headquarters and production facility of Karnell company LundHalsey, designer and manufacturer of control-room operator desks (about 36 employees).",
+    "source": "https://www.lundhalsey.com/contact"
+  },
+  {
+    "parentName": "Karnell",
+    "name": "Re-board Norrköping Board Production",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Norrköping",
+    "country": "Sverige",
+    "address": "Västra Bravikenvägen 1, 602 38 Norrköping",
+    "geoQueries": [
+      "Västra Bravikenvägen 1, 602 38 Norrköping",
+      "Re-board Norrköping",
+      "Reboard Group Norrköping"
+    ],
+    "approxLat": 58.59,
+    "approxLng": 16.18,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Norrköping production site of Karnell company Re-board, maker of paper-based board materials for trade-fair stands and store interiors (about 20 employees).",
+    "source": "https://reboardgroup.com/"
+  },
+  {
+    "parentName": "Karnell",
+    "name": "Vebe Teknik Björköby Bagging Systems Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Björköby",
+    "country": "Sverige",
+    "address": "Aspvägen 6, 574 95 Björköby",
+    "geoQueries": [
+      "Aspvägen 6, 574 95 Björköby",
+      "Vebe Teknik AB Björköby",
+      "Vebe Teknik"
+    ],
+    "approxLat": 57.41,
+    "approxLng": 15.1,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Karnell company Vebe Teknik, developer and manufacturer of automatic bag-filling systems for the food, chemical, feed and construction industries (about 20 employees).",
+    "source": "https://www.vebe.se/kontakt"
   }
 ]

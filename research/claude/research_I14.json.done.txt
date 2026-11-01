@@ -3,3 +3,5 @@ Truecaller
 GRK Infra
 Festi
 Finnair
+Indutrade
+Pareto Bank (skipped: single office, same building as HQ)

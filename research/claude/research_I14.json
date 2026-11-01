@@ -150,5 +150,81 @@
     "footprintRadiusMeters": 160,
     "description": "Finnair-owned Estonian subsidiary (~200 staff) providing group financial accounting, customer-claims handling, analytics, digital/IT and other back-office services from its Tartu office.",
     "source": "https://businessservices.finnair.com/en/contact"
+  },
+  {
+    "parentName": "Indutrade",
+    "name": "Flintec Transducers Katunayake Load Cell Factory (KEPZ, Sri Lanka)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Katunayake",
+    "country": "Sri Lanka",
+    "address": "Spur Road 02, Phase I, Katunayake Export Processing Zone, Katunayake 11420",
+    "geoQueries": [
+      "Flintec Transducers, Katunayake",
+      "Spur Road 02, Katunayake Export Processing Zone",
+      "Katunayake Export Processing Zone, Sri Lanka"
+    ],
+    "approxLat": 7.17,
+    "approxLng": 79.875,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Production site of Indutrade subsidiary Flintec (owned since 2008), making load cells/weighing sensors and strain gauges (about 1 million sensors and 5 million strain gauges a year, 800+ staff; production since 1996).",
+    "source": "https://www.flintec.com/company/contact/lk"
+  },
+  {
+    "parentName": "Indutrade",
+    "name": "Flintec Inc. Hudson Office (Massachusetts)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hudson",
+    "country": "USA",
+    "address": "18 Kane Industrial Drive, Hudson, MA 01749",
+    "geoQueries": [
+      "18 Kane Industrial Drive, Hudson, MA 01749",
+      "Flintec Inc, Hudson MA",
+      "Kane Industrial Drive, Hudson, Massachusetts"
+    ],
+    "approxLat": 42.396,
+    "approxLng": -71.58,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "US operations of Indutrade subsidiary Flintec (weight and force measurement technology), address listed as the company's main contact site.",
+    "source": "https://www.flintec.com/company/contact"
+  },
+  {
+    "parentName": "Indutrade",
+    "name": "Flintec GmbH Meckesheim Office (Germany)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Meckesheim",
+    "country": "Germany",
+    "address": "Bemannsbruch 9, 74909 Meckesheim",
+    "geoQueries": [
+      "Bemannsbruch 9, 74909 Meckesheim",
+      "Flintec GmbH, Meckesheim",
+      "Bemannsbruch, Meckesheim"
+    ],
+    "approxLat": 49.334,
+    "approxLng": 8.835,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "German operations of Indutrade subsidiary Flintec (load cell and weighing technology).",
+    "source": "https://www.flintec.com/company/contact/de"
+  },
+  {
+    "parentName": "Indutrade",
+    "name": "PMH International Ystad Headquarters & Warehouse",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Ystad",
+    "country": "Sverige",
+    "address": "Ekenäsgatan 6, Ystad",
+    "geoQueries": [
+      "Ekenäsgatan 6, Ystad",
+      "PMH International, Ystad",
+      "Ekenäsgatan, Ystad"
+    ],
+    "approxLat": 55.43,
+    "approxLng": 13.84,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Headquarters and warehouse of Indutrade subsidiary PMH International AB, supplier of lifting equipment (hoists, cranes, vacuum lifters, lifting tables) for the Swedish market since 1974.",
+    "source": "https://sv.wikipedia.org/wiki/PMH_International"
   }
 ]

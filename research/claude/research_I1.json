@@ -131,5 +131,43 @@
     "footprintRadiusMeters": 350,
     "description": "Electrolux/Frigidaire plant making freestanding gas and electric ranges since 1974, consolidating US cooking production since 2019.",
     "source": "https://www.newschannel5.com/news/electrolux-to-shut-memphis-plant-keeping-tennessee-presence"
+  },
+  {
+    "parentName": "Aktia Bank",
+    "name": "Aktia Vaasa Regional Office (Ostrobothnia)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vaasa",
+    "country": "Finland",
+    "address": "Vaasanpuistikko 16, 65100 Vaasa",
+    "geoQueries": [
+      "Aktia Vaasa",
+      "Aktia Pankki Vaasanpuistikko 16",
+      "Vaasanpuistikko 16, 65100 Vaasa"
+    ],
+    "approxLat": 63.095,
+    "approxLng": 21.616,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Aktia's main office in Ostrobothnia (legacy of Vaasan Säästöpankki, merged 1992) offering banking, wealth management, insurance and corporate banking.",
+    "source": "https://www.aktia.fi/fi/toimipisteet/pohjanmaa/aktia-vaasa"
+  },
+  {
+    "parentName": "Aktia Bank",
+    "name": "Aktia Turku Regional Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Turku",
+    "country": "Finland",
+    "address": "Yliopistonkatu 15 B, 20100 Turku",
+    "geoQueries": [
+      "Aktia Turku",
+      "Aktia Pankki Yliopistonkatu 15, Turku",
+      "Yliopistonkatu 15 B, 20100 Turku"
+    ],
+    "approxLat": 60.4515,
+    "approxLng": 22.267,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Aktia's regional office for the Turku region, one of its main face-to-face service locations outside the capital area.",
+    "source": "https://www.aktia.fi/fi/toimipisteet/turku/aktia-turku"
   }
 ]

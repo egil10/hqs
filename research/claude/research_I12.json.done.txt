@@ -4,3 +4,4 @@ Röko
 Skandinaviska Enskilda Banken
 Ambea
 Lassila & Tikanoja
+Islandsbanki (skipped: no confirmed sites beyond HQ; branch list not retrievable)

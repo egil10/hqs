@@ -378,5 +378,138 @@
     "footprintRadiusMeters": 160,
     "description": "Rejlers' Middle East office in Abu Dhabi providing engineering consulting, mainly for the energy sector.",
     "source": "https://en.wikipedia.org/wiki/Rejlers"
+  },
+  {
+    "parentName": "Aker",
+    "name": "Cognite Headquarters (Lysaker/Oslo)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Lysaker (Bærum)",
+    "country": "Norge",
+    "address": "Lysaker, 1366 Lysaker (exact street not published)",
+    "geoQueries": [
+      "Cognite AS, Lysaker",
+      "Cognite Lysaker",
+      "Lysaker Torg, 1366 Lysaker"
+    ],
+    "approxLat": 59.9118,
+    "approxLng": 10.635,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Aker-controlled industrial data and AI software company Cognite (Cognite Data Fusion), with other offices in Austin, Houston and Tokyo.",
+    "source": "https://www.cognite.com/en/contact"
+  },
+  {
+    "parentName": "Aker",
+    "name": "Mainstream Renewable Power Dublin Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Dublin",
+    "country": "Ireland",
+    "address": "Dublin, Ireland (exact street not published)",
+    "geoQueries": [
+      "Mainstream Renewable Power Dublin",
+      "Mainstream Renewable Power Ltd, Dublin",
+      "Dublin, Ireland"
+    ],
+    "approxLat": 53.3331,
+    "approxLng": -6.2489,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Dublin office of Mainstream Renewable Power (Aker owns 58%), a global wind and solar developer with 100+ staff across Dublin, London, Cape Town, Santiago, Singapore and other offices.",
+    "source": "https://en.wikipedia.org/wiki/Mainstream_Renewable_Power"
+  },
+  {
+    "parentName": "Aker",
+    "name": "Aker Tech House Fornebu",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Fornebu (Bærum)",
+    "country": "Norge",
+    "address": "Fornebu, Bærum (exact street not published)",
+    "geoQueries": [
+      "Aker Tech House, Fornebu",
+      "Aker Tech House",
+      "Oksenøyveien, Fornebu"
+    ],
+    "approxLat": 59.901,
+    "approxLng": 10.627,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Office/technology building at Fornebu completed by Aker Property Group (100% Aker-owned), which also lets John Strandrudsvei 14 office premises at Fornebu.",
+    "source": "http://www.akerproperty.com/for-rent"
+  },
+  {
+    "parentName": "Aker",
+    "name": "Nscale Narvik AI Data Centre Campus (Stargate Norway)",
+    "facilityType": "Data Center, Telecom & Cloud",
+    "city": "Narvik",
+    "country": "Norge",
+    "address": "Narvik, Nordland (Kvandal industrial area)",
+    "geoQueries": [
+      "Kvandal, Narvik",
+      "Stargate Norway Narvik",
+      "Narvik, Norway"
+    ],
+    "approxLat": 68.4385,
+    "approxLng": 17.4272,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "230 MW AI data centre campus under development in Narvik, announced 2025 as a joint venture between Nscale and Aker ASA (Aker is also an Nscale investor); Microsoft is anchor customer.",
+    "source": "https://en.wikipedia.org/wiki/Nscale"
+  },
+  {
+    "parentName": "UIE",
+    "name": "United Plantations Jendarata Estate Head Office, Mill & Unitata Refinery",
+    "facilityType": "Mill, Smelter & Mine",
+    "city": "Teluk Intan",
+    "country": "Malaysia",
+    "address": "Jendarata Estate, 36009 Teluk Intan, Perak Darul Ridzuan",
+    "geoQueries": [
+      "Jendarata Estate, Teluk Intan",
+      "United Plantations Berhad, Jendarata Estate",
+      "Unitata Berhad, Teluk Intan"
+    ],
+    "approxLat": 3.95,
+    "approxLng": 100.98,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Head office of United Plantations (UIE owns 48.4%), at the oil palm and coconut Jendarata Estate, together with its Unitata Berhad edible-oil refinery and Bernam Bakery.",
+    "source": "https://www.unitedplantations.com/contact/"
+  },
+  {
+    "parentName": "UIE",
+    "name": "United Plantations Unifuji Refinery, Ulu Bernam Estate",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ulu Bernam (Hilir Perak)",
+    "country": "Malaysia",
+    "address": "Ulu Bernam Estate, 36500 Hilir Perak, Perak",
+    "geoQueries": [
+      "Ulu Bernam Estate, Hilir Perak",
+      "Unifuji Sdn Bhd, Ulu Bernam",
+      "Ulu Bernam, Perak"
+    ],
+    "approxLat": 3.8,
+    "approxLng": 101.33,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Unifuji Sdn Bhd, a joint-venture palm oil refinery operated by United Plantations (UIE owns 48.4% of United Plantations) at Ulu Bernam Estate.",
+    "source": "https://www.unitedplantations.com/contact/"
+  },
+  {
+    "parentName": "UIE",
+    "name": "PT Surya Sawit Sejati Oil Palm Operations, Pangkalan Bun",
+    "facilityType": "Mill, Smelter & Mine",
+    "city": "Pangkalan Bun",
+    "country": "Indonesia",
+    "address": "Desa Sungai Rangit Jaya Sp. 6, Kec. Pangkalan Lada, Pangkalan Bun, Kalimantan Tengah 74101",
+    "geoQueries": [
+      "PT Surya Sawit Sejati, Pangkalan Bun",
+      "Sungai Rangit Jaya, Pangkalan Lada",
+      "Pangkalan Bun, Kalimantan Tengah"
+    ],
+    "approxLat": -2.68,
+    "approxLng": 111.63,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "United Plantations' Indonesian oil palm subsidiary in Central Kalimantan (about 17% of the group's roughly 62,500 ha land bank); UIE owns 48.4% of United Plantations.",
+    "source": "https://www.unitedplantations.com/contact/"
   }
 ]

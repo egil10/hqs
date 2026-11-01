@@ -3,3 +3,5 @@ YIT
 MedCap
 Better Collective
 Rejlers
+Aker
+UIE

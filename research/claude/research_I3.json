@@ -207,5 +207,100 @@
     "description": "Spice and seasoning business based in Ljung, Västergötland, part of Humble Group.",
     "source": "https://kryddhuset.se/",
     "coordsExact": false
+  },
+  {
+    "parentName": "Momentum",
+    "name": "Momentum Industrial Göteborg Head Office (Momentum Group)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "von Utfallsgatan 16B, 415 05 Göteborg",
+    "geoQueries": [
+      "Momentum Industrial Göteborg",
+      "von Utfallsgatan 16B, 415 05 Göteborg",
+      "von Utfallsgatan 16, Göteborg"
+    ],
+    "approxLat": 57.753,
+    "approxLng": 12.021,
+    "footprintRadiusMeters": 180,
+    "description": "Head office of Momentum Industrial, the Momentum Group distributor of industrial components with about 30 locations in Sweden and Norway.",
+    "source": "https://www.momentum-industrial.com/",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Momentum",
+    "name": "Swerub Sunne Rubber Products Production Facility (Momentum Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Sunne",
+    "country": "Sverige",
+    "address": "Brårudsallén 10, 686 33 Sunne",
+    "geoQueries": [
+      "Swerub Sunne",
+      "Brårudsallén 10, 686 33 Sunne",
+      "Brårudsallén, Sunne"
+    ],
+    "approxLat": 59.837,
+    "approxLng": 13.145,
+    "footprintRadiusMeters": 160,
+    "description": "One of Swerub's two Värmland production sites, making industrial rubber dampers, buffers and bushings for Momentum Group.",
+    "source": "https://www.swerub.se/om-oss/",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Momentum",
+    "name": "Swerub Ekshärad Rubber Products Production Facility (Momentum Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ekshärad",
+    "country": "Sverige",
+    "address": "Hästfallsvägen 18, 683 60 Ekshärad",
+    "geoQueries": [
+      "Swerub Ekshärad",
+      "Hästfallsvägen 18, 683 60 Ekshärad",
+      "Hästfallsvägen, Ekshärad"
+    ],
+    "approxLat": 60.1873,
+    "approxLng": 13.5273,
+    "footprintRadiusMeters": 160,
+    "description": "Swerub's second Värmland production facility, making industrial rubber products for Momentum Group.",
+    "source": "https://www.swerub.se/",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Momentum",
+    "name": "Polymore Bålsta Polymer Makedown Unit Plant (Momentum Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Bålsta",
+    "country": "Sverige",
+    "address": "Mjödvägen 7, 746 50 Bålsta",
+    "geoQueries": [
+      "Polymore Bålsta",
+      "Mjödvägen 7, 746 50 Bålsta",
+      "Mjödvägen, Bålsta"
+    ],
+    "approxLat": 59.57,
+    "approxLng": 17.54,
+    "footprintRadiusMeters": 150,
+    "description": "Polymore AB makes liquid polymer makedown (dissolver) units for water and wastewater treatment plants, supplied since 1989; a Momentum Group company.",
+    "source": "https://www.polymore.se/kontakt/",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Norion Bank",
+    "name": "Norion Bank Stockholm Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Linnégatan 2, 114 47 Stockholm",
+    "geoQueries": [
+      "Norion Bank Stockholm",
+      "Linnégatan 2, 114 47 Stockholm",
+      "Linnégatan 2, Stockholm"
+    ],
+    "approxLat": 59.3365,
+    "approxLng": 18.077,
+    "footprintRadiusMeters": 150,
+    "description": "Norion Bank's Stockholm office, its second Swedish location alongside the Göteborg headquarters.",
+    "source": "https://www.norionbank.se/en/",
+    "coordsExact": false
   }
 ]
