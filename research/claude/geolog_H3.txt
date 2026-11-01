@@ -1,0 +1,30 @@
+NOGEO   Investor | Piab Group Headquarters (Patricia Industries)
+OK      Investor | BraunAbility Winamac Wheelchair-Accessible Vehicle Plant | 631 West 11th Street, Winamac, IN 46996 -> place/house 631, West 11th Street, Winamac, Pulaski County, Indiana, 46996, United
+OK      Investor | Laborie Medical Technologies Headquarters (Pease Tradeport) | Laborie Portsmouth -> office/company Laborie, International Drive, Pease International Tradeport, Portsmout
+NOGEO   Investor | Sarnova Headquarters (Dublin, Ohio)
+OK      Investor | Advanced Instruments Headquarters & Factory (Norwood) | 2 Technology Way, Norwood, MA 02062 -> place/house 2, Technology Way, Norwood, Norfolk County, Massachusetts, 02090, Unit
+OK      Sampo | Topdanmark Head Office (Ballerup) | Borupvang 4, 2750 Ballerup -> place/house 4, Borupvang, Høje Haver, Sømose Hegn, Lautrupgård, Ballerup, Ballerup
+OK      Coor Service Management | Coor Finland Head Office (Leppävaara) | Linnoitustie 6, 02600 Espoo -> building/office Säterinportti, 6, Linnoitustie, Säterinsyrjä, Etelä-Leppävaara, Leppäv
+OK      Coor Service Management | Coor Belgium Head Office (Gent) | Pantserschipstraat 181, 9000 Gent -> place/house 181, Pantserschipstraat, Meulestede, Gent, Oost-Vlaanderen, Vlaanderen
+OK      OEM | OEM Automatic Klitsø A/S Denmark HQ & Warehouse (Allerød) | Engholm Parkvej 4, 3450 Allerød -> place/house 4, Engholm Parkvej, Lynge Overdrev, Lillerød, Allerød Kommune, Region 
+OK      OEM | OEM Automatic Ltd UK HQ & Warehouse (Whetstone, Leicester) | OEM Automatic Whetstone -> office/company OEM Automatic, M1, Whetstone, Cosby, Blaby, Leicestershire, England, L
+OK      Konecranes | Konecranes Port Solutions Düsseldorf-Benrath Mobile Harbour Crane Plant (Gottwald) | Konecranes Düsseldorf -> landuse/industrial Konecranes, Paulsmühle, Benrath, Stadtbezirk 9, Düsseldorf, Nordrhein-
+OK      Konecranes | Konecranes Americas HQ & Crane Assembly Plant (Springfield, Ohio) | 4401 Gateway Blvd, Springfield, OH 45502 -> place/house 4401, Gateway Boulevard, Springfield, Clark County, Ohio, 45502, Unite
+NOGEO   Konecranes | Konecranes Lifttrucks Markaryd Heavy Forklift & Reach Stacker Factory
+NOGEO   MilDef | MilDef Sweden AB Rosersberg Site
+OK      MilDef | MilDef Oy Finland Office (Espoo) | Lars Sonckin kaari 14, 02600 Espoo -> building/office Stella Business Park- Luna, 14, Lars Sonckin kaari, Yhdyskunnanmäki, P
+NOGEO   MilDef | MilDef AS Ottestad Site (Norway)
+NOGEO   MilDef | MilDef Ltd St Athan Systems Integration Site (Bro Tathan)
+NOGEO   MilDef | MilDef UK Ltd Melksham (Datum House)
+NOGEO   MilDef | MilDef Inc. US Office (Fullerton)
+OK      MilDef | MilDef GmbH Hüllhorst Site | Hankamp 2, 32609 Hüllhorst -> building/industrial Wortmann AG, 2, Hankamp, Schnathorst, Tengern, Hüllhorst, Kreis Minden
+OK      Vimian | Nextmune Netherlands Office & Allergy Products Site (Lelystad) | Vijzelweg 11, 8243 PM Lelystad -> place/house 11, Vijzelweg, Noordersluis, Botter, Lelystad, Flevoland, Nederland, 8
+NOGEO   Vimian | Movora / Veterinary Orthopedic Implants US Distribution Center (St. Augustine)
+OK      Kempower | Kempower Lahti 2 EV Charger Factory & Service Centre (Isku Center) | Mukkulankatu 19, 15210 Lahti -> building/office Isku Center, 19, Mukkulankatu, Niemi, Lahti, Lahden seutukunta, Päijät
+OK      Kempower | Kempower Lahti 3 Power Module Production Plant | Ala-Okeroistentie 23, 15700 Lahti -> building/yes 23, Ala-Okeroistentie, Pajaniemi, Jokimaa, Lahti, Lahden seutukunta, P
+NOGEO   Kempower | Kempower Vaasa Engineering Office
+NOGEO   Kempower | Kempower UK Office (Martti Kemppi Building, Bedford)
+NOGEO   Kempower | Kempower Germany Office (EUREF-Campus Düsseldorf)
+NOGEO   Kone | KONE Park Kunshan Elevator & Escalator Factories and R&D Centre
+OK      Kone | KONE Elevators India Sriperumbudur Factory | KONE Sriperumbudur -> building/industrial KONE Elevator India Distribution Centre, Marmalong Bridge - Irumbuliyu
+NOGEO   Kone | KONE India R&D and Shared Services Centre (Ambattur)

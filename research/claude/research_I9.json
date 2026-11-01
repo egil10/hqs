@@ -1,0 +1,209 @@
+[
+  {
+    "parentName": "SJF Bank",
+    "name": "SJF Bank Odense Områdecenter & Erhvervscenter Fyn",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Odense",
+    "country": "Danmark",
+    "address": "Søndergade 17, 5000 Odense C",
+    "geoQueries": [
+      "Søndergade 17, 5000 Odense C",
+      "Sparekassen Sjælland-Fyn Odense",
+      "SJF Bank Odense"
+    ],
+    "approxLat": 55.3957,
+    "approxLng": 10.3866,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "SJF Bank's (Sparekassen Sjælland-Fyn) main Funen regional centre in central Odense, housing the Odense area centre and Erhvervscenter Fyn (business banking).",
+    "source": "https://www.spks.dk/findfilial/medarbejderoversigt/afdeling/erhvervscenter-fyn"
+  },
+  {
+    "parentName": "Instalco",
+    "name": "Fabri AG Headquarters Nuremberg (Instalco Germany)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Nürnberg",
+    "country": "Germany",
+    "address": "Brunnengasse 13, 90402 Nürnberg",
+    "geoQueries": [
+      "Brunnengasse 13, 90402 Nürnberg",
+      "Fabri AG Nürnberg",
+      "Fabri Gruppe Nürnberg"
+    ],
+    "approxLat": 49.4538,
+    "approxLng": 11.0775,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Fabri AG, the German electrical and building-services installation group (23 subsidiaries, ~800 employees, EUR 86m sales 2025) in which Instalco is majority owner.",
+    "source": "https://www.fabri-gruppe.de/en"
+  },
+  {
+    "parentName": "Revenio",
+    "name": "iCare Finland Vantaa Operating Site (Härkähaankuja)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Vantaa",
+    "country": "Finland",
+    "address": "Härkähaankuja 7, 01730 Vantaa",
+    "geoQueries": [
+      "Härkähaankuja 7, 01730 Vantaa",
+      "Icare Finland Oy Vantaa",
+      "Revenio Group Vantaa"
+    ],
+    "approxLat": 60.304,
+    "approxLng": 24.944,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Operating address of Icare Finland Oy, Revenio's developer and manufacturer of iCare rebound tonometers and other eye-care diagnostic devices (listed separately from the Äyritie 22 legal address).",
+    "source": "https://www.icare-world.com/contact-us/"
+  },
+  {
+    "parentName": "Revenio",
+    "name": "CenterVue Vigonza Operations (Padua)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Vigonza",
+    "country": "Italy",
+    "address": "Via Germania 34, 35010 Vigonza (PD)",
+    "geoQueries": [
+      "Via Germania 34, 35010 Vigonza",
+      "CenterVue Vigonza",
+      "Centervue S.p.A. Vigonza"
+    ],
+    "approxLat": 45.36,
+    "approxLng": 11.98,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Operating site of CenterVue S.p.A. (Revenio subsidiary since 2019), developer and maker of retinal imaging and automated perimetry devices; legal seat is Via San Marco 9/H, Padova.",
+    "source": "https://www.icare-world.com/contact-us/"
+  },
+  {
+    "parentName": "Revenio",
+    "name": "Visionix Headquarters & Factory Pont-de-l'Arche",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Pont-de-l'Arche",
+    "country": "France",
+    "address": "2 Rue Roger Bonnet, 27340 Pont-de-l'Arche",
+    "geoQueries": [
+      "2 Rue Roger Bonnet, 27340 Pont-de-l'Arche",
+      "Visionix Pont-de-l'Arche",
+      "Luneau Technology Pont-de-l'Arche"
+    ],
+    "approxLat": 49.301,
+    "approxLng": 1.155,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Headquarters and factory of Visionix (ex-Luneau Technology; Briot and Weco lens edgers, lensmeters and refraction devices), acquired by Revenio in May 2026.",
+    "source": "https://www.visionix.com/en-us/about-us/"
+  },
+  {
+    "parentName": "Revenio",
+    "name": "Optovue (Visionix) Fremont OCT Site",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Fremont",
+    "country": "USA",
+    "address": "2800 Bayview Drive, Fremont, CA 94538",
+    "geoQueries": [
+      "2800 Bayview Drive, Fremont, CA 94538",
+      "Optovue Fremont",
+      "Optovue Inc Fremont California"
+    ],
+    "approxLat": 37.48,
+    "approxLng": -121.935,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Fremont, California site where Optovue (Visionix group, acquired by Revenio in 2026) develops and builds its OCT imaging systems.",
+    "source": "https://www.visionix.com/en-us/contact/"
+  },
+  {
+    "parentName": "Salix",
+    "name": "Heco Nordiska (Heco Skruvspecialisten) Hillerstorp",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hillerstorp",
+    "country": "Sverige",
+    "address": "Rocknevägen 16, 335 73 Hillerstorp",
+    "geoQueries": [
+      "Rocknevägen 16, 335 73 Hillerstorp",
+      "Heco Skruvspecialisten Hillerstorp",
+      "Heco Nordiska Hillerstorp"
+    ],
+    "approxLat": 57.317,
+    "approxLng": 13.88,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Address of Salix subsidiary Heco (Heco Skruvspecialisten), Nordic supplier of construction fastening products such as screws and fittings for industry and retail.",
+    "source": "https://www.heco.se/"
+  },
+  {
+    "parentName": "Salix",
+    "name": "Duschprodukter Sweden Kungälv",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kungälv",
+    "country": "Sverige",
+    "address": "Solbräckegatan 41A, 442 45 Kungälv",
+    "geoQueries": [
+      "Solbräckegatan 41A, 442 45 Kungälv",
+      "Duschprodukter Sweden Kungälv",
+      "Duschprodukter Kungälv"
+    ],
+    "approxLat": 57.87,
+    "approxLng": 11.97,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Base of Salix subsidiary Duschprodukter Group (Arrow, Duschy and Demerx brands) covering shower and bathroom product development, production and sales.",
+    "source": "https://dpsgroup.se/"
+  },
+  {
+    "parentName": "Salix",
+    "name": "Arvid Nilsson Kungälv",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kungälv",
+    "country": "Sverige",
+    "address": "Bultgatan 27, 442 40 Kungälv",
+    "geoQueries": [
+      "Bultgatan 27, 442 40 Kungälv",
+      "Arvid Nilsson AB Kungälv"
+    ],
+    "approxLat": 57.873,
+    "approxLng": 11.978,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office and logistics base of Salix subsidiary Arvid Nilsson AB, a consumables trading business serving customers in Sweden, Norway and Denmark.",
+    "source": "https://www.arvidnilsson.se/kontakt"
+  },
+  {
+    "parentName": "Salix",
+    "name": "Thomee Malmö",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Malmö",
+    "country": "Sverige",
+    "address": "Bjurögatan 28, 202 13 Malmö",
+    "geoQueries": [
+      "Bjurögatan 28, Malmö",
+      "Thomee AB Malmö"
+    ],
+    "approxLat": 55.592,
+    "approxLng": 13.02,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Office of Salix subsidiary Thomee, an about 36-person sales, purchasing and customer-service organisation.",
+    "source": "https://thomee.se/kontakt"
+  },
+  {
+    "parentName": "Oma Säästöpankki",
+    "name": "Oma Säästöpankki Helsinki Corporate Banking Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Helsinki",
+    "country": "Finland",
+    "address": "Kluuvikatu 3, 00100 Helsinki",
+    "geoQueries": [
+      "Kluuvikatu 3, 00100 Helsinki",
+      "Oma Säästöpankki Helsinki",
+      "OmaSp Helsinki Kluuvikatu"
+    ],
+    "approxLat": 60.1698,
+    "approxLng": 24.9455,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "OmaSp's Helsinki office in Kluuvi, with the bank's corporate banking (yrityspankki) unit on the 3rd floor; the capital-region hub of a bank with about 48 branches.",
+    "source": "https://www.omasp.fi/en/konttorit"
+  }
+]

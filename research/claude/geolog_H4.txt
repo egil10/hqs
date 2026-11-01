@@ -1,0 +1,21 @@
+NOGEO   Nordea Bank | Nordea Norway Head Office (Vaterland, Oslo)
+OK      Elisa | Elisa Eesti Head Office (Tallinn) | Sõpruse puiestee 145, Tallinn -> place/house Sõpruse puiestee T6, 232a, Sõpruse pst, Mustamäe, Mustamäe linnaosa, T
+OK      Elisa | Elisa Polystar Sweden Headquarters (Hammarby Sjöstad) | Hammarby allé 29, 120 32 Stockholm -> place/house 29, Hammarby Allé, Södra Hammarbyhamnen, Södermalms stadsdelsområde, S
+OK      Elisa | Elisa Pitäjänmäki Office & Operations Site (Kutomotie, Helsinki) | Elisa Kutomotie 18 -> office/company Elisa, 18, Kutomotie, Strömberg, Pitäjänmäen yritysalue, Pitäjänmäki, 
+NOGEO   Elisa | Elisa Tampere Regional Office
+OK      Elisa | Elisa Oulu Office (Linnanmaa) | Elektroniikkatie 2, 90570 Oulu -> building/office 2 A, Elektroniikkatie, Linnanmaa, Kaijonharju, Oulu, Oulun seutukunta,
+OK      Elisa | Elisa Polystar Poland Office (Wrocław) | Aleja Wiśniowa 23, Wrocław -> building/apartments 23, aleja Wiśniowa, Borek, Wrocław, województwo dolnośląskie, 53-137, 
+OK      SWECO | Sweco Norge Head Office (Norbygata, Oslo) | Norbygata 14, 0187 Oslo -> place/house 14, Norbygata, Grønland, Gamle Oslo, Oslo, 0187, Norge
+OK      SWECO | Sweco Danmark Head Office (Ørestad, Copenhagen) | Ørestads Boulevard 41, 2300 København S -> place/house 41, Ørestads Boulevard, Elmegården, Ørestad, København, Københavns Kom
+OK      SWECO | Sweco Belgium Head Office (Horta building, Brussels) | Rue d'Arenberg 13, 1000 Bruxelles -> place/house 13, Rue d'Arenberg - Arenbergstraat, Quartier du Centre - Centrumwijk,
+OK      SWECO | Sweco GmbH Head Office (Bremen) | Karl-Ferdinand-Braun-Straße 9, 28359 Bremen -> building/office 9, Karl-Ferdinand-Braun-Straße, Lehe, Horn-Lehe, Bremen-Ost, Bremen, 2
+NOGEO   SWECO | Sweco UK Head Office (Leeds)
+OK      SWECO | Sweco Polska Head Office (Poznań) | Franklina Roosevelta 22, Poznań -> building/office Bałtyk, 22, Franklina Roosevelta, Jeżyce, Poznań, województwo wielkopo
+NOGEO   Arjo | Arjo Suzhou Therapeutic Surfaces & DVT Factory
+OK      Arjo | Huntleigh Healthcare Diagnostics Plant (Cardiff) | Huntleigh Healthcare Cardiff -> building/yes Huntleigh Healthcare, Portmanmoor Road, Splott, Cardiff, Cymru / Wales
+NOGEO   Arjo | Arjo Santo Domingo Manufacturing Plant
+NOGEO   Arjo | ArjoHuntleigh Roncq Therapeutic Surfaces Plant
+NOGEO   Arjo | Arjo Inc. US Headquarters (Addison, Illinois)
+OK      Heimar | Höfðatorg Office Tower & Complex (Borgartún, Reykjavík) | Höfðatorg -> landuse/commercial Höfðatorg, Laugardalur, Reykjavíkurborg, Höfuðborgarsvæðið, Ísland
+NOGEO   Heimar | Garðatorg Town Centre Properties (Miðbær Garðabæjar)
+NOGEO   SoftwareOne | SoftwareOne North America Headquarters (Dye House, Milwaukee)

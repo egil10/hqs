@@ -1,0 +1,154 @@
+[
+  {
+    "parentName": "Klaveness Combination Carriers",
+    "name": "Klaveness Shore Services Manila Shared Service Centre (MOA Complex)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Pasay City",
+    "country": "Philippines",
+    "address": "5F FiveE-com Center, Harbour Drive, MOA Complex, Pasay City 1300",
+    "geoQueries": [
+      "FiveE-com Center, Harbour Drive, Pasay",
+      "FiveE-com Center, Mall of Asia Complex, Pasay City",
+      "Harbour Drive, MOA Complex, Pasay City"
+    ],
+    "approxLat": 14.5352,
+    "approxLng": 120.9815,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Klaveness Shore Services Inc. (est. 2013, PEZA-registered) provides IT, accounting and commercial operations services to Klaveness group entities including the combination carrier fleet owner KCC.",
+    "source": "https://www.klaveness.com/contact/offices"
+  },
+  {
+    "parentName": "Truecaller",
+    "name": "Truecaller International LLP Gurugram Office (Platina Tower)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Gurugram",
+    "country": "India",
+    "address": "1st Floor, Platina Tower, M.G. Road, Sector 28, Gurugram, Haryana 122001",
+    "geoQueries": [
+      "Platina Tower, MG Road, Sector 28, Gurugram",
+      "Platina Tower Gurgaon",
+      "Sikandarpur Metro Station, Gurugram"
+    ],
+    "approxLat": 28.4812,
+    "approxLng": 77.093,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Office of Truecaller's Indian operating entity Truecaller International LLP (sales, partnerships and operations for Truecaller's largest market); address per third-party company directories, a second Gurugram address (DLF Phase V) is also listed.",
+    "source": "https://craft.co/truecaller"
+  },
+  {
+    "parentName": "GRK Infra",
+    "name": "GRK Sverige AB Boden Office (Norrbotnia Line Rail Projects)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Boden",
+    "country": "Sverige",
+    "address": "Teknikvägen 13, 961 50 Boden",
+    "geoQueries": [
+      "Teknikvägen 13, 961 50 Boden",
+      "GRK Sverige AB, Boden",
+      "Teknikvägen, Boden"
+    ],
+    "approxLat": 65.825,
+    "approxLng": 21.688,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Swedish subsidiary GRK Sverige AB's office in Boden, base for GRK's rail and infrastructure contracts in northern Sweden such as the Norrbotnia Line.",
+    "source": "https://www.grk.fi/en/contact-us"
+  },
+  {
+    "parentName": "GRK Infra",
+    "name": "KSBR Keski-Suomen Betonirakenne Pihtipudas Concrete Construction Base",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Pihtipudas",
+    "country": "Finland",
+    "address": "Asematie 5, 44800 Pihtipudas",
+    "geoQueries": [
+      "Asematie 5, 44800 Pihtipudas",
+      "Keski-Suomen Betonirakenne, Pihtipudas",
+      "KSBR Pihtipudas"
+    ],
+    "approxLat": 63.37,
+    "approxLng": 25.575,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Registered base of Keski-Suomen Betonirakenne Oy (KSBR), a concrete-structure contractor acquired by GRK Infra in 2026.",
+    "source": "https://www.asiakastieto.fi/yritykset/fi/keski-suomen-betonirakenne-oy/18751267/rekisteritiedot"
+  },
+  {
+    "parentName": "Festi",
+    "name": "Bakkinn Vöruhótel Skarfagarðar Warehouse (Sundahöfn)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Reykjavík",
+    "country": "Island",
+    "address": "Skarfagarðar 2, 104 Reykjavík",
+    "geoQueries": [
+      "Skarfagarðar 2, 104 Reykjavík",
+      "Bakkinn vöruhótel Skarfagarðar",
+      "Skarfagarðar, Reykjavík"
+    ],
+    "approxLat": 64.1545,
+    "approxLng": -21.87,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Warehouse of Festi subsidiary Bakkinn vöruhótel in Sundahöfn: warehousing, packaging, dispensing and distribution, with Krónan, ELKO and N1 as key customers.",
+    "source": "https://www.festi.is/en/rekstrarfelog/bakkinn"
+  },
+  {
+    "parentName": "Festi",
+    "name": "Bakkinn Vöruhótel Klettagarðar Warehouse",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Reykjavík",
+    "country": "Island",
+    "address": "Klettagarðar 13, 104 Reykjavík",
+    "geoQueries": [
+      "Klettagarðar 13, 104 Reykjavík",
+      "Bakkinn vöruhótel Klettagarðar",
+      "Klettagarðar, Reykjavík"
+    ],
+    "approxLat": 64.152,
+    "approxLng": -21.86,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Second warehouse of Festi subsidiary Bakkinn vöruhótel in the Sundahöfn harbour area, serving the group's Krónan, ELKO and N1 supply chain.",
+    "source": "https://www.bakkinn.is/"
+  },
+  {
+    "parentName": "Finnair",
+    "name": "Finnair Flight Academy (Helsinki Airport, Vantaa)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vantaa",
+    "country": "Finland",
+    "address": "Pyhtäänkorventie 11-13, 01530 Vantaa",
+    "geoQueries": [
+      "Pyhtäänkorventie 11, 01530 Vantaa",
+      "Finnair Flight Academy, Vantaa",
+      "Pyhtäänkorventie 13, Vantaa"
+    ],
+    "approxLat": 60.32,
+    "approxLng": 24.94,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Finnair Flight Academy, the airline's pilot and crew training centre at Helsinki Airport.",
+    "source": "https://www.finnairflightacademy.com/en"
+  },
+  {
+    "parentName": "Finnair",
+    "name": "Finnair Business Services Tartu Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tartu",
+    "country": "Estonia",
+    "address": "Tähe 4, 51010 Tartu",
+    "geoQueries": [
+      "Tähe 4, 51010 Tartu",
+      "Finnair Business Services, Tartu",
+      "Tähe tänav 4, Tartu"
+    ],
+    "approxLat": 58.374,
+    "approxLng": 26.73,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Finnair-owned Estonian subsidiary (~200 staff) providing group financial accounting, customer-claims handling, analytics, digital/IT and other back-office services from its Tartu office.",
+    "source": "https://businessservices.finnair.com/en/contact"
+  }
+]

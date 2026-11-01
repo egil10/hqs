@@ -1,0 +1,23 @@
+OK      Höegh Autoliners | Höegh Autoliners North America Head Office (Jacksonville) | 225 Water Street, Jacksonville, FL 32202 -> building/office One Enterprise Center, 225, Water Street, South Jacksonville, Jacksonv
+OK      Höegh Autoliners | Höegh Autoliners GmbH Hamburg Office | Alter Wall 55, 20457 Hamburg -> place/house 55, Alter Wall, Altstadt, Hamburg-Mitte, Hamburg, 20457, Deutschland
+NOGEO   H. Lundbeck | Lundbeck Pharmaceuticals Italy API Plant (Padova)
+OK      H. Lundbeck | Lundbeck Seattle BioPharmaceuticals (Bothell) | 11804 North Creek Parkway South, Bothell, WA 98011 -> building/commercial 11804, North Creek Parkway South, North Creek, Bothell, King County, W
+NOGEO   Alimak | Tractel Saint-Hilaire-sous-Romilly Hoist & Safety Equipment Plant (Alimak)
+OK      Alimak | Tractel Greifzug Bergisch Gladbach Plant (Alimak) | Scheidtbachstraße 19, 51469 Bergisch Gladbach -> building/yes 19, Scheidtbachstraße, Heidkamp, Bergisch Gladbach, Rheinisch-Bergisch
+NOGEO   Alimak | Alimak Changshu Construction Hoist Factory
+NOGEO   Tieto | Tieto India Delivery Centre (EON Free Zone, Kharadi, Pune)
+OK      Tieto | Tieto Czechia Office (Organica, Ostrava) | Tietoevry Ostrava -> office/it Tietoevry, K Trojhalí, Moravská Ostrava a Přívoz, Ostrava, okres Ostra
+NOGEO   Pexip | Pexip UK Office (Thames Valley Park, Reading)
+NOGEO   Pexip | Pexip Americas Office (Herndon, VA)
+NOGEO   Pexip | Pexip Japan Office (Shibadaimon, Tokyo)
+NOGEO   Pexip | Pexip Singapore Office (Paya Lebar Square)
+OK      Medistim | Medistim Deutschland GmbH (Deisenhofen) | Bahnhofstraße 32, 82041 Oberhaching -> place/house 32, Bahnhofstraße, Deisenhofen, Oberhaching, Landkreis München, Bayern
+NOGEO   Medistim | Medistim UK (Wilford, Nottingham)
+OK      Medistim | Medistim Spain (Barcelona) | Carrer de Balmes 173, 08006 Barcelona -> building/apartments 173, Carrer de Balmes, Sant Gervasi - Galvany, Sarrià - Sant Gervasi, 
+NOGEO   Medistim | Medistim Japan K.K. (Akasaka, Tokyo)
+NOGEO   Knowit | Knowit Syd Office (Stortorget, Malmö)
+OK      Knowit | Knowit Denmark Office (Copenhagen) | Nyropsgade 41, 1602 København V -> place/house 41, Nyropsgade, Vestervold, Kødbyen, København, Københavns Kommune, Re
+OK      Swedbank | Swedbank Estonia Head Office (Liivalaia, Tallinn) | Liivalaia 8, 10118 Tallinn -> building/commercial 8, Liivalaia, Tatari, Kesklinna linnaosa, Tallinn, Harju maakond, 1504
+NOGEO   Swedbank | Swedbank Lithuania Head Office (Konstitucijos pr., Vilnius)
+NOGEO   ISS | ISS UK Head Office (Velocity 1, Brooklands, Weybridge)
+OK      ISS | ISS Facility Services North America HQ (San Antonio) | 1017 Central Parkway North, San Antonio, TX 78232 -> place/house 1017, Central Parkway North, San Antonio, Bexar County, Texas, 78232, 

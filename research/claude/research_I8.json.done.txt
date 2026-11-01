@@ -1,0 +1,7 @@
+BioArctic - skipped (only Stockholm HQ/labs; no other sites)
+Industrivärden - skipped (investment holding company, only Stockholm office)
+Ovzon - done (Herndon US office; Tampa unverified, no owned teleport found)
+Magnora - skipped (project developer; data center assets already listed under Magnora Data Center)
+Enity - skipped (no confirmable non-HQ site; Bank2 Oslo address unverified)
+Investment Öresund - skipped (investment holding company, only Stockholm office)
+INVISIO - done (Racal Acoustics Harrow; Hvidovre already exists)

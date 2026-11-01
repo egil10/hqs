@@ -1,0 +1,363 @@
+[
+  {
+    "parentName": "Okeanis Eco Tankers",
+    "name": "Okeanis Eco Tankers Neo Faliro Management Office (OET Chartering)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Neo Faliro (Piraeus)",
+    "country": "Greece",
+    "address": "Ethnarchou Makariou Ave. & 2 D. Falireos St., 185 47 N. Faliro",
+    "geoQueries": [
+      "Ethnarchou Makariou & Falireos, Neo Faliro",
+      "2 Falireos, Neo Faliro, Piraeus",
+      "Ethnarchou Makariou Avenue, 185 47 Neo Faliro"
+    ],
+    "approxLat": 37.9442,
+    "approxLng": 23.6655,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Okeanis' principal executive and commercial/technical operations office (c/o OET Chartering Inc.) in the Athens/Piraeus area, from which the VLCC and Suezmax fleet is chartered and managed.",
+    "source": "https://www.okeanisecotankers.com/en/contact"
+  },
+  {
+    "parentName": "John Mattson Fastighetsföretagen",
+    "name": "John Mattson Dalénum Residential Area (Lidingö)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Lidingö",
+    "country": "Sverige",
+    "address": "Ackumulatorvägen / Agavägen, Dalénum, 181 31 Lidingö",
+    "geoQueries": [
+      "Dalénum, Lidingö",
+      "Ackumulatorvägen, Lidingö",
+      "Dalénum Lidingö 181 31"
+    ],
+    "approxLat": 59.3439,
+    "approxLng": 18.1578,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "John Mattson's newest residential holding (2015) in the former AGA factory district of Dalénum on Lidingö.",
+    "source": "https://sv.wikipedia.org/wiki/Dalénum"
+  },
+  {
+    "parentName": "John Mattson Fastighetsföretagen",
+    "name": "John Mattson Larsberg Residential Area (Lidingö)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Lidingö",
+    "country": "Sverige",
+    "address": "Larsberg, 181 32 Lidingö",
+    "geoQueries": [
+      "Larsberg, Lidingö",
+      "Larsbergsvägen, Lidingö",
+      "Larsberg Lidingö 181 32"
+    ],
+    "approxLat": 59.345,
+    "approxLng": 18.15,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Core rental-apartment area (1950s-70s stock) on Lidingö, where John Mattson is the largest landlord with about 2,250 homes across Larsberg, Käppala, Baggeby and Dalénum.",
+    "source": "https://www.affarsvarlden.se/analys/john-mattson-vaxer-sig-storre"
+  },
+  {
+    "parentName": "John Mattson Fastighetsföretagen",
+    "name": "John Mattson Rotebro & Rotsunda Residential Area (Sollentuna)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Sollentuna",
+    "country": "Sverige",
+    "address": "Rotebro / Rotsunda, 192 xx Sollentuna",
+    "geoQueries": [
+      "Rotsunda, Sollentuna",
+      "Rotebro, Sollentuna",
+      "Rotebro centrum, Sollentuna"
+    ],
+    "approxLat": 59.48,
+    "approxLng": 17.92,
+    "coordsExact": false,
+    "footprintRadiusMeters": 320,
+    "description": "About 540 rental apartments bought from municipal Sollentunahem in December 2019 in Rotebro and Rotsunda.",
+    "source": "https://www.mynewsdesk.com/se/sollentuna_kommun/pressreleases/john-mattson-foervaervar-hyresraetter-i-rotebro-och-rotsunda-2955745"
+  },
+  {
+    "parentName": "John Mattson Fastighetsföretagen",
+    "name": "John Mattson Häggvik & Tureberg Residential Area (Sollentuna)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Sollentuna",
+    "country": "Sverige",
+    "address": "Häggvik / Tureberg, Sollentuna",
+    "geoQueries": [
+      "Tureberg, Sollentuna",
+      "Häggvik, Sollentuna",
+      "Tureberg Sollentuna"
+    ],
+    "approxLat": 59.433,
+    "approxLng": 17.929,
+    "coordsExact": false,
+    "footprintRadiusMeters": 320,
+    "description": "456 apartments and commercial premises (about 38,000 m2, built 1940s-70s) in eight properties near Häggvik station and Sollentuna centrum.",
+    "source": "https://news.cision.com/john-mattson-fastighetsforetagen-ab/r/john-mattson-acquires-a-further-456-apartments-in-the-municipality-of-sollentuna,c3342460"
+  },
+  {
+    "parentName": "John Mattson Fastighetsföretagen",
+    "name": "John Mattson Senapsfabriken Apartments (Uppsala)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Uppsala",
+    "country": "Sverige",
+    "address": "Senapsfabriken, Kungsängen (Uppsala Kungsängen 45:1, 45:3, 45:4, 45:5), Uppsala",
+    "geoQueries": [
+      "Senapsfabriken, Uppsala",
+      "Kungsängen, Uppsala",
+      "Industristaden, Uppsala"
+    ],
+    "approxLat": 59.8625,
+    "approxLng": 17.643,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "318 apartments in Industristaden near Uppsala Central acquired from Niam (possession 1 June 2026), John Mattson's first holding outside the Stockholm suburbs.",
+    "source": "https://www.placera.se/pressmeddelanden/john-mattson-john-mattson-forvarvar-318-lagenheter-i-centrala-uppsala-och-lanserar-nytt-aterkopsprogram-20260513"
+  },
+  {
+    "parentName": "Röko",
+    "name": "Oppold System Solid-Wood Tooling Plant (Oberkochen)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Oberkochen",
+    "country": "Germany",
+    "address": "Röchlingstr. 18, 73447 Oberkochen",
+    "geoQueries": [
+      "Oppold System International, Oberkochen",
+      "Röchlingstraße 18, 73447 Oberkochen",
+      "Oppold Oberkochen"
+    ],
+    "approxLat": 48.7815,
+    "approxLng": 10.1,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Oppold SYSTEM International GmbH (about 25 employees, EUR 3m sales) makes CNC tool systems for solid-wood machining, acquired by Röko's RWP Holding GmbH in 2026.",
+    "source": "https://oppold-system.de"
+  },
+  {
+    "parentName": "Röko",
+    "name": "ITIB Machinery International Corrugator Factory (Paderno Franciacorta)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Paderno Franciacorta",
+    "country": "Italy",
+    "address": "Via Trento 34, 25050 Paderno Franciacorta (BS)",
+    "geoQueries": [
+      "ITIB Machinery International, Paderno Franciacorta",
+      "Via Trento 34, 25050 Paderno Franciacorta",
+      "ITIB Paderno Franciacorta"
+    ],
+    "approxLat": 45.599,
+    "approxLng": 10.001,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Designs and builds corrugators and auxiliary equipment for plastic pipe extrusion; Röko acquired 75% in December 2025.",
+    "source": "https://macplas.it/en/marketing/italian-news/roko-acquires-75-itib-machinery-international"
+  },
+  {
+    "parentName": "Röko",
+    "name": "Access Building Products Tockwith Factory (ABP Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tockwith",
+    "country": "UK",
+    "address": "Unit 86 Marston Moor Business Park, Tockwith, York YO26 7QF",
+    "geoQueries": [
+      "Marston Moor Business Park, Tockwith",
+      "Access Building Products, Tockwith",
+      "Marston Moor Business Park, Tockwith, YO26 7QF"
+    ],
+    "approxLat": 53.996,
+    "approxLng": -1.301,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Access Building Products (ABP Group, brands incl. Jupiter Blue and House of Canopies; 88 staff) makes access panels and door canopies; Röko owns 85%.",
+    "source": "https://www.accessbuildingproducts.co.uk/contact-us"
+  },
+  {
+    "parentName": "Skandinaviska Enskilda Banken",
+    "name": "SEB Bankas Lithuanian Head Office (Vilnius)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "address": "Konstitucijos pr. 24, LT-08131 Vilnius",
+    "geoQueries": [
+      "SEB bankas, Konstitucijos pr. 24, Vilnius",
+      "Konstitucijos prospektas 24, Vilnius",
+      "SEB bankas Vilnius"
+    ],
+    "approxLat": 54.6985,
+    "approxLng": 25.264,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Head office of AB SEB bankas, SEB's Lithuanian banking subsidiary, in the Vilnius business district where the group also runs a shared-services centre.",
+    "source": "https://www.seb.lt/kontaktai"
+  },
+  {
+    "parentName": "Skandinaviska Enskilda Banken",
+    "name": "SEB Pank Estonian Head Office (Tallinn)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "address": "Tornimäe 2, 15010 Tallinn",
+    "geoQueries": [
+      "SEB Pank, Tornimäe 2, Tallinn",
+      "Tornimäe 2, 15010 Tallinn",
+      "SEB Pank Tallinn"
+    ],
+    "approxLat": 59.437,
+    "approxLng": 24.757,
+    "coordsExact": false,
+    "footprintRadiusMeters": 170,
+    "description": "Head office of AS SEB Pank, SEB's Estonian banking subsidiary, in central Tallinn.",
+    "source": "https://www.seb.ee/kontakt"
+  },
+  {
+    "parentName": "Ambea",
+    "name": "Vardaga Head Office (Solna)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Solna",
+    "country": "Sverige",
+    "address": "Röntgenvägen 3D, 171 29 Solna",
+    "geoQueries": [
+      "Vardaga, Röntgenvägen 3, Solna",
+      "Röntgenvägen 3D, 171 29 Solna",
+      "Röntgenvägen 3, Solna"
+    ],
+    "approxLat": 59.349,
+    "approxLng": 18.024,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of Vardaga, Ambea's Swedish elderly-care and home-care provider operating through eight regions.",
+    "source": "https://vardaga.se/kontakt/kontakta-oss/"
+  },
+  {
+    "parentName": "Ambea",
+    "name": "Altiden Danish Head Office (Ballerup)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Ballerup",
+    "country": "Danmark",
+    "address": "Lautrupvang 2, 1. tv., 2750 Ballerup",
+    "geoQueries": [
+      "Altiden, Lautrupvang 2, Ballerup",
+      "Lautrupvang 2, 2750 Ballerup",
+      "Lautrupvang 2 Ballerup"
+    ],
+    "approxLat": 55.73,
+    "approxLng": 12.392,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of Altiden, Ambea's Danish provider of elderly and social care services.",
+    "source": "https://altiden.dk/kontakt/"
+  },
+  {
+    "parentName": "Ambea",
+    "name": "Validia Finland Head Office (Helsinki)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Helsinki",
+    "country": "Finland",
+    "address": "Nauvontie 8, 00280 Helsinki",
+    "geoQueries": [
+      "Validia, Nauvontie 8, Helsinki",
+      "Nauvontie 8, 00280 Helsinki",
+      "Mannerheimintie 107, 00280 Helsinki"
+    ],
+    "approxLat": 60.2005,
+    "approxLng": 24.913,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of Validia, Ambea's Finnish rehabilitation and care services subsidiary.",
+    "source": "https://www.validia.fi/yhteystiedot"
+  },
+  {
+    "parentName": "Lassila & Tikanoja",
+    "name": "L&T Tikanmaa Circular Economy Center (Kangasala)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kangasala",
+    "country": "Finland",
+    "address": "Mineraalitie 7, 36110 Kangasala (Tampere region)",
+    "geoQueries": [
+      "Lassila & Tikanoja Kiertotalouskeskus Tikanmaa",
+      "Mineraalitie 7, 36110 Kangasala",
+      "Tikanmaa, Kangasala"
+    ],
+    "approxLat": 61.463,
+    "approxLng": 24.083,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Circular-economy recycling and waste-processing centre serving the Tampere region.",
+    "source": "https://www.lt.fi/yhteystiedot/toimipaikat"
+  },
+  {
+    "parentName": "Lassila & Tikanoja",
+    "name": "L&T Oulu Recycling Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Oulu",
+    "country": "Finland",
+    "address": "Liitintie 29, 90620 Oulu",
+    "geoQueries": [
+      "Lassila & Tikanoja Kierrätyslaitos Oulu",
+      "Liitintie 29, 90620 Oulu",
+      "Liitintie 29 Oulu"
+    ],
+    "approxLat": 65.016,
+    "approxLng": 25.42,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Waste sorting and recycling plant for northern Finland.",
+    "source": "https://www.lt.fi/yhteystiedot/toimipaikat"
+  },
+  {
+    "parentName": "Lassila & Tikanoja",
+    "name": "L&T Turku Recycling Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Turku",
+    "country": "Finland",
+    "address": "Vaskikatu 13, 20380 Turku",
+    "geoQueries": [
+      "Lassila & Tikanoja Kierrätyslaitos Turku",
+      "Vaskikatu 13, 20380 Turku",
+      "Vaskikatu 13 Turku"
+    ],
+    "approxLat": 60.46,
+    "approxLng": 22.21,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Waste sorting and recycling plant serving the Turku region.",
+    "source": "https://www.lt.fi/yhteystiedot/toimipaikat"
+  },
+  {
+    "parentName": "Lassila & Tikanoja",
+    "name": "L&T Kotka Treatment Center",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kotka",
+    "country": "Finland",
+    "address": "Heinsuontie 200, 48410 Kotka",
+    "geoQueries": [
+      "Lassila & Tikanoja Käsittelykeskus Kotka",
+      "Heinsuontie 200, 48410 Kotka",
+      "Heinsuontie 200 Kotka"
+    ],
+    "approxLat": 60.48,
+    "approxLng": 26.85,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Waste and by-product treatment centre in the Kymenlaakso region.",
+    "source": "https://www.lt.fi/yhteystiedot/toimipaikat"
+  },
+  {
+    "parentName": "Lassila & Tikanoja",
+    "name": "L&T Leppävirta Treatment Center",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Leppävirta",
+    "country": "Finland",
+    "address": "Riikinnevantie 153, 79130 Leppävirta",
+    "geoQueries": [
+      "Lassila & Tikanoja Käsittelykeskus Leppävirta",
+      "Riikinnevantie 153, 79130 Leppävirta",
+      "Riikinnevantie 153 Leppävirta"
+    ],
+    "approxLat": 62.493,
+    "approxLng": 27.783,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Waste treatment centre in eastern Finland.",
+    "source": "https://www.lt.fi/yhteystiedot/toimipaikat"
+  }
+]

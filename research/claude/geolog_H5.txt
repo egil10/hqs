@@ -1,0 +1,8 @@
+NOGEO   Hafnia | Hafnia Dubai Office (Tamweel Tower, JLT)
+NOGEO   Hafnia | Hafnia / BW Maritime India Branch Office (Andheri East, Mumbai)
+OK      FLSmidth & Co | FLSmidth Global Business Center Chennai | FLSmidth Chennai -> office/company FLSmidth, Rajiv Gandhi Salai, Kazhipattur, Chennai Metropolitan Area, 
+NOGEO   FLSmidth & Co | FLSmidth Excel Foundry & Machine (Pekin, Illinois)
+NOGEO   FLSmidth & Co | FLSmidth Krebs Pumps & Cyclones (Tucson, Arizona)
+NOGEO   FLSmidth & Co | FLSmidth Welshpool Service Centre (Perth)
+NOGEO   FLSmidth & Co | FLSmidth Antofagasta Service Centre (La Negra)
+OK      FLSmidth & Co | FLSmidth Latin America Office (Las Condes, Santiago) | Avenida El Bosque Norte 500, Las Condes -> building/commercial Edificio El Bosque 500, 500, Avenida El Bosque Norte, Sanhattan, Las C

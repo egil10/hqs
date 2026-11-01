@@ -1,0 +1,249 @@
+[
+  {
+    "parentName": "Xvivo Perfusion",
+    "name": "XVIVO Lund Manufacturing & Heart Transplant Development Site",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Lund",
+    "country": "Sverige",
+    "address": "Propellervägen 16, 224 78 Lund",
+    "geoQueries": [
+      "XVIVO Perfusion Lund",
+      "Propellervägen 16, 224 78 Lund",
+      "Propellervägen 16, Lund"
+    ],
+    "approxLat": 55.7047,
+    "approxLng": 13.191,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "XVIVO's Lund subsidiary site handling cleanroom manufacturing of perfusion disposables/solutions and development of the XVIVO Heart Assist Transport system.",
+    "source": "https://www.xvivogroup.com/contact/"
+  },
+  {
+    "parentName": "Xvivo Perfusion",
+    "name": "XVIVO Perfusion Inc. Americas Office (Golden, Colorado)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Golden",
+    "country": "USA",
+    "address": "16080 Table Mountain Pkwy, Suite 500, Golden, CO 80403",
+    "geoQueries": [
+      "XVIVO Perfusion Inc Golden",
+      "16080 Table Mountain Pkwy, Golden, CO 80403",
+      "16080 Table Mountain Parkway, Golden"
+    ],
+    "approxLat": 39.764,
+    "approxLng": -105.222,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Headquarters of XVIVO's North and South America subsidiary (XVIVO Perfusion Inc.), running US sales, clinical and service operations for lung, heart, liver and kidney perfusion.",
+    "source": "https://www.xvivogroup.com/contact/"
+  },
+  {
+    "parentName": "Xvivo Perfusion",
+    "name": "XVIVO Perfusion Inc. Aurora Warehouse",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Aurora",
+    "country": "USA",
+    "address": "3250 Quentin Street, Suite 134, Aurora, CO 80011",
+    "geoQueries": [
+      "3250 Quentin Street, Aurora, CO 80011",
+      "XVIVO Perfusion Inc Aurora warehouse",
+      "3250 Quentin St, Aurora, Colorado"
+    ],
+    "approxLat": 39.764,
+    "approxLng": -104.839,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "US warehouse and distribution point for XVIVO's perfusion devices and disposables serving American transplant centres.",
+    "source": "https://www.xvivogroup.com/contact/"
+  },
+  {
+    "parentName": "Xvivo Perfusion",
+    "name": "XVIVO B.V. Groningen (Netherlands Subsidiary)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Groningen",
+    "country": "Netherlands",
+    "address": "Bornholmstraat 84, 9723 AZ Groningen",
+    "geoQueries": [
+      "XVIVO B.V. Groningen",
+      "Bornholmstraat 84, 9723 AZ Groningen",
+      "Bornholmstraat 84, Groningen"
+    ],
+    "approxLat": 53.2194,
+    "approxLng": 6.5665,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Dutch subsidiary XVIVO B.V. serving European liver perfusion customers, with close ties to the UMC Groningen transplant centre.",
+    "source": "https://www.xvivogroup.com/contact/"
+  },
+  {
+    "parentName": "Kinnevik",
+    "name": "Kinnevik Capital Ltd London Investment Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "London",
+    "country": "UK",
+    "address": "33 Broadwick Street, London W1F 0DQ",
+    "geoQueries": [
+      "Kinnevik Capital Ltd London",
+      "33 Broadwick Street, London W1F 0DQ",
+      "33 Broadwick Street, Soho, London"
+    ],
+    "approxLat": 51.514,
+    "approxLng": -0.137,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "London office of Kinnevik's investment management arm (Kinnevik Capital Ltd) in Soho, complementing the Stockholm headquarters.",
+    "source": "https://www.kinnevik.com/contact/"
+  },
+  {
+    "parentName": "Morrow Bank",
+    "name": "Morrow Bank AB Stockholm Head Office (Torsgatan)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Torsgatan 13, 111 23 Stockholm",
+    "geoQueries": [
+      "Morrow Bank Torsgatan 13 Stockholm",
+      "Torsgatan 13, 111 23 Stockholm",
+      "Torsgatan 13, Stockholm"
+    ],
+    "approxLat": 59.3372,
+    "approxLng": 18.041,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Registered seat and Swedish head office of Morrow Bank AB, which redomiciled from Norway to Sweden in January 2026 and listed on Nasdaq Stockholm.",
+    "source": "https://ir.morrowbank.com/general-overview"
+  },
+  {
+    "parentName": "Morrow Bank",
+    "name": "MedMera Bank Solna Office (Morrow subsidiary)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Solna",
+    "country": "Sverige",
+    "address": "Englundavägen 4, 171 41 Solna",
+    "geoQueries": [
+      "MedMera Bank Solna",
+      "Englundavägen 4, 171 41 Solna",
+      "Englundavägen 4, Solna"
+    ],
+    "approxLat": 59.368,
+    "approxLng": 18.003,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Head office of MedMera Bank, the Swedish digital savings and lending bank (about 135,000 customers) acquired by Morrow Bank and wholly owned since July 2026.",
+    "source": "https://placera.se/analys/kommentar-nischbanken-koper-medmera-bank-2026-03-25"
+  },
+  {
+    "parentName": "Kvika banki",
+    "name": "Kvika Limited London Office (Wigmore Street)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "London",
+    "country": "UK",
+    "address": "Nations House, 103 Wigmore Street, London W1U 1QS",
+    "geoQueries": [
+      "Kvika Limited London",
+      "Nations House, 103 Wigmore Street, London W1U 1QS",
+      "103 Wigmore Street, London"
+    ],
+    "approxLat": 51.5167,
+    "approxLng": -0.151,
+    "coordsExact": false,
+    "footprintRadiusMeters": 140,
+    "description": "UK subsidiary Kvika Limited providing bespoke lending, bridge finance and private-equity solutions to lower mid-market companies.",
+    "source": "https://www.kvika.co.uk"
+  },
+  {
+    "parentName": "Bufab",
+    "name": "Bufab Shanghai (China Subsidiary, Jiading)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Shanghai",
+    "country": "China",
+    "address": "No. 1, Lane 28, Yu Lv Road, Malu, Jiading, Shanghai 201801",
+    "geoQueries": [
+      "Bufab Shanghai",
+      "No. 1, Lane 28, Yu Lv Road, Malu, Jiading, Shanghai 201801",
+      "Yu Lv Road Malu Jiading Shanghai"
+    ],
+    "approxLat": 31.356,
+    "approxLng": 121.265,
+    "coordsExact": false,
+    "footprintRadiusMeters": 170,
+    "description": "Bufab's China subsidiary in Jiading, Shanghai, anchoring the group's Asian sourcing and supply of C-parts and fasteners.",
+    "source": "https://www.bufab.com/en/contact-us"
+  },
+  {
+    "parentName": "Bufab",
+    "name": "Bufab Poland (Gdańsk)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Gdańsk",
+    "country": "Poland",
+    "address": "Sąsiedzka 29, 80-298 Gdańsk",
+    "geoQueries": [
+      "Bufab Poland Sp. z o.o. Gdańsk",
+      "Sąsiedzka 29, 80-298 Gdańsk",
+      "Sąsiedzka 29, Gdańsk"
+    ],
+    "approxLat": 54.395,
+    "approxLng": 18.57,
+    "coordsExact": false,
+    "footprintRadiusMeters": 170,
+    "description": "Bufab Poland Sp. z o.o., the group's Polish subsidiary offering sourcing, stocking of standard fasteners, VMI replenishment and custom-part supply.",
+    "source": "https://www.bufab.com/en/contact-us"
+  },
+  {
+    "parentName": "Bufab",
+    "name": "Bufab Germany (Mörfelden-Walldorf)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Mörfelden-Walldorf",
+    "country": "Germany",
+    "address": "Starkenburgstraße 10, 64546 Mörfelden-Walldorf",
+    "geoQueries": [
+      "Bufab Germany GmbH Mörfelden-Walldorf",
+      "Starkenburgstraße 10, 64546 Mörfelden-Walldorf",
+      "Starkenburgstraße 10, Mörfelden-Walldorf"
+    ],
+    "approxLat": 49.9935,
+    "approxLng": 8.572,
+    "coordsExact": false,
+    "footprintRadiusMeters": 170,
+    "description": "Bufab Germany GmbH, the group's German subsidiary near Frankfurt serving Central European fastener and C-parts customers.",
+    "source": "https://www.bufab.com/en/contact-us"
+  },
+  {
+    "parentName": "Bufab",
+    "name": "Bufab Singapore / Kian Soon & PureSys (Asia-Pacific Head Office)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "21 Serangoon North Avenue 5, #03-01/02, Singapore 554864",
+    "geoQueries": [
+      "Bufab Singapore (SEA) Pte Ltd",
+      "21 Serangoon North Ave 5, Singapore 554864",
+      "21 Serangoon North Avenue 5, Singapore"
+    ],
+    "approxLat": 1.3715,
+    "approxLng": 103.871,
+    "coordsExact": false,
+    "footprintRadiusMeters": 170,
+    "description": "Head office of Bufab Singapore (SEA) Pte Ltd and PureSys Pte Ltd, covering the group's Southeast Asian C-parts business together with the Kian Soon operation.",
+    "source": "https://www.bufab.com/en/contact-us"
+  },
+  {
+    "parentName": "Bufab",
+    "name": "Pajo-Bolte A/S Hobro (Danish Subsidiary)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hobro",
+    "country": "Danmark",
+    "address": "Lupinvej 1, 9500 Hobro",
+    "geoQueries": [
+      "Pajo-Bolte Hobro",
+      "Lupinvej 1, 9500 Hobro",
+      "Lupinvej 1, Hobro"
+    ],
+    "approxLat": 56.643,
+    "approxLng": 9.793,
+    "coordsExact": false,
+    "footprintRadiusMeters": 170,
+    "description": "Pajo-Bolte A/S, Bufab's Danish fastener specialist subsidiary operating a web shop with about 25,000 articles.",
+    "source": "https://www.bufab.com/en/contact-us"
+  }
+]

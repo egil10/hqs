@@ -1,0 +1,32 @@
+[
+  {
+    "parentName": "INVISIO",
+    "name": "Racal Acoustics Harrow Headset & Hearing Protection Site",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Harrow",
+    "country": "UK",
+    "address": "Unit 3 & 4 Waverley Industrial Park, Hailsham Drive, Harrow, Middlesex HA1 4TR",
+    "geoQueries": ["Racal Acoustics Harrow", "Waverley Industrial Park, Hailsham Drive, Harrow HA1 4TR", "Hailsham Drive, Harrow HA1 4TR"],
+    "approxLat": 51.5835,
+    "approxLng": -0.3390,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Racal Acoustics Ltd, acquired by INVISIO in 2021, is INVISIO's UK centre of excellence for high-noise hearing protection and communication headsets, with its headquarters and operations in Harrow.",
+    "source": "https://find-and-update.company-information.service.gov.uk/company/05019038"
+  },
+  {
+    "parentName": "Ovzon",
+    "name": "Ovzon US Herndon Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Herndon",
+    "country": "USA",
+    "address": "13461 Sunrise Valley Drive, Suite 110, Herndon, VA 20171",
+    "geoQueries": ["Ovzon US Herndon", "13461 Sunrise Valley Drive, Herndon, VA 20171", "13461 Sunrise Valley Dr, Herndon"],
+    "approxLat": 38.9365,
+    "approxLng": -77.4170,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "U.S. subsidiary office (Ovzon US LLC) of the Swedish satellite communications operator, serving as the sales and customer base for U.S. government and defense customers.",
+    "source": "https://www.ovzon.com/en/section/contacts/"
+  }
+]

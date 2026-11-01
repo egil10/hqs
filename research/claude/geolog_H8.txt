@@ -1,0 +1,25 @@
+OK      Lindab | Lindab Ventilation Plant Prague-Ruzyně (Lindab s.r.o.) | Na Hůrce 1081/6, 161 00 Praha -> place/house 1081/6, Na Hůrce, Ruzyně, Praha 6, obvod Praha 6, Praha, 161 00, Česko
+NOGEO   Lindab | Lindab Ventilation Plant Hustopeče
+OK      Lindab | Lindab GmbH Germany Head Office (Bargteheide) | Carl-Benz-Weg 18, 22941 Bargteheide -> building/yes Lindab, 18, Carl-Benz-Weg, Bargteheide, Bargteheide-Land, Kreis Storma
+OK      Wilh. Wilhelmsen | NorSea Tananger Supply Base & NorSea Group HQ (Risavika) | Risavika Havnering 14, 4056 Tananger -> place/house 14, Risavika Havnering, Meling, Båtstad, Tananger, Sola, Rogaland, 405
+NOGEO   Wilh. Wilhelmsen | NorSea Polarbase Supply Base (Rypefjord, Hammerfest)
+NOGEO   Wilh. Wilhelmsen | NorSea Dusavik Supply Base (Stavanger)
+OK      Wilh. Wilhelmsen | Wilhelmsen Ship Management Global HQ (The Concourse, Singapore) | The Concourse 300 Beach Road Singapore -> building/office The Concourse Office Tower, 300, Beach Road, Crawford, Civic District,
+OK      Wilh. Wilhelmsen | Wilhelmsen Ship Management Shared Services Office (1 Sentral, Kuala Lumpur) | 1 Sentral Kuala Lumpur -> building/yes Menara TH 1 Sentral, Jalan Stesen Sentral 5, KL Sentral, Bangsar, Kual
+OK      Bravida | Bravida Finland Head Office (Helsinki) | Bravida Finland Valimotie -> office/company Bravida Finland Oy, 21, Valimotie, Valimo, Pitäjänmäen yritysalue, Pit
+NOGEO   Elekta | Elekta Beijing Linear Accelerator Factory (Changping)
+NOGEO   Elekta | Elekta Brachytherapy Plant & Dutch Head Office (Veenendaal)
+NOGEO   Lundbergs | Lundbergs Fastigheter Head Office (Norrköping)
+OK      Lundbergs | Holmen Braviken Paper Mill & Sawmill (Norrköping) | Braviken Norrköping -> landuse/industrial Holmen Timber Braviken, Kvillinge församling, Norrköping, Norrköpings 
+NOGEO   Lundbergs | Holmen Hallsta Paper Mill (Hallstavik)
+NOGEO   Lundbergs | Holmen Group Head Office (Strandvägen, Stockholm)
+OK      Lundbergs | Hufvudstaden Head Office (Regeringsgatan, Stockholm) | Regeringsgatan 38, 111 56 Stockholm -> place/house 38, Regeringsgatan, Klara, Norrmalm, Norra innerstadens stadsdelsområd
+NOGEO   HEXPOL | HEXPOL TPE Åmål Thermoplastic Elastomer Plant
+NOGEO   HEXPOL | HEXPOL Compounding Lesina Rubber Compound Plant (Skalná)
+OK      HEXPOL | HEXPOL Compounding Uničov Rubber Compound Plant | Šumperská 1344, 783 91 Uničov -> place/house 1344, Šumperská, Brníčko, Uničov, okres Olomouc, Olomoucký kraj, 783 9
+NOGEO   HEXPOL | Stellana Laxå Polyurethane Wheel Factory
+NOGEO   Intrum | Intrum Hellas Head Office (Mesogeion Avenue, Athens)
+OK      Intrum | Intrum Italy Head Office (Milan) | Bastioni di Porta Nuova 19, 20121 Milano -> place/house 19, Bastioni di Porta Nuova, Brera, Municipio 1, Milano, Rodano, Milan
+NOGEO   Norwegian Air Shuttle | Norwegian Main Base & Hangar (Oslo Gardermoen)
+NOGEO   Norwegian Air Shuttle | Widerøe Technical Services Main Maintenance Base (Bodø Airport)
+NOGEO   Norwegian Air Shuttle | Widerøe Hangar Bergen Flesland

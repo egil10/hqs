@@ -1,0 +1,135 @@
+[
+  {
+    "parentName": "Recovery Holdco",
+    "name": "Jøtul Italia (Ravelli) Chiari Pellet Stove Plant & Italian HQ",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Chiari",
+    "country": "Italy",
+    "address": "Via Consorzio Agrario 3/D, 25032 Chiari (BS)",
+    "geoQueries": [
+      "Ravelli Group Chiari",
+      "Jøtul Italia Chiari",
+      "Via Consorzio Agrario 3, 25032 Chiari BS"
+    ],
+    "approxLat": 45.5385,
+    "approxLng": 9.9255,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Headquarters of Jøtul Italia S.r.l. (Ravelli and AICO brands, acquired by Jøtul's owner OpenGate in 2018) with the pellet-stove production lines inside the HQ site.",
+    "source": "https://eng.ravelligroup.it/ravelli-group/"
+  },
+  {
+    "parentName": "Electrolux",
+    "name": "Electrolux Żarów Dishwasher Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Żarów",
+    "country": "Poland",
+    "address": "Fabryczna 4, 58-130 Żarów",
+    "geoQueries": [
+      "Electrolux Żarów",
+      "Electrolux Poland Żarów factory",
+      "Fabryczna 4, 58-130 Żarów"
+    ],
+    "approxLat": 50.9405,
+    "approxLng": 16.497,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Electrolux dishwasher factory in Lower Silesia, one of the group's five Polish production sites.",
+    "source": "https://spcc.pl/en/the-new-general-manager-of-electrolux-poland/"
+  },
+  {
+    "parentName": "Electrolux",
+    "name": "Electrolux Oława Washing Machine Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Oława",
+    "country": "Poland",
+    "address": "Ofiar Katynia 5, 55-200 Oława",
+    "geoQueries": [
+      "Electrolux Oława",
+      "Electrolux Poland Oława factory",
+      "Ofiar Katynia 5, 55-200 Oława"
+    ],
+    "approxLat": 50.938,
+    "approxLng": 17.296,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Electrolux washing machine factory in Lower Silesia, one of the group's five Polish production sites.",
+    "source": "https://spcc.pl/en/the-new-general-manager-of-electrolux-poland/"
+  },
+  {
+    "parentName": "Electrolux",
+    "name": "Electrolux Siewierz Tumble Dryer Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Siewierz",
+    "country": "Poland",
+    "address": "Warszawska 87, 42-470 Siewierz",
+    "geoQueries": [
+      "Electrolux Siewierz",
+      "Electrolux Poland Siewierz factory",
+      "Warszawska 87, 42-470 Siewierz"
+    ],
+    "approxLat": 50.476,
+    "approxLng": 19.218,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Electrolux tumble dryer factory in Silesia, one of the group's five Polish production sites.",
+    "source": "https://spcc.pl/en/the-new-general-manager-of-electrolux-poland/"
+  },
+  {
+    "parentName": "Electrolux",
+    "name": "Electrolux Rothenburg AEG Appliance Plant and Development Centre",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Rothenburg ob der Tauber",
+    "country": "Germany",
+    "address": "Bodelschwinghstraße 1, 91541 Rothenburg ob der Tauber",
+    "geoQueries": [
+      "Electrolux Rothenburg GmbH",
+      "AEG Rothenburg ob der Tauber Werk",
+      "Bodelschwinghstraße 1, 91541 Rothenburg ob der Tauber"
+    ],
+    "approxLat": 49.383,
+    "approxLng": 10.196,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Electrolux Rothenburg GmbH Factory & Development (formerly AEG Hausgeräte), producing and developing AEG-brand household appliances.",
+    "source": "https://www.electroluxgroup.com/en/europe-asia-pacific-middle-east-and-africa-16576/"
+  },
+  {
+    "parentName": "Electrolux",
+    "name": "Electrolux Rayong Refrigerator and Laundry Plant (Thailand)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Rayong",
+    "country": "Thailand",
+    "address": "169 Moo 3, Nong Lalok, Ban Khai, Rayong 21120",
+    "geoQueries": [
+      "Electrolux Thailand Rayong factory",
+      "Electrolux (Thailand) Hemaraj Rayong Industrial Land",
+      "Nong Lalok, Ban Khai, Rayong"
+    ],
+    "approxLat": 12.95,
+    "approxLng": 101.36,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Electrolux's Asian manufacturing hub for refrigerators, washing machines, dryers and hobs, exported to some 56 countries.",
+    "source": "https://www.wha-industrialestate.com/en/updates/customer-news/1969/electrolux-thailand-inaugurates-new-factory-in-hemaraj-ril"
+  },
+  {
+    "parentName": "Electrolux",
+    "name": "Electrolux Springfield Cooking Products Plant (Tennessee)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Springfield",
+    "country": "USA",
+    "address": "Springfield, Tennessee 37172",
+    "geoQueries": [
+      "Electrolux Springfield Tennessee",
+      "Electrolux Home Products Springfield TN plant",
+      "Springfield, TN 37172 Electrolux"
+    ],
+    "approxLat": 36.53,
+    "approxLng": -86.86,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Electrolux/Frigidaire plant making freestanding gas and electric ranges since 1974, consolidating US cooking production since 2019.",
+    "source": "https://www.newschannel5.com/news/electrolux-to-shut-memphis-plant-keeping-tennessee-presence"
+  }
+]

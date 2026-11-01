@@ -1,0 +1,59 @@
+[
+  {
+    "parentName": "Bergman & Beving",
+    "name": "Orbital Fabrications High-Purity Gas Systems Plant (St Ives)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "St Ives",
+    "country": "UK",
+    "address": "Unit 1, 3 Stephenson Road, St Ives, Cambridgeshire PE27 3WJ",
+    "geoQueries": [
+      "Orbital Fabrications St Ives",
+      "Stephenson Road, St Ives PE27 3WJ",
+      "Stephenson Road, St Ives, Cambridgeshire"
+    ],
+    "approxLat": 52.3285,
+    "approxLng": -0.0735,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Manufacturing and ISO class 5/6 cleanroom facility for ultra-high-purity gas and liquid handling components and systems for semiconductor customers (80% owned by Bergman & Beving since Dec 2023, c. 80 employees).",
+    "source": "https://www.orbitalfl.com/contact"
+  },
+  {
+    "parentName": "Bergman & Beving",
+    "name": "Polartherm Mobile Heater Plant (Luvia)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Luvia (Eurajoki)",
+    "country": "Finland",
+    "address": "Polarintie 1, 29100 Luvia",
+    "geoQueries": [
+      "Polartherm Luvia",
+      "Polarintie 1, 29100 Luvia",
+      "Polarintie, Luvia, Eurajoki"
+    ],
+    "approxLat": 61.362,
+    "approxLng": 21.695,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Production plant and headquarters of Polartherm, manufacturing all metal components for powerful mobile heaters for industry, construction, defence and aviation (80% owned by Bergman & Beving, Machinery & Equipment division).",
+    "source": "https://bergmanbeving.com/en/our-companies/machinery-equipment/case-polartherm"
+  },
+  {
+    "parentName": "Mandatum",
+    "name": "Cliens Kapitalförvaltning Stockholm Headquarters",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Engelbrektsplan 2, 114 34 Stockholm",
+    "geoQueries": [
+      "Cliens Kapitalförvaltning, Engelbrektsplan 2, Stockholm",
+      "Engelbrektsplan 2, 114 34 Stockholm",
+      "Engelbrektsplan 2 Stockholm"
+    ],
+    "approxLat": 59.3365,
+    "approxLng": 18.0735,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Stockholm headquarters of Swedish asset manager Cliens Kapitalförvaltning, in which Mandatum acquired 78.4% (via Cliens Holding AB) in October 2026, giving it its main Swedish base.",
+    "source": "https://www.cliens.se/kontakt"
+  }
+]

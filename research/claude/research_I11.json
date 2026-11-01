@@ -1,0 +1,114 @@
+[
+  {
+    "parentName": "Appear",
+    "name": "Appear US Inc Americas Office (Woodland Hills, Los Angeles)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Woodland Hills (Los Angeles)",
+    "country": "USA",
+    "address": "21650 Oxnard St, Suite 2000, Woodland Hills, CA 91367",
+    "geoQueries": [
+      "21650 Oxnard St, Woodland Hills, CA 91367",
+      "21650 Oxnard Street Woodland Hills"
+    ],
+    "approxLat": 34.1805,
+    "approxLng": -118.6027,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Americas headquarters of Appear's US subsidiary Appear US Inc, serving North American broadcast and sports-production customers.",
+    "source": "https://appear.net/contact"
+  },
+  {
+    "parentName": "Appear",
+    "name": "Appear EMEA Office (Stockholm)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Olof Palmes gata 11, 111 37 Stockholm",
+    "geoQueries": [
+      "Olof Palmes gata 11, 111 37 Stockholm",
+      "Olof Palmes gata 11 Stockholm"
+    ],
+    "approxLat": 59.3358,
+    "approxLng": 18.0618,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Appear's regional office for EMEA sales and support, located in central Stockholm.",
+    "source": "https://appear.net/contact"
+  },
+  {
+    "parentName": "Appear",
+    "name": "Appear Ltd Southampton Office (University of Southampton Science Park)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Southampton",
+    "country": "UK",
+    "address": "Unit 1-2, 5 Benham Road, University of Southampton Science Park, Chilworth, Southampton SO16 7QJ",
+    "geoQueries": [
+      "5 Benham Road, Chilworth, Southampton SO16 7QJ",
+      "University of Southampton Science Park Benham Road",
+      "Southampton Science Park Chilworth"
+    ],
+    "approxLat": 50.9594,
+    "approxLng": -1.4331,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "UK office of Appear Ltd at the University of Southampton Science Park in Chilworth.",
+    "source": "https://appear.net/contact"
+  },
+  {
+    "parentName": "Framery",
+    "name": "Framery US Factory (Zeeland, Michigan)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Zeeland",
+    "country": "USA",
+    "address": "Zeeland, MI 49464 (street address not published)",
+    "geoQueries": [
+      "Framery Zeeland Michigan",
+      "Zeeland, Michigan 49464",
+      "Zeeland, MI"
+    ],
+    "approxLat": 42.8125,
+    "approxLng": -86.0189,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Former Framery logistics center in Zeeland being converted in 2026-2027 into a full-scale US factory assembling the Gradus pod line for the US and Canadian markets, with a partner operating the plant.",
+    "source": "https://www.inderes.fi/en/releases/inside-information-framery-to-open-a-factory-in-the-united-states-logistics-center-converted-into-full-scale-manufacturing-operations"
+  },
+  {
+    "parentName": "cBrain",
+    "name": "cBrain Berlin Office (Stresemannstrasse)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Berlin",
+    "country": "Germany",
+    "address": "Stresemannstraße 123C, 10963 Berlin",
+    "geoQueries": [
+      "Stresemannstraße 123C, 10963 Berlin",
+      "Stresemannstraße 123, 10963 Berlin",
+      "cBrain Berlin"
+    ],
+    "approxLat": 52.5047,
+    "approxLng": 13.3811,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "cBrain's German office, delivering F2-based digital government solutions to German federal authorities.",
+    "source": "https://www.cbrain.com/berlin"
+  },
+  {
+    "parentName": "Gjensidige Forsikring",
+    "name": "Gjensidige Sverige Stockholm Office (Kungsgatan)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Kungsgatan 47 B, 111 56 Stockholm",
+    "geoQueries": [
+      "Kungsgatan 47 B, 111 56 Stockholm",
+      "Kungsgatan 47, 111 56 Stockholm",
+      "Gjensidige Försäkring Stockholm"
+    ],
+    "approxLat": 59.3356,
+    "approxLng": 18.0612,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Main Stockholm office of Gjensidige's Swedish non-life insurance branch, which operates from Stockholm, Malmö, Gävle and Luleå with about 250 employees.",
+    "source": "https://www.gjensidige.se/privat/kundservice/vara-kontor"
+  }
+]

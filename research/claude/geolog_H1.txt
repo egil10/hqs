@@ -1,0 +1,21 @@
+OK      SpareBank 1 Sør-Norge | SpareBank 1 Sør-Norge Sandefjord Office (former SpareBank 1 Sørøst-Norge HQ) | Fokserødveien 12, 3241 Sandefjord -> place/house 12, Fokserødveien, Fokserød, Sandefjord, Vestfold, 3241, Norge
+NOGEO   F-Secure | F-Secure Kuala Lumpur APAC Hub (Mid Valley City)
+NOGEO   F-Secure | F-Secure Japan Office (Tokyo)
+OK      F-Secure | F-Secure Bratislava Development Office | Michalská 9, 811 01 Bratislava -> building/apartments 372/9, Michalská, Vnútorné mesto, Historické jadro, Bratislava, okres 
+NOGEO   F-Secure | F-Secure Bengaluru Office
+OK      Entra | Entra Papirbredden Knowledge Park (Drammen) | Grønland 58, 3045 Drammen -> place/house 58, Grønland, Strømsø, Drammen, Buskerud, 3045, Norge
+OK      Entra | Entra Tullinkvartalet (UiO Faculty of Law building, Oslo) | Kristian Augusts gate 15, 0164 Oslo -> place/house 15A, Kristian Augusts gate, Tullin, Vika, Sentrum, Oslo, 0164, Norge
+OK      Hoist Finance | Hoist Finance Germany Branch (Duisburg) | Schifferstraße 80, 47059 Duisburg -> building/office Mitsubishi Hitachi Power Systems Europe GmbH, 80, Schifferstraße, Kaßl
+NOGEO   Engcon | engcon Nordic Strömsund Production & Development Plant (Industricentragatan)
+OK      Engcon | engcon North America Inc. (High Point, North Carolina) | 2827 Earlham Place, High Point, NC 27263 -> place/house 2827, Earlham Place, High Point, Guilford County, North Carolina, 2726
+OK      Engcon | engcon Germany GmbH (Wertheim) | Obere Grüben 7, 97877 Wertheim -> place/house 7, Obere Grüben, Bettingen, Wertheim, Main-Tauber-Kreis, Baden-Württem
+NOGEO   Engcon | engcon Australia (Eastern Creek, Sydney)
+OK      Engcon | engcon Norway AS (Skedsmo) | Bølerveien 71, 2020 Skedsmokorset -> place/house 71, Bølerveien, Søndre Berger, Berger, Bøler, Skedsmokorset, Lillestrø
+OK      Engcon | engcon Denmark A/S (Verninge) | Knarreborgvej 19A, 5690 Tommerup -> place/house 19A, Knarreborgvej, Holmehave, Tommerup, Assens Kommune, Region Syddan
+OK      ABG Sundal Collier | ABG Sundal Collier London Office (Cheapside) | 5 Cheapside, London EC2V 6AA -> building/yes 5, Cheapside, West Smithfield, St Paul's, City of London, Greater Lond
+NOGEO   Scatec | Scatec Obelisk Hybrid Solar & Battery Plant (1.1 GW / 200 MWh, Nag Hammadi)
+NOGEO   Scatec | Scatec Benban Solar Plants (Benban Solar Park, Aswan)
+OK      Scatec | Magat Hydropower Plant (SN Aboitiz Power, Isabela) | Magat Hydroelectric Power Plant -> landuse/industrial Magat Hydroelectric Power Plant, Santiago, Isabela, Cagayan Valley, Ph
+NOGEO   Scatec | Theun-Hinboun Hydropower Plant (Laos)
+NOGEO   Scatec | Mendubim Solar Plant (531 MW, Assú, Rio Grande do Norte)
+NOGEO   Scatec | Apodi Solar Plant (162 MW, Quixeré, Ceará)

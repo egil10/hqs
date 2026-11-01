@@ -1,0 +1,402 @@
+[
+ {
+  "parentName": "Stendörren Fastigheter",
+  "name": "Stendörren Brunna Logistics Park (Symmetrivägen 9-11)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Kungsängen (Upplands-Bro)",
+  "country": "Sverige",
+  "address": "Symmetrivägen 9-11, 196 37 Kungsängen",
+  "geoQueries": [
+   "Symmetrivägen 9, 196 37 Kungsängen",
+   "Symmetrivägen, Brunna, Upplands-Bro",
+   "Brunna företagsområde Kungsängen"
+  ],
+  "approxLat": 59.4985,
+  "approxLng": 17.715,
+  "coordsExact": false,
+  "footprintRadiusMeters": 220,
+  "description": "Stendörren's Brunna logistics development next to the E18: a finished ~5,800 sqm BREEAM-targeted logistics building with rail yards plus a planned second ~5,200 sqm building (Viby 19:66) and adjoining land at Mätarvägen 23.",
+  "source": "https://www.stendorren.se/en/project/brunna-upplands-bro/"
+ },
+ {
+  "parentName": "Stendörren Fastigheter",
+  "name": "Stendörren Jursta Logistics Property (Jurstagårdsvägen 1, Bro)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bro (Upplands-Bro)",
+  "country": "Sverige",
+  "address": "Jurstagårdsvägen 1, 197 33 Bro",
+  "geoQueries": [
+   "Jurstagårdsvägen 1, 197 33 Bro",
+   "Jurstagårdsvägen, Bro",
+   "Jursta, Bro, Upplands-Bro"
+  ],
+  "approxLat": 59.517,
+  "approxLng": 17.64,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Stendörren-owned logistics, production and warehouse property (Jursta 3:8) of about 6,343 sqm on a ~20,000 sqm fenced plot near the E18 in Upplands-Bro.",
+  "source": "https://www.stendorren.se/sv/ledig-lokal/jurstagardsvagen-1-197-33-bro-8176/"
+ },
+ {
+  "parentName": "Stendörren Fastigheter",
+  "name": "Stendörren Elementet 1 Ulvsunda (Hedin Bil, Bromma)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bromma (Stockholm)",
+  "country": "Sverige",
+  "address": "Ulvsundavägen 106, 168 67 Bromma",
+  "geoQueries": [
+   "Ulvsundavägen 106, Bromma",
+   "Ulvsundavägen 106, 168 67 Bromma",
+   "Hedin Bil Bromma Ulvsundavägen"
+  ],
+  "approxLat": 59.34,
+  "approxLng": 17.974,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Stendörren's Elementet 1 property in the Ulvsunda industrial area, ~3,440 sqm of premises let long-term to car dealer Hedin Bil.",
+  "source": "https://news.cision.com/stendorren-fastigheter-ab/r/stendorren-signs-a-15-year-lease-agreement-with-hedin-bil,c3630152"
+ },
+ {
+  "parentName": "Sentia",
+  "name": "HENT Oslo Regional Office (Lysaker)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Lysaker (Bærum)",
+  "country": "Norge",
+  "address": "Oksenøyveien 10, 1366 Lysaker",
+  "geoQueries": [
+   "HENT Oksenøyveien 10 Lysaker",
+   "Oksenøyveien 10, 1366 Lysaker"
+  ],
+  "approxLat": 59.9115,
+  "approxLng": 10.637,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "HENT AS's Oslo-region branch office and largest after Trondheim (about 669 employees in the Brønnøysund register); HENT is Sentia's Norwegian building contractor.",
+  "source": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990749655"
+ },
+ {
+  "parentName": "Sentia",
+  "name": "HENT Bergen Regional Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bergen",
+  "country": "Norge",
+  "address": "Inger Bang Lunds vei 14, 5059 Bergen",
+  "geoQueries": [
+   "HENT Bergen Inger Bang Lunds vei 14",
+   "Inger Bang Lunds vei 14, 5059 Bergen"
+  ],
+  "approxLat": 60.367,
+  "approxLng": 5.348,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "HENT AS's Bergen branch office (about 86 employees), serving construction projects in Western Norway for Sentia's Norwegian subsidiary.",
+  "source": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990749655"
+ },
+ {
+  "parentName": "Sentia",
+  "name": "HENT Bodø Regional Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Bodø",
+  "country": "Norge",
+  "address": "Klinkerveien 8, 8006 Bodø",
+  "geoQueries": [
+   "HENT Bodø Klinkerveien 8",
+   "Klinkerveien 8, 8006 Bodø"
+  ],
+  "approxLat": 67.275,
+  "approxLng": 14.412,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "HENT AS's Bodø branch office (about 49 employees) serving Northern Norway, including HENT's equipment-rental activity in Bodø.",
+  "source": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=990749655"
+ },
+ {
+  "parentName": "Savox Communications",
+  "name": "Savox Savonlinna Factory",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Savonlinna",
+  "country": "Finland",
+  "address": "Savonlinna, Finland (street address not published)",
+  "geoQueries": [
+   "Savox Communications Savonlinna",
+   "Savox Savonlinna",
+   "Savonlinna teollisuusalue"
+  ],
+  "approxLat": 61.869,
+  "approxLng": 28.88,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Savox's larger Finnish production site, in Savonlinna with roughly 80 employees, assembling the company's communication headsets and accessories.",
+  "source": "https://duunitori.fi/tyopaikat/tyo/production-planner-savox-communications-spsor-20650777"
+ },
+ {
+  "parentName": "RaySearch Laboratories",
+  "name": "RaySearch Americas Office (New York)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "New York",
+  "country": "USA",
+  "address": "350 5th Avenue, Suite 5000, New York, NY 10118",
+  "geoQueries": [
+   "350 5th Avenue, New York, NY 10118",
+   "Empire State Building"
+  ],
+  "approxLat": 40.7484,
+  "approxLng": -73.9857,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "East Coast office and base of RaySearch Americas, the US subsidiary selling and supporting the RayStation radiotherapy treatment planning software.",
+  "source": "https://www.raysearchlabs.com/contact/"
+ },
+ {
+  "parentName": "RaySearch Laboratories",
+  "name": "RaySearch Americas West Coast Office (Santa Clara)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Santa Clara",
+  "country": "USA",
+  "address": "2445 Augustine Drive, Suite 440, Santa Clara, CA 95054",
+  "geoQueries": [
+   "2445 Augustine Drive, Santa Clara, CA 95054",
+   "2445 Augustine Dr Santa Clara"
+  ],
+  "approxLat": 37.379,
+  "approxLng": -121.956,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "West Coast office of RaySearch Americas supporting US radiation oncology customers.",
+  "source": "https://www.raysearchlabs.com/contact/"
+ },
+ {
+  "parentName": "RaySearch Laboratories",
+  "name": "RaySearch Belgium Office (Hasselt)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Hasselt",
+  "country": "Belgium",
+  "address": "Kempische Steenweg 303/200, 3500 Hasselt",
+  "geoQueries": [
+   "Kempische Steenweg 303, 3500 Hasselt",
+   "Corda Campus Hasselt"
+  ],
+  "approxLat": 50.956,
+  "approxLng": 5.337,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of RaySearch Belgium, a European subsidiary of the Swedish radiotherapy software group.",
+  "source": "https://www.raysearchlabs.com/contact/"
+ },
+ {
+  "parentName": "RaySearch Laboratories",
+  "name": "RaySearch Germany Office (Berlin)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Berlin",
+  "country": "Germany",
+  "address": "Zimmerstr. 23, 10969 Berlin",
+  "geoQueries": [
+   "Zimmerstraße 23, 10969 Berlin",
+   "Zimmerstr. 23 Berlin"
+  ],
+  "approxLat": 52.5078,
+  "approxLng": 13.392,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of RaySearch Germany, the German subsidiary of RaySearch Laboratories.",
+  "source": "https://www.raysearchlabs.com/contact/"
+ },
+ {
+  "parentName": "Sagax",
+  "name": "Sagax Finland Helsinki Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Helsinki",
+  "country": "Finland",
+  "address": "Keskuskatu 6E, 00100 Helsinki",
+  "geoQueries": [
+   "Keskuskatu 6, 00100 Helsinki",
+   "Sagax Helsinki"
+  ],
+  "approxLat": 60.1695,
+  "approxLng": 24.944,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Helsinki office managing Sagax's Finnish logistics, light-industrial and commercial property portfolio.",
+  "source": "https://www.sagax.se/contact/finland"
+ },
+ {
+  "parentName": "Sagax",
+  "name": "Sagax Denmark Copenhagen Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Copenhagen",
+  "country": "Danmark",
+  "address": "Indiakaj 1, 2100 København Ø",
+  "geoQueries": [
+   "Indiakaj 1, 2100 København Ø",
+   "Indiakaj 1 København"
+  ],
+  "approxLat": 55.7065,
+  "approxLng": 12.5985,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Copenhagen office running Sagax's Danish property portfolio of logistics and light-industrial assets.",
+  "source": "https://www.sagax.se/contact/denmark"
+ },
+ {
+  "parentName": "Sagax",
+  "name": "Sagax Germany Frankfurt Office (Oper46)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "address": "Oper46, Bockenheimer Anlage 46, 60322 Frankfurt",
+  "geoQueries": [
+   "Bockenheimer Anlage 46, 60322 Frankfurt",
+   "Oper46 Frankfurt"
+  ],
+  "approxLat": 50.1145,
+  "approxLng": 8.6715,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Frankfurt office of Sagax's German operation, managing its logistics and light-industrial properties in Germany.",
+  "source": "https://www.sagax.se/contact/germany"
+ },
+ {
+  "parentName": "Sagax",
+  "name": "Sagax France Paris Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Paris",
+  "country": "France",
+  "address": "2 Place de la Madeleine, 75008 Paris",
+  "geoQueries": [
+   "2 Place de la Madeleine, 75008 Paris",
+   "Place de la Madeleine 2 Paris"
+  ],
+  "approxLat": 48.87,
+  "approxLng": 2.3245,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Paris office of Sagax's French business, which owns logistics and light-industrial properties in France.",
+  "source": "https://www.sagax.se/contact/france"
+ },
+ {
+  "parentName": "Sagax",
+  "name": "Sagax Nederland Rotterdam Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "address": "Weena 738, 3014 DA Rotterdam",
+  "geoQueries": [
+   "Weena 738, 3014 DA Rotterdam",
+   "Weena 738 Rotterdam"
+  ],
+  "approxLat": 51.9235,
+  "approxLng": 4.471,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Rotterdam office of Sagax Nederland, covering the Benelux property portfolio.",
+  "source": "https://www.sagax.se/contact/benelux"
+ },
+ {
+  "parentName": "Sagax",
+  "name": "Sagax Spain Barcelona Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Barcelona",
+  "country": "Spain",
+  "address": "Maestro Nicolau 19, 08021 Barcelona",
+  "geoQueries": [
+   "Maestro Nicolau 19, 08021 Barcelona",
+   "Carrer del Mestre Nicolau 19 Barcelona"
+  ],
+  "approxLat": 41.396,
+  "approxLng": 2.133,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Barcelona office of Sagax Spain, covering the Iberian logistics and light-industrial portfolio.",
+  "source": "https://www.sagax.se/contact/iberia"
+ },
+ {
+  "parentName": "BTS",
+  "name": "BTS US-West Office (San Francisco)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "San Francisco",
+  "country": "USA",
+  "address": "222 Kearny St., Suite 1000, San Francisco, CA 94108",
+  "geoQueries": [
+   "222 Kearny St, San Francisco, CA 94108",
+   "222 Kearny Street San Francisco"
+  ],
+  "approxLat": 37.79,
+  "approxLng": -122.4041,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "BTS's West Coast US office, a main hub for the group's Americas consulting, business simulation and leadership development business.",
+  "source": "https://www.bts.com/contact"
+ },
+ {
+  "parentName": "BTS",
+  "name": "BTS US-East Office (New York)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "New York",
+  "country": "USA",
+  "address": "350 Fifth Ave, Suite 5020, New York, NY 10118",
+  "geoQueries": [
+   "350 Fifth Avenue, New York, NY 10118",
+   "Empire State Building"
+  ],
+  "approxLat": 40.7484,
+  "approxLng": -73.9857,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "BTS's East Coast US office serving the group's North American strategy execution and leadership clients.",
+  "source": "https://www.bts.com/contact"
+ },
+ {
+  "parentName": "BTS",
+  "name": "BTS London Office (Hammersmith)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "London",
+  "country": "UK",
+  "address": "1 Queen Caroline Street, London W6 9YN",
+  "geoQueries": [
+   "1 Queen Caroline Street, London W6 9YN",
+   "Queen Caroline Street Hammersmith London"
+  ],
+  "approxLat": 51.4902,
+  "approxLng": -0.229,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "BTS's UK office, a European hub for the group's consulting and leadership development operations.",
+  "source": "https://www.bts.com/contact"
+ },
+ {
+  "parentName": "BTS",
+  "name": "BTS Germany Office (Cologne)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Cologne",
+  "country": "Germany",
+  "address": "Im Mediapark 6b, 50670 Cologne",
+  "geoQueries": [
+   "Im Mediapark 6b, 50670 Köln",
+   "Im Mediapark 6, Köln"
+  ],
+  "approxLat": 50.9468,
+  "approxLng": 6.95,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "BTS's German office in Cologne's Mediapark, serving German-speaking Europe clients.",
+  "source": "https://www.bts.com/contact"
+ },
+ {
+  "parentName": "BTS",
+  "name": "BTS Singapore Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Singapore",
+  "country": "Singapore",
+  "address": "1 Finlayson Green, #16-01, Singapore 049246",
+  "geoQueries": [
+   "1 Finlayson Green, Singapore 049246",
+   "1 Finlayson Green Singapore"
+  ],
+  "approxLat": 1.284,
+  "approxLng": 103.8505,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "BTS's Asia-Pacific regional office in Singapore's Raffles Place district.",
+  "source": "https://www.bts.com/contact"
+ }
+]

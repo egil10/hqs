@@ -1,0 +1,279 @@
+[
+  {
+    "parentName": "Sedana Medical",
+    "name": "Innovatif Cekal Sedaconda ACD Manufacturing Plant (Klang)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Klang",
+    "country": "Malaysia",
+    "address": "35 Jalan Haji Abdul Karim, 41200 Klang, Selangor",
+    "geoQueries": [
+      "Innovatif Cekal Klang",
+      "Jalan Haji Abdul Karim, 41200 Klang",
+      "Klang, Selangor, Malaysia"
+    ],
+    "approxLat": 3.0449,
+    "approxLng": 101.4455,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Medical-device plant of Innovatif Cekal Sdn Bhd, wholly acquired by Sedana Medical in Nov 2024, which manufactures the Sedaconda ACD inhaled-sedation device and accessories.",
+    "source": "https://news.cision.com/sedana-medical/r/sedana-medical-to-acquire-its-main-supplier-to-take-control-of-supply-chain-and-reduce-cost-of-goods,c4017565"
+  },
+  {
+    "parentName": "Bakkegruppen",
+    "name": "Bakkegruppen Aurskog Head Office (Finstadhagen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Aurskog",
+    "country": "Norge",
+    "address": "Finstadhagan 7, 1930 Aurskog",
+    "geoQueries": [
+      "Finstadhagan 7, 1930 Aurskog",
+      "Finstadhagen, Aurskog",
+      "Bakkegruppen Aurskog"
+    ],
+    "approxLat": 59.9185,
+    "approxLng": 11.564,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Registered office and principal office of Bakkegruppen AS and its equipment-rental subsidiary BG Utleie, from which the group builds row houses and apartments in the Oslo/Romerike area.",
+    "source": "https://live.euronext.com/sites/default/files/company_press_releases/attachments_oslo/2025/08/29/654212_Q2%202025%20report%20Bakkegruppen.pdf"
+  },
+  {
+    "parentName": "Bakkegruppen",
+    "name": "Bakkegruppen Oslo Office (Drammensveien 165)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Drammensveien 165, 0277 Oslo",
+    "geoQueries": [
+      "Drammensveien 165, 0277 Oslo",
+      "Drammensveien 165, Oslo"
+    ],
+    "approxLat": 59.9195,
+    "approxLng": 10.685,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Bakkegruppen's second principal office in Oslo, housing the apartment division Bakke Leiligheter and group management.",
+    "source": "https://live.euronext.com/sites/default/files/company_press_releases/attachments_oslo/2025/08/29/654212_Q2%202025%20report%20Bakkegruppen.pdf"
+  },
+  {
+    "parentName": "Bakkegruppen",
+    "name": "Skogmo Park Housing Development (Jessheim)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Jessheim",
+    "country": "Norge",
+    "address": "Fjellvegen, 2053 Jessheim",
+    "geoQueries": [
+      "Skogmo Park, Jessheim",
+      "Fjellvegen, 2053 Jessheim",
+      "Skogmo, Jessheim"
+    ],
+    "approxLat": 60.138,
+    "approxLng": 11.18,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Bakke Leiligheter's wholly-owned Skogmo Park apartment and row-house project (stage BT2, 108 apartments and 10 row houses, completed 2025-26) at Jessheim.",
+    "source": "https://live.euronext.com/sites/default/files/company_press_releases/attachments_oslo/2025/08/29/654212_Q2%202025%20report%20Bakkegruppen.pdf"
+  },
+  {
+    "parentName": "Bakkegruppen",
+    "name": "Fredheimkvartalet Apartment Development (Ås)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Ås",
+    "country": "Norge",
+    "address": "Moerveien / Sagaveien, 1430 Ås",
+    "geoQueries": [
+      "Fredheimkvartalet, Ås",
+      "Moerveien, 1430 Ås",
+      "Sagaveien, 1430 Ås"
+    ],
+    "approxLat": 59.664,
+    "approxLng": 10.795,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "141-apartment town-centre project in Ås under construction for completion in 2H 2026, developed via Moerveien AS in which Bakkegruppen holds 40%.",
+    "source": "https://inderes.dk/releases/afg-building-141-apartments-in-as"
+  },
+  {
+    "parentName": "Kesko",
+    "name": "Kesko Onnela Logistics Centre (Hyvinkää)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hyvinkää",
+    "country": "Finland",
+    "address": "Onnela, north of Hyvinkää town centre, near Hämeenlinnanväylä, 05800 Hyvinkää",
+    "geoQueries": [
+      "Onnela, Hyvinkää",
+      "Kesko Onnela logistics centre Hyvinkää",
+      "Onninen Hyvinkää logistiikkakeskus"
+    ],
+    "approxLat": 60.665,
+    "approxLng": 24.83,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Kesko's EUR 300m, c. 85,000 sqm Onnela logistics centre on a 42-hectare site, completed in autumn 2025 for the central warehouse operations of Onninen and K-Auto spare parts.",
+    "source": "https://www.kesko.fi/en/company/aluetoiminta/etela-suomi-uusimaa-ja-kymenlaakso/hyvinkaa-logistics-centre/"
+  },
+  {
+    "parentName": "Kesko",
+    "name": "Kesko Senukai Logistics Centre (Žemaitkiemis, Kaunas)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kaunas",
+    "country": "Lithuania",
+    "address": "Žemaitkiemis, Kaunas district, Lithuania",
+    "geoQueries": [
+      "Žemaitkiemis, Kaunas",
+      "Senukai logistikos centras Žemaitkiemis",
+      "Kesko Senukai Lithuania Kaunas"
+    ],
+    "approxLat": 54.89,
+    "approxLng": 23.88,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Kesko Senukai's 60,000 sqm central logistics centre in Žemaitkiemis supplying the Baltic Senukai and K-Rauta DIY chain (Kesko Senukai is a 50/50 joint venture of Kesko with Artūras Rakauskas).",
+    "source": "https://en.wikipedia.org/wiki/Kesko_Senukai"
+  },
+  {
+    "parentName": "Attendo",
+    "name": "Attendo Lærkevej Care Home and Danish Contact Office (Frederikssund)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Frederikssund",
+    "country": "Danmark",
+    "address": "Lærkevej 11, 3600 Frederikssund",
+    "geoQueries": [
+      "Attendo Lærkevej, Frederikssund",
+      "Lærkevej 11, 3600 Frederikssund"
+    ],
+    "approxLat": 55.839,
+    "approxLng": 12.069,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Private nursing home (friplejehjem) in Frederikssund that is also the contact address of Attendo's Danish operations.",
+    "source": "https://www.attendo.dk/"
+  },
+  {
+    "parentName": "Attendo",
+    "name": "Attendo Esrumvej Care Home (Helsingør)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Helsingør",
+    "country": "Danmark",
+    "address": "Moselundsvej 3, 3000 Helsingør",
+    "geoQueries": [
+      "Attendo Esrumvej, Helsingør",
+      "Moselundsvej 3, 3000 Helsingør"
+    ],
+    "approxLat": 56.027,
+    "approxLng": 12.575,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Attendo friplejehjem in North Zealand with 58 residents across two floors.",
+    "source": "https://www.attendo.dk/"
+  },
+  {
+    "parentName": "Attendo",
+    "name": "Attendo Klædebo Care Home (Hørsholm)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hørsholm",
+    "country": "Danmark",
+    "address": "Ved Klædebo 2B, 2970 Hørsholm",
+    "geoQueries": [
+      "Attendo Klædebo, Hørsholm",
+      "Ved Klædebo 2B, 2970 Hørsholm"
+    ],
+    "approxLat": 55.885,
+    "approxLng": 12.5,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Recently opened Attendo friplejehjem in Hørsholm, North Zealand.",
+    "source": "https://www.attendo.dk/"
+  },
+  {
+    "parentName": "NCAB",
+    "name": "NCAB Group China Main Office (Shenzhen, Kerry Center)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Shenzhen",
+    "country": "China",
+    "address": "Room 1401 & 1404, Building T7 Kerry Center, Qianhai Avenue, Nanshan District, 518052 Shenzhen",
+    "geoQueries": [
+      "Kerry Center Qianhai, Shenzhen",
+      "Qianhai Avenue, Nanshan District, Shenzhen",
+      "NCAB Group Shenzhen"
+    ],
+    "approxLat": 22.535,
+    "approxLng": 113.905,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Main office of NCAB's China operations covering sales, PCB design engineering, quality and logistics coordination with the group's contract factories.",
+    "source": "https://www.ncabgroup.com/contact/china/"
+  },
+  {
+    "parentName": "NCAB",
+    "name": "NCAB Group Germany Head Office (Munich)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Munich",
+    "country": "Germany",
+    "address": "Elsenheimer Straße 7, 80687 München",
+    "geoQueries": [
+      "Elsenheimerstraße 7, 80687 München",
+      "NCAB Group Germany GmbH, München"
+    ],
+    "approxLat": 48.143,
+    "approxLng": 11.501,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of NCAB Group Germany GmbH with management, finance, key account management and technical support for the German market.",
+    "source": "https://www.ncabgroup.com/contact/germany/"
+  },
+  {
+    "parentName": "NCAB",
+    "name": "NCAB Group USA North Central Division and Warehouse (Itasca, IL)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Itasca",
+    "country": "USA",
+    "address": "1300 Norwood Avenue, Itasca, IL 60143",
+    "geoQueries": [
+      "1300 Norwood Ave, Itasca, IL 60143",
+      "NCAB Group USA Itasca"
+    ],
+    "approxLat": 41.976,
+    "approxLng": -88.048,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "NCAB USA's Chicago-area division with account management, quality assurance and a warehouse handling PCB shipping and receiving.",
+    "source": "https://www.ncabgroup.com/contact/usa/"
+  },
+  {
+    "parentName": "NCAB",
+    "name": "NCAB Group USA Silicon Valley Division (San Jose)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "San Jose",
+    "country": "USA",
+    "address": "1864 Hartog Drive, San Jose, CA 95131",
+    "geoQueries": [
+      "1864 Hartog Dr, San Jose, CA 95131",
+      "NCAB Group San Jose"
+    ],
+    "approxLat": 37.379,
+    "approxLng": -121.889,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "NCAB USA's Silicon Valley division handling PCB production management, procurement, component receiving and kitting, and shipping.",
+    "source": "https://www.ncabgroup.com/contact/usa/"
+  },
+  {
+    "parentName": "CHEMOMETEC",
+    "name": "ChemoMetec Inc. US Headquarters (Bohemia, NY)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Bohemia",
+    "country": "USA",
+    "address": "3920 Veterans Memorial Highway, Suite 3, Bohemia, NY 11716",
+    "geoQueries": [
+      "3920 Veterans Memorial Highway, Bohemia, NY 11716",
+      "ChemoMetec Inc. Bohemia NY"
+    ],
+    "approxLat": 40.769,
+    "approxLng": -73.117,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Long Island office of ChemoMetec Inc., the US sales and support subsidiary for NucleoCounter cell-counting instruments, with satellite offices in Cambridge MA, La Jolla CA and South San Francisco.",
+    "source": "https://chemometec.com/contact/"
+  }
+]

@@ -1,0 +1,327 @@
+[
+ {
+  "parentName": "Proact IT",
+  "name": "Proact Deutschland Nürnberg Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Nürnberg",
+  "country": "Germany",
+  "address": "Südwestpark 43, 90449 Nürnberg",
+  "geoQueries": [
+   "Proact Deutschland GmbH Nürnberg",
+   "Südwestpark 43, 90449 Nürnberg"
+  ],
+  "approxLat": 49.4235,
+  "approxLng": 11.029,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Headquarters of Proact Deutschland GmbH, Proact's German subsidiary for data storage, cloud and hybrid infrastructure services, which also runs its own internet exchange in Nuremberg.",
+  "source": "https://www.proact.eu/contact-us/"
+ },
+ {
+  "parentName": "Proact IT",
+  "name": "Proact IT UK Chesterfield Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Chesterfield",
+  "country": "UK",
+  "address": "Grayson House, Venture Way, Dunston Technology Park, Dunston Road, Chesterfield S41 8NE",
+  "geoQueries": [
+   "Proact IT UK Chesterfield",
+   "Dunston Technology Park, Chesterfield S41 8NE"
+  ],
+  "approxLat": 53.2385,
+  "approxLng": -1.479,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Headquarters of Proact IT UK Ltd at Dunston Technology Park, Proact's UK arm for data centre, storage and managed cloud services.",
+  "source": "https://www.proact.eu/contact-us/"
+ },
+ {
+  "parentName": "Proact IT",
+  "name": "Proact Netherlands Hoofddorp Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Hoofddorp",
+  "country": "Netherlands",
+  "address": "Scorpius 171, 2132 LR Hoofddorp",
+  "geoQueries": [
+   "Proact Netherlands Hoofddorp",
+   "Scorpius 171, 2132 LR Hoofddorp"
+  ],
+  "approxLat": 52.2935,
+  "approxLng": 4.687,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Headquarters of Proact Netherlands B.V., Proact's Dutch subsidiary providing storage, hybrid cloud and data centre infrastructure services.",
+  "source": "https://www.proact.eu/contact-us/"
+ },
+ {
+  "parentName": "Proact IT",
+  "name": "Proact Belgium Machelen Office",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Machelen",
+  "country": "Belgium",
+  "address": "Business Campus Park Lane, Culliganlaan 2D, 1831 Machelen",
+  "geoQueries": [
+   "Park Lane Business Campus Culliganlaan 2D, 1831 Diegem",
+   "Culliganlaan 2D, 1831 Machelen"
+  ],
+  "approxLat": 50.8995,
+  "approxLng": 4.434,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Office of Proact BV / Proact Belgium in the Park Lane business campus near Brussels, serving Proact's Benelux (West) segment.",
+  "source": "https://www.proact.eu/contact-us/"
+ },
+ {
+  "parentName": "Stillfront",
+  "name": "Imperia Online Sofia Studio (Stillfront)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Sofia",
+  "country": "Bulgaria",
+  "address": "Infinity Tower, Bulgaria Towers business complex, Sofia",
+  "geoQueries": [
+   "Infinity Tower Sofia",
+   "Bulgaria Mall Sofia",
+   "Imperia Online Sofia"
+  ],
+  "approxLat": 42.67,
+  "approxLng": 23.307,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Sofia studio of Imperia Online JSC (Stillfront-owned since 2018), developer of browser and mobile strategy games and now home to relocated legacy Storm8 titles.",
+  "source": "https://en.wikipedia.org/wiki/Imperia_Online_JSC"
+ },
+ {
+  "parentName": "Stillfront",
+  "name": "Nanobit Zagreb Studio (Stillfront)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "address": "Zagreb, Croatia (Nanobit d.o.o.)",
+  "geoQueries": [
+   "Nanobit Zagreb",
+   "Nanobit d.o.o., Zagreb"
+  ],
+  "approxLat": 45.8131,
+  "approxLng": 15.9772,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Zagreb headquarters of Nanobit d.o.o., Stillfront's narrative and lifestyle mobile game studio (Hidden City, Mystery Matters), acquired in 2020.",
+  "source": "https://www.stillfront.com/en/stillfront-group-acquires-nanobit-and-expands-the-portfolio-with-narrative-and-lifestyle-games"
+ },
+ {
+  "parentName": "KB Components",
+  "name": "KB Components Gislaved Plastics Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Gislaved",
+  "country": "Sverige",
+  "address": "Gislaved, Sweden",
+  "geoQueries": [
+   "KB Components Gislaved",
+   "KB Components AB, Gislaved"
+  ],
+  "approxLat": 57.304,
+  "approxLng": 13.54,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Swedish injection-moulding plant of KB Components shipping plastic components for vehicle and industrial customers.",
+  "source": "https://finanzwire.com/press-release/blaige-company-nasdaq-blaige-advises-on-sale-of-leading-canadian-plastic-injection-molder-to-kb-components-of-sweden-in-cross-border-transaction-ayfLNV3uMuV"
+ },
+ {
+  "parentName": "KB Components",
+  "name": "KB Components Žilina Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Žilina",
+  "country": "Slovakia",
+  "address": "Žilina, Slovakia",
+  "geoQueries": [
+   "KB Components DKI Žilina",
+   "KB Components Žilina"
+  ],
+  "approxLat": 49.2231,
+  "approxLng": 18.7394,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Slovak polymer injection-moulding plant of KB Components serving European automotive customers.",
+  "source": "https://finanzwire.com/press-release/blaige-company-nasdaq-blaige-advises-on-sale-of-leading-canadian-plastic-injection-molder-to-kb-components-of-sweden-in-cross-border-transaction-ayfLNV3uMuV"
+ },
+ {
+  "parentName": "KB Components",
+  "name": "KB Components Kaunas Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Kaunas",
+  "country": "Lithuania",
+  "address": "Kaunas, Lithuania",
+  "geoQueries": [
+   "UAB KB Components Kaunas",
+   "KB Components Kaunas"
+  ],
+  "approxLat": 54.8985,
+  "approxLng": 23.9036,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Lithuanian plastics production unit of KB Components (UAB KB Components).",
+  "source": "https://finanzwire.com/press-release/blaige-company-nasdaq-blaige-advises-on-sale-of-leading-canadian-plastic-injection-molder-to-kb-components-of-sweden-in-cross-border-transaction-ayfLNV3uMuV"
+ },
+ {
+  "parentName": "KB Components",
+  "name": "KB Components Windsor Plant (Lakeside Plastics)",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Windsor",
+  "country": "Canada",
+  "address": "Windsor, Ontario, Canada",
+  "geoQueries": [
+   "Lakeside Plastics Windsor Ontario",
+   "KB Components Windsor"
+  ],
+  "approxLat": 42.3149,
+  "approxLng": -83.0364,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Canadian injection-moulding plant in Windsor, Ontario, acquired by KB Components in 2021 as Lakeside Plastics.",
+  "source": "https://finanzwire.com/press-release/blaige-company-nasdaq-blaige-advises-on-sale-of-leading-canadian-plastic-injection-molder-to-kb-components-of-sweden-in-cross-border-transaction-ayfLNV3uMuV"
+ },
+ {
+  "parentName": "KB Components",
+  "name": "KB Components Innotech Precision Toronto Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Toronto",
+  "country": "Canada",
+  "address": "70 Novopharm Court, Toronto, Ontario",
+  "geoQueries": [
+   "Innotech Precision 70 Novopharm Court Toronto",
+   "70 Novopharm Court, Toronto, ON"
+  ],
+  "approxLat": 43.81,
+  "approxLng": -79.223,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Multi-material injection moulding plant of Innotech Precision, acquired by KB Components in December 2023.",
+  "source": "https://www.cbinsights.com/company/innotech-precision/alternatives-competitors"
+ },
+ {
+  "parentName": "KB Components",
+  "name": "KB Components Puebla Plant",
+  "facilityType": "Factory & Manufacturing",
+  "city": "Puebla",
+  "country": "Mexico",
+  "address": "Puebla, Mexico",
+  "geoQueries": [
+   "KB Components Puebla",
+   "KB Components México Puebla"
+  ],
+  "approxLat": 19.0414,
+  "approxLng": -98.2063,
+  "coordsExact": false,
+  "footprintRadiusMeters": 200,
+  "description": "Mexican injection-moulding plant of KB Components supplying North American automotive customers.",
+  "source": "https://finanzwire.com/press-release/blaige-company-nasdaq-blaige-advises-on-sale-of-leading-canadian-plastic-injection-molder-to-kb-components-of-sweden-in-cross-border-transaction-ayfLNV3uMuV"
+ },
+ {
+  "parentName": "Nivika Fastigheter",
+  "name": "PostNord Logistics Terminal Värnamo (Nivika)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Värnamo",
+  "country": "Sverige",
+  "address": "Sydsvenska krysset, at Rv 27 and E4, Värnamo",
+  "geoQueries": [
+   "PostNord terminal Värnamo",
+   "PostNord Värnamo"
+  ],
+  "approxLat": 57.17,
+  "approxLng": 14.03,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "New PostNord logistics terminal (~1,900 sqm) built and owned by Nivika next to road 27 and the E4 under a ten-year lease, ready spring 2023.",
+  "source": "https://borsvarlden.com/artiklar/nivika-bygger-ny-anlaggning-till-postnord-i-varnamo"
+ },
+ {
+  "parentName": "Nivika Fastigheter",
+  "name": "Rudhäll Industri (Bufab) Warehouse Värnamo (Nivika)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Värnamo",
+  "country": "Sverige",
+  "address": "Värnamo, Sweden",
+  "geoQueries": [
+   "Rudhäll Industri Värnamo",
+   "Bufab Rudhäll Värnamo"
+  ],
+  "approxLat": 57.183,
+  "approxLng": 14.043,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "New ~2,900 sqm warehouse, office and logistics building developed by Nivika for Bufab's Rudhäll Industri on a ten-year lease, ready autumn 2025.",
+  "source": "https://borsvarlden.com/artiklar/nivika-skriver-hyresavtal-och-uppfor-industrifastighet"
+ },
+ {
+  "parentName": "Sveafastigheter",
+  "name": "Sveafastigheter Enhörningen Kista Äng",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Stockholm",
+  "country": "Sverige",
+  "address": "Kista Äng, Kista, Stockholm",
+  "geoQueries": [
+   "Enhörningen Kista Äng",
+   "Kista Äng, Stockholm"
+  ],
+  "approxLat": 59.413,
+  "approxLng": 17.938,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "216 rental apartments developed and owned by Sveafastigheter in the Kista Äng district, with residents moving in during 2026.",
+  "source": "https://sveafastigheter.se"
+ },
+ {
+  "parentName": "Sveafastigheter",
+  "name": "Sveafastigheter Solhusen Orminge",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Nacka",
+  "country": "Sverige",
+  "address": "Orminge centrum, Nacka",
+  "geoQueries": [
+   "Solhusen Orminge Nacka",
+   "Orminge centrum, Nacka"
+  ],
+  "approxLat": 59.3095,
+  "approxLng": 18.247,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "147-unit residential building in central Orminge with 117 rental apartments and 30 senior housing units, move-in ongoing.",
+  "source": "https://sveafastigheter.se"
+ },
+ {
+  "parentName": "Sveafastigheter",
+  "name": "Sveafastigheter Årby Eskilstuna",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Eskilstuna",
+  "country": "Sverige",
+  "address": "Norra Årby, Eskilstuna",
+  "geoQueries": [
+   "Årby Eskilstuna Sveafastigheter",
+   "Norra Årby, Eskilstuna"
+  ],
+  "approxLat": 59.385,
+  "approxLng": 16.485,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "206-apartment rental development in Norra Årby, Eskilstuna, whose first stage is completed and let.",
+  "source": "https://sveafastigheter.se"
+ },
+ {
+  "parentName": "Svenska Handelsbanken",
+  "name": "Handelsbanken Norge Head Office (Tjuvholmen)",
+  "facilityType": "Filial, Logistics & Subsidiary HQ",
+  "city": "Oslo",
+  "country": "Norge",
+  "address": "Tjuvholmen allé 11, 0113 Oslo",
+  "geoQueries": [
+   "Tjuvholmen allé 11, 0113 Oslo",
+   "Handelsbanken Tjuvholmen Oslo"
+  ],
+  "approxLat": 59.9068,
+  "approxLng": 10.7205,
+  "coordsExact": false,
+  "footprintRadiusMeters": 160,
+  "description": "Head office of Handelsbanken's Norwegian operation, coordinating its 37 branches across Norway.",
+  "source": "https://www.handelsbanken.no/no/kontakt-oss"
+ }
+]

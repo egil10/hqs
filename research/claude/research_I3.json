@@ -1,0 +1,211 @@
+[
+  {
+    "parentName": "Sdiptech",
+    "name": "HeatWork Narvik Mobile Hydronic Heating Production Plant (Sdiptech)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Narvik",
+    "country": "Norge",
+    "address": "Skarvenesveien 6, 8514 Narvik",
+    "geoQueries": [
+      "HeatWork Narvik",
+      "Skarvenesveien 6, 8514 Narvik",
+      "HeatWork Norway AS Narvik"
+    ],
+    "approxLat": 68.4385,
+    "approxLng": 17.4272,
+    "footprintRadiusMeters": 180,
+    "description": "Head office and production facility of HeatWork, a manufacturer of mobile hydronic heating units acquired by Sdiptech in 2023.",
+    "source": "https://www.globenewswire.com/fr/news-release/2023/03/31/2638411/0/en/Sdiptech-AB-publ-Sdiptech-acquires-Norwegian-HeatWork.html",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Sdiptech",
+    "name": "Phase 3 Connectors Knowsley Power Connector Manufacturing Site (Sdiptech)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Knowsley (Liverpool)",
+    "country": "UK",
+    "address": "Unit 7, Coopers Point, Coopers Lane, Knowsley Business Park, Liverpool L33 7UB",
+    "geoQueries": [
+      "Phase 3 Connectors Knowsley",
+      "Coopers Point, Coopers Lane, Knowsley Business Park, Liverpool L33 7UB",
+      "Knowsley Business Park"
+    ],
+    "approxLat": 53.465,
+    "approxLng": -2.854,
+    "footprintRadiusMeters": 160,
+    "description": "Liverpool headquarters of Phase 3 Connectors, a UK maker of high-current single-pole power connectors acquired by Sdiptech in February 2025.",
+    "source": "https://p3connectors.com/contact",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Sdiptech",
+    "name": "Water Treatment Products Blaenavon Speciality Chemicals Plant (Sdiptech)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Blaenavon",
+    "country": "UK",
+    "address": "1 Gilchrist Thomas Industrial Estate, Blaenavon NP4 9RL",
+    "geoQueries": [
+      "Water Treatment Products Blaenavon",
+      "Gilchrist Thomas Industrial Estate, Blaenavon NP4 9RL",
+      "Gilchrist Thomas Industrial Estate"
+    ],
+    "approxLat": 51.779,
+    "approxLng": -3.082,
+    "footprintRadiusMeters": 180,
+    "description": "South Wales manufacturing facility of Water Treatment Products Ltd, a Sdiptech business making over 400 own-label speciality water-treatment chemicals.",
+    "source": "https://madeinbritain.org/members/water-treatment-products-ltd",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Pandora",
+    "name": "Pandora Lamphun Jewellery Crafting Facility",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Lamphun",
+    "country": "Thailand",
+    "address": "144 Moo 12, Pa Sak, Mueang Lamphun, Lamphun 51000",
+    "geoQueries": [
+      "Pandora Production Lamphun",
+      "Pandora Production Co., Ltd. Lamphun",
+      "Pa Sak, Mueang Lamphun, Lamphun 51000"
+    ],
+    "approxLat": 18.57,
+    "approxLng": 99.03,
+    "footprintRadiusMeters": 350,
+    "description": "LEED Gold-certified jewellery crafting facility opened in 2017 in northern Thailand, designed to employ up to 5,000 craftspeople.",
+    "source": "https://www.pandoragroup.com/media/press-releases/pandora-officially-opens-state-of-the-art-crafting-facility-in-thailand",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Pandora",
+    "name": "Pandora Gemopolis Bangkok Crafting Facilities (incl. Triple A)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "address": "88 Soi Sukhapiban 2 Soi 31, Dokmai, Prawet, Bangkok 10250",
+    "geoQueries": [
+      "Pandora Production Gemopolis",
+      "Gemopolis Industrial Estate Bangkok",
+      "88 Soi Sukhapiban 2 Soi 31, Dokmai, Prawet, Bangkok 10250"
+    ],
+    "approxLat": 13.7,
+    "approxLng": 100.69,
+    "footprintRadiusMeters": 350,
+    "description": "Pandora's original crafting hub in the Gemopolis jewellery industrial zone, operating since 2005 and expanded with the Triple A facility in 2018.",
+    "source": "https://pandoragroup.com/about/crafting",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Pandora",
+    "name": "Pandora Production Vietnam VSIP III Crafting Facility",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tan Uyen (Ho Chi Minh City, former Binh Duong)",
+    "country": "Vietnam",
+    "address": "VSIP III Industrial Park, Tan Uyen, Ho Chi Minh City (former Binh Duong Province)",
+    "geoQueries": [
+      "Pandora Production Vietnam VSIP III",
+      "VSIP III Industrial Park Tan Uyen",
+      "VSIP III, Bac Tan Uyen"
+    ],
+    "approxLat": 11.09,
+    "approxLng": 106.83,
+    "footprintRadiusMeters": 350,
+    "description": "Pandora's first crafting facility outside Thailand (USD 150 million), reported opened October 2026, with capacity for up to 60 million pieces a year.",
+    "source": "https://fashionbiznes.pl/pandora-otworzyla-najwieksza-fabryke-bizuterii-na-swiecie-powstanie-tu-60-mln-produktow-rocznie/",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Humble",
+    "name": "The Bars Production Gråbo Protein & Snack Bar Factory (Humble Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Gråbo",
+    "country": "Sverige",
+    "address": "Gråbo Industriväg 15, 443 40 Gråbo",
+    "geoQueries": [
+      "Bars Production Gråbo",
+      "Gråbo Industriväg 15, 443 40 Gråbo",
+      "Gråbo Industriväg"
+    ],
+    "approxLat": 57.82,
+    "approxLng": 12.425,
+    "footprintRadiusMeters": 180,
+    "description": "Contract and private-label manufacturer of energy, protein, beauty and meal-replacement bars with its own production facility and test kitchen, part of Humble Group.",
+    "source": "https://www.barsproduction.se/",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Humble",
+    "name": "Franssons Konfektyr Gränna Confectionery Factory (Humble Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Gränna",
+    "country": "Sverige",
+    "address": "Skiftesvägen 33, 563 31 Gränna",
+    "geoQueries": [
+      "Franssons Konfektyr Gränna",
+      "Skiftesvägen 33, 563 31 Gränna",
+      "Skiftesvägen, Gränna"
+    ],
+    "approxLat": 58.0235,
+    "approxLng": 14.463,
+    "footprintRadiusMeters": 160,
+    "description": "Family-founded candy manufacturer in Gränna, part of Humble Group's confectionery cluster.",
+    "source": "https://franssonskonfektyrer.se/",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Humble",
+    "name": "Grenna Polkagriskokeri Gränna Polkagris Factory (Humble Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Gränna",
+    "country": "Sverige",
+    "address": "Brahegatan 39, 563 32 Gränna",
+    "geoQueries": [
+      "Grenna Polkagriskokeri",
+      "Brahegatan 39, 563 32 Gränna",
+      "Brahegatan, Gränna"
+    ],
+    "approxLat": 58.0256,
+    "approxLng": 14.4605,
+    "footprintRadiusMeters": 150,
+    "description": "Handmade polkagris (pulled-sugar candy cane) factory and shop in central Gränna, using recipes dating to 1859; part of Humble Group.",
+    "source": "https://polkagris.com/en/contact-us/",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Humble",
+    "name": "Delsbo Candle Taper Candle Factory (Humble Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Delsbo",
+    "country": "Sverige",
+    "address": "Fredriksfors 19, 824 72 Delsbo",
+    "geoQueries": [
+      "Delsbo Candle Fredriksfors",
+      "Fredriksfors 19, 824 72 Delsbo",
+      "Fredriksfors, Delsbo"
+    ],
+    "approxLat": 61.824,
+    "approxLng": 16.556,
+    "footprintRadiusMeters": 160,
+    "description": "Factory making taper and dinner candles in Delsbo, Hälsingland; part of Humble Group.",
+    "source": "https://delsbocandle.com/",
+    "coordsExact": false
+  },
+  {
+    "parentName": "Humble",
+    "name": "Kryddhuset Ljung Spice Production & Warehouse (Humble Group)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ljung",
+    "country": "Sverige",
+    "address": "Industrivägen 3, 524 41 Ljung",
+    "geoQueries": [
+      "Kryddhuset Ljung",
+      "Industrivägen 3, 524 41 Ljung",
+      "Industrivägen, Ljung"
+    ],
+    "approxLat": 57.998,
+    "approxLng": 13.05,
+    "footprintRadiusMeters": 160,
+    "description": "Spice and seasoning business based in Ljung, Västergötland, part of Humble Group.",
+    "source": "https://kryddhuset.se/",
+    "coordsExact": false
+  }
+]

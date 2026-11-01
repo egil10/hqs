@@ -1,0 +1,382 @@
+[
+  {
+    "parentName": "Evolution",
+    "name": "Evolution Tbilisi Live Casino Studio",
+    "facilityType": "Data Center, Telecom & Cloud",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "address": "Tbilisi, Georgia (exact street not published)",
+    "geoQueries": [
+      "Evolution Gaming Tbilisi",
+      "Evolution Georgia Tbilisi",
+      "Tbilisi, Georgia"
+    ],
+    "approxLat": 41.7151,
+    "approxLng": 44.8271,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Evolution's third European central live-casino production hub, opened 2018 with 100+ staff, streaming live dealer tables to online operators.",
+    "source": "https://casinobeats.com/2018/04/05/evolution-goes-live-with-new-studio-in-tbilisi/"
+  },
+  {
+    "parentName": "Evolution",
+    "name": "Evolution Malta Live Casino Studio & Office (Mriehel)",
+    "facilityType": "Data Center, Telecom & Cloud",
+    "city": "Birkirkara (Mriehel)",
+    "country": "Malta",
+    "address": "Fort Business Centre, Triq l-Intornjatur, Mriehel, Birkirkara BKR 3000, Malta",
+    "geoQueries": [
+      "Fort Business Centre, Triq l-Intornjatur, Mriehel",
+      "Evolution Malta Mriehel",
+      "Mriehel, Birkirkara, Malta"
+    ],
+    "approxLat": 35.8965,
+    "approxLng": 14.464,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Evolution's Maltese live-casino production studio and local operations office, one of its three original central European studio hubs (address per third-party listing; registered office is at Spinola Park, St Julian's).",
+    "source": "https://www.daijob.com/en/jobs/company/15625"
+  },
+  {
+    "parentName": "Evolution",
+    "name": "Evolution Bucharest Live Casino Studio",
+    "facilityType": "Data Center, Telecom & Cloud",
+    "city": "Bucharest",
+    "country": "Romania",
+    "address": "Bucharest, Romania (exact street not published)",
+    "geoQueries": [
+      "Evolution Bucharest",
+      "Evolution Gaming Bucharest",
+      "Bucharest, Romania"
+    ],
+    "approxLat": 44.4378,
+    "approxLng": 26.0975,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Evolution live-casino broadcast studio in Bucharest where game presenters are trained and stream live dealer tables (job postings reference the 'Bucharest broadcasting studio').",
+    "source": "https://resumegeni.com/jobs/game-presenter-at-evolution-bucharest-bucharest-ro"
+  },
+  {
+    "parentName": "Evolution",
+    "name": "Evolution Vancouver-area Live Casino Studio (New Westminster)",
+    "facilityType": "Data Center, Telecom & Cloud",
+    "city": "New Westminster",
+    "country": "Canada",
+    "address": "Anvil Centre area, Columbia Street, New Westminster, BC",
+    "geoQueries": [
+      "Anvil Centre, New Westminster",
+      "Evolution Gaming New Westminster",
+      "777 Columbia Street, New Westminster, BC"
+    ],
+    "approxLat": 49.2017,
+    "approxLng": -122.9118,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Evolution's first studio outside Europe (opened Feb 2018, 16,000 sq ft above the Anvil Centre), serving BCLC's PlayNow.com; later job postings also reference a Burnaby studio.",
+    "source": "https://casinobeats.com/2018/02/01/evolution-gaming-goes-live-in-canada/"
+  },
+  {
+    "parentName": "YIT",
+    "name": "YIT Eesti Tallinn Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "address": "Pärnu mnt 102b, 11312 Tallinn",
+    "geoQueries": [
+      "YIT Eesti, Pärnu mnt 102b, Tallinn",
+      "Pärnu mnt 102b, 11312 Tallinn",
+      "YIT Eesti Tallinn"
+    ],
+    "approxLat": 59.4198,
+    "approxLng": 24.726,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of YIT's Estonian subsidiary, managing housing development and construction in Tallinn and the Baltic region.",
+    "source": "https://www.yitgroup.com/en/contact-us/other-locations/estonia"
+  },
+  {
+    "parentName": "YIT",
+    "name": "YIT Latvija Riga Office (YIT Infra Latvija / Celtniecība)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Riga",
+    "country": "Latvia",
+    "address": "Vienības gatve 109, Rīga, LV-1058",
+    "geoQueries": [
+      "YIT Latvija, Vienības gatve 109, Rīga",
+      "Vienības gatve 109, Rīga, LV-1058",
+      "YIT Latvija Rīga"
+    ],
+    "approxLat": 56.93,
+    "approxLng": 24.199,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Riga office shared by YIT Latvija Celtniecība and YIT Infra Latvija, running YIT's Latvian construction and infrastructure operations.",
+    "source": "https://www.yitgroup.com/en/contact-us/other-locations/latvia"
+  },
+  {
+    "parentName": "YIT",
+    "name": "YIT Slovakia Bratislava Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "address": "Svätoplukova II. 18892/2A, 831 54 Bratislava (Ružinov)",
+    "geoQueries": [
+      "YIT Slovakia, Svätoplukova 2A, Bratislava",
+      "Svätoplukova 2A, Bratislava",
+      "YIT Slovakia Bratislava"
+    ],
+    "approxLat": 48.151,
+    "approxLng": 17.154,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Bratislava office of YIT's Slovak operations (residential development and construction).",
+    "source": "https://www.yitgroup.com/en/contact-us/other-locations/slovakia"
+  },
+  {
+    "parentName": "YIT",
+    "name": "YIT Stavo Prague Office (Telehouse, Dejvice)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Prague",
+    "country": "Czechia",
+    "address": "TELEHOUSE, Generála Píky 430/26, 160 00 Praha 6 - Dejvice",
+    "geoQueries": [
+      "Generála Píky 430/26, Praha 6",
+      "YIT Stavo Praha",
+      "Generála Píky 26, 160 00 Praha"
+    ],
+    "approxLat": 50.1013,
+    "approxLng": 14.3925,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Prague office of YIT Stavo, YIT's Czech construction and housing development subsidiary.",
+    "source": "https://www.yitgroup.com/en/contact-us/other-locations/czech-republic"
+  },
+  {
+    "parentName": "MedCap",
+    "name": "Abilia AB Headquarters & Assistive Technology Operations (Solna)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Solna",
+    "country": "Sverige",
+    "address": "Råsundavägen 6, 169 67 Solna",
+    "geoQueries": [
+      "Abilia, Råsundavägen 6, Solna",
+      "Råsundavägen 6, 169 67 Solna",
+      "Abilia AB Solna"
+    ],
+    "approxLat": 59.364,
+    "approxLng": 17.999,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Head office of MedCap subsidiary Abilia, developer and seller of cognitive, communication, environmental-control and alarm assistive technology (MEMOplanner, GEWA) for the Nordics, UK and export markets.",
+    "source": "https://www.abilia.com/sv/"
+  },
+  {
+    "parentName": "MedCap",
+    "name": "Cardiolex Medical Solna ECG Equipment Headquarters",
+    "facilityType": "R&D, Biotech & Medtech Lab",
+    "city": "Solna",
+    "country": "Sverige",
+    "address": "Sundbybergsvägen 1, 171 73 Solna",
+    "geoQueries": [
+      "Cardiolex Medical, Sundbybergsvägen 1, Solna",
+      "Sundbybergsvägen 1, 171 73 Solna",
+      "Cardiolex Solna"
+    ],
+    "approxLat": 59.3625,
+    "approxLng": 17.9985,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Solna base of MedCap subsidiary Cardiolex, which develops, manufactures and sells ECG equipment and software (about 70% of Swedish hospitals use its products).",
+    "source": "https://www.cardiolex.com/contact/"
+  },
+  {
+    "parentName": "MedCap",
+    "name": "Inpac AB Lund Contract Manufacturing & Packaging Site",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Lund",
+    "country": "Sverige",
+    "address": "Sellerigatan 8, 224 78 Lund",
+    "geoQueries": [
+      "Inpac AB, Sellerigatan 8, Lund",
+      "Sellerigatan 8, 224 78 Lund",
+      "Inpac Lund"
+    ],
+    "approxLat": 55.723,
+    "approxLng": 13.254,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "MedCap subsidiary Inpac's Lund site for contract manufacturing and packaging of probiotics, dietary supplements and pharmaceutical products plus temperature-controlled Aircontainer shipping packaging.",
+    "source": "https://www.inpac.se/"
+  },
+  {
+    "parentName": "Better Collective",
+    "name": "Better Collective Vienna Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vienna",
+    "country": "Austria",
+    "address": "Vienna, Austria (exact street not published)",
+    "geoQueries": [
+      "Better Collective Vienna",
+      "Better Collective Austria, Wien",
+      "Wien, Austria"
+    ],
+    "approxLat": 48.2082,
+    "approxLng": 16.3738,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Better Collective's Vienna office, one of its 23 offices, supporting its European sports-betting media and affiliate operations.",
+    "source": "https://bettercollective.com/contact/"
+  },
+  {
+    "parentName": "Better Collective",
+    "name": "Better Collective New York Office (Action Network)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "New York",
+    "country": "USA",
+    "address": "New York, NY, USA (exact street not published)",
+    "geoQueries": [
+      "Action Network New York",
+      "Better Collective New York",
+      "New York, NY"
+    ],
+    "approxLat": 40.7484,
+    "approxLng": -73.9857,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "New York office supporting Better Collective's US operations around the Action Network sports betting media and data platform.",
+    "source": "https://bettercollective.com/contact/"
+  },
+  {
+    "parentName": "Better Collective",
+    "name": "Better Collective Stockholm Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Stockholm, Sweden (exact street not published)",
+    "geoQueries": [
+      "Better Collective Stockholm",
+      "Better Collective Sverige, Stockholm",
+      "Stockholm, Sweden"
+    ],
+    "approxLat": 59.3326,
+    "approxLng": 18.0649,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Better Collective's Stockholm office (the group is dual-listed on Nasdaq Stockholm and Copenhagen), housing Swedish media brands such as SvenskaFans.",
+    "source": "https://bettercollective.com/contact/"
+  },
+  {
+    "parentName": "Better Collective",
+    "name": "Better Collective Malta Office (St. Julian's)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "St. Julian's",
+    "country": "Malta",
+    "address": "St. Julian's, Malta (exact street not published)",
+    "geoQueries": [
+      "Better Collective Malta",
+      "Better Collective St Julians",
+      "St Julian's, Malta"
+    ],
+    "approxLat": 35.9189,
+    "approxLng": 14.4896,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Better Collective's office in St. Julian's, Malta, a regulated iGaming hub, supporting its affiliate and media businesses.",
+    "source": "https://bettercollective.com/contact/"
+  },
+  {
+    "parentName": "Better Collective",
+    "name": "Better Collective Kraków Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kraków",
+    "country": "Poland",
+    "address": "Kraków, Poland (exact street not published)",
+    "geoQueries": [
+      "Better Collective Kraków",
+      "Better Collective Krakow",
+      "Kraków, Poland"
+    ],
+    "approxLat": 50.0647,
+    "approxLng": 19.945,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Better Collective office in Kraków supporting content, product and operations teams for its sports media brands.",
+    "source": "https://bettercollective.com/contact/"
+  },
+  {
+    "parentName": "Rejlers",
+    "name": "Rejlers Finland Vantaa Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vantaa",
+    "country": "Finland",
+    "address": "Vantaa, Finland (exact street not published)",
+    "geoQueries": [
+      "Rejlers Vantaa",
+      "Rejlers Finland Oy Vantaa",
+      "Vantaa, Finland"
+    ],
+    "approxLat": 60.2934,
+    "approxLng": 25.0378,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Rejlers Finland's Vantaa office, part of a network of 20+ Finnish offices providing engineering consulting in energy, industry, infrastructure and buildings.",
+    "source": "https://www.rejlers.com/fi/ura/toimistomme/"
+  },
+  {
+    "parentName": "Rejlers",
+    "name": "Rejlers Finland Oulu Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oulu",
+    "country": "Finland",
+    "address": "Oulu, Finland (exact street not published)",
+    "geoQueries": [
+      "Rejlers Oulu",
+      "Rejlers Finland Oy Oulu",
+      "Oulu, Finland"
+    ],
+    "approxLat": 65.0121,
+    "approxLng": 25.4651,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Rejlers Finland's Oulu office providing engineering and design consulting for northern Finland's industry and infrastructure projects.",
+    "source": "https://www.rejlers.com/fi/ura/toimistomme/"
+  },
+  {
+    "parentName": "Rejlers",
+    "name": "Rejlers Finland Turku Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Turku",
+    "country": "Finland",
+    "address": "Turku, Finland (exact street not published)",
+    "geoQueries": [
+      "Rejlers Turku",
+      "Rejlers Finland Oy Turku",
+      "Turku, Finland"
+    ],
+    "approxLat": 60.4518,
+    "approxLng": 22.2666,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Rejlers Finland's Turku office providing engineering consulting in south-west Finland (industry, marine, energy).",
+    "source": "https://www.rejlers.com/fi/ura/toimistomme/"
+  },
+  {
+    "parentName": "Rejlers",
+    "name": "Rejlers Abu Dhabi Office",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "address": "Abu Dhabi, United Arab Emirates (exact street not published)",
+    "geoQueries": [
+      "Rejlers Abu Dhabi",
+      "Rejlers Middle East Abu Dhabi",
+      "Abu Dhabi, UAE"
+    ],
+    "approxLat": 24.4539,
+    "approxLng": 54.3773,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Rejlers' Middle East office in Abu Dhabi providing engineering consulting, mainly for the energy sector.",
+    "source": "https://en.wikipedia.org/wiki/Rejlers"
+  }
+]

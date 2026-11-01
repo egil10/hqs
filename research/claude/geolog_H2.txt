@@ -1,0 +1,22 @@
+OK      Frontline | Frontline plc Registered Office (Iris Building, Limassol) | John Kennedy 8, 3106 Limassol -> building/detached 8, Τζων Κέννεντυ, Νεάπολη, Λεμεσός, Δήμος Λεμεσού, Επαρχία Λεμεσού, Κύ
+NOGEO   Frontline | Frontline Shipping Singapore Office (Guoco Tower)
+OK      Frontline | Frontline Corporate Services London Office (Eastcheap) | 10 Eastcheap, London EC3M 1AJ -> building/yes 10, Eastcheap, Leadenhall Market, Monument, City of London, Greater Lo
+NOGEO   Cadeler | Cadeler Norwich Office (St Andrews Business Park)
+NOGEO   Cadeler | Cadeler Taipei Office (Xinyi District)
+OK      Beijer Alma | Beijer Components / Lesjöfors AB Head Office (Karlstad) | Lagergrens gata 2, 652 14 Karlstad -> building/office 2, Lagergrens gata, Bryggudden, Herrhagen, Karlstad, Karlstads kommun,
+NOGEO   Beijer Alma | Lesjöfors China Spring Factory (Changzhou)
+OK      Beijer Alma | Lesjöfors Springs LV Gas Spring Factory (Liepāja) | Lesjofors Liepaja -> building/industrial Lesjofors Springs LV, LSEZ SIA, 4, Dūņu iela, Jaunā pasaule, Liepāja, 
+NOGEO   Beijer Alma | Lesjöfors Banddetaljer Flat-Strip Factory (Värnamo)
+NOGEO   Beijer Alma | Lesjöfors Springs UK Factory (Huddersfield)
+OK      Beijer Alma | Lesjöfors Springs Slovakia Factory (Myjava) | Tehelná 655/25, Myjava -> building/yes 655/25, Tehelná, Myjava, okres Myjava, Trenčiansky kraj, 907 01, Slove
+OK      Swedish Orphan Biovitrum | Sobi International Hub (Messeturm, Basel) | Messeplatz 10, 4058 Basel -> building/office 10, Messeplatz, Messe, Rosental, Kleinbasel, Basel, Basel-Stadt, 4005,
+OK      Medicover | Medicover Polska Head Office & Clinic (Al. Jerozolimskie 96, Warsaw) | Al. Jerozolimskie 96, 00-807 Warszawa -> building/office Equator II, 96, Aleje Jerozolimskie, Stara Ochota, Ochota, Warszawa, w
+OK      Medicover | Synevo Central Reference Laboratory (Chiajna, Bucharest) | Strada Industriilor 25, Chiajna -> building/yes Synevo, 25, Strada Industriilor, Chiajna, Ilfov, 077040, România
+NOGEO   Torm | TORM plc Registered Office (120 Cannon Street, London)
+NOGEO   Torm | TORM Shipping India Crew & Technical Office (Leela Business Park, Mumbai)
+NOGEO   Torm | TORM Shipping Philippines Crewing Office (Salcedo Towers, Makati)
+NOGEO   Torm | TORM Middle East Office (Gold Tower, JLT, Dubai)
+NOGEO   Addnode | Addnode India Development Centre (Midas Tower, Hinjewadi, Pune)
+OK      Addnode | TECHNIA GmbH Munich Office (Ismaning) | Carl-Zeiss-Ring 21, 85737 Ismaning -> building/yes Finepower GmbH, 21, Carl-Zeiss-Ring, Gewerbegebiet Osterfeld, Fischerh
+NOGEO   Addnode | TECHNIA Ltd UK Office (Nordic House, Milton Keynes)
+OK      Addnode | TECHNIA Gothenburg Office (Vasagatan 45) | Vasagatan 45, 411 37 Göteborg -> place/house 45, Vasagatan, Vasastaden, Centrum, Göteborg, Göteborgs Stad, Västra G

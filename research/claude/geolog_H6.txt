@@ -1,0 +1,21 @@
+OK      AutoStore | AutoStore Koszalin Robot & Grid Production Plant | AutoStore Koszalin -> building/warehouse AutoStore, 20, Ekonomiczna, Osiedle Lechitów, Koszalin, województwo za
+NOGEO   AutoStore | AutoStore Germany DACH Office (Ulm)
+NOGEO   AutoStore | AutoStore System K.K. Japan Office (Minato-ku, Tokyo)
+NOGEO   Link Mobility | LINK Mobility UK Office (The Shard, London)
+OK      Link Mobility | LINK Mobility Denmark Office (Kødbyen, Copenhagen) | Flæsketorvet 68, 1711 København -> place/house 68, Flæsketorvet, Den Gule By, Kødbyen, København, Københavns Kommune,
+OK      Link Mobility | LINK Mobility Austria Office (Vienna) | Leonard-Bernstein-Straße 10, 1220 Wien -> building/office Saturn Tower, 10, Leonard-Bernstein-Straße, Donau City, Katastralgemei
+OK      Link Mobility | LINK Mobility Italy Office (Bologna) | Vicolo Carega 3, Bologna -> place/house 3, Vicolo Carega, Pioggia, Marconi, Porto-Saragozza, Bologna, Emilia-R
+OK      Elmera | Gudbrandsdal Energi Head Office (Vinstra, Elmera Group) | Strandgata 39, 2640 Vinstra -> place/house 39, Strandgata, Byre, Sorperoa, Byre, Vinstra, Nord-Fron, Innlandet, 2
+OK      AddLife | Ropox Assistive Furniture Factory (Næstved, AddLife) | Ringstedgade 221, 4700 Næstved -> place/house 221, Ringstedgade, Holsted, Ganges Bro, Næstved, Næstved Kommune, Regi
+NOGEO   AddLife | Mediplast Group HQ & Warehouse (Malmö, AddLife)
+OK      AddLife | Biomedica Group HQ (Vienna-Floridsdorf, AddLife) | Divischgasse 4, 1210 Wien -> place/house 4, Divischgasse, Katastralgemeinde Großjedlersdorf II, Floridsdorf, Wi
+NOGEO   Hexatronic | Blue Diamond Industries Middlesboro Duct & Microduct Plant (Hexatronic)
+OK      Hexatronic | Blue Diamond Industries Aubrey Conduit Plant (Texas, Hexatronic) | Blue Diamond Industries Aubrey -> man_made/works Blue Diamond Industries, LLC, Trouble Way, Aubrey, Denton County, Texa
+NOGEO   Hexatronic | Hexatronic Clinton Duct, Microduct & Fiber Cable Plant (South Carolina)
+NOGEO   Hexatronic | Hexatronic Ogden Duct & Pipe Factory (Utah)
+NOGEO   Hexatronic | Hexatronic UK Office & Warehouse (Gosport)
+OK      Moreld | Moreld Oslo Office (Lysaker Torg) | Lysaker Torg 25, 1366 Lysaker -> place/house 25, Lysaker torg, Lysaker mølle, Lysaker, Bærum, Akershus, 1366, Norge
+OK      Odfjell Technology | Odfjell Technology Bergen Office (Kokstad) | Kokstadflaten 35, 5257 Kokstad -> place/house 35, Kokstadflaten, Kokstad, Ytrebygda, Bergen, Vestland, 5257, Norge
+NOGEO   Odfjell Technology | Odfjell Technology Dubai Well Services Base (Jebel Ali Free Zone)
+NOGEO   Odfjell Technology | Odfjell Technology Abu Dhabi Well Services Base (Mussafah)
+NOGEO   Odfjell Technology | Odfjell Arabia Well Services Facility (Safwa, Al Qatif)
