@@ -158,7 +158,7 @@ window.HQ_COMPANIES_PART1 = [
     city: "Hellerup (København)", address: "Philip Heymans Allé 3, 2900 Hellerup",
     lat: 55.7263, lng: 12.5795,
     hqDescription: "Bavarian Nordic A/S Corporate HQ in Tuborg Havn, Hellerup (fully integrated vaccine biotechnology company with large-scale manufacturing in Kvistgård).",
-    website: "https://www.bavariannordic.com"
+    website: "https://www.bavarian-nordic.com"
   },
   {
     rank: 21, issuerId: "FTF001866", name: "AddLife", country: "Sverige", sector: "Helse",
@@ -262,7 +262,8 @@ window.HQ_COMPANIES_PART1 = [
     city: "Västerås", address: "Regattagatan 29, 723 48 Västerås",
     lat: 59.6012, lng: 16.5789,
     hqDescription: "AQ Group AB Global HQ & Industrial Engineering Hub in Västerås (global manufacturer of electrical cabinets, inductive components, sheet metal and system assembly).",
-    website: "https://www.aqgroup.com"
+    website: "https://www.aqgroup.com",
+    logoUrl: "https://www.aqgroup.com/templates/pages/aqg/g/aq_logo_.jpg"
   },
   {
     rank: 34, issuerId: "FTF002018", name: "Alleima", country: "Sverige", sector: "Materialer",
@@ -414,7 +415,8 @@ window.HQ_COMPANIES_PART1 = [
     city: "Borås", address: "Nils Jakobsonsgatan 5D, 504 30 Borås",
     lat: 57.7215, lng: 12.9312,
     hqDescription: "RVRC Holding AB (RevolutionRace) Headquarters in Sweden's textile capital Borås (fast-growing D2C outdoor apparel and equipment brand).",
-    website: "https://corporate.revolutionrace.com"
+    website: "https://corporate.revolutionrace.com",
+    logoUrl: "https://www.google.com/s2/favicons?domain=revolutionrace.com&sz=64"
   },
   {
     rank: 53, issuerId: "FTF001902", name: "Festi", country: "Island", sector: "Varige konsumvarer",
@@ -454,7 +456,7 @@ window.HQ_COMPANIES_PART1 = [
     city: "Holbæk", address: "Isefjords Alle 5, 4300 Holbæk",
     lat: 55.7165, lng: 11.7245,
     hqDescription: "Sparekassen Sjælland-Fyn A/S (SJF Bank) Waterfront Headquarters on Isefjords Alle in Holbæk (regional commercial bank serving Zealand and Funen).",
-    website: "https://www.spks.dk"
+    website: "https://www.sjfbank.dk"
   },
   {
     rank: 58, issuerId: "FTF001944", name: "Nolato", country: "Sverige", sector: "Industri",
@@ -542,7 +544,8 @@ window.HQ_COMPANIES_PART1 = [
     city: "Stockholm", address: "Blekholmstorget 30, 111 64 Stockholm",
     lat: 59.3302, lng: 18.0548,
     hqDescription: "Alimak Group AB Corporate HQ at Blekholmstorget in Stockholm (world leader in rack-and-pinion vertical access solutions, construction hoists & facade access, with main factory in Skellefteå).",
-    website: "https://www.alimakgroup.com"
+    website: "https://www.alimakgroup.com",
+    logoUrl: "https://www.alimakgroup.com/wp-content/uploads/2022/09/cropped-Favicon-Alimak-Group-192x192.png"
   },
   {
     rank: 69, issuerId: "FTF001914", name: "Instalco", country: "Sverige", sector: "Industri",
@@ -606,7 +609,8 @@ window.HQ_COMPANIES_PART1 = [
     city: "Stockholm", address: "Riddargatan 17, 114 57 Stockholm",
     lat: 59.3342, lng: 18.0782,
     hqDescription: "Amasten Fastighets AB (Sveafastigheter) Headquarters in Östermalm, Stockholm (residential and community property owner and developer across Swedish growth municipalities).",
-    website: "https://www.amasten.se"
+    website: "https://www.neobo.se",
+    logoUrl: "https://www.neobo.se/sv/wp-content/uploads/sites/4/2026/02/cropped-neobo-1-192x192.png"
   },
   {
     rank: 77, issuerId: "FTF001970", name: "Systemair", country: "Sverige", sector: "Industri",
@@ -742,7 +746,8 @@ window.HQ_COMPANIES_PART1 = [
     city: "Oslo", address: "Dronning Mauds gate 3, 0250 Oslo",
     lat: 59.9132, lng: 10.7282,
     hqDescription: "Pareto Bank ASA Headquarters at Dronning Mauds gate 3 in Vika, Oslo (specialist commercial bank financing real estate development, corporate M&A and maritime/offshore shipping).",
-    website: "https://www.paretobank.no"
+    website: "https://www.paretobank.no",
+    logoUrl: "https://paretobank.no/logo.svg"
   },
   {
     rank: 94, issuerId: "FTF001580", name: "Raisio", country: "Finland", sector: "Konsumvarer",
@@ -790,7 +795,8 @@ window.HQ_COMPANIES_PART1 = [
     city: "Oslo", address: "Karenslyst allé 53, Skøyen, 0279 Oslo",
     lat: 59.9188, lng: 10.6845,
     hqDescription: "Elopak ASA Global Headquarters at Karenslyst allé in Skøyen, Oslo (global supplier of Pure-Pak® carton packaging and filling equipment with Corporate Technology Center in Spikkestad).",
-    website: "https://www.elopak.com"
+    website: "https://www.elopak.com",
+    logoUrl: ""
   },
   {
     rank: 100, issuerId: "FTF001950", name: "Ovzon", country: "Sverige", sector: "Telekommunikasjon",

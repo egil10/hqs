@@ -232,7 +232,8 @@ window.HQ_COMPANIES_SPN = [
     "lat": 58.9745,
     "lng": 5.7192,
     "hqDescription": "SpareBank 1 Sør-Norge ASA Headquarters in the timber Finansparken Bjergsted in Stavanger (Norway's largest regional financial group serving Southern and Western Norway).",
-    "website": "https://www.sparebank1.no/sor-norge"
+    "website": "https://www.sparebank1.no/sor-norge",
+    "logoUrl": "https://www.sparebank1.no/etc.clientlibs/settings/wcm/designs/sb1/nettsider/clientlib_base/resources/favicon.png"
   },
   {
     "spnRank": 14,
@@ -484,7 +485,8 @@ window.HQ_COMPANIES_SPN = [
     "lat": 59.8335,
     "lng": 10.4128,
     "hqDescription": "Tomra Systems ASA Global Headquarters in Asker (pioneer and global leader in reverse vending collection systems and advanced sensor-based sorting solutions for recycling, mining and food).",
-    "website": "https://www.tomra.com"
+    "website": "https://www.tomra.com",
+    "logoUrl": "https://www.tomra.com/favicon-32x32.png"
   },
   {
     "spnRank": 28,
@@ -1474,7 +1476,8 @@ window.HQ_COMPANIES_SPN = [
     "lat": 59.9188,
     "lng": 10.6845,
     "hqDescription": "Elopak ASA Global Headquarters at Skøyen in Oslo (global supplier of carton packaging and filling equipment for liquid food, famous for Pure-Pak® cartons).",
-    "website": "https://www.elopak.com"
+    "website": "https://www.elopak.com",
+    "logoUrl": ""
   },
   {
     "spnRank": 83,
@@ -1672,7 +1675,8 @@ window.HQ_COMPANIES_SPN = [
     "lat": 55.6668,
     "lng": 12.5312,
     "hqDescription": "Carlsberg A/S Central Headquarters Campus in historic Carlsberg Byen, Copenhagen (one of the world's leading international brewing groups).",
-    "website": "https://www.carlsberggroup.com"
+    "website": "https://www.carlsberggroup.com",
+    "logoUrl": "https://www.carlsberggroup.com/media/xi1f1kui/brand-mark-1.svg"
   },
   {
     "spnRank": 94,

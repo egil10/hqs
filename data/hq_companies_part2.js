@@ -126,7 +126,8 @@ window.HQ_COMPANIES_PART2 = [
     city: "Allerød", address: "Rørmosevej 1, 3450 Allerød",
     lat: 55.8625, lng: 12.3542,
     hqDescription: "Matas Group A/S Headquarters & Central Logistics Hub in Allerød (Nordic beauty and wellbeing leader owning Matas in Denmark and KICKS across Sweden, Norway and Finland).",
-    website: "https://www.matasgroup.com"
+    website: "https://www.matasgroup.com",
+    logoUrl: "https://www.google.com/s2/favicons?domain=matas.dk&sz=64"
   },
   {
     rank: 119, issuerId: "FTF001528", name: "Odfjell", country: "Norge", sector: "Industri",
@@ -134,7 +135,8 @@ window.HQ_COMPANIES_PART2 = [
     city: "Bergen", address: "Conrad Mohrs veg 29, Minde, 5072 Bergen",
     lat: 60.3542, lng: 5.3418,
     hqDescription: "Odfjell SE Global Headquarters at Minde in Bergen (founded 1914; one of the world's leading operators of deep-sea chemical parcel tankers and bulk liquid storage terminals).",
-    website: "https://www.odfjell.com"
+    website: "https://www.odfjell.com",
+    logoUrl: "https://odfjell.hel1.your-objectstorage.com/glide_cache/containers/assets/images/_investors/logo_odfjell_stackedldpi.png/b4d63341e462af7cd65962d3ecb4bb2c/logo_odfjell_stackedldpi.webp"
   },
   {
     rank: 120, issuerId: "FTF001973", name: "Tokmanni Group", country: "Finland", sector: "Varige konsumvarer",
@@ -150,7 +152,8 @@ window.HQ_COMPANIES_PART2 = [
     city: "Stockholm", address: "Östermalmstorg 1, 114 42 Stockholm",
     lat: 59.3358, lng: 18.0785,
     hqDescription: "Momentum Group AB Headquarters at Östermalmstorg in Stockholm (industrial group operating Momentum Industrial bearings/transmission & 25+ specialist industrial component companies).",
-    website: "https://www.momentum.group"
+    website: "https://www.momentum.group",
+    logoUrl: "https://www.momentum.group/wp-content/themes/mopawp/assets/img/favicon.png"
   },
   {
     rank: 122, issuerId: "FTF002008", name: "ZAPTEC", country: "Norge", sector: "Industri",
@@ -254,7 +257,8 @@ window.HQ_COMPANIES_PART2 = [
     city: "Oslo / Trondheim", address: "Vitaminveien 4, Storo, 0485 Oslo",
     lat: 59.9452, lng: 10.7785,
     hqDescription: "Sentia / HENT & Nordic Construction Operations in Oslo & Trondheim (major turnkey building and industrial infrastructure contractor).",
-    website: "https://www.hent.no"
+    website: "https://www.sentiagruppen.no",
+    logoUrl: "https://www.sentiagruppen.no/images/favicons/Sentia_Faviconx128.png"
   },
   {
     rank: 135, issuerId: "FTF001476", name: "Multiconsult", country: "Norge", sector: "Industri",
@@ -398,7 +402,7 @@ window.HQ_COMPANIES_PART2 = [
     city: "Stockholm", address: "Genesis / Mäster Samuelsgatan 42, 111 57 Stockholm",
     lat: 59.3332, lng: 18.0635,
     hqDescription: "Enity Holding AB Headquarters in central Stockholm (financial services and credit group).",
-    website: "https://www.enity.se"
+    website: "https://www.enity.com"
   },
   {
     rank: 153, issuerId: "FTF002020", name: "Hampidjan", country: "Island", sector: "Industri",
@@ -654,7 +658,8 @@ window.HQ_COMPANIES_PART2 = [
     city: "Stockholm", address: "Norrmalmstorg 14, 111 46 Stockholm",
     lat: 59.3335, lng: 18.0728,
     hqDescription: "Investment AB Öresund Headquarters at Norrmalmstorg in Stockholm (active Swedish listed investment company with core holdings in Bilia, Scandi Standard, Ovzon, Bahnhof & Securitas).",
-    website: "https://www.oresund.se"
+    website: "https://www.oresund.se",
+    logoUrl: "https://www.oresund.se/media/1001/oresund-fav.png?width=64&height=64"
   },
   {
     rank: 185, issuerId: "FTF001966", name: "Sotkamo Silver", country: "Finland", sector: "Materialer",
@@ -694,7 +699,7 @@ window.HQ_COMPANIES_PART2 = [
     city: "Stockholm", address: "Ingmar Bergmans gata 2, 114 34 Stockholm",
     lat: 59.3342, lng: 18.0752,
     hqDescription: "Humble Group AB Headquarters near Nybroplan in Stockholm (fast-growing FMCG group owning 45+ better-for-you confectionery, functional nutrition and personal care brands including Pändy, True Gum, Grahns Konfektyr & Humble Co.).",
-    website: "https://www.humblegroup.se"
+    website: "https://humblegroup.com"
   },
   {
     rank: 190, issuerId: "FTF001926", name: "Lime Technologies", country: "Sverige", sector: "Teknologi",
@@ -710,7 +715,8 @@ window.HQ_COMPANIES_PART2 = [
     city: "Skudeneshavn (Karmøy)", address: "Nesavegen 39, 4280 Skudeneshavn",
     lat: 59.1468, lng: 5.2612,
     hqDescription: "Solstad Offshore ASA Global Headquarters & Deepwater Quay Base in Skudeneshavn on Karmøy (one of the world's largest operators of high-end CSV subsea construction vessels and AHTS anchor handlers).",
-    website: "https://www.solstad.com"
+    website: "https://www.solstad.com",
+    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Solstad_Offshore-logo.svg/250px-Solstad_Offshore-logo.svg.png"
   },
   {
     rank: 192, issuerId: "FTF001292", name: "Grieg Seafood", country: "Norge", sector: "Konsumvarer",
@@ -734,7 +740,8 @@ window.HQ_COMPANIES_PART2 = [
     city: "Oslo", address: "Haakon VIIs gate 5, Vika, 0161 Oslo",
     lat: 59.9135, lng: 10.7298,
     hqDescription: "Bruton / Maritime & Energy Investment Office in Vika, Oslo.",
-    website: "https://www.oslobors.no"
+    website: "https://www.oslobors.no",
+    logoUrl: ""
   },
   {
     rank: 195, issuerId: "FTF001246", name: "Fiskars", country: "Finland", sector: "Varige konsumvarer",
@@ -758,7 +765,7 @@ window.HQ_COMPANIES_PART2 = [
     city: "Stockholm", address: "Klarabergsgatan 60, 111 21 Stockholm",
     lat: 59.3318, lng: 18.0595,
     hqDescription: "Knowit AB (publ) Corporate Headquarters on Klarabergsgatan in central Stockholm (Nordic digital consultancy with 4,000+ specialists in software engineering, experience design, cyber defense & management consulting).",
-    website: "https://www.knowit.eu"
+    website: "https://www.knowit.se"
   },
   {
     rank: 198, issuerId: "FTF002015", name: "Incap", country: "Finland", sector: "Industri",

@@ -383,10 +383,12 @@
     const color = SECTOR_COLORS[company.sector] || "#2563eb";
     const initials = getCompanyInitials(company.name);
 
-    if (!domain) {
+    // logoUrl: "" means no usable icon exists -> initials tile
+    if ((!domain && !company.logoUrl) || company.logoUrl === "") {
       return `<div class="logo-box"><span class="logo-fallback" style="background:${color}">${initials}</span></div>`;
     }
-    const primaryUrl = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
+    // logoUrl: verified direct icon for companies whose Google favicon is wrong (hosting/CMS icon, globe, …)
+    const primaryUrl = company.logoUrl || `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
     return `<div class="logo-box"><img src="${primaryUrl}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" /><span class="logo-fallback" style="display:none;background:${color}">${initials}</span></div>`;
   }
 
