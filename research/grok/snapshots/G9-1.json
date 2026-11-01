@@ -1,0 +1,116 @@
+[
+  {
+    "parentName": "Scatec",
+    "name": "Scatec Benban Solar Plants (Aswan)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Benban",
+    "country": "Egypt",
+    "address": "Benban Solar Park, Markaz Deraw, Aswan Governorate, Egypt",
+    "geoQueries": [
+      "Benban Scatec solar farm Aswan",
+      "Benban Solar Park Markaz Deraw Aswan",
+      "Scatec Benban PV Aswan Egypt"
+    ],
+    "approxLat": 24.418,
+    "approxLng": 32.711,
+    "coordsExact": true,
+    "footprintRadiusMeters": 1800,
+    "description": "Six operating solar plants totalling 380 MW at Benban near Aswan, owned by Scatec with KLP Norfund Investments and Africa50 and operated by Scatec; the coordinate is the printed location of phase PV 1.",
+    "source": "https://www.gem.wiki/Benban_Scatec_solar_farm"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Scatec Grootfontein Solar Cluster (Western Cape)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Witzenberg",
+    "country": "South Africa",
+    "address": "Grootfontein Farm, Witzenberg Local Municipality, Western Cape, South Africa",
+    "geoQueries": [
+      "Grootfontein PV solar farm Witzenberg Scatec",
+      "Grootfontein solar Western Cape Scatec",
+      "Grootfontein Farm 149 Witzenberg"
+    ],
+    "approxLat": -32.9583,
+    "approxLng": 19.9319,
+    "coordsExact": true,
+    "footprintRadiusMeters": 1400,
+    "description": "273 MW solar cluster in the Western Cape that Scatec lists as operating and for which it provides operations and maintenance; Scatec owns 51 percent, with H1 Holdings as partner.",
+    "source": "https://www.gem.wiki/Grootfontein_PV_solar_farm"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Mendubim Solar Complex (Assú)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Assú",
+    "country": "Brazil",
+    "address": "Assú, Rio Grande do Norte, Brazil",
+    "geoQueries": [
+      "Complexo Solar Mendubim Assú Rio Grande do Norte",
+      "UFV Mendubim Assu Scatec",
+      "Mendubim solar plant Assú RN"
+    ],
+    "approxLat": -5.57694,
+    "approxLng": -36.90889,
+    "coordsExact": false,
+    "footprintRadiusMeters": 1800,
+    "description": "531 MW solar complex in Assú, Rio Grande do Norte, in commercial operation since 2024; Scatec, Equinor and Hydro Rein each hold 30 percent and Alunorte 10 percent, and Scatec still lists it as operating.",
+    "source": "https://www.scatec.com/en/scatec-hydro-rein-and-equinor-start-commercial-operations-at-mendubim-solar-plant-in-brazil/"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Theun Hinboun Hydropower Plant (Na Hin)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Khoun Kham",
+    "country": "Laos",
+    "address": "Na Hin (Khoun Kham), Bolikhamxay Province, Laos",
+    "geoQueries": [
+      "Theun Hinboun powerhouse Na Hin Khoun Kham",
+      "Theun-Hinboun Hydropower Plant Bolikhamxay",
+      "THPC powerhouse Ban Nahin Laos"
+    ],
+    "approxLat": 18.210176,
+    "approxLng": 104.538788,
+    "coordsExact": false,
+    "footprintRadiusMeters": 400,
+    "description": "525 MW Theun Hinboun hydropower complex that Scatec lists as an operating asset in Laos; the coordinate is the main powerhouse at Na Hin (Khoun Kham).",
+    "source": "https://www.scatec.com/en/project/laos/"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Binga Hydroelectric Power Plant (Itogon)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Itogon",
+    "country": "Philippines",
+    "address": "Barangay Tinongdan, Itogon, Benguet, Philippines",
+    "geoQueries": [
+      "Binga Hydroelectric Power Plant Tinongdan Itogon",
+      "Binga Dam Benguet Philippines",
+      "SNAP Benguet Binga hydro"
+    ],
+    "approxLat": 16.4,
+    "approxLng": 120.725,
+    "coordsExact": true,
+    "footprintRadiusMeters": 400,
+    "description": "140 MW hydropower plant on the Agno River operated by SN Aboitiz Power-Benguet, the joint venture of Scatec and Aboitiz Power; the dam remains government-owned.",
+    "source": "https://en.wikipedia.org/wiki/Binga_Dam"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Ambuklao Hydroelectric Plant (Bokod)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Bokod",
+    "country": "Philippines",
+    "address": "Barangay Ambuklao, Bokod, Benguet, Philippines",
+    "geoQueries": [
+      "Ambuklao Dam Bokod Benguet",
+      "Ambuklao Hydroelectric Plant SNAP",
+      "Ambuklao hydro Agno River"
+    ],
+    "approxLat": 16.460419,
+    "approxLng": 120.744885,
+    "coordsExact": true,
+    "footprintRadiusMeters": 450,
+    "description": "Hydropower plant on the Agno River at Bokod, rehabilitated to 105 MW and operated by SN Aboitiz Power-Benguet, Scatec’s joint venture with Aboitiz Power.",
+    "source": "https://en.wikipedia.org/wiki/Ambuklao_Dam"
+  }
+]

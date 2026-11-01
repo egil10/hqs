@@ -1,0 +1,174 @@
+[
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Terneuzen Converting & Coating Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Terneuzen",
+    "country": "Netherlands",
+    "address": "Mr. F.J. Haarmanweg 44, 4538 AS Terneuzen",
+    "geoQueries": [
+      "Elopak Mr. F.J. Haarmanweg 44 Terneuzen",
+      "Elopak B.V. 4538 AS Terneuzen",
+      "Osloweg 1, 4538 BM Terneuzen Elopak",
+      "Mr. F.J. Haarmanweg 44, 4538 AS Terneuzen"
+    ],
+    "approxLat": 51.322,
+    "approxLng": 3.794,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's largest European carton hub in Terneuzen, converting Pure-Pak cartons and coating board, with a new coating line under construction in 2026 for start-up in 2027.",
+    "source": "https://pulpandpaperchronicle.com/elopak-announces-new-coating-line-investment-in-terneuzen-to-strengthen-production-capacity"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Boisbriand Carton Converting Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Boisbriand",
+    "country": "Canada",
+    "address": "3720 avenue des Grandes Tourelles, Boisbriand, QC J7H 0A1",
+    "geoQueries": [
+      "Elopak 3720 avenue des Grandes Tourelles Boisbriand",
+      "Elopak Canada J7H 0A1",
+      "3720 Av. des Grandes Tourelles, Boisbriand, QC J7H 0A1"
+    ],
+    "approxLat": 45.632788,
+    "approxLng": -73.860919,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's Canadian Pure-Pak printing and converting plant outside Montreal, built in 2014 and still running at full production in 2025 for Canada and the northern and eastern United States.",
+    "source": "https://ferd.no/ferdmagasinet/2025/utgave-4-2025/elopak-nye-rekordtall-storst-vekst-i-usa-og-india/"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Little Rock Carton Converting Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Little Rock",
+    "country": "United States",
+    "address": "6101 Zeuber Road, Little Rock, AR 72206",
+    "geoQueries": [
+      "Elopak 6101 Zeuber Road Little Rock",
+      "Elopak Port of Little Rock carton plant",
+      "6101 Zeuber Road, Little Rock, AR 72206"
+    ],
+    "approxLat": 34.695,
+    "approxLng": -92.175,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's first U.S. Pure-Pak carton converting plant, opened in April 2025 at the Port of Little Rock, with a second line due in 2026 and a third planned for 2027.",
+    "source": "https://www.costar.com/article/2065921693/norwegian-packaging-company-elopak-chooses-arkansas-capital-for-its-first-us-factory"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak-Fastiv Carton Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Fastiv",
+    "country": "Ukraine",
+    "address": "vul. Velykosnitynska 67, 08500 Fastiv",
+    "geoQueries": [
+      "Elopak Fastiv Velykosnitynska 67",
+      "Елопак-Фастів Великоститинська 67",
+      "vul. Velykosnitynska 67, Fastiv 08500"
+    ],
+    "approxLat": 50.066,
+    "approxLng": 29.89,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Elopak's Fastiv roll-fed and Pure-Pak carton factory, which resumed after a short 2022 shutdown and was operating and profitable when group leadership visited in November 2024.",
+    "source": "https://ferd.no/ferdmagasinet/2024/utgave-4-2024/rapport-fra-ukraina/"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Coloplast Zhuhai Device Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Zhuhai",
+    "country": "China",
+    "address": "No. 202 Bao Cheng Road, Zhuhai Free Trade Zone, Zhuhai, Guangdong 519030",
+    "geoQueries": [
+      "Coloplast China No. 202 Bao Cheng Road Zhuhai",
+      "COLOPLAST (CHINA) LTD Zhuhai Free Trade Zone",
+      "No. 202 Bao Cheng Road, Zhuhai 519030"
+    ],
+    "approxLat": 22.23,
+    "approxLng": 113.528,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "Coloplast (China) Ltd.'s Zhuhai Free Trade Zone device establishment, still an active FDA-registered site in 2026 and part of the group's high-volume production network.",
+    "source": "https://www.accessdata.fda.gov/scrIpts/cdrh/cfdocs/cfrl/rl.cfm?rid=9082"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Coloplast Cartago La Lima Volume Plants",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Cartago",
+    "country": "Costa Rica",
+    "address": "Calle 58, Zona Franca La Lima, Edificio Multitenant, Módulos 5 y 6, La Lima, Cartago",
+    "geoQueries": [
+      "Coloplast Volume Manufacturing Calle 58 Zona Franca La Lima",
+      "Coloplast La Lima Free Zone Cartago",
+      "Calle 58, Zona Franca La Lima, Cartago"
+    ],
+    "approxLat": 9.852,
+    "approxLng": -83.936,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Coloplast's Cartago ostomy and continence volume plants in Zona Franca La Lima, still a high-volume site in the group's manufacturing network in 2026.",
+    "source": "https://www.trademagellan.com/company-details/importer/coloplast-volume-manufacturing-costa-rica-sa/A34C08D2FAC93CE799F99453C4EF9AFA"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Coloplast Minneapolis Interventional Urology Site",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Minneapolis",
+    "country": "United States",
+    "address": "1601 West River Road North, Minneapolis, MN 55411",
+    "geoQueries": [
+      "Coloplast 1601 West River Road North Minneapolis",
+      "Coloplast Manufacturing US Minneapolis",
+      "1601 West River Road North, Minneapolis, MN 55411"
+    ],
+    "approxLat": 45.005,
+    "approxLng": -93.274,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Coloplast's Minneapolis campus, the US owner address for its device establishments and the group's specialised US production site for interventional urology products.",
+    "source": "https://www.accessdata.fda.gov/scrIpts/cdrh/cfdocs/cfrl/rl.cfm?rid=9082"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Atos Medical Hörby Laryngectomy Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Hörby",
+    "country": "Sverige",
+    "address": "Kraftgatan 8, 242 35 Hörby",
+    "geoQueries": [
+      "Atos Medical Kraftgatan 8 Hörby",
+      "Atos Medical AB 242 35 Hörby",
+      "Kraftgatan 8, 242 35 Hörby"
+    ],
+    "approxLat": 55.845,
+    "approxLng": 13.655,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Atos Medical's laryngectomy manufacturing and R&D plant in Hörby, owned by Coloplast A/S and still listed as the company's manufacturing site.",
+    "source": "https://www.atosmedical.com/full-contact-list"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Coloplast Felgueiras Continence Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Felgueiras",
+    "country": "Portugal",
+    "address": "Rua B do Alto das Barrancas 840, 4650-361 Revinhade",
+    "geoQueries": [
+      "Coloplast Rua B do Alto das Barrancas Revinhade",
+      "Coloplast Manufacturing Portugal Felgueiras",
+      "Rua B do Alto das Barrancas 840, 4650-361 Revinhade"
+    ],
+    "approxLat": 41.355,
+    "approxLng": -8.18,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Coloplast's new continence-care factory in Felgueiras, a 50,000 m2 site inaugurated on 29 October 2026 with production already running.",
+    "source": "https://www.rtp.pt/noticias/economia/coloplast-investe-100-me-e-preve-criar-800-postos-de-trabalho-em-felgueiras-em-tres-anos_n1775346"
+  }
+]

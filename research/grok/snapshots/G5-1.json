@@ -1,0 +1,79 @@
+[
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Terneuzen Converting & Coating Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Terneuzen",
+    "country": "Netherlands",
+    "address": "Mr. F.J. Haarmanweg 44, 4538 AS Terneuzen",
+    "geoQueries": [
+      "Elopak Mr. F.J. Haarmanweg 44 Terneuzen",
+      "Elopak B.V. 4538 AS Terneuzen",
+      "Osloweg 1, 4538 BM Terneuzen Elopak",
+      "Mr. F.J. Haarmanweg 44, 4538 AS Terneuzen"
+    ],
+    "approxLat": 51.322,
+    "approxLng": 3.794,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's largest European carton hub in Terneuzen, converting Pure-Pak cartons and coating board, with a new coating line under construction in 2026 for start-up in 2027.",
+    "source": "https://pulpandpaperchronicle.com/elopak-announces-new-coating-line-investment-in-terneuzen-to-strengthen-production-capacity"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Boisbriand Carton Converting Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Boisbriand",
+    "country": "Canada",
+    "address": "3720 avenue des Grandes Tourelles, Boisbriand, QC J7H 0A1",
+    "geoQueries": [
+      "Elopak 3720 avenue des Grandes Tourelles Boisbriand",
+      "Elopak Canada J7H 0A1",
+      "3720 Av. des Grandes Tourelles, Boisbriand, QC J7H 0A1"
+    ],
+    "approxLat": 45.632788,
+    "approxLng": -73.860919,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's Canadian Pure-Pak printing and converting plant outside Montreal, built in 2014 and still running at full production in 2025 for Canada and the northern and eastern United States.",
+    "source": "https://ferd.no/ferdmagasinet/2025/utgave-4-2025/elopak-nye-rekordtall-storst-vekst-i-usa-og-india/"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Little Rock Carton Converting Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Little Rock",
+    "country": "United States",
+    "address": "6101 Zeuber Road, Little Rock, AR 72206",
+    "geoQueries": [
+      "Elopak 6101 Zeuber Road Little Rock",
+      "Elopak Port of Little Rock carton plant",
+      "6101 Zeuber Road, Little Rock, AR 72206"
+    ],
+    "approxLat": 34.695,
+    "approxLng": -92.175,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's first U.S. Pure-Pak carton converting plant, opened in April 2025 at the Port of Little Rock, with a second line due in 2026 and a third planned for 2027.",
+    "source": "https://www.costar.com/article/2065921693/norwegian-packaging-company-elopak-chooses-arkansas-capital-for-its-first-us-factory"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak-Fastiv Carton Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Fastiv",
+    "country": "Ukraine",
+    "address": "vul. Velykosnitynska 67, 08500 Fastiv",
+    "geoQueries": [
+      "Elopak Fastiv Velykosnitynska 67",
+      "Елопак-Фастів Великоститинська 67",
+      "vul. Velykosnitynska 67, Fastiv 08500"
+    ],
+    "approxLat": 50.066,
+    "approxLng": 29.89,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Elopak's Fastiv roll-fed and Pure-Pak carton factory, which resumed after a short 2022 shutdown and was operating and profitable when group leadership visited in November 2024.",
+    "source": "https://ferd.no/ferdmagasinet/2024/utgave-4-2024/rapport-fra-ukraina/"
+  }
+]

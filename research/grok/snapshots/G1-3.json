@@ -1,0 +1,249 @@
+[
+  {
+    "parentName": "Assa Abloy",
+    "name": "FAB Rychnov Lock Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Rychnov nad Kněžnou",
+    "country": "Czech Republic",
+    "address": "Strojnická 633, 516 01 Rychnov nad Kněžnou",
+    "geoQueries": [
+      "ASSA ABLOY Opening Solutions CZ Strojnická 633 Rychnov",
+      "Strojnická 633, 516 01 Rychnov nad Kněžnou",
+      "FAB Rychnov lock cylinder factory"
+    ],
+    "approxLat": 50.165,
+    "approxLng": 16.275,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "ASSA ABLOY Opening Solutions CZ (FAB) manufactures mechanical and smart lock cylinders, electronic keys and padlocks at its Rychnov nad Kněžnou plant.",
+    "source": "https://www.pracevefabce.cz/o-nas"
+  },
+  {
+    "parentName": "Assa Abloy",
+    "name": "ASSA ABLOY Longué-Jumelles Hardware Foundry",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Longué-Jumelles",
+    "country": "France",
+    "address": "25 rue Michel Couet, 49160 Longué-Jumelles",
+    "geoQueries": [
+      "ASSA ABLOY France 25 rue Michel Couet Longué-Jumelles",
+      "25 rue Michel Couet, 49160 Longué-Jumelles",
+      "ASSA ABLOY Longué zamak foundry"
+    ],
+    "approxLat": 47.38,
+    "approxLng": -0.1,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "ASSA ABLOY France's Longué-Jumelles site is a zamak and aluminium foundry with surface treatment and assembly of architectural hardware for Vachette, Yale, JPM and Abloy, and was still listed as operating in July 2026.",
+    "source": "https://agence-api.ouest-france.fr/annuaire/societe/assa-abloy-france-37b6fda5-1c03-49df-adcd-701d32feae0e"
+  },
+  {
+    "parentName": "Assa Abloy",
+    "name": "ASSA ABLOY Entrance Systems Hunedoara Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Hunedoara",
+    "country": "Romania",
+    "address": "Șoseaua Hunedoara-Sântuhalm 2G, 331004 Hunedoara",
+    "geoQueries": [
+      "ASSA ABLOY Entrance Systems Production Romania Hunedoara",
+      "Soseaua Hunedoara-Santuhalm 2G, 331004 Hunedoara",
+      "ASSA ABLOY Entrance Systems Hunedoara factory"
+    ],
+    "approxLat": 45.755,
+    "approxLng": 22.92,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "ASSA ABLOY Entrance Systems Production Romania SRL manufactures metal structures for entrance systems at Șoseaua Hunedoara-Sântuhalm 2G and was still recorded as operational in October 2026.",
+    "source": "https://metricbiz.ro/en/firma/assa-abloy-entrance-systems-production-romania-srl-cui-17857020"
+  },
+  {
+    "parentName": "Assa Abloy",
+    "name": "Corbin Russwin Berlin Lock Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Berlin",
+    "country": "USA",
+    "address": "225 Episcopal Road, Berlin, CT 06037",
+    "geoQueries": [
+      "Corbin Russwin 225 Episcopal Road Berlin CT",
+      "225 Episcopal Road, Berlin, CT 06037",
+      "ASSA ABLOY Corbin Russwin manufacturing Berlin Connecticut"
+    ],
+    "approxLat": 41.628,
+    "approxLng": -72.742,
+    "coordsExact": false,
+    "footprintRadiusMeters": 320,
+    "description": "Corbin Russwin, an ASSA ABLOY brand, manufactures commercial locks and door hardware at its Berlin, Connecticut plant, still addressed at 225 Episcopal Road on a March 2026 company notice.",
+    "source": "https://www.loc8nearme.com/connecticut/berlin/assa-abloy-corbin-russwin/9623796/"
+  },
+  {
+    "parentName": "HEXPOL",
+    "name": "HEXPOL Compounding Statesville",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Statesville",
+    "country": "USA",
+    "address": "280 Crawford Road, Statesville, NC 28625",
+    "geoQueries": [
+      "HEXPOL Compounding 280 Crawford Road Statesville",
+      "280 Crawford Road, Statesville, NC 28625",
+      "HEXPOL Statesville rubber compounding plant"
+    ],
+    "approxLat": 35.77,
+    "approxLng": -80.85,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "HEXPOL Compounding Statesville mixes synthetic rubber compounds on automated lines and still publishes current ISO 9001 and 14001 certificates for the Crawford Road plant.",
+    "source": "https://www.hexpol.com/plant-locations/hexpol-compounding-statesville/"
+  },
+  {
+    "parentName": "HEXPOL",
+    "name": "HEXPOL Compounding Querétaro",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Querétaro",
+    "country": "Mexico",
+    "address": "La Noria 115, Parque Industrial Querétaro, 76220 Santa Rosa Jáuregui, Querétaro",
+    "geoQueries": [
+      "HEXPOL Compounding La Noria 115 Querétaro",
+      "La Noria 115, Parque Industrial Querétaro, 76220 Santa Rosa Jáuregui",
+      "HEXPOL Compounding QRO rubber plant"
+    ],
+    "approxLat": 20.79,
+    "approxLng": -100.45,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "HEXPOL Compounding's Querétaro plant produces synthetic rubber compounds and remains a HEXPOL site with current ISO certificates.",
+    "source": "https://www.hexpol.com/plant-locations/hexpol-compounding-qro/"
+  },
+  {
+    "parentName": "HEXPOL",
+    "name": "HEXPOL Compounding Aguascalientes",
+    "facilityType": "Factory & Manufacturing",
+    "city": "San Francisco de los Romo",
+    "country": "Mexico",
+    "address": "Avenida Japón 302, Parque Industrial San Francisco, 20304 San Francisco de los Romo, Aguascalientes",
+    "geoQueries": [
+      "HEXPOL Compounding Avenida Japón 302 Aguascalientes",
+      "Avenida Japón 302, Parque Industrial San Francisco, San Francisco de los Romo",
+      "HEXPOL Compounding Mexico San Francisco de los Romo"
+    ],
+    "approxLat": 22.08,
+    "approxLng": -102.27,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "HEXPOL Compounding's greenfield mixing plant in San Francisco de los Romo, Aguascalientes, still compounds rubber for HEXPOL.",
+    "source": "https://www.hexpol.com/plant-locations/hexpol-compounding-mexico/"
+  },
+  {
+    "parentName": "HEXPOL",
+    "name": "HEXPOL Compounding Dukinfield",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Dukinfield",
+    "country": "United Kingdom",
+    "address": "Broadway, Globe Lane Industrial Estate, Dukinfield, Cheshire, SK16 4UJ",
+    "geoQueries": [
+      "HEXPOL Broadway Globe Lane Dukinfield SK16 4UJ",
+      "Globe Lane Industrial Estate, Dukinfield, SK16 4UJ",
+      "HEXPOL Compounding Dukinfield Berwin rubber"
+    ],
+    "approxLat": 53.476,
+    "approxLng": -2.088,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "HEXPOL's Dukinfield plant, the former Berwin works, runs four mixing lines for automotive seals and hoses and is still listed as a HEXPOL compounding site.",
+    "source": "https://www.hexpol.com/plant-locations/berwin-rubber-ltd/"
+  },
+  {
+    "parentName": "HEXPOL",
+    "name": "HEXPOL Compounding Corella",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Corella",
+    "country": "Spain",
+    "address": "Carretera de Alfaro s/n, 31591 Corella, Navarra",
+    "geoQueries": [
+      "HEXPOL Compounding Carretera de Alfaro Corella",
+      "Carretera de Alfaro s/n, 31591 Corella, Navarra",
+      "HEXPOL Corella UNICA rubber mixing plant"
+    ],
+    "approxLat": 42.115,
+    "approxLng": -1.785,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "HEXPOL Compounding Corella, formerly UNICA, runs five rubber-mixing lines with about 50,000 tonnes a year of capacity and remains a HEXPOL plant.",
+    "source": "https://www.hexpol.com/plant-locations/union-de-industrias-c-a-s-a/"
+  },
+  {
+    "parentName": "HEXPOL",
+    "name": "HEXPOL Compounding Foshan",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Foshan",
+    "country": "China",
+    "address": "No. 3 Xinhui Road, Wusha, Daliang, Shunde District, Foshan, Guangdong 528333",
+    "geoQueries": [
+      "HEXPOL TPE No. 3 Xinhui Road Foshan Shunde",
+      "No. 3 Xinhui Road, Wusha, Daliang, Shunde, Foshan 528333",
+      "HEXPOL Compounding Foshan Dryflex plant"
+    ],
+    "approxLat": 22.84,
+    "approxLng": 113.25,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "HEXPOL compounds rubber and runs a Dryflex TPE line at its Foshan plant in Shunde and still lists the site as HEXPOL.",
+    "source": "https://www.hexpol.com/plant-locations/hexpol-tpe-china"
+  },
+  {
+    "parentName": "Kone",
+    "name": "KONE Kunshan Park",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kunshan",
+    "country": "China",
+    "address": "88 Middle Gucheng Road, Kunshan, Jiangsu 215300",
+    "geoQueries": [
+      "KONE Kunshan Park 88 Middle Gucheng Road",
+      "88 Middle Gucheng Rd, Kunshan, Jiangsu 215300",
+      "KONE Kunshan elevator factory"
+    ],
+    "approxLat": 31.38,
+    "approxLng": 120.95,
+    "coordsExact": false,
+    "footprintRadiusMeters": 320,
+    "description": "KONE Kunshan Park is KONE's largest elevator factory and an overseas R&D site, and in 2025 it was running digital production of elevator doors for export.",
+    "source": "https://www.yicaiglobal.com/news/finnish-elevator-giant-kone-is-promoting-digital-manufacturing-upgrades-in-china"
+  },
+  {
+    "parentName": "Kone",
+    "name": "KONE Industrial Ústí nad Labem",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ústí nad Labem",
+    "country": "Czech Republic",
+    "address": "Předlická 1452, 403 71 Ústí nad Labem",
+    "geoQueries": [
+      "KONE Industrial Předlická 1452 Ústí nad Labem",
+      "Předlická 1452, 403 71 Ústí nad Labem",
+      "KONE Ústí elevator component factory"
+    ],
+    "approxLat": 50.655,
+    "approxLng": 13.99,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "KONE Industrial's Ústí nad Labem plant makes elevator components, stayed in production through a new hall opened in September 2025, and is addressed at Předlická 1452.",
+    "source": "https://www.kone.cz/novinky-a-reference/grand-opening-ceremony-of-kone-usti-site-expansion-2025.aspx"
+  },
+  {
+    "parentName": "Kone",
+    "name": "KONE AllenPlace Supply Campus",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Allen",
+    "country": "USA",
+    "address": "450 Century Parkway, Allen, TX 75013",
+    "geoQueries": [
+      "KONE AllenPlace 450 Century Parkway Allen TX",
+      "450 Century Parkway, Allen, TX 75013",
+      "KONE Allen light manufacturing test tower"
+    ],
+    "approxLat": 33.105,
+    "approxLng": -96.678,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "KONE's AllenPlace campus at 450 Century Parkway includes light manufacturing, supply operations, R&D and a test tower, and a May 2026 Texas filing records a KONE office renovation at Allen Place I on that street.",
+    "source": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026019535"
+  }
+]

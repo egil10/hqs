@@ -1,0 +1,78 @@
+[
+  {
+    "parentName": "Odfjell",
+    "name": "Odfjell Terminals Houston (OTH)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Seabrook",
+    "country": "USA",
+    "address": "12211 Port Road, Seabrook, Texas 77586",
+    "geoQueries": [
+      "Odfjell Terminals Houston 12211 Port Road Seabrook",
+      "12211 Port Road, Seabrook, TX 77586",
+      "Odfjell Terminals Bayport Ship Channel"
+    ],
+    "approxLat": 29.6083,
+    "approxLng": -95.0205,
+    "coordsExact": true,
+    "footprintRadiusMeters": 340,
+    "description": "Odfjell SE holds 51% of this bulk-liquid chemical tank terminal at the Houston Ship Channel entrance (about 413,000 cbm and 128 tanks) and operates it through Odfjell Terminals US; still listed as an operating terminal in 2026.",
+    "source": "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_EXTERNAL_SEARCH_GET_FILE&dID=4292985&Rendition=Web&searchType=External"
+  },
+  {
+    "parentName": "Odfjell",
+    "name": "Odfjell Terminals Charleston (OTC)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "North Charleston",
+    "country": "USA",
+    "address": "1003 East Montague Avenue, North Charleston, South Carolina 29405",
+    "geoQueries": [
+      "Odfjell Terminals Charleston 1003 East Montague Avenue",
+      "1003 East Montague Avenue, North Charleston, SC 29405",
+      "Odfjell Terminals Cooper River"
+    ],
+    "approxLat": 32.8794,
+    "approxLng": -79.9675,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Odfjell SE holds 51% of this Cooper River chemical tank terminal (79,243 cbm, nine tanks, one deep-sea berth), commercially operated with Odfjell Terminals Houston and still listed by Odfjell in 2026.",
+    "source": "https://www.odfjell.com/terminals/charleston"
+  },
+  {
+    "parentName": "Odfjell",
+    "name": "Noord Natie Odfjell Antwerp Terminal (NNOAT)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "address": "Blauwe Weg 44, Haven 225-253, 2030 Antwerp",
+    "geoQueries": [
+      "Noord Natie Odfjell Antwerp Terminal Blauwe Weg 44",
+      "Blauwe Weg 44, 2030 Antwerpen",
+      "Noord Natie Terminals Haven 225"
+    ],
+    "approxLat": 51.2574,
+    "approxLng": 4.3688,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Odfjell SE holds a 25% stake in this Port of Antwerp liquid-bulk terminal (about 501,000 cbm and 254 tanks) between the Fourth Harbour Dock and Leopold Dock; still an operating Odfjell terminal in 2026.",
+    "source": "https://www.odfjell.com/terminals/noord-natie"
+  },
+  {
+    "parentName": "Odfjell",
+    "name": "Odfjell Terminals Korea (OTK), Ulsan",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Ulsan",
+    "country": "South Korea",
+    "address": "594 Dangwol-ro, Onsan-eup, Ulju-gun, Ulsan",
+    "geoQueries": [
+      "Odfjell Terminals Korea 594 Dangwol-ro Onsan",
+      "594 Dangwol-ro, Onsan-eup, Ulju-gun, Ulsan",
+      "Odfjell Terminals Ulsan Onsan"
+    ],
+    "approxLat": 35.455,
+    "approxLng": 129.349,
+    "coordsExact": false,
+    "footprintRadiusMeters": 320,
+    "description": "Odfjell SE holds 50% of this Onsan petrochemical tank terminal in Ulsan (313,710 cbm and 85 tanks) and still lists it as an operating terminal in 2026, with an E5 expansion due in the second half of 2026.",
+    "source": "https://www.odfjell.com/terminals/ulsan"
+  }
+]

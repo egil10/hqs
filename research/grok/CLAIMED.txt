@@ -1,0 +1,43 @@
+# Grok wave 2026-11-01 — do not research these in parallel
+# Claude owns research/claude/group_I1.txt … group_I14.txt and is geocoding via Nominatim.
+# Grok writes only research/grok/ and data/facilities_grok_batch4.js
+# No nominatim, photon, or overpass from this side while Claude's pipeline/autosave is running.
+
+G1 Assa Abloy
+G1 HEXPOL
+G1 Kone
+G1 Lindab International
+G2 FLSmidth & Co
+G2 Alfa Laval
+G2 Metso
+G2 Trelleborg
+G3 Vestas Wind Systems
+G3 Beijer Ref
+G3 Hexatronic Group
+G3 Ependion
+G4 Odfjell
+G4 Stolt-Nielsen
+G4 DFDS
+G4 DSV
+G5 Royal Unibrew
+G5 Scandi Standard
+G5 Elopak
+G5 Coloplast
+G6 Elekta
+G6 Arjo
+G6 Lifco
+G6 GN Store Nord
+G7 Marimekko
+G7 Fastighetsbolaget Emilshus
+G7 Verisure
+G7 Norwegian Air Shuttle
+G7 BHG Group
+G7 Bonesupport Holding
+G8 Kitron
+G8 Inwido
+G8 Nederman Holding
+G8 OEM International
+G9 Scatec
+G9 Loomis
+G9 AddLife
+G9 Konecranes

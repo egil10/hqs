@@ -1,0 +1,268 @@
+[
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Beijing Linac & Radiosurgery Factory (Changping)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Beijing",
+    "country": "China",
+    "address": "No. 21 Chuangxin Road, Science and Technology Park, Changping District, Beijing 102200",
+    "geoQueries": [
+      "Elekta Beijing Medical Systems No. 21 Chuangxin Road Changping",
+      "医科达（北京）医疗器械有限公司 创新路21号",
+      "21 Chuangxin Road Changping District Beijing 102200"
+    ],
+    "approxLat": 40.195,
+    "approxLng": 116.236,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Elekta Beijing Medical Systems Co., Ltd. manufactures linear accelerators (including Synergy, Infinity, Versa HD, Axesse and Harmony) and Leksell Gamma Knife systems at its Changping plant, which Elekta describes as its most complete production center.",
+    "source": "https://www.mepcec.com/mobile/rzfw/hjbz/iixhjbz/qyrzxxgs/2025/12656.shtml"
+  },
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Brachytherapy Plant (Nucletron, Veenendaal)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Veenendaal",
+    "country": "Netherlands",
+    "address": "Waardgelder 1, 3905 TH Veenendaal",
+    "geoQueries": [
+      "Nucletron Operations B.V. Waardgelder 1 Veenendaal",
+      "Elekta Brachytherapy Waardgelder 1 3905 TH Veenendaal",
+      "Waardgelder 1, 3905 TH Veenendaal"
+    ],
+    "approxLat": 52.041033,
+    "approxLng": 5.538153,
+    "coordsExact": true,
+    "footprintRadiusMeters": 220,
+    "description": "Nucletron Operations B.V., part of Elekta, develops and manufactures brachytherapy afterloaders, applicators and related systems at Waardgelder 1 in Veenendaal.",
+    "source": "https://nl.linkedin.com/company/nucletron"
+  },
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Xoft Electronic Brachytherapy Plant (San Jose)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "San Jose",
+    "country": "USA",
+    "address": "101 Nicholson Lane, San Jose, CA 95134",
+    "geoQueries": [
+      "Elekta Inc 101 Nicholson Lane San Jose",
+      "Xoft Elekta 101 Nicholson Ln San Jose CA 95134",
+      "101 Nicholson Lane, San Jose, CA 95134"
+    ],
+    "approxLat": 37.412,
+    "approxLng": -121.946,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Elekta Inc. assembles Xoft Axxent electronic brachytherapy devices at 101 Nicholson Lane in San Jose, the facility transferred when Elekta acquired the Xoft business from iCAD in 2023.",
+    "source": "https://fda.report/Company/Elekta-Inc"
+  },
+  {
+    "parentName": "Arjo",
+    "name": "Arjo Suzhou Mattress & VTE Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Suzhou",
+    "country": "China",
+    "address": "No. 158 Fangzhou Road, SIP, Suzhou, Jiangsu 215024",
+    "geoQueries": [
+      "Arjo (Suzhou) Co., Ltd. No. 158 Fangzhou Road",
+      "No. 158 Fangzhou Road, SIP, Suzhou, Jiangsu 215024",
+      "Arjo Suzhou Industrial Park Fangzhou Road 215024"
+    ],
+    "approxLat": 31.321,
+    "approxLng": 120.787,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "Arjo (Suzhou) Co., Ltd. is one of Arjo’s five production units, manufacturing therapeutic mattresses, pumps and VTE devices at No. 158 Fangzhou Road in Suzhou Industrial Park.",
+    "source": "https://companiesmarketcap.com/annual-reports/112182.ar.en.2025.pdf"
+  },
+  {
+    "parentName": "Arjo",
+    "name": "Arjo Dominican Republic Patient-Handling Plant (PIISA, Haina)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Haina",
+    "country": "Dominican Republic",
+    "address": "PIISA Industrial Park, Haina, 91000 San Cristóbal",
+    "geoQueries": [
+      "Arjo Dominican Republic PIISA Industrial Park Haina",
+      "Parque Industrial Itabo PIISA Haina San Cristobal",
+      "PIISA Industrial Park, Haina, 91000 San Cristóbal"
+    ],
+    "approxLat": 18.39,
+    "approxLng": -70.04,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "Arjo Dominican Republic, S.A. operates a patient-handling production unit in PIISA Industrial Park at Haina, San Cristóbal, one of Arjo’s five product-development and production sites.",
+    "source": "https://companiesmarketcap.com/annual-reports/112182.ar.en.2025.pdf"
+  },
+  {
+    "parentName": "Arjo",
+    "name": "Arjo ReNu Medical Reprocessing Plant (Everett)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Everett",
+    "country": "USA",
+    "address": "5900 36th Ave West, Bldg B, Suite 100, Everett, WA 98203",
+    "geoQueries": [
+      "Renu Medical Inc 5900 36th Ave West Everett",
+      "Arjo ReNu 5900 36th Ave West Bldg B Suite 100 Everett WA 98203",
+      "5900 36th Ave West, Everett, WA 98203"
+    ],
+    "approxLat": 47.909,
+    "approxLng": -122.273,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Renu Medical, Inc., an Arjo subsidiary, reprocesses single-use medical devices at 5900 36th Ave West in Everett; Arjo ReNu reprocessed almost five million products in 2025.",
+    "source": "https://companiesmarketcap.com/annual-reports/112182.ar.en.2025.pdf"
+  },
+  {
+    "parentName": "Lifco",
+    "name": "Si Zhou Dental Prosthesis Factory (Shenzhen)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Shenzhen",
+    "country": "China",
+    "address": "901, Block 12, CuiGang Industrial District 6, Huaide, Fuyong, Bao'an, Shenzhen 518103",
+    "geoQueries": [
+      "Si Zhou Dental (Shenzhen) Co. Ltd CuiGang Industrial District 6 Fuyong",
+      "四洲义齿（深圳）有限公司 翠岗工业六区12栋",
+      "901 Block 12 CuiGang Industrial District 6 Baoan Shenzhen 518103"
+    ],
+    "approxLat": 22.655,
+    "approxLng": 113.81,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "Si Zhou Dental (Shenzhen) Co. Ltd, a Lifco dental subsidiary, manufactures dental prostheses at CuiGang Industrial District 6 in Fuyong and is one of Lifco’s two manufacturing units with more than 200 employees.",
+    "source": "https://storage.mfn.se/14bd9523-71cc-4c40-9476-705e245804f6/annual-and-sustainability-report-2025.pdf"
+  },
+  {
+    "parentName": "Lifco",
+    "name": "LEAB Eesti Electronics Factory (Tänassilma)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tänassilma",
+    "country": "Estonia",
+    "address": "Põikmäe 1, Tänassilma, 76406 Saku vald",
+    "geoQueries": [
+      "LEAB Eesti OÜ Põikmäe 1 Tänassilma",
+      "Leab Eesti factory Põikmäe 1 76406 Saku vald",
+      "Põikmäe 1, Tänassilma, 76406 Saku vald"
+    ],
+    "approxLat": 59.35,
+    "approxLng": 24.61,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "LEAB Eesti OÜ, a Lifco contract manufacturer, runs volume electronics production at its Tänassilma factory, which Lifco lists as a manufacturing unit with 154 employees and 466 non-employees.",
+    "source": "https://www.leab.se/en/contact/leab-eesti-ou/"
+  },
+  {
+    "parentName": "Lifco",
+    "name": "Darda Demolition Tools Plant (Blumberg)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Blumberg",
+    "country": "Germany",
+    "address": "Im Tal 1, 78176 Blumberg",
+    "geoQueries": [
+      "Darda GmbH Im Tal 1 Blumberg",
+      "Darda concrete crusher factory Im Tal 1 78176 Blumberg",
+      "Im Tal 1, 78176 Blumberg"
+    ],
+    "approxLat": 47.84,
+    "approxLng": 8.53,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Darda GmbH, a Lifco subsidiary, manufactures concrete crushers, rock splitters and steel cutters used on Brokk demolition machines at Im Tal 1 in Blumberg.",
+    "source": "https://storage.mfn.se/14bd9523-71cc-4c40-9476-705e245804f6/annual-and-sustainability-report-2025.pdf"
+  },
+  {
+    "parentName": "Lifco",
+    "name": "Hultdins Forestry Attachments Plant (Malå)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Malå",
+    "country": "Sverige",
+    "address": "Skolgatan 12, 939 31 Malå",
+    "geoQueries": [
+      "Hultdin System AB Skolgatan 12 Malå",
+      "Hultdins factory Skolgatan 12 939 31 Malå",
+      "Skolgatan 12, 939 31 Malå"
+    ],
+    "approxLat": 65.185,
+    "approxLng": 18.743,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Hultdin System AB, a Lifco company, manufactures forestry grapples and excavator attachments at Skolgatan 12 in Malå.",
+    "source": "https://storage.mfn.se/14bd9523-71cc-4c40-9476-705e245804f6/annual-and-sustainability-report-2025.pdf"
+  },
+  {
+    "parentName": "Lifco",
+    "name": "Aquajet Hydrodemolition Robot Plant (Holsbybrunn)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Holsbybrunn",
+    "country": "Sverige",
+    "address": "Brunnsvägen 15, 574 53 Holsbybrunn",
+    "geoQueries": [
+      "Aquajet Systems AB Brunnsvägen 15 Holsbybrunn",
+      "Aquajet hydrodemolition factory Brunnsvägen 15 574 53",
+      "Brunnsvägen 15, 574 53 Holsbybrunn"
+    ],
+    "approxLat": 57.431,
+    "approxLng": 15.202,
+    "coordsExact": false,
+    "footprintRadiusMeters": 190,
+    "description": "Aquajet Systems AB, a Lifco subsidiary, manufactures hydrodemolition robots at Brunnsvägen 15 in Holsbybrunn.",
+    "source": "https://storage.mfn.se/14bd9523-71cc-4c40-9476-705e245804f6/annual-and-sustainability-report-2025.pdf"
+  },
+  {
+    "parentName": "Lifco",
+    "name": "Demarec Attachment Plant (Cuijk)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Cuijk",
+    "country": "Netherlands",
+    "address": "De Hork 32, 5431 NS Cuijk",
+    "geoQueries": [
+      "Demarec Demolition and Recycling B.V. De Hork 32 Cuijk",
+      "Demarec plant De Hork 32 5431 NS Cuijk",
+      "De Hork 32, 5431 NS Cuijk"
+    ],
+    "approxLat": 51.721,
+    "approxLng": 5.868,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Demarec Demolition and Recycling B.V., part of Lifco’s Kinshofer group, produces and assembles demolition and recycling excavator attachments at its plant on De Hork 32 in Cuijk.",
+    "source": "https://www.kinshofer.com/en/home/locations/subsidiaries-demarec-demolition-and-recycling"
+  },
+  {
+    "parentName": "GN Store Nord",
+    "name": "GN Hearing Component Plant (Præstø)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Præstø",
+    "country": "Danmark",
+    "address": "Industrivej 6, 4720 Præstø",
+    "geoQueries": [
+      "GN Hearing A/S Industrivej 6 Præstø",
+      "GN Hearing production unit Industrivej 6 4720 Præstø",
+      "Industrivej 6, 4720 Præstø"
+    ],
+    "approxLat": 55.117,
+    "approxLng": 12.039,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "GN Hearing A/S manufactures hearing aids and parts at its production unit at Industrivej 6 in Præstø, registered for hearing-aid manufacturing and still listed with the company’s 2026 workforce.",
+    "source": "https://ownr.dk/companies/public-profile/55082715"
+  },
+  {
+    "parentName": "GN Store Nord",
+    "name": "GN ReSound Hearing-Aid Factory (Xiamen)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Xiamen",
+    "country": "China",
+    "address": "No. 15 Chuang Xin Road, CTP Area, Xiamen 361006",
+    "geoQueries": [
+      "GN ReSound China Ltd No. 15 Chuang Xin Road Xiamen",
+      "瑞声达听力技术（中国）有限公司 创新路15号 厦门",
+      "15 Chuang Xin Road CTP Area Xiamen 361006"
+    ],
+    "approxLat": 24.49,
+    "approxLng": 118.07,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "ReSound Hearing Technology (China) Co., Ltd., a wholly owned GN subsidiary, develops and manufactures hearing devices in Xiamen and in 2025 started a second-phase factory on that site.",
+    "source": "https://www.sohu.com/a/981930359_121106994"
+  }
+]

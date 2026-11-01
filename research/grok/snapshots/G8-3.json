@@ -1,0 +1,325 @@
+[
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Longum Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Arendal",
+    "country": "Norge",
+    "address": "Longum Næringspark, Arendal",
+    "geoQueries": [
+      "Kitron Longum Næringspark Arendal",
+      "Kitron Longum fabrikk Arendal",
+      "Longum Næringspark E18 Arendal"
+    ],
+    "approxLat": 58.498,
+    "approxLng": 8.772,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Kitron Norway's electronics factory at Longum Næringspark north of Arendal, about 7,500 square metres, opened in August 2026 in addition to the Kilsund plant.",
+    "source": "https://arendalsfossekompani.no/en/news/portfolio-company-afk-eiendom-marks-completion-of-new-kitron-facility"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Grudziądz Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Grudziądz",
+    "country": "Poland",
+    "address": "ul. Droga Kurpiowska 75, 86-300 Grudziądz",
+    "geoQueries": [
+      "Kitron Droga Kurpiowska 75 Grudziądz",
+      "ul. Droga Kurpiowska 75, 86-300 Grudziądz",
+      "Kitron Sp. z o.o. Grudziądz"
+    ],
+    "approxLat": 53.456,
+    "approxLng": 18.779,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Kitron's Polish electronics manufacturing plant in Grudziądz, opened in 2019 and still listed among the group's manufacturing sites.",
+    "source": "https://www.kitron.com/storage/files/Annual-Reports/Kitron-Annual-Report-2024.pdf"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Ningbo Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ningbo",
+    "country": "China",
+    "address": "No. 189 DongHui Road, Nordic Industrial Park, Zhenhai District, Ningbo 315221",
+    "geoQueries": [
+      "Kitron Electronics Manufacturing Ningbo 189 DongHui Road",
+      "No. 189 DongHui Road Nordic Industrial Park Zhenhai Ningbo",
+      "Kitron Ningbo 315221"
+    ],
+    "approxLat": 30.008,
+    "approxLng": 121.64,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Kitron Electronics Manufacturing (Ningbo) Co., Ltd factory in Zhenhai's Nordic Industrial Park, a main Asian electronics manufacturing site for the group.",
+    "source": "https://www.kitron.com/storage/files/Annual-Reports/Kitron-Annual-Report-2024.pdf"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Technologies Windber Electronics Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Windber",
+    "country": "United States",
+    "address": "345 Pomroys Drive, Windber, Pennsylvania 15963",
+    "geoQueries": [
+      "Kitron Technologies 345 Pomroys Drive Windber",
+      "345 Pomroys Drive, Windber, PA 15963",
+      "Kitron Technologies Inc Windber"
+    ],
+    "approxLat": 40.23,
+    "approxLng": -78.83,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "Kitron's US electronics plant in Windber, Pennsylvania, which in 2026 added an SMT line and ISO 27001 certification for high-reliability manufacturing.",
+    "source": "https://www.kitron.com/blog/strategic-investments-at-kitron-us"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Horsens Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Horsens",
+    "country": "Danmark",
+    "address": "Ane Staunings Vej 21, 8700 Horsens",
+    "geoQueries": [
+      "Kitron Ane Staunings Vej 21 Horsens",
+      "Ane Staunings Vej 21, 8700 Horsens",
+      "Kitron A/S Horsens factory"
+    ],
+    "approxLat": 55.881,
+    "approxLng": 9.805,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Kitron Denmark's Horsens electronics factory, about 7,700 square metres with three SMT lines, the current site pending a larger plant planned for 2028.",
+    "source": "https://www.kitron.com/blog/50-years-of-kitron-denmark"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Eltech Örnsköldsvik Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Örnsköldsvik",
+    "country": "Sverige",
+    "address": "Björnavägen 74, 891 42 Örnsköldsvik",
+    "geoQueries": [
+      "Kitron Eltech Björnavägen 74 Örnsköldsvik",
+      "Björnavägen 74, 891 42 Örnsköldsvik",
+      "DeltaNordic Kitron Eltech Örnsköldsvik"
+    ],
+    "approxLat": 63.276,
+    "approxLng": 18.712,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "Kitron Eltech AB (formerly DeltaNordic) electrical and electronics manufacturing plant in Örnsköldsvik, acquired by Kitron in 2026, with about 143 employees.",
+    "source": "https://www.allabolag.se/foretag/kitron-eltech-ab/%C3%B6rnsk%C3%B6ldsvik/elmateriel/2K11VJNI5YDZR"
+  },
+  {
+    "parentName": "Inwido",
+    "name": "Elitfönster Lenhovda Window Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Lenhovda",
+    "country": "Sverige",
+    "address": "Industrigatan 1, 364 42 Lenhovda",
+    "geoQueries": [
+      "Elitfönster Industrigatan 1 Lenhovda",
+      "Industrigatan 1, 364 42 Lenhovda",
+      "Elitfönster Produktion Lenhovda"
+    ],
+    "approxLat": 56.991,
+    "approxLng": 15.27,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Elitfönster Produktion AB's window factory in Lenhovda, Inwido's second Swedish window plant beside Vetlanda, where the Precision range is manufactured.",
+    "source": "https://www.elitfonster.se/siteassets/bast-i-test/pdf/99-29-c004.pdf"
+  },
+  {
+    "parentName": "Inwido",
+    "name": "Pihla Window & Door Factory (Ruovesi)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ruovesi",
+    "country": "Finland",
+    "address": "Pihlatie 3, 34600 Ruovesi",
+    "geoQueries": [
+      "Pihla Pihlatie 3 Ruovesi",
+      "Pihlatie 3, 34600 Ruovesi",
+      "Pihla Group Ruovesi tehdas"
+    ],
+    "approxLat": 61.983,
+    "approxLng": 24.092,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Pihla Group's main consumer window and door factory in Ruovesi, part of Inwido's Finnish operations.",
+    "source": "https://pihlagroup.fi/meista/ota-yhteytta/"
+  },
+  {
+    "parentName": "Inwido",
+    "name": "Tiivi Window & Door Factory (Haapajärvi)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Haapajärvi",
+    "country": "Finland",
+    "address": "Konikuja 7, 85800 Haapajärvi",
+    "geoQueries": [
+      "Tiivi Konikuja 7 Haapajärvi",
+      "Konikuja 7, 85800 Haapajärvi",
+      "Pihla Group Tiivi Haapajärvi tehdas"
+    ],
+    "approxLat": 63.752,
+    "approxLng": 25.34,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "Tiivi's home factory in Haapajärvi, a Pihla Group plant making windows and doors and employing more than 100 people.",
+    "source": "https://pihlagroup.fi/meista/ota-yhteytta/"
+  },
+  {
+    "parentName": "Inwido",
+    "name": "PihlaPRO Window Factory (Eskola)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kannus",
+    "country": "Finland",
+    "address": "Teollisuustie 2, 69150 Eskola",
+    "geoQueries": [
+      "PihlaPRO Teollisuustie 2 Eskola",
+      "Teollisuustie 2, 69150 Eskola",
+      "PihlaPRO Kannus Eskola tehdas"
+    ],
+    "approxLat": 63.868,
+    "approxLng": 24.148,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "PihlaPRO's factory in Eskola, Kannus, producing windows and doors for the Finnish building industry within Inwido's Pihla Group.",
+    "source": "https://pihlagroup.fi/meista/ota-yhteytta/"
+  },
+  {
+    "parentName": "Inwido",
+    "name": "Profin Sliding-Door Factory (Pudasjärvi)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Pudasjärvi",
+    "country": "Finland",
+    "address": "Tulotie 2, 93100 Pudasjärvi",
+    "geoQueries": [
+      "Profin Tulotie 2 Pudasjärvi",
+      "Tulotie 2, 93100 Pudasjärvi",
+      "Profin Pudasjärvi tehdas"
+    ],
+    "approxLat": 65.362,
+    "approxLng": 27.01,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Profin's factory in Pudasjärvi, a Pihla Group site making glazed sliding walls and doors for Inwido's Finnish business.",
+    "source": "https://pihlagroup.fi/meista/ota-yhteytta/"
+  },
+  {
+    "parentName": "Inwido",
+    "name": "Diplomat Dörrar Factory (Bankeryd)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Bankeryd",
+    "country": "Sverige",
+    "address": "Tallvägen 30, 564 35 Bankeryd",
+    "geoQueries": [
+      "Diplomat Dörrar Tallvägen 30 Bankeryd",
+      "Tallvägen 30, 564 35 Bankeryd",
+      "Diplomat dörrfabrik Bankeryd"
+    ],
+    "approxLat": 57.858,
+    "approxLng": 14.118,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Diplomat Dörrar AB's door factory in Bankeryd, an Inwido Sweden plant making about 25,000 exterior doors a year.",
+    "source": "https://www.allabolag.se/foretag/diplomat-d%C3%B6rrar-ab/bankeryd/f%C3%B6nster/2K1W5QII5YE6S"
+  },
+  {
+    "parentName": "Nederman Holding",
+    "name": "Nordfab Europe Ducting Factory (Assens)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Assens",
+    "country": "Danmark",
+    "address": "Industrivej 13, 9550 Mariager",
+    "geoQueries": [
+      "Nordfab Industrivej 13 Assens Mariager",
+      "Industrivej 13, 9550 Mariager",
+      "Nordfab Europe Assens Mariagerfjord"
+    ],
+    "approxLat": 56.646,
+    "approxLng": 10.022,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Nordfab Europe's ducting factory in Assens, Mariagerfjord, a 6,000-square-metre plant making Quick-Fit and steel duct systems, still a Nederman manufacturing unit in the 2025 report.",
+    "source": "https://www.nordfab.com/en-se/about-us"
+  },
+  {
+    "parentName": "Nederman Holding",
+    "name": "Nederman MikroPul Friesenheim Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Friesenheim",
+    "country": "Germany",
+    "address": "Industriestraße 9, 77948 Friesenheim",
+    "geoQueries": [
+      "Nederman MikroPul Industriestraße 9 Friesenheim",
+      "Industriestraße 9, 77948 Friesenheim",
+      "MikroPul GmbH Friesenheim"
+    ],
+    "approxLat": 48.371,
+    "approxLng": 7.886,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Nederman MikroPul GmbH's process-technology plant in Friesenheim, listed as a manufacturing and assembly unit in Nederman's 2025 report.",
+    "source": "https://www.nedermanmikropul.com/en/Contact"
+  },
+  {
+    "parentName": "Nederman Holding",
+    "name": "Nederman MikroPul Marki Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Marki",
+    "country": "Poland",
+    "address": "ul. Okólna 45A, 05-270 Marki",
+    "geoQueries": [
+      "Nederman MikroPul Okólna 45A Marki",
+      "ul. Okólna 45A, 05-270 Marki",
+      "MikroPul Poland Marki"
+    ],
+    "approxLat": 52.322,
+    "approxLng": 21.104,
+    "coordsExact": false,
+    "footprintRadiusMeters": 230,
+    "description": "Nederman MikroPul Poland's site in Marki, classified in the 2025 report as an extraction and filtration manufacturing and assembly unit.",
+    "source": "https://www.nedermanmikropul.com/en/Contact"
+  },
+  {
+    "parentName": "Nederman Holding",
+    "name": "NEO Monitors Production Facility (Skedsmokorset)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Skedsmokorset",
+    "country": "Norge",
+    "address": "Prost Stabels vei 22, 2019 Skedsmokorset",
+    "geoQueries": [
+      "NEO Monitors Prost Stabels vei 22 Skedsmokorset",
+      "Prost Stabels vei 22, 2019 Skedsmokorset",
+      "NEO Monitors AS Skedsmokorset"
+    ],
+    "approxLat": 60.001,
+    "approxLng": 11.043,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "NEO Monitors AS in Skedsmokorset, Nederman's Norway monitoring-and-control production site after the Oslo-area facility investment completed in 2025.",
+    "source": "https://neomonitors.com/contact/"
+  },
+  {
+    "parentName": "Nederman Holding",
+    "name": "Nordfab UK Ducting Factory (Leeds)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Leeds",
+    "country": "United Kingdom",
+    "address": "Limewood Approach, Seacroft, Leeds LS14 1NG",
+    "geoQueries": [
+      "Nordfab Limewood Approach Seacroft Leeds",
+      "Limewood Approach, Seacroft, Leeds LS14 1NG",
+      "Nordfab UK Leeds factory"
+    ],
+    "approxLat": 53.824,
+    "approxLng": -1.459,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Nordfab's UK ducting factory in Seacroft, Leeds, a 1,050-square-metre plant still listed as a Duct & Filter manufacturing unit in Nederman's 2025 report.",
+    "source": "https://www.nordfab.com/en-gb/contact-us"
+  }
+]

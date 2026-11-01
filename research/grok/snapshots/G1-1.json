@@ -1,0 +1,78 @@
+[
+  {
+    "parentName": "Assa Abloy",
+    "name": "FAB Rychnov Lock Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Rychnov nad Kněžnou",
+    "country": "Czech Republic",
+    "address": "Strojnická 633, 516 01 Rychnov nad Kněžnou",
+    "geoQueries": [
+      "ASSA ABLOY Opening Solutions CZ Strojnická 633 Rychnov",
+      "Strojnická 633, 516 01 Rychnov nad Kněžnou",
+      "FAB Rychnov lock cylinder factory"
+    ],
+    "approxLat": 50.165,
+    "approxLng": 16.275,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "ASSA ABLOY Opening Solutions CZ (FAB) manufactures mechanical and smart lock cylinders, electronic keys and padlocks at its Rychnov nad Kněžnou plant.",
+    "source": "https://www.pracevefabce.cz/o-nas"
+  },
+  {
+    "parentName": "Assa Abloy",
+    "name": "ASSA ABLOY Longué-Jumelles Hardware Foundry",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Longué-Jumelles",
+    "country": "France",
+    "address": "25 rue Michel Couet, 49160 Longué-Jumelles",
+    "geoQueries": [
+      "ASSA ABLOY France 25 rue Michel Couet Longué-Jumelles",
+      "25 rue Michel Couet, 49160 Longué-Jumelles",
+      "ASSA ABLOY Longué zamak foundry"
+    ],
+    "approxLat": 47.38,
+    "approxLng": -0.1,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "ASSA ABLOY France's Longué-Jumelles site is a zamak and aluminium foundry with surface treatment and assembly of architectural hardware for Vachette, Yale, JPM and Abloy, and was still listed as operating in July 2026.",
+    "source": "https://agence-api.ouest-france.fr/annuaire/societe/assa-abloy-france-37b6fda5-1c03-49df-adcd-701d32feae0e"
+  },
+  {
+    "parentName": "Assa Abloy",
+    "name": "ASSA ABLOY Entrance Systems Hunedoara Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Hunedoara",
+    "country": "Romania",
+    "address": "Șoseaua Hunedoara-Sântuhalm 2G, 331004 Hunedoara",
+    "geoQueries": [
+      "ASSA ABLOY Entrance Systems Production Romania Hunedoara",
+      "Soseaua Hunedoara-Santuhalm 2G, 331004 Hunedoara",
+      "ASSA ABLOY Entrance Systems Hunedoara factory"
+    ],
+    "approxLat": 45.755,
+    "approxLng": 22.92,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "ASSA ABLOY Entrance Systems Production Romania SRL manufactures metal structures for entrance systems at Șoseaua Hunedoara-Sântuhalm 2G and was still recorded as operational in October 2026.",
+    "source": "https://metricbiz.ro/en/firma/assa-abloy-entrance-systems-production-romania-srl-cui-17857020"
+  },
+  {
+    "parentName": "Assa Abloy",
+    "name": "Corbin Russwin Berlin Lock Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Berlin",
+    "country": "USA",
+    "address": "225 Episcopal Road, Berlin, CT 06037",
+    "geoQueries": [
+      "Corbin Russwin 225 Episcopal Road Berlin CT",
+      "225 Episcopal Road, Berlin, CT 06037",
+      "ASSA ABLOY Corbin Russwin manufacturing Berlin Connecticut"
+    ],
+    "approxLat": 41.628,
+    "approxLng": -72.742,
+    "coordsExact": false,
+    "footprintRadiusMeters": 320,
+    "description": "Corbin Russwin, an ASSA ABLOY brand, manufactures commercial locks and door hardware at its Berlin, Connecticut plant, still addressed at 225 Episcopal Road on a March 2026 company notice.",
+    "source": "https://www.loc8nearme.com/connecticut/berlin/assa-abloy-corbin-russwin/9623796/"
+  }
+]

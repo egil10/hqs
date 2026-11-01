@@ -1,0 +1,59 @@
+[
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Beijing Linac & Radiosurgery Factory (Changping)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Beijing",
+    "country": "China",
+    "address": "No. 21 Chuangxin Road, Science and Technology Park, Changping District, Beijing 102200",
+    "geoQueries": [
+      "Elekta Beijing Medical Systems No. 21 Chuangxin Road Changping",
+      "医科达（北京）医疗器械有限公司 创新路21号",
+      "21 Chuangxin Road Changping District Beijing 102200"
+    ],
+    "approxLat": 40.195,
+    "approxLng": 116.236,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Elekta Beijing Medical Systems Co., Ltd. manufactures linear accelerators (including Synergy, Infinity, Versa HD, Axesse and Harmony) and Leksell Gamma Knife systems at its Changping plant, which Elekta describes as its most complete production center.",
+    "source": "https://www.mepcec.com/mobile/rzfw/hjbz/iixhjbz/qyrzxxgs/2025/12656.shtml"
+  },
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Brachytherapy Plant (Nucletron, Veenendaal)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Veenendaal",
+    "country": "Netherlands",
+    "address": "Waardgelder 1, 3905 TH Veenendaal",
+    "geoQueries": [
+      "Nucletron Operations B.V. Waardgelder 1 Veenendaal",
+      "Elekta Brachytherapy Waardgelder 1 3905 TH Veenendaal",
+      "Waardgelder 1, 3905 TH Veenendaal"
+    ],
+    "approxLat": 52.041033,
+    "approxLng": 5.538153,
+    "coordsExact": true,
+    "footprintRadiusMeters": 220,
+    "description": "Nucletron Operations B.V., part of Elekta, develops and manufactures brachytherapy afterloaders, applicators and related systems at Waardgelder 1 in Veenendaal.",
+    "source": "https://nl.linkedin.com/company/nucletron"
+  },
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Xoft Electronic Brachytherapy Plant (San Jose)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "San Jose",
+    "country": "USA",
+    "address": "101 Nicholson Lane, San Jose, CA 95134",
+    "geoQueries": [
+      "Elekta Inc 101 Nicholson Lane San Jose",
+      "Xoft Elekta 101 Nicholson Ln San Jose CA 95134",
+      "101 Nicholson Lane, San Jose, CA 95134"
+    ],
+    "approxLat": 37.412,
+    "approxLng": -121.946,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Elekta Inc. assembles Xoft Axxent electronic brachytherapy devices at 101 Nicholson Lane in San Jose, the facility transferred when Elekta acquired the Xoft business from iCAD in 2023.",
+    "source": "https://fda.report/Company/Elekta-Inc"
+  }
+]

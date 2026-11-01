@@ -1,0 +1,401 @@
+[
+  {
+    "parentName": "Odfjell",
+    "name": "Odfjell Terminals Houston (OTH)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Seabrook",
+    "country": "USA",
+    "address": "12211 Port Road, Seabrook, Texas 77586",
+    "geoQueries": [
+      "Odfjell Terminals Houston 12211 Port Road Seabrook",
+      "12211 Port Road, Seabrook, TX 77586",
+      "Odfjell Terminals Bayport Ship Channel"
+    ],
+    "approxLat": 29.6083,
+    "approxLng": -95.0205,
+    "coordsExact": true,
+    "footprintRadiusMeters": 340,
+    "description": "Odfjell SE holds 51% of this bulk-liquid chemical tank terminal at the Houston Ship Channel entrance (about 413,000 cbm and 128 tanks) and operates it through Odfjell Terminals US; still listed as an operating terminal in 2026.",
+    "source": "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_EXTERNAL_SEARCH_GET_FILE&dID=4292985&Rendition=Web&searchType=External"
+  },
+  {
+    "parentName": "Odfjell",
+    "name": "Odfjell Terminals Charleston (OTC)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "North Charleston",
+    "country": "USA",
+    "address": "1003 East Montague Avenue, North Charleston, South Carolina 29405",
+    "geoQueries": [
+      "Odfjell Terminals Charleston 1003 East Montague Avenue",
+      "1003 East Montague Avenue, North Charleston, SC 29405",
+      "Odfjell Terminals Cooper River"
+    ],
+    "approxLat": 32.8794,
+    "approxLng": -79.9675,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Odfjell SE holds 51% of this Cooper River chemical tank terminal (79,243 cbm, nine tanks, one deep-sea berth), commercially operated with Odfjell Terminals Houston and still listed by Odfjell in 2026.",
+    "source": "https://www.odfjell.com/terminals/charleston"
+  },
+  {
+    "parentName": "Odfjell",
+    "name": "Noord Natie Odfjell Antwerp Terminal (NNOAT)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "address": "Blauwe Weg 44, Haven 225-253, 2030 Antwerp",
+    "geoQueries": [
+      "Noord Natie Odfjell Antwerp Terminal Blauwe Weg 44",
+      "Blauwe Weg 44, 2030 Antwerpen",
+      "Noord Natie Terminals Haven 225"
+    ],
+    "approxLat": 51.2574,
+    "approxLng": 4.3688,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Odfjell SE holds a 25% stake in this Port of Antwerp liquid-bulk terminal (about 501,000 cbm and 254 tanks) between the Fourth Harbour Dock and Leopold Dock; still an operating Odfjell terminal in 2026.",
+    "source": "https://www.odfjell.com/terminals/noord-natie"
+  },
+  {
+    "parentName": "Odfjell",
+    "name": "Odfjell Terminals Korea (OTK), Ulsan",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Ulsan",
+    "country": "South Korea",
+    "address": "594 Dangwol-ro, Onsan-eup, Ulju-gun, Ulsan",
+    "geoQueries": [
+      "Odfjell Terminals Korea 594 Dangwol-ro Onsan",
+      "594 Dangwol-ro, Onsan-eup, Ulju-gun, Ulsan",
+      "Odfjell Terminals Ulsan Onsan"
+    ],
+    "approxLat": 35.455,
+    "approxLng": 129.349,
+    "coordsExact": false,
+    "footprintRadiusMeters": 320,
+    "description": "Odfjell SE holds 50% of this Onsan petrochemical tank terminal in Ulsan (313,710 cbm and 85 tanks) and still lists it as an operating terminal in 2026, with an E5 expansion due in the second half of 2026.",
+    "source": "https://www.odfjell.com/terminals/ulsan"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Singapore",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "22 Tembusu Crescent, Jurong Island, Singapore 627611",
+    "geoQueries": [
+      "Stolthaven Singapore 22 Tembusu Crescent Jurong Island",
+      "22 Tembusu Crescent, Singapore 627611",
+      "Stolthaven Tembusu Jurong Island"
+    ],
+    "approxLat": 1.273312,
+    "approxLng": 103.6656959,
+    "coordsExact": true,
+    "footprintRadiusMeters": 340,
+    "description": "Wholly owned Stolthaven bulk-liquid terminal on Jurong Island (81 tanks, 230,700 m3) serving manufacturers at Tembusu, still listed on the Stolthaven network.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/stolthaven-singapore/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Dagenham",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Dagenham",
+    "country": "United Kingdom",
+    "address": "Choats Road, Dagenham, Essex RM9 6PU",
+    "geoQueries": [
+      "Stolthaven Dagenham Choats Road",
+      "Choats Road, Dagenham, Essex RM9 6PU",
+      "Stolthaven Thames Dagenham terminal"
+    ],
+    "approxLat": 51.5175008,
+    "approxLng": 0.1387273,
+    "coordsExact": true,
+    "footprintRadiusMeters": 320,
+    "description": "Wholly owned COMAH top-tier bulk-liquid terminal on the River Thames (100 tanks, 171,016 m3), still operated by Stolthaven.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/stolthaven-dagenham/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Santos",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Santos",
+    "country": "Brazil",
+    "address": "Rua Augusto Scaraboto 215, Alemoa, Santos, São Paulo 11095-500",
+    "geoQueries": [
+      "Stolthaven Santos Rua Augusto Scaraboto 215",
+      "R. Augusto Scaraboto, 215, Alemoa, Santos 11095-500",
+      "Stolthaven Port of Santos Alemoa"
+    ],
+    "approxLat": -23.9265267,
+    "approxLng": -46.3632773,
+    "coordsExact": true,
+    "footprintRadiusMeters": 320,
+    "description": "Wholly owned Stolthaven bulk-liquid terminal in the Port of Santos (95 tanks, 149,627 m3), used for domestic break-bulk and regional distribution.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/stolthaven-santos/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Jeong IL Stolthaven Ulsan",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Ulsan",
+    "country": "South Korea",
+    "address": "297 Sanam-ro, Onsan-eup, Ulju-gun, Ulsan",
+    "geoQueries": [
+      "Jeong IL Stolthaven Ulsan 297 Sanam-ro",
+      "297 Sanam-ro, Onsan-eup, Ulju-gun, Ulsan",
+      "Stolthaven Ulsan Onsan tank terminal"
+    ],
+    "approxLat": 35.4430977,
+    "approxLng": 129.367547,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "Joint-venture bulk-liquid terminal in the Ulsan/Onsan complex (244 tanks, 1,655,700 m3), Stolthaven’s North Asia Pacific distribution hub and still listed as operating.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/jeong-il-stolthaven-ulsan/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Advario Stolthaven Antwerp",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "address": "Haven 623, Scheldelaan 450, 2040 Antwerp",
+    "geoQueries": [
+      "Advario Stolthaven Antwerp Scheldelaan 450",
+      "Scheldelaan 450, Haven 623, 2040 Antwerpen",
+      "Stolthaven Antwerp Haven 623"
+    ],
+    "approxLat": 51.3115906,
+    "approxLng": 4.346142,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "Joint-venture tank terminal in the Antwerp refining and petrochemical complex (189 tanks, 1,330,600 m3), still listed on the Stolthaven network.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/advario-stolthaven-antwerp-nv/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Westport",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Port Klang",
+    "country": "Malaysia",
+    "address": "Petrochemical Jetty, Westport, 42009 Port Klang, Selangor",
+    "geoQueries": [
+      "Stolthaven Westport Petrochemical Jetty Port Klang",
+      "Petrochemical Jetty, Westport, 42009 Port Klang",
+      "Stolthaven Westport Selangor tank terminal"
+    ],
+    "approxLat": 2.9774088,
+    "approxLng": 101.4147719,
+    "coordsExact": true,
+    "footprintRadiusMeters": 330,
+    "description": "Joint-venture bulk-liquid terminal at Westport, Port Klang (137 tanks, 280,150 m3), still operated as a Stolthaven regional distribution hub.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/stolthaven-westport/"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "DFDS Vlaardingen (Rotterdam) Terminal",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Vlaardingen",
+    "country": "Netherlands",
+    "address": "Vulcaanweg 20, Port no. 615, 3134 KL Vlaardingen",
+    "geoQueries": [
+      "DFDS Seaways Vlaardingen Vulcaanweg 20",
+      "Vulcaanweg 20, 3134 KL Vlaardingen",
+      "DFDS Rotterdam terminal Port 615"
+    ],
+    "approxLat": 51.90521,
+    "approxLng": 4.359038,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "DFDS-operated ro-ro terminal in Vlaardingen (22.9 hectares and three berths up to 230 m), where DFDS runs its own vessels to UK ports.",
+    "source": "https://www.dfds.com/en/freight-ferries-and-logistics/rotterdam-terminal"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "DFDS Immingham Riverside Terminal",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Immingham",
+    "country": "United Kingdom",
+    "address": "Humber Road, Immingham Dock, DN40 2LZ",
+    "geoQueries": [
+      "DFDS Seaways Riverside Terminal Humber Road Immingham",
+      "Humber Road, Immingham Dock, DN40 2LZ",
+      "DFDS Immingham Riverside Terminal"
+    ],
+    "approxLat": 53.63739675287567,
+    "approxLng": -0.20618806138083104,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "DFDS operates this Humber ro-ro terminal at Immingham Dock, with a berth up to 240 m by 35 m, as one of its two Immingham terminals alongside Dockside.",
+    "source": "https://www.dfds.com/en/freight-ferries-and-logistics/immingham-terminal"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "DFDS North Sea Terminal Brevik",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Brevik",
+    "country": "Norge",
+    "address": "Tangenvegen 40, 3950 Brevik",
+    "geoQueries": [
+      "North Sea Terminal Tangenvegen 40 Brevik",
+      "Tangenvegen 40, 3950 Brevik",
+      "DFDS Brevik terminal"
+    ],
+    "approxLat": 59.06626,
+    "approxLng": 9.699155,
+    "coordsExact": true,
+    "footprintRadiusMeters": 320,
+    "description": "DFDS operates the North Sea Terminal in Brevik, with two ro-ro berths up to 250 m and two lo-lo berths, and publishes the 2026 terminal tariff.",
+    "source": "https://www.dfds.com/en/freight-ferries-and-logistics/brevik-terminal"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "DFDS Mercatordok Terminal Ghent",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Ghent",
+    "country": "Belgium",
+    "address": "Philips Landsbergiuslaan 11, Quay 2170, 9000 Ghent",
+    "geoQueries": [
+      "DFDS Mercatordok Philips Landsbergiuslaan 11 Ghent",
+      "Philips Landsbergiuslaan 11, Quay 2170, 9000 Gent",
+      "DFDS Ghent terminal stevedoring"
+    ],
+    "approxLat": 51.11619,
+    "approxLng": 3.760495,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "DFDS operates the Mercatordok Multimodal Terminal in Ghent, a 240,000 m2 stevedoring terminal with two berths up to 300 m and a 2026 terminal tariff.",
+    "source": "https://www.dfds.com/en/freight-ferries-and-logistics/ghent-terminal"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "DFDS Pendik Ro-Ro Terminal",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Pendik",
+    "country": "Turkey",
+    "address": "Güzelyalı Mahallesi, Kemikli Dere Mevkii, 34903 Pendik, Istanbul",
+    "geoQueries": [
+      "DFDS Pendik terminal Kemikli Dere",
+      "Güzelyalı Mahallesi, Kemikli Dere Mevkii, 34903 Pendik",
+      "DFDS Pendik Ro-Ro port Istanbul"
+    ],
+    "approxLat": 40.86824,
+    "approxLng": 29.2825,
+    "coordsExact": true,
+    "footprintRadiusMeters": 330,
+    "description": "DFDS operates this dedicated ro-ro terminal in Pendik, with parking for 530 trucks and 24/7 handling, as its Istanbul freight port.",
+    "source": "https://www.dfds.com/en/freight-ferries-and-logistics/pendik-terminal"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "Samer Seaports Riva Traiana Terminal",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Trieste",
+    "country": "Italy",
+    "address": "Punto Franco Nuovo, Riva Traiana, 34123 Trieste",
+    "geoQueries": [
+      "Samer Seaports Riva Traiana Trieste",
+      "Punto Franco Nuovo, Riva Traiana, 34123 Trieste",
+      "DFDS Trieste ro-ro terminal"
+    ],
+    "approxLat": 45.64409,
+    "approxLng": 13.75032,
+    "coordsExact": true,
+    "footprintRadiusMeters": 340,
+    "description": "DFDS lists this free-port ro-ro terminal at Riva Traiana (about 185,000 m2 and three ro-ro ramps) and states it is operated by Samer Seaports & Terminals.",
+    "source": "https://www.dfds.com/en/freight-ferries-and-logistics/trieste-terminal"
+  },
+  {
+    "parentName": "DSV",
+    "name": "DSV Horsens Logistics Centre",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Horsens",
+    "country": "Danmark",
+    "address": "Mossvej 27-29, 8700 Horsens",
+    "geoQueries": [
+      "DSV Mossvej 27-29 Horsens",
+      "Mossvej 27-29, 8700 Horsens",
+      "DSV logistikcenter Lund Horsens"
+    ],
+    "approxLat": 55.892,
+    "approxLng": 9.784,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "DSV operates this Horsens logistics campus (about 315,000 m2 at Mossvej 27-29), which it sold to Catena in 2024 and leased back for 14 years, and still lists it as a main Danish warehouse with an AutoStore Fulfilment Factory.",
+    "source": "https://view.news.eu.nasdaq.com/view?id=bc995cbb34b8937c22ad91136ea2f87ec&lang=en&src=micro"
+  },
+  {
+    "parentName": "DSV",
+    "name": "DSV Venlo Fulfilment Factory (Popeweg)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Venlo",
+    "country": "Netherlands",
+    "address": "Popeweg 50, 5928 SC Venlo",
+    "geoQueries": [
+      "DSV Fulfilment Factory Popeweg 50 Venlo",
+      "Popeweg 50, 5928 SC Venlo",
+      "DSV Venlo 1 AutoStore"
+    ],
+    "approxLat": 51.396,
+    "approxLng": 6.142,
+    "coordsExact": false,
+    "footprintRadiusMeters": 320,
+    "description": "DSV operates this multi-user warehouse in Venlo (62,000 m2 with an AutoStore Fulfilment Factory) at Popeweg 50.",
+    "source": "https://www.dsv.com/nl-nl/diensten/contractlogistiek/warehousing/warehouses-venlo"
+  },
+  {
+    "parentName": "DSV",
+    "name": "DSV Venlo Automated Warehouse (Logistiekweg)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Venlo",
+    "country": "Netherlands",
+    "address": "Logistiekweg 2, 5928 SG Venlo",
+    "geoQueries": [
+      "DSV Logistiekweg 2 Venlo ASRS",
+      "Logistiekweg 2, 5928 SG Venlo",
+      "DSV Venlo 4 automated warehouse"
+    ],
+    "approxLat": 51.413,
+    "approxLng": 6.13,
+    "coordsExact": false,
+    "footprintRadiusMeters": 330,
+    "description": "DSV operates this automated Venlo warehouse at Logistiekweg 2 (83,000 m2, goods-to-person ASRS, pick-by-light and an automated pack line).",
+    "source": "https://www.dsv.com/nl-nl/diensten/contractlogistiek/warehousing/warehouses-venlo"
+  },
+  {
+    "parentName": "DSV",
+    "name": "DSV Moerdijk Logistics Campus",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Moerdijk",
+    "country": "Netherlands",
+    "address": "Exportweg 1, 4782 JA Moerdijk",
+    "geoQueries": [
+      "DSV Exportweg 1 Logistiek Park Moerdijk",
+      "Exportweg 1, 4782 JA Moerdijk",
+      "DSV Moerdijk warehouse campus"
+    ],
+    "approxLat": 51.689823,
+    "approxLng": 4.640154,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "DSV operates this Logistiek Park Moerdijk campus at Exportweg 1, with more than 200,000 m2 of warehousing on over 34 hectares, as a European contract-logistics hub.",
+    "source": "https://www.dsv.com/nl-nl/diensten/contractlogistiek/warehousing/warehouse-moerdijk"
+  },
+  {
+    "parentName": "DSV",
+    "name": "DSV Rosersberg Logistics Centre",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Rosersberg",
+    "country": "Sverige",
+    "address": "Kromgatan 4, 195 72 Rosersberg",
+    "geoQueries": [
+      "DSV Contract Logistics Kromgatan 4 Rosersberg",
+      "Kromgatan 4, 195 72 Rosersberg",
+      "DSV Rosersberg AutoStore"
+    ],
+    "approxLat": 59.585,
+    "approxLng": 17.882,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "DSV operates this logistics centre north of Stockholm (68,000 m2 warehouse, an AutoStore of about 28,000 bins and 12,000 m2 of temperature-controlled pharmaceutical storage).",
+    "source": "https://www.dsv.com/sv-se/vara-losningar/logistiklosningar/contract-logistics/logistikcenter-i-sverige/rosersberg"
+  }
+]

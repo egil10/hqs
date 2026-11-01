@@ -1,0 +1,363 @@
+[
+  {
+    "parentName": "Scatec",
+    "name": "Scatec Benban Solar Plants (Aswan)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Benban",
+    "country": "Egypt",
+    "address": "Benban Solar Park, Markaz Deraw, Aswan Governorate, Egypt",
+    "geoQueries": [
+      "Benban Scatec solar farm Aswan",
+      "Benban Solar Park Markaz Deraw Aswan",
+      "Scatec Benban PV Aswan Egypt"
+    ],
+    "approxLat": 24.418,
+    "approxLng": 32.711,
+    "coordsExact": true,
+    "footprintRadiusMeters": 1800,
+    "description": "Six operating solar plants totalling 380 MW at Benban near Aswan, owned by Scatec with KLP Norfund Investments and Africa50 and operated by Scatec; the coordinate is the printed location of phase PV 1.",
+    "source": "https://www.gem.wiki/Benban_Scatec_solar_farm"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Scatec Grootfontein Solar Cluster (Western Cape)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Witzenberg",
+    "country": "South Africa",
+    "address": "Grootfontein Farm, Witzenberg Local Municipality, Western Cape, South Africa",
+    "geoQueries": [
+      "Grootfontein PV solar farm Witzenberg Scatec",
+      "Grootfontein solar Western Cape Scatec",
+      "Grootfontein Farm 149 Witzenberg"
+    ],
+    "approxLat": -32.9583,
+    "approxLng": 19.9319,
+    "coordsExact": true,
+    "footprintRadiusMeters": 1400,
+    "description": "273 MW solar cluster in the Western Cape that Scatec lists as operating and for which it provides operations and maintenance; Scatec owns 51 percent, with H1 Holdings as partner.",
+    "source": "https://www.gem.wiki/Grootfontein_PV_solar_farm"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Mendubim Solar Complex (Assú)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Assú",
+    "country": "Brazil",
+    "address": "Assú, Rio Grande do Norte, Brazil",
+    "geoQueries": [
+      "Complexo Solar Mendubim Assú Rio Grande do Norte",
+      "UFV Mendubim Assu Scatec",
+      "Mendubim solar plant Assú RN"
+    ],
+    "approxLat": -5.57694,
+    "approxLng": -36.90889,
+    "coordsExact": false,
+    "footprintRadiusMeters": 1800,
+    "description": "531 MW solar complex in Assú, Rio Grande do Norte, in commercial operation since 2024; Scatec, Equinor and Hydro Rein each hold 30 percent and Alunorte 10 percent, and Scatec still lists it as operating.",
+    "source": "https://www.scatec.com/en/scatec-hydro-rein-and-equinor-start-commercial-operations-at-mendubim-solar-plant-in-brazil/"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Theun Hinboun Hydropower Plant (Na Hin)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Khoun Kham",
+    "country": "Laos",
+    "address": "Na Hin (Khoun Kham), Bolikhamxay Province, Laos",
+    "geoQueries": [
+      "Theun Hinboun powerhouse Na Hin Khoun Kham",
+      "Theun-Hinboun Hydropower Plant Bolikhamxay",
+      "THPC powerhouse Ban Nahin Laos"
+    ],
+    "approxLat": 18.210176,
+    "approxLng": 104.538788,
+    "coordsExact": false,
+    "footprintRadiusMeters": 400,
+    "description": "525 MW Theun Hinboun hydropower complex that Scatec lists as an operating asset in Laos; the coordinate is the main powerhouse at Na Hin (Khoun Kham).",
+    "source": "https://www.scatec.com/en/project/laos/"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Binga Hydroelectric Power Plant (Itogon)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Itogon",
+    "country": "Philippines",
+    "address": "Barangay Tinongdan, Itogon, Benguet, Philippines",
+    "geoQueries": [
+      "Binga Hydroelectric Power Plant Tinongdan Itogon",
+      "Binga Dam Benguet Philippines",
+      "SNAP Benguet Binga hydro"
+    ],
+    "approxLat": 16.4,
+    "approxLng": 120.725,
+    "coordsExact": true,
+    "footprintRadiusMeters": 400,
+    "description": "140 MW hydropower plant on the Agno River operated by SN Aboitiz Power-Benguet, the joint venture of Scatec and Aboitiz Power; the dam remains government-owned.",
+    "source": "https://en.wikipedia.org/wiki/Binga_Dam"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Ambuklao Hydroelectric Plant (Bokod)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Bokod",
+    "country": "Philippines",
+    "address": "Barangay Ambuklao, Bokod, Benguet, Philippines",
+    "geoQueries": [
+      "Ambuklao Dam Bokod Benguet",
+      "Ambuklao Hydroelectric Plant SNAP",
+      "Ambuklao hydro Agno River"
+    ],
+    "approxLat": 16.460419,
+    "approxLng": 120.744885,
+    "coordsExact": true,
+    "footprintRadiusMeters": 450,
+    "description": "Hydropower plant on the Agno River at Bokod, rehabilitated to 105 MW and operated by SN Aboitiz Power-Benguet, Scatec’s joint venture with Aboitiz Power.",
+    "source": "https://en.wikipedia.org/wiki/Ambuklao_Dam"
+  },
+  {
+    "parentName": "Loomis",
+    "name": "Loomis Norge Cash Centre (Alnabru)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Persveien 26, 0581 Oslo",
+    "geoQueries": [
+      "Loomis Norge Persveien 26 Alnabru",
+      "Loomis Norge AS 0581 Oslo",
+      "Persveien 26, 0581 Oslo"
+    ],
+    "approxLat": 59.9250450134277,
+    "approxLng": 10.8213729858398,
+    "coordsExact": true,
+    "footprintRadiusMeters": 180,
+    "description": "Loomis Norge’s cash-handling centre at Alnabru in Oslo, providing valuables transport and storage, and wholly owned by Loomis AB.",
+    "source": "https://www.1881.no/vaktselskaper/vaktselskaper-oslo/vaktselskaper-alnabru/loomis-norge-as_100812432S1/"
+  },
+  {
+    "parentName": "Loomis",
+    "name": "Loomis Suomi Cash Centre (Turvalaakso)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Vantaa",
+    "country": "Finland",
+    "address": "Turvalaaksontie 1, 01740 Vantaa",
+    "geoQueries": [
+      "Loomis Suomi Turvalaaksontie 1 Vantaa",
+      "Loomis Turvalaakso Tuupakka",
+      "Turvalaaksontie 1, 01740 Vantaa"
+    ],
+    "approxLat": 60.308,
+    "approxLng": 24.963,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Loomis Suomi’s main premises at Turvalaakso in Vantaa, a cash-in-transit and counting site in a Bank of Finland property, with 329 employees in 2025.",
+    "source": "https://www.finder.fi/Turvallisuustuotteet+turvallisuuspalvelut/Loomis+Suomi+Oy+p%C3%A4%C3%A4konttori/Vantaa/yhteystiedot/498715"
+  },
+  {
+    "parentName": "Loomis",
+    "name": "Loomis Schweiz Cash Centre (Kloten)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Kloten",
+    "country": "Switzerland",
+    "address": "Steinackerstrasse 49, 8302 Kloten",
+    "geoQueries": [
+      "Loomis Schweiz Steinackerstrasse 49 Kloten",
+      "Loomis AG 8302 Kloten",
+      "Steinackerstrasse 49, 8302 Kloten"
+    ],
+    "approxLat": 47.45,
+    "approxLng": 8.583,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Loomis Switzerland’s main cash-management premises in Kloten, the address given for the Swiss company that runs 13 branches and about 800 employees.",
+    "source": "https://ch.loomis.com/en-ch/about-us/locations"
+  },
+  {
+    "parentName": "Loomis",
+    "name": "Loomis España Cash Centre (Madrid)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Madrid",
+    "country": "Spain",
+    "address": "Calle de los Ahumaos 35-37, 28052 Madrid",
+    "geoQueries": [
+      "Loomis Calle de los Ahumaos 35 Madrid",
+      "Loomis España 28052 Madrid",
+      "Calle de los Ahumaos 35-37, 28052 Madrid"
+    ],
+    "approxLat": 40.35,
+    "approxLng": -3.69,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Loomis Spain’s Madrid cash centre at Calle de los Ahumaos 35-37, the delegation listed with the national customer-service telephone number.",
+    "source": "https://es.loomis.com/en-es/sobre-nosotros/delegaciones"
+  },
+  {
+    "parentName": "AddLife",
+    "name": "Hepro Production Plant (Rognan)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Rognan",
+    "country": "Norge",
+    "address": "Tømmerveien 10, 8250 Rognan",
+    "geoQueries": [
+      "Hepro Tømmerveien 10 Rognan",
+      "Hepro AS produksjon Rognan",
+      "Tømmerveien 10, 8250 Rognan"
+    ],
+    "approxLat": 67.1002,
+    "approxLng": 15.3909,
+    "coordsExact": false,
+    "footprintRadiusMeters": 180,
+    "description": "Hepro’s headquarters and production site for assistive products at Tømmerveien 10 in Rognan, owned by AddLife.",
+    "source": "https://hepro.no/contact-hepro/"
+  },
+  {
+    "parentName": "AddLife",
+    "name": "Hospidana Bandage Factory (Maribo)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Maribo",
+    "country": "Danmark",
+    "address": "Kleins Vej 6, 4930 Maribo",
+    "geoQueries": [
+      "Hospidana Kleins Vej 6 Maribo",
+      "Mediplast Hospidana bandage factory Maribo",
+      "Kleins Vej 6, 4930 Maribo"
+    ],
+    "approxLat": 54.77472,
+    "approxLng": 11.50111,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Mediplast’s bandage factory in Maribo, operated by Hospidana ApS at Kleins Vej 6, which AddLife’s Mediplast business describes as its Danish production site.",
+    "source": "https://www.northdata.com/Hospidana%20ApS,%20Maribo/CVR%2087874818"
+  },
+  {
+    "parentName": "AddLife",
+    "name": "Mediplast Infusion Plant (Roncanova)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Gazzo Veronese",
+    "country": "Italy",
+    "address": "Via Martiri della Libertà 1/B, Roncanova di Gazzo Veronese",
+    "geoQueries": [
+      "Mediplast SRL Via Martiri della Libertà Roncanova",
+      "Mediplast infusion plant Gazzo Veronese",
+      "Via Martiri della Libertà 1/B, Roncanova di Gazzo Veronese"
+    ],
+    "approxLat": 45.15,
+    "approxLng": 11.083,
+    "coordsExact": false,
+    "footprintRadiusMeters": 150,
+    "description": "Mediplast’s infusion-set factory at Via Martiri della Libertà 1/B in Roncanova di Gazzo Veronese, where the company says it produces infusion products.",
+    "source": "https://www.mediplast.com/about-us/contact-us"
+  },
+  {
+    "parentName": "Konecranes",
+    "name": "Konecranes Lift Trucks Factory (Markaryd)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Markaryd",
+    "country": "Sverige",
+    "address": "Anders Anderssons väg 13, 285 35 Markaryd",
+    "geoQueries": [
+      "Konecranes Lift Trucks Anders Anderssons väg Markaryd",
+      "Konecranes Lifttrucks AB Markaryd",
+      "Anders Anderssons väg 13, 285 35 Markaryd"
+    ],
+    "approxLat": 56.45,
+    "approxLng": 13.583,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Konecranes Lift Trucks’ European headquarters and production facility at Anders Anderssons väg 13 in Markaryd.",
+    "source": "https://www.kclifttrucks.com/contact-us"
+  },
+  {
+    "parentName": "Konecranes",
+    "name": "Konecranes Hoist Factory (Hämeenlinna)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Hämeenlinna",
+    "country": "Finland",
+    "address": "Ruununmyllyntie 13, 13210 Hämeenlinna",
+    "geoQueries": [
+      "Konecranes Hämeenlinnan tehdas Ruununmyllyntie",
+      "Konecranes hoist factory Hämeenlinna",
+      "Ruununmyllyntie 13, 13210 Hämeenlinna"
+    ],
+    "approxLat": 60.99444,
+    "approxLng": 24.46667,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Konecranes’ Hämeenlinna factory at Ruununmyllyntie 13, where the company builds smaller hoists, gears and electrical assemblies for cranes.",
+    "source": "https://www.konecranes.com/ru-ua/kontakty"
+  },
+  {
+    "parentName": "Konecranes",
+    "name": "Eurofactory Component Plant (Liebengrün)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Remptendorf",
+    "country": "Germany",
+    "address": "Liebengrün 167, 07368 Remptendorf",
+    "geoQueries": [
+      "Eurofactory Liebengrün 167 Remptendorf",
+      "Konecranes Eurofactory GmbH Liebengrün",
+      "Liebengrün 167, 07368 Remptendorf"
+    ],
+    "approxLat": 50.5585961,
+    "approxLng": 11.6506935,
+    "coordsExact": true,
+    "footprintRadiusMeters": 220,
+    "description": "Eurofactory GmbH component plant at Liebengrün 167 in Remptendorf, listed as Konecranes’ industrial-equipment production site in Germany.",
+    "source": "https://www.konecranes.com/de-de/standorte-in-deutschland-kontaktdaten"
+  },
+  {
+    "parentName": "Konecranes",
+    "name": "Konecranes Straddle Carrier Plant (Würzburg)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Würzburg",
+    "country": "Germany",
+    "address": "Albert-Einstein-Straße 3, 97080 Würzburg",
+    "geoQueries": [
+      "Konecranes straddle carrier Würzburg Albert-Einstein-Straße",
+      "Konecranes Noell Würzburg",
+      "Albert-Einstein-Straße 3, 97080 Würzburg"
+    ],
+    "approxLat": 49.783,
+    "approxLng": 9.933,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Konecranes’ Würzburg site at Albert-Einstein-Straße 3 for straddle carriers and sprinter carriers.",
+    "source": "https://www.konecranes.com/de-de/standorte-in-deutschland-kontaktdaten"
+  },
+  {
+    "parentName": "Konecranes",
+    "name": "Konecranes Parts Manufacturing Center (Watertown)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Watertown",
+    "country": "United States",
+    "address": "325 Air Park Drive, Watertown, WI 53098",
+    "geoQueries": [
+      "Konecranes parts manufacturing 325 Air Park Drive Watertown",
+      "Konecranes Watertown Wisconsin crane parts",
+      "325 Air Park Drive, Watertown WI 53098"
+    ],
+    "approxLat": 43.2,
+    "approxLng": -88.717,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Konecranes overhead-crane parts manufacturing centre at 325 Air Park Drive in Watertown, Wisconsin.",
+    "source": "https://www.konecranes.com/en-us/konecranes-locations-midwest"
+  },
+  {
+    "parentName": "Konecranes",
+    "name": "Konecranes Jejuri Factory (Pune)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Jejuri",
+    "country": "India",
+    "address": "Plot No. C-63/D-616, Jejuri MIDC, Purandar, Pune 412303",
+    "geoQueries": [
+      "Konecranes Jejuri Factory MIDC Purandar",
+      "Konecranes Plot C-63 Jejuri Pune",
+      "Jejuri MIDC, Purandar, Pune 412303"
+    ],
+    "approxLat": 18.275267,
+    "approxLng": 74.160822,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Konecranes’ Jejuri factory at Plot C-63/D-616 in the Jejuri MIDC industrial area at Purandar, near Pune.",
+    "source": "https://www.konecranes.com/ru-ua/kontakty"
+  }
+]

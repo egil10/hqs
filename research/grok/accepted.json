@@ -1,0 +1,817 @@
+[
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Boisbriand Carton Converting Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Boisbriand",
+    "country": "Canada",
+    "address": "3720 avenue des Grandes Tourelles, Boisbriand, QC J7H 0A1",
+    "geoQueries": [
+      "Elopak 3720 avenue des Grandes Tourelles Boisbriand",
+      "Elopak Canada J7H 0A1"
+    ],
+    "approxLat": 45.63256,
+    "approxLng": -73.86161,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's Canadian Pure-Pak printing and converting plant outside Montreal, still in production for Canada and the northern and eastern United States.",
+    "source": "https://ca.maptons.com/p/1876946422"
+  },
+  {
+    "parentName": "Verisure",
+    "name": "Verisure Norway HQ & Alarm Station (Skøyen)",
+    "facilityType": "Data Center, Telecom & Cloud",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Drammensveien 211, 0281 Oslo",
+    "geoQueries": [
+      "Verisure Drammensveien 211 Oslo",
+      "Drammensveien 211, 0281 Oslo"
+    ],
+    "approxLat": 59.91818,
+    "approxLng": 10.66176,
+    "coordsExact": true,
+    "footprintRadiusMeters": 200,
+    "description": "Norwegian headquarters and 24/7 alarm station of Verisure AS on Skøyen in Oslo.",
+    "source": "https://na.maptons.com/p/10534120801"
+  },
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Brachytherapy Plant (Nucletron, Veenendaal)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Veenendaal",
+    "country": "Netherlands",
+    "address": "Waardgelder 1, 3905 TH Veenendaal",
+    "geoQueries": [
+      "Nucletron Waardgelder 1 Veenendaal",
+      "Waardgelder 1, 3905 TH Veenendaal"
+    ],
+    "approxLat": 52.04103,
+    "approxLng": 5.53815,
+    "coordsExact": true,
+    "footprintRadiusMeters": 220,
+    "description": "Nucletron Operations B.V., part of Elekta, develops and manufactures brachytherapy afterloaders and applicators at Waardgelder 1 in Veenendaal.",
+    "source": "https://www.postcode-adresboek.nl/straat-waardgelder-veenendaal"
+  },
+  {
+    "parentName": "Assa Abloy",
+    "name": "FAB Rychnov Lock Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Rychnov nad Kněžnou",
+    "country": "Czech Republic",
+    "address": "Strojnická 633, 516 01 Rychnov nad Kněžnou",
+    "geoQueries": [
+      "ASSA ABLOY Opening Solutions CZ Strojnická 633 Rychnov",
+      "Strojnická 633, 516 01 Rychnov nad Kněžnou",
+      "FAB Rychnov lock cylinder factory"
+    ],
+    "approxLat": 50.15825,
+    "approxLng": 16.27925,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "ASSA ABLOY Opening Solutions CZ (FAB) manufactures mechanical and smart lock cylinders, electronic keys and padlocks at its Rychnov nad Kněžnou plant.",
+    "source": "https://ags.cuzk.cz/arcgis/rest/services/RUIAN/Vyhledavaci_sluzba_nad_daty_RUIAN/MapServer/exts/GeocodeSOE/findAddressCandidates?SingleLine=Strojnick%C3%A1+633%2C+Rychnov+nad+Kn%C4%9B%C5%BEnou&f=json&outSR=4326&maxLocations=2"
+  },
+  {
+    "parentName": "Assa Abloy",
+    "name": "Corbin Russwin Berlin Lock Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Berlin",
+    "country": "USA",
+    "address": "225 Episcopal Road, Berlin, CT 06037",
+    "geoQueries": [
+      "Corbin Russwin 225 Episcopal Road Berlin CT",
+      "225 Episcopal Road, Berlin, CT 06037",
+      "ASSA ABLOY Corbin Russwin manufacturing Berlin Connecticut"
+    ],
+    "approxLat": 41.64678,
+    "approxLng": -72.73624,
+    "coordsExact": true,
+    "footprintRadiusMeters": 320,
+    "description": "Corbin Russwin, an ASSA ABLOY brand, manufactures commercial locks and door hardware at its Berlin, Connecticut plant, still addressed at 225 Episcopal Road on a March 2026 company notice.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=225+Episcopal+Road%2C+Berlin%2C+CT+06037&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "HEXPOL",
+    "name": "HEXPOL Compounding Statesville",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Statesville",
+    "country": "USA",
+    "address": "280 Crawford Road, Statesville, NC 28625",
+    "geoQueries": [
+      "HEXPOL Compounding 280 Crawford Road Statesville",
+      "280 Crawford Road, Statesville, NC 28625",
+      "HEXPOL Statesville rubber compounding plant"
+    ],
+    "approxLat": 35.82249,
+    "approxLng": -80.84575,
+    "coordsExact": true,
+    "footprintRadiusMeters": 250,
+    "description": "HEXPOL Compounding Statesville mixes synthetic rubber compounds on automated lines and still publishes current ISO 9001 and 14001 certificates for the Crawford Road plant.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=280+Crawford+Road%2C+Statesville%2C+NC+28625&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Kone",
+    "name": "KONE AllenPlace Supply Campus",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Allen",
+    "country": "USA",
+    "address": "450 Century Parkway, Allen, TX 75013",
+    "geoQueries": [
+      "KONE AllenPlace 450 Century Parkway Allen TX",
+      "450 Century Parkway, Allen, TX 75013",
+      "KONE Allen light manufacturing test tower"
+    ],
+    "approxLat": 33.0975,
+    "approxLng": -96.67469,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "KONE's AllenPlace campus at 450 Century Parkway includes light manufacturing, supply operations, R&D and a test tower, and a May 2026 Texas filing records a KONE office renovation at Allen Place I on that street.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=450+Century+Parkway%2C+Allen%2C+TX+75013&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Alfa Laval",
+    "name": "Alfa Laval Richmond Heat Exchanger Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Richmond",
+    "country": "USA",
+    "address": "5400 International Trade Drive, Richmond, VA 23231",
+    "geoQueries": [
+      "Alfa Laval 5400 International Trade Drive Richmond",
+      "5400 International Trade Drive, Richmond, VA 23231",
+      "Alfa Laval Inc Richmond heat exchanger factory"
+    ],
+    "approxLat": 37.5281,
+    "approxLng": -77.33944,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "Alfa Laval's Richmond, Virginia manufacturing plant produces plate and brazed heat exchangers for North America and in February 2026 was expanding to double heat-exchanger capacity by mid-2028.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5400+International+Trade+Drive%2C+Richmond%2C+VA+23231&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "FLSmidth & Co",
+    "name": "FLSmidth Krebs Tucson Operations",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tucson",
+    "country": "USA",
+    "address": "5505 W Gillette Road, Tucson, AZ 85743",
+    "geoQueries": [
+      "FLSmidth Krebs 5505 W Gillette Road Tucson",
+      "5505 W Gillette Road, Tucson, AZ 85743",
+      "FLSmidth Tucson Operations Krebs pumps"
+    ],
+    "approxLat": 32.35104,
+    "approxLng": -111.08223,
+    "coordsExact": true,
+    "footprintRadiusMeters": 250,
+    "description": "FLSmidth lists Tucson Operations for KREBS slurry pumps, cyclones and valves, and trade records through 2025 still name FLSmidth Krebs at 5505 W Gillette Road.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5505+W+Gillette+Road%2C+Tucson%2C+AZ+85743&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Beijer Ref",
+    "name": "Beijer Ref Support Center & Central Warehouse (Oirschot)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oirschot",
+    "country": "Netherlands",
+    "address": "Westfields 1210, 5688 HA Oirschot",
+    "geoQueries": [
+      "Westfields 1210, 5688 HA Oirschot",
+      "Beijer Ref Support Center Oirschot",
+      "Westfields 1210 Oirschot Netherlands"
+    ],
+    "approxLat": 51.47969,
+    "approxLng": 5.37921,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "Beijer Ref's Benelux support centre, with a 12,500 m² central warehouse and Autostore, plus SCM Ref refrigeration assembly for the group's Benelux companies.",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?fq=type%3Aadres&q=Westfields+1210%2C+5688+HA+Oirschot&rows=3"
+  },
+  {
+    "parentName": "Hexatronic Group",
+    "name": "Hexatronic Tallinn Fiber Assembly",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "address": "Veerenni 52, 11313 Tallinn",
+    "geoQueries": [
+      "Veerenni 52, 11313 Tallinn",
+      "Hexatronic Tallinn fiber assembly",
+      "Veerenni 52 Tallinn Estonia"
+    ],
+    "approxLat": 59.4145,
+    "approxLng": 24.75622,
+    "coordsExact": true,
+    "footprintRadiusMeters": 160,
+    "description": "Hexatronic OÜ fiber-optic termination and cable-assembly plant at Veerenni 52, the group's largest termination house in the Baltic and Scandinavia.",
+    "source": "https://inaadress.maaamet.ee/inaadress/gazetteer?address=Veerenni+52%2C+11313+Tallinn"
+  },
+  {
+    "parentName": "Hexatronic Group",
+    "name": "Blue Diamond Clinton Conduit Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Clinton",
+    "country": "United States",
+    "address": "877 Torrington Road, Clinton, SC 29325",
+    "geoQueries": [
+      "877 Torrington Road, Clinton, SC 29325",
+      "Blue Diamond Industries Clinton South Carolina",
+      "Torrington Road Clinton SC conduit"
+    ],
+    "approxLat": 34.48088,
+    "approxLng": -81.92371,
+    "coordsExact": true,
+    "footprintRadiusMeters": 300,
+    "description": "Blue Diamond Industries, a Hexatronic Group company, manufactures HDPE conduit and microduct at its largest US plant in Clinton, which also houses Hexatronic's US warehouse and assembly.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=877+Torrington+Road%2C+Clinton%2C+SC+29325&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Hexatronic Group",
+    "name": "Blue Diamond Middlesboro Conduit Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Middlesboro",
+    "country": "United States",
+    "address": "804 S. 23rd Street, Middlesboro, KY 40965",
+    "geoQueries": [
+      "804 S. 23rd Street, Middlesboro, KY 40965",
+      "Blue Diamond Industries Middlesboro Kentucky",
+      "S 23rd Street Middlesboro KY conduit"
+    ],
+    "approxLat": 36.60116,
+    "approxLng": -83.71831,
+    "coordsExact": true,
+    "footprintRadiusMeters": 260,
+    "description": "Blue Diamond Industries' original flagship plant in Middlesboro, still producing HDPE conduit and microduct as part of Hexatronic Group.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=804+S.+23rd+Street%2C+Middlesboro%2C+KY+40965&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Odfjell",
+    "name": "Odfjell Terminals Houston (OTH)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Seabrook",
+    "country": "USA",
+    "address": "12211 Port Road, Seabrook, Texas 77586",
+    "geoQueries": [
+      "Odfjell Terminals Houston 12211 Port Road Seabrook",
+      "12211 Port Road, Seabrook, TX 77586",
+      "Odfjell Terminals Bayport Ship Channel"
+    ],
+    "approxLat": 29.60405,
+    "approxLng": -95.02052,
+    "coordsExact": true,
+    "footprintRadiusMeters": 340,
+    "description": "Odfjell SE holds 51% of this bulk-liquid chemical tank terminal at the Houston Ship Channel entrance (about 413,000 cbm and 128 tanks) and operates it through Odfjell Terminals US; still listed as an operating terminal in 2026.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=12211+Port+Road%2C+Seabrook%2C+Texas+77586&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Odfjell",
+    "name": "Odfjell Terminals Charleston (OTC)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "North Charleston",
+    "country": "USA",
+    "address": "1003 East Montague Avenue, North Charleston, South Carolina 29405",
+    "geoQueries": [
+      "Odfjell Terminals Charleston 1003 East Montague Avenue",
+      "1003 East Montague Avenue, North Charleston, SC 29405",
+      "Odfjell Terminals Cooper River"
+    ],
+    "approxLat": 32.88152,
+    "approxLng": -79.97345,
+    "coordsExact": true,
+    "footprintRadiusMeters": 250,
+    "description": "Odfjell SE holds 51% of this Cooper River chemical tank terminal (79,243 cbm, nine tanks, one deep-sea berth), commercially operated with Odfjell Terminals Houston and still listed by Odfjell in 2026.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1003+East+Montague+Avenue%2C+North+Charleston%2C+South+Carolina+29405&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Odfjell",
+    "name": "Noord Natie Odfjell Antwerp Terminal (NNOAT)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "address": "Blauwe Weg 44, Haven 225-253, 2030 Antwerp",
+    "geoQueries": [
+      "Noord Natie Odfjell Antwerp Terminal Blauwe Weg 44",
+      "Blauwe Weg 44, 2030 Antwerpen",
+      "Noord Natie Terminals Haven 225"
+    ],
+    "approxLat": 51.25732,
+    "approxLng": 4.36638,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "Odfjell SE holds a 25% stake in this Port of Antwerp liquid-bulk terminal (about 501,000 cbm and 254 tanks) between the Fourth Harbour Dock and Leopold Dock; still an operating Odfjell terminal in 2026.",
+    "source": "https://geo.api.vlaanderen.be/geolocation/v4/Location?q=Blauwe+Weg+44%2C+Antwerp&c=3"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Advario Stolthaven Antwerp",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "address": "Haven 623, Scheldelaan 450, 2040 Antwerp",
+    "geoQueries": [
+      "Advario Stolthaven Antwerp Scheldelaan 450",
+      "Scheldelaan 450, Haven 623, 2040 Antwerpen",
+      "Stolthaven Antwerp Haven 623"
+    ],
+    "approxLat": 51.3115906,
+    "approxLng": 4.346142,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "Joint-venture tank terminal in the Antwerp refining and petrochemical complex (189 tanks, 1,330,600 m3), still listed on the Stolthaven network.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/advario-stolthaven-antwerp-nv/"
+  },
+  {
+    "parentName": "DFDS",
+    "name": "DFDS Vlaardingen (Rotterdam) Terminal",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Vlaardingen",
+    "country": "Netherlands",
+    "address": "Vulcaanweg 20, Port no. 615, 3134 KL Vlaardingen",
+    "geoQueries": [
+      "DFDS Seaways Vlaardingen Vulcaanweg 20",
+      "Vulcaanweg 20, 3134 KL Vlaardingen",
+      "DFDS Rotterdam terminal Port 615"
+    ],
+    "approxLat": 51.90583,
+    "approxLng": 4.35906,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "DFDS-operated ro-ro terminal in Vlaardingen (22.9 hectares and three berths up to 230 m), where DFDS runs its own vessels to UK ports.",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?fq=type%3Aadres&q=Vulcaanweg+20%2C+Port+no.+615%2C+3134+KL+Vlaardingen&rows=3"
+  },
+  {
+    "parentName": "DSV",
+    "name": "DSV Venlo Fulfilment Factory (Popeweg)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Venlo",
+    "country": "Netherlands",
+    "address": "Popeweg 50, 5928 SC Venlo",
+    "geoQueries": [
+      "DSV Fulfilment Factory Popeweg 50 Venlo",
+      "Popeweg 50, 5928 SC Venlo",
+      "DSV Venlo 1 AutoStore"
+    ],
+    "approxLat": 51.40858,
+    "approxLng": 6.09209,
+    "coordsExact": true,
+    "footprintRadiusMeters": 320,
+    "description": "DSV operates this multi-user warehouse in Venlo (62,000 m2 with an AutoStore Fulfilment Factory) at Popeweg 50.",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?fq=type%3Aadres&q=Popeweg+50%2C+5928+SC+Venlo&rows=3"
+  },
+  {
+    "parentName": "DSV",
+    "name": "DSV Venlo Automated Warehouse (Logistiekweg)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Venlo",
+    "country": "Netherlands",
+    "address": "Logistiekweg 2, 5928 SG Venlo",
+    "geoQueries": [
+      "DSV Logistiekweg 2 Venlo ASRS",
+      "Logistiekweg 2, 5928 SG Venlo",
+      "DSV Venlo 4 automated warehouse"
+    ],
+    "approxLat": 51.41094,
+    "approxLng": 6.09416,
+    "coordsExact": true,
+    "footprintRadiusMeters": 330,
+    "description": "DSV operates this automated Venlo warehouse at Logistiekweg 2 (83,000 m2, goods-to-person ASRS, pick-by-light and an automated pack line).",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?fq=type%3Aadres&q=Logistiekweg+2%2C+5928+SG+Venlo&rows=3"
+  },
+  {
+    "parentName": "DSV",
+    "name": "DSV Moerdijk Logistics Campus",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Moerdijk",
+    "country": "Netherlands",
+    "address": "Exportweg 1, 4782 JA Moerdijk",
+    "geoQueries": [
+      "DSV Exportweg 1 Logistiek Park Moerdijk",
+      "Exportweg 1, 4782 JA Moerdijk",
+      "DSV Moerdijk warehouse campus"
+    ],
+    "approxLat": 51.68961,
+    "approxLng": 4.64071,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "DSV operates this Logistiek Park Moerdijk campus at Exportweg 1, with more than 200,000 m2 of warehousing on over 34 hectares, as a European contract-logistics hub.",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?fq=type%3Aadres&q=Exportweg+1%2C+4782+JA+Moerdijk&rows=3"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Terneuzen Converting & Coating Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Terneuzen",
+    "country": "Netherlands",
+    "address": "Mr. F.J. Haarmanweg 44, 4538 AS Terneuzen",
+    "geoQueries": [
+      "Elopak Mr. F.J. Haarmanweg 44 Terneuzen",
+      "Elopak B.V. 4538 AS Terneuzen",
+      "Osloweg 1, 4538 BM Terneuzen Elopak",
+      "Mr. F.J. Haarmanweg 44, 4538 AS Terneuzen"
+    ],
+    "approxLat": 51.30632,
+    "approxLng": 3.84488,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's largest European carton hub in Terneuzen, converting Pure-Pak cartons and coating board, with a new coating line under construction in 2026 for start-up in 2027.",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?fq=type%3Aadres&q=Mr.+F.J.+Haarmanweg+44%2C+4538+AS+Terneuzen&rows=3"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Little Rock Carton Converting Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Little Rock",
+    "country": "United States",
+    "address": "6101 Zeuber Road, Little Rock, AR 72206",
+    "geoQueries": [
+      "Elopak 6101 Zeuber Road Little Rock",
+      "Elopak Port of Little Rock carton plant",
+      "6101 Zeuber Road, Little Rock, AR 72206"
+    ],
+    "approxLat": 34.70182,
+    "approxLng": -92.21176,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's first U.S. Pure-Pak carton converting plant, opened in April 2025 at the Port of Little Rock, with a second line due in 2026 and a third planned for 2027.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6101+Zeuber+Road%2C+Little+Rock%2C+AR+72206&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Coloplast Minneapolis Interventional Urology Site",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Minneapolis",
+    "country": "United States",
+    "address": "1601 West River Road North, Minneapolis, MN 55411",
+    "geoQueries": [
+      "Coloplast 1601 West River Road North Minneapolis",
+      "Coloplast Manufacturing US Minneapolis",
+      "1601 West River Road North, Minneapolis, MN 55411"
+    ],
+    "approxLat": 44.99536,
+    "approxLng": -93.27658,
+    "coordsExact": true,
+    "footprintRadiusMeters": 220,
+    "description": "Coloplast's Minneapolis campus, the US owner address for its device establishments and the group's specialised US production site for interventional urology products.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1601+West+River+Road+North%2C+Minneapolis%2C+MN+55411&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Royal Unibrew",
+    "name": "Vrumona Bunnik Soft-Drink Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Bunnik",
+    "country": "Netherlands",
+    "address": "Vrumonaweg 2, 3981 HT Bunnik",
+    "geoQueries": [
+      "Vrumona Vrumonaweg 2 Bunnik",
+      "Vrumona B.V. 3981 HT Royal Unibrew",
+      "Vrumonaweg 2, 3981 HT Bunnik"
+    ],
+    "approxLat": 52.06289,
+    "approxLng": 5.20535,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "Vrumona B.V.'s Bunnik soft-drink and bottled-water plant, owned by Royal Unibrew Netherlands B.V. and still registered there in the Dutch trade register as of 12 October 2026.",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?fq=type%3Aadres&q=Vrumonaweg+2%2C+3981+HT+Bunnik&rows=3"
+  },
+  {
+    "parentName": "Elekta",
+    "name": "Elekta Xoft Electronic Brachytherapy Plant (San Jose)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "San Jose",
+    "country": "USA",
+    "address": "101 Nicholson Lane, San Jose, CA 95134",
+    "geoQueries": [
+      "Elekta Inc 101 Nicholson Lane San Jose",
+      "Xoft Elekta 101 Nicholson Ln San Jose CA 95134",
+      "101 Nicholson Lane, San Jose, CA 95134"
+    ],
+    "approxLat": 37.41217,
+    "approxLng": -121.94546,
+    "coordsExact": true,
+    "footprintRadiusMeters": 180,
+    "description": "Elekta Inc. assembles Xoft Axxent electronic brachytherapy devices at 101 Nicholson Lane in San Jose, the facility transferred when Elekta acquired the Xoft business from iCAD in 2023.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=101+Nicholson+Lane%2C+San+Jose%2C+CA+95134&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Arjo",
+    "name": "Arjo ReNu Medical Reprocessing Plant (Everett)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Everett",
+    "country": "USA",
+    "address": "5900 36th Ave West, Bldg B, Suite 100, Everett, WA 98203",
+    "geoQueries": [
+      "Renu Medical Inc 5900 36th Ave West Everett",
+      "Arjo ReNu 5900 36th Ave West Bldg B Suite 100 Everett WA 98203",
+      "5900 36th Ave West, Everett, WA 98203"
+    ],
+    "approxLat": 47.94326,
+    "approxLng": -122.28245,
+    "coordsExact": true,
+    "footprintRadiusMeters": 180,
+    "description": "Renu Medical, Inc., an Arjo subsidiary, reprocesses single-use medical devices at 5900 36th Ave West in Everett; Arjo ReNu reprocessed almost five million products in 2025.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5900+36th+Ave+West%2C+Bldg+B%2C+Suite+100%2C+Everett%2C+WA+98203&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "Lifco",
+    "name": "LEAB Eesti Electronics Factory (Tänassilma)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Tänassilma",
+    "country": "Estonia",
+    "address": "Põikmäe 1, Tänassilma, 76406 Saku vald",
+    "geoQueries": [
+      "LEAB Eesti OÜ Põikmäe 1 Tänassilma",
+      "Leab Eesti factory Põikmäe 1 76406 Saku vald",
+      "Põikmäe 1, Tänassilma, 76406 Saku vald"
+    ],
+    "approxLat": 59.34304,
+    "approxLng": 24.62729,
+    "coordsExact": true,
+    "footprintRadiusMeters": 180,
+    "description": "LEAB Eesti OÜ, a Lifco contract manufacturer, runs volume electronics production at its Tänassilma factory, which Lifco lists as a manufacturing unit with 154 employees and 466 non-employees.",
+    "source": "https://inaadress.maaamet.ee/inaadress/gazetteer?address=P%C3%B5ikm%C3%A4e+1%2C+T%C3%A4nassilma%2C+76406+Saku+vald"
+  },
+  {
+    "parentName": "Lifco",
+    "name": "Demarec Attachment Plant (Cuijk)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Cuijk",
+    "country": "Netherlands",
+    "address": "De Hork 32, 5431 NS Cuijk",
+    "geoQueries": [
+      "Demarec Demolition and Recycling B.V. De Hork 32 Cuijk",
+      "Demarec plant De Hork 32 5431 NS Cuijk",
+      "De Hork 32, 5431 NS Cuijk"
+    ],
+    "approxLat": 51.71853,
+    "approxLng": 5.87251,
+    "coordsExact": true,
+    "footprintRadiusMeters": 200,
+    "description": "Demarec Demolition and Recycling B.V., part of Lifco’s Kinshofer group, produces and assembles demolition and recycling excavator attachments at its plant on De Hork 32 in Cuijk.",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?fq=type%3Aadres&q=De+Hork+32%2C+5431+NS+Cuijk&rows=3"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Singapore",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Singapore",
+    "country": "Singapore",
+    "address": "22 Tembusu Crescent, Jurong Island, Singapore 627611",
+    "geoQueries": [
+      "Stolthaven Singapore 22 Tembusu Crescent Jurong Island",
+      "22 Tembusu Crescent, Singapore 627611",
+      "Stolthaven Tembusu Jurong Island"
+    ],
+    "approxLat": 1.273312,
+    "approxLng": 103.6656959,
+    "coordsExact": true,
+    "footprintRadiusMeters": 340,
+    "description": "Wholly owned Stolthaven bulk-liquid terminal on Jurong Island (81 tanks, 230,700 m3) serving manufacturers at Tembusu, still listed on the Stolthaven network.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/stolthaven-singapore/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Dagenham",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Dagenham",
+    "country": "United Kingdom",
+    "address": "Choats Road, Dagenham, Essex RM9 6PU",
+    "geoQueries": [
+      "Stolthaven Dagenham Choats Road",
+      "Choats Road, Dagenham, Essex RM9 6PU",
+      "Stolthaven Thames Dagenham terminal"
+    ],
+    "approxLat": 51.5175008,
+    "approxLng": 0.1387273,
+    "coordsExact": true,
+    "footprintRadiusMeters": 320,
+    "description": "Wholly owned COMAH top-tier bulk-liquid terminal on the River Thames (100 tanks, 171,016 m3), still operated by Stolthaven.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/stolthaven-dagenham/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Santos",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Santos",
+    "country": "Brazil",
+    "address": "Rua Augusto Scaraboto 215, Alemoa, Santos, São Paulo 11095-500",
+    "geoQueries": [
+      "Stolthaven Santos Rua Augusto Scaraboto 215",
+      "R. Augusto Scaraboto, 215, Alemoa, Santos 11095-500",
+      "Stolthaven Port of Santos Alemoa"
+    ],
+    "approxLat": -23.9265267,
+    "approxLng": -46.3632773,
+    "coordsExact": true,
+    "footprintRadiusMeters": 320,
+    "description": "Wholly owned Stolthaven bulk-liquid terminal in the Port of Santos (95 tanks, 149,627 m3), used for domestic break-bulk and regional distribution.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/stolthaven-santos/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Jeong IL Stolthaven Ulsan",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Ulsan",
+    "country": "South Korea",
+    "address": "297 Sanam-ro, Onsan-eup, Ulju-gun, Ulsan",
+    "geoQueries": [
+      "Jeong IL Stolthaven Ulsan 297 Sanam-ro",
+      "297 Sanam-ro, Onsan-eup, Ulju-gun, Ulsan",
+      "Stolthaven Ulsan Onsan tank terminal"
+    ],
+    "approxLat": 35.4430977,
+    "approxLng": 129.367547,
+    "coordsExact": true,
+    "footprintRadiusMeters": 350,
+    "description": "Joint-venture bulk-liquid terminal in the Ulsan/Onsan complex (244 tanks, 1,655,700 m3), Stolthaven’s North Asia Pacific distribution hub and still listed as operating.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/jeong-il-stolthaven-ulsan/"
+  },
+  {
+    "parentName": "Stolt-Nielsen",
+    "name": "Stolthaven Westport",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Port Klang",
+    "country": "Malaysia",
+    "address": "Petrochemical Jetty, Westport, 42009 Port Klang, Selangor",
+    "geoQueries": [
+      "Stolthaven Westport Petrochemical Jetty Port Klang",
+      "Petrochemical Jetty, Westport, 42009 Port Klang",
+      "Stolthaven Westport Selangor tank terminal"
+    ],
+    "approxLat": 2.9774088,
+    "approxLng": 101.4147719,
+    "coordsExact": true,
+    "footprintRadiusMeters": 330,
+    "description": "Joint-venture bulk-liquid terminal at Westport, Port Klang (137 tanks, 280,150 m3), still operated as a Stolthaven regional distribution hub.",
+    "source": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/stolthaven-westport/"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Scatec Benban Solar Plants (Aswan)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Benban",
+    "country": "Egypt",
+    "address": "Benban Solar Park, Markaz Deraw, Aswan Governorate, Egypt",
+    "geoQueries": [
+      "Benban Scatec solar farm Aswan",
+      "Benban Solar Park Markaz Deraw Aswan",
+      "Scatec Benban PV Aswan Egypt"
+    ],
+    "approxLat": 24.418,
+    "approxLng": 32.711,
+    "coordsExact": true,
+    "footprintRadiusMeters": 1800,
+    "description": "Six operating Scatec solar plants totalling 380 MW at Benban near Aswan, owned with KLP Norfund Investments and Africa50. The pin is the PV 1 phase, which GEM lists at 24.4180, 32.7110.",
+    "source": "https://www.gem.wiki/Benban_Scatec_solar_farm"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Scatec Grootfontein Solar Cluster (Western Cape)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Witzenberg",
+    "country": "South Africa",
+    "address": "Grootfontein Farm, Witzenberg Local Municipality, Western Cape, South Africa",
+    "geoQueries": [
+      "Grootfontein PV solar farm Witzenberg Scatec",
+      "Grootfontein solar Western Cape Scatec",
+      "Grootfontein Farm 149 Witzenberg"
+    ],
+    "approxLat": -32.9583,
+    "approxLng": 19.9319,
+    "coordsExact": true,
+    "footprintRadiusMeters": 1400,
+    "description": "273 MW solar cluster in the Western Cape that Scatec lists as operating and for which it provides operations and maintenance; Scatec owns 51 percent, with H1 Holdings as partner.",
+    "source": "https://www.gem.wiki/Grootfontein_PV_solar_farm"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Binga Hydroelectric Power Plant (Itogon)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Itogon",
+    "country": "Philippines",
+    "address": "Barangay Tinongdan, Itogon, Benguet, Philippines",
+    "geoQueries": [
+      "Binga Hydroelectric Power Plant Tinongdan Itogon",
+      "Binga Dam Benguet Philippines",
+      "SNAP Benguet Binga hydro"
+    ],
+    "approxLat": 16.4,
+    "approxLng": 120.725,
+    "coordsExact": true,
+    "footprintRadiusMeters": 400,
+    "description": "140 MW hydropower plant on the Agno River at Itogon, operated by SN Aboitiz Power-Benguet, the joint venture Scatec holds through SN Power. Wikipedia states the dam coordinates.",
+    "source": "https://en.wikipedia.org/wiki/Binga_Dam"
+  },
+  {
+    "parentName": "Scatec",
+    "name": "Ambuklao Hydroelectric Plant (Bokod)",
+    "facilityType": "Offshore, Marine & Energy",
+    "city": "Bokod",
+    "country": "Philippines",
+    "address": "Barangay Ambuklao, Bokod, Benguet, Philippines",
+    "geoQueries": [
+      "Ambuklao Dam Bokod Benguet",
+      "Ambuklao Hydroelectric Plant SNAP",
+      "Ambuklao hydro Agno River"
+    ],
+    "approxLat": 16.460419,
+    "approxLng": 120.744885,
+    "coordsExact": true,
+    "footprintRadiusMeters": 450,
+    "description": "105 MW hydropower plant at Bokod on the Agno River, rehabilitated and operated by SN Aboitiz Power-Benguet, the joint venture Scatec holds through SN Power. Wikipedia states the dam coordinates.",
+    "source": "https://en.wikipedia.org/wiki/Ambuklao_Dam"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Technologies Windber Electronics Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Windber",
+    "country": "United States",
+    "address": "345 Pomroys Drive, Windber, Pennsylvania 15963",
+    "geoQueries": [
+      "Kitron Technologies 345 Pomroys Drive Windber",
+      "345 Pomroys Drive, Windber, PA 15963",
+      "Kitron Technologies Inc Windber"
+    ],
+    "approxLat": 40.22166,
+    "approxLng": -78.82736,
+    "coordsExact": true,
+    "footprintRadiusMeters": 260,
+    "description": "Kitron's US electronics plant in Windber, Pennsylvania, which in 2026 added an SMT line and ISO 27001 certification for high-reliability manufacturing.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=345+Pomroys+Drive%2C+Windber%2C+PA+15963&benchmark=Public_AR_Current&format=json"
+  },
+  {
+    "parentName": "OEM International",
+    "name": "OEM Automatic Czech Central Warehouse (Zdiby)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Zdiby",
+    "country": "Czech Republic",
+    "address": "Pražská 239, 250 66 Zdiby",
+    "geoQueries": [
+      "OEM Automatic Pražská 239 Zdiby",
+      "Pražská 239, 250 66 Zdiby",
+      "OEM Automatic spol. s r.o. Zdiby sklad"
+    ],
+    "approxLat": 50.17299,
+    "approxLng": 14.4512,
+    "coordsExact": true,
+    "footprintRadiusMeters": 200,
+    "description": "OEM Automatic's central warehouse in Zdiby north of Prague, at Pražská 239, which the company says will still be dispatching in December 2026.",
+    "source": "https://ags.cuzk.cz/arcgis/rest/services/RUIAN/Vyhledavaci_sluzba_nad_daty_RUIAN/MapServer/exts/GeocodeSOE/findAddressCandidates?SingleLine=Prazska+239%2C+Zdiby&f=json&outSR=4326"
+  },
+  {
+    "parentName": "Loomis",
+    "name": "Loomis Norge Cash Centre (Alnabru)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Oslo",
+    "country": "Norge",
+    "address": "Persveien 26, 0581 Oslo",
+    "geoQueries": [
+      "Loomis Norge Persveien 26 Alnabru",
+      "Loomis Norge AS 0581 Oslo",
+      "Persveien 26, 0581 Oslo"
+    ],
+    "approxLat": 59.92505,
+    "approxLng": 10.82137,
+    "coordsExact": true,
+    "footprintRadiusMeters": 180,
+    "description": "Loomis Norge’s cash-handling centre at Alnabru in Oslo, providing valuables transport and storage, and wholly owned by Loomis AB.",
+    "source": "https://www.1881.no/vaktselskaper/vaktselskaper-oslo/vaktselskaper-alnabru/loomis-norge-as_100812432S1/"
+  },
+  {
+    "parentName": "Konecranes",
+    "name": "Eurofactory Component Plant (Liebengrün)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Remptendorf",
+    "country": "Germany",
+    "address": "Liebengrün 167, 07368 Remptendorf",
+    "geoQueries": [
+      "Eurofactory Liebengrün 167 Remptendorf",
+      "Konecranes Eurofactory GmbH Liebengrün",
+      "Liebengrün 167, 07368 Remptendorf"
+    ],
+    "approxLat": 50.5586,
+    "approxLng": 11.65069,
+    "coordsExact": true,
+    "footprintRadiusMeters": 220,
+    "description": "Eurofactory GmbH component plant at Liebengrün 167 in Remptendorf, listed as Konecranes’ industrial-equipment production site in Germany.",
+    "source": "https://www.konecranes.com/de-de/standorte-in-deutschland-kontaktdaten"
+  },
+  {
+    "parentName": "Konecranes",
+    "name": "Konecranes Parts Manufacturing Center (Watertown)",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Watertown",
+    "country": "United States",
+    "address": "325 Air Park Drive, Watertown, WI 53098",
+    "geoQueries": [
+      "Konecranes parts manufacturing 325 Air Park Drive Watertown",
+      "Konecranes Watertown Wisconsin crane parts",
+      "325 Air Park Drive, Watertown WI 53098"
+    ],
+    "approxLat": 43.16588,
+    "approxLng": -88.71867,
+    "coordsExact": true,
+    "footprintRadiusMeters": 200,
+    "description": "Konecranes overhead-crane parts manufacturing centre at 325 Air Park Drive in Watertown, Wisconsin.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=325+Air+Park+Drive%2C+Watertown%2C+WI+53098&benchmark=Public_AR_Current&format=json"
+  }
+]

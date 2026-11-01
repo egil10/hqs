@@ -1,0 +1,12 @@
+# Next wave — not started. Launch only after wave 1 is saving cleanly
+# and these names are still absent from research/claude/group_I*.txt.
+# Claude owns the I-groups. Do not geocode with Nominatim while autosave.sh is running.
+
+Kitron
+Inwido
+Nederman Holding
+OEM International
+Scatec
+Loomis
+AddLife
+Konecranes

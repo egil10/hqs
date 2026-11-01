@@ -1,0 +1,116 @@
+[
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Longum Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Arendal",
+    "country": "Norge",
+    "address": "Longum Næringspark, Arendal",
+    "geoQueries": [
+      "Kitron Longum Næringspark Arendal",
+      "Kitron Longum fabrikk Arendal",
+      "Longum Næringspark E18 Arendal"
+    ],
+    "approxLat": 58.498,
+    "approxLng": 8.772,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Kitron Norway's electronics factory at Longum Næringspark north of Arendal, about 7,500 square metres, opened in August 2026 in addition to the Kilsund plant.",
+    "source": "https://arendalsfossekompani.no/en/news/portfolio-company-afk-eiendom-marks-completion-of-new-kitron-facility"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Grudziądz Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Grudziądz",
+    "country": "Poland",
+    "address": "ul. Droga Kurpiowska 75, 86-300 Grudziądz",
+    "geoQueries": [
+      "Kitron Droga Kurpiowska 75 Grudziądz",
+      "ul. Droga Kurpiowska 75, 86-300 Grudziądz",
+      "Kitron Sp. z o.o. Grudziądz"
+    ],
+    "approxLat": 53.456,
+    "approxLng": 18.779,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Kitron's Polish electronics manufacturing plant in Grudziądz, opened in 2019 and still listed among the group's manufacturing sites.",
+    "source": "https://www.kitron.com/storage/files/Annual-Reports/Kitron-Annual-Report-2024.pdf"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Ningbo Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ningbo",
+    "country": "China",
+    "address": "No. 189 DongHui Road, Nordic Industrial Park, Zhenhai District, Ningbo 315221",
+    "geoQueries": [
+      "Kitron Electronics Manufacturing Ningbo 189 DongHui Road",
+      "No. 189 DongHui Road Nordic Industrial Park Zhenhai Ningbo",
+      "Kitron Ningbo 315221"
+    ],
+    "approxLat": 30.008,
+    "approxLng": 121.64,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Kitron Electronics Manufacturing (Ningbo) Co., Ltd factory in Zhenhai's Nordic Industrial Park, a main Asian electronics manufacturing site for the group.",
+    "source": "https://www.kitron.com/storage/files/Annual-Reports/Kitron-Annual-Report-2024.pdf"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Technologies Windber Electronics Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Windber",
+    "country": "United States",
+    "address": "345 Pomroys Drive, Windber, Pennsylvania 15963",
+    "geoQueries": [
+      "Kitron Technologies 345 Pomroys Drive Windber",
+      "345 Pomroys Drive, Windber, PA 15963",
+      "Kitron Technologies Inc Windber"
+    ],
+    "approxLat": 40.23,
+    "approxLng": -78.83,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "Kitron's US electronics plant in Windber, Pennsylvania, which in 2026 added an SMT line and ISO 27001 certification for high-reliability manufacturing.",
+    "source": "https://www.kitron.com/blog/strategic-investments-at-kitron-us"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Horsens Electronics Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Horsens",
+    "country": "Danmark",
+    "address": "Ane Staunings Vej 21, 8700 Horsens",
+    "geoQueries": [
+      "Kitron Ane Staunings Vej 21 Horsens",
+      "Ane Staunings Vej 21, 8700 Horsens",
+      "Kitron A/S Horsens factory"
+    ],
+    "approxLat": 55.881,
+    "approxLng": 9.805,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Kitron Denmark's Horsens electronics factory, about 7,700 square metres with three SMT lines, the current site pending a larger plant planned for 2028.",
+    "source": "https://www.kitron.com/blog/50-years-of-kitron-denmark"
+  },
+  {
+    "parentName": "Kitron",
+    "name": "Kitron Eltech Örnsköldsvik Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Örnsköldsvik",
+    "country": "Sverige",
+    "address": "Björnavägen 74, 891 42 Örnsköldsvik",
+    "geoQueries": [
+      "Kitron Eltech Björnavägen 74 Örnsköldsvik",
+      "Björnavägen 74, 891 42 Örnsköldsvik",
+      "DeltaNordic Kitron Eltech Örnsköldsvik"
+    ],
+    "approxLat": 63.276,
+    "approxLng": 18.712,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "Kitron Eltech AB (formerly DeltaNordic) electrical and electronics manufacturing plant in Örnsköldsvik, acquired by Kitron in 2026, with about 143 employees.",
+    "source": "https://www.allabolag.se/foretag/kitron-eltech-ab/%C3%B6rnsk%C3%B6ldsvik/elmateriel/2K11VJNI5YDZR"
+  }
+]

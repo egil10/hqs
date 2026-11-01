@@ -1,0 +1,116 @@
+[
+  {
+    "parentName": "Alfa Laval",
+    "name": "Alfa Laval Richmond Heat Exchanger Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Richmond",
+    "country": "USA",
+    "address": "5400 International Trade Drive, Richmond, VA 23231",
+    "geoQueries": [
+      "Alfa Laval 5400 International Trade Drive Richmond",
+      "5400 International Trade Drive, Richmond, VA 23231",
+      "Alfa Laval Inc Richmond heat exchanger factory"
+    ],
+    "approxLat": 37.4965,
+    "approxLng": -77.3198,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Alfa Laval's Richmond, Virginia manufacturing plant produces plate and brazed heat exchangers for North America and in February 2026 was expanding to double heat-exchanger capacity by mid-2028.",
+    "source": "https://www.marketscreener.com/news/alfa-laval-announces-major-expansion-of-its-richmond-virginia-manufacturing-facility-ce7e5dd3d88fff2d"
+  },
+  {
+    "parentName": "Alfa Laval",
+    "name": "Alfa Laval Ronneby Brazed Heat Exchanger Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Ronneby",
+    "country": "Sverige",
+    "address": "Metallgatan 2, 372 38 Ronneby",
+    "geoQueries": [
+      "Alfa Laval Metallgatan 2 Ronneby",
+      "Metallgatan 2, 372 38 Ronneby",
+      "Alfa Laval Ronneby värmeväxlare"
+    ],
+    "approxLat": 56.21,
+    "approxLng": 15.276,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "Alfa Laval's Ronneby works on Metallgatan, separate from the Lund plant, manufactures brazed heat exchangers and remained a permitted Swedish heat-exchanger factory in the 2025 annual report.",
+    "source": "https://www.marketscreener.com/news/alfa-laval-annual-and-sustainability-report-2025-ce7e5ed3da8cf720"
+  },
+  {
+    "parentName": "Alfa Laval",
+    "name": "Alfa Laval San Bonifacio Brazed Heat Exchanger Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "San Bonifacio",
+    "country": "Italy",
+    "address": "Località Ritonda 80/E, 37047 San Bonifacio",
+    "geoQueries": [
+      "Alfa Laval Località Ritonda 80/E San Bonifacio",
+      "Località Ritonda 80/E, 37047 San Bonifacio",
+      "Alfa Laval San Bonifacio brazed heat exchanger factory"
+    ],
+    "approxLat": 45.374,
+    "approxLng": 11.25,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Alfa Laval's San Bonifacio plant manufactures brazed heat exchangers for heat pumps and data-center cooling and was still named as an Italian manufacturing site in the group's Q2 2026 report.",
+    "source": "https://www.alfalaval.com/contentassets/d17d9f898dbd4387b3ee7cf206c2af19/wkr0006.pdf"
+  },
+  {
+    "parentName": "Alfa Laval",
+    "name": "Alfa Laval Jiangyin Equipment Manufacturing Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Jiangyin",
+    "country": "China",
+    "address": "465 Renmin Road, Qiaoqi, Xiake Town, Jiangyin 214408",
+    "geoQueries": [
+      "Alfa Laval 465 Renmin Road Qiaoqi Xiake Jiangyin",
+      "465 Renmin Road, Qiaoqi, Xiake Town, Jiangyin 214408",
+      "Alfa Laval Jiangyin Manufacturing Co heat exchangers"
+    ],
+    "approxLat": 31.71,
+    "approxLng": 120.4,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "Wholly owned Alfa Laval (Jiangyin) Manufacturing Co. Ltd. produces heat exchangers, high-speed centrifuges and tank-cleaning equipment and was still shipping from this address in October 2025.",
+    "source": "https://panjiva.com/Alfa-Laval-Jiangyin-Manufacturing-Co-Ltd/1007847"
+  },
+  {
+    "parentName": "Alfa Laval",
+    "name": "Alfa Laval Kunshan Flow Equipment Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kunshan",
+    "country": "China",
+    "address": "Baishu Road, Kunshan Economic and Technological Development Zone, 215301 Kunshan",
+    "geoQueries": [
+      "Alfa Laval Flow Equipment Baishu Road Kunshan",
+      "昆山开发区白墅路 阿法拉伐流体设备",
+      "Alfa Laval Kunshan Economic and Technical Development Zone"
+    ],
+    "approxLat": 31.37494,
+    "approxLng": 120.99977,
+    "coordsExact": true,
+    "footprintRadiusMeters": 250,
+    "description": "Alfa Laval Flow Equipment (Kunshan) Co. Ltd., listed as a group company in the 2025 annual report, manufactures pumps, valves, tank-cleaning equipment and centrifuges; coordinates are a stated on-site stack point.",
+    "source": "https://www.alfalaval.com/globalassets/documents/local/china/industry/3.pdf"
+  },
+  {
+    "parentName": "Alfa Laval",
+    "name": "Alfa Laval Kolding Hygienic Fluid Handling Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Kolding",
+    "country": "Danmark",
+    "address": "Albuen 31, 6000 Kolding",
+    "geoQueries": [
+      "Alfa Laval Albuen 31 Kolding",
+      "Albuen 31, 6000 Kolding",
+      "Alfa Laval Kolding A/S pump valve factory"
+    ],
+    "approxLat": 55.493,
+    "approxLng": 9.545,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Alfa Laval Kolding A/S develops and manufactures hygienic pumps, valves and tank-cleaning equipment at Albuen and employs more than 800 people at the factory and distribution site.",
+    "source": "https://www.alfalaval.dk/om-alfa-laval/vores-virksomhed/alfa-laval-i-danmark/alfa-laval-kolding/"
+  }
+]

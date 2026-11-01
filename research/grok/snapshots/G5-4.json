@@ -1,0 +1,288 @@
+[
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Terneuzen Converting & Coating Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Terneuzen",
+    "country": "Netherlands",
+    "address": "Mr. F.J. Haarmanweg 44, 4538 AS Terneuzen",
+    "geoQueries": [
+      "Elopak Mr. F.J. Haarmanweg 44 Terneuzen",
+      "Elopak B.V. 4538 AS Terneuzen",
+      "Osloweg 1, 4538 BM Terneuzen Elopak",
+      "Mr. F.J. Haarmanweg 44, 4538 AS Terneuzen"
+    ],
+    "approxLat": 51.322,
+    "approxLng": 3.794,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's largest European carton hub in Terneuzen, converting Pure-Pak cartons and coating board, with a new coating line under construction in 2026 for start-up in 2027.",
+    "source": "https://pulpandpaperchronicle.com/elopak-announces-new-coating-line-investment-in-terneuzen-to-strengthen-production-capacity"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Boisbriand Carton Converting Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Boisbriand",
+    "country": "Canada",
+    "address": "3720 avenue des Grandes Tourelles, Boisbriand, QC J7H 0A1",
+    "geoQueries": [
+      "Elopak 3720 avenue des Grandes Tourelles Boisbriand",
+      "Elopak Canada J7H 0A1",
+      "3720 Av. des Grandes Tourelles, Boisbriand, QC J7H 0A1"
+    ],
+    "approxLat": 45.632788,
+    "approxLng": -73.860919,
+    "coordsExact": true,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's Canadian Pure-Pak printing and converting plant outside Montreal, built in 2014 and still running at full production in 2025 for Canada and the northern and eastern United States.",
+    "source": "https://ferd.no/ferdmagasinet/2025/utgave-4-2025/elopak-nye-rekordtall-storst-vekst-i-usa-og-india/"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak Little Rock Carton Converting Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Little Rock",
+    "country": "United States",
+    "address": "6101 Zeuber Road, Little Rock, AR 72206",
+    "geoQueries": [
+      "Elopak 6101 Zeuber Road Little Rock",
+      "Elopak Port of Little Rock carton plant",
+      "6101 Zeuber Road, Little Rock, AR 72206"
+    ],
+    "approxLat": 34.695,
+    "approxLng": -92.175,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Elopak's first U.S. Pure-Pak carton converting plant, opened in April 2025 at the Port of Little Rock, with a second line due in 2026 and a third planned for 2027.",
+    "source": "https://www.costar.com/article/2065921693/norwegian-packaging-company-elopak-chooses-arkansas-capital-for-its-first-us-factory"
+  },
+  {
+    "parentName": "Elopak",
+    "name": "Elopak-Fastiv Carton Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Fastiv",
+    "country": "Ukraine",
+    "address": "vul. Velykosnitynska 67, 08500 Fastiv",
+    "geoQueries": [
+      "Elopak Fastiv Velykosnitynska 67",
+      "Елопак-Фастів Великоститинська 67",
+      "vul. Velykosnitynska 67, Fastiv 08500"
+    ],
+    "approxLat": 50.066,
+    "approxLng": 29.89,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Elopak's Fastiv roll-fed and Pure-Pak carton factory, which resumed after a short 2022 shutdown and was operating and profitable when group leadership visited in November 2024.",
+    "source": "https://ferd.no/ferdmagasinet/2024/utgave-4-2024/rapport-fra-ukraina/"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Coloplast Zhuhai Device Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Zhuhai",
+    "country": "China",
+    "address": "No. 202 Bao Cheng Road, Zhuhai Free Trade Zone, Zhuhai, Guangdong 519030",
+    "geoQueries": [
+      "Coloplast China No. 202 Bao Cheng Road Zhuhai",
+      "COLOPLAST (CHINA) LTD Zhuhai Free Trade Zone",
+      "No. 202 Bao Cheng Road, Zhuhai 519030"
+    ],
+    "approxLat": 22.23,
+    "approxLng": 113.528,
+    "coordsExact": false,
+    "footprintRadiusMeters": 240,
+    "description": "Coloplast (China) Ltd.'s Zhuhai Free Trade Zone device establishment, still an active FDA-registered site in 2026 and part of the group's high-volume production network.",
+    "source": "https://www.accessdata.fda.gov/scrIpts/cdrh/cfdocs/cfrl/rl.cfm?rid=9082"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Coloplast Cartago La Lima Volume Plants",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Cartago",
+    "country": "Costa Rica",
+    "address": "Calle 58, Zona Franca La Lima, Edificio Multitenant, Módulos 5 y 6, La Lima, Cartago",
+    "geoQueries": [
+      "Coloplast Volume Manufacturing Calle 58 Zona Franca La Lima",
+      "Coloplast La Lima Free Zone Cartago",
+      "Calle 58, Zona Franca La Lima, Cartago"
+    ],
+    "approxLat": 9.852,
+    "approxLng": -83.936,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Coloplast's Cartago ostomy and continence volume plants in Zona Franca La Lima, still a high-volume site in the group's manufacturing network in 2026.",
+    "source": "https://www.trademagellan.com/company-details/importer/coloplast-volume-manufacturing-costa-rica-sa/A34C08D2FAC93CE799F99453C4EF9AFA"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Coloplast Minneapolis Interventional Urology Site",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Minneapolis",
+    "country": "United States",
+    "address": "1601 West River Road North, Minneapolis, MN 55411",
+    "geoQueries": [
+      "Coloplast 1601 West River Road North Minneapolis",
+      "Coloplast Manufacturing US Minneapolis",
+      "1601 West River Road North, Minneapolis, MN 55411"
+    ],
+    "approxLat": 45.005,
+    "approxLng": -93.274,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Coloplast's Minneapolis campus, the US owner address for its device establishments and the group's specialised US production site for interventional urology products.",
+    "source": "https://www.accessdata.fda.gov/scrIpts/cdrh/cfdocs/cfrl/rl.cfm?rid=9082"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Atos Medical Hörby Laryngectomy Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Hörby",
+    "country": "Sverige",
+    "address": "Kraftgatan 8, 242 35 Hörby",
+    "geoQueries": [
+      "Atos Medical Kraftgatan 8 Hörby",
+      "Atos Medical AB 242 35 Hörby",
+      "Kraftgatan 8, 242 35 Hörby"
+    ],
+    "approxLat": 55.845,
+    "approxLng": 13.655,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Atos Medical's laryngectomy manufacturing and R&D plant in Hörby, owned by Coloplast A/S and still listed as the company's manufacturing site.",
+    "source": "https://www.atosmedical.com/full-contact-list"
+  },
+  {
+    "parentName": "Coloplast",
+    "name": "Coloplast Felgueiras Continence Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Felgueiras",
+    "country": "Portugal",
+    "address": "Rua B do Alto das Barrancas 840, 4650-361 Revinhade",
+    "geoQueries": [
+      "Coloplast Rua B do Alto das Barrancas Revinhade",
+      "Coloplast Manufacturing Portugal Felgueiras",
+      "Rua B do Alto das Barrancas 840, 4650-361 Revinhade"
+    ],
+    "approxLat": 41.355,
+    "approxLng": -8.18,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Coloplast's new continence-care factory in Felgueiras, a 50,000 m2 site inaugurated on 29 October 2026 with production already running.",
+    "source": "https://www.rtp.pt/noticias/economia/coloplast-investe-100-me-e-preve-criar-800-postos-de-trabalho-em-felgueiras-em-tres-anos_n1775346"
+  },
+  {
+    "parentName": "Royal Unibrew",
+    "name": "Hansa Borg Bergen Brewery",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Bergen",
+    "country": "Norge",
+    "address": "Kokstaddalen 3, 5257 Kokstad",
+    "geoQueries": [
+      "Hansa Borg Kokstaddalen 3 Bergen",
+      "Hansa Bryggeri Kokstad Royal Unibrew",
+      "Kokstaddalen 3, 5257 Kokstad"
+    ],
+    "approxLat": 60.294,
+    "approxLng": 5.267,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Hansa Borg Bryggerier AS's Bergen brewery at Kokstad, a beer, water and soft-drink plant wholly owned through Royal Unibrew Norge AS, with 298 employees and active 2025 accounts.",
+    "source": "https://www.proff.no/selskap/hansa-borg-bryggerier-as/kokstad/drikkevarer/IEI27GA10MP"
+  },
+  {
+    "parentName": "Royal Unibrew",
+    "name": "Cido Grupa Riga Beverage Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Riga",
+    "country": "Latvia",
+    "address": "Ostas iela 4, LV-1034 Riga",
+    "geoQueries": [
+      "Cido Grupa Ostas iela 4 Riga",
+      "SIA Cido Grupa LV-1034",
+      "Ostas iela 4, LV-1034 Riga"
+    ],
+    "approxLat": 57.023,
+    "approxLng": 24.129,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "SIA Cido Grupa's Riga site at Ostas iela 4, 99.99% owned by Royal Unibrew, registered for soft-drink and bottled-water manufacture with a 2025 annual report on file.",
+    "source": "https://www.zl.lv/en/company/cido-grupa-sia/"
+  },
+  {
+    "parentName": "Royal Unibrew",
+    "name": "Kalnapilis Panevėžys Brewery",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Panevėžys",
+    "country": "Lithuania",
+    "address": "Taikos al. 1, LT-35148 Panevėžys",
+    "geoQueries": [
+      "Kalnapilis Taikos al. 1 Panevėžys",
+      "Kalnapilio-Tauro grupė brewery Panevėžys",
+      "Taikos al. 1, LT-35148 Panevėžys"
+    ],
+    "approxLat": 55.734,
+    "approxLng": 24.36,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "Kalnapilio-Tauro grupė's Panevėžys brewery, part of Royal Unibrew since 2002, still listed at Taikos al. 1 with beers rated as active in 2026.",
+    "source": "https://www.beeradvocate.com/beer/profile/1273"
+  },
+  {
+    "parentName": "Royal Unibrew",
+    "name": "Vrumona Bunnik Soft-Drink Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Bunnik",
+    "country": "Netherlands",
+    "address": "Vrumonaweg 2, 3981 HT Bunnik",
+    "geoQueries": [
+      "Vrumona Vrumonaweg 2 Bunnik",
+      "Vrumona B.V. 3981 HT Royal Unibrew",
+      "Vrumonaweg 2, 3981 HT Bunnik"
+    ],
+    "approxLat": 52.056,
+    "approxLng": 5.2,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Vrumona B.V.'s Bunnik soft-drink and bottled-water plant, owned by Royal Unibrew Netherlands B.V. and still registered there in the Dutch trade register as of 12 October 2026.",
+    "source": "https://companyinfo.nl/organisatieprofiel/vervaardiging-van-frisdranken-en-gebotteld-water/vrumona-b-v-bunnik-30024744-000016711807"
+  },
+  {
+    "parentName": "Scandi Standard",
+    "name": "Naapurin Maalaiskana Lieto Poultry Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Lieto",
+    "country": "Finland",
+    "address": "Tiemestarintie 6, 21360 Lieto",
+    "geoQueries": [
+      "Naapurin Maalaiskana Tiemestarintie 6 Lieto",
+      "Naapurin Maalaiskana Oy 21360 Lieto",
+      "Tiemestarintie 6, 21360 Lieto"
+    ],
+    "approxLat": 60.571152,
+    "approxLng": 22.42719,
+    "coordsExact": true,
+    "footprintRadiusMeters": 260,
+    "description": "Naapurin Maalaiskana Oy's Lieto poultry factory, a Scandi Standard brand, still operating in 2026 with 2025 turnover of EUR 93 million and 337 employees.",
+    "source": "https://www.fonecta.fi/profiili/naapurin-maalaiskana-oy/3033604"
+  },
+  {
+    "parentName": "Scandi Standard",
+    "name": "Naapurin Maalaiskana Honkajoki Factory",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Honkajoki",
+    "country": "Finland",
+    "address": "Kirkkokallio 3, 38950 Honkajoki",
+    "geoQueries": [
+      "Naapurin Maalaiskana Kirkkokallio 3 Honkajoki",
+      "Honkajoen tehdas Naapurin Maalaiskana",
+      "Kirkkokallio 3, 38950 Honkajoki"
+    ],
+    "approxLat": 61.992,
+    "approxLng": 22.265,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Naapurin Maalaiskana Oy's Honkajoki factory, listed beside the Lieto plant on the company's 2026 contact page and part of Scandi Standard's Finnish poultry business.",
+    "source": "https://www.naapurinmaalaiskana.fi/yhteystiedot/"
+  }
+]
