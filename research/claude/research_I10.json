@@ -6,7 +6,11 @@
     "city": "Copenhagen",
     "country": "Danmark",
     "address": "Gærtorvet 3, 1799 København V",
-    "geoQueries": ["Gærtorvet 3, 1799 København V", "Gærtorvet 1-5, Copenhagen", "Visma e-conomic Copenhagen"],
+    "geoQueries": [
+      "Gærtorvet 3, 1799 København V",
+      "Gærtorvet 1-5, Copenhagen",
+      "Visma e-conomic Copenhagen"
+    ],
     "approxLat": 55.6677,
     "approxLng": 12.5374,
     "coordsExact": false,
@@ -21,7 +25,11 @@
     "city": "Vilnius",
     "country": "Lithuania",
     "address": "Artery building, Konstitucijos pr. 18B, 09308 Vilnius",
-    "geoQueries": ["Konstitucijos pr. 18B, Vilnius", "Artery Vilnius office building", "Visma Lietuva Vilnius"],
+    "geoQueries": [
+      "Konstitucijos pr. 18B, Vilnius",
+      "Artery Vilnius office building",
+      "Visma Lietuva Vilnius"
+    ],
     "approxLat": 54.6985,
     "approxLng": 25.2745,
     "coordsExact": false,
@@ -36,7 +44,11 @@
     "city": "Timisoara",
     "country": "Romania",
     "address": "United Business Center 3, Openville, Timisoara",
-    "geoQueries": ["Openville Timisoara", "United Business Center 3 Timisoara", "Iulius Town Timisoara"],
+    "geoQueries": [
+      "Openville Timisoara",
+      "United Business Center 3 Timisoara",
+      "Iulius Town Timisoara"
+    ],
     "approxLat": 45.7665,
     "approxLng": 21.2268,
     "coordsExact": false,
@@ -51,8 +63,12 @@
     "city": "Borås",
     "country": "Sverige",
     "address": "Lilla Brogatan 6, 503 30 Borås",
-    "geoQueries": ["Lilla Brogatan 6, 503 30 Borås", "TF Bank Borås", "Avarda Bank Borås"],
-    "approxLat": 57.7210,
+    "geoQueries": [
+      "Lilla Brogatan 6, 503 30 Borås",
+      "TF Bank Borås",
+      "Avarda Bank Borås"
+    ],
+    "approxLat": 57.721,
     "approxLng": 12.9395,
     "coordsExact": false,
     "footprintRadiusMeters": 160,
@@ -66,12 +82,200 @@
     "city": "Gdańsk",
     "country": "Poland",
     "address": "al. Grunwaldzka 103A, 80-244 Gdańsk",
-    "geoQueries": ["Grunwaldzka 103A, 80-244 Gdańsk", "TF Bank Gdańsk", "Avarda Bank Oddział w Polsce"],
+    "geoQueries": [
+      "Grunwaldzka 103A, 80-244 Gdańsk",
+      "TF Bank Gdańsk",
+      "Avarda Bank Oddział w Polsce"
+    ],
     "approxLat": 54.3808,
     "approxLng": 18.5997,
     "coordsExact": false,
     "footprintRadiusMeters": 160,
     "description": "Polish branch (Oddział w Polsce) of Avarda Bank, the bank's second staff and customer-service location alongside the Borås head office.",
     "source": "https://compabase.com/companies/krs/0000533349"
+  },
+  {
+    "parentName": "Salmon Evolution",
+    "name": "Salmon Evolution Dale Smolt Facility (Dalsbygda, Volda)",
+    "facilityType": "Aquaculture & Fishery",
+    "city": "Folkestad (Volda)",
+    "country": "Norge",
+    "address": "Dalsbygdvegen, 6120 Folkestad",
+    "geoQueries": [
+      "Dalsbygdvegen, 6120 Folkestad",
+      "Salmon Evolution Dale",
+      "Kraft Laks Dalsbygda Volda"
+    ],
+    "approxLat": 62.1,
+    "approxLng": 6.17,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Salmon Evolution's in-house smolt facility (Kraft Laks) raising smolt with cold mountain water for the Indre Harøy land-based farm; company lists the site at Dalsbygdvegen, 6120 Folkestad in Volda, not Vaksdal.",
+    "source": "https://salmonevolution.no/contact/"
+  },
+  {
+    "parentName": "Salmon Evolution",
+    "name": "Salmon Evolution Sales Office Ålesund",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Ålesund",
+    "country": "Norge",
+    "address": "Rasmus Rønnebergs gate 21, 6002 Ålesund",
+    "geoQueries": [
+      "Rasmus Rønnebergs gate 21, 6002 Ålesund",
+      "Salmon Evolution Sales Ålesund"
+    ],
+    "approxLat": 62.4722,
+    "approxLng": 6.1549,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Sales office (Salmon Evolution Sales AS) marketing the land-based salmon produced at Indre Harøy.",
+    "source": "https://salmonevolution.no/contact/"
+  },
+  {
+    "parentName": "Europris",
+    "name": "ÖoB Head Office Skänninge",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Skänninge",
+    "country": "Sverige",
+    "address": "Skänninge, Mjölby kommun",
+    "geoQueries": [
+      "ÖoB Skänninge",
+      "Skänninge"
+    ],
+    "approxLat": 58.3922,
+    "approxLng": 15.0879,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Head office of the Swedish discount variety chain ÖoB (about 100 stores), 100% owned by Europris since 31 January 2024.",
+    "source": "https://sv.wikipedia.org/wiki/ÖoB"
+  },
+  {
+    "parentName": "Electrolux Professional",
+    "name": "Electrolux Professional Vallenoncello Pordenone Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Pordenone (Vallenoncello)",
+    "country": "Italy",
+    "address": "Viale Treviso 15, 33170 Pordenone",
+    "geoQueries": [
+      "Electrolux Professional Vallenoncello",
+      "Viale Treviso 15, 33170 Pordenone",
+      "Electrolux Professional Pordenone"
+    ],
+    "approxLat": 45.9395,
+    "approxLng": 12.645,
+    "coordsExact": false,
+    "footprintRadiusMeters": 300,
+    "description": "Italian production unit and registered office of Electrolux Professional S.p.A., one of the group's production units for professional food-service equipment.",
+    "source": "https://www.electroluxprofessionalgroup.com/en/our-business/supply-chain/"
+  },
+  {
+    "parentName": "Electrolux Professional",
+    "name": "Electrolux Professional Spilamberto Plant",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Spilamberto",
+    "country": "Italy",
+    "address": "Spilamberto (Modena)",
+    "geoQueries": [
+      "Electrolux Professional Spilamberto",
+      "SPM Drink Systems Spilamberto"
+    ],
+    "approxLat": 44.5336,
+    "approxLng": 10.9492,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Production unit in Spilamberto listed by Electrolux Professional; the site of the SPM frozen-beverage equipment business acquired in 2018.",
+    "source": "https://www.electroluxprofessionalgroup.com/en/our-business/supply-chain/"
+  },
+  {
+    "parentName": "Electrolux Professional",
+    "name": "Electrolux Professional Sursee Production Unit",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Sursee",
+    "country": "Switzerland",
+    "address": "Sursee, Canton of Lucerne",
+    "geoQueries": [
+      "Electrolux Professional Sursee",
+      "Electrolux Professional AG Sursee"
+    ],
+    "approxLat": 47.1713,
+    "approxLng": 8.1112,
+    "coordsExact": false,
+    "footprintRadiusMeters": 200,
+    "description": "Swiss production unit listed among Electrolux Professional's global manufacturing sites.",
+    "source": "https://www.electroluxprofessionalgroup.com/en/our-business/supply-chain/"
+  },
+  {
+    "parentName": "Electrolux Professional",
+    "name": "Electrolux Professional Rayong Production Unit",
+    "facilityType": "Factory & Manufacturing",
+    "city": "Rayong",
+    "country": "Thailand",
+    "address": "Rayong",
+    "geoQueries": [
+      "Electrolux Professional Rayong",
+      "Electrolux Professional Thailand Rayong"
+    ],
+    "approxLat": 12.7,
+    "approxLng": 101.28,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Asian production unit in Rayong listed among Electrolux Professional's global manufacturing sites.",
+    "source": "https://www.electroluxprofessionalgroup.com/en/our-business/supply-chain/"
+  },
+  {
+    "parentName": "Reitir",
+    "name": "Hótel Borg Historic Hotel Property",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Reykjavík",
+    "country": "Island",
+    "address": "Pósthússtræti 11, 101 Reykjavík",
+    "geoQueries": [
+      "Hótel Borg, Pósthússtræti 11, 101 Reykjavík",
+      "Hotel Borg Reykjavik"
+    ],
+    "approxLat": 64.1473,
+    "approxLng": -21.9387,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Historic 1930s hotel on Austurvöllur square, the only hotel in Reitir's portfolio besides the Hilton Reykjavik Nordica; hotels make up about 17% of Reitir's rental income.",
+    "source": "https://www.reitir.is/en/portfolio"
+  },
+  {
+    "parentName": "Reitir",
+    "name": "Korputún Business Area (Korputorg)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Reykjavík",
+    "country": "Island",
+    "address": "Korputorg, on the boundary of Reykjavík and Mosfellsbær",
+    "geoQueries": [
+      "Korputorg Reykjavik",
+      "Korputún Reykjavík",
+      "Korpúlfsstaðavegur Reykjavík"
+    ],
+    "approxLat": 64.1585,
+    "approxLng": -21.766,
+    "coordsExact": false,
+    "footprintRadiusMeters": 350,
+    "description": "Reitir's 90,000 sqm BREEAM Communities-certified business and retail development on the Reykjavík/Mosfellsbær border, with JYSK and Bónus as first tenants.",
+    "source": "https://www.korputun.is/"
+  },
+  {
+    "parentName": "Reitir",
+    "name": "Holtagarðar Commercial Property Complex",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Reykjavík",
+    "country": "Island",
+    "address": "Holtagarðar, Holtavegur, 104 Reykjavík",
+    "geoQueries": [
+      "Holtagarðar, 104 Reykjavík",
+      "Holtavegur 10, 104 Reykjavík",
+      "Holtagarðar Reykjavik"
+    ],
+    "approxLat": 64.1545,
+    "approxLng": -21.8735,
+    "coordsExact": false,
+    "footprintRadiusMeters": 250,
+    "description": "Large commercial property complex in Reykjavík's Holt district, listed among Reitir's major portfolio properties (together with Holtavegur 8).",
+    "source": "https://www.reitir.is/en/portfolio"
   }
 ]

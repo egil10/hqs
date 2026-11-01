@@ -6,3 +6,6 @@ Attendo | repo HQ Vendevägen 85B Danderyd | attendo.com contact: Hälsingegatan
 John Mattson | repo HQ Lejonvägen 14 | own site: Larsbergsvägen 10, Lidingö | agent I12
 Camurus | repo HQ Ideon Science Park | now Rydbergs torg 4, Lund (Science Village, The Loop) | agent I3
 Smartoptics | repo HQ Brynsalléen 2 | website: Akersgata 32, Oslo; Kista facility moving to Torshamnsgatan 32 (Q2 2026) | agent I3
+Instalco | repo HQ Luntmakargatan 26 | website: Sveavägen 56 C, Stockholm | agent I9
+Salix Group | repo HQ Hans Michelsensgatan 9 | website: Propellergatan 2, Malmö | agent I9
+Salmon Evolution | HQ pin Indre Harøy; head office Torget 5, 6440 Elnesvågen; facilities_expansion.js fac-salmonev-dale likely misplaced (should be Dalsbygdvegen, 6120 Folkestad) | agent I10

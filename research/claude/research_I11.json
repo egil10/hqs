@@ -110,5 +110,81 @@
     "footprintRadiusMeters": 160,
     "description": "Main Stockholm office of Gjensidige's Swedish non-life insurance branch, which operates from Stockholm, Malmö, Gävle and Luleå with about 250 employees.",
     "source": "https://www.gjensidige.se/privat/kundservice/vara-kontor"
+  },
+  {
+    "parentName": "NTG Nordic Transport",
+    "name": "DTK Padborg Headquarters & Terminal (Hermesvej)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Padborg",
+    "country": "Danmark",
+    "address": "Hermesvej 18, 6330 Padborg",
+    "geoQueries": [
+      "DTK A/S Padborg",
+      "Hermesvej 18, 6330 Padborg",
+      "Hermesvej Padborg"
+    ],
+    "approxLat": 54.8137,
+    "approxLng": 9.3667,
+    "coordsExact": false,
+    "footprintRadiusMeters": 280,
+    "description": "Headquarters and cross-border terminal of DTK, the Danish full-load, part-load and temperature-controlled freight forwarder acquired by NTG in 2025, with frost-proof high-bay warehousing in Padborg and Harrislee.",
+    "source": "https://country.ntg.com/da/kontakt/dtk"
+  },
+  {
+    "parentName": "NTG Nordic Transport",
+    "name": "NTG Neptun Transport Hvidovre Office & Warehouse (Avedoreholmen)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Hvidovre",
+    "country": "Danmark",
+    "address": "Avedøreholmen 72, 2650 Hvidovre",
+    "geoQueries": [
+      "Avedøreholmen 72, 2650 Hvidovre",
+      "NTG Neptun Transport Hvidovre",
+      "Avedøreholmen 72 Hvidovre"
+    ],
+    "approxLat": 55.6052,
+    "approxLng": 12.4662,
+    "coordsExact": false,
+    "footprintRadiusMeters": 220,
+    "description": "Office and warehouse of NTG Neptun Transport, a TAPA TSR1-certified road transport and groupage operator focused on pharma and healthcare freight in Scandinavia and Europe.",
+    "source": "https://country.ntg.com/da/kontakt/ntg-neptun"
+  },
+  {
+    "parentName": "NTG Nordic Transport",
+    "name": "SCHMALZ+SCHON Logistics Fellbach Headquarters (Ringstrasse)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Fellbach",
+    "country": "Germany",
+    "address": "Ringstraße 39-41, 70736 Fellbach",
+    "geoQueries": [
+      "Schmalz+Schön Fellbach",
+      "Ringstraße 39-41, 70736 Fellbach",
+      "Ringstraße 39, 70736 Fellbach"
+    ],
+    "approxLat": 48.8185,
+    "approxLng": 9.29,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "Stuttgart-region base of SCHMALZ+SCHON Logistics, an NTG road and contract-logistics subsidiary group with about 130,000 sqm of warehouse space and 650 staff across Germany and Czechia.",
+    "source": "https://country.ntg.com/de-en/schmalzschon/"
+  },
+  {
+    "parentName": "NTG Nordic Transport",
+    "name": "SCHMALZ+SCHON Logistics Bautzen Logistics Centre (Bloaschutz)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Bautzen",
+    "country": "Germany",
+    "address": "Philipp-Reis-Straße 18, 02625 Bautzen-Bloaschütz",
+    "geoQueries": [
+      "Philipp-Reis-Straße 18, 02625 Bautzen",
+      "Philipp-Reis-Straße Bautzen",
+      "Schmalz+Schön Bautzen"
+    ],
+    "approxLat": 51.201,
+    "approxLng": 14.457,
+    "coordsExact": false,
+    "footprintRadiusMeters": 260,
+    "description": "Eastern Germany logistics centre of SCHMALZ+SCHON Logistics (NTG), serving as the Region Bautzen hub alongside the St. Gangloff site.",
+    "source": "https://country.ntg.com/de-en/schmalzschon/"
   }
 ]

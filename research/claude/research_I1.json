@@ -169,5 +169,24 @@
     "footprintRadiusMeters": 160,
     "description": "Aktia's regional office for the Turku region, one of its main face-to-face service locations outside the capital area.",
     "source": "https://www.aktia.fi/fi/toimipisteet/turku/aktia-turku"
+  },
+  {
+    "parentName": "Fastighets Balder",
+    "name": "Karlatornet Residential Tower (Lindholmen, Göteborg)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "Karlastaden, Lindholmen, Hisingen, Göteborg",
+    "geoQueries": [
+      "Karlatornet",
+      "Karlatornet Göteborg",
+      "Karlastaden Lindholmen Göteborg"
+    ],
+    "approxLat": 57.7097,
+    "approxLng": 11.9392,
+    "coordsExact": true,
+    "footprintRadiusMeters": 160,
+    "description": "Sweden's tallest building (245 m) with apartments and a hotel; Balder joined as co-financier in December 2020 and agreed in December 2024 to acquire further residential apartments in the tower.",
+    "source": "https://sv.wikipedia.org/wiki/Karlatornet"
   }
 ]

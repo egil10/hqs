@@ -317,5 +317,23 @@
     "footprintRadiusMeters": 160,
     "description": "Karnell company Vebe Teknik, developer and manufacturer of automatic bag-filling systems for the food, chemical, feed and construction industries (about 20 employees).",
     "source": "https://www.vebe.se/kontakt"
+  },
+  {
+    "parentName": "Acast",
+    "name": "Acast New York Office (US Creator Network)",
+    "facilityType": "Filial, Logistics & Subsidiary HQ",
+    "city": "New York",
+    "country": "USA",
+    "address": "New York, NY (street address not published)",
+    "geoQueries": [
+      "Acast New York",
+      "Acast Inc New York"
+    ],
+    "approxLat": 40.742,
+    "approxLng": -73.99,
+    "coordsExact": false,
+    "footprintRadiusMeters": 160,
+    "description": "Acast's New York office, base of its US team including the US Creator Network; city-level location only.",
+    "source": "https://careers.acast.com/jobs"
   }
 ]

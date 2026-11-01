@@ -4,3 +4,4 @@ Revenio | 4 sites (iCare Vantaa operating site, CenterVue Vigonza, Visionix Pont
 Salix | 4 sites (Heco Hillerstorp, Duschprodukter Kungälv, Arvid Nilsson Kungälv, Thomee Malmö); other subsidiaries had no confirmed street address
 Oma Säästöpankki | 1 site (Helsinki corporate banking office); HQ covers Seinäjoki/Lappeenranta
 Karnell | 6 sites (Rotomon x2, Drivex, LundHalsey, Re-board, Vebe); Männistö Rauma already exists; Warwick SASCo, Sähkö-Jokinen, Plalite skipped (no street address)
+Acast | 1 site (New York office, city-level only; street address not published); London already exists; other offices (Oslo, Sydney, Berlin/Munich, Austin) no verifiable addresses

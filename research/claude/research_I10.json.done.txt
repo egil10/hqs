@@ -1,2 +1,7 @@
 Nedhalia Topco (3 sites; = Visma)
 Avarda Bank (2 sites)
+Stockholm Nordtech (skipped: only HQ Norrlandsgatan; subsidiary office addresses not confirmed)
+Salmon Evolution (2 sites)
+Europris (1 site: OoB Skanninge; Moss DC already exists)
+Electrolux Professional (4 sites; Ljungby already exists)
+Reitir (3 sites; Hilton Nordica already exists)
